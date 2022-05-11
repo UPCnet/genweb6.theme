@@ -3,4 +3,4 @@
 from zope.i18nmessageid import MessageFactory
 
 
-_ = MessageFactory('genweb6.theme')
+_ = MessageFactory('genweb')

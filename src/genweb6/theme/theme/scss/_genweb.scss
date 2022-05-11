@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'upc-icones';
+    font-weight: normal;
+    font-style: normal;
+    src: url("++genweb6++theme/stylesheets/fonts/upc-icones.woff") format("woff"),
+         url("++genweb6++theme/stylesheets/fonts/upc-icones.ttf") format("truetype"),
+         url("++genweb6++theme/stylesheets/fonts/upc-icones.svg#upc-icones") format("svg");
+}
+
+body {
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px !important;
+    font-weight: 300;
+    line-height: 1.45 !important;
+}

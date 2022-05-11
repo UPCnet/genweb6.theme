@@ -2,4 +2,8 @@
 genweb6.theme
 =============
 
-User documentation
+Compile styles
+==============
+
+npm install
+grunt watch
