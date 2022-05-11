@@ -4,7 +4,7 @@ module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         compass: {
-            theme: {
+            css: {
                 options: {
                     sassDir: 'scss/',
                     cssDir: 'stylesheets/',
@@ -15,26 +15,36 @@ module.exports = function (grunt) {
             options: {
                 separator: '',
             },
-            theme: {
+            css: {
                 src: ['stylesheets/barceloneta.css',
                       'stylesheets/theme.css'],
                 dest: 'stylesheets/theme-concat.css',
             }
         },
         cssmin: {
-            theme : {
+            css : {
                 src : ["stylesheets/theme-concat.css"],
                 dest : "stylesheets/theme.min.css",
             }
         },
         watch: {
-            theme: {
+            css: {
                 files: [
                     'stylesheets/barceloneta.css',
                     'scss/*',
                     'scss/**/*'
                 ],
-                tasks: ['compass:theme', 'concat:theme', 'cssmin:theme']
+                tasks: ['compass:css', 'concat:css', 'cssmin:css']
+            }
+        },
+        uglify: {
+            js: {
+                files: {
+                    'js/portlets/gw-manage-portlets.min.js':
+                        '../../../../../genweb6.core/src/genweb6/core/portlets/manage_portlets/gw-manage-portlets.js',
+                    'js/portlets/new_existing_content.min.js':
+                        '../../../../../genweb6.core/src/genweb6/core/portlets/new_existing_content/new_existing_content.js',
+                }
             }
         },
         browserSync: {
@@ -62,6 +72,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
 
     // CWD to theme folder
     grunt.file.setBase('./src/genweb6/theme/theme');
