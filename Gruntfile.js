@@ -31,7 +31,8 @@ module.exports = function (grunt) {
             theme: {
                 files: [
                     'stylesheets/barceloneta.css',
-                    'scss/*'
+                    'scss/*',
+                    'scss/**/*'
                 ],
                 tasks: ['compass:theme', 'concat:theme', 'cssmin:theme']
             }
