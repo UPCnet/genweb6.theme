@@ -15,7 +15,7 @@ long_description = '\n\n'.join([
 setup(
     name='genweb6.theme',
     version='1.0a1',
-    description="An add-on for Plone",
+    description="Genweb 6 Theme package",
     long_description=long_description,
     # Get more from https://pypi.org/classifiers/
     classifiers=[
@@ -32,7 +32,7 @@ setup(
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     ],
     keywords='Python Plone CMS',
-    author='PloneTeam',
+    author='Plone Team',
     author_email='ploneteam@upcnet.es',
     url='https://github.com/collective/genweb6.theme',
     project_urls={
