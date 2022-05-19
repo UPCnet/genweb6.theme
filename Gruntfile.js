@@ -44,6 +44,8 @@ module.exports = function (grunt) {
                         '../../../../../genweb6.core/src/genweb6/core/portlets/manage_portlets/gw-manage-portlets.js',
                     'js/portlets/new_existing_content.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/portlets/new_existing_content/new_existing_content.js',
+                    'js/views/filtered_contents_search.min.js':
+                        '../../../../../genweb6.core/src/genweb6/core/browser/views_templates/filtered_contents_search/filtered_contents_search.js',
                 }
             }
         },
