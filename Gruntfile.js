@@ -19,6 +19,10 @@ module.exports = function (grunt) {
                 src: ['stylesheets/barceloneta.css',
                       'stylesheets/theme.css'],
                 dest: 'stylesheets/theme-concat.css',
+            },
+            js: {
+                src: ['js/main/*.js'],
+                dest: 'js/theme-concat.js',
             }
         },
         cssmin: {
@@ -35,7 +39,7 @@ module.exports = function (grunt) {
                     'scss/**/*'
                 ],
                 tasks: ['compass:css', 'concat:css', 'cssmin:css']
-            }
+            },
         },
         uglify: {
             js: {
@@ -46,6 +50,11 @@ module.exports = function (grunt) {
                         '../../../../../genweb6.core/src/genweb6/core/portlets/new_existing_content/new_existing_content.js',
                     'js/views/filtered_contents_search.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/browser/views_templates/filtered_contents_search/filtered_contents_search.js',
+                }
+            },
+            mainjs: {
+                files: {
+                    'js/theme.min.js': 'js/theme-concat.js'
                 }
             }
         },
@@ -83,5 +92,5 @@ module.exports = function (grunt) {
     grunt.registerTask('default', ["browserSync:plone", "watch"]);
     grunt.registerTask('bsync', ["browserSync:html", "watch"]);
     grunt.registerTask('plone-bsync', ["browserSync:plone", "watch"]);
-    grunt.registerTask('minify', ['uglify']);
+    grunt.registerTask('minify', ["uglify:js", "concat:js", "uglify:mainjs"]);
 };
