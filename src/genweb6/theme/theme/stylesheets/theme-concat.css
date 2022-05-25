@@ -13835,3 +13835,33 @@ body {
   font-weight: 300;
   line-height: 1.45 !important;
 }
+
+/* line 1, ../scss/viewlets/_cookies.scss */
+#cookies-gw {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 16px;
+  text-align: justify;
+  margin: auto;
+  color: #4a4a4a;
+  background: #fffffff2;
+  box-shadow: 0 0 1px 1px #0000000d !important;
+  transition: opacity 0.15s linear;
+  opacity: 1;
+  padding: 15px 30px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  z-index: 10;
+  width: 100%;
+  border-top: 1px solid #cccccc;
+}
+/* line 20, ../scss/viewlets/_cookies.scss */
+#cookies-gw #cookies-bodyContent {
+  text-align: justify;
+}
+/* line 24, ../scss/viewlets/_cookies.scss */
+#cookies-gw #cookies-buttons {
+  margin: 10px 0px 0px 0px !important;
+  padding: 0px;
+}

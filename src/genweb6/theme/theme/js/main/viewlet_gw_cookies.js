@@ -60,7 +60,7 @@ $(document).ready(function() {
         $("#cookies-gw").css("display", "none");
     }
 
-    $("#cookies-button1").click(function() {
+    $("#cookies-accept").click(function() {
         setCookie('cookieAccepted', '1', 365);
         $("#cookies-gw").css("display", "none");
     });
