@@ -53,7 +53,7 @@ function setCookie(c_name, value, exdays) {
     document.cookie = c_name + "=" + c_value;
 }
 
-$(document).ready(function() {
+$(document).ready(function(){
     if (getCookie('cookieAccepted') != "1") {
         $("#cookies-gw").css("display", "block");
     } else {

@@ -13484,6 +13484,7 @@ article.vevent .cal_cate {
 :root {
   --bs-primary: #007BC1;
   --bs-primary-rgb: 0, 123, 193;
+  --bs-primary-hover: #005a8e;
 }
 
 /* cyrillic-ext */
@@ -13836,6 +13837,30 @@ body {
   line-height: 1.45 !important;
 }
 
+/* Button reedirect to top */
+/* line 19, ../scss/_genweb.scss */
+.back-to-top {
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  z-index: 10;
+  display: none;
+  text-decoration: none;
+  color: var(--bs-primary);
+}
+/* line 31, ../scss/_genweb.scss */
+.back-to-top:hover, .back-to-top:active, .back-to-top:focus {
+  color: var(--bs-primary-hover);
+}
+/* line 37, ../scss/_genweb.scss */
+.back-to-top svg {
+  width: 45px;
+  height: 45px;
+}
+
 /* line 1, ../scss/viewlets/_cookies.scss */
 #cookies-gw {
   position: fixed;
@@ -13864,4 +13889,12 @@ body {
 #cookies-gw #cookies-buttons {
   margin: 10px 0px 0px 0px !important;
   padding: 0px;
+}
+
+@media print {
+  /* line 3, ../scss/_print.scss */
+  #cookies-gw,
+  #back-to-top {
+    display: none !important;
+  }
 }

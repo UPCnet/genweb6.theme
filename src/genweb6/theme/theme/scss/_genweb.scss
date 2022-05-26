@@ -13,3 +13,29 @@ body {
     font-weight: 300;
     line-height: 1.45 !important;
 }
+
+/* Button reedirect to top */
+
+.back-to-top {
+    background: none;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    z-index: 10;
+    display: none;
+    text-decoration: none;
+    color: var(--bs-primary);
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: var(--bs-primary-hover);
+    }
+
+    svg {
+        width: 45px;
+        height: 45px;
+    }
+}
