@@ -13899,6 +13899,28 @@ body {
 }
 
 /* FIN Banner cookies */
+/* INICIO Vista closeau */
+/* line 3, ../scss/views/_clouseau.scss */
+body.template-clouseau .lead {
+  margin-bottom: 18px;
+  font-size: 1rem;
+  line-height: 18px;
+  background: #eee;
+  text-shadow: 0 1px #fff;
+  -moz-box-shadow: 0 1px 1px #b2b2b2;
+  -webkit-box-shadow: 0 1px 1px #b2b2b2;
+  box-shadow: 0 1px 1px #b2b2b2;
+  -moz-border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  border-radius: 5px !important;
+  padding: 15px 15px 0px 15px;
+}
+/* line 17, ../scss/views/_clouseau.scss */
+body.template-clouseau .lead p {
+  white-space: pre;
+}
+
+/* FIN Vista closeau */
 /* INICIO Vista grid_events_view */
 /* line 6, ../scss/views/_grid_events_view.scss */
 body.template-grid_future_events_view .list-agenda,
