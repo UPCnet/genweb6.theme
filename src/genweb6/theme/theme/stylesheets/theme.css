@@ -1,10 +1,14 @@
-/* line 1, ../scss/_variables.scss */
+@charset "UTF-8";
+/* INICIO Variables */
+/* line 3, ../scss/_variables.scss */
 :root {
   --bs-primary: #007BC1;
   --bs-primary-rgb: 0, 123, 193;
   --bs-primary-hover: #005a8e;
 }
 
+/* FIN Variables */
+/* INICIO Fuente Roboto */
 /* cyrillic-ext */
 @font-face {
   font-family: 'Roboto';
@@ -341,6 +345,7 @@
   src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+/* FIN Fuente Roboto */
 @font-face {
   font-family: 'upc-icones';
   font-weight: normal;
@@ -355,7 +360,7 @@ body {
   line-height: 1.45 !important;
 }
 
-/* Button reedirect to top */
+/* INICIO Botón para reedirigir al principio de la página */
 /* line 19, ../scss/_genweb.scss */
 .back-to-top {
   background: none;
@@ -379,7 +384,9 @@ body {
   height: 45px;
 }
 
-/* line 1, ../scss/viewlets/_cookies.scss */
+/* FIN Botón para reedirigir al principio de la página */
+/* INICIO Banner cookies */
+/* line 3, ../scss/viewlets/_cookies.scss */
 #cookies-gw {
   position: fixed;
   bottom: 0;
@@ -399,20 +406,273 @@ body {
   width: 100%;
   border-top: 1px solid #cccccc;
 }
-/* line 20, ../scss/viewlets/_cookies.scss */
+/* line 22, ../scss/viewlets/_cookies.scss */
 #cookies-gw #cookies-bodyContent {
   text-align: justify;
 }
-/* line 24, ../scss/viewlets/_cookies.scss */
+/* line 26, ../scss/viewlets/_cookies.scss */
 #cookies-gw #cookies-buttons {
   margin: 10px 0px 0px 0px !important;
   padding: 0px;
 }
 
+/* FIN Banner cookies */
+/* INICIO Vista grid_events_view */
+/* line 6, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda,
+body.template-grid_events_view .list-agenda {
+  list-style: none;
+  padding: 0;
+}
+/* line 10, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted,
+body.template-grid_events_view .list-agenda a.event-highlighted {
+  height: 300px;
+  position: relative;
+  display: block;
+  transition: all .25s ease-out;
+  overflow: hidden;
+  margin-bottom: 24px;
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+}
+/* line 18, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted:hover,
+body.template-grid_events_view .list-agenda a.event-highlighted:hover {
+  text-decoration: none;
+  transform: perspective(1px) scale(1.00775, 1.00775) translateZ(0px);
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+/* line 24, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted:hover .event-time::after,
+body.template-grid_events_view .list-agenda a.event-highlighted:hover .event-time::after {
+  opacity: 1;
+  transition: all .5s ease;
+}
+/* line 31, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card:hover .flip-card-inner,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+/* line 35, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card:hover,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card:hover {
+  transform: none;
+}
+/* line 40, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card {
+  background-color: transparent;
+  height: 100%;
+  /* This container is needed to position the front and back side */
+}
+/* line 46, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1.2s;
+  transform-style: preserve-3d;
+  /* Position the front and back side */
+  /* Style the front side (fallback if image is missing) */
+  /* Style the back side */
+}
+/* line 55, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-back,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-back,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-back,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #007ac133;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  top: 0;
+  left: 0;
+}
+/* line 72, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front {
+  background: #edf1f2;
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+/* line 78, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-flip,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-flip,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-flip,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-flip {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: #007ac1;
+}
+/* line 87, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-time,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-time {
+  opacity: 0.9;
+  background: #007ac1;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  position: absolute;
+  left: 18px;
+  display: table-cell;
+  text-align: center;
+  left: calc(50% - 70px);
+  top: calc(50% - 112px);
+}
+/* line 100, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time--wrap,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-time--wrap,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time--wrap,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-time--wrap {
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+  display: block;
+}
+/* line 107, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time .event-days,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-time .event-days,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time .event-days,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-time .event-days {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #fff;
+  display: block;
+  padding-bottom: 1px;
+  margin-top: -2px;
+  line-height: 1;
+}
+/* line 116, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time .event-days.event-days-connector,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-time .event-days.event-days-connector,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time .event-days.event-days-connector,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-time .event-days.event-days-connector {
+  font-size: 0.5rem;
+  color: transparent;
+}
+/* line 121, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time .event-days .event-years,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time .event-days .event-months,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-time .event-days .event-years,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-time .event-days .event-months,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time .event-days .event-years,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time .event-days .event-months,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-time .event-days .event-years,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-time .event-days .event-months {
+  font-size: .825rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* line 128, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time .event-days .event-months,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-time .event-days .event-months,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time .event-days .event-months,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-time .event-days .event-months {
+  padding-bottom: 1px;
+  margin-top: -2px;
+}
+/* line 133, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time .event-days .event-years,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-time .event-days .event-years,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time .event-days .event-years,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-time .event-days .event-years {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+/* line 141, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-title,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-title,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-title,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-title {
+  font-size: 1.125rem;
+  color: #FFF;
+  height: 84px;
+  background: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  bottom: 0;
+  padding: 12px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #007ac1;
+}
+/* line 160, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-back,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-back,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-back,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #007ac1;
+  border: 1px solid #007ac133;
+  color: white;
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(180deg);
+}
+/* line 171, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-back p,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-back p,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-back p,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-back p {
+  font-weight: 400;
+}
+/* line 174, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-back p.more_info,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-back p.more_info,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-back p.more_info,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-back p.more_info {
+  padding: 5px 10px;
+  border-radius: 35px 35px 35px 35px;
+  -moz-border-radius: 35px 35px 35px 35px;
+  -webkit-border-radius: 35px 35px 35px 35px;
+  border: 1px solid;
+}
+/* line 181, ../scss/views/_grid_events_view.scss */
+body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-back p.more_info:hover,
+body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-back p.more_info:hover,
+body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-back p.more_info:hover,
+body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-back p.more_info:hover {
+  font-weight: 600;
+}
+
+/* INICIO Vista grid_events_view */
+/* INICIO @media print */
 @media print {
-  /* line 3, ../scss/_print.scss */
+  /* line 5, ../scss/_print.scss */
   #cookies-gw,
   #back-to-top {
     display: none !important;
   }
 }
+/* FIN @media print */
