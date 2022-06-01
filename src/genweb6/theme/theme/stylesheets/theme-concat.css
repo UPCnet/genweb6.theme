@@ -13867,6 +13867,28 @@ body {
 }
 
 /* FIN Botón para reedirigir al principio de la página */
+/* line 3, ../scss/portlets/_gw-rss.scss */
+.portlet-noticies ul.list-portlet {
+  padding-left: 0px;
+}
+/* line 6, ../scss/portlets/_gw-rss.scss */
+.portlet-noticies ul.list-portlet li {
+  list-style: none;
+}
+/* line 11, ../scss/portlets/_gw-rss.scss */
+.portlet-noticies .categories {
+  margin-top: 5px;
+}
+/* line 14, ../scss/portlets/_gw-rss.scss */
+.portlet-noticies .categories .category {
+  background-color: var(--bs-primary);
+  color: #FFF;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 4px 8px;
+  margin-bottom: 3px;
+}
+
 /* INICIO Banner cookies */
 /* line 3, ../scss/viewlets/_cookies.scss */
 #cookies-gw {
@@ -14029,7 +14051,7 @@ body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip
   position: absolute;
   right: 5px;
   top: 5px;
-  color: #007ac1;
+  color: var(--bs-primary);
 }
 /* line 87, ../scss/views/_grid_events_view.scss */
 body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time,
@@ -14037,7 +14059,7 @@ body.template-grid_future_events_view .list-agenda a.event-highlighted .flip-car
 body.template-grid_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-front .event-time,
 body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip-card-inner .flip-card-front .event-time {
   opacity: 0.9;
-  background: #007ac1;
+  background: var(--bs-primary);
   width: 140px;
   height: 140px;
   border-radius: 50%;
@@ -14127,7 +14149,7 @@ body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #007ac1;
+  background: var(--bs-primary);
 }
 /* line 160, ../scss/views/_grid_events_view.scss */
 body.template-grid_future_events_view .list-agenda a.event-highlighted .no-flip-card .flip-card-inner .flip-card-back,
@@ -14138,8 +14160,8 @@ body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #007ac1;
-  border: 1px solid #007ac133;
+  background-color: var(--bs-primary);
+  border: 1px solid var(--bs-primary-hover);
   color: white;
   -webkit-transform: rotateY(-180deg);
   transform: rotateY(180deg);

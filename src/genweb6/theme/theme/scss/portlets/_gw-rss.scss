@@ -1,0 +1,23 @@
+.portlet-noticies {
+
+    ul.list-portlet {
+        padding-left: 0px;
+
+        li {
+            list-style: none;
+        }
+    }
+
+    .categories {
+        margin-top: 5px;
+
+        .category {
+            background-color: var(--bs-primary);
+            color: #FFF;
+            border-radius: 10px;
+            display: inline-block;
+            padding: 4px 8px;
+            margin-bottom: 3px;
+        }
+    }
+}
