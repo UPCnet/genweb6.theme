@@ -1,0 +1,35 @@
+/* INICIO Login */
+
+.login-wrapper .card {
+  width: 26rem;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+}
+
+#loginGW {
+
+  h3,
+  button {
+    color: var(--bs-primary);
+  }
+
+  .accordion-item:hover {
+
+    h3,
+    button {
+      color: var(--bs-primary-hover);
+    }
+  }
+
+  #linkCAS {
+    text-decoration: none;
+
+    #headingCAS::after {
+      display: none;
+    }
+  }
+}
+
+/* FIN Login */
