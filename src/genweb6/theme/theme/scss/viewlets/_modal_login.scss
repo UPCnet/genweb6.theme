@@ -1,0 +1,30 @@
+/* INICIO Modal login */
+
+#loginModal {
+
+  .modal-body {
+
+    h3,
+    button {
+      color: var(--bs-primary);
+    }
+
+    .accordion-item:hover {
+
+      h3,
+      button {
+        color: var(--bs-primary-hover);
+      }
+    }
+
+    #linkCAS {
+      text-decoration: none;
+
+      #headingCAS::after {
+        display: none;
+      }
+    }
+  }
+}
+
+/* FIN Modal login */

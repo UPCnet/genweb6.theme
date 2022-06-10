@@ -439,6 +439,27 @@ body {
 }
 
 /* FIN Banner cookies */
+/* INICIO Modal login */
+/* line 7, ../scss/viewlets/_modal_login.scss */
+#loginModal .modal-body h3,
+#loginModal .modal-body button {
+  color: var(--bs-primary);
+}
+/* line 14, ../scss/viewlets/_modal_login.scss */
+#loginModal .modal-body .accordion-item:hover h3,
+#loginModal .modal-body .accordion-item:hover button {
+  color: var(--bs-primary-hover);
+}
+/* line 20, ../scss/viewlets/_modal_login.scss */
+#loginModal .modal-body #linkCAS {
+  text-decoration: none;
+}
+/* line 23, ../scss/viewlets/_modal_login.scss */
+#loginModal .modal-body #linkCAS #headingCAS::after {
+  display: none;
+}
+
+/* FIN Modal login */
 /* INICIO Vista closeau */
 /* line 3, ../scss/views/_clouseau.scss */
 body.template-clouseau .lead {
