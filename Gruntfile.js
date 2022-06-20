@@ -44,6 +44,10 @@ module.exports = function (grunt) {
         uglify: {
             js: {
                 files: {
+                    'js/controlpanels/cookies_preview.min.js':
+                        '../../../../../genweb6.core/src/genweb6/core/controlpanels/widgets/cookies_preview.js',
+                    'js/controlpanels/login_preview.min.js':
+                        '../../../../../genweb6.core/src/genweb6/core/cas/login_preview.js',
                     'js/portlets/gw-manage-portlets.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/portlets/manage_portlets/gw-manage-portlets.js',
                     'js/portlets/new_existing_content.min.js':

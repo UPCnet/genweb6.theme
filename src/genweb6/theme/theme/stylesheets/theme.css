@@ -385,6 +385,20 @@ body {
 }
 
 /* FIN Botón para reedirigir al principio de la página */
+/* INICIO Controlpanel CAS */
+/* line 5, ../scss/controlpanels/_cas.scss */
+body.template-cas-controlpanel #accordionLogin {
+  width: 466px;
+}
+
+/* FIN Controlpanel CAS */
+/* INICIO Controlpanel cookies */
+/* line 3, ../scss/controlpanels/_cookies.scss */
+#cookies-gw-preview {
+  position: inherit;
+}
+
+/* FIN Controlpanel cookies */
 /* line 3, ../scss/portlets/_gw-rss.scss */
 .portlet-noticies ul.list-portlet {
   padding-left: 0px;
@@ -409,8 +423,8 @@ body {
 
 /* INICIO Banner cookies */
 /* line 3, ../scss/viewlets/_cookies.scss */
+#cookies-gw-preview,
 #cookies-gw {
-  position: fixed;
   bottom: 0;
   left: 0;
   font-size: 16px;
@@ -429,13 +443,20 @@ body {
   border-top: 1px solid #cccccc;
 }
 /* line 22, ../scss/viewlets/_cookies.scss */
+#cookies-gw-preview #cookies-bodyContent,
 #cookies-gw #cookies-bodyContent {
   text-align: justify;
 }
 /* line 26, ../scss/viewlets/_cookies.scss */
+#cookies-gw-preview #cookies-buttons,
 #cookies-gw #cookies-buttons {
   margin: 10px 0px 0px 0px !important;
   padding: 0px;
+}
+
+/* line 32, ../scss/viewlets/_cookies.scss */
+#cookies-gw {
+  position: fixed;
 }
 
 /* FIN Banner cookies */
@@ -721,21 +742,27 @@ body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip
   margin-bottom: 1rem;
 }
 
-/* line 13, ../scss/views/_login.scss */
+/* line 14, ../scss/views/_login.scss */
+#formfield-form-widgets-login_preview h3,
+#formfield-form-widgets-login_preview button,
 #loginGW h3,
 #loginGW button {
   color: var(--bs-primary);
 }
-/* line 20, ../scss/views/_login.scss */
+/* line 21, ../scss/views/_login.scss */
+#formfield-form-widgets-login_preview .accordion-item:hover h3,
+#formfield-form-widgets-login_preview .accordion-item:hover button,
 #loginGW .accordion-item:hover h3,
 #loginGW .accordion-item:hover button {
   color: var(--bs-primary-hover);
 }
-/* line 26, ../scss/views/_login.scss */
+/* line 27, ../scss/views/_login.scss */
+#formfield-form-widgets-login_preview #linkCAS,
 #loginGW #linkCAS {
   text-decoration: none;
 }
-/* line 29, ../scss/views/_login.scss */
+/* line 30, ../scss/views/_login.scss */
+#formfield-form-widgets-login_preview #linkCAS #headingCAS::after,
 #loginGW #linkCAS #headingCAS::after {
   display: none;
 }

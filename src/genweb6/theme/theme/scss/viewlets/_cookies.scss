@@ -1,7 +1,7 @@
 /* INICIO Banner cookies */
 
+#cookies-gw-preview,
 #cookies-gw {
-  position: fixed;
   bottom: 0;
   left: 0;
   font-size: 16px;
@@ -27,6 +27,10 @@
     margin: 10px 0px 0px 0px !important;
     padding: 0px;
   }
+}
+
+#cookies-gw {
+  position: fixed;
 }
 
 /* FIN Banner cookies */
