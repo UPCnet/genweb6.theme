@@ -360,8 +360,16 @@ body {
   line-height: 1.45 !important;
 }
 
+/* line 18, ../scss/_genweb.scss */
+#portal-footer-wrapper {
+  background-color: initial;
+  color: initial;
+  text-align: initial;
+  padding: 0rem;
+}
+
 /* INICIO Botón para reedirigir al principio de la página */
-/* line 20, ../scss/_genweb.scss */
+/* line 27, ../scss/_genweb.scss */
 .back-to-top {
   background: none;
   margin: 0;
@@ -374,11 +382,11 @@ body {
   text-decoration: none;
   color: var(--bs-primary);
 }
-/* line 32, ../scss/_genweb.scss */
+/* line 39, ../scss/_genweb.scss */
 .back-to-top:hover, .back-to-top:active, .back-to-top:focus {
   color: var(--bs-primary-hover);
 }
-/* line 38, ../scss/_genweb.scss */
+/* line 45, ../scss/_genweb.scss */
 .back-to-top svg {
   width: 45px;
   height: 45px;
