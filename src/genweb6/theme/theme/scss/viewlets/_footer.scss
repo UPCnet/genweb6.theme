@@ -22,16 +22,6 @@
       a {
         color: #FFF;
         text-decoration: none;
-
-        &[target="_blank"]::after {
-          content: "\e91c";
-          font-family: "upc-icones";
-          font-size: 66.6666667%;
-          margin-left: 3px;
-          top: 0;
-          position: relative;
-          display: inline-block;
-        }
       }
     }
   }
