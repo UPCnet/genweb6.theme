@@ -2,7 +2,8 @@
     font-family: 'upc-icones';
     font-weight: normal;
     font-style: normal;
-    src: url("++genweb6++theme/stylesheets/fonts/upc-icones.woff") format("woff"),
+    src: url("++genweb6++theme/stylesheets/fonts/upc-icones.eot") format("embedded-opentype"),
+         url("++genweb6++theme/stylesheets/fonts/upc-icones.woff") format("woff"),
          url("++genweb6++theme/stylesheets/fonts/upc-icones.ttf") format("truetype"),
          url("++genweb6++theme/stylesheets/fonts/upc-icones.svg#upc-icones") format("svg");
 }
