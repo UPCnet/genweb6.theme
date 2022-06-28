@@ -372,15 +372,20 @@ a[target="_blank"]::after {
 }
 
 /* line 28, ../scss/_genweb.scss */
-#portal-footer-wrapper {
+footer#portal-footer-wrapper {
   background-color: initial;
   color: initial;
   text-align: initial;
   padding: 0rem;
 }
+/* line 36, ../scss/_genweb.scss */
+footer#portal-footer-wrapper [id^="footer-"] h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
 
 /* INICIO Botón para reedirigir al principio de la página */
-/* line 37, ../scss/_genweb.scss */
+/* line 45, ../scss/_genweb.scss */
 .back-to-top {
   background: none;
   margin: 0;
@@ -393,11 +398,11 @@ a[target="_blank"]::after {
   text-decoration: none;
   color: var(--bs-primary);
 }
-/* line 49, ../scss/_genweb.scss */
+/* line 57, ../scss/_genweb.scss */
 .back-to-top:hover, .back-to-top:active, .back-to-top:focus {
   color: var(--bs-primary-hover);
 }
-/* line 55, ../scss/_genweb.scss */
+/* line 63, ../scss/_genweb.scss */
 .back-to-top svg {
   width: 45px;
   height: 45px;
@@ -480,51 +485,89 @@ body.template-cas-controlpanel #accordionLogin {
 
 /* FIN Banner cookies */
 /* line 1, ../scss/viewlets/_footer.scss */
-.footer-complementary {
+[id^="footer-"] + #footer-logos {
+  padding: 0em 4em 1em 4em;
+}
+
+/* line 5, ../scss/viewlets/_footer.scss */
+#footer-logos {
+  background-color: #FBFBFC;
+  box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
+  padding: 2em 4em 1em 4em;
+}
+/* line 10, ../scss/viewlets/_footer.scss */
+#footer-logos .llistatLogos {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+/* line 16, ../scss/viewlets/_footer.scss */
+#footer-logos .llistatLogos li {
+  display: inline-block;
+  margin: 0 0 1em;
+}
+/* line 20, ../scss/viewlets/_footer.scss */
+#footer-logos .llistatLogos li a {
+  text-decoration: none;
+  margin-left: 3em;
+}
+/* line 24, ../scss/viewlets/_footer.scss */
+#footer-logos .llistatLogos li a[target="_blank"]::after {
+  display: none;
+  content: "";
+}
+/* line 29, ../scss/viewlets/_footer.scss */
+#footer-logos .llistatLogos li a img {
+  max-height: 100px;
+}
+
+/* line 37, ../scss/viewlets/_footer.scss */
+#footer-complementary {
   background-color: #000;
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 0 4em;
 }
-/* line 6, ../scss/viewlets/_footer.scss */
-.footer-complementary p {
+/* line 42, ../scss/viewlets/_footer.scss */
+#footer-complementary p {
   display: inline-block;
   margin: 18px 0;
   color: #FFF;
 }
-/* line 12, ../scss/viewlets/_footer.scss */
-.footer-complementary nav {
+/* line 48, ../scss/viewlets/_footer.scss */
+#footer-complementary nav {
   float: right;
   margin: 18px 0;
 }
-/* line 16, ../scss/viewlets/_footer.scss */
-.footer-complementary nav ul,
-.footer-complementary nav li {
+/* line 52, ../scss/viewlets/_footer.scss */
+#footer-complementary nav ul,
+#footer-complementary nav li {
   display: inline;
   margin-left: 24px;
   padding: 0;
 }
-/* line 22, ../scss/viewlets/_footer.scss */
-.footer-complementary nav ul a,
-.footer-complementary nav li a {
+/* line 58, ../scss/viewlets/_footer.scss */
+#footer-complementary nav ul a,
+#footer-complementary nav li a {
   color: #FFF;
   text-decoration: none;
 }
 
 @media (max-width: 992px) {
-  /* line 31, ../scss/viewlets/_footer.scss */
+  /* line 67, ../scss/viewlets/_footer.scss */
   .footer-complementary nav {
     float: none;
     display: block;
     margin-top: 0;
   }
-  /* line 36, ../scss/viewlets/_footer.scss */
+  /* line 72, ../scss/viewlets/_footer.scss */
   .footer-complementary nav ul {
     width: 100%;
     margin: 0 auto;
     display: block;
     text-align: center;
   }
-  /* line 42, ../scss/viewlets/_footer.scss */
+  /* line 78, ../scss/viewlets/_footer.scss */
   .footer-complementary nav ul li {
     margin: 0 12px;
     text-align: center;

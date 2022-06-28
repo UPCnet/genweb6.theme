@@ -25,11 +25,19 @@ a[target="_blank"]::after {
     display: inline-block;
 }
 
-#portal-footer-wrapper {
+footer#portal-footer-wrapper {
     background-color: initial;
     color: initial;
     text-align: initial;
-    padding: 0rem
+    padding: 0rem;
+
+    [id^="footer-"] {
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1em;
+        }
+    }
 }
 
 /* INICIO Botón para reedirigir al principio de la página */

@@ -1,4 +1,40 @@
-.footer-complementary {
+[id^="footer-"] + #footer-logos {
+  padding: 0em 4em 1em 4em;
+}
+
+#footer-logos {
+  background-color: #FBFBFC;
+  box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
+  padding: 2em 4em 1em 4em;
+
+  .llistatLogos {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+
+    li {
+      display: inline-block;
+      margin: 0 0 1em;
+
+      a {
+        text-decoration: none;
+        margin-left: 3em;
+
+        &[target="_blank"]::after {
+          display: none;
+          content: "";
+        }
+
+        img {
+          max-height: 100px;
+        }
+      }
+    }
+  }
+}
+
+#footer-complementary {
   background-color: #000;
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 0 4em;
