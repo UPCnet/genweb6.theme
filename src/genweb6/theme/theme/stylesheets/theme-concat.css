@@ -16547,20 +16547,25 @@ a[target="_blank"]::after {
 }
 
 /* line 28, ../scss/_genweb.scss */
+body.template-manage-viewlets header {
+  position: initial;
+}
+
+/* line 32, ../scss/_genweb.scss */
 footer#portal-footer-wrapper {
   background-color: initial;
   color: initial;
   text-align: initial;
   padding: 0rem;
 }
-/* line 36, ../scss/_genweb.scss */
+/* line 40, ../scss/_genweb.scss */
 footer#portal-footer-wrapper [id^="footer-"] h2 {
   font-size: 1.5rem;
   margin-bottom: 1em;
 }
 
 /* INICIO Botón para reedirigir al principio de la página */
-/* line 45, ../scss/_genweb.scss */
+/* line 49, ../scss/_genweb.scss */
 .back-to-top {
   background: none;
   margin: 0;
@@ -16573,11 +16578,11 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   text-decoration: none;
   color: var(--bs-primary);
 }
-/* line 57, ../scss/_genweb.scss */
+/* line 61, ../scss/_genweb.scss */
 .back-to-top:hover, .back-to-top:active, .back-to-top:focus {
   color: var(--bs-primary-hover);
 }
-/* line 63, ../scss/_genweb.scss */
+/* line 67, ../scss/_genweb.scss */
 .back-to-top svg {
   width: 45px;
   height: 45px;
@@ -16598,6 +16603,30 @@ body.template-cas-controlpanel #accordionLogin {
 }
 
 /* FIN Controlpanel cookies */
+/* line 3, ../scss/controlpanels/_header.scss */
+body.template-header-controlpanel #formfield-form-widgets-fieldset_logo,
+body.template-header-controlpanel #formfield-form-widgets-logo,
+body.template-header-controlpanel #formfield-form-widgets-logo_responsive,
+body.template-header-controlpanel #formfield-form-widgets-logo_alt {
+  width: 48%;
+  float: left;
+}
+/* line 11, ../scss/controlpanels/_header.scss */
+body.template-header-controlpanel #formfield-form-widgets-fieldset_secundary_logo,
+body.template-header-controlpanel #formfield-form-widgets-secundary_logo,
+body.template-header-controlpanel #formfield-form-widgets-secundary_logo_responsive,
+body.template-header-controlpanel #formfield-form-widgets-secundary_logo_alt {
+  width: 48%;
+  float: right;
+}
+/* line 19, ../scss/controlpanels/_header.scss */
+body.template-header-controlpanel #formfield-form-widgets-logo,
+body.template-header-controlpanel #formfield-form-widgets-logo_mini,
+body.template-header-controlpanel #formfield-form-widgets-secundary_logo,
+body.template-header-controlpanel #formfield-form-widgets-secundary_logo_responsive {
+  min-height: 220px;
+}
+
 /* line 3, ../scss/portlets/_gw-rss.scss */
 .portlet-noticies ul.list-portlet {
   padding-left: 0px;
@@ -16749,6 +16778,57 @@ body.template-cas-controlpanel #accordionLogin {
     display: inline-block;
   }
 }
+/* line 1, ../scss/viewlets/_header.scss */
+#header-cintillo {
+  width: 100%;
+  padding: 1em 4em;
+  background-color: #DBEBEB;
+  color: #000;
+}
+/* line 7, ../scss/viewlets/_header.scss */
+#header-cintillo > i.bi,
+#header-cintillo .cintillo-title {
+  font-weight: 800;
+}
+
+/* line 14, ../scss/viewlets/_header.scss */
+#header {
+  padding: 1em 4em;
+  background-color: #000;
+  color: #FFF;
+}
+/* line 21, ../scss/viewlets/_header.scss */
+#header #portal-logos img {
+  max-height: 60px;
+  transition: max-height .4s;
+  transform-origin: 0 0;
+}
+/* line 26, ../scss/viewlets/_header.scss */
+#header #portal-logos img.img-responsive {
+  display: none;
+}
+/* line 34, ../scss/viewlets/_header.scss */
+#header #portal-navbar ul {
+  flex-direction: row;
+}
+/* line 37, ../scss/viewlets/_header.scss */
+#header #portal-navbar ul li {
+  padding: 5px 10px;
+}
+
+/* line 48, ../scss/viewlets/_header.scss */
+#header.shink #portal-logos img {
+  max-height: 40px;
+}
+/* line 51, ../scss/viewlets/_header.scss */
+#header.shink #portal-logos img.img-desktop {
+  display: none;
+}
+/* line 55, ../scss/viewlets/_header.scss */
+#header.shink #portal-logos img.img-responsive {
+  display: block;
+}
+
 /* INICIO Vista closeau */
 /* line 3, ../scss/views/_clouseau.scss */
 body.template-clouseau .lead {
