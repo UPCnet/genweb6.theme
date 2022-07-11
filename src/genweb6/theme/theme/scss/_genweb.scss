@@ -44,6 +44,10 @@ footer#portal-footer-wrapper {
     }
 }
 
+.modal-backdrop.fade.show {
+    display: none;
+}
+
 /* INICIO Botón para reedirigir al principio de la página */
 
 .back-to-top {
