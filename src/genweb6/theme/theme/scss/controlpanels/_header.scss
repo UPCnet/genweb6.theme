@@ -1,9 +1,13 @@
+/* INICIO Controlpanel Header */
+
 body.template-header-controlpanel {
 
     #formfield-form-widgets-fieldset_logo,
     #formfield-form-widgets-logo,
     #formfield-form-widgets-logo_responsive,
-    #formfield-form-widgets-logo_alt {
+    #formfield-form-widgets-logo_alt,
+    #formfield-form-widgets-logo_url,
+    #formfield-form-widgets-logo_external_url {
         width: 48%;
         float: left;
     }
@@ -11,7 +15,9 @@ body.template-header-controlpanel {
     #formfield-form-widgets-fieldset_secundary_logo,
     #formfield-form-widgets-secundary_logo,
     #formfield-form-widgets-secundary_logo_responsive,
-    #formfield-form-widgets-secundary_logo_alt {
+    #formfield-form-widgets-secundary_logo_alt,
+    #formfield-form-widgets-secundary_logo_url,
+    #formfield-form-widgets-secundary_logo_external_url {
         width: 48%;
         float: right;
     }
@@ -24,3 +30,5 @@ body.template-header-controlpanel {
     }
 
 }
+
+/* FIN Controlpanel Header */

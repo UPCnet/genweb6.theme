@@ -16608,23 +16608,28 @@ body.template-cas-controlpanel #accordionLogin {
 }
 
 /* FIN Controlpanel cookies */
-/* line 3, ../scss/controlpanels/_header.scss */
+/* INICIO Controlpanel Header */
+/* line 5, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-fieldset_logo,
 body.template-header-controlpanel #formfield-form-widgets-logo,
 body.template-header-controlpanel #formfield-form-widgets-logo_responsive,
-body.template-header-controlpanel #formfield-form-widgets-logo_alt {
+body.template-header-controlpanel #formfield-form-widgets-logo_alt,
+body.template-header-controlpanel #formfield-form-widgets-logo_url,
+body.template-header-controlpanel #formfield-form-widgets-logo_external_url {
   width: 48%;
   float: left;
 }
-/* line 11, ../scss/controlpanels/_header.scss */
+/* line 15, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-fieldset_secundary_logo,
 body.template-header-controlpanel #formfield-form-widgets-secundary_logo,
 body.template-header-controlpanel #formfield-form-widgets-secundary_logo_responsive,
-body.template-header-controlpanel #formfield-form-widgets-secundary_logo_alt {
+body.template-header-controlpanel #formfield-form-widgets-secundary_logo_alt,
+body.template-header-controlpanel #formfield-form-widgets-secundary_logo_url,
+body.template-header-controlpanel #formfield-form-widgets-secundary_logo_external_url {
   width: 48%;
   float: right;
 }
-/* line 19, ../scss/controlpanels/_header.scss */
+/* line 25, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-logo,
 body.template-header-controlpanel #formfield-form-widgets-logo_mini,
 body.template-header-controlpanel #formfield-form-widgets-secundary_logo,
@@ -16632,6 +16637,7 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   min-height: 220px;
 }
 
+/* FIN Controlpanel Header */
 /* line 3, ../scss/portlets/_gw-rss.scss */
 .portlet-noticies ul.list-portlet {
   padding-left: 0px;
@@ -16693,69 +16699,70 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 }
 
 /* FIN Banner cookies */
-/* line 1, ../scss/viewlets/_footer.scss */
+/* INICIO Footer */
+/* line 3, ../scss/viewlets/_footer.scss */
 [id^="footer-"] + #footer-logos {
   padding: 0em 4em 1em 4em;
 }
 
-/* line 5, ../scss/viewlets/_footer.scss */
+/* line 7, ../scss/viewlets/_footer.scss */
 #footer-logos {
   background-color: #FBFBFC;
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 2em 4em 1em 4em;
 }
-/* line 10, ../scss/viewlets/_footer.scss */
+/* line 12, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos {
   margin: 0 auto;
   padding: 0;
   list-style: none;
   text-align: right;
 }
-/* line 16, ../scss/viewlets/_footer.scss */
+/* line 18, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li {
   display: inline-block;
   margin: 0 0 1em;
 }
-/* line 20, ../scss/viewlets/_footer.scss */
+/* line 22, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a {
   text-decoration: none;
   margin-left: 3em;
 }
-/* line 24, ../scss/viewlets/_footer.scss */
+/* line 26, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a[target="_blank"]::after {
   display: none;
   content: "";
 }
-/* line 29, ../scss/viewlets/_footer.scss */
+/* line 31, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a img {
   max-height: 100px;
 }
 
-/* line 37, ../scss/viewlets/_footer.scss */
+/* line 39, ../scss/viewlets/_footer.scss */
 #footer-complementary {
   background-color: #000;
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 0 4em;
 }
-/* line 42, ../scss/viewlets/_footer.scss */
+/* line 44, ../scss/viewlets/_footer.scss */
 #footer-complementary p {
   display: inline-block;
   margin: 18px 0;
   color: #FFF;
 }
-/* line 48, ../scss/viewlets/_footer.scss */
+/* line 50, ../scss/viewlets/_footer.scss */
 #footer-complementary nav {
   float: right;
   margin: 18px 0;
 }
-/* line 52, ../scss/viewlets/_footer.scss */
+/* line 54, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul,
 #footer-complementary nav li {
   display: inline;
   margin-left: 24px;
   padding: 0;
 }
-/* line 58, ../scss/viewlets/_footer.scss */
+/* line 60, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul a,
 #footer-complementary nav li a {
   color: #FFF;
@@ -16763,40 +16770,42 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 }
 
 @media (max-width: 992px) {
-  /* line 67, ../scss/viewlets/_footer.scss */
+  /* line 69, ../scss/viewlets/_footer.scss */
   .footer-complementary nav {
     float: none;
     display: block;
     margin-top: 0;
   }
-  /* line 72, ../scss/viewlets/_footer.scss */
+  /* line 74, ../scss/viewlets/_footer.scss */
   .footer-complementary nav ul {
     width: 100%;
     margin: 0 auto;
     display: block;
     text-align: center;
   }
-  /* line 78, ../scss/viewlets/_footer.scss */
+  /* line 80, ../scss/viewlets/_footer.scss */
   .footer-complementary nav ul li {
     margin: 0 12px;
     text-align: center;
     display: inline-block;
   }
 }
-/* line 1, ../scss/viewlets/_header.scss */
+/* FIN Footer */
+/* Inicio Header */
+/* line 3, ../scss/viewlets/_header.scss */
 #header-cintillo {
   width: 100%;
   padding: 1em 4em;
   background-color: #DBEBEB;
   color: #000;
 }
-/* line 7, ../scss/viewlets/_header.scss */
+/* line 9, ../scss/viewlets/_header.scss */
 #header-cintillo > i.bi,
 #header-cintillo .cintillo-title {
   font-weight: 800;
 }
 
-/* line 14, ../scss/viewlets/_header.scss */
+/* line 16, ../scss/viewlets/_header.scss */
 #header {
   padding: 1em 4em;
   background-color: #000;
@@ -16807,35 +16816,40 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
 }
-/* line 26, ../scss/viewlets/_header.scss */
+/* line 28, ../scss/viewlets/_header.scss */
+#header #portal-logos a[target="_blank"]::after {
+  display: none;
+  content: "";
+}
+/* line 33, ../scss/viewlets/_header.scss */
 #header #portal-logos img {
   max-height: 60px;
 }
-/* line 29, ../scss/viewlets/_header.scss */
+/* line 36, ../scss/viewlets/_header.scss */
 #header #portal-logos img.img-responsive {
   display: none;
 }
-/* line 39, ../scss/viewlets/_header.scss */
+/* line 46, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree > a.nav-link {
-  padding-right: 1.5em;
+  padding-right: 1em;
 }
-/* line 43, ../scss/viewlets/_header.scss */
+/* line 50, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree > label {
   height: 2.1em;
 }
-/* line 48, ../scss/viewlets/_header.scss */
+/* line 55, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul {
   flex-direction: row;
 }
-/* line 51, ../scss/viewlets/_header.scss */
+/* line 58, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul li {
   padding: 5px 10px;
 }
-/* line 54, ../scss/viewlets/_header.scss */
+/* line 61, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul li:last-child {
   padding: 5px 20px 5px 10px;
 }
-/* line 63, ../scss/viewlets/_header.scss */
+/* line 70, ../scss/viewlets/_header.scss */
 #header #portal-searchbox input#searchGadget {
   width: 0px;
   padding: 0px;
@@ -16845,19 +16859,20 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
 }
-/* line 75, ../scss/viewlets/_header.scss */
+/* line 82, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form:hover input#searchGadget {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
 }
-/* line 82, ../scss/viewlets/_header.scss */
+/* line 89, ../scss/viewlets/_header.scss */
+#header #portal-searchbox input#searchGadget:focus,
 #header #portal-searchbox input#searchGadget:not(:placeholder-shown) {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
 }
-/* line 88, ../scss/viewlets/_header.scss */
+/* line 96, ../scss/viewlets/_header.scss */
 #header #portal-searchbox button.searchButton {
   background: none;
   color: inherit;
@@ -16868,31 +16883,32 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   outline: inherit;
 }
 @media (min-width: 992px) {
-  /* line 100, ../scss/viewlets/_header.scss */
+  /* line 108, ../scss/viewlets/_header.scss */
   #header #portal-searchbox .livesearch-results {
     margin-top: 0.5rem;
     right: 4em;
   }
 }
 
-/* line 108, ../scss/viewlets/_header.scss */
+/* line 116, ../scss/viewlets/_header.scss */
 #header.shink {
   background-color: #000000DD;
   height: 72px;
 }
-/* line 114, ../scss/viewlets/_header.scss */
+/* line 122, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img {
   max-height: 40px;
 }
-/* line 117, ../scss/viewlets/_header.scss */
+/* line 125, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img.img-desktop {
   display: none;
 }
-/* line 121, ../scss/viewlets/_header.scss */
+/* line 129, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img.img-responsive {
   display: block;
 }
 
+/* FIN Header */
 /* INICIO Vista closeau */
 /* line 3, ../scss/views/_clouseau.scss */
 body.template-clouseau .lead {

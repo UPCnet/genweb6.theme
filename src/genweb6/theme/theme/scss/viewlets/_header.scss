@@ -1,3 +1,5 @@
+/* Inicio Header */
+
 #header-cintillo {
     width: 100%;
     padding: 1em 4em;
@@ -23,6 +25,11 @@
 
     #portal-logos {
 
+        a[target="_blank"]::after {
+            display: none;
+            content: "";
+        }
+
         img{
             max-height: 60px;
 
@@ -37,7 +44,7 @@
         .navbar-nav li.has_subtree {
 
             & > a.nav-link {
-                padding-right: 1.5em;
+                padding-right: 1em;
             }
 
             & > label {
@@ -79,6 +86,7 @@
             }
         }
 
+        input#searchGadget:focus,
         input#searchGadget:not(:placeholder-shown) {
             border: 1px solid #ced4da;
             width: 200px;
@@ -124,3 +132,5 @@
         }
     }
 }
+
+/* FIN Header */
