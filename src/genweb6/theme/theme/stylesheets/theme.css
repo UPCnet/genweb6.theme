@@ -464,44 +464,44 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 
 /* FIN Controlpanel Header */
 /* INICIO Portlet navegación */
-/* line 3, ../scss/portlets/_gw-navigation.scss */
+/* line 3, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree {
   border: 0px solid;
 }
-/* line 6, ../scss/portlets/_gw-navigation.scss */
+/* line 6, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-header {
   padding: var(--bs-card-cap-padding-y) 0px;
   background-color: transparent;
   border-bottom: 0px;
 }
-/* line 11, ../scss/portlets/_gw-navigation.scss */
+/* line 11, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-header h3 {
   margin-bottom: 0px;
 }
-/* line 18, ../scss/portlets/_gw-navigation.scss */
+/* line 18, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body > ul.navTree > li.navTreeItem {
   border-left: 4px solid var(--bs-gray-700);
   border-bottom: 1px solid var(--bs-gray-300);
   margin-bottom: 0.5rem;
 }
-/* line 23, ../scss/portlets/_gw-navigation.scss */
+/* line 23, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body > ul.navTree > li.navTreeItem.navTreeItemInPath {
   border-left: 4px solid var(--bs-primary);
 }
-/* line 30, ../scss/portlets/_gw-navigation.scss */
+/* line 30, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem {
   border-top: 0px solid;
 }
-/* line 33, ../scss/portlets/_gw-navigation.scss */
+/* line 33, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem:hover {
   background-color: transparent;
 }
-/* line 37, ../scss/portlets/_gw-navigation.scss */
+/* line 37, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem.navTreeCurrentNode > a {
   background-color: transparent;
   color: var(--bs-primary);
 }
-/* line 41, ../scss/portlets/_gw-navigation.scss */
+/* line 41, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem.navTreeCurrentNode > a::after {
   font-family: 'bootstrap-icons';
   content: "\F285";
@@ -509,44 +509,44 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   font-size: 1rem;
   margin-top: 0px;
 }
-/* line 50, ../scss/portlets/_gw-navigation.scss */
+/* line 50, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a {
   padding: 0.5rem 0.5rem 0.5rem 1rem;
   color: var(--bs-gray-700);
   text-decoration: none;
 }
-/* line 55, ../scss/portlets/_gw-navigation.scss */
+/* line 55, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a:hover {
   background-color: transparent;
   text-decoration: underline;
 }
-/* line 59, ../scss/portlets/_gw-navigation.scss */
+/* line 59, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a:hover svg {
   text-decoration: none;
 }
-/* line 64, ../scss/portlets/_gw-navigation.scss */
+/* line 64, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a.navTreeItemInPath {
   color: var(--bs-primary);
 }
-/* line 69, ../scss/portlets/_gw-navigation.scss */
+/* line 69, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem ul {
   padding-left: 1rem;
 }
 
 /* FIN Portlet navegación */
-/* line 3, ../scss/portlets/_gw-rss.scss */
+/* line 3, ../scss/portlets/_rss.scss */
 .portlet-noticies ul.list-portlet {
   padding-left: 0px;
 }
-/* line 6, ../scss/portlets/_gw-rss.scss */
+/* line 6, ../scss/portlets/_rss.scss */
 .portlet-noticies ul.list-portlet li {
   list-style: none;
 }
-/* line 11, ../scss/portlets/_gw-rss.scss */
+/* line 11, ../scss/portlets/_rss.scss */
 .portlet-noticies .categories {
   margin-top: 5px;
 }
-/* line 14, ../scss/portlets/_gw-rss.scss */
+/* line 14, ../scss/portlets/_rss.scss */
 .portlet-noticies .categories .category {
   background-color: var(--bs-primary);
   color: #FFF;
@@ -701,7 +701,7 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   font-weight: 800;
 }
 
-/* line 16, ../scss/viewlets/_header.scss */
+/* line 15, ../scss/viewlets/_header.scss */
 #header {
   padding: 1em 4em;
   background-color: #000;
@@ -712,40 +712,77 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
 }
-/* line 28, ../scss/viewlets/_header.scss */
+/* line 27, ../scss/viewlets/_header.scss */
 #header #portal-logos a[target="_blank"]::after {
   display: none;
   content: "";
 }
-/* line 33, ../scss/viewlets/_header.scss */
+/* line 32, ../scss/viewlets/_header.scss */
 #header #portal-logos img {
   max-height: 60px;
 }
-/* line 36, ../scss/viewlets/_header.scss */
+/* line 35, ../scss/viewlets/_header.scss */
 #header #portal-logos img.img-responsive {
   display: none;
 }
-/* line 46, ../scss/viewlets/_header.scss */
+/* line 45, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree > a.nav-link {
   padding-right: 1em;
 }
-/* line 50, ../scss/viewlets/_header.scss */
+/* line 49, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree > label {
   height: 2.1em;
 }
-/* line 55, ../scss/viewlets/_header.scss */
+/* line 53, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav li.has_subtree ul {
+  height: auto;
+  right: 8px;
+  top: 35px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+/* line 60, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item {
+  text-align: right;
+  border-bottom: 1px solid #ebebeb;
+}
+/* line 64, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item::last-child {
+  border-bottom: 0px solid;
+}
+/* line 68, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item a.nav-link {
+  min-width: auto;
+  padding-right: 0em;
+  font-weight: normal;
+  line-height: 18px;
+  color: #666;
+}
+/* line 77, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item:hover {
+  background-color: var(--bs-primary);
+}
+/* line 80, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item:hover a.nav-link {
+  color: #FFF;
+}
+/* line 86, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav li.has_subtree label {
+  margin-top: 2px;
+}
+/* line 91, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul {
   flex-direction: row;
 }
-/* line 58, ../scss/viewlets/_header.scss */
+/* line 94, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul li {
-  padding: 5px 10px;
+  padding: 7px 15px 7px 15px;
 }
-/* line 61, ../scss/viewlets/_header.scss */
-#header #portal-navbar ul li:last-child {
-  padding: 5px 20px 5px 10px;
+/* line 97, ../scss/viewlets/_header.scss */
+#header #portal-navbar ul li i.bi-globe {
+  margin-right: 5px;
 }
-/* line 70, ../scss/viewlets/_header.scss */
+/* line 106, ../scss/viewlets/_header.scss */
 #header #portal-searchbox input#searchGadget {
   width: 0px;
   padding: 0px;
@@ -755,20 +792,20 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
 }
-/* line 82, ../scss/viewlets/_header.scss */
+/* line 118, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form:hover input#searchGadget {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
 }
-/* line 89, ../scss/viewlets/_header.scss */
+/* line 125, ../scss/viewlets/_header.scss */
 #header #portal-searchbox input#searchGadget:focus,
 #header #portal-searchbox input#searchGadget:not(:placeholder-shown) {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
 }
-/* line 96, ../scss/viewlets/_header.scss */
+/* line 132, ../scss/viewlets/_header.scss */
 #header #portal-searchbox button.searchButton {
   background: none;
   color: inherit;
@@ -779,27 +816,27 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   outline: inherit;
 }
 @media (min-width: 992px) {
-  /* line 108, ../scss/viewlets/_header.scss */
+  /* line 144, ../scss/viewlets/_header.scss */
   #header #portal-searchbox .livesearch-results {
     margin-top: 0.5rem;
     right: 4em;
   }
 }
 
-/* line 116, ../scss/viewlets/_header.scss */
+/* line 152, ../scss/viewlets/_header.scss */
 #header.shink {
   background-color: #000000DD;
   height: 72px;
 }
-/* line 122, ../scss/viewlets/_header.scss */
+/* line 158, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img {
   max-height: 40px;
 }
-/* line 125, ../scss/viewlets/_header.scss */
+/* line 161, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img.img-desktop {
   display: none;
 }
-/* line 129, ../scss/viewlets/_header.scss */
+/* line 165, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img.img-responsive {
   display: block;
 }
