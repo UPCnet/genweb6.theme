@@ -16180,6 +16180,7 @@ article > header {
   --bs-primary: #007BC1;
   --bs-primary-rgb: 0, 123, 193;
   --bs-primary-hover: #005a8e;
+  --bs-font-size-xsm: calc(var(--bs-body-font-size) * .75);
 }
 
 /* FIN Variables */
@@ -16547,30 +16548,35 @@ a[target="_blank"]::after {
 }
 
 /* line 28, ../scss/_genweb.scss */
+.smaller {
+  font-size: var(--bs-font-size-xsm);
+}
+
+/* line 32, ../scss/_genweb.scss */
 body.template-manage-viewlets header {
   position: initial;
 }
 
-/* line 32, ../scss/_genweb.scss */
+/* line 36, ../scss/_genweb.scss */
 footer#portal-footer-wrapper {
   background-color: initial;
   color: initial;
   text-align: initial;
   padding: 0rem;
 }
-/* line 40, ../scss/_genweb.scss */
+/* line 44, ../scss/_genweb.scss */
 footer#portal-footer-wrapper [id^="footer-"] h2 {
   font-size: 1.5rem;
   margin-bottom: 1em;
 }
 
-/* line 47, ../scss/_genweb.scss */
+/* line 51, ../scss/_genweb.scss */
 .modal-backdrop.fade.show {
   display: none;
 }
 
 /* INICIO Botón para reedirigir al principio de la página */
-/* line 53, ../scss/_genweb.scss */
+/* line 57, ../scss/_genweb.scss */
 .back-to-top {
   background: none;
   margin: 0;
@@ -16583,11 +16589,11 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   text-decoration: none;
   color: var(--bs-primary);
 }
-/* line 65, ../scss/_genweb.scss */
+/* line 69, ../scss/_genweb.scss */
 .back-to-top:hover, .back-to-top:active, .back-to-top:focus {
   color: var(--bs-primary-hover);
 }
-/* line 71, ../scss/_genweb.scss */
+/* line 75, ../scss/_genweb.scss */
 .back-to-top svg {
   width: 45px;
   height: 45px;
@@ -16696,6 +16702,25 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 }
 
 /* FIN Controlpanel Header */
+/* INICIO Portlets */
+/* line 5, ../scss/portlets/_generic.scss */
+.portlet h3.portlet-title {
+  color: var(--bs-primary);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+/* FIN Portlets */
+/* line 3, ../scss/portlets/_multiviewcollection.scss */
+.portlet.portletCollection a {
+  color: var(--bs-gray-700);
+}
+/* line 6, ../scss/portlets/_multiviewcollection.scss */
+.portlet.portletCollection a:hover {
+  color: var(--bs-link-hover-color);
+  text-decoration: underline;
+}
+
 /* INICIO Portlet navegación */
 /* line 3, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree {

@@ -4,6 +4,7 @@
     --bs-primary: #007BC1;
     --bs-primary-rgb: 0, 123, 193;
     --bs-primary-hover: #{darken(#007BC1, 10%)};
+    --bs-font-size-xsm: calc(var(--bs-body-font-size) * .75);
 }
 
 /* FIN Variables */

@@ -25,6 +25,10 @@ a[target="_blank"]::after {
     display: inline-block;
 }
 
+.smaller {
+    font-size: var(--bs-font-size-xsm);
+}
+
 body.template-manage-viewlets header {
     position: initial;
 }
