@@ -16622,13 +16622,14 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
 /* line 23, ../scss/contents/_banner.scss */
 .gw-banner .defaultBanner a:hover {
   background-color: var(--bs-primary-hover);
+  color: #FFFFFF;
 }
-/* line 27, ../scss/contents/_banner.scss */
+/* line 28, ../scss/contents/_banner.scss */
 .gw-banner .defaultBanner a i {
   float: right;
   margin-left: 20px;
 }
-/* line 31, ../scss/contents/_banner.scss */
+/* line 32, ../scss/contents/_banner.scss */
 .gw-banner .defaultBanner a i.icon-large {
   font-size: 8em;
   position: absolute;
@@ -16636,17 +16637,17 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   right: -48px;
   opacity: 0.5;
 }
-/* line 42, ../scss/contents/_banner.scss */
+/* line 43, ../scss/contents/_banner.scss */
 .gw-banner a::after {
   display: none;
 }
-/* line 46, ../scss/contents/_banner.scss */
+/* line 47, ../scss/contents/_banner.scss */
 .gw-banner img {
   width: 100%;
   height: auto;
   background-color: var(--bs-primary);
 }
-/* line 51, ../scss/contents/_banner.scss */
+/* line 52, ../scss/contents/_banner.scss */
 .gw-banner img:hover {
   background-color: var(--bs-primary-hover);
 }
