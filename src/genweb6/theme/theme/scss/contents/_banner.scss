@@ -1,0 +1,55 @@
+.gw-banner {
+  margin-bottom: 15px;
+  max-width: 400px;
+
+  .defaultBanner {
+    min-height: 60px;
+    display: table;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+    a {
+      background-color: var(--bs-primary);
+      color: #FFFFFF;
+      font-weight: 600;
+      font-size: 1.5em;
+      line-height: 1.25;
+      padding: 10px 15px 10px 15px;
+      display: table-cell;
+      vertical-align: middle;
+      text-decoration: none;
+
+      &:hover {
+        background-color: var(--bs-primary-hover);
+      }
+
+      i {
+        float: right;
+        margin-left: 20px;
+
+        &.icon-large {
+          font-size: 8em;
+          position: absolute;
+          top: -82px;
+          right: -48px;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+
+  a::after {
+    display: none;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    background-color: var(--bs-primary);
+
+    &:hover {
+      background-color: var(--bs-primary-hover);
+    }
+  }
+}

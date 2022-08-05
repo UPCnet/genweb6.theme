@@ -16594,6 +16594,63 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
 }
 
 /* FIN Botón para reedirigir al principio de la página */
+/* line 1, ../scss/contents/_banner.scss */
+.gw-banner {
+  margin-bottom: 15px;
+  max-width: 400px;
+}
+/* line 5, ../scss/contents/_banner.scss */
+.gw-banner .defaultBanner {
+  min-height: 60px;
+  display: table;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 12, ../scss/contents/_banner.scss */
+.gw-banner .defaultBanner a {
+  background-color: var(--bs-primary);
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 1.5em;
+  line-height: 1.25;
+  padding: 10px 15px 10px 15px;
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+}
+/* line 23, ../scss/contents/_banner.scss */
+.gw-banner .defaultBanner a:hover {
+  background-color: var(--bs-primary-hover);
+}
+/* line 27, ../scss/contents/_banner.scss */
+.gw-banner .defaultBanner a i {
+  float: right;
+  margin-left: 20px;
+}
+/* line 31, ../scss/contents/_banner.scss */
+.gw-banner .defaultBanner a i.icon-large {
+  font-size: 8em;
+  position: absolute;
+  top: -82px;
+  right: -48px;
+  opacity: 0.5;
+}
+/* line 42, ../scss/contents/_banner.scss */
+.gw-banner a::after {
+  display: none;
+}
+/* line 46, ../scss/contents/_banner.scss */
+.gw-banner img {
+  width: 100%;
+  height: auto;
+  background-color: var(--bs-primary);
+}
+/* line 51, ../scss/contents/_banner.scss */
+.gw-banner img:hover {
+  background-color: var(--bs-primary-hover);
+}
+
 /* INICIO Controlpanel CAS */
 /* line 5, ../scss/controlpanels/_cas.scss */
 body.template-cas-controlpanel #accordionLogin {
@@ -16675,8 +16732,9 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem.navTreeCurrentNode > a {
   background-color: transparent;
   color: var(--bs-primary);
+  margin-right: 1.25rem;
 }
-/* line 41, ../scss/portlets/_navigation.scss */
+/* line 42, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem.navTreeCurrentNode > a::after {
   font-family: 'bootstrap-icons';
   content: "\F285";
@@ -16684,26 +16742,26 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   font-size: 1rem;
   margin-top: 0px;
 }
-/* line 50, ../scss/portlets/_navigation.scss */
+/* line 51, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a {
   padding: 0.5rem 0.5rem 0.5rem 1rem;
   color: var(--bs-gray-700);
   text-decoration: none;
 }
-/* line 55, ../scss/portlets/_navigation.scss */
+/* line 56, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a:hover {
   background-color: transparent;
   text-decoration: underline;
 }
-/* line 59, ../scss/portlets/_navigation.scss */
+/* line 60, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a:hover svg {
   text-decoration: none;
 }
-/* line 64, ../scss/portlets/_navigation.scss */
+/* line 65, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a.navTreeItemInPath {
   color: var(--bs-primary);
 }
-/* line 69, ../scss/portlets/_navigation.scss */
+/* line 70, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem ul {
   padding-left: 1rem;
 }

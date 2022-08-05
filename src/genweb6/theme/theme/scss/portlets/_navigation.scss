@@ -37,6 +37,7 @@
         &.navTreeCurrentNode > a {
           background-color: transparent;;
           color: var(--bs-primary);
+          margin-right: 1.25rem;
 
           &::after {
             font-family: 'bootstrap-icons';
