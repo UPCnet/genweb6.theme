@@ -584,17 +584,17 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   text-decoration: underline;
 }
 /* line 15, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portletCollection li img {
-  aspect-ratio: 1;
-  object-fit: cover;
-  object-position: center center;
-  max-height: 80px;
-}
-/* line 22, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portletCollection li div.img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+/* line 20, ../scss/portlets/_multiviewcollection.scss */
+.portlet.portletCollection li div.img img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center center;
+  max-height: 80px;
 }
 /* line 28, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portletCollection li div.txt {

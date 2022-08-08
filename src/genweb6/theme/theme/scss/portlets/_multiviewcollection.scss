@@ -12,17 +12,17 @@
             }
         }
 
-        img {
-            aspect-ratio: 1;
-            object-fit: cover;
-            object-position: center center;
-            max-height: 80px;
-        }
-
         div.img {
             display: flex;
             align-items: center;
             justify-content: center;
+
+            img {
+                aspect-ratio: 1;
+                object-fit: cover;
+                object-position: center center;
+                max-height: 80px;
+            }
         }
 
         div.txt {
