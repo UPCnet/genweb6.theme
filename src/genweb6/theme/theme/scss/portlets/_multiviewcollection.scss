@@ -1,11 +1,54 @@
 .portlet.portletCollection {
 
-    a {
-        color: var(--bs-gray-700);
+    li {
+        list-style-type: none;
 
-        &:hover {
-            color: var(--bs-link-hover-color);
-            text-decoration: underline;
+        a {
+            color: var(--bs-gray-700);
+
+            &:hover {
+                color: var(--bs-link-hover-color);
+                text-decoration: underline;
+            }
+        }
+
+        img {
+            aspect-ratio: 1;
+            object-fit: cover;
+            object-position: center center;
+            max-height: 80px;
+        }
+
+        div.img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div.txt {
+            display: flex;
+            flex-direction: column;
+            color: var(--bs-gray-700);
+
+            .title {
+                order: 1;
+            }
+
+            .description {
+                order: 2;
+            }
+
+            .time {
+                order: 3;
+            }
+
+            .title:first-child {
+                color: red;
+            }
+
+            a {
+                font-weight: 700;
+            }
         }
     }
 }
