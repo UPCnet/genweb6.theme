@@ -32,6 +32,15 @@
 
             .title {
                 order: 1;
+
+                &:first-child {
+                    white-space: normal;
+                    margin-bottom: 0.25rem;
+                }
+
+                a {
+                    font-weight: 700;
+                }
             }
 
             .description {
@@ -40,14 +49,6 @@
 
             .time {
                 order: 3;
-            }
-
-            .title:first-child {
-                color: red;
-            }
-
-            a {
-                font-weight: 700;
             }
         }
     }

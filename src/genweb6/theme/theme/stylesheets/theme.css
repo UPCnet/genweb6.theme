@@ -563,7 +563,7 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 /* FIN Controlpanel Header */
 /* INICIO Portlets */
 /* line 5, ../scss/portlets/_generic.scss */
-.portlet h3.portlet-title {
+.portlet h2.portlet-title {
   color: var(--bs-primary);
   font-weight: 500;
   font-size: 1.5rem;
@@ -619,21 +619,22 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 .portlet.portletCollection li div.txt .title {
   order: 1;
 }
-/* line 37, ../scss/portlets/_multiviewcollection.scss */
+/* line 36, ../scss/portlets/_multiviewcollection.scss */
+.portlet.portletCollection li div.txt .title:first-child {
+  white-space: normal;
+  margin-bottom: 0.25rem;
+}
+/* line 41, ../scss/portlets/_multiviewcollection.scss */
+.portlet.portletCollection li div.txt .title a {
+  font-weight: 700;
+}
+/* line 46, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portletCollection li div.txt .description {
   order: 2;
 }
-/* line 41, ../scss/portlets/_multiviewcollection.scss */
+/* line 50, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portletCollection li div.txt .time {
   order: 3;
-}
-/* line 45, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portletCollection li div.txt .title:first-child {
-  color: red;
-}
-/* line 49, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portletCollection li div.txt a {
-  font-weight: 700;
 }
 
 /* INICIO Portlet navegación */
@@ -709,24 +710,58 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 
 /* FIN Portlet navegación */
 /* line 3, ../scss/portlets/_rss.scss */
-.portlet-noticies ul.list-portlet {
-  padding-left: 0px;
+.portlet.portlet-rss li {
+  list-style-type: none;
 }
 /* line 6, ../scss/portlets/_rss.scss */
-.portlet-noticies ul.list-portlet li {
-  list-style: none;
+.portlet.portlet-rss li a {
+  color: var(--bs-gray-700);
 }
-/* line 11, ../scss/portlets/_rss.scss */
-.portlet-noticies .categories {
-  margin-top: 5px;
+/* line 9, ../scss/portlets/_rss.scss */
+.portlet.portlet-rss li a:hover {
+  color: var(--bs-link-hover-color);
+  text-decoration: underline;
 }
 /* line 14, ../scss/portlets/_rss.scss */
-.portlet-noticies .categories .category {
+.portlet.portlet-rss li a.title {
+  font-weight: 700;
+}
+/* line 19, ../scss/portlets/_rss.scss */
+.portlet.portlet-rss li div.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* line 24, ../scss/portlets/_rss.scss */
+.portlet.portlet-rss li div.img img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center center;
+  max-height: 80px;
+}
+/* line 32, ../scss/portlets/_rss.scss */
+.portlet.portlet-rss li div.txt {
+  color: var(--bs-gray-700);
+}
+/* line 37, ../scss/portlets/_rss.scss */
+.portlet.portlet-rss li div.txt .title a {
+  font-weight: 700;
+}
+/* line 44, ../scss/portlets/_rss.scss */
+.portlet.portlet-rss li div.txt .description > p:last-child {
+  margin-bottom: 0px;
+}
+/* line 49, ../scss/portlets/_rss.scss */
+.portlet.portlet-rss li div.txt .categories {
+  margin-top: 5px;
+}
+/* line 52, ../scss/portlets/_rss.scss */
+.portlet.portlet-rss li div.txt .categories .category {
   background-color: var(--bs-primary);
   color: #FFF;
-  border-radius: 10px;
+  border-radius: 15px;
   display: inline-block;
-  padding: 4px 8px;
+  padding: 4px 10px;
   margin-bottom: 3px;
 }
 
