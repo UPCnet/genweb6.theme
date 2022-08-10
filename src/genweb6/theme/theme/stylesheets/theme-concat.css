@@ -16759,53 +16759,53 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 
 /* FIN Portlets */
 /* line 3, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portletCollection li {
+.portlet.portlet-collection li {
   list-style-type: none;
 }
 /* line 6, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portletCollection li a {
+.portlet.portlet-collection li a {
   color: var(--bs-gray-700);
 }
 /* line 9, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portletCollection li a:hover {
+.portlet.portlet-collection li a:hover {
   color: var(--bs-link-hover-color);
   text-decoration: underline;
 }
 /* line 15, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portletCollection li div.img {
+.portlet.portlet-collection li div.img {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 /* line 20, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portletCollection li div.img img {
+.portlet.portlet-collection li div.img img {
   aspect-ratio: 1;
   object-fit: cover;
   object-position: center center;
   max-height: 80px;
 }
 /* line 28, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portletCollection li div.txt {
+.portlet.portlet-collection li div.txt {
   display: flex;
   flex-direction: column;
   color: var(--bs-gray-700);
 }
 /* line 33, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portletCollection li div.txt .title {
+.portlet.portlet-collection li div.txt .title {
   order: 1;
   font-weight: 700;
 }
 /* line 37, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portletCollection li div.txt .title:first-child {
+.portlet.portlet-collection li div.txt .title:first-child {
   white-space: normal;
   margin-bottom: 0.25rem;
 }
 /* line 43, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portletCollection li div.txt .description {
+.portlet.portlet-collection li div.txt .description {
   order: 2;
 }
 /* line 47, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portletCollection li div.txt .time {
+.portlet.portlet-collection li div.txt .time {
   order: 3;
 }
 
