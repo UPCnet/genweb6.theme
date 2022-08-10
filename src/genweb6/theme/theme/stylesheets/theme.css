@@ -618,21 +618,18 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 /* line 33, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portletCollection li div.txt .title {
   order: 1;
+  font-weight: 700;
 }
-/* line 36, ../scss/portlets/_multiviewcollection.scss */
+/* line 37, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portletCollection li div.txt .title:first-child {
   white-space: normal;
   margin-bottom: 0.25rem;
 }
-/* line 41, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portletCollection li div.txt .title a {
-  font-weight: 700;
-}
-/* line 46, ../scss/portlets/_multiviewcollection.scss */
+/* line 43, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portletCollection li div.txt .description {
   order: 2;
 }
-/* line 50, ../scss/portlets/_multiviewcollection.scss */
+/* line 47, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portletCollection li div.txt .time {
   order: 3;
 }
@@ -743,19 +740,19 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 .portlet.portlet-rss li div.txt {
   color: var(--bs-gray-700);
 }
-/* line 37, ../scss/portlets/_rss.scss */
-.portlet.portlet-rss li div.txt .title a {
+/* line 35, ../scss/portlets/_rss.scss */
+.portlet.portlet-rss li div.txt .title {
   font-weight: 700;
 }
-/* line 44, ../scss/portlets/_rss.scss */
+/* line 41, ../scss/portlets/_rss.scss */
 .portlet.portlet-rss li div.txt .description > p:last-child {
   margin-bottom: 0px;
 }
-/* line 49, ../scss/portlets/_rss.scss */
+/* line 46, ../scss/portlets/_rss.scss */
 .portlet.portlet-rss li div.txt .categories {
   margin-top: 5px;
 }
-/* line 52, ../scss/portlets/_rss.scss */
+/* line 49, ../scss/portlets/_rss.scss */
 .portlet.portlet-rss li div.txt .categories .category {
   background-color: var(--bs-primary);
   color: #FFF;

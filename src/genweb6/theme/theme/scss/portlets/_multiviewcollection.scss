@@ -32,14 +32,11 @@
 
             .title {
                 order: 1;
+                font-weight: 700;
 
                 &:first-child {
                     white-space: normal;
                     margin-bottom: 0.25rem;
-                }
-
-                a {
-                    font-weight: 700;
                 }
             }
 
