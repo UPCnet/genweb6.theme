@@ -49,4 +49,153 @@
             }
         }
     }
+
+    .carousel-item {
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            aspect-ratio: 16 / 9;
+        }
+
+        .carousel-caption {
+            width: 100%;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            padding: 2.5rem 1rem 2.5rem 1rem;
+            display: flex;
+            flex-direction: column;
+            background: -moz-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+            .title {
+                order: 1;
+                color: var(--bs-dark);
+                font-weight: 700;
+
+                &:first-child {
+                    white-space: normal;
+                    margin-bottom: 0.25rem;
+                }
+            }
+
+            .description {
+                order: 2;
+            }
+
+            .time {
+                order: 3;
+            }
+        }
+
+    }
+
+    &.portlet-collection-carousel-complex {
+
+        .carousel-inner {
+            margin-right: 2rem;
+            margin-left: 2rem;
+            width: calc(100% - 4rem);
+        }
+
+
+        .carousel-control-prev,
+        .carousel-control-next {
+
+            i.bi {
+                font-size: 2rem;
+                color: var(--bs-primary);
+
+                &:hover {
+                    color: var(--bs-primary-hover);
+                }
+            }
+        }
+
+        @media (max-width: 767px) {
+            .carousel-inner .carousel-item > div {
+                display: none;
+            }
+            .carousel-inner .carousel-item > div:first-child {
+                display: block;
+            }
+        }
+
+        .carousel-inner .carousel-item.active,
+        .carousel-inner .carousel-item-next,
+        .carousel-inner .carousel-item-prev {
+            display: flex;
+            gap: 2rem;
+        }
+
+        /* medium and up screens */
+        @media (min-width: 768px) {
+
+            .carousel-inner .carousel-item-end.active,
+            .carousel-inner .carousel-item-next {
+              transform: translateX(25%);
+            }
+
+            .carousel-inner .carousel-item-start.active,
+            .carousel-inner .carousel-item-prev {
+              transform: translateX(-25%);
+            }
+        }
+
+        .carousel-inner .carousel-item-end,
+        .carousel-inner .carousel-item-start {
+          transform: translateX(0);
+        }
+    }
+}
+
+.col-md-2,
+.col-md-3 {
+
+    & > .portletWrapper {
+
+        .portlet.portlet-collection {
+
+            .carousel-item {
+
+                img {
+                    aspect-ratio: 1;
+                }
+            }
+        }
+    }
+}
+
+.col-md-4 {
+
+    & > .portletWrapper {
+
+        .portlet.portlet-collection {
+
+            .carousel-item {
+
+                img {
+                    aspect-ratio: 4 / 3;
+                }
+            }
+        }
+    }
+}
+
+.col-md-12 {
+
+    & > .portletWrapper {
+
+        .portlet.portlet-collection {
+
+            .carousel-item {
+
+                img {
+                    aspect-ratio: 21 / 9;
+                }
+            }
+        }
+    }
 }
