@@ -39,6 +39,10 @@ a[target="_blank"]::after {
         color: var(--bs-primary);
         display: table-cell;
         vertical-align: middle;
+
+        &:hover {
+            color: var(--bs-primary-hover);
+        }
     }
 }
 

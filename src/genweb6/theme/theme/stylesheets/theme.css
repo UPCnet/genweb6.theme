@@ -389,42 +389,46 @@ a[target="_blank"]::after {
   display: table-cell;
   vertical-align: middle;
 }
+/* line 43, ../scss/_genweb.scss */
+.external-url-icon::before:hover {
+  color: var(--bs-primary-hover);
+}
 
-/* line 45, ../scss/_genweb.scss */
+/* line 49, ../scss/_genweb.scss */
 .smaller {
   font-size: var(--bs-font-size-xsm);
 }
 
-/* line 49, ../scss/_genweb.scss */
+/* line 53, ../scss/_genweb.scss */
 body.template-manage-viewlets header {
   position: initial;
 }
 
-/* line 53, ../scss/_genweb.scss */
+/* line 57, ../scss/_genweb.scss */
 footer#portal-footer-wrapper {
   background-color: initial;
   color: initial;
   text-align: initial;
   padding: 0rem;
 }
-/* line 61, ../scss/_genweb.scss */
+/* line 65, ../scss/_genweb.scss */
 footer#portal-footer-wrapper [id^="footer-"] h2 {
   font-size: 1.5rem;
   margin-bottom: 1em;
 }
 
-/* line 68, ../scss/_genweb.scss */
+/* line 72, ../scss/_genweb.scss */
 .modal-backdrop.fade.show {
   display: none;
 }
 
-/* line 72, ../scss/_genweb.scss */
+/* line 76, ../scss/_genweb.scss */
 .list-group-item.row {
   display: flex;
 }
 
 /* INICIO Botón para reedirigir al principio de la página */
-/* line 78, ../scss/_genweb.scss */
+/* line 82, ../scss/_genweb.scss */
 .back-to-top {
   background: none;
   margin: 0;
@@ -437,11 +441,11 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   text-decoration: none;
   color: var(--bs-primary);
 }
-/* line 90, ../scss/_genweb.scss */
+/* line 94, ../scss/_genweb.scss */
 .back-to-top:hover, .back-to-top:active, .back-to-top:focus {
   color: var(--bs-primary-hover);
 }
-/* line 96, ../scss/_genweb.scss */
+/* line 100, ../scss/_genweb.scss */
 .back-to-top svg {
   width: 45px;
   height: 45px;
