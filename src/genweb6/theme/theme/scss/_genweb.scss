@@ -25,6 +25,23 @@ a[target="_blank"]::after {
     display: inline-block;
 }
 
+.external-url-icon {
+    display: table;
+
+    &.text-decoration-none:hover {
+        text-decoration: none !important;
+    }
+
+    &::before {
+        content: "\e91c";
+        font-family: "upc-icones";
+        font-size: 180%;
+        color: var(--bs-primary);
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
 .smaller {
     font-size: var(--bs-font-size-xsm);
 }
@@ -50,6 +67,10 @@ footer#portal-footer-wrapper {
 
 .modal-backdrop.fade.show {
     display: none;
+}
+
+.list-group-item.row {
+    display: flex;
 }
 
 /* INICIO Botón para reedirigir al principio de la página */
