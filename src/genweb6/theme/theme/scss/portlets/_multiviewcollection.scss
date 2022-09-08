@@ -95,9 +95,17 @@
     &.portlet-collection-carousel-complex {
 
         .carousel-inner {
-            margin-right: 2rem;
-            margin-left: 2rem;
-            width: calc(100% - 4rem);
+            margin-right: 2.5rem;
+            margin-left: 2.5rem;
+            width: calc(100% - 5rem);
+
+            .carousel-item {
+
+                img {
+                    aspect-ratio: 4 / 3;
+                }
+
+            }
         }
 
 
@@ -115,12 +123,15 @@
         }
 
         @media (max-width: 767px) {
+
             .carousel-inner .carousel-item > div {
                 display: none;
             }
+
             .carousel-inner .carousel-item > div:first-child {
                 display: block;
             }
+
         }
 
         .carousel-inner .carousel-item.active,
@@ -130,23 +141,63 @@
             gap: 2rem;
         }
 
-        /* medium and up screens */
-        @media (min-width: 768px) {
+        @media (max-width: 767px) {
 
             .carousel-inner .carousel-item-end.active,
             .carousel-inner .carousel-item-next {
-              transform: translateX(25%);
+                transform: translateX(100%);
             }
 
             .carousel-inner .carousel-item-start.active,
             .carousel-inner .carousel-item-prev {
-              transform: translateX(-25%);
+                transform: translateX(-100%);
+            }
+        }
+
+        @media (min-width: 768px) {
+
+            .carousel-inner .carousel-item-end.active,
+            .carousel-inner .carousel-item-next {
+                transform: translateX(calc(100% / 3));
+            }
+
+            .carousel-inner .carousel-item-start.active,
+            .carousel-inner .carousel-item-prev {
+                transform: translateX(calc(-100% / 3));
+            }
+
+            .carousel-item.active.carousel-item-start {
+
+                & > .w-100:not(:first-child) {
+                    opacity: 0;
+                }
+            }
+
+            .carousel-item.active.carousel-item-end {
+
+                & > .w-100:not(:last-child) {
+                    opacity: 0;
+                }
+            }
+
+        }
+
+        @media (min-width: 992px) {
+
+            .carousel-inner .carousel-item-end.active,
+            .carousel-inner .carousel-item-next {
+                transform: translateX(25%);
+            }
+
+            .carousel-inner .carousel-item-start.active,
+            .carousel-inner .carousel-item-prev {
+                transform: translateX(-25%);
             }
         }
 
         .carousel-inner .carousel-item-end,
         .carousel-inner .carousel-item-start {
-          transform: translateX(0);
+            transform: translateX(0);
         }
     }
 }
@@ -156,7 +207,7 @@
 
     & > .portletWrapper {
 
-        .portlet.portlet-collection {
+        .portlet.portlet-collection.portlet-collection-carousel {
 
             .carousel-item {
 
@@ -172,7 +223,7 @@
 
     & > .portletWrapper {
 
-        .portlet.portlet-collection {
+        .portlet.portlet-collection.portlet-collection-carousel {
 
             .carousel-item {
 
@@ -188,7 +239,7 @@
 
     & > .portletWrapper {
 
-        .portlet.portlet-collection {
+        .portlet.portlet-collection.portlet-collection-carousel {
 
             .carousel-item {
 
