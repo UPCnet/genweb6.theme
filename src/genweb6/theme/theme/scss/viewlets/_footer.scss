@@ -1,13 +1,9 @@
 /* INICIO Footer */
 
-[id^="footer-"] + #footer-logos {
-  padding: 0em 4em 1em 4em;
-}
-
 #footer-logos {
   background-color: var(--bs-dark);
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
-  padding: 2em 4em 1em 4em;
+  padding: 1em 4em 1em 4em;
 
   .llistatLogos {
     margin: 0 auto;

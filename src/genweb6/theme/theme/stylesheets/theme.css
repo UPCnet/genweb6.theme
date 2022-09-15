@@ -1073,68 +1073,63 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 /* FIN Banner cookies */
 /* INICIO Footer */
 /* line 3, ../scss/viewlets/_footer.scss */
-[id^="footer-"] + #footer-logos {
-  padding: 0em 4em 1em 4em;
-}
-
-/* line 7, ../scss/viewlets/_footer.scss */
 #footer-logos {
   background-color: var(--bs-dark);
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
-  padding: 2em 4em 1em 4em;
+  padding: 1em 4em 1em 4em;
 }
-/* line 12, ../scss/viewlets/_footer.scss */
+/* line 8, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos {
   margin: 0 auto;
   padding: 0;
   list-style: none;
   text-align: center;
 }
-/* line 18, ../scss/viewlets/_footer.scss */
+/* line 14, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li {
   display: inline-block;
   margin: 0 0 1em;
 }
-/* line 22, ../scss/viewlets/_footer.scss */
+/* line 18, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a {
   text-decoration: none;
   margin-left: 2em;
 }
-/* line 26, ../scss/viewlets/_footer.scss */
+/* line 22, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a[target="_blank"]::after {
   display: none;
   content: "";
 }
-/* line 31, ../scss/viewlets/_footer.scss */
+/* line 27, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a img {
   max-height: 90px;
 }
 
-/* line 39, ../scss/viewlets/_footer.scss */
+/* line 35, ../scss/viewlets/_footer.scss */
 #footer-complementary {
   background-color: var(--bs-dark);
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 0 4em;
 }
-/* line 44, ../scss/viewlets/_footer.scss */
+/* line 40, ../scss/viewlets/_footer.scss */
 #footer-complementary p {
   display: inline-block;
   margin: 18px 0;
   color: #FFF;
 }
-/* line 50, ../scss/viewlets/_footer.scss */
+/* line 46, ../scss/viewlets/_footer.scss */
 #footer-complementary nav {
   float: right;
   margin: 18px 0;
 }
-/* line 54, ../scss/viewlets/_footer.scss */
+/* line 50, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul,
 #footer-complementary nav li {
   display: inline;
   margin-left: 24px;
   padding: 0;
 }
-/* line 60, ../scss/viewlets/_footer.scss */
+/* line 56, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul a,
 #footer-complementary nav li a {
   color: #FFF;
@@ -1142,20 +1137,20 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 }
 
 @media (max-width: 992px) {
-  /* line 69, ../scss/viewlets/_footer.scss */
+  /* line 65, ../scss/viewlets/_footer.scss */
   .footer-complementary nav {
     float: none;
     display: block;
     margin-top: 0;
   }
-  /* line 74, ../scss/viewlets/_footer.scss */
+  /* line 70, ../scss/viewlets/_footer.scss */
   .footer-complementary nav ul {
     width: 100%;
     margin: 0 auto;
     display: block;
     text-align: center;
   }
-  /* line 80, ../scss/viewlets/_footer.scss */
+  /* line 76, ../scss/viewlets/_footer.scss */
   .footer-complementary nav ul li {
     margin: 0 12px;
     text-align: center;
