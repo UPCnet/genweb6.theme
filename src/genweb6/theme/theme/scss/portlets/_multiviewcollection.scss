@@ -18,10 +18,9 @@
             justify-content: center;
 
             img {
-                aspect-ratio: 1;
                 object-fit: cover;
                 object-position: center center;
-                max-height: 80px;
+                max-height: 143px;
             }
         }
 
@@ -46,6 +45,25 @@
 
             .time {
                 order: 3;
+            }
+        }
+    }
+
+    &.portlet-collection-iltr {
+
+        ul.list-group {
+            width: 90%;
+        }
+    }
+
+    &.portlet-collection-iutd {
+
+        div.img {
+
+            img {
+                max-height: none;
+                max-width: 100%;
+                height: auto;
             }
         }
     }

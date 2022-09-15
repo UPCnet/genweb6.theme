@@ -5,7 +5,7 @@
 }
 
 #footer-logos {
-  background-color: #FBFBFC;
+  background-color: var(--bs-dark);
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 2em 4em 1em 4em;
 
@@ -13,7 +13,7 @@
     margin: 0 auto;
     padding: 0;
     list-style: none;
-    text-align: right;
+    text-align: center;
 
     li {
       display: inline-block;
@@ -21,7 +21,7 @@
 
       a {
         text-decoration: none;
-        margin-left: 3em;
+        margin-left: 2em;
 
         &[target="_blank"]::after {
           display: none;
@@ -29,7 +29,7 @@
         }
 
         img {
-          max-height: 100px;
+          max-height: 90px;
         }
       }
     }
@@ -37,7 +37,7 @@
 }
 
 #footer-complementary {
-  background-color: #000;
+  background-color: var(--bs-dark);
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 0 4em;
 

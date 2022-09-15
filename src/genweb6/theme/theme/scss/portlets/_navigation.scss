@@ -16,9 +16,13 @@
   .card-body {
 
     & > ul.navTree > li.navTreeItem {
-      border-left: 4px solid var(--bs-gray-700);
+      border-left: 3px solid var(--bs-gray-700);
       border-bottom: 1px solid var(--bs-gray-300);
       margin-bottom: 0.5rem;
+
+      &:hover {
+        border-left: 3px solid var(--bs-primary);
+      }
 
       &.navTreeItemInPath {
         border-left: 4px solid var(--bs-primary);
@@ -55,7 +59,8 @@
 
           &:hover {
             background-color: transparent;
-            text-decoration: underline;
+            text-decoration: none;
+            color: var(--bs-primary);
 
             svg {
               text-decoration: none;
@@ -64,6 +69,13 @@
 
           &.navTreeItemInPath {
             color: var(--bs-primary);
+          }
+
+          svg {
+            height: 1em;
+            width: auto;
+            padding-right: 0.25em;
+            padding-bottom: 2px;
           }
         }
 
