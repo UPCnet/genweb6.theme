@@ -965,6 +965,10 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   margin-right: 1.25rem;
 }
 /* line 46, ../scss/portlets/_navigation.scss */
+.portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem.navTreeCurrentNode > a:hover {
+  color: var(--bs-link-hover-color);
+}
+/* line 50, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem.navTreeCurrentNode > a::after {
   font-family: 'bootstrap-icons';
   content: "\F285";
@@ -972,7 +976,7 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   font-size: 1rem;
   margin-top: 0px;
 }
-/* line 55, ../scss/portlets/_navigation.scss */
+/* line 59, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a {
   padding: 0.5rem 0.5rem 0.5rem 1rem;
   color: var(--bs-gray-700);
@@ -981,28 +985,29 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   display: flex;
   align-items: center;
 }
-/* line 63, ../scss/portlets/_navigation.scss */
+/* line 67, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a:hover {
   background-color: transparent;
   text-decoration: none;
   color: var(--bs-primary);
 }
-/* line 68, ../scss/portlets/_navigation.scss */
+/* line 72, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a:hover svg {
   text-decoration: none;
 }
-/* line 73, ../scss/portlets/_navigation.scss */
+/* line 77, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a.navTreeItemInPath {
   color: var(--bs-primary);
 }
-/* line 77, ../scss/portlets/_navigation.scss */
+/* line 81, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a svg {
   height: 1em;
   width: auto;
   padding-right: 0.5em;
   padding-bottom: 2px;
+  min-width: 24px;
 }
-/* line 85, ../scss/portlets/_navigation.scss */
+/* line 90, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem ul {
   padding-left: 1rem;
 }
