@@ -22,10 +22,7 @@
             justify-content: center;
 
             img {
-                aspect-ratio: 1;
-                object-fit: cover;
-                object-position: center center;
-                max-height: 80px;
+                height: auto;
             }
         }
 
@@ -47,8 +44,8 @@
                 margin-top: 5px;
 
                 .category {
-                    background-color: var(--bs-primary);
-                    color: #FFF;
+                    background-color: #bfdbeb;
+                    color: #000;
                     border-radius: 15px;
                     display: inline-block;
                     padding: 4px 10px;

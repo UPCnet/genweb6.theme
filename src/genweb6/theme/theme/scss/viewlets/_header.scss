@@ -71,6 +71,10 @@
                         font-weight: normal;
                         line-height: 18px;
                         color: #666;
+
+                        &:hover {
+                            color: var(--bs-primary);
+                        }
                     }
                 }
 

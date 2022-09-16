@@ -22,13 +22,22 @@
 
             a {
                 color: var(--bs-gray-700);
-
-                &:hover {
-                    color: var(--bs-link-hover-color);
-                    text-decoration: underline;
-                }
             }
         }
+    }
+
+    a {
+        color: var(--bs-primary);
+
+        &:hover {
+           color: var(--bs-link-hover-color);
+           text-decoration: none !important;
+        }
+    }
+
+
+    .external-url-icon {
+        font-size: 1.8rem;
     }
 }
 
