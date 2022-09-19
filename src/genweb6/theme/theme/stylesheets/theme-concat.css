@@ -16980,50 +16980,54 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   font-weight: 700;
 }
 /* line 100, ../scss/portlets/_multiviewcollection.scss */
+.portlet.portlet-collection .carousel-item .carousel-caption .title h5 {
+  color: var(--bs-dark);
+}
+/* line 104, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection .carousel-item .carousel-caption .title:first-child {
   white-space: normal;
   margin-bottom: 0.25rem;
 }
-/* line 106, ../scss/portlets/_multiviewcollection.scss */
+/* line 110, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection .carousel-item .carousel-caption .description {
   order: 2;
 }
-/* line 110, ../scss/portlets/_multiviewcollection.scss */
+/* line 114, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection .carousel-item .carousel-caption .time {
   order: 3;
 }
-/* line 119, ../scss/portlets/_multiviewcollection.scss */
+/* line 123, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner {
   margin-right: 2.5rem;
   margin-left: 2.5rem;
   width: calc(100% - 5rem);
 }
-/* line 126, ../scss/portlets/_multiviewcollection.scss */
+/* line 130, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item img {
   aspect-ratio: 4 / 3;
 }
-/* line 137, ../scss/portlets/_multiviewcollection.scss */
+/* line 141, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-control-prev i.bi,
 .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-control-next i.bi {
   font-size: 2rem;
   color: var(--bs-primary);
 }
-/* line 141, ../scss/portlets/_multiviewcollection.scss */
+/* line 145, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-control-prev i.bi:hover,
 .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-control-next i.bi:hover {
   color: var(--bs-primary-hover);
 }
 @media (max-width: 767px) {
-  /* line 149, ../scss/portlets/_multiviewcollection.scss */
+  /* line 153, ../scss/portlets/_multiviewcollection.scss */
   .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item > div {
     display: none;
   }
-  /* line 153, ../scss/portlets/_multiviewcollection.scss */
+  /* line 157, ../scss/portlets/_multiviewcollection.scss */
   .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item > div:first-child {
     display: block;
   }
 }
-/* line 159, ../scss/portlets/_multiviewcollection.scss */
+/* line 163, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item.active,
 .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-next,
 .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-prev {
@@ -17031,67 +17035,67 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   gap: 2rem;
 }
 @media (max-width: 767px) {
-  /* line 168, ../scss/portlets/_multiviewcollection.scss */
+  /* line 172, ../scss/portlets/_multiviewcollection.scss */
   .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-end.active,
   .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-next {
     transform: translateX(100%);
   }
-  /* line 173, ../scss/portlets/_multiviewcollection.scss */
+  /* line 177, ../scss/portlets/_multiviewcollection.scss */
   .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-start.active,
   .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-prev {
     transform: translateX(-100%);
   }
 }
 @media (min-width: 768px) {
-  /* line 181, ../scss/portlets/_multiviewcollection.scss */
+  /* line 185, ../scss/portlets/_multiviewcollection.scss */
   .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-end.active,
   .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-next {
     transform: translateX(calc(100% / 3));
   }
-  /* line 186, ../scss/portlets/_multiviewcollection.scss */
+  /* line 190, ../scss/portlets/_multiviewcollection.scss */
   .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-start.active,
   .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-prev {
     transform: translateX(calc(-100% / 3));
   }
-  /* line 193, ../scss/portlets/_multiviewcollection.scss */
+  /* line 197, ../scss/portlets/_multiviewcollection.scss */
   .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-item.active.carousel-item-start > .w-100:not(:first-child) {
     opacity: 0;
   }
-  /* line 200, ../scss/portlets/_multiviewcollection.scss */
+  /* line 204, ../scss/portlets/_multiviewcollection.scss */
   .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-item.active.carousel-item-end > .w-100:not(:last-child) {
     opacity: 0;
   }
 }
 @media (min-width: 992px) {
-  /* line 209, ../scss/portlets/_multiviewcollection.scss */
+  /* line 213, ../scss/portlets/_multiviewcollection.scss */
   .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-end.active,
   .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-next {
     transform: translateX(25%);
   }
-  /* line 214, ../scss/portlets/_multiviewcollection.scss */
+  /* line 218, ../scss/portlets/_multiviewcollection.scss */
   .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-start.active,
   .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-prev {
     transform: translateX(-25%);
   }
 }
-/* line 220, ../scss/portlets/_multiviewcollection.scss */
+/* line 224, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-end,
 .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-start {
   transform: translateX(0);
 }
 
-/* line 236, ../scss/portlets/_multiviewcollection.scss */
+/* line 240, ../scss/portlets/_multiviewcollection.scss */
 .col-md-2 > .portletWrapper .portlet.portlet-collection.portlet-collection-carousel .carousel-item img,
 .col-md-3 > .portletWrapper .portlet.portlet-collection.portlet-collection-carousel .carousel-item img {
   aspect-ratio: 1;
 }
 
-/* line 252, ../scss/portlets/_multiviewcollection.scss */
+/* line 256, ../scss/portlets/_multiviewcollection.scss */
 .col-md-4 > .portletWrapper .portlet.portlet-collection.portlet-collection-carousel .carousel-item img {
   aspect-ratio: 4 / 3;
 }
 
-/* line 268, ../scss/portlets/_multiviewcollection.scss */
+/* line 272, ../scss/portlets/_multiviewcollection.scss */
 .col-md-12 > .portletWrapper .portlet.portlet-collection.portlet-collection-carousel .carousel-item img {
   aspect-ratio: 21 / 9;
 }

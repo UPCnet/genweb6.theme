@@ -97,6 +97,10 @@
                 color: var(--bs-dark);
                 font-weight: 700;
 
+                h5 {
+                    color: var(--bs-dark);
+                }
+
                 &:first-child {
                     white-space: normal;
                     margin-bottom: 0.25rem;
