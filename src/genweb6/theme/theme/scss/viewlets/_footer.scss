@@ -46,6 +46,11 @@
   nav {
     float: right;
     margin: 18px 0;
+    text-align: right;
+
+    li {
+      white-space: nowrap;
+    }
 
     ul,
     li {
@@ -67,7 +72,7 @@
 
 @media (max-width: 992px) {
   .footer-complementary nav {
-    float:none;
+    float: none;
     display: block;
     margin-top: 0;
 
@@ -82,6 +87,18 @@
         text-align: center;
         display: inline-block;
       }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  .footer-complementary nav {
+    float: left;
+    text-align: left
+
+    li {
+      margin-right: 24px;
     }
   }
 }
