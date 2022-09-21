@@ -47,14 +47,20 @@ module.exports = function (grunt) {
         uglify: {
             js: {
                 files: {
+                    'js/contents/document_image.min.js':
+                        '../../../../../genweb6.core/src/genweb6/core/content/document_image/document_image.js',
                     'js/controlpanels/cookies_preview.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/controlpanels/widgets/cookies_preview.js',
                     'js/controlpanels/login_preview.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/cas/login_preview.js',
                     'js/portlets/gw-manage-portlets.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/portlets/manage_portlets/gw-manage-portlets.js',
+                    'js/portlets/multiviewcollection_complex_carousel.min.js':
+                        '../../../../../genweb6.core/src/genweb6/core/portlets/multiviewcollection/templates/carousel_complex.js',
                     'js/portlets/new_existing_content.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/portlets/new_existing_content/new_existing_content.js',
+                    'js/portlets/rss.min.js':
+                        '../../../../../genweb6.core/src/genweb6/core/portlets/rss/rss.js',
                     'js/views/filtered_contents_search.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/browser/views_templates/filtered_contents_search/filtered_contents_search.js',
                 }
