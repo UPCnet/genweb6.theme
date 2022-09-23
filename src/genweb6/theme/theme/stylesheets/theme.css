@@ -522,8 +522,13 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   display: flex;
 }
 
+/* line 117, ../scss/_genweb.scss */
+.plone-icon {
+  height: 0.73em;
+}
+
 /* INICIO Botón para reedirigir al principio de la página */
-/* line 119, ../scss/_genweb.scss */
+/* line 123, ../scss/_genweb.scss */
 .back-to-top {
   background: none;
   margin: 0;
@@ -536,11 +541,11 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   text-decoration: none;
   color: var(--bs-primary);
 }
-/* line 131, ../scss/_genweb.scss */
+/* line 135, ../scss/_genweb.scss */
 .back-to-top:hover, .back-to-top:active, .back-to-top:focus {
   color: var(--bs-primary-hover);
 }
-/* line 137, ../scss/_genweb.scss */
+/* line 141, ../scss/_genweb.scss */
 .back-to-top svg {
   width: 45px;
   height: 45px;
@@ -637,6 +642,49 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
 /* line 52, ../scss/contents/_banner.scss */
 .gw-banner img:hover {
   background-color: var(--bs-primary-hover);
+}
+
+/* line 5, ../scss/contents/_event.scss */
+.portlet-events-content .list-portlet a {
+  text-decoration: none;
+}
+/* line 9, ../scss/contents/_event.scss */
+.portlet-events-content .list-portlet.list-portlet {
+  list-style: none;
+}
+/* line 13, ../scss/contents/_event.scss */
+.portlet-events-content .list-portlet.first-selector {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  padding-right: 32px;
+  border: 1px solid var(--bs-primary);
+  border-radius: 7px;
+}
+/* line 22, ../scss/contents/_event.scss */
+.portlet-events-content .list-portlet.first-selector .select-today a.today {
+  border-left: 1px solid var(--bs-primary);
+  border-right: 1px solid var(--bs-primary);
+  padding: 0 32px;
+}
+/* line 29, ../scss/contents/_event.scss */
+.portlet-events-content .list-portlet.second-selector {
+  padding-left: 0px;
+  max-width: 12em;
+}
+/* line 34, ../scss/contents/_event.scss */
+.portlet-events-content .list-portlet.second-selector li[class^='select-'] {
+  text-align: center;
+  border: 1px solid var(--bs-primary);
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+/* line 5, ../scss/contents/_generic.scss */
+article#content header p.lead {
+  font-family: 'Roboto';
+  font-weight: 400;
 }
 
 /* INICIO Controlpanel CAS */
