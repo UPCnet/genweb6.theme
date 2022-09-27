@@ -138,7 +138,7 @@
 
   <!-- Add additional footer content, like script tags (from site settings). -->
   <after
-      css:theme-children="html body"
+      css:theme-children="#portal-footer"
       content="//footer[@id='portal-footer-wrapper']/*[not(@class='row')]"
       />
 

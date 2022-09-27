@@ -16,9 +16,11 @@
       font-size: 1.5em;
       line-height: 1.25;
       padding: 10px 15px 10px 15px;
-      display: table-cell;
-      vertical-align: middle;
       text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 60px;
 
       &:hover {
         background-color: var(--bs-primary-hover);
@@ -26,7 +28,6 @@
       }
 
       i {
-        float: right;
         margin-left: 20px;
 
         &.icon-large {

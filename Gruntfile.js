@@ -42,7 +42,7 @@ module.exports = function (grunt) {
                     'scss/**/*'
                 ],
                 tasks: ['compass:css', 'concat:css', 'cssmin:css']
-            },
+            }
         },
         uglify: {
             js: {
@@ -55,12 +55,12 @@ module.exports = function (grunt) {
                         '../../../../../genweb6.core/src/genweb6/core/cas/login_preview.js',
                     'js/portlets/gw-manage-portlets.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/portlets/manage_portlets/gw-manage-portlets.js',
-                    'js/portlets/multiviewcollection_complex_carousel.min.js':
-                        '../../../../../genweb6.core/src/genweb6/core/portlets/multiviewcollection/templates/carousel_complex.js',
                     'js/portlets/new_existing_content.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/portlets/new_existing_content/new_existing_content.js',
                     'js/portlets/rss.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/portlets/rss/rss.js',
+                    'js/templates/multiple_carousel.min.js':
+                        '../../../../../genweb6.core/src/genweb6/core/browser/macros/carousel/multiple_carousel.js',
                     'js/views/filtered_contents_search.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/browser/views_templates/filtered_contents_search/filtered_contents_search.js',
                 }

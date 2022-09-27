@@ -607,21 +607,22 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   font-size: 1.5em;
   line-height: 1.25;
   padding: 10px 15px 10px 15px;
-  display: table-cell;
-  vertical-align: middle;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 60px;
 }
-/* line 23, ../scss/contents/_banner.scss */
+/* line 25, ../scss/contents/_banner.scss */
 .gw-banner .defaultBanner a:hover {
   background-color: var(--bs-primary-hover);
   color: #FFFFFF;
 }
-/* line 28, ../scss/contents/_banner.scss */
+/* line 30, ../scss/contents/_banner.scss */
 .gw-banner .defaultBanner a i {
-  float: right;
   margin-left: 20px;
 }
-/* line 32, ../scss/contents/_banner.scss */
+/* line 33, ../scss/contents/_banner.scss */
 .gw-banner .defaultBanner a i.icon-large {
   font-size: 8em;
   position: absolute;
@@ -629,17 +630,17 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   right: -48px;
   opacity: 0.5;
 }
-/* line 43, ../scss/contents/_banner.scss */
+/* line 44, ../scss/contents/_banner.scss */
 .gw-banner a::after {
   display: none;
 }
-/* line 47, ../scss/contents/_banner.scss */
+/* line 48, ../scss/contents/_banner.scss */
 .gw-banner img {
   width: 100%;
   height: auto;
   background-color: var(--bs-primary);
 }
-/* line 52, ../scss/contents/_banner.scss */
+/* line 53, ../scss/contents/_banner.scss */
 .gw-banner img:hover {
   background-color: var(--bs-primary-hover);
 }
@@ -829,154 +830,6 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   max-width: 100%;
   height: auto;
 }
-/* line 77, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portlet-collection .carousel-item img {
-  object-fit: cover;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-}
-/* line 83, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portlet-collection .carousel-item .carousel-caption {
-  width: 100%;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  padding: 2.5rem 1rem 2.5rem 1rem;
-  display: flex;
-  flex-direction: column;
-  background: -moz-linear-gradient(bottom, white 0%, rgba(255, 255, 255, 0) 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(bottom, white 0%, rgba(255, 255, 255, 0) 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to top, white 0%, rgba(255, 255, 255, 0) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
-/* line 95, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portlet-collection .carousel-item .carousel-caption .title {
-  order: 1;
-  color: var(--bs-dark);
-  font-weight: 700;
-}
-/* line 100, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portlet-collection .carousel-item .carousel-caption .title h5 {
-  color: var(--bs-dark);
-}
-/* line 104, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portlet-collection .carousel-item .carousel-caption .title:first-child {
-  white-space: normal;
-  margin-bottom: 0.25rem;
-}
-/* line 110, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portlet-collection .carousel-item .carousel-caption .description {
-  order: 2;
-}
-/* line 114, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portlet-collection .carousel-item .carousel-caption .time {
-  order: 3;
-}
-/* line 123, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner {
-  margin-right: 2.5rem;
-  margin-left: 2.5rem;
-  width: calc(100% - 5rem);
-}
-/* line 130, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item img {
-  aspect-ratio: 4 / 3;
-}
-/* line 141, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portlet-collection.portlet-collection-carousel-complex .carousel-control-prev i.bi,
-.portlet.portlet-collection.portlet-collection-carousel-complex .carousel-control-next i.bi {
-  font-size: 2rem;
-  color: var(--bs-primary);
-}
-/* line 145, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portlet-collection.portlet-collection-carousel-complex .carousel-control-prev i.bi:hover,
-.portlet.portlet-collection.portlet-collection-carousel-complex .carousel-control-next i.bi:hover {
-  color: var(--bs-primary-hover);
-}
-@media (max-width: 767px) {
-  /* line 153, ../scss/portlets/_multiviewcollection.scss */
-  .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item > div {
-    display: none;
-  }
-  /* line 157, ../scss/portlets/_multiviewcollection.scss */
-  .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item > div:first-child {
-    display: block;
-  }
-}
-/* line 163, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item.active,
-.portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-next,
-.portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-prev {
-  display: flex;
-  gap: 2rem;
-}
-@media (max-width: 767px) {
-  /* line 172, ../scss/portlets/_multiviewcollection.scss */
-  .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-end.active,
-  .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-next {
-    transform: translateX(100%);
-  }
-  /* line 177, ../scss/portlets/_multiviewcollection.scss */
-  .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-start.active,
-  .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-prev {
-    transform: translateX(-100%);
-  }
-}
-@media (min-width: 768px) {
-  /* line 185, ../scss/portlets/_multiviewcollection.scss */
-  .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-end.active,
-  .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-next {
-    transform: translateX(calc(100% / 3));
-  }
-  /* line 190, ../scss/portlets/_multiviewcollection.scss */
-  .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-start.active,
-  .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-prev {
-    transform: translateX(calc(-100% / 3));
-  }
-  /* line 197, ../scss/portlets/_multiviewcollection.scss */
-  .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-item.active.carousel-item-start > .w-100:not(:first-child) {
-    opacity: 0;
-  }
-  /* line 204, ../scss/portlets/_multiviewcollection.scss */
-  .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-item.active.carousel-item-end > .w-100:not(:last-child) {
-    opacity: 0;
-  }
-}
-@media (min-width: 992px) {
-  /* line 213, ../scss/portlets/_multiviewcollection.scss */
-  .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-end.active,
-  .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-next {
-    transform: translateX(25%);
-  }
-  /* line 218, ../scss/portlets/_multiviewcollection.scss */
-  .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-start.active,
-  .portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-prev {
-    transform: translateX(-25%);
-  }
-}
-/* line 224, ../scss/portlets/_multiviewcollection.scss */
-.portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-end,
-.portlet.portlet-collection.portlet-collection-carousel-complex .carousel-inner .carousel-item-start {
-  transform: translateX(0);
-}
-
-/* line 240, ../scss/portlets/_multiviewcollection.scss */
-.col-md-2 > .portletWrapper .portlet.portlet-collection.portlet-collection-carousel .carousel-item img,
-.col-md-3 > .portletWrapper .portlet.portlet-collection.portlet-collection-carousel .carousel-item img {
-  aspect-ratio: 1;
-}
-
-/* line 256, ../scss/portlets/_multiviewcollection.scss */
-.col-md-4 > .portletWrapper .portlet.portlet-collection.portlet-collection-carousel .carousel-item img {
-  aspect-ratio: 4 / 3;
-}
-
-/* line 272, ../scss/portlets/_multiviewcollection.scss */
-.col-md-12 > .portletWrapper .portlet.portlet-collection.portlet-collection-carousel .carousel-item img {
-  aspect-ratio: 21 / 9;
-}
 
 /* INICIO Portlet navegación */
 /* line 3, ../scss/portlets/_navigation.scss */
@@ -1123,6 +976,158 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   margin-bottom: 3px;
 }
 
+/* line 6, ../scss/templates/_carousel.scss */
+.template-carousel .carousel-item img,
+.template-multiple-carousel .carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+/* line 12, ../scss/templates/_carousel.scss */
+.template-carousel .carousel-item .carousel-caption,
+.template-multiple-carousel .carousel-item .carousel-caption {
+  width: 100%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 2.5rem 1rem 2.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  background: -moz-linear-gradient(bottom, white 0%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(bottom, white 0%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to top, white 0%, rgba(255, 255, 255, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+/* line 24, ../scss/templates/_carousel.scss */
+.template-carousel .carousel-item .carousel-caption .title,
+.template-multiple-carousel .carousel-item .carousel-caption .title {
+  order: 1;
+  color: var(--bs-dark);
+  font-weight: 700;
+}
+/* line 29, ../scss/templates/_carousel.scss */
+.template-carousel .carousel-item .carousel-caption .title h5,
+.template-multiple-carousel .carousel-item .carousel-caption .title h5 {
+  color: var(--bs-dark);
+}
+/* line 33, ../scss/templates/_carousel.scss */
+.template-carousel .carousel-item .carousel-caption .title:first-child,
+.template-multiple-carousel .carousel-item .carousel-caption .title:first-child {
+  white-space: normal;
+  margin-bottom: 0.25rem;
+}
+/* line 39, ../scss/templates/_carousel.scss */
+.template-carousel .carousel-item .carousel-caption .description,
+.template-multiple-carousel .carousel-item .carousel-caption .description {
+  order: 2;
+}
+/* line 43, ../scss/templates/_carousel.scss */
+.template-carousel .carousel-item .carousel-caption .time,
+.template-multiple-carousel .carousel-item .carousel-caption .time {
+  order: 3;
+}
+
+/* line 52, ../scss/templates/_carousel.scss */
+.template-multiple-carousel .carousel-inner {
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  width: calc(100% - 5rem);
+}
+/* line 59, ../scss/templates/_carousel.scss */
+.template-multiple-carousel .carousel-inner .carousel-item img {
+  aspect-ratio: 4 / 3;
+}
+/* line 70, ../scss/templates/_carousel.scss */
+.template-multiple-carousel .carousel-control-prev i.bi,
+.template-multiple-carousel .carousel-control-next i.bi {
+  font-size: 2rem;
+  color: var(--bs-primary);
+}
+/* line 74, ../scss/templates/_carousel.scss */
+.template-multiple-carousel .carousel-control-prev i.bi:hover,
+.template-multiple-carousel .carousel-control-next i.bi:hover {
+  color: var(--bs-primary-hover);
+}
+@media (max-width: 767px) {
+  /* line 82, ../scss/templates/_carousel.scss */
+  .template-multiple-carousel .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  /* line 86, ../scss/templates/_carousel.scss */
+  .template-multiple-carousel .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+/* line 92, ../scss/templates/_carousel.scss */
+.template-multiple-carousel .carousel-inner .carousel-item.active,
+.template-multiple-carousel .carousel-inner .carousel-item-next,
+.template-multiple-carousel .carousel-inner .carousel-item-prev {
+  display: flex;
+  gap: 2rem;
+}
+@media (max-width: 767px) {
+  /* line 101, ../scss/templates/_carousel.scss */
+  .template-multiple-carousel .carousel-inner .carousel-item-end.active,
+  .template-multiple-carousel .carousel-inner .carousel-item-next {
+    transform: translateX(100%);
+  }
+  /* line 106, ../scss/templates/_carousel.scss */
+  .template-multiple-carousel .carousel-inner .carousel-item-start.active,
+  .template-multiple-carousel .carousel-inner .carousel-item-prev {
+    transform: translateX(-100%);
+  }
+}
+@media (min-width: 768px) {
+  /* line 114, ../scss/templates/_carousel.scss */
+  .template-multiple-carousel .carousel-inner .carousel-item-end.active,
+  .template-multiple-carousel .carousel-inner .carousel-item-next {
+    transform: translateX(calc(100% / 3));
+  }
+  /* line 119, ../scss/templates/_carousel.scss */
+  .template-multiple-carousel .carousel-inner .carousel-item-start.active,
+  .template-multiple-carousel .carousel-inner .carousel-item-prev {
+    transform: translateX(calc(-100% / 3));
+  }
+  /* line 126, ../scss/templates/_carousel.scss */
+  .template-multiple-carousel .carousel-item.active.carousel-item-start > .w-100:not(:first-child) {
+    opacity: 0;
+  }
+  /* line 133, ../scss/templates/_carousel.scss */
+  .template-multiple-carousel .carousel-item.active.carousel-item-end > .w-100:not(:last-child) {
+    opacity: 0;
+  }
+}
+@media (min-width: 992px) {
+  /* line 142, ../scss/templates/_carousel.scss */
+  .template-multiple-carousel .carousel-inner .carousel-item-end.active,
+  .template-multiple-carousel .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  /* line 147, ../scss/templates/_carousel.scss */
+  .template-multiple-carousel .carousel-inner .carousel-item-start.active,
+  .template-multiple-carousel .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+/* line 153, ../scss/templates/_carousel.scss */
+.template-multiple-carousel .carousel-inner .carousel-item-end,
+.template-multiple-carousel .carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+
+/* line 168, ../scss/templates/_carousel.scss */
+.col-md-2 > .portletWrapper .template-carousel .carousel-item img,
+.col-md-3 > .portletWrapper .template-carousel .carousel-item img {
+  aspect-ratio: 1;
+}
+
+/* line 184, ../scss/templates/_carousel.scss */
+.col-md-4 > .portletWrapper .template-carousel .carousel-item img {
+  aspect-ratio: 4 / 3;
+}
+
 /* line 1, ../scss/viewlets/_breadcrumb.scss */
 #portal-breadcrumbs {
   background-color: #ffffff;
@@ -1181,106 +1186,110 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 /* FIN Banner cookies */
 /* INICIO Footer */
 /* line 3, ../scss/viewlets/_footer.scss */
+#portal-footer {
+  position: relative;
+}
+/* line 6, ../scss/viewlets/_footer.scss */
+#portal-footer::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-image: url("https://genweb.upc.edu/capcalera.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  z-index: -1;
+}
+
+/* line 23, ../scss/viewlets/_footer.scss */
 #footer-logos {
   background-color: var(--bs-dark);
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 1em 4em 1em 4em;
 }
-/* line 8, ../scss/viewlets/_footer.scss */
+/* line 28, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos {
   margin: 0 auto;
   padding: 0;
   list-style: none;
   text-align: center;
 }
-/* line 14, ../scss/viewlets/_footer.scss */
+/* line 34, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li {
   display: inline-block;
   margin: 0 0 1em;
 }
-/* line 18, ../scss/viewlets/_footer.scss */
+/* line 38, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a {
   text-decoration: none;
   margin-left: 2em;
 }
-/* line 22, ../scss/viewlets/_footer.scss */
+/* line 42, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a[target="_blank"]::after {
   display: none;
   content: "";
 }
-/* line 27, ../scss/viewlets/_footer.scss */
+/* line 47, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a img {
   max-height: 90px;
 }
 
-/* line 35, ../scss/viewlets/_footer.scss */
+/* line 55, ../scss/viewlets/_footer.scss */
 #footer-complementary {
   background-color: var(--bs-dark);
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 0 4em;
 }
-/* line 40, ../scss/viewlets/_footer.scss */
+/* line 60, ../scss/viewlets/_footer.scss */
 #footer-complementary p {
   display: inline-block;
   margin: 18px 0;
   color: #FFF;
 }
-/* line 46, ../scss/viewlets/_footer.scss */
+/* line 66, ../scss/viewlets/_footer.scss */
 #footer-complementary nav {
   float: right;
   margin: 18px 0;
   text-align: right;
 }
-/* line 51, ../scss/viewlets/_footer.scss */
+/* line 71, ../scss/viewlets/_footer.scss */
 #footer-complementary nav li {
   white-space: nowrap;
+  margin-left: 24px;
 }
-/* line 55, ../scss/viewlets/_footer.scss */
+/* line 76, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul,
 #footer-complementary nav li {
   display: inline;
-  margin-left: 24px;
   padding: 0;
 }
-/* line 61, ../scss/viewlets/_footer.scss */
+/* line 81, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul a,
 #footer-complementary nav li a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 65, ../scss/viewlets/_footer.scss */
+/* line 85, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul a:hover,
 #footer-complementary nav li a:hover {
   font-weight: 400;
 }
 
-@media (max-width: 992px) {
-  /* line 74, ../scss/viewlets/_footer.scss */
-  .footer-complementary nav {
-    float: none;
-    display: block;
-    margin-top: 0;
-  }
-  /* line 79, ../scss/viewlets/_footer.scss */
-  .footer-complementary nav ul {
-    width: 100%;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-  }
-  /* line 85, ../scss/viewlets/_footer.scss */
-  .footer-complementary nav ul li {
-    margin: 0 12px;
-    text-align: center;
-    display: inline-block;
-  }
-}
 @media (max-width: 768px) {
-  /* line 96, ../scss/viewlets/_footer.scss */
-  .footer-complementary nav {
+  /* line 95, ../scss/viewlets/_footer.scss */
+  #footer-complementary nav {
     float: left;
-    text-align: left li;
-    text-align-margin-right: 24px;
+    text-align: left;
+  }
+  /* line 99, ../scss/viewlets/_footer.scss */
+  #footer-complementary nav li {
+    margin-right: 24px;
+    margin-left: 0;
   }
 }
 /* FIN Footer */
