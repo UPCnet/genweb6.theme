@@ -767,6 +767,89 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 }
 
 /* FIN Portlets */
+/* line 1, ../scss/portlets/_calendar.scss */
+.portlet.portlet-calendar {
+  border: 0px solid transparent;
+  border-radius: 0px;
+}
+/* line 5, ../scss/portlets/_calendar.scss */
+.portlet.portlet-calendar .card-header {
+  border-bottom: 0px solid transparent;
+  border-radius: 0px;
+  padding: 0px;
+  background-color: transparent;
+  text-align: right;
+}
+/* line 12, ../scss/portlets/_calendar.scss */
+.portlet.portlet-calendar .card-header a {
+  visibility: hidden;
+  text-decoration: none;
+}
+/* line 16, ../scss/portlets/_calendar.scss */
+.portlet.portlet-calendar .card-header a.calendarPrevious:after {
+  visibility: visible;
+  content: "<";
+  padding-right: 8px;
+}
+/* line 22, ../scss/portlets/_calendar.scss */
+.portlet.portlet-calendar .card-header a.calendarNext:after {
+  visibility: visible;
+  content: ">";
+  padding-left: -2px;
+}
+/* line 30, ../scss/portlets/_calendar.scss */
+.portlet.portlet-calendar .card-body {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: var(--bs-card-title-spacer-y);
+}
+/* line 35, ../scss/portlets/_calendar.scss */
+.portlet.portlet-calendar .card-body table {
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+/* line 38, ../scss/portlets/_calendar.scss */
+.portlet.portlet-calendar .card-body table th,
+.portlet.portlet-calendar .card-body table td {
+  text-align: center;
+  padding: 0.75rem 0.25rem;
+}
+/* line 44, ../scss/portlets/_calendar.scss */
+.portlet.portlet-calendar .card-body table thead {
+  border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  background-color: var(--bs-gray-300);
+}
+/* line 48, ../scss/portlets/_calendar.scss */
+.portlet.portlet-calendar .card-body table thead th {
+  color: var(--bs-primary);
+}
+/* line 57, ../scss/portlets/_calendar.scss */
+.portlet.portlet-calendar .card-body table tbody td a {
+  color: var(--bs-gray-700);
+  text-decoration: none;
+}
+/* line 62, ../scss/portlets/_calendar.scss */
+.portlet.portlet-calendar .card-body table tbody td.cal_has_events {
+  background-color: #8fc5e4;
+}
+/* line 65, ../scss/portlets/_calendar.scss */
+.portlet.portlet-calendar .card-body table tbody td.cal_has_events a {
+  font-weight: 700;
+  color: var(--bs-dark);
+}
+/* line 74, ../scss/portlets/_calendar.scss */
+.portlet.portlet-calendar .card-body table tbody td.cal_prev_month span, .portlet.portlet-calendar .card-body table tbody td.cal_next_month span {
+  color: var(--bs-gray-500);
+}
+/* line 78, ../scss/portlets/_calendar.scss */
+.portlet.portlet-calendar .card-body table tbody td.cal_prev_month.cal_has_events, .portlet.portlet-calendar .card-body table tbody td.cal_next_month.cal_has_events {
+  background-color: #deeef7;
+}
+/* line 81, ../scss/portlets/_calendar.scss */
+.portlet.portlet-calendar .card-body table tbody td.cal_prev_month.cal_has_events a, .portlet.portlet-calendar .card-body table tbody td.cal_next_month.cal_has_events a {
+  font-weight: 700;
+  color: var(--bs-gray-500);
+}
+
 /* line 3, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection li {
   list-style-type: none;
