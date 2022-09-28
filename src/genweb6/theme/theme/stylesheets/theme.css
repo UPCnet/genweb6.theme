@@ -645,43 +645,6 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   background-color: var(--bs-primary-hover);
 }
 
-/* line 5, ../scss/contents/_event.scss */
-.portlet-events-content .list-portlet a {
-  text-decoration: none;
-}
-/* line 9, ../scss/contents/_event.scss */
-.portlet-events-content .list-portlet.list-portlet {
-  list-style: none;
-}
-/* line 13, ../scss/contents/_event.scss */
-.portlet-events-content .list-portlet.first-selector {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-  justify-content: space-between;
-  padding-right: 32px;
-  border: 1px solid var(--bs-primary);
-  border-radius: 7px;
-}
-/* line 22, ../scss/contents/_event.scss */
-.portlet-events-content .list-portlet.first-selector .select-today a.today {
-  border-left: 1px solid var(--bs-primary);
-  border-right: 1px solid var(--bs-primary);
-  padding: 0 32px;
-}
-/* line 29, ../scss/contents/_event.scss */
-.portlet-events-content .list-portlet.second-selector {
-  padding-left: 0px;
-  max-width: 12em;
-}
-/* line 34, ../scss/contents/_event.scss */
-.portlet-events-content .list-portlet.second-selector li[class^='select-'] {
-  text-align: center;
-  border: 1px solid var(--bs-primary);
-  border-radius: 7px;
-  margin-bottom: 10px;
-}
-
 /* line 5, ../scss/contents/_generic.scss */
 article#content header p.lead {
   font-family: 'Roboto';
@@ -1006,6 +969,58 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 }
 
 /* FIN Portlet navegación */
+/* line 5, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet a {
+  text-decoration: none;
+}
+/* line 9, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet.list-portlet {
+  list-style: none;
+}
+/* line 13, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet.first-selector {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  padding-right: 32px;
+  border: 1px solid var(--bs-primary);
+  border-radius: 7px;
+}
+/* line 22, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet.first-selector .select-today a.today {
+  border-left: 1px solid var(--bs-primary);
+  border-right: 1px solid var(--bs-primary);
+  padding: 0 32px;
+}
+/* line 29, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet.second-selector {
+  padding-left: 0px;
+  max-width: 12em;
+}
+/* line 34, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet.second-selector li[class^='select-'] {
+  text-align: center;
+  border: 1px solid var(--bs-primary);
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+/* line 56, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-news .list-group .list-group-item a.active {
+  color: var(--bs-primary);
+  font-weight: 700;
+}
+/* line 60, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-news .list-group .list-group-item a.active::after {
+  float: right;
+  font-family: 'bootstrap-icons';
+  content: "\F285";
+  color: var(--bs-primary);
+  font-size: 1rem;
+  margin-top: 0px;
+}
+
 /* line 3, ../scss/portlets/_rss.scss */
 .portlet.portlet-rss li {
   list-style-type: none;
