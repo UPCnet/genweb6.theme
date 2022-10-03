@@ -2351,6 +2351,65 @@ body#tinymce .gallery-logos a:after,
 }
 
 /* FIN Portlet navegación */
+/* line 5, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet a {
+  text-decoration: none;
+}
+/* line 9, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet.list-portlet {
+  list-style: none;
+}
+/* line 13, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet.first-selector {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  padding-right: 32px;
+  border: 1px solid var(--bs-primary);
+  border-radius: 7px;
+}
+/* line 22, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet.first-selector .select-today a.today {
+  border-left: 1px solid var(--bs-primary);
+  border-right: 1px solid var(--bs-primary);
+  padding: 0 32px;
+}
+/* line 29, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet.second-selector {
+  padding-left: 0px;
+  max-width: 12em;
+}
+/* line 34, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet.second-selector li.select-week,
+.portlet.portlet-category-events .list-portlet.second-selector li.select-month,
+.portlet.portlet-category-events .list-portlet.second-selector li.select-day {
+  text-align: center;
+  border: 1px solid var(--bs-primary);
+  border-radius: 7px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+}
+
+/* line 58, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-news .list-group .list-group-item a.active {
+  color: var(--bs-primary);
+  font-weight: 700;
+}
+/* line 62, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-news .list-group .list-group-item a.active::after {
+  float: right;
+  font-family: 'bootstrap-icons';
+  content: "\F285";
+  color: var(--bs-primary);
+  font-size: 1rem;
+  margin-top: 0px;
+}
+
 /* line 3, ../scss/portlets/_rss.scss */
 .portlet.portlet-rss li {
   list-style-type: none;
