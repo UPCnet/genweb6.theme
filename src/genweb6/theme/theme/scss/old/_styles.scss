@@ -1,0 +1,238 @@
+/* Badges
+   Añadimos los esitlos de Bootstrap 5.2 Badge a las class .label */
+
+.label {
+    --bs-badge-padding-x: 0.65em;
+    --bs-badge-padding-y: 0.35em;
+    --bs-badge-font-size: 0.75em;
+    --bs-badge-font-weight: 700;
+    --bs-badge-color: #fff;
+    --bs-badge-border-radius: 0.375rem;
+    display: inline-block;
+    padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);
+    font-size: var(--bs-badge-font-size);
+    font-weight: var(--bs-badge-font-weight);
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: var(--bs-badge-border-radius);
+    background-color: var(--bs-secondary);
+    color: var(--bs-badge-color);
+
+    &.label-important {
+        background-color: var(--bs-danger);
+    }
+
+    &.label-info {
+        color: #000;
+        background-color: var(--bs-info);
+    }
+
+    &.label-inverse {
+        background-color: var(--bs-dark);
+    }
+
+    &.label-primary {
+        background-color: var(--bs-primary);
+    }
+
+    &.label-success {
+        background-color: var(--bs-success);
+    }
+
+    &.label-warning {
+        color: #000;
+        background-color: var(--bs-warning);
+    }
+}
+
+
+/* Colores de fondo */
+
+.purple-background {
+    background-color: #e7dbee;
+}
+
+.purpleDark-background {
+    background-color: #cfb9dd;
+}
+
+.pink-background {
+    background-color: #f4bfe1;
+}
+
+.orange-background {
+    background-color: #fdd49a;
+}
+
+.blueDark-background {
+    background-color: #9acbff;
+}
+
+.green-background {
+    background-color: #bce673;
+}
+
+.gray-background {
+    background-color: var(--bs-gray-500);
+}
+
+.grayLight-background {
+    background-color: var(--bs-gray-400);
+}
+
+.grayLighter-background {
+    background-color: var(--bs-gray-300);
+}
+
+.success {
+  background-color: #e5f5ca;
+  color: #333;
+}
+
+.error {
+  background-color: #fae6e4;
+  color: #333;
+}
+
+.info {
+  background-color: #e1f3f8;
+  color: #333;
+}
+
+.warning {
+  background-color: #fbf0cc;
+  color: #333;
+}
+
+
+/* Formatos de texto */
+
+ins,
+.ins {
+    color: #538300;
+    text-decoration: underline;
+}
+
+del,
+.del {
+    color: #c00;
+    text-decoration: line-through;
+}
+
+.liniaBaix {
+    border-bottom: 1px solid var(--bs-gray-300);
+    margin: 0 0 18px 0;
+    padding: 0 0 12px 0;
+}
+
+.liniaDalt {
+    border-top: 1px solid var(--bs-gray-300);
+    margin: 18px 0 0 0;
+    padding: 12px 0 0 0;
+}
+
+.m {
+    font-size: var(--bs-body-font-size) !important;
+}
+
+.l {
+    font-size: var(--bs-font-size-l) !important;
+}
+
+.s {
+    font-size: var(--bs-font-size-s) !important;
+}
+
+.xl {
+    font-size: var(--bs-font-size-xl) !important;
+}
+
+.xs {
+    font-size: var(--bs-font-size-xs) !important;
+}
+
+.xxl {
+    font-size: var(--bs-font-size-xxl) !important;
+}
+
+.xxs {
+    font-size: var(--bs-font-size-xxs) !important;
+}
+
+.xxxl {
+    font-size: var(--bs-font-size-xxxl) !important;
+}
+
+.xxxs {
+    font-size: var(--bs-font-size-xxs) !important;
+}
+
+@media print {
+
+    .pageBreak {
+        page-break-after: always;
+    }
+}
+
+/* Iconos */
+
+.doc,
+.pdf,
+.ppt,
+.txt,
+.xls,
+.xlsdf,
+.img,
+.vid,
+.https,
+.down {
+
+    &:after {
+        background: url('++theme++genweb6.theme/img/gh-c.png') no-repeat;
+        width: 14px;
+        height: 14px;
+        display: inline-block;
+        content: " ";
+        top: 2px;
+        position: relative;
+    }
+}
+
+.pdf:after {
+    background-position: -432px -194px;
+}
+
+.ppt:after {
+    background-position: -407px -193px;
+}
+
+.xlsdf:after,
+.xls:after {
+    background-position: -384px -193px;
+}
+
+.doc:after {
+    background-position: -360px -193px;
+}
+
+.down:after {
+    background-position: -95px -26px;
+}
+
+.https:after {
+    background-position: -288px -26px;
+}
+
+.vid:after {
+    background-position: -192px -2px;
+}
+
+.img:after {
+    background-position: -456px -50px;
+}
+
+.txt:after {
+    background-position: -24px -26px;
+}

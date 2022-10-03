@@ -1,0 +1,17 @@
+/* Queremos que los estilos antiguos de Genweb 4 se mantengan lo mejor posible en la nueva versión.
+
+   Para no romper estilos de otros lados solo los añadimos en el contenido de las páginas y dentro
+   del TinyMCE. */
+
+body#tinymce,
+#content-core #parent-fieldname-text {
+
+   @import "banners";
+   @import "bootstrap2";
+   @import "icones_lletres";
+   @import "lists";
+   @import "styles";
+   @import "tables";
+   @import "templates";
+}
+

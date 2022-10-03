@@ -1,0 +1,62 @@
+table {
+    caption-side: top;
+    width: 100%;
+
+    thead {
+        border-bottom: 5px solid var(--bs-primary);
+    }
+
+    thead,
+    tfoot,
+    th {
+        background-color: var(--bs-table-striped-bg);
+    }
+
+    tr.cap {
+        border-top: 5px solid var(--bs-primary);
+    }
+
+    &:not(.table) {
+
+        th {
+            text-align: center;
+        }
+    }
+
+    &.table.table-condensed {
+
+        th,
+        td {
+            padding: 0.2rem 0.5rem;
+        }
+    }
+
+    &.table.table-striped {
+
+        th {
+            background-color: transparent;
+        }
+    }
+
+    &.taulaRegistres {
+
+        @extend .table;
+    }
+
+    &.table.table-no-heading-border {
+
+        thead {
+            border-bottom: 1px solid var(--bs-gray-300);
+        }
+
+        tbody {
+
+            tr {
+
+                th:first-child {
+                    border-right: 5px solid var(--bs-primary);
+                }
+            }
+        }
+    }
+}

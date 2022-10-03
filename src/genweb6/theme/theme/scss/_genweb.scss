@@ -48,6 +48,10 @@ a:hover {
     }
 }
 
+a {
+    text-decoration: none !important;
+}
+
 a[target="_blank"]::after {
     content: "\e91c";
     font-family: "upc-icones";
@@ -56,10 +60,6 @@ a[target="_blank"]::after {
     top: 0;
     position: relative;
     display: inline-block;
-}
-
-a.external-link {
-    text-decoration: none;
 }
 
 .external-url-icon {
@@ -84,7 +84,7 @@ a.external-link {
 }
 
 .smaller {
-    font-size: var(--bs-font-size-xsm);
+    font-size: var(--bs-font-size-xxxs);
 }
 
 body.template-manage-viewlets header {

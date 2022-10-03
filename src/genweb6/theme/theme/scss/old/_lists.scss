@@ -1,0 +1,143 @@
+ul.list-section,
+ul.list.list-index,
+ul.list-striped,
+ul.list-hover,
+ul.list-highlighted,
+ul.list-links-upc,
+ul.list-links,
+ul.list-condensed,
+ul.list-bordered {
+
+  li {
+    padding: 8px 0 8px 28px;
+    list-style: none;
+    margin-left: -2rem;
+    position: relative;
+
+    &:before {
+      font-weight: bold;
+      display: inline-block;
+      margin-left: -1rem;
+      position: absolute;
+      margin-top: 0.2rem;
+    }
+  }
+
+  ul.llistaesquerra {
+    padding-left: 1rem;
+  }
+}
+
+ul.list.list-index,
+ul.list-striped,
+ul.list-hover,
+ul.list-condensed,
+ul.list-bordered {
+
+  li:before {
+      content: "\25CF";
+      font-size: .75rem;
+  }
+}
+
+ul.list-links {
+
+  li:before {
+    content: "\25b6";
+    font-size: .65rem;
+  }
+}
+
+ul.list-links-upc {
+
+  li:before {
+    content: "\25b7";
+    font-size: .65rem;
+  }
+}
+
+ul.list-highlighted {
+
+  li:before {
+    content: "\ffeb";
+    color: var(--bs-yellow);
+    margin-top: 0rem;
+  }
+}
+
+ul.list-links-upc,
+ul.list-links,
+ul.list-condensed,
+ul.list-bordered {
+
+  li:before {
+    color: var(--bs-primary);
+  }
+}
+
+
+ul.list-bordered {
+  border: 1px solid var(--bs-gray-400);
+
+  li {
+    border-bottom: 1px solid var(--bs-gray-400);
+
+    &:last-child {
+      border-bottom: 0px solid transparent;
+    }
+  }
+}
+
+ul.list-condensed {
+
+  li {
+    padding: 0 0 0 28px;
+  }
+}
+
+ul.list-hover {
+
+  li:hover {
+    background-color: var(--bs-gray-200);
+  }
+}
+
+ul.list-striped {
+
+  li:nth-child(odd) {
+    background-color: var(--bs-gray-200);
+  }
+}
+
+
+ul.list-sections {
+  padding-left: 0;
+
+  li {
+    border-top: 1px solid var(--bs-gray-300);
+    border-bottom: 1px solid var(--bs-gray-300);
+    padding: 18px 0;
+  }
+}
+
+.list-sections li.primera {
+    border-top: 0px solid #D1D1D1;
+}
+.list-sections li > :last-child {
+    margin-bottom: 0;
+}
+.list-sections li > img:first-child ~ *,
+.list-sections li > .lletra-cercle:first-child ~ * {
+    margin-left: 66px;
+    max-width: calc(100% - 66px);
+}
+.list-sections li p {
+    color: #4A4A4A;
+    line-height: 1.45em;
+}
+.list-sections li h2 {
+    font-size: 1.125rem;
+    font-weight: 500 !important;
+    padding-right: 36px;
+    margin-top: 0;
+}
