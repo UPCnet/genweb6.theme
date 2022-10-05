@@ -17,6 +17,7 @@ module.exports = function (grunt) {
             },
             css: {
                 src: ['stylesheets/barceloneta.css',
+                      'stylesheets/fontawesome.css',
                       'stylesheets/bootstrap-icons.css',
                       'stylesheets/theme.css'],
                 dest: 'stylesheets/theme-concat.css',
@@ -37,6 +38,7 @@ module.exports = function (grunt) {
             css: {
                 files: [
                     'stylesheets/barceloneta.css',
+                    'stylesheets/fontawesome.css',
                     'stylesheets/bootstrap-icons.css',
                     'scss/*',
                     'scss/**/*'

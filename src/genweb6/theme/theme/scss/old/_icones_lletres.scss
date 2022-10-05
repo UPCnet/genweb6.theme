@@ -1,7 +1,21 @@
 .lletra-cercle {
     float: left;
     font-size: 3rem;
-    margin-top: 3px;
+    margin-top: -5px;
+}
+
+.numero-cercle {
+    font-size: 3rem;
+}
+
+.lletra-cercle-petita {
+    font-size: 0.9rem !important;
+}
+
+.lletra-cercle-petita:before {
+    font-size: 1rem !important;
+    font-weight: 400;
+    margin-right: 0.2rem
 }
 
 .lletra-cercle-a:before {
@@ -162,4 +176,44 @@
 
 .fletxa-abaix:before {
     content: "\1F87B";
+}
+
+.color-blau {
+    color: #089FE4;
+}
+
+.color-blaucel {
+    color: #1FBDEE;
+}
+
+.color-verd {
+    color: #069182;
+}
+
+.color-vermell {
+    color: #D01157;
+}
+
+.color-groc {
+    color: #f6a808;
+}
+
+.color-morat {
+    color: #622AD9;
+}
+
+.color-violeta {
+    color: #023470;
+}
+
+.color-carbassa {
+    color: #ED4033;
+}
+
+.color-lila {
+    color: #A71FAF;
+}
+
+.color-taronja {
+    color: #fa5c2a;
 }

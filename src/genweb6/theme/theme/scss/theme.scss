@@ -1,12 +1,12 @@
 @import "variables";
-@import "robotoFont";
-@import "genwebFont";
+@import "fonts/fonts";
 @import "genweb";
 @import "new_class";
 
+@import "old/old";
+
 @import "contents/contents";
 @import "controlpanels/controlpanels";
-@import "old/old";
 @import "portlets/portlets";
 @import "templates/templates";
 @import "viewlets/viewlets";

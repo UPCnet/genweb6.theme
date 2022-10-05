@@ -12,6 +12,19 @@
     *:last-child {
         margin-bottom: 0;
     }
+
+    .align-center {
+        text-align: center;
+    }
+
+
+    .fa-quote-right,
+    .fa-quote-left {
+
+        &::before {
+            font-size: 1.5rem;
+        }
+    }
 }
 
 
@@ -324,5 +337,89 @@ a.btn.btn-large:not(.btn-primary) {
 
     a:after {
         content: "";
+    }
+}
+
+
+/* Rob Theme - Destacat amb imatge */
+
+.destacat {
+    height: 444px;
+    position: relative;
+    margin-bottom: 1.5rem;
+
+    .destacat-contingut {
+        width: 340px;
+        padding: 1.2rem;
+        position: absolute;
+        z-index: 1;
+        background: var(--bs-gray-100);
+        height: 100%;
+        overflow: hidden;
+        font-size: var(--bs-font-size-s);
+
+        h2 {
+            margin-top: 1rem;
+        }
+    }
+
+    .destacat-imatge {
+
+        &.compat-object-fit {
+            background-size: cover;
+            background-position: center
+        }
+
+        img {
+            object-fit: cover;
+            left: 0;
+            top: 0;
+            height: 100%;
+            position: absolute;
+            z-index: 0;
+            border-radius: 0;
+        }
+    }
+
+
+    &.destacat-dreta {
+
+        .destacat-contingut {
+            right: 0;
+            left: auto
+        }
+
+        .destacat-imatge img {
+            padding-left: 0;
+        }
+
+        @media (max-width: 768px) {
+
+            img {
+                position: relative;
+                padding: 0
+            }
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .destacat {
+        height: auto;
+
+        .destacat-contingut {
+            width: 100%;
+            position: relative;
+            padding: 10px;
+            display: table-cell;
+
+            img {
+                position: relative;
+                padding: 0;
+                width: 100%;
+            }
+        }
     }
 }
