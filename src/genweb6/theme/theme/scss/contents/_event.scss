@@ -1,14 +1,11 @@
 body.template-event_view {
 	
-	#portal-column-content {
+	article#content {
 
-		#content-core {
-
-			.card.event-summary {
-				font-size: 18px;
-				padding-bottom: 0.09em;
-				border: 1px solid var(--bs-primary);
-			}
+		.card.event-summary {
+			font-size: 18px;
+			padding-bottom: 0.09em;
+			border: 1px solid var(--bs-primary);
 		}
 	}
 }

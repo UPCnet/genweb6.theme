@@ -2,12 +2,12 @@
   border: 0px solid;
 
   .card-header {
-    padding: var(--bs-card-cap-padding-y) 0px;
+    padding: var(--bs-card-cap-padding-y) 0;
     background-color: transparent;
-    border-bottom: 0px;
+    border-bottom: 0;
 
     h3 {
-      margin-bottom: 0px;
+      margin-bottom: 0;
     }
   }
 
@@ -50,7 +50,7 @@
             content: "\F285";
             color: var(--bs-primary);
             font-size: 1rem;
-            margin-top: 0px;
+            margin-top: 0;
           }
         }
 

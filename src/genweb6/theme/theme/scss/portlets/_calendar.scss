@@ -1,11 +1,11 @@
 .portlet.portlet-calendar {
   border: 0px solid transparent;
-  border-radius: 0px;
+  border-radius: 0;
 
   .card-header {
     border-bottom: 0px solid transparent;
-    border-radius: 0px;
-    padding: 0px;
+    border-radius: 0;
+    padding: 0;
     background-color: transparent;
     text-align: right;
 
@@ -28,8 +28,8 @@
   }
 
   .card-body {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
     padding-top: var(--bs-card-title-spacer-y);
 
     table {

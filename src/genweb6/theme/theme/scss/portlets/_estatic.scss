@@ -1,9 +1,12 @@
-body.template-subhome_view{
-	
-	#main-content{
+.portlet.portletStaticText {
 
-		a.title{
-			font-weight:500;
+	&.portlet-static-con-contorno {
+
+		.card {
+
+			.card-header {
+				font-weight: 500;
+			}
 		}
 	}
 }

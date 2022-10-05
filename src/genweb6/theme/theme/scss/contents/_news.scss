@@ -1,15 +1,9 @@
 body.template-newsitem_view{
 	
-	#content {
-
-		p.lead {
-			font-weight: 300;
-    	font-size: 18px;
-		}
+	article#content {
 
 		img.newsImageContainer {
 			border-radius: 10px;
 		}
-
 	}
 }
