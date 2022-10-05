@@ -1,18 +1,18 @@
 @font-face {
-    font-family: 'upc-icones';
-    font-weight: normal;
-    font-style: normal;
-    src: url("++theme++genweb6.theme/stylesheets/fonts/upc/upc-icones.eot") format("embedded-opentype"),
-         url("++theme++genweb6.theme/stylesheets/fonts/upc/upc-icones.woff") format("woff"),
-         url("++theme++genweb6.theme/stylesheets/fonts/upc/upc-icones.ttf") format("truetype"),
-         url("++theme++genweb6.theme/stylesheets/fonts/upc/upc-icones.svg#upc-icones") format("svg");
+  font-family: 'upc-icones';
+  font-weight: normal;
+  font-style: normal;
+  src: url("++theme++genweb6.theme/stylesheets/fonts/upc/upc-icones.eot") format("embedded-opentype"),
+       url("++theme++genweb6.theme/stylesheets/fonts/upc/upc-icones.woff") format("woff"),
+       url("++theme++genweb6.theme/stylesheets/fonts/upc/upc-icones.ttf") format("truetype"),
+       url("++theme++genweb6.theme/stylesheets/fonts/upc/upc-icones.svg#upc-icones") format("svg");
 }
 
 body {
-    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px !important;
-    font-weight: 300;
-    line-height: 1.45 !important;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px !important;
+  font-weight: 300;
+  line-height: 1.45 !important;
 }
 
 .h1,
@@ -27,122 +27,117 @@ h4,
 h5,
 .h6,
 h6 {
-    color: var(--bs-primary);
+  color: var(--bs-primary);
 }
 
 a:hover {
 
-    .h1,
-    h1,
-    .h2,
-    h2,
-    .h3,
-    h3,
-    .h4,
-    h4,
-    .h5,
-    h5,
-    .h6,
-    h6 {
-        color: var(--bs-link-hover-color);
-    }
+  .h1,
+  h1,
+  .h2,
+  h2,
+  .h3,
+  h3,
+  .h4,
+  h4,
+  .h5,
+  h5,
+  .h6,
+  h6 {
+    color: var(--bs-link-hover-color);
+  }
 }
 
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 a[target="_blank"]::after {
-    content: "\e91c";
-    font-family: "upc-icones";
-    font-size: 0.7rem;
-    margin-left: 3px;
-    top: 0;
-    position: relative;
-    display: inline-block;
+  content: "\e91c";
+  font-family: "upc-icones";
+  font-size: 0.7rem;
+  margin-left: 3px;
+  top: 0;
+  position: relative;
+  display: inline-block;
 }
 
 .external-url-icon {
-    display: table;
+  display: table;
 
-    &.text-decoration-none:hover {
-        text-decoration: none !important;
+  &.text-decoration-none:hover {
+    text-decoration: none !important;
+  }
+
+  &::before {
+    content: "\e91c";
+    font-family: "upc-icones";
+    font-size: 180%;
+    color: var(--bs-primary);
+    display: table-cell;
+    vertical-align: middle;
+
+    &:hover {
+      color: var(--bs-primary-hover);
     }
-
-    &::before {
-        content: "\e91c";
-        font-family: "upc-icones";
-        font-size: 180%;
-        color: var(--bs-primary);
-        display: table-cell;
-        vertical-align: middle;
-
-        &:hover {
-            color: var(--bs-primary-hover);
-        }
-    }
+  }
 }
 
 .smaller {
-    font-size: var(--bs-font-size-xxxs);
+  font-size: var(--bs-font-size-xxxs);
 }
 
 body.template-manage-viewlets header {
-    position: initial;
+  position: initial;
 }
 
 footer#portal-footer-wrapper {
-    background-color: initial;
-    color: initial;
-    text-align: initial;
-    padding: 0rem;
+  background-color: initial;
+  color: initial;
+  text-align: initial;
+  padding: 0rem;
 
-    [id^="footer-"] {
+  [id^="footer-"] {
 
-        h2 {
-            font-size: 1.5rem;
-            margin-bottom: 1em;
-        }
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1em;
     }
+  }
 }
 
 .modal-backdrop.fade.show {
-    display: none;
+  display: none;
 }
 
 .list-group-item.row {
-    display: flex;
+  display: flex;
 }
 
 .plone-icon {
-    height: 0.73em;
+  height: 0.73em;
 }
-
-/* INICIO Botón para reedirigir al principio de la página */
 
 .back-to-top {
-    background: none;
-    margin: 0;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    margin: 10px;
-    z-index: 10;
-    display: none;
-    text-decoration: none;
-    color: var(--bs-primary);
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  z-index: 10;
+  display: none;
+  text-decoration: none;
+  color: var(--bs-primary);
 
-    &:hover,
-    &:active,
-    &:focus {
-        color: var(--bs-primary-hover);
-    }
+  &:hover,
+  &:active,
+  &:focus {
+    color: var(--bs-primary-hover);
+  }
 
-    svg {
-        width: 45px;
-        height: 45px;
-    }
+  svg {
+    width: 45px;
+    height: 45px;
+  }
 }
-
-/* FIN Botón para reedirigir al principio de la página */
-

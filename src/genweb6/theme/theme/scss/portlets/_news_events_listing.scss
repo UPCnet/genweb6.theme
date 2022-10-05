@@ -1,96 +1,95 @@
 .portlet.portlet-category-events {
 
-    .list-portlet {
+  .list-portlet {
 
-        a {
-            text-decoration: none;
-        }
-
-        &.list-portlet {
-            list-style: none;
-        }
-
-        &.first-selector {
-            display: flex;
-            flex-wrap: nowrap;
-            justify-content: space-between;
-            align-items: center;
-            align-content: space-between;
-            padding-left: 0;
-
-
-            .li {
-                padding-left: 2em;
-                padding-right: 2em;
-
-                    .select_past{
-                        border: 1px solid var(--bs-primary);
-                        border-top-left-radius: 7px;
-                        border-top-right-radius: 0px;
-                        border-bottom-right-radius: 0px;
-                        border-bottom-left-radius: 7px;
-                    }
-
-                    .select_today{
-                        border: 1px solid var(--bs-primary);
-                        border-top-left-radius: 0px;
-                        border-top-right-radius: 0px;
-                        border-bottom-right-radius: 0px;
-                        border-bottom-left-radius: 0px;
-                    }
-
-                    select_today{
-                        border: 1px solid var(--bs-primary);
-                        border-top-left-radius: 7px;
-                        border-top-right-radius: 0px;
-                        border-bottom-right-radius: 0px;
-                        border-bottom-left-radius: 7px;
-                    }
-            }
-        }
-
-        &.second-selector {
-            padding-left: 0px;
-            max-width: 12em;
-            // margin: 0 auto;
-
-            li.select-week,
-            li.select-month,
-            li.select-day {
-                text-align: center;
-                border: 1px solid var(--bs-primary);
-                border-radius: 7px;
-                margin-bottom: 10px;
-                display: flex;
-                flex-wrap: wrap;
-                align-content: space-between;
-                justify-content: space-between;
-                padding: 0 0.5rem;
-            }
-        }
+    a {
+      text-decoration: none;
     }
+
+    &.list-portlet {
+      list-style: none;
+    }
+
+    &.first-selector {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+      align-content: space-between;
+      padding-left: 0;
+
+      .li {
+        padding-left: 2em;
+        padding-right: 2em;
+
+        .select_past {
+          border: 1px solid var(--bs-primary);
+          border-top-left-radius: 7px;
+          border-top-right-radius: 0px;
+          border-bottom-right-radius: 0px;
+          border-bottom-left-radius: 7px;
+        }
+
+        .select_today {
+          border: 1px solid var(--bs-primary);
+          border-top-left-radius: 0px;
+          border-top-right-radius: 0px;
+          border-bottom-right-radius: 0px;
+          border-bottom-left-radius: 0px;
+        }
+
+        .select_today {
+          border: 1px solid var(--bs-primary);
+          border-top-left-radius: 7px;
+          border-top-right-radius: 0px;
+          border-bottom-right-radius: 0px;
+          border-bottom-left-radius: 7px;
+        }
+      }
+    }
+
+    &.second-selector {
+      padding-left: 0px;
+      max-width: 12em;
+      // margin: 0 auto;
+
+      li.select-week,
+      li.select-month,
+      li.select-day {
+        text-align: center;
+        border: 1px solid var(--bs-primary);
+        border-radius: 7px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-between;
+        padding: 0 0.5rem;
+      }
+    }
+  }
 }
 
 
 .portlet.portlet-category-news {
 
-    .list-group {
+  .list-group {
 
-        .list-group-item {
+    .list-group-item {
 
-            a.active {
-                color: var(--bs-primary);
-                font-weight: 700;
+      a.active {
+        color: var(--bs-primary);
+        font-weight: 700;
 
-                &::after {
-                    float: right;
-                    font-family: 'bootstrap-icons';
-                    content: "\F285";
-                    color: var(--bs-primary);
-                    font-size: 1rem;
-                    margin-top: 0px;
-                }
-            }
+        &::after {
+          float: right;
+          font-family: 'bootstrap-icons';
+          content: "\F285";
+          color: var(--bs-primary);
+          font-size: 1rem;
+          margin-top: 0px;
         }
+      }
     }
+  }
 }

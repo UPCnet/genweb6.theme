@@ -1,17 +1,13 @@
-/* INICIO Variables */
-
 :root {
-    --bs-primary: #007BC1;
-    --bs-primary-rgb: 0, 123, 193;
-    --bs-primary-hover: #{darken(#007BC1, 10%)};
-    --bs-font-size-l: calc(var(--bs-body-font-size) * 1.075);
-    --bs-font-size-xl: calc(var(--bs-font-size-l) * 1.075);
-    --bs-font-size-xxl: calc(var(--bs-font-size-xl) * 1.075);
-    --bs-font-size-xxxl: calc(var(--bs-font-size-xxl) * 1.075);
-    --bs-font-size-s: calc(var(--bs-body-font-size) * .925);
-    --bs-font-size-xs: calc(var(--bs-font-size-s) * .925);
-    --bs-font-size-xxs: calc(var(--bs-font-size-xs) * .925);
-    --bs-font-size-xxxs: calc(var(--bs-font-size-xxs) * .925);
+  --bs-primary: #007BC1;
+  --bs-primary-rgb: 0, 123, 193;
+  --bs-primary-hover: #{darken(#007BC1, 10%)};
+  --bs-font-size-l: calc(var(--bs-body-font-size) * 1.075);
+  --bs-font-size-xl: calc(var(--bs-font-size-l) * 1.075);
+  --bs-font-size-xxl: calc(var(--bs-font-size-xl) * 1.075);
+  --bs-font-size-xxxl: calc(var(--bs-font-size-xxl) * 1.075);
+  --bs-font-size-s: calc(var(--bs-body-font-size) * .925);
+  --bs-font-size-xs: calc(var(--bs-font-size-s) * .925);
+  --bs-font-size-xxs: calc(var(--bs-font-size-xs) * .925);
+  --bs-font-size-xxxs: calc(var(--bs-font-size-xxs) * .925);
 }
-
-/* FIN Variables */

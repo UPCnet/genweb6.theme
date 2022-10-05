@@ -1,21 +1,22 @@
 body.template-versions-history-form{
-	.container{
 
-		#content-core{
+	.container {
 
-			#sortable{
+		#content-core {
+
+			#sortable {
 
 				span{
-					display:none;
+					display: none;
 				}
 
-				tr{
-				padding-right: 2.5em;
+				tr {
+					padding-right: 2.5em;
 				}
 
 				ul{
-				    list-style: none;
-    				padding-left: 0px;
+			    list-style: none;
+  				padding-left: 0px;
 				}
 			}
 		}

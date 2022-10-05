@@ -5,325 +5,325 @@
 .well,
 .destacatQuadres,
 .destacatBandejat {
-    padding: 1rem;
-    margin-bottom: 3rem;
-    min-height: 20px;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  min-height: 20px;
 
-    *:last-child {
-        margin-bottom: 0;
+  *:last-child {
+    margin-bottom: 0;
+  }
+
+  .align-center {
+    text-align: center;
+  }
+
+
+  .fa-quote-right,
+  .fa-quote-left {
+
+    &::before {
+      font-size: 1.5rem;
     }
-
-    .align-center {
-        text-align: center;
-    }
-
-
-    .fa-quote-right,
-    .fa-quote-left {
-
-        &::before {
-            font-size: 1.5rem;
-        }
-    }
+  }
 }
 
 
 /* Destacat color  */
 
 .destacatBandejat {
-    border-top: 5px solid var(--bs-primary);
-    background-color: var(--bs-gray-100);
+  border-top: 5px solid var(--bs-primary);
+  background-color: var(--bs-gray-100);
 
-    &:after {
-        background: var(--bs-gray-300);
-        display: block;
-        margin: 18px 0 -18px;
-        height: 5px;
-        content: ".";
-    }
+  &:after {
+    background: var(--bs-gray-300);
+    display: block;
+    margin: 18px 0 -18px;
+    height: 5px;
+    content: ".";
+  }
 }
 
 
 /* Destacat contorn */
 
 .destacatQuadres {
-    border: 5px solid var(--bs-primary);
+  border: 5px solid var(--bs-primary);
 }
 
 
 /* Pou */
 
 .well:not(.well-gradient) {
-    background-color: var(--bs-gray-200);
+  background-color: var(--bs-gray-200);
 }
 
 
 /* Pou degradat */
 
 .well.well-gradient {
-    background-image: linear-gradient(to bottom, var(--bs-gray-200), var(--bs-white));
+  background-image: linear-gradient(to bottom, var(--bs-gray-200), var(--bs-white));
 }
 
 
 /* Caixa */
 
 .box {
-    border: 1px solid var(--bs-gray-300);
+  border: 1px solid var(--bs-gray-300);
 
-    &.pull-right {
-        float: right;
+  &.pull-right {
+    float: right;
 
-        img {
-            margin-bottom: 1rem;
-        }
+    img {
+      margin-bottom: 1rem;
     }
+  }
 }
 
 /* Caixa gradient */
 
 .box.box-gradient {
-    background-image: linear-gradient(to bottom, var(--bs-white), var(--bs-gray-200));
+  background-image: linear-gradient(to bottom, var(--bs-white), var(--bs-gray-200));
 }
 
 
 /* Fitxa */
 
 .sheet {
-    border-top: 1px solid var(--bs-gray-300);
-    border-right: 15px solid var(--bs-primary);
-    background-color: var(--bs-gray-100);
+  border-top: 1px solid var(--bs-gray-300);
+  border-right: 15px solid var(--bs-primary);
+  background-color: var(--bs-gray-100);
 
-    &:after {
-        background: var(--bs-gray-300);
-        display: block;
-        margin: 18px 0 -18px;
-        height: 5px;
-        content: ".";
-    }
+  &:after {
+    background: var(--bs-gray-300);
+    display: block;
+    margin: 18px 0 -18px;
+    height: 5px;
+    content: ".";
+  }
 }
 
 .box,
 .sheet {
 
-    .pull-right,
-    &.pull-right {
-        float: right;
-        margin-left: 1rem;
+  .pull-right,
+  &.pull-right {
+    float: right;
+    margin-left: 1rem;
 
-        img {
-            margin-bottom: 1rem;
-        }
+    img {
+      margin-bottom: 1rem;
     }
+  }
 }
 
 
 /* Àlbum de fotografies */
 
 div.photoAlbumEntry {
-    text-align: center;
-    width: 130px;
-    height: 160px;
-    min-height: 160px;
-    border: 1px solid var(--bs-gray-300);
-    border-radius: 4px;
-    display: inline-block;
-    padding: 0.5rem;
-    margin: 0.5rem;
+  text-align: center;
+  width: 130px;
+  height: 160px;
+  min-height: 160px;
+  border: 1px solid var(--bs-gray-300);
+  border-radius: 4px;
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 0.5rem;
 
-    img {
-        margin-bottom: 0.5rem;
-    }
+  img {
+    margin-bottom: 0.5rem;
+  }
 }
 
 
 /* Imatge alineada a l'esquerra amb text */
 
 img.image-left {
-    float: left;
-    margin-right: 1rem;
+  float: left;
+  margin-right: 1rem;
 }
 
 
 /* Imatge alineada a la dreta amb text */
 
 img.image-right {
-    float: right;
-    margin-left: 1rem;
+  float: right;
+  margin-left: 1rem;
 }
 
 
 /* Imatge amb text lateral superposat */
 
 #FCKTdiv1imatgedamunttext {
+  margin: 0 auto;
+  position: relative;
+
+  #FCKTdiv2imatgedamunttext {
+    background-color: white;
+    color: #333;
+    font-size: var(--bs-font-size-xxs);
+    height: 100%;
+    left: 0;
     margin: 0 auto;
-    position: relative;
+    opacity: 0.8;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 200px;
 
-    #FCKTdiv2imatgedamunttext {
-        background-color: white;
-        color: #333;
-        font-size: var(--bs-font-size-xxs);
-        height: 100%;
-        left: 0;
-        margin: 0 auto;
-        opacity: 0.8;
-        overflow: hidden;
-        padding: 0;
-        position: absolute;
-        top: 0;
-        width: 200px;
-
-        #FCKTdiv3imatgedamunttext {
-            padding: 10px;
-        }
+    #FCKTdiv3imatgedamunttext {
+      padding: 10px;
     }
+  }
 }
 
 
 /* Botó ample */
 
 a.btn.btn-block.btn-large {
-    width: 100%;
+  width: 100%;
 }
 
 
 /* Botó ample gris + Botó */
 
 a.btn.btn-large:not(.btn-primary) {
-    background-color: var(--bs-gray-200);
-    border: 1px solid var(--bs-gray-300);
+  background-color: var(--bs-gray-200);
+  border: 1px solid var(--bs-gray-300);
 }
 
 
 /* Imatge amb text superposat fosc + clar */
 
 .text-over-image {
-    position: relative;
-    margin: 0 auto;
+  position: relative;
+  margin: 0 auto;
 
-     .content {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
+ .content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 
-        &.dark-background {
-            background: rgba(0, 0, 0, 0.65);
+    &.dark-background {
+      background: rgba(0, 0, 0, 0.65);
 
-            h4,
-            p,
-            span {
-                color: var(--bs-white) !important;
-            }
-        }
-
-        &.light-background {
-            background: rgba(255, 255, 255, 0.65);
-
-            h4,
-            p,
-            span {
-                color: var(--bs-black) !important;
-            }
-        }
-
-        .caption {
-            padding: 1.5rem;
-
-            p:last-child {
-                margin-bottom: 0;
-            }
-        }
+      h4,
+      p,
+      span {
+        color: var(--bs-white) !important;
+      }
     }
+
+    &.light-background {
+      background: rgba(255, 255, 255, 0.65);
+
+      h4,
+      p,
+      span {
+        color: var(--bs-black) !important;
+      }
+    }
+
+    .caption {
+      padding: 1.5rem;
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
 }
 
 
 /* Rob Theme - Caixa amb llista - fons gris */
 
 .boxbg-gray {
-    background-color: var(--bs-gray-100);
+  background-color: var(--bs-gray-100);
 }
 
 
 /* Rob Theme - Caixa amb llista - fons verd */
 
 .boxbg-green {
-    background-color: #e5f5ca;
+  background-color: #e5f5ca;
 }
 
 
 /* Rob Theme - Destacat amb dades numèriques */
 
 .list-numeral {
-    margin: 20px 0;
-    margin-top: 20px;
-    -moz-column-count: 6;
-    -webkit-column-count: 6;
-    column-count: 6;
-    list-style: none;
-    text-align: center;
-    padding: 0;
+  margin: 20px 0;
+  margin-top: 20px;
+  -moz-column-count: 6;
+  -webkit-column-count: 6;
+  column-count: 6;
+  list-style: none;
+  text-align: center;
+  padding: 0;
 
-    li {
-        -webkit-column-break-inside: avoid;
-        page-break-inside: avoid;
-        break-inside: avoid;
-        font-size: 1.5rem;
-        display: block;
-        line-height: 1;
-        padding-bottom: 20px;
-    }
+  li {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    font-size: 1.5rem;
+    display: block;
+    line-height: 1;
+    padding-bottom: 20px;
+  }
 
-    strong {
-        font-size: 200%;
-        display: block;
-        font-weight: lighter;
-    }
+  strong {
+    font-size: 200%;
+    display: block;
+    font-weight: lighter;
+  }
 
-    :nth-child(1) strong {
-        color: #6734BA;
-    }
+  :nth-child(1) strong {
+    color: #6734BA;
+  }
 
-    :nth-child(2) strong {
-        color: #9D1CB2;
-    }
+  :nth-child(2) strong {
+    color: #9D1CB2;
+  }
 
-    :nth-child(3) strong {
-        color: #DA125F;
-    }
+  :nth-child(3) strong {
+    color: #DA125F;
+  }
 
-    :nth-child(4) strong {
-        color: #F6412D;
-    }
+  :nth-child(4) strong {
+    color: #F6412D;
+  }
 
-    :nth-child(5) strong {
-        color: #FF5606;
-    }
+  :nth-child(5) strong {
+    color: #FF5606;
+  }
 
-    :nth-child(6) strong {
-        color: #FF9800;
-    }
+  :nth-child(6) strong {
+    color: #FF9800;
+  }
 }
 
 @supports (-moz-appearance:none) {
 
-    .list-numeral li {
-        display: inline-block !important;
-    }
+  .list-numeral li {
+    display: inline-block !important;
+  }
 }
 
 @media (max-width: 768px) {
 
-    .list-numeral {
-        column-count: 3;
-        -moz-column-count: 3;
-    }
+  .list-numeral {
+    column-count: 3;
+    -moz-column-count: 3;
+  }
 }
 
 @media (max-width: 480px) {
 
-    .list-numeral {
-        column-count: 2;
-        -moz-column-count: 2;
-    }
+  .list-numeral {
+    column-count: 2;
+    -moz-column-count: 2;
+  }
 }
 
 
@@ -331,95 +331,94 @@ a.btn.btn-large:not(.btn-primary) {
 
 .gallery-logos {
 
-    .gellery-bottom {
-        margin-bottom: 1.5rem;
-    }
+  .gellery-bottom {
+    margin-bottom: 1.5rem;
+  }
 
-    a:after {
-        content: "";
-    }
+  a:after {
+    content: "";
+  }
 }
 
 
 /* Rob Theme - Destacat amb imatge */
 
 .destacat {
-    height: 444px;
-    position: relative;
-    margin-bottom: 1.5rem;
+  height: 444px;
+  position: relative;
+  margin-bottom: 1.5rem;
+
+  .destacat-contingut {
+    width: 340px;
+    padding: 1.2rem;
+    position: absolute;
+    z-index: 1;
+    background: var(--bs-gray-100);
+    height: 100%;
+    overflow: hidden;
+    font-size: var(--bs-font-size-s);
+
+    h2 {
+      margin-top: 1rem;
+    }
+  }
+
+  .destacat-imatge {
+
+    &.compat-object-fit {
+      background-size: cover;
+      background-position: center
+    }
+
+    img {
+      object-fit: cover;
+      left: 0;
+      top: 0;
+      height: 100%;
+      position: absolute;
+      z-index: 0;
+      border-radius: 0;
+    }
+  }
+
+
+  &.destacat-dreta {
 
     .destacat-contingut {
-        width: 340px;
-        padding: 1.2rem;
-        position: absolute;
-        z-index: 1;
-        background: var(--bs-gray-100);
-        height: 100%;
-        overflow: hidden;
-        font-size: var(--bs-font-size-s);
-
-        h2 {
-            margin-top: 1rem;
-        }
+      right: 0;
+      left: auto
     }
 
-    .destacat-imatge {
-
-        &.compat-object-fit {
-            background-size: cover;
-            background-position: center
-        }
-
-        img {
-            object-fit: cover;
-            left: 0;
-            top: 0;
-            height: 100%;
-            position: absolute;
-            z-index: 0;
-            border-radius: 0;
-        }
+    .destacat-imatge img {
+      padding-left: 0;
     }
 
+    @media (max-width: 768px) {
 
-    &.destacat-dreta {
-
-        .destacat-contingut {
-            right: 0;
-            left: auto
-        }
-
-        .destacat-imatge img {
-            padding-left: 0;
-        }
-
-        @media (max-width: 768px) {
-
-            img {
-                position: relative;
-                padding: 0
-            }
-        }
+      img {
+        position: relative;
+        padding: 0
+      }
     }
-
+  }
 }
 
 @media (max-width: 768px) {
 
-    .destacat {
-        height: auto;
+  .destacat {
+    height: auto;
 
-        .destacat-contingut {
-            width: 100%;
-            position: relative;
-            padding: 10px;
-            display: table-cell;
+    .destacat-contingut {
+      width: 100%;
+      position: relative;
+      padding: 10px;
+      display: table-cell;
 
-            img {
-                position: relative;
-                padding: 0;
-                width: 100%;
-            }
-        }
+      img {
+        position: relative;
+        padding: 0;
+        width: 100%;
+      }
     }
+  }
 }

@@ -1,91 +1,91 @@
 .portlet.portlet-calendar {
-    border: 0px solid transparent;
+  border: 0px solid transparent;
+  border-radius: 0px;
+
+  .card-header {
+    border-bottom: 0px solid transparent;
     border-radius: 0px;
+    padding: 0px;
+    background-color: transparent;
+    text-align: right;
 
-    .card-header {
-        border-bottom: 0px solid transparent;
-        border-radius: 0px;
-        padding: 0px;
-        background-color: transparent;
-        text-align: right;
+    a {
+      visibility: hidden;
+      text-decoration: none;
 
-        a {
-            visibility: hidden;
+      &.calendarPrevious:after {
+        visibility: visible;
+        content: "<";
+        padding-right: 8px;
+      }
+
+      &.calendarNext:after {
+        visibility: visible;
+        content: ">";
+        padding-left: -2px;
+      }
+    }
+  }
+
+  .card-body {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: var(--bs-card-title-spacer-y);
+
+    table {
+      border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+
+      th,
+      td {
+        text-align: center;
+        padding: 0.75rem 0.25rem;
+      }
+
+      thead {
+        border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
+        background-color: var(--bs-gray-300);
+
+        th {
+          color: var(--bs-primary);
+        }
+      }
+
+      tbody {
+
+        td {
+
+          a {
+            color: var(--bs-gray-700);
             text-decoration: none;
+          }
 
-            &.calendarPrevious:after {
-                visibility: visible;
-                content: "<";
-                padding-right: 8px;
+          &.cal_has_events {
+            background-color: #8fc5e4;
+
+            a {
+              font-weight: 700;
+              color: var(--bs-dark);
+            }
+          }
+
+          &.cal_prev_month,
+          &.cal_next_month {
+
+            span {
+              color: var(--bs-gray-500);
             }
 
-            &.calendarNext:after {
-                visibility: visible;
-                content: ">";
-                padding-left: -2px;
+            &.cal_has_events {
+              background-color: #deeef7;
+
+              a {
+                font-weight: 700;
+                color: var(--bs-gray-500);
+              }
             }
+          }
         }
+      }
     }
-
-    .card-body {
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-top: var(--bs-card-title-spacer-y);
-
-        table {
-            border: var(--bs-card-border-width) solid var(--bs-card-border-color);
-
-            th,
-            td {
-                text-align: center;
-                padding: 0.75rem 0.25rem;
-            }
-
-            thead {
-                border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
-                background-color: var(--bs-gray-300);
-
-                th {
-                    color: var(--bs-primary);
-                }
-            }
-
-            tbody {
-
-                td {
-
-                    a {
-                        color: var(--bs-gray-700);
-                        text-decoration: none;
-                    }
-
-                    &.cal_has_events {
-                        background-color: #8fc5e4;
-
-                        a {
-                            font-weight: 700;
-                            color: var(--bs-dark);
-                        }
-                    }
-
-                    &.cal_prev_month,
-                    &.cal_next_month {
-
-                        span {
-                            color: var(--bs-gray-500);
-                        }
-
-                        &.cal_has_events {
-                            background-color: #deeef7;
-
-                            a {
-                                font-weight: 700;
-                                color: var(--bs-gray-500);
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
+  }
 }
