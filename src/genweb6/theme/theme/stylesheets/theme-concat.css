@@ -23770,7 +23770,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
   background-color: var(--bs-primary);
   color: #FFFFFF;
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 1.25;
   padding: 10px 15px 10px 15px;
   text-decoration: none;
@@ -23811,10 +23811,27 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
   background-color: var(--bs-primary-hover);
 }
 
+/* line 8, ../scss/contents/_event.scss */
+body.template-event_view #portal-column-content #content-core .card.event-summary {
+  font-size: 18px;
+  padding-bottom: 0.09em;
+  border: 1px solid var(--bs-primary);
+}
+
 /* line 5, ../scss/contents/_generic.scss */
 article#content header p.lead {
   font-family: 'Roboto';
   font-weight: 400;
+}
+
+/* line 5, ../scss/contents/_news.scss */
+body.template-newsitem_view #content p.lead {
+  font-weight: 300;
+  font-size: 18px;
+}
+/* line 10, ../scss/contents/_news.scss */
+body.template-newsitem_view #content img.newsImageContainer {
+  border-radius: 10px;
 }
 
 /* INICIO Controlpanel CAS */
@@ -23979,6 +23996,24 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   color: var(--bs-gray-500);
 }
 
+/* line 5, ../scss/portlets/_esdeveniments.scss */
+body.template-event #content img.section-leadimage {
+  border-radius: 10px;
+}
+/* line 9, ../scss/portlets/_esdeveniments.scss */
+body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center {
+  border-radius: 20px;
+}
+/* line 12, ../scss/portlets/_esdeveniments.scss */
+body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center div.cal_month.card-header.p-2 {
+  border-radius: 7px 7px 0px 0px;
+  padding: 4px;
+}
+/* line 17, ../scss/portlets/_esdeveniments.scss */
+body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .card-header {
+  background-color: #007bc11a;
+}
+
 /* line 3, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection li {
   list-style-type: none;
@@ -24013,7 +24048,7 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 /* line 32, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection li div.txt .title {
   order: 1;
-  font-weight: 700;
+  font-weight: 500;
 }
 /* line 36, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection li div.txt .title:first-child {
@@ -24146,25 +24181,47 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 /* line 13, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-events .list-portlet.first-selector {
   display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
+  flex-wrap: nowrap;
   justify-content: space-between;
-  padding-right: 32px;
-  border: 1px solid var(--bs-primary);
-  border-radius: 7px;
+  align-items: center;
+  align-content: space-between;
+  padding-left: 0;
 }
 /* line 22, ../scss/portlets/_news_events_listing.scss */
-.portlet.portlet-category-events .list-portlet.first-selector .select-today a.today {
-  border-left: 1px solid var(--bs-primary);
-  border-right: 1px solid var(--bs-primary);
-  padding: 0 32px;
+.portlet.portlet-category-events .list-portlet.first-selector .li {
+  padding-left: 2em;
+  padding-right: 2em;
 }
-/* line 29, ../scss/portlets/_news_events_listing.scss */
+/* line 26, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet.first-selector .li .select_past {
+  border: 1px solid var(--bs-primary);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 7px;
+}
+/* line 34, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet.first-selector .li .select_today {
+  border: 1px solid var(--bs-primary);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+/* line 42, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet.first-selector .li select_today {
+  border: 1px solid var(--bs-primary);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 7px;
+}
+/* line 52, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-events .list-portlet.second-selector {
   padding-left: 0px;
   max-width: 12em;
 }
-/* line 34, ../scss/portlets/_news_events_listing.scss */
+/* line 57, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-events .list-portlet.second-selector li.select-week,
 .portlet.portlet-category-events .list-portlet.second-selector li.select-month,
 .portlet.portlet-category-events .list-portlet.second-selector li.select-day {
@@ -24179,12 +24236,12 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   padding: 0 0.5rem;
 }
 
-/* line 58, ../scss/portlets/_news_events_listing.scss */
+/* line 81, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-news .list-group .list-group-item a.active {
   color: var(--bs-primary);
   font-weight: 700;
 }
-/* line 62, ../scss/portlets/_news_events_listing.scss */
+/* line 85, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-news .list-group .list-group-item a.active::after {
   float: right;
   font-family: 'bootstrap-icons';
@@ -24209,7 +24266,7 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 }
 /* line 14, ../scss/portlets/_rss.scss */
 .portlet.portlet-rss li a.title {
-  font-weight: 700;
+  font-weight: 500;
 }
 /* line 19, ../scss/portlets/_rss.scss */
 .portlet.portlet-rss li div.img {
@@ -24227,7 +24284,7 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 }
 /* line 32, ../scss/portlets/_rss.scss */
 .portlet.portlet-rss li div.txt .title {
-  font-weight: 700;
+  font-weight: 500;
 }
 /* line 38, ../scss/portlets/_rss.scss */
 .portlet.portlet-rss li div.txt .description > p:last-child {
@@ -24247,6 +24304,11 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   margin-bottom: 3px;
 }
 
+/* line 5, ../scss/portlets/_estatic.scss */
+body.template-subhome_view #main-content a.title {
+  font-weight: 500;
+}
+
 /* line 6, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item img,
 .template-multiple-carousel .carousel-item img {
@@ -24261,7 +24323,7 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   right: 0;
   left: 0;
   bottom: 0;
-  padding: 2.5rem 1rem 2.5rem 1rem;
+  padding: 19.5rem 1rem 2.5rem 1rem;
   display: flex;
   flex-direction: column;
   background: -moz-linear-gradient(bottom, white 0%, rgba(255, 255, 255, 0) 100%);
@@ -24393,8 +24455,18 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 .col-md-3 > .portletWrapper .template-carousel .carousel-item img {
   aspect-ratio: 1;
 }
+/* line 172, ../scss/templates/_carousel.scss */
+.col-md-2 > .portletWrapper .template-carousel .carousel-item p,
+.col-md-3 > .portletWrapper .template-carousel .carousel-item p {
+  font-size: 14px;
+}
+/* line 176, ../scss/templates/_carousel.scss */
+.col-md-2 > .portletWrapper .template-carousel .carousel-item h6,
+.col-md-3 > .portletWrapper .template-carousel .carousel-item h6 {
+  color: var(--bs-dark);
+}
 
-/* line 184, ../scss/templates/_carousel.scss */
+/* line 192, ../scss/templates/_carousel.scss */
 .col-md-4 > .portletWrapper .template-carousel .carousel-item img {
   aspect-ratio: 4 / 3;
 }
@@ -24480,7 +24552,7 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 #footer-logos {
   background-color: var(--bs-dark);
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
-  padding: 1em 4em 1em 4em;
+  padding: 2em 4em 0 4em;
 }
 /* line 27, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos {
@@ -25003,6 +25075,20 @@ body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip
 }
 
 /* INICIO Vista grid_events_view */
+/* line 8, ../scss/views/_history.scss */
+body.template-versions-history-form .container #content-core #sortable span {
+  display: none;
+}
+/* line 12, ../scss/views/_history.scss */
+body.template-versions-history-form .container #content-core #sortable tr {
+  padding-right: 2.5em;
+}
+/* line 16, ../scss/views/_history.scss */
+body.template-versions-history-form .container #content-core #sortable ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
 /* INICIO Login */
 /* line 3, ../scss/views/_login.scss */
 .login-wrapper .card {
@@ -25044,19 +25130,50 @@ body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip
 }
 
 /* FIN Login */
-/* line 5, ../scss/views/_search.scss */
+/* line 7, ../scss/views/_search.scss */
+body.template-search form#searchform .input-group input.searchPage.form-control {
+  margin-right: 1em;
+  border-radius: 7px;
+}
+/* line 11, ../scss/views/_search.scss */
+body.template-search form#searchform .input-group input.searchPage.form-control ::hover {
+  border: 1px solid var(--bs-primary);
+}
+/* line 16, ../scss/views/_search.scss */
+body.template-search form#searchform .input-group input.searchPage.allowMultiSubmit.btn.btn-primary {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+/* line 22, ../scss/views/_search.scss */
 body.template-search form#searchform #search-results {
   margin-top: 20px;
 }
-/* line 10, ../scss/views/_search.scss */
+/* line 27, ../scss/views/_search.scss */
 body.template-search form#searchform #search-results ol.searchResults li {
   font-size: 1em;
+  border: 0px;
+  margin-top: 0.25em;
+  padding-left: 0;
 }
-/* line 13, ../scss/views/_search.scss */
+/* line 34, ../scss/views/_search.scss */
+body.template-search form#searchform #search-results ol.searchResults li .list-group-numbered > .list-group-item::before {
+  content: none;
+}
+/* line 38, ../scss/views/_search.scss */
 body.template-search form#searchform #search-results ol.searchResults li a {
   text-decoration: none;
+  font-weight: 400;
+  color: var(--bs-body-color);
 }
-/* line 20, ../scss/views/_search.scss */
+/* line 43, ../scss/views/_search.scss */
+body.template-search form#searchform #search-results ol.searchResults li a img {
+  border-radius: 7px;
+}
+/* line 48, ../scss/views/_search.scss */
+body.template-search form#searchform #search-results ol.searchResults li .fs-5 {
+  font-size: 0.95rem;
+}
+/* line 55, ../scss/views/_search.scss */
 body.template-search form#searchform .dropdown,
 body.template-search form#searchform .dropdown-center,
 body.template-search form#searchform .dropend,
@@ -25065,7 +25182,7 @@ body.template-search form#searchform .dropup,
 body.template-search form#searchform .dropup-center {
   margin-right: 20px;
 }
-/* line 28, ../scss/views/_search.scss */
+/* line 63, ../scss/views/_search.scss */
 body.template-search form#searchform .dropdown:last-child,
 body.template-search form#searchform .dropdown-center:last-child,
 body.template-search form#searchform .dropend:last-child,
@@ -25074,9 +25191,19 @@ body.template-search form#searchform .dropup:last-child,
 body.template-search form#searchform .dropup-center:last-child {
   margin-right: 0px;
 }
-/* line 33, ../scss/views/_search.scss */
+/* line 68, ../scss/views/_search.scss */
 body.template-search form#searchform .dropdown-toggle::after {
   margin-left: 0.5em;
+}
+
+/* line 4, ../scss/views/_listing_view.scss */
+body.template-listing_view .container a.entries {
+  font-weight: 400;
+  font-size: 20px;
+}
+/* line 9, ../scss/views/_listing_view.scss */
+body.template-listing_view .container p.me-3 {
+  font-size: 16px;
 }
 
 /* INICIO @media print */

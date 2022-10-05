@@ -12,17 +12,40 @@
 
         &.first-selector {
             display: flex;
-            flex-wrap: wrap;
-            align-content: space-between;
+            flex-wrap: nowrap;
             justify-content: space-between;
-            padding-right: 32px;
-            border: 1px solid var(--bs-primary);
-            border-radius: 7px;
+            align-items: center;
+            align-content: space-between;
+            padding-left: 0;
 
-            .select-today a.today {
-                border-left: 1px solid var(--bs-primary);
-                border-right: 1px solid var(--bs-primary);
-                padding: 0 32px;
+
+            .li {
+                padding-left: 2em;
+                padding-right: 2em;
+
+                    .select_past{
+                        border: 1px solid var(--bs-primary);
+                        border-top-left-radius: 7px;
+                        border-top-right-radius: 0px;
+                        border-bottom-right-radius: 0px;
+                        border-bottom-left-radius: 7px;
+                    }
+
+                    .select_today{
+                        border: 1px solid var(--bs-primary);
+                        border-top-left-radius: 0px;
+                        border-top-right-radius: 0px;
+                        border-bottom-right-radius: 0px;
+                        border-bottom-left-radius: 0px;
+                    }
+
+                    select_today{
+                        border: 1px solid var(--bs-primary);
+                        border-top-left-radius: 7px;
+                        border-top-right-radius: 0px;
+                        border-bottom-right-radius: 0px;
+                        border-bottom-left-radius: 7px;
+                    }
             }
         }
 

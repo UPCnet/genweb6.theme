@@ -14,7 +14,7 @@
             right: 0;
             left: 0;
             bottom: 0;
-            padding: 2.5rem 1rem 2.5rem 1rem;
+            padding: 19.5rem 1rem 2.5rem 1rem;
             display: flex;
             flex-direction: column;
             background: -moz-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
@@ -167,6 +167,14 @@
 
                 img {
                     aspect-ratio: 1;
+                }
+
+                p{
+                    font-size:14px;
+                }
+
+                h6{
+                    color: var(--bs-dark);
                 }
             }
         }

@@ -1,0 +1,23 @@
+body.template-versions-history-form{
+	.container{
+
+		#content-core{
+
+			#sortable{
+
+				span{
+					display:none;
+				}
+
+				tr{
+				padding-right: 2.5em;
+				}
+
+				ul{
+				    list-style: none;
+    				padding-left: 0px;
+				}
+			}
+		}
+	}
+}
