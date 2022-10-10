@@ -4861,10 +4861,12 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
 /* line 69, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile .livesearch-results {
   position: absolute;
+  left: 0;
   margin-top: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
   width: 100%;
+  z-index: 1;
 }
 
 /* line 1, ../scss/views/_clouseau.scss */
