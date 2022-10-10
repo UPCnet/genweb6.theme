@@ -20,6 +20,10 @@
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
 
+  &.new-style {
+    background-color: transparent;
+  }
+
   #portal-logos {
 
     a[target="_blank"]::after {
@@ -36,11 +40,17 @@
     }
   }
 
+  .bi-search {
+    text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark);
+  }
+
   #portal-navbar {
 
     .navbar-nav {
 
       .nav-item {
+        font-weight: 400;
+        text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark);
 
         &:hover {
           color: var(--bs-primary);
@@ -52,6 +62,7 @@
       }
 
       li.has_subtree {
+        position: relative;  // TODO
 
         & > a.nav-link {
           padding-right: 1em;
@@ -62,15 +73,19 @@
         }
 
         ul {
+          width: max-content;
+          max-width: 350px;
+          min-width: 120px;
           height: auto;
           right: 8px;
           top: 35px;
           background-color: #fff;
-          border: 1px solid rgba(0, 0, 0, 0.25);
+          border: 1px solid #ebebeb;
 
           li.nav-item {
             text-align: right;
             border-bottom: 1px solid #ebebeb;
+            text-shadow: none;
 
             &::last-child {
               border-bottom: 0px solid;
@@ -164,6 +179,16 @@
       }
     }
   }
+
+  #portal-navbar-mobile {
+
+    .navbar {
+
+      .container-fluid {
+        justify-content: flex-end;
+      }
+    }
+  }
 }
 
 #header.shink {
@@ -183,5 +208,62 @@
         display: block;
       }
     }
+  }
+}
+
+#hero {
+  text-align: center;
+  position: relative;
+
+  &.old-style {
+    height: 126px;
+    box-shadow: 0 -126px 0 #000;
+
+    & > h1 {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      width: 100%;
+      max-width: 1320px;
+    }
+  }
+
+  &.new-style {
+    height: 600px;
+    margin-top: -92px;
+
+    & > div {
+      top: calc(50% + 46px);
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+
+      .line {
+        width: 50%;
+        border-top: 3px solid white;
+        margin: 10px auto;
+      }
+    }
+
+    img {
+      filter: brightness(40%);
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  h2,
+  h1 {
+    font-weight: 700;
+    font-family: 'Fira sans';
+    color: var(--bs-white);
+    text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark);
+    padding: 10px;
+    margin-bottom: 0;
   }
 }

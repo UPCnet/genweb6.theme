@@ -3789,6 +3789,21 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo,
 body.template-header-controlpanel #formfield-form-widgets-secundary_logo_responsive {
   min-height: 220px;
 }
+/* line 30, ../scss/controlpanels/_header.scss */
+body.template-header-controlpanel #formfield-form-widgets-html_title_ca,
+body.template-header-controlpanel #formfield-form-widgets-html_title_es,
+body.template-header-controlpanel #formfield-form-widgets-html_description_ca,
+body.template-header-controlpanel #formfield-form-widgets-html_description_es {
+  width: 32%;
+  margin-right: 2%;
+  float: left;
+}
+/* line 39, ../scss/controlpanels/_header.scss */
+body.template-header-controlpanel #formfield-form-widgets-html_title_en,
+body.template-header-controlpanel #formfield-form-widgets-html_description_en {
+  width: 32%;
+  float: right;
+}
 
 /* line 3, ../scss/portlets/_generic.scss */
 .portlet h2.portlet-title {
@@ -4438,94 +4453,96 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://genweb.upc.edu/capcalera.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(@@gw-hero);
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
   z-index: -1;
 }
-
-/* line 20, ../scss/viewlets/_footer.scss */
-#footer-logos {
+/* line 19, ../scss/viewlets/_footer.scss */
+#portal-footer div[id^='footer-']:not(.show-image) {
   background-color: var(--bs-dark);
-  box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
-  padding: 2em 4em 0 4em;
 }
-/* line 25, ../scss/viewlets/_footer.scss */
+
+/* line 24, ../scss/viewlets/_footer.scss */
+#footer-logos {
+  box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
+  padding: 2em 4em 1em 4em;
+}
+/* line 28, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos {
   margin: 0 auto;
   padding: 0;
   list-style: none;
   text-align: center;
 }
-/* line 31, ../scss/viewlets/_footer.scss */
+/* line 34, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li {
   display: inline-block;
   margin: 0 0 1em;
 }
-/* line 35, ../scss/viewlets/_footer.scss */
+/* line 38, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a {
   text-decoration: none;
   margin-left: 2em;
 }
-/* line 39, ../scss/viewlets/_footer.scss */
+/* line 42, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a[target="_blank"]::after {
   display: none;
   content: "";
 }
-/* line 44, ../scss/viewlets/_footer.scss */
+/* line 47, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a img {
   max-height: 90px;
 }
 
-/* line 52, ../scss/viewlets/_footer.scss */
+/* line 55, ../scss/viewlets/_footer.scss */
 #footer-complementary {
-  background-color: var(--bs-dark);
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 0 4em;
 }
-/* line 57, ../scss/viewlets/_footer.scss */
+/* line 59, ../scss/viewlets/_footer.scss */
 #footer-complementary p {
   display: inline-block;
   margin: 18px 0;
   color: #FFF;
 }
-/* line 63, ../scss/viewlets/_footer.scss */
+/* line 65, ../scss/viewlets/_footer.scss */
 #footer-complementary nav {
   float: right;
   margin: 18px 0;
   text-align: right;
 }
-/* line 68, ../scss/viewlets/_footer.scss */
+/* line 70, ../scss/viewlets/_footer.scss */
 #footer-complementary nav li {
   white-space: nowrap;
   margin-left: 24px;
 }
-/* line 73, ../scss/viewlets/_footer.scss */
+/* line 75, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul,
 #footer-complementary nav li {
   display: inline;
   padding: 0;
 }
-/* line 78, ../scss/viewlets/_footer.scss */
+/* line 80, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul a,
 #footer-complementary nav li a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 82, ../scss/viewlets/_footer.scss */
+/* line 84, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul a:hover,
 #footer-complementary nav li a:hover {
   font-weight: 400;
 }
 
 @media (max-width: 768px) {
-  /* line 92, ../scss/viewlets/_footer.scss */
+  /* line 94, ../scss/viewlets/_footer.scss */
   #footer-complementary nav {
     float: left;
     text-align: left;
   }
-  /* line 96, ../scss/viewlets/_footer.scss */
+  /* line 98, ../scss/viewlets/_footer.scss */
   #footer-complementary nav li {
     margin-right: 24px;
     margin-left: 0;
@@ -4555,53 +4572,74 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
 }
-/* line 25, ../scss/viewlets/_header.scss */
+/* line 23, ../scss/viewlets/_header.scss */
+#header.new-style {
+  background-color: transparent;
+}
+/* line 29, ../scss/viewlets/_header.scss */
 #header #portal-logos a[target="_blank"]::after {
   display: none;
   content: "";
 }
-/* line 30, ../scss/viewlets/_header.scss */
+/* line 34, ../scss/viewlets/_header.scss */
 #header #portal-logos img {
   max-height: 60px;
 }
-/* line 33, ../scss/viewlets/_header.scss */
+/* line 37, ../scss/viewlets/_header.scss */
 #header #portal-logos img.img-responsive {
   display: none;
 }
-/* line 45, ../scss/viewlets/_header.scss */
+/* line 43, ../scss/viewlets/_header.scss */
+#header .bi-search {
+  text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark);
+}
+/* line 51, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav .nav-item {
+  font-weight: 400;
+  text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark);
+}
+/* line 55, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item:hover {
   color: var(--bs-primary);
 }
-/* line 49, ../scss/viewlets/_header.scss */
+/* line 59, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item label::after {
   transition: initial;
 }
-/* line 56, ../scss/viewlets/_header.scss */
+/* line 64, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav li.has_subtree {
+  position: relative;
+}
+/* line 67, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree > a.nav-link {
   padding-right: 1em;
 }
-/* line 60, ../scss/viewlets/_header.scss */
+/* line 71, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree > label {
   height: 2.1em;
 }
-/* line 64, ../scss/viewlets/_header.scss */
+/* line 75, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul {
+  width: max-content;
+  max-width: 350px;
+  min-width: 120px;
   height: auto;
   right: 8px;
   top: 35px;
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid #ebebeb;
 }
-/* line 71, ../scss/viewlets/_header.scss */
+/* line 85, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item {
   text-align: right;
   border-bottom: 1px solid #ebebeb;
+  text-shadow: none;
 }
-/* line 75, ../scss/viewlets/_header.scss */
+/* line 90, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item::last-child {
   border-bottom: 0px solid;
 }
-/* line 79, ../scss/viewlets/_header.scss */
+/* line 94, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item a.nav-link {
   min-width: auto;
   padding-right: 0em;
@@ -4609,35 +4647,35 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   line-height: 18px;
   color: #666;
 }
-/* line 86, ../scss/viewlets/_header.scss */
+/* line 101, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item a.nav-link:hover {
   color: var(--bs-primary);
 }
-/* line 92, ../scss/viewlets/_header.scss */
+/* line 107, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item:hover {
   background-color: var(--bs-primary);
 }
-/* line 95, ../scss/viewlets/_header.scss */
+/* line 110, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item:hover a.nav-link {
   color: #FFF;
 }
-/* line 101, ../scss/viewlets/_header.scss */
+/* line 116, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree label {
   margin-top: 2px;
 }
-/* line 107, ../scss/viewlets/_header.scss */
+/* line 122, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul {
   flex-direction: row;
 }
-/* line 110, ../scss/viewlets/_header.scss */
+/* line 125, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul li {
   padding: 7px 15px 7px 15px;
 }
-/* line 113, ../scss/viewlets/_header.scss */
+/* line 128, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul li i.bi-globe {
   margin-right: 5px;
 }
-/* line 122, ../scss/viewlets/_header.scss */
+/* line 137, ../scss/viewlets/_header.scss */
 #header #portal-searchbox input#searchGadget {
   width: 0;
   padding: 0;
@@ -4648,20 +4686,20 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
 }
-/* line 135, ../scss/viewlets/_header.scss */
+/* line 150, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form:hover input#searchGadget {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
 }
-/* line 142, ../scss/viewlets/_header.scss */
+/* line 157, ../scss/viewlets/_header.scss */
 #header #portal-searchbox input#searchGadget:focus,
 #header #portal-searchbox input#searchGadget:not(:placeholder-shown) {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
 }
-/* line 149, ../scss/viewlets/_header.scss */
+/* line 164, ../scss/viewlets/_header.scss */
 #header #portal-searchbox button.searchButton {
   background: none;
   color: inherit;
@@ -4672,29 +4710,161 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   outline: inherit;
 }
 @media (min-width: 992px) {
-  /* line 161, ../scss/viewlets/_header.scss */
+  /* line 176, ../scss/viewlets/_header.scss */
   #header #portal-searchbox .livesearch-results {
     margin-top: 0.5rem;
     right: 4em;
   }
 }
+/* line 187, ../scss/viewlets/_header.scss */
+#header #portal-navbar-mobile .navbar .container-fluid {
+  justify-content: flex-end;
+}
 
-/* line 169, ../scss/viewlets/_header.scss */
+/* line 194, ../scss/viewlets/_header.scss */
 #header.shink {
   background-color: #212529DD;
   height: 72px;
 }
-/* line 175, ../scss/viewlets/_header.scss */
+/* line 200, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img {
   max-height: 40px;
 }
-/* line 178, ../scss/viewlets/_header.scss */
+/* line 203, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img.img-desktop {
   display: none;
 }
-/* line 182, ../scss/viewlets/_header.scss */
+/* line 207, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img.img-responsive {
   display: block;
+}
+
+/* line 214, ../scss/viewlets/_header.scss */
+#hero {
+  text-align: center;
+  position: relative;
+}
+/* line 218, ../scss/viewlets/_header.scss */
+#hero.old-style {
+  height: 126px;
+  box-shadow: 0 -126px 0 #000;
+}
+/* line 222, ../scss/viewlets/_header.scss */
+#hero.old-style > h1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 100%;
+  max-width: 1320px;
+}
+/* line 232, ../scss/viewlets/_header.scss */
+#hero.new-style {
+  height: 600px;
+  margin-top: -92px;
+}
+/* line 236, ../scss/viewlets/_header.scss */
+#hero.new-style > div {
+  top: calc(50% + 46px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+/* line 242, ../scss/viewlets/_header.scss */
+#hero.new-style > div .line {
+  width: 50%;
+  border-top: 3px solid white;
+  margin: 10px auto;
+}
+/* line 249, ../scss/viewlets/_header.scss */
+#hero.new-style img {
+  filter: brightness(40%);
+}
+/* line 254, ../scss/viewlets/_header.scss */
+#hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* line 260, ../scss/viewlets/_header.scss */
+#hero h2,
+#hero h1 {
+  font-weight: 700;
+  font-family: 'Fira sans';
+  color: var(--bs-white);
+  text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark);
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1000px) {
+  /* line 3, ../scss/viewlets/_header_mobile.scss */
+  #portal-navbar,
+  #portal-searchbox {
+    display: none;
+  }
+
+  /* line 8, ../scss/viewlets/_header_mobile.scss */
+  #portal-navbar-mobile {
+    display: block;
+  }
+}
+/* line 15, ../scss/viewlets/_header_mobile.scss */
+#portal-navbar-mobile .offcanvas-header {
+  padding: var(--bs-offcanvas-padding-y) 2rem;
+}
+/* line 18, ../scss/viewlets/_header_mobile.scss */
+#portal-navbar-mobile .offcanvas-header h5 {
+  color: var(--bs-white);
+  margin-bottom: 0;
+}
+/* line 24, ../scss/viewlets/_header_mobile.scss */
+#portal-navbar-mobile .offcanvas-body {
+  padding-top: 0;
+}
+/* line 32, ../scss/viewlets/_header_mobile.scss */
+#portal-navbar-mobile .navbar-nav li a:focus,
+#portal-navbar-mobile .navbar-nav li a:hover {
+  background: transparent;
+  font-weight: 500;
+}
+/* line 38, ../scss/viewlets/_header_mobile.scss */
+#portal-navbar-mobile .navbar-nav li label {
+  display: none;
+  padding-right: 1rem;
+}
+/* line 42, ../scss/viewlets/_header_mobile.scss */
+#portal-navbar-mobile .navbar-nav li label:after {
+  font-size: .75em;
+  background: 0 0;
+}
+/* line 48, ../scss/viewlets/_header_mobile.scss */
+#portal-navbar-mobile .navbar-nav li ul.has_subtree {
+  background-color: var(--bs-gray-700);
+  display: none;
+}
+/* line 55, ../scss/viewlets/_header_mobile.scss */
+#portal-navbar-mobile #portal-searchbox-mobile {
+  width: 100%;
+  padding: 0 1rem;
+}
+/* line 59, ../scss/viewlets/_header_mobile.scss */
+#portal-navbar-mobile #portal-searchbox-mobile button.searchButton {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+/* line 69, ../scss/viewlets/_header_mobile.scss */
+#portal-navbar-mobile #portal-searchbox-mobile .livesearch-results {
+  position: absolute;
+  margin-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 100%;
 }
 
 /* line 1, ../scss/views/_clouseau.scss */

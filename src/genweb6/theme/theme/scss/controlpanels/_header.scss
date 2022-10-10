@@ -27,4 +27,19 @@ body.template-header-controlpanel {
         min-height: 220px;
     }
 
+    #formfield-form-widgets-html_title_ca,
+    #formfield-form-widgets-html_title_es,
+    #formfield-form-widgets-html_description_ca,
+    #formfield-form-widgets-html_description_es {
+        width: 32%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    #formfield-form-widgets-html_title_en,
+    #formfield-form-widgets-html_description_en {
+        width: 32%;
+        float: right;
+    }
+
 }

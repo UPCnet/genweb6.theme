@@ -10911,8 +10911,10 @@ $(document).ready(function(){
     $(window).scroll(function() {
         if($(this).scrollTop() > btt_offset){
             $('#header').addClass('shink');
+            $('#content-header').addClass('shink');
         }else{
             $('#header').removeClass('shink');
+            $('#content-header').removeClass('shink');
         }
     });
 

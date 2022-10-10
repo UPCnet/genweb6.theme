@@ -1,0 +1,78 @@
+@media (max-width: 1000px) {
+
+  #portal-navbar,
+  #portal-searchbox {
+    display: none;
+  }
+
+  #portal-navbar-mobile {
+    display: block;
+  }
+}
+
+#portal-navbar-mobile {
+
+  .offcanvas-header {
+    padding: var(--bs-offcanvas-padding-y) 2rem;
+
+    h5 {
+      color: var(--bs-white);
+      margin-bottom: 0;
+    }
+  }
+
+  .offcanvas-body {
+    padding-top: 0;
+  }
+
+  .navbar-nav {
+
+    li {
+
+      a:focus,
+      a:hover {
+        background: transparent;
+        font-weight: 500;
+      }
+
+      label {
+        display: none;  // TODO - Añadida la regla para no mostrar el segundo nivel
+        padding-right: 1rem;
+
+        &:after {
+          font-size: .75em;
+          background: 0 0;
+        }
+      }
+
+      ul.has_subtree {
+        background-color: var(--bs-gray-700);
+        display: none;  // TODO - Añadida la regla para no mostrar el segundo nivel
+      }
+    }
+  }
+
+  #portal-searchbox-mobile {
+    width: 100%;
+    padding: 0 1rem;
+
+    button.searchButton {
+      background: none;
+      color: inherit;
+      border: none;
+      padding: 0;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+    }
+
+    .livesearch-results {
+      position: absolute;
+      margin-top: 1rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      width: 100%;
+    }
+  }
+}
+
