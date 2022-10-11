@@ -3690,7 +3690,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
 /* line 12, ../scss/contents/_banner.scss */
 .gw-banner .defaultBanner a {
   background-color: var(--bs-primary);
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   font-weight: 600;
   font-size: 1.25em;
   line-height: 1.25;
@@ -3704,7 +3704,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
 /* line 25, ../scss/contents/_banner.scss */
 .gw-banner .defaultBanner a:hover {
   background-color: var(--bs-primary-hover);
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
 /* line 30, ../scss/contents/_banner.scss */
 .gw-banner .defaultBanner a i {

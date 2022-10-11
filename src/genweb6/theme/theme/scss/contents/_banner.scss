@@ -11,7 +11,7 @@
 
     a {
       background-color: var(--bs-primary);
-      color: #FFFFFF;
+      color: #FFFFFF !important;
       font-weight: 600;
       font-size: 1.25em;
       line-height: 1.25;
@@ -24,7 +24,7 @@
 
       &:hover {
         background-color: var(--bs-primary-hover);
-        color: #FFFFFF;
+        color: #FFFFFF !important;
       }
 
       i {
