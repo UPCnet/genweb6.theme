@@ -52,8 +52,17 @@
         font-weight: 400;
         text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark);
 
+        a {
+          color: var(--bs-white);
+
+        }
+
         &:hover {
           color: var(--bs-primary);
+
+          a {
+            color: var(--bs-primary);
+          }
         }
 
         label::after {

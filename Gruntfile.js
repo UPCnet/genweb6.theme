@@ -65,8 +65,6 @@ module.exports = function (grunt) {
                         '../../../../../genweb6.core/src/genweb6/core/browser/macros/carousel/multiple_carousel.js',
                     'js/views/filtered_contents_search.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/browser/views_templates/filtered_contents_search/filtered_contents_search.js',
-                    'js/viewlets/login.min.js':
-                        '../../../../../genweb6.core/src/genweb6/core/browser/viewlets_templates/header/login.js',
                 }
             },
             mainjs: {

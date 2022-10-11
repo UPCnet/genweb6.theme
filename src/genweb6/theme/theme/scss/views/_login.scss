@@ -1,25 +1,33 @@
-/* INICIO Login */
-
 .login-wrapper .card {
-  width: 26rem;
+  max-width: 100%;
 
   h1 {
     margin-bottom: 1rem;
   }
 }
 
-#formfield-form-widgets-login_preview,
+.modal-body {
+
+  .login-wrapper .card {
+    border: 0 solid transparent;
+
+    .card-body {
+      padding: 0;
+    }
+  }
+}
+
 #loginGW {
 
-  h3,
-  button {
+  h3 > button,
+  h3 {
     color: var(--bs-primary);
   }
 
   .accordion-item:hover {
 
-    h3,
-    button {
+    h3 > button,
+    h3 {
       color: var(--bs-primary-hover);
     }
   }
@@ -37,4 +45,7 @@
   }
 }
 
-/* FIN Login */
+#login-form {
+  width: 450px;
+}
+
