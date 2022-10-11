@@ -4407,7 +4407,6 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
 #cookies-gw-preview,
 #cookies-gw {
   bottom: 0;
-  left: 0;
   font-size: 16px;
   text-align: justify;
   margin: auto;
@@ -4423,19 +4422,19 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   width: 100%;
   border-top: 1px solid #cccccc;
 }
-/* line 20, ../scss/viewlets/_cookies.scss */
+/* line 19, ../scss/viewlets/_cookies.scss */
 #cookies-gw-preview #cookies-bodyContent,
 #cookies-gw #cookies-bodyContent {
   text-align: justify;
 }
-/* line 24, ../scss/viewlets/_cookies.scss */
+/* line 23, ../scss/viewlets/_cookies.scss */
 #cookies-gw-preview #cookies-buttons,
 #cookies-gw #cookies-buttons {
   margin: 10px 0 0 0 !important;
   padding: 0;
 }
 
-/* line 30, ../scss/viewlets/_cookies.scss */
+/* line 29, ../scss/viewlets/_cookies.scss */
 #cookies-gw {
   position: fixed;
 }
