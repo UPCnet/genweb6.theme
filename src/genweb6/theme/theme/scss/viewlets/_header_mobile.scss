@@ -29,10 +29,14 @@
 
     li {
 
-      a:focus,
-      a:hover {
-        background: transparent;
-        font-weight: 500;
+      a {
+        color: var(--bs-white);
+
+        &:focus,
+        &:hover {
+          background: transparent;
+          font-weight: 500;
+        }
       }
 
       label {
