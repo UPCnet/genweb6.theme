@@ -4847,18 +4847,25 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
 #portal-navbar-mobile .navbar-nav li label:after {
   font-size: .75em;
   background: 0 0;
+  border: 1px solid var(--bs-white);
+  padding: 5px;
 }
-/* line 52, ../scss/viewlets/_header_mobile.scss */
+/* line 53, ../scss/viewlets/_header_mobile.scss */
+#portal-navbar-mobile .navbar-nav li label:hover:after {
+  background: var(--bs-white);
+  color: var(--bs-navbar-background);
+}
+/* line 59, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li ul.has_subtree {
   background-color: var(--bs-gray-700);
   display: none;
 }
-/* line 59, ../scss/viewlets/_header_mobile.scss */
+/* line 66, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile {
   width: 100%;
   padding: 0 1rem;
 }
-/* line 63, ../scss/viewlets/_header_mobile.scss */
+/* line 70, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile button.searchButton {
   background: none;
   color: inherit;
@@ -4868,7 +4875,7 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   cursor: pointer;
   outline: inherit;
 }
-/* line 73, ../scss/viewlets/_header_mobile.scss */
+/* line 80, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile .livesearch-results {
   position: absolute;
   left: 0;
