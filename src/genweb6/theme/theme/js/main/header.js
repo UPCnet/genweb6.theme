@@ -12,6 +12,9 @@ $(document).ready(function(){
         }
     });
 
+    $('#portal-navbar-mobile nav.navbar li.has_subtree label').on('click', function(){
+        $(this).closest('li.has_subtree').toggleClass('open');
+    });
 });
 
 /*  FIN header.js */

@@ -4840,10 +4840,9 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
 }
 /* line 42, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li label {
-  display: none;
   padding-right: 1rem;
 }
-/* line 46, ../scss/viewlets/_header_mobile.scss */
+/* line 45, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li label:after {
   font-size: .75em;
   background: 0 0;
@@ -4851,21 +4850,32 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   padding: 5px;
 }
 /* line 53, ../scss/viewlets/_header_mobile.scss */
-#portal-navbar-mobile .navbar-nav li label:hover:after {
+#portal-navbar-mobile .navbar-nav li ul.has_subtree {
+  background-color: var(--bs-gray-700);
+  transition: all .5s ease;
+}
+/* line 61, ../scss/viewlets/_header_mobile.scss */
+#portal-navbar-mobile .navbar-nav li:active label:after, #portal-navbar-mobile .navbar-nav li:hover label:after {
   background: var(--bs-white);
   color: var(--bs-navbar-background);
 }
-/* line 59, ../scss/viewlets/_header_mobile.scss */
-#portal-navbar-mobile .navbar-nav li ul.has_subtree {
-  background-color: var(--bs-gray-700);
-  display: none;
+/* line 69, ../scss/viewlets/_header_mobile.scss */
+#portal-navbar-mobile .navbar-nav li.open label:after {
+  transform: rotate(180deg);
 }
-/* line 66, ../scss/viewlets/_header_mobile.scss */
+/* line 73, ../scss/viewlets/_header_mobile.scss */
+#portal-navbar-mobile .navbar-nav li.open ul {
+  opacity: 1;
+  visibility: visible;
+  height: auto;
+  margin-left: 1rem;
+}
+/* line 83, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile {
   width: 100%;
   padding: 0 1rem;
 }
-/* line 70, ../scss/viewlets/_header_mobile.scss */
+/* line 87, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile button.searchButton {
   background: none;
   color: inherit;
@@ -4875,7 +4885,7 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   cursor: pointer;
   outline: inherit;
 }
-/* line 80, ../scss/viewlets/_header_mobile.scss */
+/* line 97, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile .livesearch-results {
   position: absolute;
   left: 0;
