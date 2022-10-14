@@ -5172,39 +5172,43 @@ body.template-versions-history-form #content-core #sortable ul {
   margin-bottom: 1rem;
 }
 
-/* line 11, ../scss/views/_login.scss */
+/* line 13, ../scss/views/_login.scss */
+.modal-body #global_statusmessage + .portalMessage {
+  display: none;
+}
+/* line 18, ../scss/views/_login.scss */
 .modal-body .login-wrapper .card {
   border: 0 solid transparent;
 }
-/* line 14, ../scss/views/_login.scss */
+/* line 21, ../scss/views/_login.scss */
 .modal-body .login-wrapper .card .card-body {
   padding: 0;
 }
 
-/* line 22, ../scss/views/_login.scss */
+/* line 29, ../scss/views/_login.scss */
 #loginGW h3 > button,
 #loginGW h3 {
   color: var(--bs-primary);
 }
-/* line 29, ../scss/views/_login.scss */
+/* line 36, ../scss/views/_login.scss */
 #loginGW .accordion-item:hover h3 > button,
 #loginGW .accordion-item:hover h3 {
   color: var(--bs-primary-hover);
 }
-/* line 35, ../scss/views/_login.scss */
+/* line 42, ../scss/views/_login.scss */
 #loginGW #linkCAS {
   text-decoration: none;
 }
-/* line 38, ../scss/views/_login.scss */
+/* line 45, ../scss/views/_login.scss */
 #loginGW #linkCAS #headingCAS::after {
   display: none;
 }
-/* line 43, ../scss/views/_login.scss */
+/* line 50, ../scss/views/_login.scss */
 #loginGW a {
   text-decoration: none;
 }
 
-/* line 48, ../scss/views/_login.scss */
+/* line 55, ../scss/views/_login.scss */
 #login-form {
   width: 450px;
 }

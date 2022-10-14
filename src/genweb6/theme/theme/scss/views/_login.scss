@@ -8,6 +8,13 @@
 
 .modal-body {
 
+  #global_statusmessage {
+
+    & + .portalMessage {
+      display: none;
+    }
+  }
+
   .login-wrapper .card {
     border: 0 solid transparent;
 
