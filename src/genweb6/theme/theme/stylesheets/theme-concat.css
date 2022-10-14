@@ -20275,6 +20275,13 @@ body.template-versions-history-form #content-core #sortable ul {
   width: 450px;
 }
 
+@media (max-width: 768px) {
+  /* line 61, ../scss/views/_login.scss */
+  .login-wrapper .card,
+  #login-form {
+    width: 100%;
+  }
+}
 /* line 7, ../scss/views/_search.scss */
 body.template-search form#searchform .input-group input.searchPage.form-control {
   margin-right: 1em;

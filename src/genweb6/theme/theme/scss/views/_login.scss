@@ -56,3 +56,12 @@
   width: 450px;
 }
 
+@media (max-width: 768px) {
+
+  .login-wrapper .card,
+  #login-form {
+    width: 100%;
+  }
+}
+
+
