@@ -24,7 +24,6 @@ module.exports = function (grunt) {
             },
             js: {
                 src: ['js/jquery/jquery.js',
-                      'js/bootstrap/bootstrap.js',
                       'js/main/*.js'],
                 dest: 'js/theme-concat.js',
             }
