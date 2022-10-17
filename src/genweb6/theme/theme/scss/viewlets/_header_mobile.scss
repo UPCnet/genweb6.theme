@@ -25,6 +25,13 @@
     padding-top: 0;
   }
 
+  .navbar {
+
+    .container-fluid {
+      justify-content: flex-end;
+    }
+  }
+
   .navbar-nav {
 
     li {
