@@ -19167,40 +19167,6 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   padding-left: 1rem;
 }
 
-/* line 3, ../scss/portlets/_news_events_listing.scss */
-.portlet.portlet-category-events .list-portlet {
-    /* &.first-selector {
-      display: flex;
-      flex-wrap: nowrap;
-      justify-content: space-between;
-      align-items: center;
-      align-content: space-between;
-      padding-left: 0;
-
-      li {
-        padding-left: 1.8em;
-        padding-right: 1.8em;
-        border: 1px solid var(--bs-primary);
-
-        &.select-past {
-          border-top-left-radius: 7px;
-          border-bottom-left-radius: 7px;
-        }
-
-        &.select-today {
-          border-left-width: 0;
-          border-right-width: 0;
-          width: 100%;
-          text-align: center;
-        }
-
-        &.select-future {
-          border-top-right-radius: 7px;
-          border-bottom-right-radius: 7px;
-        }
-      }
-    } */
-}
 /* line 5, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-events .list-portlet a {
   text-decoration: none;
@@ -19217,12 +19183,28 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
 .portlet.portlet-category-events .list-portlet.first-selector {
   padding-left: 0;
 }
-/* line 53, ../scss/portlets/_news_events_listing.scss */
+/* line 20, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet.first-selector .fa-stack.smaller {
+  font-size: 0.5rem;
+  margin-top: -5px;
+  color: var(--bs-primary);
+}
+/* line 28, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet.first-selector i.fa-calendar + i {
+  margin-top: 0.25em;
+}
+/* line 32, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet.first-selector i.fa-calendar + .calendar-day {
+  text-align: center;
+  font-weight: 500;
+  margin-top: 3px;
+}
+/* line 40, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-events .list-portlet.second-selector {
   padding-left: 0;
   max-width: 12em;
 }
-/* line 58, ../scss/portlets/_news_events_listing.scss */
+/* line 45, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-events .list-portlet.second-selector li.select-week,
 .portlet.portlet-category-events .list-portlet.second-selector li.select-month,
 .portlet.portlet-category-events .list-portlet.second-selector li.select-day {
@@ -19237,12 +19219,12 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   padding: 0 0.5rem;
 }
 
-/* line 81, ../scss/portlets/_news_events_listing.scss */
+/* line 68, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-news .list-group .list-group-item a.active {
   color: var(--bs-primary);
   font-weight: 700;
 }
-/* line 85, ../scss/portlets/_news_events_listing.scss */
+/* line 72, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-news .list-group .list-group-item a.active::after {
   float: right;
   font-family: 'bootstrap-icons';
@@ -19252,11 +19234,11 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   margin-top: 0;
 }
 
-/* line 104, ../scss/portlets/_news_events_listing.scss */
+/* line 91, ../scss/portlets/_news_events_listing.scss */
 body.template-listing_view #main-container #portal-column-one {
   padding-right: 20px;
 }
-/* line 107, ../scss/portlets/_news_events_listing.scss */
+/* line 94, ../scss/portlets/_news_events_listing.scss */
 body.template-listing_view #main-container #portal-column-one ul.portlet.portlet-category-events .list-portlet.second-selector {
   width: 100%;
 }
