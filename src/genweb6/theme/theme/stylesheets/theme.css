@@ -1973,7 +1973,7 @@ body {
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px !important;
   font-weight: 300;
-  line-height: 1.45 !important;
+  line-height: 1.65 !important;
 }
 
 /* line 18, ../scss/_genweb.scss */
@@ -3714,21 +3714,20 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
 .gw-banner .defaultBanner a i.icon-large {
   font-size: 8em;
   position: absolute;
-  top: -82px;
   right: -48px;
-  opacity: 0.5;
+  opacity: 0.25;
 }
-/* line 44, ../scss/contents/_banner.scss */
+/* line 43, ../scss/contents/_banner.scss */
 .gw-banner a::after {
   display: none;
 }
-/* line 48, ../scss/contents/_banner.scss */
+/* line 47, ../scss/contents/_banner.scss */
 .gw-banner img {
   width: 100%;
   height: auto;
   background-color: var(--bs-primary);
 }
-/* line 53, ../scss/contents/_banner.scss */
+/* line 52, ../scss/contents/_banner.scss */
 .gw-banner img:hover {
   background-color: var(--bs-primary-hover);
 }
@@ -3738,6 +3737,10 @@ body.template-event_view article#content .card.event-summary {
   font-size: 18px;
   padding-bottom: 0.09em;
   border: 1px solid var(--bs-primary);
+}
+/* line 14, ../scss/contents/_event.scss */
+body.template-event_view section#section-leadimage img.figure-img {
+  border-radius: 7px;
 }
 
 /* line 5, ../scss/contents/_generic.scss */
@@ -3877,48 +3880,67 @@ body.template-header-controlpanel #formfield-form-widgets-html_description_en {
 /* line 35, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table {
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border-collapse: separate;
+  border-spacing: 0px;
+  border-radius: var(--bs-border-radius);
 }
-/* line 38, ../scss/portlets/_calendar.scss */
+/* line 41, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table th,
 .portlet.portlet-calendar .card-body table td {
   text-align: center;
   padding: 0.75rem 0.25rem;
 }
-/* line 44, ../scss/portlets/_calendar.scss */
+/* line 47, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table thead {
   border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
   background-color: var(--bs-gray-300);
 }
-/* line 48, ../scss/portlets/_calendar.scss */
+/* line 51, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table thead th {
   color: var(--bs-primary);
 }
-/* line 57, ../scss/portlets/_calendar.scss */
+/* line 60, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table tbody td a {
   color: var(--bs-gray-700);
   text-decoration: none;
 }
-/* line 62, ../scss/portlets/_calendar.scss */
+/* line 65, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table tbody td.cal_has_events {
   background-color: #8fc5e4;
+  border-bottom: 2px white solid;
+  border-top: 2px white solid;
 }
-/* line 65, ../scss/portlets/_calendar.scss */
+/* line 70, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table tbody td.cal_has_events a {
   font-weight: 700;
   color: var(--bs-dark);
 }
-/* line 74, ../scss/portlets/_calendar.scss */
+/* line 79, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table tbody td.cal_prev_month span, .portlet.portlet-calendar .card-body table tbody td.cal_next_month span {
   color: var(--bs-gray-500);
 }
-/* line 78, ../scss/portlets/_calendar.scss */
+/* line 83, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table tbody td.cal_prev_month.cal_has_events, .portlet.portlet-calendar .card-body table tbody td.cal_next_month.cal_has_events {
   background-color: #deeef7;
 }
-/* line 81, ../scss/portlets/_calendar.scss */
+/* line 86, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table tbody td.cal_prev_month.cal_has_events a, .portlet.portlet-calendar .card-body table tbody td.cal_next_month.cal_has_events a {
   font-weight: 700;
   color: var(--bs-gray-500);
+}
+
+/* line 101, ../scss/portlets/_calendar.scss */
+body.template-listing_view #main-container #portal-column-one {
+  padding-right: 20px;
+}
+/* line 104, ../scss/portlets/_calendar.scss */
+body.template-listing_view #main-container #portal-column-one div.card.porlet.porlet-calendar {
+  width: 100%;
+}
+
+/* line 7, ../scss/portlets/_collection.scss */
+body.template-document_view #main-content #section-text img.img-polaroid.image-inline.image-richtext {
+  border-radius: 7px;
 }
 
 /* line 5, ../scss/portlets/_esdeveniments.scss */
@@ -3939,6 +3961,11 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   background-color: #007bc11a;
 }
 
+/* line 7, ../scss/portlets/_login.scss */
+.template-homepage #content .d-grid.gap-2 a {
+  width: 70%;
+}
+
 /* line 3, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection li {
   list-style-type: none;
@@ -3946,57 +3973,59 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
 /* line 6, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection li a {
   color: var(--bs-gray-700);
+  width: 100%;
 }
-/* line 9, ../scss/portlets/_multiviewcollection.scss */
+/* line 10, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection li a:hover {
   color: var(--bs-primary);
   text-decoration: underline;
 }
-/* line 15, ../scss/portlets/_multiviewcollection.scss */
+/* line 16, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection li div.img {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-/* line 20, ../scss/portlets/_multiviewcollection.scss */
+/* line 21, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection li div.img img {
   object-fit: cover;
   object-position: center center;
   max-height: 143px;
+  width: 100%;
 }
-/* line 27, ../scss/portlets/_multiviewcollection.scss */
+/* line 29, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection li div.txt {
   display: flex;
   flex-direction: column;
   color: var(--bs-gray-700);
 }
-/* line 32, ../scss/portlets/_multiviewcollection.scss */
+/* line 34, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection li div.txt .title {
   order: 1;
   font-weight: 500;
 }
-/* line 36, ../scss/portlets/_multiviewcollection.scss */
+/* line 38, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection li div.txt .title:first-child {
   white-space: normal;
   margin-bottom: 0.25rem;
 }
-/* line 42, ../scss/portlets/_multiviewcollection.scss */
+/* line 44, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection li div.txt .description {
   order: 2;
 }
-/* line 46, ../scss/portlets/_multiviewcollection.scss */
+/* line 48, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection li div.txt .time {
   order: 3;
 }
-/* line 54, ../scss/portlets/_multiviewcollection.scss */
+/* line 56, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection.portlet-collection-iltr ul.list-group {
   width: 90%;
 }
-/* line 57, ../scss/portlets/_multiviewcollection.scss */
+/* line 59, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection.portlet-collection-iltr ul.list-group div.img {
   align-items: flex-start;
 }
-/* line 67, ../scss/portlets/_multiviewcollection.scss */
+/* line 69, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection.portlet-collection-iutd div.img img {
   max-height: none;
   max-width: 100%;
@@ -4093,50 +4122,62 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   padding-left: 1rem;
 }
 
+/* line 3, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet {
+    /* &.first-selector {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+      align-content: space-between;
+      padding-left: 0;
+
+      li {
+        padding-left: 1.8em;
+        padding-right: 1.8em;
+        border: 1px solid var(--bs-primary);
+
+        &.select-past {
+          border-top-left-radius: 7px;
+          border-bottom-left-radius: 7px;
+        }
+
+        &.select-today {
+          border-left-width: 0;
+          border-right-width: 0;
+          width: 100%;
+          text-align: center;
+        }
+
+        &.select-future {
+          border-top-right-radius: 7px;
+          border-bottom-right-radius: 7px;
+        }
+      }
+    } */
+}
 /* line 5, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-events .list-portlet a {
   text-decoration: none;
 }
-/* line 9, ../scss/portlets/_news_events_listing.scss */
+/* line 8, ../scss/portlets/_news_events_listing.scss */
+.portlet.portlet-category-events .list-portlet a:hover {
+  font-weight: 500;
+}
+/* line 13, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-events .list-portlet.list-portlet {
   list-style: none;
 }
-/* line 13, ../scss/portlets/_news_events_listing.scss */
+/* line 17, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-events .list-portlet.first-selector {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  align-content: space-between;
   padding-left: 0;
 }
-/* line 21, ../scss/portlets/_news_events_listing.scss */
-.portlet.portlet-category-events .list-portlet.first-selector li {
-  padding-left: 2em;
-  padding-right: 2em;
-  border: 1px solid var(--bs-primary);
-}
-/* line 26, ../scss/portlets/_news_events_listing.scss */
-.portlet.portlet-category-events .list-portlet.first-selector li.select-past {
-  border-top-left-radius: 7px;
-  border-bottom-left-radius: 7px;
-}
-/* line 31, ../scss/portlets/_news_events_listing.scss */
-.portlet.portlet-category-events .list-portlet.first-selector li.select-today {
-  border-left-width: 0;
-  border-right-width: 0;
-}
-/* line 36, ../scss/portlets/_news_events_listing.scss */
-.portlet.portlet-category-events .list-portlet.first-selector li.select-future {
-  border-top-right-radius: 7px;
-  border-bottom-right-radius: 7px;
-}
-/* line 43, ../scss/portlets/_news_events_listing.scss */
+/* line 53, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-events .list-portlet.second-selector {
   padding-left: 0;
   max-width: 12em;
 }
-/* line 48, ../scss/portlets/_news_events_listing.scss */
+/* line 58, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-events .list-portlet.second-selector li.select-week,
 .portlet.portlet-category-events .list-portlet.second-selector li.select-month,
 .portlet.portlet-category-events .list-portlet.second-selector li.select-day {
@@ -4151,12 +4192,12 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   padding: 0 0.5rem;
 }
 
-/* line 72, ../scss/portlets/_news_events_listing.scss */
+/* line 81, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-news .list-group .list-group-item a.active {
   color: var(--bs-primary);
   font-weight: 700;
 }
-/* line 76, ../scss/portlets/_news_events_listing.scss */
+/* line 85, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-news .list-group .list-group-item a.active::after {
   float: right;
   font-family: 'bootstrap-icons';
@@ -4164,6 +4205,34 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   color: var(--bs-primary);
   font-size: 1rem;
   margin-top: 0;
+}
+
+/* line 104, ../scss/portlets/_news_events_listing.scss */
+body.template-listing_view #main-container #portal-column-one {
+  padding-right: 20px;
+}
+/* line 107, ../scss/portlets/_news_events_listing.scss */
+body.template-listing_view #main-container #portal-column-one ul.portlet.portlet-category-events .list-portlet.second-selector {
+  width: 100%;
+}
+
+/* line 7, ../scss/portlets/_recent.scss */
+body.template-subhome_view #edit-bar li.list-group-item.ps-0 a.d-block.text-decoration-none.state-published {
+  font-weight: 500;
+}
+/* line 14, ../scss/portlets/_recent.scss */
+body.template-subhome_view #edit-bar .porlet-footer i.bi-bi-plus-circle-fill::before {
+  display: none;
+}
+/* line 21, ../scss/portlets/_recent.scss */
+body.template-subhome_view #edit-bar ul.list-group.list-group-flush.mb-2 svg.plone-icon {
+  margin-right: 0.25em;
+}
+/* line 25, ../scss/portlets/_recent.scss */
+body.template-subhome_view #edit-bar ul.list-group.list-group-flush.mb-2 img.float-end.thumb-icon {
+  width: 10em;
+  margin-left: 0.25em;
+  border-radius: 7px;
 }
 
 /* line 3, ../scss/portlets/_rss.scss */
@@ -4218,6 +4287,10 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   padding: 4px 10px;
   margin-bottom: 3px;
 }
+/* line 60, ../scss/portlets/_rss.scss */
+.portlet.portlet-rss .porlet-footer .bi.bi-plus-circle-fill {
+  display: none;
+}
 
 /* line 7, ../scss/portlets/_estatic.scss */
 .portlet.portletStaticText.portlet-static-con-contorno .card .card-header {
@@ -4230,8 +4303,9 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   object-fit: cover;
   width: 100%;
   aspect-ratio: 16 / 9;
+  border-radius: 7px;
 }
-/* line 12, ../scss/templates/_carousel.scss */
+/* line 13, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .carousel-caption,
 .template-multiple-carousel .carousel-item .carousel-caption {
   width: 100%;
@@ -4248,67 +4322,67 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   background: linear-gradient(to top, white 0%, rgba(255, 255, 255, 0) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
-/* line 24, ../scss/templates/_carousel.scss */
+/* line 25, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .carousel-caption .title,
 .template-multiple-carousel .carousel-item .carousel-caption .title {
   order: 1;
   color: var(--bs-dark);
   font-weight: 700;
 }
-/* line 29, ../scss/templates/_carousel.scss */
+/* line 30, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .carousel-caption .title h5,
 .template-multiple-carousel .carousel-item .carousel-caption .title h5 {
   color: var(--bs-dark);
 }
-/* line 33, ../scss/templates/_carousel.scss */
+/* line 34, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .carousel-caption .title:first-child,
 .template-multiple-carousel .carousel-item .carousel-caption .title:first-child {
   white-space: normal;
   margin-bottom: 0.25rem;
 }
-/* line 39, ../scss/templates/_carousel.scss */
+/* line 40, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .carousel-caption .description,
 .template-multiple-carousel .carousel-item .carousel-caption .description {
   order: 2;
 }
-/* line 43, ../scss/templates/_carousel.scss */
+/* line 44, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .carousel-caption .time,
 .template-multiple-carousel .carousel-item .carousel-caption .time {
   order: 3;
 }
 
-/* line 52, ../scss/templates/_carousel.scss */
+/* line 53, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner {
   margin-right: 2.5rem;
   margin-left: 2.5rem;
   width: calc(100% - 5rem);
 }
-/* line 59, ../scss/templates/_carousel.scss */
+/* line 60, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item img {
   aspect-ratio: 4 / 3;
 }
-/* line 69, ../scss/templates/_carousel.scss */
+/* line 70, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-control-prev i.bi,
 .template-multiple-carousel .carousel-control-next i.bi {
   font-size: 2rem;
   color: var(--bs-primary);
 }
-/* line 73, ../scss/templates/_carousel.scss */
+/* line 74, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-control-prev i.bi:hover,
 .template-multiple-carousel .carousel-control-next i.bi:hover {
   color: var(--bs-primary-hover);
 }
 @media (max-width: 767px) {
-  /* line 81, ../scss/templates/_carousel.scss */
+  /* line 82, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item > div {
     display: none;
   }
-  /* line 85, ../scss/templates/_carousel.scss */
+  /* line 86, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item > div:first-child {
     display: block;
   }
 }
-/* line 91, ../scss/templates/_carousel.scss */
+/* line 92, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item.active,
 .template-multiple-carousel .carousel-inner .carousel-item-next,
 .template-multiple-carousel .carousel-inner .carousel-item-prev {
@@ -4316,72 +4390,72 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   gap: 2rem;
 }
 @media (max-width: 767px) {
-  /* line 100, ../scss/templates/_carousel.scss */
+  /* line 101, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(100%);
   }
-  /* line 105, ../scss/templates/_carousel.scss */
+  /* line 106, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(-100%);
   }
 }
 @media (min-width: 768px) {
-  /* line 113, ../scss/templates/_carousel.scss */
+  /* line 114, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(calc(100% / 3));
   }
-  /* line 118, ../scss/templates/_carousel.scss */
+  /* line 119, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(calc(-100% / 3));
   }
-  /* line 125, ../scss/templates/_carousel.scss */
+  /* line 126, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-item.active.carousel-item-start > .w-100:not(:first-child) {
     opacity: 0;
   }
-  /* line 132, ../scss/templates/_carousel.scss */
+  /* line 133, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-item.active.carousel-item-end > .w-100:not(:last-child) {
     opacity: 0;
   }
 }
 @media (min-width: 992px) {
-  /* line 140, ../scss/templates/_carousel.scss */
+  /* line 141, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(25%);
   }
-  /* line 145, ../scss/templates/_carousel.scss */
+  /* line 146, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(-25%);
   }
 }
-/* line 151, ../scss/templates/_carousel.scss */
+/* line 152, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item-end,
 .template-multiple-carousel .carousel-inner .carousel-item-start {
   transform: translateX(0);
 }
 
-/* line 166, ../scss/templates/_carousel.scss */
+/* line 167, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item img,
 .col-md-3 > .portletWrapper .template-carousel .carousel-item img {
   aspect-ratio: 1;
 }
-/* line 170, ../scss/templates/_carousel.scss */
+/* line 171, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item p,
 .col-md-3 > .portletWrapper .template-carousel .carousel-item p {
   font-size: 14px;
 }
-/* line 174, ../scss/templates/_carousel.scss */
+/* line 175, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item h6,
 .col-md-3 > .portletWrapper .template-carousel .carousel-item h6 {
   color: var(--bs-dark);
 }
 
-/* line 190, ../scss/templates/_carousel.scss */
+/* line 191, ../scss/templates/_carousel.scss */
 .col-md-4 > .portletWrapper .template-carousel .carousel-item img {
   aspect-ratio: 4 / 3;
 }
@@ -4452,7 +4526,7 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(@@gw-hero);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/@@gw-hero);
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -4493,55 +4567,56 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
 /* line 47, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a img {
   max-height: 90px;
+  border-radius: 7px;
 }
 
-/* line 55, ../scss/viewlets/_footer.scss */
+/* line 56, ../scss/viewlets/_footer.scss */
 #footer-complementary {
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 0 4em;
 }
-/* line 59, ../scss/viewlets/_footer.scss */
+/* line 60, ../scss/viewlets/_footer.scss */
 #footer-complementary p {
   display: inline-block;
   margin: 18px 0;
   color: #FFF;
 }
-/* line 65, ../scss/viewlets/_footer.scss */
+/* line 66, ../scss/viewlets/_footer.scss */
 #footer-complementary nav {
   float: right;
   margin: 18px 0;
   text-align: right;
 }
-/* line 70, ../scss/viewlets/_footer.scss */
+/* line 71, ../scss/viewlets/_footer.scss */
 #footer-complementary nav li {
   white-space: nowrap;
   margin-left: 24px;
 }
-/* line 75, ../scss/viewlets/_footer.scss */
+/* line 76, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul,
 #footer-complementary nav li {
   display: inline;
   padding: 0;
 }
-/* line 80, ../scss/viewlets/_footer.scss */
+/* line 81, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul a,
 #footer-complementary nav li a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 84, ../scss/viewlets/_footer.scss */
+/* line 85, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul a:hover,
 #footer-complementary nav li a:hover {
   font-weight: 400;
 }
 
 @media (max-width: 768px) {
-  /* line 94, ../scss/viewlets/_footer.scss */
+  /* line 95, ../scss/viewlets/_footer.scss */
   #footer-complementary nav {
     float: left;
     text-align: left;
   }
-  /* line 98, ../scss/viewlets/_footer.scss */
+  /* line 99, ../scss/viewlets/_footer.scss */
   #footer-complementary nav li {
     margin-right: 24px;
     margin-left: 0;
@@ -4565,7 +4640,7 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   padding: 1em 4em;
   background-color: var(--bs-dark);
   color: #FFF;
-  height: 72px;
+  height: 92px;
   transition: all .4s ease;
   -webkit-transition: all .4s ease;
   -moz-transition: all .4s ease;
@@ -4600,37 +4675,41 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
 /* line 58, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item a {
   color: var(--bs-white);
+  padding: 6px 6px 6px 0px;
 }
-/* line 62, ../scss/viewlets/_header.scss */
+/* line 63, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item:hover {
   color: var(--bs-primary);
 }
-/* line 65, ../scss/viewlets/_header.scss */
+/* line 66, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item:hover a {
   color: var(--bs-primary);
 }
-/* line 70, ../scss/viewlets/_header.scss */
+/* line 71, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item label::after {
   transition: initial;
 }
-/* line 77, ../scss/viewlets/_header.scss */
+/* line 78, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang) {
   position: initial;
   display: inline;
   vertical-align: middle;
-  padding: 12px 0 12px 15px;
+  padding: 0 0 0 15px;
 }
-/* line 83, ../scss/viewlets/_header.scss */
+/* line 84, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang):hover {
+  padding: 18px 0 18px 15px;
+}
+/* line 88, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang) > a.nav-link {
   padding: 6px 6px 6px 0px;
   float: left;
 }
-/* line 88, ../scss/viewlets/_header.scss */
+/* line 93, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang) > label {
   position: relative;
-  margin-top: 1px;
 }
-/* line 93, ../scss/viewlets/_header.scss */
+/* line 97, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang) ul {
   display: flex;
   flex-wrap: wrap;
@@ -4642,27 +4721,27 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   background-color: #212529DD;
   border: 0px solid transparent;
 }
-/* line 104, ../scss/viewlets/_header.scss */
+/* line 108, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang) ul li.nav-item {
   flex: 1 0 16%;
   text-align: left;
   border-bottom: 0px solid transparent;
   border-left: 1px solid #ebebeb;
 }
-/* line 110, ../scss/viewlets/_header.scss */
+/* line 114, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang) ul li.nav-item a.nav-link {
   color: var(--bs-white);
 }
-/* line 117, ../scss/viewlets/_header.scss */
+/* line 121, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree > label {
   height: 2.1em;
-  margin-top: 2px;
+  margin-top: 1px;
 }
-/* line 122, ../scss/viewlets/_header.scss */
+/* line 126, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree > a.nav-link {
   padding-right: 1em;
 }
-/* line 126, ../scss/viewlets/_header.scss */
+/* line 130, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul {
   width: max-content;
   max-width: 350px;
@@ -4673,17 +4752,17 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   background-color: #fff;
   border: 1px solid #ebebeb;
 }
-/* line 136, ../scss/viewlets/_header.scss */
+/* line 140, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item {
   text-align: right;
   border-bottom: 1px solid #ebebeb;
   text-shadow: none;
 }
-/* line 141, ../scss/viewlets/_header.scss */
+/* line 145, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item::last-child {
   border-bottom: 0px solid;
 }
-/* line 145, ../scss/viewlets/_header.scss */
+/* line 149, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item a.nav-link {
   min-width: auto;
   padding-right: 0em;
@@ -4691,31 +4770,31 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   line-height: 18px;
   color: #666;
 }
-/* line 152, ../scss/viewlets/_header.scss */
+/* line 156, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item a.nav-link:hover {
   color: var(--bs-primary);
 }
-/* line 158, ../scss/viewlets/_header.scss */
+/* line 162, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item:hover {
   background-color: var(--bs-primary);
 }
-/* line 161, ../scss/viewlets/_header.scss */
+/* line 165, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item:hover a.nav-link {
   color: #FFF;
 }
-/* line 169, ../scss/viewlets/_header.scss */
+/* line 173, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul {
   flex-direction: row;
 }
-/* line 172, ../scss/viewlets/_header.scss */
+/* line 176, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul li {
-  padding: 7px 15px 7px 15px;
+  padding: 0 15px 0 15px;
 }
-/* line 175, ../scss/viewlets/_header.scss */
+/* line 179, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul li i.bi-globe {
   margin-right: 5px;
 }
-/* line 184, ../scss/viewlets/_header.scss */
+/* line 188, ../scss/viewlets/_header.scss */
 #header #portal-searchbox input#searchGadget {
   width: 0;
   padding: 0;
@@ -4726,20 +4805,20 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
 }
-/* line 197, ../scss/viewlets/_header.scss */
+/* line 201, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form:hover input#searchGadget {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
 }
-/* line 204, ../scss/viewlets/_header.scss */
+/* line 208, ../scss/viewlets/_header.scss */
 #header #portal-searchbox input#searchGadget:focus,
 #header #portal-searchbox input#searchGadget:not(:placeholder-shown) {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
 }
-/* line 211, ../scss/viewlets/_header.scss */
+/* line 215, ../scss/viewlets/_header.scss */
 #header #portal-searchbox button.searchButton {
   background: none;
   color: inherit;
@@ -4750,51 +4829,86 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   outline: inherit;
 }
 @media (min-width: 992px) {
-  /* line 223, ../scss/viewlets/_header.scss */
+  /* line 227, ../scss/viewlets/_header.scss */
   #header #portal-searchbox .livesearch-results {
     margin-top: 0.5rem;
     right: 4em;
   }
 }
 
-/* line 231, ../scss/viewlets/_header.scss */
+/* line 235, ../scss/viewlets/_header.scss */
 #header.shink {
   background-color: #212529DD;
   height: 72px;
 }
-/* line 237, ../scss/viewlets/_header.scss */
+/* line 241, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img {
   max-height: 40px;
 }
-/* line 240, ../scss/viewlets/_header.scss */
+/* line 244, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img.img-desktop {
   display: none;
 }
-/* line 244, ../scss/viewlets/_header.scss */
+/* line 248, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img.img-responsive {
   display: block;
 }
 
-/* line 257, ../scss/viewlets/_header.scss */
+/* line 261, ../scss/viewlets/_header.scss */
 #header:not(.shink) #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang):hover {
   padding: 28px 0 28px 15px;
 }
-/* line 260, ../scss/viewlets/_header.scss */
+/* line 264, ../scss/viewlets/_header.scss */
 #header:not(.shink) #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang):hover ul {
-  top: 72px;
+  top: 92px;
 }
 
-/* line 269, ../scss/viewlets/_header.scss */
+/* line 281, ../scss/viewlets/_header.scss */
+#header.old-style:not(.shink) #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang) ul {
+  background-color: var(--bs-dark);
+}
+
+/* #header.new-style:not(.shink) {
+
+  #portal-searchbox,
+  #portal-logos {
+    z-index: 4;
+  }
+
+  #portal-navbar {
+
+    .navbar-nav {
+
+      li:not(:hover){
+
+        label,
+        a {
+          z-index: 4;
+        }
+      }
+
+      li.has_subtree:not(.nav-lang):hover {
+
+        ul {
+          top: 0;
+          padding: 92px 4em 1em 4em;
+          z-index: 3;
+        }
+      }
+    }
+  }
+} */
+/* line 320, ../scss/viewlets/_header.scss */
 #hero {
   text-align: center;
   position: relative;
 }
-/* line 273, ../scss/viewlets/_header.scss */
+/* line 324, ../scss/viewlets/_header.scss */
 #hero.old-style {
   height: 126px;
   box-shadow: 0 -126px 0 #000;
 }
-/* line 277, ../scss/viewlets/_header.scss */
+/* line 328, ../scss/viewlets/_header.scss */
 #hero.old-style > h1 {
   top: 50%;
   left: 50%;
@@ -4803,35 +4917,35 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   width: 100%;
   max-width: 1320px;
 }
-/* line 287, ../scss/viewlets/_header.scss */
+/* line 338, ../scss/viewlets/_header.scss */
 #hero.new-style {
   height: 600px;
   margin-top: -92px;
 }
-/* line 291, ../scss/viewlets/_header.scss */
+/* line 342, ../scss/viewlets/_header.scss */
 #hero.new-style > div {
   top: calc(50% + 46px);
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
 }
-/* line 297, ../scss/viewlets/_header.scss */
+/* line 348, ../scss/viewlets/_header.scss */
 #hero.new-style > div .line {
   width: 50%;
   border-top: 3px solid white;
   margin: 10px auto;
 }
-/* line 304, ../scss/viewlets/_header.scss */
+/* line 355, ../scss/viewlets/_header.scss */
 #hero.new-style img {
   filter: brightness(40%);
 }
-/* line 309, ../scss/viewlets/_header.scss */
+/* line 360, ../scss/viewlets/_header.scss */
 #hero img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-/* line 315, ../scss/viewlets/_header.scss */
+/* line 366, ../scss/viewlets/_header.scss */
 #hero h2,
 #hero h1 {
   font-weight: 700;
@@ -4843,81 +4957,86 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
 }
 
 @media (max-width: 1000px) {
-  /* line 3, ../scss/viewlets/_header_mobile.scss */
+  /* line 5, ../scss/viewlets/_header_mobile.scss */
+  #portal-top #header {
+    padding: 1em 0 1em 1em;
+  }
+
+  /* line 10, ../scss/viewlets/_header_mobile.scss */
   #portal-navbar,
   #portal-searchbox {
     display: none;
   }
 
-  /* line 8, ../scss/viewlets/_header_mobile.scss */
+  /* line 15, ../scss/viewlets/_header_mobile.scss */
   #portal-navbar-mobile {
     display: block;
   }
 }
-/* line 15, ../scss/viewlets/_header_mobile.scss */
+/* line 22, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .offcanvas-header {
   padding: var(--bs-offcanvas-padding-y) 2rem;
 }
-/* line 18, ../scss/viewlets/_header_mobile.scss */
+/* line 25, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .offcanvas-header h5 {
   color: var(--bs-white);
   margin-bottom: 0;
 }
-/* line 24, ../scss/viewlets/_header_mobile.scss */
+/* line 31, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .offcanvas-body {
   padding-top: 0;
 }
-/* line 30, ../scss/viewlets/_header_mobile.scss */
+/* line 37, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar .container-fluid {
   justify-content: flex-end;
 }
-/* line 39, ../scss/viewlets/_header_mobile.scss */
+/* line 46, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li a {
   color: var(--bs-white);
 }
-/* line 42, ../scss/viewlets/_header_mobile.scss */
+/* line 49, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li a:focus, #portal-navbar-mobile .navbar-nav li a:hover {
   background: transparent;
   font-weight: 500;
 }
-/* line 49, ../scss/viewlets/_header_mobile.scss */
+/* line 56, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li label {
   padding-right: 1rem;
 }
-/* line 52, ../scss/viewlets/_header_mobile.scss */
+/* line 59, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li label:after {
   font-size: .75em;
   background: 0 0;
   border: 1px solid var(--bs-white);
   padding: 5px;
 }
-/* line 60, ../scss/viewlets/_header_mobile.scss */
+/* line 67, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li ul.has_subtree {
   background-color: var(--bs-gray-700);
   transition: all .5s ease;
 }
-/* line 68, ../scss/viewlets/_header_mobile.scss */
-#portal-navbar-mobile .navbar-nav li:active label:after, #portal-navbar-mobile .navbar-nav li:hover label:after {
+/* line 74, ../scss/viewlets/_header_mobile.scss */
+#portal-navbar-mobile .navbar-nav li:hover label:after {
   background: var(--bs-white);
   color: var(--bs-navbar-background);
 }
-/* line 76, ../scss/viewlets/_header_mobile.scss */
+/* line 82, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li.open label:after {
   transform: rotate(180deg);
 }
-/* line 80, ../scss/viewlets/_header_mobile.scss */
+/* line 86, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li.open ul {
   opacity: 1;
   visibility: visible;
   height: auto;
   margin-left: 1rem;
 }
-/* line 90, ../scss/viewlets/_header_mobile.scss */
+/* line 96, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile {
   width: 100%;
   padding: 0 1rem;
 }
-/* line 94, ../scss/viewlets/_header_mobile.scss */
+/* line 100, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile button.searchButton {
   background: none;
   color: inherit;
@@ -4927,7 +5046,7 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   cursor: pointer;
   outline: inherit;
 }
-/* line 104, ../scss/viewlets/_header_mobile.scss */
+/* line 110, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile .livesearch-results {
   position: absolute;
   left: 0;
@@ -5345,6 +5464,22 @@ body.template-search form#searchform .dropdown-toggle::after {
   margin-left: 0.5em;
 }
 
+/* line 80, ../scss/views/_search.scss */
+body.template-sharing main#main-container article#content .mb-3 {
+  display: flex;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* line 86, ../scss/views/_search.scss */
+body.template-sharing main#main-container article#content .mb-3 .form-control {
+  width: 80%;
+}
+/* line 90, ../scss/views/_search.scss */
+body.template-sharing main#main-container article#content .mb-3 button#sharing-search-button {
+  width: 18%;
+}
+
 /* line 5, ../scss/views/_listing_view.scss */
 body.template-listing_view #content-core a.entries {
   font-weight: 400;
@@ -5353,6 +5488,23 @@ body.template-listing_view #content-core a.entries {
 /* line 10, ../scss/views/_listing_view.scss */
 body.template-listing_view #content-core p.me-3 {
   font-size: 16px;
+}
+/* line 16, ../scss/views/_listing_view.scss */
+body.template-listing_view #content-core div#content-core img.image-responsive {
+  border-radius: 7px;
+}
+/* line 20, ../scss/views/_listing_view.scss */
+body.template-listing_view #content-core div#content-core span.datedisplay {
+  font-weight: 400;
+}
+/* line 24, ../scss/views/_listing_view.scss */
+body.template-listing_view #content-core div#content-core abbr.dtstart {
+  text-decoration: none;
+  font-weight: 400;
+}
+/* line 30, ../scss/views/_listing_view.scss */
+body.template-listing_view #content-core img.image-responsive {
+  border-radius: 7px;
 }
 
 @media print {

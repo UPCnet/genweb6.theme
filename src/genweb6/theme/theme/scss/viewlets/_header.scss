@@ -14,8 +14,8 @@
   padding: 1em 4em;
   background-color: var(--bs-dark);
   color: #FFF;
-  // height: 92px;  // TODO
-  height: 72px;
+  height: 92px;
+  // height: 72px;  // TODO
   transition: all .4s ease;
   -webkit-transition: all .4s ease;
   -moz-transition: all .4s ease;
@@ -57,6 +57,7 @@
 
         a {
           color: var(--bs-white);
+          padding: 6px 6px 6px 0px;
         }
 
         &:hover {
@@ -78,7 +79,11 @@
           position: initial;
           display: inline;
           vertical-align: middle;
-          padding: 12px 0 12px 15px;
+          padding: 0 0 0 15px;
+
+          &:hover {
+            padding: 18px 0 18px 15px;
+          }
 
           & > a.nav-link {
             padding: 6px 6px 6px 0px;
@@ -87,7 +92,6 @@
 
           & > label {
             position: relative;
-            margin-top: 1px;
           }
 
           ul {
@@ -116,7 +120,7 @@
 
         & > label {
           height: 2.1em;
-          margin-top: 2px;
+          margin-top: 1px;
         }
 
         & > a.nav-link {
@@ -170,7 +174,7 @@
       flex-direction: row;
 
       li {
-        padding: 7px 15px 7px 15px;
+        padding: 0 15px 0 15px;
 
         i.bi-globe {
           margin-right: 5px;
@@ -258,13 +262,60 @@
         padding: 28px 0 28px 15px;
 
         ul {
-          // top: 52px;  // TODO
-          top: 72px;
+          // top: 72px;  // TODO
+          top: 92px;
         }
       }
     }
   }
 }
+
+#header.old-style:not(.shink) {
+
+  #portal-navbar {
+
+    .navbar-nav {
+
+      li.has_subtree:not(.nav-lang) {
+
+        ul {
+          background-color: var(--bs-dark);
+        }
+      }
+    }
+  }
+}
+
+/* #header.new-style:not(.shink) {
+
+  #portal-searchbox,
+  #portal-logos {
+    z-index: 4;
+  }
+
+  #portal-navbar {
+
+    .navbar-nav {
+
+      li:not(:hover){
+
+        label,
+        a {
+          z-index: 4;
+        }
+      }
+
+      li.has_subtree:not(.nav-lang):hover {
+
+        ul {
+          top: 0;
+          padding: 92px 4em 1em 4em;
+          z-index: 3;
+        }
+      }
+    }
+  }
+} */
 
 #hero {
   text-align: center;

@@ -34,6 +34,9 @@
 
     table {
       border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+      border-collapse: separate;
+      border-spacing: 0px;
+      border-radius: var(--bs-border-radius);
 
       th,
       td {
@@ -61,6 +64,8 @@
 
           &.cal_has_events {
             background-color: #8fc5e4;
+            border-bottom: 2px white solid;
+            border-top: 2px white solid;
 
             a {
               font-weight: 700;
@@ -85,6 +90,19 @@
             }
           }
         }
+      }
+    }
+  }
+}
+body.template-listing_view {
+  
+  #main-container {
+
+    #portal-column-one {
+      padding-right: 20px;
+
+      div.card.porlet.porlet-calendar {
+        width:100%;
       }
     }
   }

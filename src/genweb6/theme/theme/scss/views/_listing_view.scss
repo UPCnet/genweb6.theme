@@ -10,5 +10,25 @@ body.template-listing_view {
 		p.me-3 {
 			font-size: 16px;
 		}
+		
+		div#content-core {
+
+			img.image-responsive {
+				border-radius: 7px;
+			}
+
+			span.datedisplay {
+				font-weight: 400;
+			}
+
+			abbr.dtstart {
+				text-decoration: none;
+	    		font-weight: 400;
+	    	}
+		}
+
+		img.image-responsive {
+			border-radius:7px;
+		}
 	}
 }

@@ -8,4 +8,12 @@ body.template-event_view {
 			border: 1px solid var(--bs-primary);
 		}
 	}
+
+	section#section-leadimage {
+
+		img.figure-img {
+			border-radius: 7px;
+		}
+	}
 }
+

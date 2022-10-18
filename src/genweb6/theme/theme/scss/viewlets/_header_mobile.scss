@@ -1,5 +1,12 @@
 @media (max-width: 1000px) {
 
+  #portal-top {
+
+    #header{
+      padding: 1em 0 1em 1em;
+    }
+  }
+
   #portal-navbar,
   #portal-searchbox {
     display: none;
@@ -62,7 +69,6 @@
         transition: all .5s ease;
       }
 
-      &:active,
       &:hover {
 
         label:after {

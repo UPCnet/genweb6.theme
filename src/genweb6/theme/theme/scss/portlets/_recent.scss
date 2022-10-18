@@ -1,0 +1,33 @@
+body.template-subhome_view {
+	
+	#edit-bar{
+
+		li.list-group-item.ps-0 {
+
+			a.d-block.text-decoration-none.state-published {
+				font-weight: 500;
+			}
+		}
+
+		.porlet-footer {
+
+			i.bi-bi-plus-circle-fill::before {
+				display: none;
+			}
+		}
+
+		ul.list-group.list-group-flush.mb-2 {
+
+			svg.plone-icon {
+				margin-right: 0.25em
+			}
+
+			img.float-end.thumb-icon{
+				width: 10em;
+			    margin-left: 0.25em;
+			    border-radius: 7px;
+			}
+
+		}
+	}
+}
