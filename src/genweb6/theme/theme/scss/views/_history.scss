@@ -19,3 +19,131 @@ body.template-versions-history-form{
 		}
 	}
 }
+
+body.template-historyview {
+	
+	.container {
+
+		#portal-column-content {
+
+			#content-core {
+
+				a.btn.btn-primary {
+				    background-color: transparent;
+	 				border: 2px solid var(--bs-primary);
+					color: var(--bs-gray-dark);
+				}
+
+				a.btn.btn-primary:hover {
+					color: var(--bs-body-bg);
+				    background-color: var(--bs-btn-active-bg);
+				    border: 2px solid var(--bs-btn-hover-border-color);
+				}
+
+				a.btn.btn-secondary {
+					background-color: transparent;
+				    border: 2px solid var(--bs-gray-700);
+				    color: var(--bs-gray-dark);
+				}
+				
+				a.btn.btn-secondary:hover {
+					color: var(--bs-body-bg);
+				    background-color: var(--bs-btn-active-bg);
+				    border: 2px solid var(--bs-btn-hover-border-color);
+				}
+
+				button.btn.btn-warning {
+					color: var(--bs-gray-dark);
+				    background-color: transparent;
+				    border: 2px solid var(--bs-btn-hover-border-color);
+				}
+
+				button.btn.btn-warning:hover {
+					color: var(--bs-gray-dark);
+				    background-color: var(--bs-btn-bg);
+				    border: 2px solid var(--bs-btn-hover-border-color);
+				}
+			}
+		}
+
+		#portal-column-one {
+
+			a.btn.btn-secondary {
+			    width: 230px;
+			    background-color: var(--bs-primary);
+			    border-color: var(--bs-primary);
+			}
+
+			a.btn.btn-secondary:hover {
+				width: 230px;
+			    background-color: var(--bs-primary-hover);
+			    border-color: var(--bs-primary-hover);
+			}
+		}
+	}
+}
+
+body.template-versions_history_form {
+	
+	#portal-column-content {
+
+		div#content-core {
+
+			li {
+				list-style: none
+			}
+
+			input.standalone {
+				border-radius: 7px;
+			    background-color: transparent;
+		 		border: 2px solid var(--bs-primary);
+				color: var(--bs-gray-dark);
+				border-style: solid;
+			}
+
+			input.standalone:hover {
+				color: var(--bs-body-bg);
+			    background-color: var(--bs-primary-hover);
+			    border: 2px solid var(--bs-btn-hover-border-color);
+			    border-style: solid;
+			}
+		}
+	}
+
+	#portal-column-one {
+
+		a.btn.btn-secondary {
+			background-color: var(--bs-primary);
+		 	border-color: var(--bs-primary);
+			color: var(--bs-btn-color);
+		}
+
+		a.btn.btn-secondary:hover {
+			background-color: var(--bs-primary-hover);
+		 	border-color: var(--bs-primary-hover);
+			color: var(--bs-btn-color);
+		}
+	}
+}
+
+body.template-confirm-action {
+	
+	.container {
+
+		input.standalone {
+			border-radius: 7px;
+		    background-color: var(--bs-primary);
+		    border-color: var(--bs-primary);
+		    border-style: solid;
+		    color: var(--bs-body-bg);
+		}
+
+		input.standalone:hover {
+			border-radius: 7px;
+		    background-color: var(--bs-primary-hover);
+		    border-color: var(--bs-primary-hover);
+		    border-style: solid;
+		    color: var(--bs-body-bg);
+		}
+	}
+}

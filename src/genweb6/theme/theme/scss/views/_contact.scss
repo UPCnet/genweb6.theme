@@ -1,0 +1,32 @@
+body.template-contact {
+	
+	#portal-column-content {
+
+		#content {
+
+			div.col-md-5 {
+
+				ul#contacte-links.unstyled {
+				    list-style: none;
+					padding: 0;
+				}
+
+				ul#contacte-dades.unstyled {
+				    list-style: none;
+					padding: 0;
+				}
+			}
+
+			div.col-md-7.box.box-gradient {
+
+				.formControls {
+
+					button#form-buttons-send{
+						background-color: var(--bs-primary);
+    					width: 150px;
+					}
+				}
+			}
+		}
+	}
+}

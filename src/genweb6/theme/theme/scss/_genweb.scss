@@ -118,6 +118,23 @@ footer#portal-footer-wrapper {
   height: 0.73em;
 }
 
+#main-container {
+
+  #portal-column-one {
+    padding-right: 20px;
+  }
+}
+
+body.template-edit {
+
+  div.pat-relateditems-dropdown {
+
+    .select2-results {
+      max-height: 450px;
+    }
+  }
+}
+
 .back-to-top {
   background: none;
   margin: 0;

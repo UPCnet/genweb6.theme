@@ -1,0 +1,23 @@
+body.template-sharing {
+
+  main#main-container {
+
+    article#content {
+
+      .mb-3 {
+        display: flex;
+        margin-bottom: 1rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .form-control {
+          width: 80%;
+        }
+
+        button#sharing-search-button{
+          width: 18%
+        }
+      }
+    }
+  }
+}

@@ -2084,7 +2084,17 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   height: 0.73em;
 }
 
-/* line 121, ../scss/_genweb.scss */
+/* line 123, ../scss/_genweb.scss */
+#main-container #portal-column-one {
+  padding-right: 20px;
+}
+
+/* line 132, ../scss/_genweb.scss */
+body.template-edit div.pat-relateditems-dropdown .select2-results {
+  max-height: 450px;
+}
+
+/* line 138, ../scss/_genweb.scss */
 .back-to-top {
   background: none;
   margin: 0;
@@ -2097,11 +2107,11 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   text-decoration: none;
   color: var(--bs-primary);
 }
-/* line 133, ../scss/_genweb.scss */
+/* line 150, ../scss/_genweb.scss */
 .back-to-top:hover, .back-to-top:active, .back-to-top:focus {
   color: var(--bs-primary-hover);
 }
-/* line 139, ../scss/_genweb.scss */
+/* line 156, ../scss/_genweb.scss */
 .back-to-top svg {
   width: 45px;
   height: 45px;
@@ -3845,8 +3855,9 @@ body.template-header-controlpanel #formfield-form-widgets-html_description_en {
 .portlet.portlet-calendar {
   border: 0px solid transparent;
   border-radius: 0;
+  width: 100%;
 }
-/* line 5, ../scss/portlets/_calendar.scss */
+/* line 6, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-header {
   border-bottom: 0px solid transparent;
   border-radius: 0;
@@ -3854,88 +3865,79 @@ body.template-header-controlpanel #formfield-form-widgets-html_description_en {
   background-color: transparent;
   text-align: right;
 }
-/* line 12, ../scss/portlets/_calendar.scss */
+/* line 13, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-header a {
   visibility: hidden;
   text-decoration: none;
 }
-/* line 16, ../scss/portlets/_calendar.scss */
+/* line 17, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-header a.calendarPrevious:after {
   visibility: visible;
   content: "<";
   padding-right: 8px;
 }
-/* line 22, ../scss/portlets/_calendar.scss */
+/* line 23, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-header a.calendarNext:after {
   visibility: visible;
   content: ">";
   padding-left: -2px;
 }
-/* line 30, ../scss/portlets/_calendar.scss */
+/* line 31, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body {
   padding-left: 0;
   padding-right: 0;
   padding-top: var(--bs-card-title-spacer-y);
 }
-/* line 35, ../scss/portlets/_calendar.scss */
+/* line 36, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table {
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-collapse: separate;
   border-spacing: 0px;
   border-radius: var(--bs-border-radius);
 }
-/* line 41, ../scss/portlets/_calendar.scss */
+/* line 42, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table th,
 .portlet.portlet-calendar .card-body table td {
   text-align: center;
   padding: 0.75rem 0.25rem;
 }
-/* line 47, ../scss/portlets/_calendar.scss */
+/* line 48, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table thead {
   border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
   background-color: var(--bs-gray-300);
 }
-/* line 51, ../scss/portlets/_calendar.scss */
+/* line 52, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table thead th {
   color: var(--bs-primary);
 }
-/* line 60, ../scss/portlets/_calendar.scss */
+/* line 61, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table tbody td a {
   color: var(--bs-gray-700);
   text-decoration: none;
 }
-/* line 65, ../scss/portlets/_calendar.scss */
+/* line 66, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table tbody td.cal_has_events {
   background-color: #8fc5e4;
   border-bottom: 2px white solid;
   border-top: 2px white solid;
 }
-/* line 70, ../scss/portlets/_calendar.scss */
+/* line 71, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table tbody td.cal_has_events a {
   font-weight: 700;
   color: var(--bs-dark);
 }
-/* line 79, ../scss/portlets/_calendar.scss */
+/* line 80, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table tbody td.cal_prev_month span, .portlet.portlet-calendar .card-body table tbody td.cal_next_month span {
   color: var(--bs-gray-500);
 }
-/* line 83, ../scss/portlets/_calendar.scss */
+/* line 84, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table tbody td.cal_prev_month.cal_has_events, .portlet.portlet-calendar .card-body table tbody td.cal_next_month.cal_has_events {
   background-color: #deeef7;
 }
-/* line 86, ../scss/portlets/_calendar.scss */
+/* line 87, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table tbody td.cal_prev_month.cal_has_events a, .portlet.portlet-calendar .card-body table tbody td.cal_next_month.cal_has_events a {
   font-weight: 700;
   color: var(--bs-gray-500);
-}
-
-/* line 101, ../scss/portlets/_calendar.scss */
-body.template-listing_view #main-container #portal-column-one {
-  padding-right: 20px;
-}
-/* line 104, ../scss/portlets/_calendar.scss */
-body.template-listing_view #main-container #portal-column-one div.card.porlet.porlet-calendar {
-  width: 100%;
 }
 
 /* line 7, ../scss/portlets/_collection.scss */
@@ -3961,8 +3963,8 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   background-color: #007bc11a;
 }
 
-/* line 7, ../scss/portlets/_login.scss */
-.template-homepage #content .d-grid.gap-2 a {
+/* line 3, ../scss/portlets/_login.scss */
+div.portlet.portletLogin a.btn {
   width: 70%;
 }
 
@@ -4030,6 +4032,7 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   max-height: none;
   max-width: 100%;
   height: auto;
+  aspect-ratio: 4/3;
 }
 
 /* line 1, ../scss/portlets/_navigation.scss */
@@ -4156,8 +4159,8 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
 }
 /* line 40, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-events .list-portlet.second-selector {
+  width: 100%;
   padding-left: 0;
-  max-width: 12em;
 }
 /* line 45, ../scss/portlets/_news_events_listing.scss */
 .portlet.portlet-category-events .list-portlet.second-selector li.select-week,
@@ -4187,15 +4190,6 @@ body.template-event #content div.cal_date.card.me-3.flex-shrink-0.text-center .c
   color: var(--bs-primary);
   font-size: 1rem;
   margin-top: 0;
-}
-
-/* line 91, ../scss/portlets/_news_events_listing.scss */
-body.template-listing_view #main-container #portal-column-one {
-  padding-right: 20px;
-}
-/* line 94, ../scss/portlets/_news_events_listing.scss */
-body.template-listing_view #main-container #portal-column-one ul.portlet.portlet-category-events .list-portlet.second-selector {
-  width: 100%;
 }
 
 /* line 7, ../scss/portlets/_recent.scss */
@@ -4459,6 +4453,17 @@ body.template-subhome_view #edit-bar ul.list-group.list-group-flush.mb-2 img.flo
   text-decoration: none;
 }
 
+/* line 19, ../scss/viewlets/_breadcrumb.scss */
+body.template-homepage #portal-breadcrumbs {
+  display: none;
+}
+
+/* line 3, ../scss/viewlets/_byline.scss */
+section#section-byline .badge {
+  margin-bottom: 0.5rem;
+  margin-right: 0.25rem;
+}
+
 /* line 1, ../scss/viewlets/_cookies.scss */
 #cookies-gw-preview,
 #cookies-gw {
@@ -4495,6 +4500,11 @@ body.template-subhome_view #edit-bar ul.list-group.list-group-flush.mb-2 img.flo
   position: fixed;
 }
 
+/* line 7, ../scss/viewlets/_edit_zone.scss */
+body.plone-toolbar-left div#edit-zone .nav-link .plone-icon {
+  margin-top: 0.4em;
+}
+
 /* line 1, ../scss/viewlets/_footer.scss */
 #portal-footer {
   position: relative;
@@ -4523,82 +4533,84 @@ body.template-subhome_view #edit-bar ul.list-group.list-group-flush.mb-2 img.flo
 #footer-logos {
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 2em 4em 1em 4em;
+  background-color: var(--bs-body-bg);
+  border-top: 1px solid var(--bs-gray-300);
 }
-/* line 28, ../scss/viewlets/_footer.scss */
+/* line 30, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos {
   margin: 0 auto;
   padding: 0;
   list-style: none;
   text-align: center;
 }
-/* line 34, ../scss/viewlets/_footer.scss */
+/* line 36, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li {
   display: inline-block;
   margin: 0 0 1em;
 }
-/* line 38, ../scss/viewlets/_footer.scss */
+/* line 40, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a {
   text-decoration: none;
   margin-left: 2em;
 }
-/* line 42, ../scss/viewlets/_footer.scss */
+/* line 44, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a[target="_blank"]::after {
   display: none;
   content: "";
 }
-/* line 47, ../scss/viewlets/_footer.scss */
+/* line 49, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a img {
   max-height: 90px;
   border-radius: 7px;
 }
 
-/* line 56, ../scss/viewlets/_footer.scss */
+/* line 58, ../scss/viewlets/_footer.scss */
 #footer-complementary {
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 0 4em;
 }
-/* line 60, ../scss/viewlets/_footer.scss */
+/* line 62, ../scss/viewlets/_footer.scss */
 #footer-complementary p {
   display: inline-block;
   margin: 18px 0;
   color: #FFF;
 }
-/* line 66, ../scss/viewlets/_footer.scss */
+/* line 68, ../scss/viewlets/_footer.scss */
 #footer-complementary nav {
   float: right;
   margin: 18px 0;
   text-align: right;
 }
-/* line 71, ../scss/viewlets/_footer.scss */
+/* line 73, ../scss/viewlets/_footer.scss */
 #footer-complementary nav li {
   white-space: nowrap;
   margin-left: 24px;
 }
-/* line 76, ../scss/viewlets/_footer.scss */
+/* line 78, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul,
 #footer-complementary nav li {
   display: inline;
   padding: 0;
 }
-/* line 81, ../scss/viewlets/_footer.scss */
+/* line 83, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul a,
 #footer-complementary nav li a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 85, ../scss/viewlets/_footer.scss */
+/* line 87, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul a:hover,
 #footer-complementary nav li a:hover {
   font-weight: 400;
 }
 
 @media (max-width: 768px) {
-  /* line 95, ../scss/viewlets/_footer.scss */
+  /* line 97, ../scss/viewlets/_footer.scss */
   #footer-complementary nav {
     float: left;
     text-align: left;
   }
-  /* line 99, ../scss/viewlets/_footer.scss */
+  /* line 101, ../scss/viewlets/_footer.scss */
   #footer-complementary nav li {
     margin-right: 24px;
     margin-left: 0;
@@ -4628,70 +4640,70 @@ body.template-subhome_view #edit-bar ul.list-group.list-group-flush.mb-2 img.flo
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
 }
-/* line 24, ../scss/viewlets/_header.scss */
+/* line 23, ../scss/viewlets/_header.scss */
 #header.new-style {
-  background-color: transparent;
+  background-color: #212529DD;
 }
-/* line 31, ../scss/viewlets/_header.scss */
+/* line 29, ../scss/viewlets/_header.scss */
 #header #portal-logos a[target="_blank"]::after {
   display: none;
   content: "";
 }
-/* line 36, ../scss/viewlets/_header.scss */
+/* line 34, ../scss/viewlets/_header.scss */
 #header #portal-logos img {
   max-height: 60px;
 }
-/* line 40, ../scss/viewlets/_header.scss */
+/* line 37, ../scss/viewlets/_header.scss */
 #header #portal-logos img.img-responsive {
   display: none;
 }
-/* line 46, ../scss/viewlets/_header.scss */
+/* line 43, ../scss/viewlets/_header.scss */
 #header .bi-search {
   text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark);
 }
-/* line 54, ../scss/viewlets/_header.scss */
+/* line 51, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item {
   font-weight: 400;
   text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark);
 }
-/* line 58, ../scss/viewlets/_header.scss */
+/* line 55, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item a {
   color: var(--bs-white);
   padding: 6px 6px 6px 0px;
 }
-/* line 63, ../scss/viewlets/_header.scss */
+/* line 60, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item:hover {
   color: var(--bs-primary);
 }
-/* line 66, ../scss/viewlets/_header.scss */
+/* line 63, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item:hover a {
   color: var(--bs-primary);
 }
-/* line 71, ../scss/viewlets/_header.scss */
+/* line 68, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item label::after {
   transition: initial;
 }
-/* line 78, ../scss/viewlets/_header.scss */
+/* line 75, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang) {
   position: initial;
   display: inline;
   vertical-align: middle;
   padding: 0 0 0 15px;
 }
-/* line 84, ../scss/viewlets/_header.scss */
+/* line 81, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang):hover {
   padding: 18px 0 18px 15px;
 }
-/* line 88, ../scss/viewlets/_header.scss */
+/* line 85, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang) > a.nav-link {
   padding: 6px 6px 6px 0px;
   float: left;
 }
-/* line 93, ../scss/viewlets/_header.scss */
+/* line 90, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang) > label {
   position: relative;
 }
-/* line 97, ../scss/viewlets/_header.scss */
+/* line 94, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang) ul {
   display: flex;
   flex-wrap: wrap;
@@ -4703,27 +4715,28 @@ body.template-subhome_view #edit-bar ul.list-group.list-group-flush.mb-2 img.flo
   background-color: #212529DD;
   border: 0px solid transparent;
 }
-/* line 108, ../scss/viewlets/_header.scss */
+/* line 105, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang) ul li.nav-item {
-  flex: 1 0 16%;
+  flex: 1 0 calc(100% / 6);
   text-align: left;
   border-bottom: 0px solid transparent;
   border-left: 1px solid #ebebeb;
+  max-width: calc(100% / 6);
 }
-/* line 114, ../scss/viewlets/_header.scss */
+/* line 112, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang) ul li.nav-item a.nav-link {
   color: var(--bs-white);
 }
-/* line 121, ../scss/viewlets/_header.scss */
+/* line 119, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree > label {
   height: 2.1em;
-  margin-top: 1px;
+  margin-top: 2px;
 }
-/* line 126, ../scss/viewlets/_header.scss */
+/* line 124, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree > a.nav-link {
   padding-right: 1em;
 }
-/* line 130, ../scss/viewlets/_header.scss */
+/* line 128, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul {
   width: max-content;
   max-width: 350px;
@@ -4734,17 +4747,17 @@ body.template-subhome_view #edit-bar ul.list-group.list-group-flush.mb-2 img.flo
   background-color: #fff;
   border: 1px solid #ebebeb;
 }
-/* line 140, ../scss/viewlets/_header.scss */
+/* line 138, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item {
   text-align: right;
   border-bottom: 1px solid #ebebeb;
   text-shadow: none;
 }
-/* line 145, ../scss/viewlets/_header.scss */
+/* line 143, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item::last-child {
   border-bottom: 0px solid;
 }
-/* line 149, ../scss/viewlets/_header.scss */
+/* line 147, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item a.nav-link {
   min-width: auto;
   padding-right: 0em;
@@ -4752,31 +4765,32 @@ body.template-subhome_view #edit-bar ul.list-group.list-group-flush.mb-2 img.flo
   line-height: 18px;
   color: #666;
 }
-/* line 156, ../scss/viewlets/_header.scss */
+/* line 154, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item a.nav-link:hover {
   color: var(--bs-primary);
 }
-/* line 162, ../scss/viewlets/_header.scss */
+/* line 160, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item:hover {
   background-color: var(--bs-primary);
 }
-/* line 165, ../scss/viewlets/_header.scss */
+/* line 163, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav li.has_subtree ul li.nav-item:hover a.nav-link {
   color: #FFF;
 }
-/* line 173, ../scss/viewlets/_header.scss */
+/* line 171, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul {
   flex-direction: row;
 }
-/* line 176, ../scss/viewlets/_header.scss */
+/* line 174, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul li {
   padding: 0 15px 0 15px;
 }
-/* line 179, ../scss/viewlets/_header.scss */
-#header #portal-navbar ul li i.bi-globe {
+/* line 177, ../scss/viewlets/_header.scss */
+#header #portal-navbar ul li i[class^='bi'],
+#header #portal-navbar ul li i.bi {
   margin-right: 5px;
 }
-/* line 188, ../scss/viewlets/_header.scss */
+/* line 187, ../scss/viewlets/_header.scss */
 #header #portal-searchbox input#searchGadget {
   width: 0;
   padding: 0;
@@ -4787,20 +4801,20 @@ body.template-subhome_view #edit-bar ul.list-group.list-group-flush.mb-2 img.flo
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
 }
-/* line 201, ../scss/viewlets/_header.scss */
+/* line 200, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form:hover input#searchGadget {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
 }
-/* line 208, ../scss/viewlets/_header.scss */
+/* line 207, ../scss/viewlets/_header.scss */
 #header #portal-searchbox input#searchGadget:focus,
 #header #portal-searchbox input#searchGadget:not(:placeholder-shown) {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
 }
-/* line 215, ../scss/viewlets/_header.scss */
+/* line 214, ../scss/viewlets/_header.scss */
 #header #portal-searchbox button.searchButton {
   background: none;
   color: inherit;
@@ -4811,86 +4825,61 @@ body.template-subhome_view #edit-bar ul.list-group.list-group-flush.mb-2 img.flo
   outline: inherit;
 }
 @media (min-width: 992px) {
-  /* line 227, ../scss/viewlets/_header.scss */
+  /* line 226, ../scss/viewlets/_header.scss */
   #header #portal-searchbox .livesearch-results {
     margin-top: 0.5rem;
     right: 4em;
   }
 }
 
-/* line 235, ../scss/viewlets/_header.scss */
+/* line 234, ../scss/viewlets/_header.scss */
 #header.shink {
   background-color: #212529DD;
   height: 72px;
 }
-/* line 241, ../scss/viewlets/_header.scss */
+/* line 240, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img {
   max-height: 40px;
 }
-/* line 244, ../scss/viewlets/_header.scss */
+/* line 243, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img.img-desktop {
   display: none;
 }
-/* line 248, ../scss/viewlets/_header.scss */
+/* line 247, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img.img-responsive {
   display: block;
 }
 
-/* line 261, ../scss/viewlets/_header.scss */
+/* line 260, ../scss/viewlets/_header.scss */
 #header:not(.shink) #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang):hover {
   padding: 28px 0 28px 15px;
 }
-/* line 264, ../scss/viewlets/_header.scss */
+/* line 263, ../scss/viewlets/_header.scss */
 #header:not(.shink) #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang):hover ul {
   top: 92px;
 }
 
-/* line 281, ../scss/viewlets/_header.scss */
+/* line 279, ../scss/viewlets/_header.scss */
 #header.old-style:not(.shink) #portal-navbar .navbar-nav li.has_subtree:not(.nav-lang) ul {
   background-color: var(--bs-dark);
 }
 
-/* #header.new-style:not(.shink) {
+/* line 289, ../scss/viewlets/_header.scss */
+body.template-homepage #hero {
+  margin-bottom: 2rem;
+}
 
-  #portal-searchbox,
-  #portal-logos {
-    z-index: 4;
-  }
-
-  #portal-navbar {
-
-    .navbar-nav {
-
-      li:not(:hover){
-
-        label,
-        a {
-          z-index: 4;
-        }
-      }
-
-      li.has_subtree:not(.nav-lang):hover {
-
-        ul {
-          top: 0;
-          padding: 92px 4em 1em 4em;
-          z-index: 3;
-        }
-      }
-    }
-  }
-} */
-/* line 320, ../scss/viewlets/_header.scss */
+/* line 294, ../scss/viewlets/_header.scss */
 #hero {
   text-align: center;
   position: relative;
 }
-/* line 324, ../scss/viewlets/_header.scss */
+/* line 298, ../scss/viewlets/_header.scss */
 #hero.old-style {
   height: 126px;
   box-shadow: 0 -126px 0 #000;
 }
-/* line 328, ../scss/viewlets/_header.scss */
+/* line 302, ../scss/viewlets/_header.scss */
 #hero.old-style > h1 {
   top: 50%;
   left: 50%;
@@ -4899,35 +4888,35 @@ body.template-subhome_view #edit-bar ul.list-group.list-group-flush.mb-2 img.flo
   width: 100%;
   max-width: 1320px;
 }
-/* line 338, ../scss/viewlets/_header.scss */
+/* line 312, ../scss/viewlets/_header.scss */
 #hero.new-style {
   height: 600px;
   margin-top: -92px;
 }
-/* line 342, ../scss/viewlets/_header.scss */
+/* line 316, ../scss/viewlets/_header.scss */
 #hero.new-style > div {
   top: calc(50% + 46px);
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
 }
-/* line 348, ../scss/viewlets/_header.scss */
+/* line 322, ../scss/viewlets/_header.scss */
 #hero.new-style > div .line {
   width: 50%;
   border-top: 3px solid white;
   margin: 10px auto;
 }
-/* line 355, ../scss/viewlets/_header.scss */
+/* line 329, ../scss/viewlets/_header.scss */
 #hero.new-style img {
   filter: brightness(40%);
 }
-/* line 360, ../scss/viewlets/_header.scss */
+/* line 334, ../scss/viewlets/_header.scss */
 #hero img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-/* line 366, ../scss/viewlets/_header.scss */
+/* line 340, ../scss/viewlets/_header.scss */
 #hero h2,
 #hero h1 {
   font-weight: 700;
@@ -4977,48 +4966,48 @@ body.template-subhome_view #edit-bar ul.list-group.list-group-flush.mb-2 img.flo
   color: var(--bs-white);
 }
 /* line 49, ../scss/viewlets/_header_mobile.scss */
-#portal-navbar-mobile .navbar-nav li a:focus, #portal-navbar-mobile .navbar-nav li a:hover {
+#portal-navbar-mobile .navbar-nav li a:hover {
   background: transparent;
   font-weight: 500;
 }
-/* line 56, ../scss/viewlets/_header_mobile.scss */
+/* line 55, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li label {
   padding-right: 1rem;
 }
-/* line 59, ../scss/viewlets/_header_mobile.scss */
+/* line 58, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li label:after {
   font-size: .75em;
   background: 0 0;
   border: 1px solid var(--bs-white);
   padding: 5px;
 }
-/* line 67, ../scss/viewlets/_header_mobile.scss */
+/* line 66, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li ul.has_subtree {
   background-color: var(--bs-gray-700);
   transition: all .5s ease;
 }
-/* line 74, ../scss/viewlets/_header_mobile.scss */
+/* line 73, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li:hover label:after {
   background: var(--bs-white);
   color: var(--bs-navbar-background);
 }
-/* line 82, ../scss/viewlets/_header_mobile.scss */
+/* line 81, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li.open label:after {
   transform: rotate(180deg);
 }
-/* line 86, ../scss/viewlets/_header_mobile.scss */
+/* line 85, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li.open ul {
   opacity: 1;
   visibility: visible;
   height: auto;
   margin-left: 1rem;
 }
-/* line 96, ../scss/viewlets/_header_mobile.scss */
+/* line 95, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile {
   width: 100%;
   padding: 0 1rem;
 }
-/* line 100, ../scss/viewlets/_header_mobile.scss */
+/* line 99, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile button.searchButton {
   background: none;
   color: inherit;
@@ -5028,7 +5017,7 @@ body.template-subhome_view #edit-bar ul.list-group.list-group-flush.mb-2 img.flo
   cursor: pointer;
   outline: inherit;
 }
-/* line 110, ../scss/viewlets/_header_mobile.scss */
+/* line 109, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile .livesearch-results {
   position: absolute;
   left: 0;
@@ -5037,6 +5026,16 @@ body.template-subhome_view #edit-bar ul.list-group.list-group-flush.mb-2 img.flo
   padding-right: 2rem;
   width: 100%;
   z-index: 1;
+}
+
+/* line 9, ../scss/views/_album_view.scss */
+body.template-album_view main#main-container.row div#content-core div.card-body h5.card-title {
+  color: var(--bs-gray-dark);
+}
+
+/* line 7, ../scss/views/_author.scss */
+body.template-author #content-core table.table th {
+  font-weight: 400;
 }
 
 /* line 1, ../scss/views/_clouseau.scss */
@@ -5057,6 +5056,22 @@ body.template-clouseau .lead {
 /* line 15, ../scss/views/_clouseau.scss */
 body.template-clouseau .lead p {
   white-space: pre;
+}
+
+/* line 9, ../scss/views/_contact.scss */
+body.template-contact #portal-column-content #content div.col-md-5 ul#contacte-links.unstyled {
+  list-style: none;
+  padding: 0;
+}
+/* line 14, ../scss/views/_contact.scss */
+body.template-contact #portal-column-content #content div.col-md-5 ul#contacte-dades.unstyled {
+  list-style: none;
+  padding: 0;
+}
+/* line 24, ../scss/views/_contact.scss */
+body.template-contact #portal-column-content #content div.col-md-7.box.box-gradient .formControls button#form-buttons-send {
+  background-color: var(--bs-primary);
+  width: 150px;
 }
 
 /* INICIO Vista grid_events_view */
@@ -5323,6 +5338,135 @@ body.template-versions-history-form #content-core #sortable ul {
   padding-left: 0;
 }
 
+/* line 31, ../scss/views/_history.scss */
+body.template-historyview .container #portal-column-content #content-core a.btn.btn-primary {
+  background-color: transparent;
+  border: 2px solid var(--bs-primary);
+  color: var(--bs-gray-dark);
+}
+/* line 37, ../scss/views/_history.scss */
+body.template-historyview .container #portal-column-content #content-core a.btn.btn-primary:hover {
+  color: var(--bs-body-bg);
+  background-color: var(--bs-btn-active-bg);
+  border: 2px solid var(--bs-btn-hover-border-color);
+}
+/* line 43, ../scss/views/_history.scss */
+body.template-historyview .container #portal-column-content #content-core a.btn.btn-secondary {
+  background-color: transparent;
+  border: 2px solid var(--bs-gray-700);
+  color: var(--bs-gray-dark);
+}
+/* line 49, ../scss/views/_history.scss */
+body.template-historyview .container #portal-column-content #content-core a.btn.btn-secondary:hover {
+  color: var(--bs-body-bg);
+  background-color: var(--bs-btn-active-bg);
+  border: 2px solid var(--bs-btn-hover-border-color);
+}
+/* line 55, ../scss/views/_history.scss */
+body.template-historyview .container #portal-column-content #content-core button.btn.btn-warning {
+  color: var(--bs-gray-dark);
+  background-color: transparent;
+  border: 2px solid var(--bs-btn-hover-border-color);
+}
+/* line 61, ../scss/views/_history.scss */
+body.template-historyview .container #portal-column-content #content-core button.btn.btn-warning:hover {
+  color: var(--bs-gray-dark);
+  background-color: var(--bs-btn-bg);
+  border: 2px solid var(--bs-btn-hover-border-color);
+}
+/* line 71, ../scss/views/_history.scss */
+body.template-historyview .container #portal-column-one a.btn.btn-secondary {
+  width: 230px;
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+/* line 77, ../scss/views/_history.scss */
+body.template-historyview .container #portal-column-one a.btn.btn-secondary:hover {
+  width: 230px;
+  background-color: var(--bs-primary-hover);
+  border-color: var(--bs-primary-hover);
+}
+
+/* line 92, ../scss/views/_history.scss */
+body.template-versions_history_form #portal-column-content div#content-core li {
+  list-style: none;
+}
+/* line 96, ../scss/views/_history.scss */
+body.template-versions_history_form #portal-column-content div#content-core input.standalone {
+  border-radius: 7px;
+  background-color: transparent;
+  border: 2px solid var(--bs-primary);
+  color: var(--bs-gray-dark);
+  border-style: solid;
+}
+/* line 104, ../scss/views/_history.scss */
+body.template-versions_history_form #portal-column-content div#content-core input.standalone:hover {
+  color: var(--bs-body-bg);
+  background-color: var(--bs-primary-hover);
+  border: 2px solid var(--bs-btn-hover-border-color);
+  border-style: solid;
+}
+/* line 115, ../scss/views/_history.scss */
+body.template-versions_history_form #portal-column-one a.btn.btn-secondary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: var(--bs-btn-color);
+}
+/* line 121, ../scss/views/_history.scss */
+body.template-versions_history_form #portal-column-one a.btn.btn-secondary:hover {
+  background-color: var(--bs-primary-hover);
+  border-color: var(--bs-primary-hover);
+  color: var(--bs-btn-color);
+}
+
+/* line 133, ../scss/views/_history.scss */
+body.template-confirm-action .container input.standalone {
+  border-radius: 7px;
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  border-style: solid;
+  color: var(--bs-body-bg);
+}
+/* line 141, ../scss/views/_history.scss */
+body.template-confirm-action .container input.standalone:hover {
+  border-radius: 7px;
+  background-color: var(--bs-primary-hover);
+  border-color: var(--bs-primary-hover);
+  border-style: solid;
+  color: var(--bs-body-bg);
+}
+
+/* line 5, ../scss/views/_listing_view.scss */
+body.template-listing_view #content-core a.entries {
+  font-weight: 400;
+  font-size: 20px;
+}
+/* line 12, ../scss/views/_listing_view.scss */
+body.template-listing_view #content-core div.mb-1 a.contenttype-document.state-published.url {
+  font-weight: 400;
+}
+/* line 17, ../scss/views/_listing_view.scss */
+body.template-listing_view #content-core p.me-3 {
+  font-size: 16px;
+}
+/* line 23, ../scss/views/_listing_view.scss */
+body.template-listing_view #content-core div#content-core img.image-responsive {
+  border-radius: 7px;
+}
+/* line 27, ../scss/views/_listing_view.scss */
+body.template-listing_view #content-core div#content-core span.datedisplay {
+  font-weight: 400;
+}
+/* line 31, ../scss/views/_listing_view.scss */
+body.template-listing_view #content-core div#content-core abbr.dtstart {
+  text-decoration: none;
+  font-weight: 400;
+}
+/* line 37, ../scss/views/_listing_view.scss */
+body.template-listing_view #content-core img.image-responsive {
+  border-radius: 7px;
+}
+
 /* line 1, ../scss/views/_login.scss */
 .login-wrapper .card {
   max-width: 100%;
@@ -5381,49 +5525,57 @@ body.template-versions-history-form #content-core #sortable ul {
   }
 }
 /* line 7, ../scss/views/_search.scss */
+body.template-search #content #search-results-wrapper li.list-group-item.list-group-item-action.d-flex.justify-content-between.align-items-start.fs-4::before {
+  content: none;
+}
+/* line 10, ../scss/views/_search.scss */
+body.template-search #content #search-results-wrapper li.list-group-item.list-group-item-action.d-flex.justify-content-between.align-items-start.fs-4::before div.ms-2 me-auto {
+  padding-bottom: 100px;
+}
+/* line 22, ../scss/views/_search.scss */
 body.template-search form#searchform .input-group input.searchPage.form-control {
   margin-right: 1em;
   border-radius: 7px;
 }
-/* line 11, ../scss/views/_search.scss */
+/* line 26, ../scss/views/_search.scss */
 body.template-search form#searchform .input-group input.searchPage.form-control ::hover {
   border: 1px solid var(--bs-primary);
 }
-/* line 16, ../scss/views/_search.scss */
+/* line 31, ../scss/views/_search.scss */
 body.template-search form#searchform .input-group input.searchPage.allowMultiSubmit.btn.btn-primary {
   padding-left: 3em;
   padding-right: 3em;
 }
-/* line 22, ../scss/views/_search.scss */
+/* line 37, ../scss/views/_search.scss */
 body.template-search form#searchform #search-results {
   margin-top: 20px;
 }
-/* line 27, ../scss/views/_search.scss */
+/* line 42, ../scss/views/_search.scss */
 body.template-search form#searchform #search-results ol.searchResults li {
   font-size: 1em;
   border: 0;
   margin-top: 0.25em;
   padding-left: 0;
 }
-/* line 34, ../scss/views/_search.scss */
+/* line 48, ../scss/views/_search.scss */
 body.template-search form#searchform #search-results ol.searchResults li .list-group-numbered > .list-group-item::before {
   content: none;
 }
-/* line 38, ../scss/views/_search.scss */
+/* line 52, ../scss/views/_search.scss */
 body.template-search form#searchform #search-results ol.searchResults li a {
   text-decoration: none;
   font-weight: 400;
   color: var(--bs-body-color);
 }
-/* line 43, ../scss/views/_search.scss */
+/* line 57, ../scss/views/_search.scss */
 body.template-search form#searchform #search-results ol.searchResults li a img {
   border-radius: 7px;
 }
-/* line 48, ../scss/views/_search.scss */
+/* line 62, ../scss/views/_search.scss */
 body.template-search form#searchform #search-results ol.searchResults li .fs-5 {
   font-size: 0.95rem;
 }
-/* line 55, ../scss/views/_search.scss */
+/* line 69, ../scss/views/_search.scss */
 body.template-search form#searchform .dropdown,
 body.template-search form#searchform .dropdown-center,
 body.template-search form#searchform .dropend,
@@ -5432,7 +5584,7 @@ body.template-search form#searchform .dropup,
 body.template-search form#searchform .dropup-center {
   margin-right: 20px;
 }
-/* line 63, ../scss/views/_search.scss */
+/* line 77, ../scss/views/_search.scss */
 body.template-search form#searchform .dropdown:last-child,
 body.template-search form#searchform .dropdown-center:last-child,
 body.template-search form#searchform .dropend:last-child,
@@ -5441,52 +5593,46 @@ body.template-search form#searchform .dropup:last-child,
 body.template-search form#searchform .dropup-center:last-child {
   margin-right: 0;
 }
-/* line 68, ../scss/views/_search.scss */
+/* line 82, ../scss/views/_search.scss */
 body.template-search form#searchform .dropdown-toggle::after {
   margin-left: 0.5em;
 }
 
-/* line 80, ../scss/views/_search.scss */
+/* line 94, ../scss/views/_search.scss */
 body.template-sharing main#main-container article#content .mb-3 {
   display: flex;
   margin-bottom: 1rem;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-/* line 86, ../scss/views/_search.scss */
+/* line 100, ../scss/views/_search.scss */
 body.template-sharing main#main-container article#content .mb-3 .form-control {
   width: 80%;
 }
-/* line 90, ../scss/views/_search.scss */
+/* line 104, ../scss/views/_search.scss */
 body.template-sharing main#main-container article#content .mb-3 button#sharing-search-button {
   width: 18%;
 }
 
-/* line 5, ../scss/views/_listing_view.scss */
-body.template-listing_view #content-core a.entries {
-  font-weight: 400;
-  font-size: 20px;
+/* line 7, ../scss/views/_sharing.scss */
+body.template-sharing main#main-container article#content .mb-3 {
+  display: flex;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-/* line 10, ../scss/views/_listing_view.scss */
-body.template-listing_view #content-core p.me-3 {
-  font-size: 16px;
+/* line 13, ../scss/views/_sharing.scss */
+body.template-sharing main#main-container article#content .mb-3 .form-control {
+  width: 80%;
 }
-/* line 16, ../scss/views/_listing_view.scss */
-body.template-listing_view #content-core div#content-core img.image-responsive {
-  border-radius: 7px;
+/* line 17, ../scss/views/_sharing.scss */
+body.template-sharing main#main-container article#content .mb-3 button#sharing-search-button {
+  width: 18%;
 }
-/* line 20, ../scss/views/_listing_view.scss */
-body.template-listing_view #content-core div#content-core span.datedisplay {
-  font-weight: 400;
-}
-/* line 24, ../scss/views/_listing_view.scss */
-body.template-listing_view #content-core div#content-core abbr.dtstart {
-  text-decoration: none;
-  font-weight: 400;
-}
-/* line 30, ../scss/views/_listing_view.scss */
-body.template-listing_view #content-core img.image-responsive {
-  border-radius: 7px;
+
+/* line 7, ../scss/views/_site_map.scss */
+body.template-sitemap #content #content-core class.navTreeItem.visualNoMarker {
+  padding-bottom: 8px;
 }
 
 @media print {

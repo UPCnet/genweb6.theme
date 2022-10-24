@@ -24,6 +24,8 @@
 #footer-logos {
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 2em 4em 1em 4em;
+  background-color: var(--bs-body-bg);
+  border-top: 1px solid var(--bs-gray-300);
 
   .llistatLogos {
     margin: 0 auto;

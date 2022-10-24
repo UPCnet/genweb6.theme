@@ -1,10 +1,25 @@
 body.template-search {
 
+  #content {
+
+    #search-results-wrapper {
+
+      li.list-group-item.list-group-item-action.d-flex.justify-content-between.align-items-start.fs-4::before{
+        content: none;
+
+        div.ms-2 me-auto{
+          padding-bottom: 100px;
+        }
+      }
+
+    }
+  }
+
   form#searchform {
 
     .input-group {
 
-      input.searchPage.form-control{
+      input.searchPage.form-control {
         margin-right: 1em;
         border-radius: 7px;
 
@@ -13,7 +28,7 @@ body.template-search {
         }
       }
 
-      input.searchPage.allowMultiSubmit.btn.btn-primary{
+      input.searchPage.allowMultiSubmit.btn.btn-primary {
         padding-left: 3em;
         padding-right: 3em;
       }
@@ -29,7 +44,6 @@ body.template-search {
           border: 0;
           margin-top: 0.25em;
           padding-left: 0;
-
 
           .list-group-numbered>.list-group-item::before {
             content: none;

@@ -1,0 +1,15 @@
+body.template-album_view {
+	
+	main#main-container.row {
+
+		div#content-core {
+
+			div.card-body {
+
+				h5.card-title {
+					color: var(--bs-gray-dark);
+				}
+			}
+		}
+	}
+}

@@ -38,8 +38,8 @@
     }
 
     &.second-selector {
+      width: 100%;
       padding-left: 0;
-      max-width: 12em;
       // margin: 0 auto;
 
       li.select-week,
@@ -77,22 +77,6 @@
           font-size: 1rem;
           margin-top: 0;
         }
-      }
-    }
-  }
-}
-
-
-
-body.template-listing_view {
-  
-  #main-container {
-
-    #portal-column-one {
-      padding-right: 20px;
-
-      ul.portlet.portlet-category-events .list-portlet.second-selector {
-        width:100%;
       }
     }
   }

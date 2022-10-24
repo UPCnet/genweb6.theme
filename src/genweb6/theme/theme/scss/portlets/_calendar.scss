@@ -1,6 +1,7 @@
 .portlet.portlet-calendar {
   border: 0px solid transparent;
   border-radius: 0;
+  width: 100%;
 
   .card-header {
     border-bottom: 0px solid transparent;
@@ -90,19 +91,6 @@
             }
           }
         }
-      }
-    }
-  }
-}
-body.template-listing_view {
-  
-  #main-container {
-
-    #portal-column-one {
-      padding-right: 20px;
-
-      div.card.porlet.porlet-calendar {
-        width:100%;
       }
     }
   }

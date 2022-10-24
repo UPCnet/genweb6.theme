@@ -7,10 +7,17 @@ body.template-listing_view {
 			font-size: 20px;
 		}
 
+		div.mb-1 {
+
+			a.contenttype-document.state-published.url {
+				font-weight: 400;
+			}
+		}
+
 		p.me-3 {
 			font-size: 16px;
 		}
-		
+
 		div#content-core {
 
 			img.image-responsive {
@@ -25,7 +32,7 @@ body.template-listing_view {
 				text-decoration: none;
 	    		font-weight: 400;
 	    	}
-		}
+	    }
 
 		img.image-responsive {
 			border-radius:7px;
