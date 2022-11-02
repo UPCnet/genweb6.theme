@@ -20468,6 +20468,77 @@ body.template-contact #portal-column-content #content div.col-md-7.box.box-gradi
   width: 150px;
 }
 
+/* line 6, ../scss/views/_filtered_contents_search_pretty_view.scss */
+body.template-filtered_contents_search_complete_pretty_view .col-md-3 h2,
+body.template-filtered_contents_search_pretty_view .col-md-3 h2 {
+  color: var(--bs-gray-700);
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+/* line 14, ../scss/views/_filtered_contents_search_pretty_view.scss */
+body.template-filtered_contents_search_complete_pretty_view .col-md-3 .caixessearch .searchInputPretty,
+body.template-filtered_contents_search_pretty_view .col-md-3 .caixessearch .searchInputPretty {
+  width: 100%;
+  padding: 2px 4px;
+}
+/* line 19, ../scss/views/_filtered_contents_search_pretty_view.scss */
+body.template-filtered_contents_search_complete_pretty_view .col-md-3 .caixessearch h3,
+body.template-filtered_contents_search_pretty_view .col-md-3 .caixessearch h3 {
+  color: var(--bs-gray-700);
+  font-size: var(--bs-font-size-xxxl);
+  font-weight: 300;
+  border-bottom: 1px solid var(--bs-gray-300);
+  margin: 0 0 0.75rem 0;
+  padding: 1.5rem 0 0.5rem 0;
+}
+/* line 30, ../scss/views/_filtered_contents_search_pretty_view.scss */
+body.template-filtered_contents_search_complete_pretty_view .col-md-3 .caixessearch .searchbytagcontainer p,
+body.template-filtered_contents_search_pretty_view .col-md-3 .caixessearch .searchbytagcontainer p {
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-content: stretch;
+}
+/* line 37, ../scss/views/_filtered_contents_search_pretty_view.scss */
+body.template-filtered_contents_search_complete_pretty_view .col-md-3 .caixessearch .searchbytagcontainer p input + span,
+body.template-filtered_contents_search_pretty_view .col-md-3 .caixessearch .searchbytagcontainer p input + span {
+  font-size: var(--bs-font-size-xs);
+}
+/* line 49, ../scss/views/_filtered_contents_search_pretty_view.scss */
+body.template-filtered_contents_search_complete_pretty_view .col-md-9 #tagslist .tileItem,
+body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem {
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid var(--bs-gray-300);
+}
+/* line 56, ../scss/views/_filtered_contents_search_pretty_view.scss */
+body.template-filtered_contents_search_complete_pretty_view .col-md-9 #tagslist .tileItem:last-child,
+body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem:last-child {
+  border-bottom: 0px solid transparent;
+}
+/* line 60, ../scss/views/_filtered_contents_search_pretty_view.scss */
+body.template-filtered_contents_search_complete_pretty_view .col-md-9 #tagslist .tileItem .tileImageContainer,
+body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem .tileImageContainer {
+  float: right;
+}
+/* line 63, ../scss/views/_filtered_contents_search_pretty_view.scss */
+body.template-filtered_contents_search_complete_pretty_view .col-md-9 #tagslist .tileItem .tileImageContainer .tileImage,
+body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem .tileImageContainer .tileImage {
+  padding: 4px;
+  border: 1px solid var(--bs-gray-300);
+}
+/* line 69, ../scss/views/_filtered_contents_search_pretty_view.scss */
+body.template-filtered_contents_search_complete_pretty_view .col-md-9 #tagslist .tileItem h2,
+body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem h2 {
+  font-weight: 500;
+  font-size: var(--bs-font-size-xl);
+  margin-bottom: 0.2rem;
+  line-height: 1.5em;
+}
+
 /* INICIO Vista grid_events_view */
 /* line 6, ../scss/views/_grid_events_view.scss */
 body.template-grid_future_events_view .list-agenda,
