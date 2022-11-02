@@ -1,0 +1,32 @@
+body.template-file_view {
+
+	#main-container {
+
+		.section.section-main {
+
+			.file-description {
+				
+
+			    .metadata {
+
+			    	.plone-icon {
+	    				height: 1.5em;
+	    				margin-right: 5px;
+	    			}
+
+			    	div.px-2 {
+			    		display: flex;
+					  	align-items: stretch;
+					  	margin-right: 25px;
+			    	}
+			    }
+			}
+		}
+
+		.section.section-actions {
+
+		        display: flex;
+			    justify-content: center;
+		}
+	}
+}

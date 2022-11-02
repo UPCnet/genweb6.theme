@@ -1,14 +1,15 @@
 body.template-album_view {
 	
-	main#main-container.row {
+	#main-container.row {
 
-		div#content-core {
+		#content-core {
 
-			div.card-body {
-
-				h5.card-title {
+			.card-title {
 					color: var(--bs-gray-dark);
-				}
+					text-align: center;
+				    margin-bottom: 15px;
+				    margin-top: 15px;
+				
 			}
 		}
 	}

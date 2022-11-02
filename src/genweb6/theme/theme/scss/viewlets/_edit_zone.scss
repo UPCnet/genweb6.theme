@@ -1,12 +1,16 @@
 body.plone-toolbar-left {
 
-    div#edit-zone {
+  div#edit-zone {
 
-        .nav-link {
+    .nav-link {
 
-            .plone-icon {
-                margin-top: 0.4em;
-            }
-        }
+      .plone-icon {
+        margin-top: 0.4em;
+      }
     }
+
+    .dropdown-menu {
+      overflow-y: auto;
+    }
+  }
 }

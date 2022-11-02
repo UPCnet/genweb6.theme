@@ -63,30 +63,30 @@ a.link-bannersuccess,
 a.link-bannerwarning,
 a.link-bannerdanger,
 a.link-banner-minimal-blue {
+  color: var(--bs-white);
+
+  &:before,
+  &:after {
     color: var(--bs-white);
+  }
 
-    &:before,
-    &:after {
-        color: var(--bs-white);
-    }
-
-    &:after {
-        border-color: var(--bs-white);
-    }
+  &:after {
+    border-color: var(--bs-white);
+  }
 }
 
 a.link-banner-minimal-blue {
-    background-color: #007BC1;
+  background-color: #007BC1;
 }
 
 a.link-bannersuccess {
-    background-color: #069182;
+  background-color: #069182;
 }
 
 a.link-bannerwarning {
-    background-color: #f6a808;
+  background-color: #f6a808;
 }
 
 a.link-bannerdanger {
-    background-color: #d01157;
+  background-color: #d01157;
 }

@@ -1,0 +1,21 @@
+body.template-view {
+	
+	#content-core {
+
+		figure.newsImageContainer {
+			display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-items: flex-start;
+
+	    img.newsImage {
+	    	border-radius:7px;
+	    }
+
+	    figcaption {
+	    	width: 200px;
+				margin-top: 5px;
+	    }
+		}
+	}
+}

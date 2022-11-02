@@ -1,11 +1,32 @@
 body.template-event_view {
 	
-	article#content {
+	#content-core {
 
 		.card.event-summary {
 			font-size: 18px;
 			padding-bottom: 0.09em;
 			border: 1px solid var(--bs-primary);
+
+			abbr.dtstart {
+				text-decoration: none;
+			}
+
+			p.card-text {
+				font-size: 16px;
+			}
+
+			p.card-text.h5 {
+				font-size: 18px;
+    			font-weight: 500;
+
+    			span.timezone.text-muted.small {
+    				font-size: 18px;
+    			}
+			}
+
+			.plone-icon {
+				margin-bottom: 10px;
+			}
 		}
 	}
 
@@ -16,4 +37,3 @@ body.template-event_view {
 		}
 	}
 }
-
