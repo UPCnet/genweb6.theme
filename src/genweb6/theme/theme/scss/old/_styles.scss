@@ -176,6 +176,14 @@ del,
   }
 }
 
+code {
+  font-size: var(--bs-font-size-xxs);
+  padding: 2px 4px;
+  color: #FFF;
+  background-color: #c04500;
+  border: 1px solid #8d3300;
+}
+
 /* Iconos */
 
 .doc,
@@ -190,12 +198,12 @@ del,
 .down {
 
   &:after {
-    background: url('++theme++genweb6.theme/img/gh-c.png') no-repeat;
+    background: url('/++theme++genweb6.theme/img/gh-c.png') no-repeat;
     width: 14px;
     height: 14px;
     display: inline-block;
     content: " ";
-    top: 2px;
+    top: 3px;
     position: relative;
   }
 }
@@ -235,4 +243,80 @@ del,
 
 .txt:after {
   background-position: -24px -26px;
+}
+
+
+/* Imagenes */
+
+.img-rounded {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.img-circle {
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
+}
+
+.img-shadowed {
+  -moz-box-shadow: 0 1px 3px var(--bs-gray-600);
+  -webkit-box-shadow: 0 1px 3px var(--bs-gray-600);
+  box-shadow: 0 1px 3px var(--bs-gray-600);
+}
+
+
+/* Oculta si usuario identificado o no */
+
+.userrole-authenticated .amaga-autenticat,
+.userrole-anonymous .amaga-no-autenticat {
+  display:none;
+}
+
+
+/* Color letra */
+
+.white-text,
+.white_text {
+    color: #FFF;
+}
+
+
+/* Botones */
+
+a.btn {
+
+  &:not(.btn-primary):not(.btn-secondary):not(.btn-success):not(.btn-danger):not(.btn-warning):not(.btn-info):not(.btn-light):not(.btn-dark):not(.btn-link):not(.btn-outline-primary):not(.btn-outline-secondary):not(.btn-outline-success):not(.btn-outline-danger):not(.btn-outline-warning):not(.btn-outline-info):not(.btn-outline-light):not(.btn-outline-dark) {
+    background-color: var(--bs-gray-200);
+    border: 1px solid var(--bs-gray-300);
+  }
+
+  &.btn-large {
+    font-size: var(--bs-font-size-xl);
+  }
+
+  &.btn-small {
+    font-size: var(--bs-font-size-xs);
+  }
+
+  &.btn-mini {
+    font-size: var(--bs-font-size-xxxs);
+  }
+
+  &.btn-inverse {
+    background-color: var(--bs-gray-900);
+    color: #FFF;
+    border-color: var(--bs-gray-900);
+
+    &:active,
+    &:hover {
+      background-color: var(--bs-gray-800);
+      border-color: var(--bs-gray-800);
+    }
+  }
+
+  &.btn-block + .btn-block {
+    margin-top: 5px;
+  }
 }

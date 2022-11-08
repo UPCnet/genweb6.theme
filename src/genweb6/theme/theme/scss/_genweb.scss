@@ -48,10 +48,6 @@ a:hover {
   }
 }
 
-a {
-  text-decoration: none !important;
-}
-
 a[target="_blank"]::after {
   content: "\e91c";
   font-family: "upc-icones";
@@ -133,6 +129,42 @@ body.template-edit {
       max-height: 450px;
     }
   }
+}
+
+.fs-m {
+  font-size: var(--bs-body-font-size) !important;
+}
+
+.fs-l {
+  font-size: var(--bs-font-size-l) !important;
+}
+
+.fs-s {
+  font-size: var(--bs-font-size-s) !important;
+}
+
+.fs-xl {
+  font-size: var(--bs-font-size-xl) !important;
+}
+
+.fs-xs {
+  font-size: var(--bs-font-size-xs) !important;
+}
+
+.fs-xxl {
+  font-size: var(--bs-font-size-xxl) !important;
+}
+
+.fs-xxs {
+  font-size: var(--bs-font-size-xxs) !important;
+}
+
+.fs-xxxl {
+  font-size: var(--bs-font-size-xxxl) !important;
+}
+
+.fs-xxxs {
+  font-size: var(--bs-font-size-xxs) !important;
 }
 
 .back-to-top {

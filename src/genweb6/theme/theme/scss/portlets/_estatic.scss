@@ -2,11 +2,12 @@
 
 	&.portlet-static-con-contorno {
 
-		.card {
+		.card-header {
+			font-weight: 500;
+		}
 
-			.card-header {
-				font-weight: 500;
-			}
+		a.tile {
+			text-decoration: none;
 		}
 	}
 }

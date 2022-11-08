@@ -6,7 +6,7 @@
 	    list-style: none;
 
 	    .card {
-	      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+	      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
 	      height: 250px;
 	      min-width: 150px;
 	      position: relative;
@@ -16,7 +16,7 @@
 
 	      .event-time {
 	        opacity: 0.9;
-	        background-image: linear-gradient(90deg, var(--bs-primary-ligthen-20) 0%, var(--bs-primary) 100%);
+	        background-image: linear-gradient(90deg, #00BCD4 0%, #007bc1 100%);
 	        width: 134px;
 	        height: 134px;
 	        border-radius: 50%;
@@ -33,6 +33,10 @@
 	          position: relative;
 	          display: block;
 	        }
+
+	        .event-months {
+				margin-top: 5px;
+			}
 	      }
 
 	      .event-days {
@@ -44,8 +48,10 @@
 	        line-height: 1;
 
 	        &.event-days-connector {
-	          font-size: 1rem;
+	          font-size: 0.9rem;
 	          font-weight: 300;
+	          margin-bottom: 3px;
+    		  margin-top: 3px;
 	        }
 	      }
 

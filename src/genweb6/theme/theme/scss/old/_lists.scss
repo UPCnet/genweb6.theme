@@ -35,8 +35,8 @@ ul.list-condensed,
 ul.list-bordered {
 
   li:before {
-      content: "\25CF";
-      font-size: .75rem;
+    content: "\25CF";
+    font-size: .75rem;
   }
 }
 
@@ -44,6 +44,7 @@ ul.list-links {
 
   li:before {
     content: "\25b6";
+    margin-top: 5px;
     font-size: .65rem;
   }
 }
@@ -52,6 +53,7 @@ ul.list-links-upc {
 
   li:before {
     content: "\25b7";
+    margin-top: 5px;
     font-size: .65rem;
   }
 }
@@ -125,19 +127,35 @@ ul.list-sections {
   }
 }
 
-/* .list-sections li.primera {
-    border-top: 0px solid #D1D1D1;
+
+ul.unstyled {
+  list-style: none;
+  padding-left: 0;
 }
-.list-sections li > :last-child {
-    margin-bottom: 0;
+
+
+ul.list-notebook {
+  margin-left: 30px;
+  padding-left: 10px;
+  border-left: 4px double var(--bs-orange);
+
+  li {
+    margin-left: -40px;
+    padding-left: 40px;
+    border-bottom: 1px solid var(--bs-cyan);
+    position: relative;
+    list-style: none;
+
+    &:first-child {
+      border-top: 1px solid var(--bs-cyan);
+    }
+
+    &::before {
+      position: absolute;
+      content: "\25CF";
+      font-size: .75rem;
+      margin-left: -32px;
+      margin-top: 5px;
+    }
+  }
 }
-.list-sections li p {
-    color: #4A4A4A;
-    line-height: 1.45em;
-}
-.list-sections li h2 {
-    font-size: 1.125rem;
-    font-weight: 500 !important;
-    padding-right: 36px;
-    margin-top: 0;
-} */

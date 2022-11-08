@@ -1,0 +1,25 @@
+body.template-tabular_view {
+
+    #content-core {
+
+        td {
+
+            a {
+                text-decoration: none;
+            }
+
+            img {
+                border-radius: 7px;
+                float: left;
+            }
+
+            &:first-child {
+                width: 2.5%;
+            }
+
+            &:last-child {
+                width: 15%;
+            }
+        }
+    }
+}

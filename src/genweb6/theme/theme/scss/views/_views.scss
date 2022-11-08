@@ -1,12 +1,17 @@
-@import "album_view";
 @import "author";
 @import "clouseau";
 @import "contact";
-@import "filtered_contents_search_pretty_view";
-@import "grid_events_view";
 @import "history";
-@import "listing_view";
 @import "login";
 @import "search";
 @import "sharing";
 @import "site_map";
+
+@import "album_view";
+@import "filtered_contents_search_pretty_view";
+@import "folder_index_view";
+@import "full_view";
+@import "grid_events_view";
+@import "listing_view";
+@import "summary_view";
+@import "tabular_view";

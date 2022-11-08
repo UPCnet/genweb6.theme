@@ -54,4 +54,15 @@ table {
       }
     }
   }
+
+  &.table.table-notebook {
+
+    thead {
+      border-bottom: 4px double var(--bs-orange);
+    }
+
+    tfoot {
+      border-top: 4px double var(--bs-orange);
+    }
+  }
 }
