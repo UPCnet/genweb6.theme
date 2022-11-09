@@ -1,0 +1,201 @@
+/* Tile video */
+
+.mosaic-video-tile {
+    article {
+        margin: auto !important;
+    }
+    .video-section {
+        .video_upc {
+            object-fit: cover;
+            left: initial !important;
+            top: 0;
+            width: 1140px;
+            margin: 0 auto;
+            height: 100%;
+            position: relative;
+            z-index: 0;
+            transition: all 0.5s ease;
+            border-radius: 0;
+        }
+        iframe.embed {
+            height: 73vh;
+            object-fit: unset;
+            top: unset;
+            width: auto;
+            margin: unset;
+        }
+    }
+}
+
+.video-highlighted {
+    background: #252525;
+    text-align: center;
+    min-height: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    flex-direction: column;
+    overflow: auto;
+    position: relative;
+    margin-bottom: 48px;
+    max-width: 100%;
+    &.compat-object-fit {
+        // fallback habilitat per l'script d'objectfit i fer que es vegi bé a IE
+        background-size: cover;
+        background-position: center;
+    }
+    & article {
+        z-index: 2;
+        margin: 80px 0;
+        h2 {
+            margin-top: 0;
+            color: #fff;
+        }
+        p {
+            color: #fff;
+        }
+         :last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.titolvideoblack {
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 1vh;
+    h2 {
+        color: #edf1f2 !important;
+    }
+    a {
+        padding: 0;
+        h2 {
+            color: #edf1f2 !important;
+        }
+        &:hover {
+            color: #edf1f2;
+        }
+    }
+}
+
+.titolvideowhite {
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    background: #edf1f2;
+    padding: 1vh;
+    h2 {
+        color: #4a4a4a !important;
+    }
+    a {
+        padding: 0;
+        h2 {
+            color: #4a4a4a !important;
+        }
+        &:hover {
+            color: #4a4a4a;
+        }
+    }
+}
+
+.cei {
+    padding-right: 1rem;
+}
+
+.video-section.hero-posicio-inferior-centre.video-highlighted>div>a::after {
+    display: none;
+}
+
+@media (max-width: 1140px) {
+    .mosaic-video-tile .video-section .video_upc {
+        position: relative;
+        object-fit: cover;
+        width: 100%;
+        height: 73vh;
+    }
+    .mosaic-video-tile .video-section iframe.embed {
+        height: 39vh;
+    }
+    .titolvideowhite,
+    .titolvideoblack {
+        width: 100%;
+        h2 {
+            font-size: 1.5rem;
+        }
+    }
+    .video-highlighted {
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 1140px) and (orientation: landscape) {
+    .mosaic-video-tile .video-section iframe.embed {
+        height: 73vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .peu-multi {
+        flex-direction: column !important;
+        padding: 1rem;
+    }
+    .images-right {
+        float: none !important;
+    }
+    li.upc-eines-cerca {
+        input {
+            width: 630px !important;
+        }
+    }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+    .mosaic-video-tile .video-section iframe.embed {
+        height: 108vh;
+    }
+}
+
+@media (max-width: 600px) {
+    li.upc-eines-cerca {
+        input {
+            width: 292px !important;
+        }
+    }
+}
+
+@media (max-width: 414px) {
+    .mosaic-video-tile .video-section .video_upc {
+        height: 70vh;
+    }
+    .mosaic-video-tile .video-section iframe.embed {
+        height: 34vh;
+    }
+    li.upc-eines-cerca {
+        input {
+            width: 240px !important;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .mosaic-video-tile .video-section .video_upc {
+        height: 67vh;
+    }
+    .mosaic-video-tile .video-section iframe.embed {
+        height: 34vh;
+    }
+    li.upc-eines-cerca {
+        input {
+            width: 187px !important;
+        }
+    }
+}
+
+
+/* fi Tile video */
