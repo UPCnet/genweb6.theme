@@ -2,10 +2,12 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:browser="http://namespaces.zope.org/browser"
     xmlns:plone="http://namespaces.plone.org/plone"
     i18n_domain="genweb">
 
     <include file="upgrades.zcml" />
+
 
     <genericsetup:registerProfile
         name="default"
@@ -36,4 +38,70 @@
         name="genweb6.theme"
         />
 
+    <include package="plone.tiles" file="meta.zcml" />
+    <include package="plone.app.tiles" />
+    <include package="plone.app.standardtiles" />
+
+    <plone:tile
+      name="calendari"
+      title="Calendari"
+      description="Tile used to show the Calendar"
+      add_permission="cmf.ModifyPortalContent"
+      schema="genweb6.theme.browser.agendatiles.calendari.ICalendarTile"
+
+      class="genweb6.theme.browser.agendatiles.calendari.CalendarTile"
+      permission="zope2.View"
+      for="*"
+      layer="*"
+      template="browser/agendatiles/templates/calendari.pt"
+      />
+
+    <plone:tile
+      name="destacats"
+      title="Destacats Home"
+      description="Tile used to show destacats in homepage"
+      add_permission="cmf.ModifyPortalContent"
+      schema="genweb6.theme.browser.hometiles.destacats.IDestacats"
+
+      class="genweb6.theme.browser.hometiles.destacats.Destacats"
+      permission="zope2.View"
+      for="*"
+      layer="*"
+      template="browser/hometiles/templates/destacats.pt"
+      />
+
+    <plone:tile
+      name="formulari_existent"
+      title="Formulari Existent"
+      description="Tile used to show easyform as tile"
+      add_permission="cmf.ModifyPortalContent"
+      schema="genweb6.theme.browser.hometiles.formulari_existent.IFormulariExistent"
+
+      class="genweb6.theme.browser.hometiles.formulari_existent.FormulariExistent"
+      permission="zope2.View"
+      for="*"
+      layer="*"
+      template="browser/hometiles/templates/formulari_existent.pt"
+      />
+    <adapter factory="genweb6.theme.browser.hometiles.formulari_existent.SameContentValidator" />
+
+    <plone:tile
+      name="video"
+      title="Custom Video"
+      description="Tile used to show custom video"
+      add_permission="cmf.ModifyPortalContent"
+      class="genweb6.theme.browser.hometiles.video.CustomVideo"
+      for="*"
+      permission="zope.Public"
+      schema="genweb6.theme.browser.hometiles.video.ICustomVideo"
+      template="browser/hometiles/templates/video.pt"
+      />
+
+    <!-- macros per home tiles -->
+    <browser:page
+     name="macros-hometiles"
+     for="*"
+     permission="zope.Public"
+     template="browser/hometiles/templates/macros.pt"
+    />
 </configure>

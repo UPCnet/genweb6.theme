@@ -21267,6 +21267,298 @@ div.portlet.portletLogin a.btn {
   aspect-ratio: 4 / 3;
 }
 
+/* destacat principal */
+/* line 5, ../scss/tiles/destacat_principal.scss */
+#hero.compat-object-fit h2 {
+  font-size: 3rem;
+}
+/* line 10, ../scss/tiles/destacat_principal.scss */
+#hero a[target="_blank"] p {
+  display: inline;
+}
+/* line 12, ../scss/tiles/destacat_principal.scss */
+#hero a[target="_blank"] p:after {
+  font-family: upc-icones;
+  font-size: 1.125rem;
+  content: "\e91c";
+  padding: 5px;
+}
+
+/* posicio i color configurable text hero */
+/* line 26, ../scss/tiles/destacat_principal.scss */
+.hero-posicio-invisible article {
+  display: none !important;
+}
+
+@media (min-width: 992px) {
+  /* line 34, ../scss/tiles/destacat_principal.scss */
+  #hero a {
+    width: auto;
+  }
+
+  /* line 38, ../scss/tiles/destacat_principal.scss */
+  .hero-posicio-superior-esquerra article {
+    position: absolute;
+  }
+  /* line 41, ../scss/tiles/destacat_principal.scss */
+  .hero-posicio-superior-esquerra a {
+    position: absolute;
+    left: 15px;
+    top: -70px;
+  }
+
+  /* line 48, ../scss/tiles/destacat_principal.scss */
+  .hero-posicio-superior-centre article {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0;
+  }
+  /* line 56, ../scss/tiles/destacat_principal.scss */
+  .hero-posicio-superior-centre a {
+    width: 100% !important;
+  }
+
+  /* line 61, ../scss/tiles/destacat_principal.scss */
+  .hero-posicio-superior-dreta article {
+    position: absolute;
+  }
+  /* line 64, ../scss/tiles/destacat_principal.scss */
+  .hero-posicio-superior-dreta a {
+    position: absolute;
+    right: 15px;
+    top: -70px;
+  }
+
+  /* line 71, ../scss/tiles/destacat_principal.scss */
+  .hero-posicio-inferior-esquerra article {
+    position: absolute;
+    bottom: 0;
+  }
+  /* line 75, ../scss/tiles/destacat_principal.scss */
+  .hero-posicio-inferior-esquerra a {
+    position: absolute;
+    left: 15px;
+    bottom: -70px;
+  }
+
+  /* line 82, ../scss/tiles/destacat_principal.scss */
+  .hero-posicio-inferior-centre article {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0;
+  }
+  /* line 90, ../scss/tiles/destacat_principal.scss */
+  .hero-posicio-inferior-centre a {
+    width: 100% !important;
+  }
+
+  /* line 95, ../scss/tiles/destacat_principal.scss */
+  .hero-posicio-inferior-dreta article {
+    position: absolute;
+    bottom: 0;
+  }
+  /* line 99, ../scss/tiles/destacat_principal.scss */
+  .hero-posicio-inferior-dreta a {
+    position: absolute;
+    right: 15px;
+    bottom: -70px;
+  }
+
+  /* line 106, ../scss/tiles/destacat_principal.scss */
+  section[class*="hero-posicio-cercle"] a {
+    width: 360px !important;
+    height: 360px;
+    border-radius: 50%;
+  }
+  /* line 110, ../scss/tiles/destacat_principal.scss */
+  section[class*="hero-posicio-cercle"] a > h2 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  /* line 116, ../scss/tiles/destacat_principal.scss */
+  section[class*="hero-posicio-cercle"] a.video-link > h2 {
+    top: 45%;
+  }
+  /* line 119, ../scss/tiles/destacat_principal.scss */
+  section[class*="hero-posicio-cercle"] a.video-link:after {
+    position: absolute;
+    top: 53%;
+    left: 48%;
+  }
+  /* line 125, ../scss/tiles/destacat_principal.scss */
+  section[class*="hero-posicio-cercle"] a:hover {
+    transform: none;
+  }
+  /* line 130, ../scss/tiles/destacat_principal.scss */
+  section[class*="hero-posicio-cercle"] a[target="_blank"] h2:after {
+    font-family: upc-icones;
+    font-size: 1.125rem;
+    content: "\e91c";
+    border-radius: 50%;
+    padding: 5px;
+  }
+  /* line 140, ../scss/tiles/destacat_principal.scss */
+  section[class*="hero-posicio-cercle"].content-highlighted article {
+    margin: 50px 0;
+  }
+  /* line 143, ../scss/tiles/destacat_principal.scss */
+  section[class*="hero-posicio-cercle"] p.lead.event-description {
+    display: none !important;
+  }
+
+  /* line 148, ../scss/tiles/destacat_principal.scss */
+  .hero-posicio-cercle-esquerra a {
+    position: relative;
+    left: calc(180px - 50%);
+  }
+  /* line 152, ../scss/tiles/destacat_principal.scss */
+  .hero-posicio-cercle-esquerra a.video-link:after {
+    left: 43% !important;
+  }
+
+  /* line 159, ../scss/tiles/destacat_principal.scss */
+  .hero-posicio-cercle-dreta a {
+    position: relative;
+    right: calc(180px - 50%);
+  }
+  /* line 163, ../scss/tiles/destacat_principal.scss */
+  .hero-posicio-cercle-dreta a.video-link:after {
+    left: 43% !important;
+  }
+
+  /* line 169, ../scss/tiles/destacat_principal.scss */
+  .hero-color-blanc a {
+    background: rgba(255, 255, 255, 0.75) !important;
+  }
+  /* line 171, ../scss/tiles/destacat_principal.scss */
+  .hero-color-blanc a h2,
+  .hero-color-blanc a p, .hero-color-blanc a:after {
+    color: #636363 !important;
+  }
+}
+/* line 179, ../scss/tiles/destacat_principal.scss */
+#hero p {
+  font-size: 25px;
+}
+
+/* fiposicio configurable text hero */
+/* line 206, ../scss/tiles/destacat_principal.scss */
+.content-highlighted {
+  background: #252525;
+  text-align: center;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+/* line 214, ../scss/tiles/destacat_principal.scss */
+.content-highlighted::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.69;
+}
+/* line 223, ../scss/tiles/destacat_principal.scss */
+.content-highlighted::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.3;
+}
+/* line 232, ../scss/tiles/destacat_principal.scss */
+.content-highlighted img {
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  transition: all .5s ease;
+  border-radius: 0;
+}
+/* line 243, ../scss/tiles/destacat_principal.scss */
+.content-highlighted.compat-object-fit {
+  background-size: cover;
+  background-position: center;
+}
+/* line 248, ../scss/tiles/destacat_principal.scss */
+.content-highlighted a {
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 24px;
+  width: 540px;
+  display: inline-block;
+  transition: all .5s ease;
+}
+@media (100%: 768px) {
+  /* line 248, ../scss/tiles/destacat_principal.scss */
+  .content-highlighted a {
+    width: 90vw;
+    max-width: 540px;
+  }
+}
+/* line 259, ../scss/tiles/destacat_principal.scss */
+.content-highlighted a:hover, .content-highlighted a:focus {
+  background: rgba(0, 0, 0, 0.9);
+  transform: perspective(25rem) scale(1.03);
+}
+/* line 266, ../scss/tiles/destacat_principal.scss */
+.content-highlighted article {
+  z-index: 2;
+  margin: 80px 0;
+}
+/* line 269, ../scss/tiles/destacat_principal.scss */
+.content-highlighted article h2 {
+  margin-top: 0;
+  color: #fff;
+}
+/* line 273, ../scss/tiles/destacat_principal.scss */
+.content-highlighted article p {
+  color: #fff;
+}
+/* line 276, ../scss/tiles/destacat_principal.scss */
+.content-highlighted article .event-category::before {
+  content: "\e902";
+  font-family: upc-icones;
+  border: 3px solid white;
+  position: absolute;
+  font-size: 2.25rem;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 12px;
+  color: #fff;
+  left: calc(50% - 36px);
+  bottom: 36px;
+  font-weight: 300;
+}
+/* line 292, ../scss/tiles/destacat_principal.scss */
+.content-highlighted article .event-category {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 120px;
+  position: relative;
+}
+/* line 299, ../scss/tiles/destacat_principal.scss */
+.content-highlighted article :last-child {
+  margin-bottom: 0;
+}
+
 /* line 1, ../scss/viewlets/_breadcrumb.scss */
 #portal-breadcrumbs {
   background-color: #ffffff;
