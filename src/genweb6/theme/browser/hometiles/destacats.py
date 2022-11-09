@@ -12,8 +12,11 @@ from DateTime.DateTime import DateTime
 from plone.app.uuid.utils import uuidToURL
 from plone import api
 from Products.CMFCore.permissions import ModifyPortalContent
+from Products.CMFPlone import PloneMessageFactory as _plone
 from AccessControl import getSecurityManager
+
 import re
+
 
 class CatalogSource(CatalogSourceBase):
     """ExistingContentTile specific catalog source to allow targeted widget
@@ -23,7 +26,7 @@ class CatalogSource(CatalogSourceBase):
 
 
 PLMF = MessageFactory('plonelocales')
-
+_PMF = MessageFactory('plone')
 
 class IDestacats(Schema):
     """ Destacats schema """
@@ -46,9 +49,16 @@ class IDestacats(Schema):
         description=_(u"The content type to check for."),
         required=False,
         value_type=schema.Choice(
-            vocabulary="plone.app.vocabularies.ReallyUserFriendlyTypes")
+            vocabulary=create_simple_vocabulary([
+                        ("Link", _PMF(u"Link")),
+                        ("Event", _PMF(u"Event")),
+                        ("Image", _PMF(u"Image")),
+                        ("News Item", _PMF(u"News Item")),
+                        ("genweb.upc.documentimage", _(u"Document Image"))
+                        ])
+            )
         )
-
+        
     option = schema.Choice(
         title=_(u"View as"),
         description=_(u"View as description"),
