@@ -43,20 +43,6 @@
     <include package="plone.app.standardtiles" />
 
     <plone:tile
-      name="calendari"
-      title="Calendari"
-      description="Tile used to show the Calendar"
-      add_permission="cmf.ModifyPortalContent"
-      schema="genweb6.theme.browser.agendatiles.calendari.ICalendarTile"
-
-      class="genweb6.theme.browser.agendatiles.calendari.CalendarTile"
-      permission="zope2.View"
-      for="*"
-      layer="*"
-      template="browser/agendatiles/templates/calendari.pt"
-      />
-
-    <plone:tile
       name="destacats"
       title="Destacats Home"
       description="Tile used to show destacats in homepage"
