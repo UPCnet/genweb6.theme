@@ -117,7 +117,7 @@ class CustomVideo(Tile):
     def is_embed_video(self):
         # Able to embed youtube and vimeo videos for the moment
         video_url = self.data.get('content_uid')
-        return "youtu.be" in video_url or "youtube.com" in video_url or "vimeo.com" in video_url
+        return "youtu.be" in video_url or "youtube.com" in video_url or "vimeo.com" in video_url or "zonavideo" in video_url
 
     @property
     def option(self):
