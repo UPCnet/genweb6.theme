@@ -1,0 +1,244 @@
+/* destacat 4 esdeveniments */
+
+//*// Variables UPC utilizadas en Home
+
+
+$font-size-base:          16px !default;
+
+$font-size-m:            ($font-size-base/$font-size-base) * 1rem;
+
+$font-size-xxxl:         $font-size-m * 48/16 !default; // ~48px
+$font-size-xxl:          $font-size-m * 36/16 !default; // ~36px
+$font-size-xl:           $font-size-m * 24/16 !default; // ~24px
+$font-size-l:            $font-size-m * 18/16 !default; // ~18px
+
+$font-size-s:            $font-size-m * 14/16 !default; // ~14px
+$font-size-xs:           $font-size-m * 13/16 !default; // ~13px
+$font-size-xxs:          $font-size-m * 12/16 !default; // ~12px
+$font-size-xxxs:         $font-size-m * 11/16 !default; // ~11px
+
+
+$regular-shadow:         rgba(0,0,0,.33);
+$broken-background:      rgba(0,0,0,.5);
+
+$max-width:              max-width;
+
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+$gray-base:              #252525 !default;
+$gray-darker:            #4a4a4a !default;
+$gray-dark:              #636363 !default;
+$gray:                   #7f7f7f !default;
+$gray-light:             #b8b8b8 !default;
+$gray-lighter:           #d1d1d1 !default;
+
+$brand-primary:         #007BC1 !default;
+$brand-success:         #51AA55 !default;
+$brand-info:            #1FBDEE !default;
+$brand-warning:         #F6A808 !default;
+$brand-danger:          #D01157 !default;
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+$body-bg:               #fff !default;
+//** Global text color on `<body>`.
+$text-color:            $gray-dark !default;
+
+//** Global textual link color.
+$link-color:            $brand-primary !default;
+//** Link hover color set via `darken()` function.
+$link-hover-color:      #01559B !default;
+//** Link hover decoration.
+$link-hover-decoration: underline !default;
+
+//*// FIN Variables UPC utilizadas en Home
+
+
+.content-agenda {
+    margin-bottom: 48px;
+}
+
+//- actualitat
+.titling-line-container {
+    position: relative;
+}
+
+.titling-line {
+    font-size: $font-size-xl;
+    color: $gray-dark;
+    position: relative;
+    overflow: hidden;
+    padding: 6px 0;
+    margin-top: 0;
+    &::after {
+        content: "";
+        position: absolute;
+        margin-left: 12px;
+        background: $gray-lighter;
+        height: 1px;
+        box-shadow: 1000px 0 0 -1000px $gray-lighter;
+        width: 100%;
+        top: 50%;
+    }
+}
+
+
+//- agenda
+.list-agenda {
+    list-style: none;
+    padding: 0;
+    a {
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, .15);
+        //border-radius: 4px;
+        height: 300px;
+        position: relative;
+        display: block;
+        transition: all .25s ease-out;
+        overflow: hidden;
+        margin-bottom: 24px;
+        &:hover {
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .05), 0 5px 10px rgba(0, 0, 0, .1), 0 10px 20px rgba(0, 0, 0, .05);
+            text-decoration: none;
+            background-color: #F6F7F7;
+            //transform: perspective(1px) scale(1.00775,1.00775) translateZ(0px);
+            transform: perspective(25rem) scale(1.03);
+            -webkit-font-smoothing: subpixel-antialiased;
+            .event-time::after {
+                opacity: 1;
+                transition: all .5s ease;
+            }
+        }
+    }
+    .event-title {
+        font-size: $font-size-l;
+        color: $gray-darker;
+        height: 84px;
+        background: rgba(255, 255, 255, .9);
+        position: absolute;
+        width: 100%;
+        margin: 0;
+        bottom: 0;
+        padding: 12px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .event-category {
+        font-size: 0.625rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        display: inline-block;
+        background: rgba(255, 255, 255, .8);
+        padding: 6px 7px 5px;
+        border-radius: 2px;
+        position: absolute;
+        left: 12px;
+        top: 12px;
+    }
+    .event-time {
+        opacity: 0.9;
+        background-image: linear-gradient(89deg, #00BCD4 0%, #007bc1 100%);
+        width: 128px;
+        height: 128px;
+        border-radius: 50%;
+        position: absolute;
+        left: 18px;
+        display: table-cell;
+        text-align: center;
+        left: calc(50% - 64px);
+        top: calc(50% - 64px - 36px);
+        &--wrap {
+            top: 50%;
+            transform: translateY(-50%);
+            position: relative;
+            display: block;
+        }
+        &::after {
+            opacity: 0;
+            content: "\e902";
+            font-family: upc-icones;
+            border: 1.5px solid $link-color;
+            position: absolute;
+            font-size: $font-size-l;
+            bottom: -18px;
+            left: calc(50% - 18px);
+            margin-top: -18px;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            text-align: center;
+            padding-top: 5px;
+            color: $link-color;
+            background: rgba(255, 255, 255, 0.8);
+            z-index: 0;
+            transition: all .5s ease;
+        }
+    }
+    .event-days {
+        font-weight: 700;
+        font-size: $font-size-xl;
+        color: #fff;
+        display: block;
+        //auric adjustment
+        padding-bottom: 1px;
+        margin-top: -2px;
+        line-height: 1;
+    }
+    .event-months {
+        font-weight: 300;
+        font-size: $font-size-s;
+        text-transform: uppercase;
+        color: #fff;
+        display: block;
+        //auric adjustment
+        padding-bottom: 1px;
+        margin-top: -2px;
+    }
+    .event-days-connector {
+        font-size: $font-size-l;
+        font-weight: 300 !important;
+    }
+    .event-highlighted {
+        .event-time {
+            opacity: 0.9;
+            background-image: linear-gradient(89deg, #fa5c2a 0%, #ed4033 98%);
+        }
+        &.event-img {
+            .event-time {
+                opacity: 0.9;
+                background: rgba(255, 255, 255, .9);
+                .event-days,
+                .event-months {
+                    color: $gray-darker;
+                }
+            }
+            .event-title {
+                background: rgba(0, 0, 0, .8);
+                color: #fff;
+            }
+        }
+    }
+    .event-img {
+        img {
+            object-fit: cover;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: -1;
+            transition: all .5s ease;
+        }
+        &.compat-object-fit {
+            // fallback habilitat per l'script d'objectfit i fer que es vegi bé a IE
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}

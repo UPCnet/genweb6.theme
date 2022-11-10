@@ -103,7 +103,7 @@
 
     <metal:block metal:define-macro="fila">
         <div tal:repeat="item items" class="layout-table--cell">
-            <tal:block define="img_setted item/img_setted; color_setted item/color_setted; is_video item/class;" >
+            <tal:block define="img_setted item/img_setted; is_video item/class;" >
                 <a tal:condition="python: is_video == 'hotnews-video'" tal:attributes="href item/url; target item/open_link_in_new_window;" class="hotnews hotnews-image hotnews-highlighted hotnews-video">
                     <block metal:use-macro="context/macros-hometiles/imatge"></block>
                     <block metal:use-macro="context/macros-hometiles/text-noticia"></block>
@@ -112,10 +112,10 @@
                     <block metal:use-macro="context/macros-hometiles/imatge"></block>
                     <block metal:use-macro="context/macros-hometiles/text-noticia"></block>
                 </a>
-                <a tal:condition="python: is_video == '' and not img_setted and color_setted" tal:attributes="href item/url; target item/open_link_in_new_window;" class="hotnews hotnews-highlighted">
+                <a tal:condition="python: is_video == '' and not img_setted" tal:attributes="href item/url; target item/open_link_in_new_window;" class="hotnews hotnews-highlighted">
                     <block metal:use-macro="context/macros-hometiles/text-noticia"></block>
                 </a>
-                <a tal:condition="python: is_video == '' and not img_setted and not color_setted" tal:attributes="href item/url; target item/open_link_in_new_window;" class="hotnews">
+                <a tal:condition="python: is_video == '' and not img_setted" tal:attributes="href item/url; target item/open_link_in_new_window;" class="hotnews">
                     <block metal:use-macro="context/macros-hometiles/text-noticia"></block>
                 </a>
             </tal:block>

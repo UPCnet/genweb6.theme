@@ -21786,8 +21786,201 @@ div.portlet.portletLogin a.btn {
   }
 }
 /* fi Tile video */
+/* destacat 4 esdeveniments */
+/* line 62, ../scss/tiles/destacats_4_esdeveniments.scss */
+.content-agenda {
+  margin-bottom: 48px;
+}
+
+/* line 67, ../scss/tiles/destacats_4_esdeveniments.scss */
+.titling-line-container {
+  position: relative;
+}
+
+/* line 71, ../scss/tiles/destacats_4_esdeveniments.scss */
+.titling-line {
+  font-size: 1.5rem;
+  color: #636363;
+  position: relative;
+  overflow: hidden;
+  padding: 6px 0;
+  margin-top: 0;
+}
+/* line 78, ../scss/tiles/destacats_4_esdeveniments.scss */
+.titling-line::after {
+  content: "";
+  position: absolute;
+  margin-left: 12px;
+  background: #d1d1d1;
+  height: 1px;
+  box-shadow: 1000px 0 0 -1000px #d1d1d1;
+  width: 100%;
+  top: 50%;
+}
+
+/* line 92, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda {
+  list-style: none;
+  padding: 0;
+}
+/* line 95, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda a {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+  height: 300px;
+  position: relative;
+  display: block;
+  transition: all .25s ease-out;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+/* line 104, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda a:hover {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 5px 10px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  background-color: #F6F7F7;
+  transform: perspective(25rem) scale(1.03);
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+/* line 111, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda a:hover .event-time::after {
+  opacity: 1;
+  transition: all .5s ease;
+}
+/* line 117, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-title {
+  font-size: 1.125rem;
+  color: #4a4a4a;
+  height: 84px;
+  background: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  bottom: 0;
+  padding: 12px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* line 132, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-category {
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 6px 7px 5px;
+  border-radius: 2px;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+/* line 144, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-time {
+  opacity: 0.9;
+  background-image: linear-gradient(89deg, #00BCD4 0%, #007bc1 100%);
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  position: absolute;
+  left: 18px;
+  display: table-cell;
+  text-align: center;
+  left: calc(50% - 64px);
+  top: calc(50% - 64px - 36px);
+}
+/* line 156, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-time--wrap {
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+  display: block;
+}
+/* line 162, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-time::after {
+  opacity: 0;
+  content: "\e902";
+  font-family: upc-icones;
+  border: 1.5px solid #007BC1;
+  position: absolute;
+  font-size: 1.125rem;
+  bottom: -18px;
+  left: calc(50% - 18px);
+  margin-top: -18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 5px;
+  color: #007BC1;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 0;
+  transition: all .5s ease;
+}
+/* line 183, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-days {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff;
+  display: block;
+  padding-bottom: 1px;
+  margin-top: -2px;
+  line-height: 1;
+}
+/* line 193, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-months {
+  font-weight: 300;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+  padding-bottom: 1px;
+  margin-top: -2px;
+}
+/* line 203, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-days-connector {
+  font-size: 1.125rem;
+  font-weight: 300 !important;
+}
+/* line 208, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-highlighted .event-time {
+  opacity: 0.9;
+  background-image: linear-gradient(89deg, #fa5c2a 0%, #ed4033 98%);
+}
+/* line 213, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-highlighted.event-img .event-time {
+  opacity: 0.9;
+  background: rgba(255, 255, 255, 0.9);
+}
+/* line 216, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-highlighted.event-img .event-time .event-days,
+.list-agenda .event-highlighted.event-img .event-time .event-months {
+  color: #4a4a4a;
+}
+/* line 221, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-highlighted.event-img .event-title {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+/* line 228, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-img img {
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  transition: all .5s ease;
+}
+/* line 238, ../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-img.compat-object-fit {
+  background-size: cover;
+  background-position: center;
+}
+
 /* destacat 5 esquerra dreta */
-/* line 3, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 60, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -21797,90 +21990,90 @@ div.portlet.portletLogin a.btn {
   grid-auto-rows: auto;
 }
 
-/* line 12, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 69, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .esquerra {
   grid-template-areas: "area-gran area-gran area1 area2" "area-gran area-gran area3 area4" "area5 area6 area7 area8";
 }
 
-/* line 16, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 73, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .dreta {
   grid-template-areas: "area1 area2 area-gran area-gran" "area3 area4 area-gran area-gran" "area5 area6 area7 area8";
 }
 
-/* line 20, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 77, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .area-gran {
   grid-area: area-gran;
 }
 
-/* line 24, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 81, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .area1 {
   grid-area: area1;
 }
 
-/* line 28, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 85, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .area2 {
   grid-area: area2;
 }
 
-/* line 32, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 89, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .area3 {
   grid-area: area3;
 }
 
-/* line 36, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 93, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .area4 {
   grid-area: area4;
 }
 
-/* line 40, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 97, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .area5 {
   grid-area: area5;
 }
 
-/* line 44, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 101, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .area6 {
   grid-area: area6;
 }
 
-/* line 48, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 105, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .area7 {
   grid-area: area7;
 }
 
-/* line 52, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 109, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .area8 {
   grid-area: area8;
 }
 
-/* line 56, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 113, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 [class^="area"] {
   transition: all 0.25s ease-out;
   transform: scale(1, 1) perspective(1px) translateZ(0px);
 }
 
-/* line 61, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 118, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 [class^="area"]:hover {
   text-decoration: none;
   transform: perspective(25rem) scale(1.03);
 }
 
-/* line 66, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 123, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 [class^="area"] {
   background-color: #f2f5f6;
 }
 
-/* line 70, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 127, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .card-body {
   padding: 0rem 1.2rem 0.7rem 1.2rem;
 }
 
-/* line 74, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 131, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .card-body p {
   font-size: 1rem;
   color: #636363;
 }
 
-/* line 79, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 136, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .area-gran h3.card-title {
   font-size: 1.725rem;
   color: #4a4a4a;
@@ -21888,13 +22081,13 @@ div.portlet.portletLogin a.btn {
   margin-top: 15px;
 }
 
-/* line 86, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 143, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .area-gran .card-body p {
   font-size: 1.125rem;
   color: #636363;
 }
 
-/* line 91, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 148, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 h3.card-title {
   font-size: 1.3rem;
   color: #4a4a4a;
@@ -21902,13 +22095,13 @@ h3.card-title {
   margin-top: 15px;
 }
 
-/* line 98, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 155, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 picture {
   object-fit: fill;
   width: 100%;
 }
 
-/* line 103, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 160, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .grid-container picture img,
 .grid-container picture source {
   width: 100%;
@@ -21917,13 +22110,13 @@ picture {
   object-position: center center;
 }
 
-/* line 111, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 168, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 a.stretched-link {
   text-decoration: none;
   color: #4a4a4a;
 }
 
-/* line 116, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 173, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 .stretched-link::after {
   position: absolute;
   top: 0;
@@ -21936,7 +22129,203 @@ a.stretched-link {
   background-color: transparent;
 }
 
-/* line 128, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+/* line 186, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.content-hotnews ol {
+  padding: 0;
+}
+/* line 189, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.content-hotnews li {
+  list-style: none;
+}
+/* line 192, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.content-hotnews li:first-child > a {
+  margin: 0;
+  height: 450px;
+}
+/* line 196, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.content-hotnews li > a:hover,
+.content-hotnews li > a:active {
+  text-decoration: none;
+}
+/* line 199, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.content-hotnews li > a:hover .hotnews-title::after,
+.content-hotnews li > a:active .hotnews-title::after {
+  opacity: 1;
+  transition: .25s all ease;
+}
+/* line 204, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.content-hotnews li .hotnews-title {
+  padding-right: 36px;
+  position: relative;
+}
+/* line 207, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.content-hotnews li .hotnews-title::after {
+  opacity: 0;
+  transition: .25s all ease;
+  content: "\e902";
+  font-family: "upc-icones";
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* line 219, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews {
+  display: block;
+  margin: 12px 15px;
+  padding: 18px;
+  background: #F2F5F6;
+  height: 300px;
+  position: relative;
+  transition: all .25s ease-out;
+  transform: scale(1, 1) perspective(1px) translateZ(0px);
+}
+/* line 228, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews:hover, .hotnews:active {
+  text-decoration: none;
+  transform: perspective(25rem) scale(1.03);
+}
+/* line 234, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews > div {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+}
+/* line 240, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews-title {
+  font-size: 1.125rem;
+  color: #4a4a4a;
+  font-weight: 300;
+  margin-top: 15px;
+}
+/* line 246, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews-description {
+  font-size: 0.8125rem;
+  color: #636363;
+}
+/* line 250, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews-category {
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 6px 7px 5px;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+/* line 262, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews-date {
+  color: #ED4033;
+  font-size: 0.6875rem;
+  display: inline-block;
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
+}
+
+/* line 272, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews-highlighted {
+  background: #007BC1;
+}
+/* line 274, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews-highlighted .hotnews-date,
+.hotnews-highlighted .hotnews-category,
+.hotnews-highlighted .hotnews-title,
+.hotnews-highlighted .hotnews-description {
+  color: #fff;
+}
+/* line 280, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews-highlighted .hotnews-category {
+  background: transparent;
+}
+
+/* line 286, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews-image > img {
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  transition: all .5s ease;
+  border-radius: 0;
+}
+/* line 297, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews-image.compat-object-fit {
+  background-size: cover;
+  background-position: center;
+}
+/* line 302, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews-image > div {
+  background: #F2F5F6;
+  display: block;
+  height: auto;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  padding: 0 18px 6px;
+  width: 100%;
+}
+
+/* line 314, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews-video::after {
+  content: "\e901";
+  position: absolute;
+  color: #fff;
+  font-family: upc-icones;
+  font-size: 2.25rem;
+  border: 3px solid #fff;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  padding: 8px 14px;
+  z-index: 2;
+  left: calc(50% - 36px);
+  bottom: calc(50% + 18px);
+}
+
+/* line 331, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews-highlighted.hotnews-image::before {
+  background: rgba(0, 0, 0, 0.33);
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+/* line 341, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews-highlighted.hotnews-image > *:not(img) {
+  z-index: 2;
+}
+/* line 344, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews-highlighted.hotnews-image > div {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+/* line 349, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews-top {
+  border-bottom: 1px solid #d1d1d1;
+}
+/* line 351, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews-top > div {
+  background: #fff;
+  padding-top: 24px;
+  padding-bottom: 6px;
+  width: 100%;
+}
+/* line 358, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+.hotnews-top .hotnews-category {
+  left: 0;
+  padding-left: 0;
+}
+
+/* line 363, ../scss/tiles/destacats_5_esquerra_dreta.scss */
 section.content-hotnews a.stretched-link[target=_blank] p::after {
   font-family: upc-icones;
   font-size: 0.75rem;
@@ -21945,7 +22334,7 @@ section.content-hotnews a.stretched-link[target=_blank] p::after {
 }
 
 @media only screen and (max-width: 1100px) {
-  /* line 140, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+  /* line 376, ../scss/tiles/destacats_5_esquerra_dreta.scss */
   .grid-container.esquerra,
   .grid-container.dreta {
     display: grid;
@@ -21956,7 +22345,7 @@ section.content-hotnews a.stretched-link[target=_blank] p::after {
   }
 }
 @media only screen and (max-width: 800px) {
-  /* line 151, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+  /* line 387, ../scss/tiles/destacats_5_esquerra_dreta.scss */
   .grid-container.esquerra,
   .grid-container.dreta {
     display: grid;
@@ -21969,7 +22358,7 @@ section.content-hotnews a.stretched-link[target=_blank] p::after {
   }
 }
 @media only screen and (max-width: 800px) {
-  /* line 164, ../scss/tiles/destacats_5_esquerra_dreta.scss */
+  /* line 400, ../scss/tiles/destacats_5_esquerra_dreta.scss */
   .grid-container.esquerra > div {
     height: fit-content;
   }

@@ -140,10 +140,9 @@
           </div>
           <ol tal:define="items view/get4DestacatsEsdeveniments" tal:condition="items" class="list-agenda row">
             <li tal:repeat="item items" class="col-md-3 col-sm-6 col-xs-12">
-              <tal:block define="highlighted_class python:'' if item.get('color_setted') else 'event-highlighted';
-                                 img_class python:'' if item.get('img_setted') else 'event-img'; ">
+              <tal:block define="img_class python:'' if item.get('img_setted') else 'event-img'; ">
                 <a tal:attributes="href item/url;
-                                   class python: highlighted_class + ' ' + img_class;" >
+                                   class python: img_class;" >
                   <span class="event-time">
                     <span class="event-time--wrap" tal:define="type python: view.dateType(item)">
                       <block metal:use-macro="context/macros-hometiles/sameday_samemonth"></block>

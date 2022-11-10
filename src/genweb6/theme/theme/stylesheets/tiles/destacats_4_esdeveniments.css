@@ -1,0 +1,192 @@
+/* destacat 4 esdeveniments */
+/* line 62, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.content-agenda {
+  margin-bottom: 48px;
+}
+
+/* line 67, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.titling-line-container {
+  position: relative;
+}
+
+/* line 71, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.titling-line {
+  font-size: 1.5rem;
+  color: #636363;
+  position: relative;
+  overflow: hidden;
+  padding: 6px 0;
+  margin-top: 0;
+}
+/* line 78, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.titling-line::after {
+  content: "";
+  position: absolute;
+  margin-left: 12px;
+  background: #d1d1d1;
+  height: 1px;
+  box-shadow: 1000px 0 0 -1000px #d1d1d1;
+  width: 100%;
+  top: 50%;
+}
+
+/* line 92, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda {
+  list-style: none;
+  padding: 0;
+}
+/* line 95, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda a {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+  height: 300px;
+  position: relative;
+  display: block;
+  transition: all .25s ease-out;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+/* line 104, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda a:hover {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 5px 10px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  background-color: #F6F7F7;
+  transform: perspective(25rem) scale(1.03);
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+/* line 111, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda a:hover .event-time::after {
+  opacity: 1;
+  transition: all .5s ease;
+}
+/* line 117, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-title {
+  font-size: 1.125rem;
+  color: #4a4a4a;
+  height: 84px;
+  background: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  bottom: 0;
+  padding: 12px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* line 132, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-category {
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 6px 7px 5px;
+  border-radius: 2px;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+/* line 144, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-time {
+  opacity: 0.9;
+  background-image: linear-gradient(89deg, #00BCD4 0%, #007bc1 100%);
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  position: absolute;
+  left: 18px;
+  display: table-cell;
+  text-align: center;
+  left: calc(50% - 64px);
+  top: calc(50% - 64px - 36px);
+}
+/* line 156, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-time--wrap {
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+  display: block;
+}
+/* line 162, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-time::after {
+  opacity: 0;
+  content: "\e902";
+  font-family: upc-icones;
+  border: 1.5px solid #007BC1;
+  position: absolute;
+  font-size: 1.125rem;
+  bottom: -18px;
+  left: calc(50% - 18px);
+  margin-top: -18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 5px;
+  color: #007BC1;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 0;
+  transition: all .5s ease;
+}
+/* line 183, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-days {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff;
+  display: block;
+  padding-bottom: 1px;
+  margin-top: -2px;
+  line-height: 1;
+}
+/* line 193, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-months {
+  font-weight: 300;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+  padding-bottom: 1px;
+  margin-top: -2px;
+}
+/* line 203, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-days-connector {
+  font-size: 1.125rem;
+  font-weight: 300 !important;
+}
+/* line 208, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-highlighted .event-time {
+  opacity: 0.9;
+  background-image: linear-gradient(89deg, #fa5c2a 0%, #ed4033 98%);
+}
+/* line 213, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-highlighted.event-img .event-time {
+  opacity: 0.9;
+  background: rgba(255, 255, 255, 0.9);
+}
+/* line 216, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-highlighted.event-img .event-time .event-days,
+.list-agenda .event-highlighted.event-img .event-time .event-months {
+  color: #4a4a4a;
+}
+/* line 221, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-highlighted.event-img .event-title {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+/* line 228, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-img img {
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  transition: all .5s ease;
+}
+/* line 238, ../../scss/tiles/destacats_4_esdeveniments.scss */
+.list-agenda .event-img.compat-object-fit {
+  background-size: cover;
+  background-position: center;
+}
