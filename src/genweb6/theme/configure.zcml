@@ -48,7 +48,6 @@
       description="Tile used to show destacats in homepage"
       add_permission="cmf.ModifyPortalContent"
       schema="genweb6.theme.browser.hometiles.destacats.IDestacats"
-
       class="genweb6.theme.browser.hometiles.destacats.Destacats"
       permission="zope2.View"
       for="*"
@@ -62,7 +61,6 @@
       description="Tile used to show easyform as tile"
       add_permission="cmf.ModifyPortalContent"
       schema="genweb6.theme.browser.hometiles.formulari_existent.IFormulariExistent"
-
       class="genweb6.theme.browser.hometiles.formulari_existent.FormulariExistent"
       permission="zope2.View"
       for="*"
@@ -78,9 +76,22 @@
       add_permission="cmf.ModifyPortalContent"
       class="genweb6.theme.browser.hometiles.video.CustomVideo"
       for="*"
-      permission="zope.Public"
+      permission="zope2.View"
       schema="genweb6.theme.browser.hometiles.video.ICustomVideo"
       template="browser/hometiles/templates/video.pt"
+      />
+
+    <plone:tile
+      name="twitter"
+      title="Twitter"
+      description="Tile used to show twitter widget"
+      add_permission="cmf.ModifyPortalContent"
+      schema="genweb6.theme.browser.hometiles.twitter.ITwitter"
+      class="genweb6.theme.browser.hometiles.twitter.Twitter"
+      permission="zope2.View"
+      for="*"
+      layer="*"
+      template="browser/hometiles/templates/twitter.pt"
       />
 
     <!-- macros per home tiles -->
