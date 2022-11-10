@@ -1,0 +1,167 @@
+/* destacat 5 esquerra dreta */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 30px 30px;
+    width: 100%;
+    grid-auto-rows: auto;
+}
+
+.esquerra {
+    grid-template-areas: "area-gran area-gran area1 area2" "area-gran area-gran area3 area4" "area5 area6 area7 area8";
+}
+
+.dreta {
+    grid-template-areas: "area1 area2 area-gran area-gran" "area3 area4 area-gran area-gran" "area5 area6 area7 area8";
+}
+
+.area-gran {
+    grid-area: area-gran;
+}
+
+.area1 {
+    grid-area: area1;
+}
+
+.area2 {
+    grid-area: area2;
+}
+
+.area3 {
+    grid-area: area3;
+}
+
+.area4 {
+    grid-area: area4;
+}
+
+.area5 {
+    grid-area: area5;
+}
+
+.area6 {
+    grid-area: area6;
+}
+
+.area7 {
+    grid-area: area7;
+}
+
+.area8 {
+    grid-area: area8;
+}
+
+[class^="area"] {
+    transition: all 0.25s ease-out;
+    transform: scale(1, 1) perspective(1px) translateZ(0px);
+}
+
+[class^="area"]:hover {
+    text-decoration: none;
+    transform: perspective(25rem) scale(1.03);
+}
+
+[class^="area"] {
+    background-color: #f2f5f6;
+}
+
+.card-body {
+    padding: 0rem 1.2rem 0.7rem 1.2rem;
+}
+
+.card-body p {
+    font-size: 1rem;
+    color: #636363;
+}
+
+.area-gran h3.card-title {
+    font-size: 1.725rem;
+    color: #4a4a4a;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.area-gran .card-body p {
+    font-size: 1.125rem;
+    color: #636363;
+}
+
+h3.card-title {
+    font-size: 1.3rem;
+    color: #4a4a4a;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+picture {
+    object-fit: fill;
+    width: 100%;
+}
+
+.grid-container picture img,
+.grid-container picture source {
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    object-position: center center;
+}
+
+a.stretched-link {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0, 0, 0, 0);
+}
+
+section.content-hotnews a.stretched-link[target=_blank] p::after {
+    font-family: upc-icones;
+    font-size: 0.75rem;
+    content: "\e91c";
+    padding-left: 5px;
+}
+
+// section.content-hotnews a.stretched-link[target=_blank] p:empty::after {
+//   content: "";
+//   padding: 0;
+// }
+@media only screen and (max-width: 1100px) {
+    .grid-container.esquerra,
+    .grid-container.dreta {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        gap: 30px 30px;
+        grid-template-areas: "area-gran area-gran" "area1 area2" "area3 area4" "area5 area6" "area7 area8";
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .grid-container.esquerra,
+    .grid-container.dreta {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr 1fr 1fr 1fr auto;
+        gap: 30px;
+        grid-template-areas: "area-gran" "area1" "area2" "area3" "area4" "area5" "area6" "area7" "area8";
+        width: 100%;
+        grid-auto-rows: auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .grid-container.esquerra>div {
+        height: fit-content;
+    }
+}

@@ -125,12 +125,7 @@ class Destacats(Tile):
                               sort_order='reverse',
                               sort_limit=1)
         elif not self.tags and self.portal_types:
-            if self.portal_types == [u'File']:
-                results = catalog(portal_type=self.portal_types,
-                                  sort_on=('effective'),
-                                  sort_order='reverse',
-                                  sort_limit=1)
-            elif self.portal_types == [u'Image']:
+            if self.portal_types == [u'Image']:
                 results = catalog(portal_type=self.portal_types,
                                   sort_on=('effective'),
                                   sort_order='reverse',
@@ -145,13 +140,7 @@ class Destacats(Tile):
         else:
             #subjects = [t.encode('utf-8') if isinstance(t, unicode) else t for t in self.tags]
             subjects = [t for t in self.tags]
-            if self.portal_types in [u'File']:
-                results = catalog(portal_type=self.portal_types,
-                                  Subject=subjects,
-                                  sort_on=('effective'),
-                                  sort_order='reverse',
-                                  sort_limit=1)
-            elif self.portal_types in [u'Image']:
+            if self.portal_types in [u'Image']:
                 results = catalog(portal_type=self.portal_types,
                                   Subject=subjects,
                                   sort_on=('effective'),
