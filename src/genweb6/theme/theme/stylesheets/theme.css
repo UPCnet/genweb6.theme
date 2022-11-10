@@ -2989,7 +2989,7 @@ body#tinymce [class*=" icon-"],
   height: 14px;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url(/++theme++genweb6.theme/img/gh.png);
+  background-image: url('/++theme++genweb6.theme/img/gh.png');
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 3px;
@@ -3009,12 +3009,12 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > li > a:hover > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class^="icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class*=" icon-"] {
-  background-image: url(/++theme++genweb6.theme/img/gh-w.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-w.png');
 }
 /* line 43, ../scss/old/_sprites.scss */
 body#tinymce .icon-color,
 #content-core #parent-fieldname-text .icon-color {
-  background-image: url(/++theme++genweb6.theme/img/gh-c.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-c.png');
 }
 /* line 47, ../scss/old/_sprites.scss */
 body#tinymce .icon-glass,
@@ -4083,7 +4083,7 @@ body#tinymce .icon-translate,
 /* line 272, ../scss/old/_sprites.scss */
 body#tinymce .large-icon,
 #content-core #parent-fieldname-text .large-icon {
-  background-image: url(/++theme++genweb6.theme/img/gh-150.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-150.png');
   width: 21px;
   height: 21px;
   margin-top: -1px;
@@ -4122,7 +4122,7 @@ body#tinymce .large-icon.icon-user-news,
 /* line 288, ../scss/old/_sprites.scss */
 body#tinymce .large-icon.icon-white,
 #content-core #parent-fieldname-text .large-icon.icon-white {
-  background-image: url(/++theme++genweb6.theme/img/gh-150-w.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-150-w.png');
 }
 /* line 4, ../scss/old/_styles.scss */
 body#tinymce .label,
@@ -7281,52 +7281,110 @@ body.plone-toolbar-left div#edit-zone .dropdown-menu {
 }
 
 /* line 58, ../scss/viewlets/_footer.scss */
+#footer-links {
+  box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
+  padding: 2em 4em 0em 4em;
+  color: var(--bs-body-bg);
+}
+/* line 63, ../scss/viewlets/_footer.scss */
+#footer-links ul.navbar-nav-footer {
+  padding-left: 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+/* line 70, ../scss/viewlets/_footer.scss */
+#footer-links ul.navbar-nav-footer > li {
+  flex: 1 1 30%;
+  list-style: none;
+  font-weight: 500;
+  font-size: var(--bs-font-size-xxxl);
+}
+/* line 76, ../scss/viewlets/_footer.scss */
+#footer-links ul.navbar-nav-footer > li:not(.has_subtree) {
+  display: none;
+}
+@media (max-width: 768px) {
+  /* line 70, ../scss/viewlets/_footer.scss */
+  #footer-links ul.navbar-nav-footer > li {
+    flex: 1 1 49%;
+  }
+}
+/* line 84, ../scss/viewlets/_footer.scss */
+#footer-links ul.navbar-nav-footer > li > a, #footer-links ul.navbar-nav-footer > li > p {
+  margin-bottom: 1rem;
+}
+/* line 89, ../scss/viewlets/_footer.scss */
+#footer-links ul.navbar-nav-footer > li > a:hover {
+  font-weight: 700;
+}
+/* line 93, ../scss/viewlets/_footer.scss */
+#footer-links ul.navbar-nav-footer > li > ul {
+  margin-left: -15px;
+  list-style: disc;
+}
+/* line 97, ../scss/viewlets/_footer.scss */
+#footer-links ul.navbar-nav-footer > li > ul > li {
+  font-weight: 300;
+  font-size: 1rem;
+}
+/* line 101, ../scss/viewlets/_footer.scss */
+#footer-links ul.navbar-nav-footer > li > ul > li > a {
+  margin-bottom: 0rem;
+}
+/* line 104, ../scss/viewlets/_footer.scss */
+#footer-links ul.navbar-nav-footer > li > ul > li > a:hover {
+  font-weight: 500;
+}
+
+/* line 114, ../scss/viewlets/_footer.scss */
 #footer-complementary {
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 0 4em;
 }
-/* line 62, ../scss/viewlets/_footer.scss */
+/* line 118, ../scss/viewlets/_footer.scss */
 #footer-complementary p {
   display: inline-block;
   margin: 18px 0;
   color: #FFF;
 }
-/* line 68, ../scss/viewlets/_footer.scss */
+/* line 124, ../scss/viewlets/_footer.scss */
 #footer-complementary nav {
   float: right;
   margin: 18px 0;
   text-align: right;
 }
-/* line 73, ../scss/viewlets/_footer.scss */
+/* line 129, ../scss/viewlets/_footer.scss */
 #footer-complementary nav li {
   white-space: nowrap;
   margin-left: 24px;
 }
-/* line 78, ../scss/viewlets/_footer.scss */
+/* line 134, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul,
 #footer-complementary nav li {
   display: inline;
   padding: 0;
 }
-/* line 83, ../scss/viewlets/_footer.scss */
+/* line 139, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul a,
 #footer-complementary nav li a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 87, ../scss/viewlets/_footer.scss */
+/* line 143, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul a:hover,
 #footer-complementary nav li a:hover {
   font-weight: 400;
 }
 
 @media (max-width: 768px) {
-  /* line 97, ../scss/viewlets/_footer.scss */
+  /* line 153, ../scss/viewlets/_footer.scss */
   #footer-complementary nav {
     float: left;
     text-align: left;
   }
-  /* line 101, ../scss/viewlets/_footer.scss */
+  /* line 157, ../scss/viewlets/_footer.scss */
   #footer-complementary nav li {
     margin-right: 24px;
     margin-left: 0;
