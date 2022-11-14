@@ -1,11 +1,50 @@
 body.template-sitemap {
 	
-	#content {
+	#content-core {
 
-		#content-core {
+		#portal-sitemap {
+			margin-top: 2rem;
+			padding-left: 0;
 
-			class.navTreeItem.visualNoMarker {
+			li {
+				list-style: none;
 				padding-bottom: 8px;
+
+				a {
+					text-decoration: none;
+				}
+			}
+
+			& > li.navTreeItem {
+				padding-bottom: 1rem;
+
+				& > a {
+					display: block;
+					width: 100%;
+					font-size: var(--bs-font-size-xxxl);
+					border-bottom: 1px solid var(--bs-gray-300);
+					margin-bottom: 0.5rem;
+					font-weight: 500;
+					color: var(--bs-link-color)
+				}
+
+				& > ul {
+					padding-left: 0px;
+					-webkit-column-count: 3;
+				    -moz-column-count: 3;
+				    column-count: 3;
+				    -webkit-column-gap: 2em;
+				    -moz-column-gap: 2em;
+				    column-gap: 2em;
+				    -webkit-column-fill: auto;
+				    -moz-column-fill: auto;
+				    column-fill: auto;
+					color: var(--bs-link-hover-color);
+
+					::hover {
+						color: black;
+					}
+				}
 			}
 		}
 	}

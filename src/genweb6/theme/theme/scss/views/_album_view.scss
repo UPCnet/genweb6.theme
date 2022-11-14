@@ -5,19 +5,25 @@ body.template-album_view {
 		#content-core {
 
 			.card-title {
-					color: var(--bs-gray-dark);
-					text-align: center;
-				    margin: 15px;
+				color: var(--bs-gray-dark);
+				text-align: center;
+			    margin: 15px;
 			}
 
 			.mb-5 {
 				min-width: 30%;
 				max-width: 30%;
+
+				@media (max-width: 768px) {
+					min-width: 100%;
+					max-width: 100%;
+				}
 			}
 
-			.card-image.d-flex .justify-content-center.align-items-center {
 
-				img{
+			.card-image {
+
+				img {
 					border-radius: 7px;
 				}
 			}

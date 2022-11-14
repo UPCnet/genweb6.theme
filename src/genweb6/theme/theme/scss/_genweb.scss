@@ -87,21 +87,6 @@ body.template-manage-viewlets header {
   position: initial;
 }
 
-footer#portal-footer-wrapper {
-  background-color: initial;
-  color: initial;
-  text-align: initial;
-  padding: 0rem;
-
-  [id^="footer-"] {
-
-    h2 {
-      font-size: 1.5rem;
-      margin-bottom: 1em;
-    }
-  }
-}
-
 .modal-backdrop.fade.show {
   display: none;
 }

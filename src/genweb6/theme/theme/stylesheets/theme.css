@@ -2053,89 +2053,76 @@ body.template-manage-viewlets header {
 }
 
 /* line 90, ../scss/_genweb.scss */
-footer#portal-footer-wrapper {
-  background-color: initial;
-  color: initial;
-  text-align: initial;
-  padding: 0rem;
-}
-/* line 98, ../scss/_genweb.scss */
-footer#portal-footer-wrapper [id^="footer-"] h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1em;
-}
-
-/* line 105, ../scss/_genweb.scss */
 .modal-backdrop.fade.show {
   display: none;
 }
 
-/* line 109, ../scss/_genweb.scss */
+/* line 94, ../scss/_genweb.scss */
 .list-group-item.row {
   display: flex;
 }
 
-/* line 113, ../scss/_genweb.scss */
+/* line 98, ../scss/_genweb.scss */
 .plone-icon {
   height: 0.73em;
 }
 
-/* line 119, ../scss/_genweb.scss */
+/* line 104, ../scss/_genweb.scss */
 #main-container #portal-column-one {
   padding-right: 20px;
 }
 
-/* line 128, ../scss/_genweb.scss */
+/* line 113, ../scss/_genweb.scss */
 body.template-edit div.pat-relateditems-dropdown .select2-results {
   max-height: 450px;
 }
 
-/* line 134, ../scss/_genweb.scss */
+/* line 119, ../scss/_genweb.scss */
 .fs-m {
   font-size: var(--bs-body-font-size) !important;
 }
 
-/* line 138, ../scss/_genweb.scss */
+/* line 123, ../scss/_genweb.scss */
 .fs-l {
   font-size: var(--bs-font-size-l) !important;
 }
 
-/* line 142, ../scss/_genweb.scss */
+/* line 127, ../scss/_genweb.scss */
 .fs-s {
   font-size: var(--bs-font-size-s) !important;
 }
 
-/* line 146, ../scss/_genweb.scss */
+/* line 131, ../scss/_genweb.scss */
 .fs-xl {
   font-size: var(--bs-font-size-xl) !important;
 }
 
-/* line 150, ../scss/_genweb.scss */
+/* line 135, ../scss/_genweb.scss */
 .fs-xs {
   font-size: var(--bs-font-size-xs) !important;
 }
 
-/* line 154, ../scss/_genweb.scss */
+/* line 139, ../scss/_genweb.scss */
 .fs-xxl {
   font-size: var(--bs-font-size-xxl) !important;
 }
 
-/* line 158, ../scss/_genweb.scss */
+/* line 143, ../scss/_genweb.scss */
 .fs-xxs {
   font-size: var(--bs-font-size-xxs) !important;
 }
 
-/* line 162, ../scss/_genweb.scss */
+/* line 147, ../scss/_genweb.scss */
 .fs-xxxl {
   font-size: var(--bs-font-size-xxxl) !important;
 }
 
-/* line 166, ../scss/_genweb.scss */
+/* line 151, ../scss/_genweb.scss */
 .fs-xxxs {
   font-size: var(--bs-font-size-xxs) !important;
 }
 
-/* line 170, ../scss/_genweb.scss */
+/* line 155, ../scss/_genweb.scss */
 .back-to-top {
   background: none;
   margin: 0;
@@ -2148,11 +2135,11 @@ body.template-edit div.pat-relateditems-dropdown .select2-results {
   text-decoration: none;
   color: var(--bs-primary);
 }
-/* line 182, ../scss/_genweb.scss */
+/* line 167, ../scss/_genweb.scss */
 .back-to-top:hover, .back-to-top:active, .back-to-top:focus {
   color: var(--bs-primary-hover);
 }
-/* line 188, ../scss/_genweb.scss */
+/* line 173, ../scss/_genweb.scss */
 .back-to-top svg {
   width: 45px;
   height: 45px;
@@ -2193,9 +2180,10 @@ body.template-edit div.pat-relateditems-dropdown .select2-results {
 /* Queremos que los estilos antiguos de Genweb 4 se mantengan lo mejor posible en la nueva versión.
 
    Para no romper estilos de otros lados solo los añadimos en el contenido de las páginas y dentro
-   del TinyMCE. */
+   del TinyMCE y del mosaic. */
 /* line 6, ../scss/old/_old.scss */
 body#tinymce,
+.mosaic-tile-content,
 #content-core #parent-fieldname-text {
   /* White icons with optional class, or on hover/active states of certain elements */
   /*afegits per a GW*/
@@ -2233,6 +2221,7 @@ body#tinymce,
 }
 /* line 1, ../scss/old/_banners.scss */
 body#tinymce a[class^='link-banner'],
+.mosaic-tile-content a[class^='link-banner'],
 #content-core #parent-fieldname-text a[class^='link-banner'] {
   display: block;
   padding: 14px 24px;
@@ -2243,6 +2232,7 @@ body#tinymce a[class^='link-banner'],
 }
 /* line 9, ../scss/old/_banners.scss */
 body#tinymce a[class^='link-banner']:after,
+.mosaic-tile-content a[class^='link-banner']:after,
 #content-core #parent-fieldname-text a[class^='link-banner']:after {
   width: 36px;
   height: 36px;
@@ -2263,12 +2253,14 @@ body#tinymce a[class^='link-banner']:after,
 }
 /* line 28, ../scss/old/_banners.scss */
 body#tinymce a[class^='link-banner'] span[class^='btntitol'],
+.mosaic-tile-content a[class^='link-banner'] span[class^='btntitol'],
 #content-core #parent-fieldname-text a[class^='link-banner'] span[class^='btntitol'] {
   font-size: var(--bs-font-size-xxl);
   font-weight: 700;
 }
 /* line 33, ../scss/old/_banners.scss */
 body#tinymce a[class^='link-banner']:hover,
+.mosaic-tile-content a[class^='link-banner']:hover,
 #content-core #parent-fieldname-text a[class^='link-banner']:hover {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 5px 10px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05);
   transition: all .25s ease-in;
@@ -2278,6 +2270,7 @@ body#tinymce a[class^='link-banner']:hover,
 }
 /* line 41, ../scss/old/_banners.scss */
 body#tinymce a[class^='link-banner'] > img,
+.mosaic-tile-content a[class^='link-banner'] > img,
 #content-core #parent-fieldname-text a[class^='link-banner'] > img {
   object-fit: cover;
   left: 0;
@@ -2290,6 +2283,8 @@ body#tinymce a[class^='link-banner'] > img,
 }
 /* line 52, ../scss/old/_banners.scss */
 body#tinymce a[class^='link-banner'] > img + span + br + span, body#tinymce a[class^='link-banner'] > img + span,
+.mosaic-tile-content a[class^='link-banner'] > img + span + br + span,
+.mosaic-tile-content a[class^='link-banner'] > img + span,
 #content-core #parent-fieldname-text a[class^='link-banner'] > img + span + br + span,
 #content-core #parent-fieldname-text a[class^='link-banner'] > img + span {
   background: rgba(255, 255, 255, 0.8);
@@ -2302,6 +2297,10 @@ body#tinymce a.link-bannersuccess,
 body#tinymce a.link-bannerwarning,
 body#tinymce a.link-bannerdanger,
 body#tinymce a.link-banner-minimal-blue,
+.mosaic-tile-content a.link-bannersuccess,
+.mosaic-tile-content a.link-bannerwarning,
+.mosaic-tile-content a.link-bannerdanger,
+.mosaic-tile-content a.link-banner-minimal-blue,
 #content-core #parent-fieldname-text a.link-bannersuccess,
 #content-core #parent-fieldname-text a.link-bannerwarning,
 #content-core #parent-fieldname-text a.link-bannerdanger,
@@ -2316,6 +2315,14 @@ body#tinymce a.link-bannerdanger:before,
 body#tinymce a.link-bannerdanger:after,
 body#tinymce a.link-banner-minimal-blue:before,
 body#tinymce a.link-banner-minimal-blue:after,
+.mosaic-tile-content a.link-bannersuccess:before,
+.mosaic-tile-content a.link-bannersuccess:after,
+.mosaic-tile-content a.link-bannerwarning:before,
+.mosaic-tile-content a.link-bannerwarning:after,
+.mosaic-tile-content a.link-bannerdanger:before,
+.mosaic-tile-content a.link-bannerdanger:after,
+.mosaic-tile-content a.link-banner-minimal-blue:before,
+.mosaic-tile-content a.link-banner-minimal-blue:after,
 #content-core #parent-fieldname-text a.link-bannersuccess:before,
 #content-core #parent-fieldname-text a.link-bannersuccess:after,
 #content-core #parent-fieldname-text a.link-bannerwarning:before,
@@ -2331,6 +2338,10 @@ body#tinymce a.link-bannersuccess:after,
 body#tinymce a.link-bannerwarning:after,
 body#tinymce a.link-bannerdanger:after,
 body#tinymce a.link-banner-minimal-blue:after,
+.mosaic-tile-content a.link-bannersuccess:after,
+.mosaic-tile-content a.link-bannerwarning:after,
+.mosaic-tile-content a.link-bannerdanger:after,
+.mosaic-tile-content a.link-banner-minimal-blue:after,
 #content-core #parent-fieldname-text a.link-bannersuccess:after,
 #content-core #parent-fieldname-text a.link-bannerwarning:after,
 #content-core #parent-fieldname-text a.link-bannerdanger:after,
@@ -2339,27 +2350,33 @@ body#tinymce a.link-banner-minimal-blue:after,
 }
 /* line 78, ../scss/old/_banners.scss */
 body#tinymce a.link-banner-minimal-blue,
+.mosaic-tile-content a.link-banner-minimal-blue,
 #content-core #parent-fieldname-text a.link-banner-minimal-blue {
   background-color: #007BC1;
 }
 /* line 82, ../scss/old/_banners.scss */
 body#tinymce a.link-bannersuccess,
+.mosaic-tile-content a.link-bannersuccess,
 #content-core #parent-fieldname-text a.link-bannersuccess {
   background-color: #069182;
 }
 /* line 86, ../scss/old/_banners.scss */
 body#tinymce a.link-bannerwarning,
+.mosaic-tile-content a.link-bannerwarning,
 #content-core #parent-fieldname-text a.link-bannerwarning {
   background-color: #f6a808;
 }
 /* line 90, ../scss/old/_banners.scss */
 body#tinymce a.link-bannerdanger,
+.mosaic-tile-content a.link-bannerdanger,
 #content-core #parent-fieldname-text a.link-bannerdanger {
   background-color: #d01157;
 }
 /* line 1, ../scss/old/_bootstrap2.scss */
 body#tinymce .row-fluid:before,
 body#tinymce .row-fluid:after,
+.mosaic-tile-content .row-fluid:before,
+.mosaic-tile-content .row-fluid:after,
 #content-core #parent-fieldname-text .row-fluid:before,
 #content-core #parent-fieldname-text .row-fluid:after {
   display: table;
@@ -2368,11 +2385,13 @@ body#tinymce .row-fluid:after,
 }
 /* line 8, ../scss/old/_bootstrap2.scss */
 body#tinymce .row-fluid:after,
+.mosaic-tile-content .row-fluid:after,
 #content-core #parent-fieldname-text .row-fluid:after {
   clear: both;
 }
 /* line 12, ../scss/old/_bootstrap2.scss */
 body#tinymce .row-fluid [class*="span"],
+.mosaic-tile-content .row-fluid [class*="span"],
 #content-core #parent-fieldname-text .row-fluid [class*="span"] {
   display: block;
   float: left;
@@ -2387,88 +2406,103 @@ body#tinymce .row-fluid [class*="span"],
 }
 /* line 25, ../scss/old/_bootstrap2.scss */
 body#tinymce .row-fluid [class*="span"]:first-child,
+.mosaic-tile-content .row-fluid [class*="span"]:first-child,
 #content-core #parent-fieldname-text .row-fluid [class*="span"]:first-child {
   margin-left: 0;
 }
 /* line 29, ../scss/old/_bootstrap2.scss */
 body#tinymce .row-fluid .controls-row [class*="span"] + [class*="span"],
+.mosaic-tile-content .row-fluid .controls-row [class*="span"] + [class*="span"],
 #content-core #parent-fieldname-text .row-fluid .controls-row [class*="span"] + [class*="span"] {
   margin-left: 2.127659574468085%;
 }
 /* line 33, ../scss/old/_bootstrap2.scss */
 body#tinymce .row-fluid .span12,
+.mosaic-tile-content .row-fluid .span12,
 #content-core #parent-fieldname-text .row-fluid .span12 {
   width: 100%;
   *width: 99.94680851063829%;
 }
 /* line 38, ../scss/old/_bootstrap2.scss */
 body#tinymce .row-fluid .span11,
+.mosaic-tile-content .row-fluid .span11,
 #content-core #parent-fieldname-text .row-fluid .span11 {
   width: 91.48936170212765%;
   *width: 91.43617021276594%;
 }
 /* line 43, ../scss/old/_bootstrap2.scss */
 body#tinymce .row-fluid .span10,
+.mosaic-tile-content .row-fluid .span10,
 #content-core #parent-fieldname-text .row-fluid .span10 {
   width: 82.97872340425532%;
   *width: 82.92553191489361%;
 }
 /* line 48, ../scss/old/_bootstrap2.scss */
 body#tinymce .row-fluid .span9,
+.mosaic-tile-content .row-fluid .span9,
 #content-core #parent-fieldname-text .row-fluid .span9 {
   width: 74.46808510638297%;
   *width: 74.41489361702126%;
 }
 /* line 53, ../scss/old/_bootstrap2.scss */
 body#tinymce .row-fluid .span8,
+.mosaic-tile-content .row-fluid .span8,
 #content-core #parent-fieldname-text .row-fluid .span8 {
   width: 65.95744680851064%;
   *width: 65.90425531914893%;
 }
 /* line 58, ../scss/old/_bootstrap2.scss */
 body#tinymce .row-fluid .span7,
+.mosaic-tile-content .row-fluid .span7,
 #content-core #parent-fieldname-text .row-fluid .span7 {
   width: 57.44680851063829%;
   *width: 57.39361702127659%;
 }
 /* line 63, ../scss/old/_bootstrap2.scss */
 body#tinymce .row-fluid .span6,
+.mosaic-tile-content .row-fluid .span6,
 #content-core #parent-fieldname-text .row-fluid .span6 {
   width: 48.93617021276595%;
   *width: 48.88297872340425%;
 }
 /* line 68, ../scss/old/_bootstrap2.scss */
 body#tinymce .row-fluid .span5,
+.mosaic-tile-content .row-fluid .span5,
 #content-core #parent-fieldname-text .row-fluid .span5 {
   width: 40.42553191489362%;
   *width: 40.37234042553192%;
 }
 /* line 73, ../scss/old/_bootstrap2.scss */
 body#tinymce .row-fluid .span4,
+.mosaic-tile-content .row-fluid .span4,
 #content-core #parent-fieldname-text .row-fluid .span4 {
   width: 31.914893617021278%;
   *width: 31.861702127659576%;
 }
 /* line 78, ../scss/old/_bootstrap2.scss */
 body#tinymce .row-fluid .span3,
+.mosaic-tile-content .row-fluid .span3,
 #content-core #parent-fieldname-text .row-fluid .span3 {
   width: 23.404255319148934%;
   *width: 23.351063829787233%;
 }
 /* line 83, ../scss/old/_bootstrap2.scss */
 body#tinymce .row-fluid .span2,
+.mosaic-tile-content .row-fluid .span2,
 #content-core #parent-fieldname-text .row-fluid .span2 {
   width: 14.893617021276595%;
   *width: 14.840425531914894%;
 }
 /* line 88, ../scss/old/_bootstrap2.scss */
 body#tinymce .row-fluid .span1,
+.mosaic-tile-content .row-fluid .span1,
 #content-core #parent-fieldname-text .row-fluid .span1 {
   width: 6.382978723404255%;
   *width: 6.329787234042553%;
 }
 /* line 93, ../scss/old/_bootstrap2.scss */
 body#tinymce .img-polaroid,
+.mosaic-tile-content .img-polaroid,
 #content-core #parent-fieldname-text .img-polaroid {
   padding: 4px;
   background-color: #fff;
@@ -2480,36 +2514,43 @@ body#tinymce .img-polaroid,
 }
 /* line 103, ../scss/old/_bootstrap2.scss */
 body#tinymce .pull-left,
+.mosaic-tile-content .pull-left,
 #content-core #parent-fieldname-text .pull-left {
   float: left;
 }
 /* line 107, ../scss/old/_bootstrap2.scss */
 body#tinymce .pull-right,
+.mosaic-tile-content .pull-right,
 #content-core #parent-fieldname-text .pull-right {
   float: right;
 }
 /* line 111, ../scss/old/_bootstrap2.scss */
 body#tinymce .align-left,
+.mosaic-tile-content .align-left,
 #content-core #parent-fieldname-text .align-left {
   text-align: left;
 }
 /* line 115, ../scss/old/_bootstrap2.scss */
 body#tinymce .align-center,
+.mosaic-tile-content .align-center,
 #content-core #parent-fieldname-text .align-center {
   text-align: center;
 }
 /* line 119, ../scss/old/_bootstrap2.scss */
 body#tinymce .align-right,
+.mosaic-tile-content .align-right,
 #content-core #parent-fieldname-text .align-right {
   text-align: right;
 }
 /* line 123, ../scss/old/_bootstrap2.scss */
 body#tinymce .align-justify,
+.mosaic-tile-content .align-justify,
 #content-core #parent-fieldname-text .align-justify {
   text-align: justify;
 }
 /* line 1, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle,
+.mosaic-tile-content .lletra-cercle,
 #content-core #parent-fieldname-text .lletra-cercle {
   float: left;
   font-size: 3rem;
@@ -2517,16 +2558,19 @@ body#tinymce .lletra-cercle,
 }
 /* line 7, ../scss/old/_icones_lletres.scss */
 body#tinymce .numero-cercle,
+.mosaic-tile-content .numero-cercle,
 #content-core #parent-fieldname-text .numero-cercle {
   font-size: 3rem;
 }
 /* line 11, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-petita,
+.mosaic-tile-content .lletra-cercle-petita,
 #content-core #parent-fieldname-text .lletra-cercle-petita {
   font-size: 0.9rem !important;
 }
 /* line 15, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-petita:before,
+.mosaic-tile-content .lletra-cercle-petita:before,
 #content-core #parent-fieldname-text .lletra-cercle-petita:before {
   font-size: 1rem !important;
   font-weight: 400;
@@ -2534,251 +2578,301 @@ body#tinymce .lletra-cercle-petita:before,
 }
 /* line 21, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-a:before,
+.mosaic-tile-content .lletra-cercle-a:before,
 #content-core #parent-fieldname-text .lletra-cercle-a:before {
   content: "\24d0";
 }
 /* line 25, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-b:before,
+.mosaic-tile-content .lletra-cercle-b:before,
 #content-core #parent-fieldname-text .lletra-cercle-b:before {
   content: "\24d1";
 }
 /* line 29, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-c:before,
+.mosaic-tile-content .lletra-cercle-c:before,
 #content-core #parent-fieldname-text .lletra-cercle-c:before {
   content: "\24d2";
 }
 /* line 33, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-d:before,
+.mosaic-tile-content .lletra-cercle-d:before,
 #content-core #parent-fieldname-text .lletra-cercle-d:before {
   content: "\24d3";
 }
 /* line 37, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-e:before,
+.mosaic-tile-content .lletra-cercle-e:before,
 #content-core #parent-fieldname-text .lletra-cercle-e:before {
   content: "\24d4";
 }
 /* line 41, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-f:before,
+.mosaic-tile-content .lletra-cercle-f:before,
 #content-core #parent-fieldname-text .lletra-cercle-f:before {
   content: "\24d5";
 }
 /* line 45, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-g:before,
+.mosaic-tile-content .lletra-cercle-g:before,
 #content-core #parent-fieldname-text .lletra-cercle-g:before {
   content: "\24d6";
 }
 /* line 49, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-h:before,
+.mosaic-tile-content .lletra-cercle-h:before,
 #content-core #parent-fieldname-text .lletra-cercle-h:before {
   content: "\24d7";
 }
 /* line 53, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-i:before,
+.mosaic-tile-content .lletra-cercle-i:before,
 #content-core #parent-fieldname-text .lletra-cercle-i:before {
   content: "\24d8";
 }
 /* line 57, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-j:before,
+.mosaic-tile-content .lletra-cercle-j:before,
 #content-core #parent-fieldname-text .lletra-cercle-j:before {
   content: "\24d9";
 }
 /* line 61, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-k:before,
+.mosaic-tile-content .lletra-cercle-k:before,
 #content-core #parent-fieldname-text .lletra-cercle-k:before {
   content: "\24da";
 }
 /* line 65, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-l:before,
+.mosaic-tile-content .lletra-cercle-l:before,
 #content-core #parent-fieldname-text .lletra-cercle-l:before {
   content: "\24db";
 }
 /* line 69, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-m:before,
+.mosaic-tile-content .lletra-cercle-m:before,
 #content-core #parent-fieldname-text .lletra-cercle-m:before {
   content: "\24dc";
 }
 /* line 73, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-n:before,
+.mosaic-tile-content .lletra-cercle-n:before,
 #content-core #parent-fieldname-text .lletra-cercle-n:before {
   content: "\24dd";
 }
 /* line 77, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-o:before,
+.mosaic-tile-content .lletra-cercle-o:before,
 #content-core #parent-fieldname-text .lletra-cercle-o:before {
   content: "\24de";
 }
 /* line 81, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-p:before,
+.mosaic-tile-content .lletra-cercle-p:before,
 #content-core #parent-fieldname-text .lletra-cercle-p:before {
   content: "\24df";
 }
 /* line 85, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-q:before,
+.mosaic-tile-content .lletra-cercle-q:before,
 #content-core #parent-fieldname-text .lletra-cercle-q:before {
   content: "\24e0";
 }
 /* line 89, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-r:before,
+.mosaic-tile-content .lletra-cercle-r:before,
 #content-core #parent-fieldname-text .lletra-cercle-r:before {
   content: "\24e1";
 }
 /* line 93, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-s:before,
+.mosaic-tile-content .lletra-cercle-s:before,
 #content-core #parent-fieldname-text .lletra-cercle-s:before {
   content: "\24e2";
 }
 /* line 97, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-t:before,
+.mosaic-tile-content .lletra-cercle-t:before,
 #content-core #parent-fieldname-text .lletra-cercle-t:before {
   content: "\24e3";
 }
 /* line 101, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-u:before,
+.mosaic-tile-content .lletra-cercle-u:before,
 #content-core #parent-fieldname-text .lletra-cercle-u:before {
   content: "\24e4";
 }
 /* line 105, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-v:before,
+.mosaic-tile-content .lletra-cercle-v:before,
 #content-core #parent-fieldname-text .lletra-cercle-v:before {
   content: "\24e5";
 }
 /* line 109, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-w:before,
+.mosaic-tile-content .lletra-cercle-w:before,
 #content-core #parent-fieldname-text .lletra-cercle-w:before {
   content: "\24e6";
 }
 /* line 113, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-x:before,
+.mosaic-tile-content .lletra-cercle-x:before,
 #content-core #parent-fieldname-text .lletra-cercle-x:before {
   content: "\24e7";
 }
 /* line 117, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-y:before,
+.mosaic-tile-content .lletra-cercle-y:before,
 #content-core #parent-fieldname-text .lletra-cercle-y:before {
   content: "\24e8";
 }
 /* line 121, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-z:before,
+.mosaic-tile-content .lletra-cercle-z:before,
 #content-core #parent-fieldname-text .lletra-cercle-z:before {
   content: "\24e9";
 }
 /* line 125, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-1:before,
+.mosaic-tile-content .lletra-cercle-1:before,
 #content-core #parent-fieldname-text .lletra-cercle-1:before {
   content: "\278A";
 }
 /* line 129, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-2:before,
+.mosaic-tile-content .lletra-cercle-2:before,
 #content-core #parent-fieldname-text .lletra-cercle-2:before {
   content: "\278B";
 }
 /* line 133, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-3:before,
+.mosaic-tile-content .lletra-cercle-3:before,
 #content-core #parent-fieldname-text .lletra-cercle-3:before {
   content: "\278C";
 }
 /* line 137, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-4:before,
+.mosaic-tile-content .lletra-cercle-4:before,
 #content-core #parent-fieldname-text .lletra-cercle-4:before {
   content: "\278D";
 }
 /* line 141, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-5:before,
+.mosaic-tile-content .lletra-cercle-5:before,
 #content-core #parent-fieldname-text .lletra-cercle-5:before {
   content: "\278E";
 }
 /* line 145, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-6:before,
+.mosaic-tile-content .lletra-cercle-6:before,
 #content-core #parent-fieldname-text .lletra-cercle-6:before {
   content: "\278F";
 }
 /* line 149, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-7:before,
+.mosaic-tile-content .lletra-cercle-7:before,
 #content-core #parent-fieldname-text .lletra-cercle-7:before {
   content: "\2790";
 }
 /* line 153, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-8:before,
+.mosaic-tile-content .lletra-cercle-8:before,
 #content-core #parent-fieldname-text .lletra-cercle-8:before {
   content: "\2791";
 }
 /* line 157, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-9:before,
+.mosaic-tile-content .lletra-cercle-9:before,
 #content-core #parent-fieldname-text .lletra-cercle-9:before {
   content: "\2792";
 }
 /* line 161, ../scss/old/_icones_lletres.scss */
 body#tinymce .lletra-cercle-10:before,
+.mosaic-tile-content .lletra-cercle-10:before,
 #content-core #parent-fieldname-text .lletra-cercle-10:before {
   content: "\2793";
 }
 /* line 165, ../scss/old/_icones_lletres.scss */
 body#tinymce .fletxa-dreta:before,
+.mosaic-tile-content .fletxa-dreta:before,
 #content-core #parent-fieldname-text .fletxa-dreta:before {
   content: "\1F87A";
 }
 /* line 169, ../scss/old/_icones_lletres.scss */
 body#tinymce .fletxa-esquerra:before,
+.mosaic-tile-content .fletxa-esquerra:before,
 #content-core #parent-fieldname-text .fletxa-esquerra:before {
   content: "\1F878";
 }
 /* line 173, ../scss/old/_icones_lletres.scss */
 body#tinymce .fletxa-adalt:before,
+.mosaic-tile-content .fletxa-adalt:before,
 #content-core #parent-fieldname-text .fletxa-adalt:before {
   content: "\1F879";
 }
 /* line 177, ../scss/old/_icones_lletres.scss */
 body#tinymce .fletxa-abaix:before,
+.mosaic-tile-content .fletxa-abaix:before,
 #content-core #parent-fieldname-text .fletxa-abaix:before {
   content: "\1F87B";
 }
 /* line 181, ../scss/old/_icones_lletres.scss */
 body#tinymce .color-blau,
+.mosaic-tile-content .color-blau,
 #content-core #parent-fieldname-text .color-blau {
   color: #089FE4;
 }
 /* line 185, ../scss/old/_icones_lletres.scss */
 body#tinymce .color-blaucel,
+.mosaic-tile-content .color-blaucel,
 #content-core #parent-fieldname-text .color-blaucel {
   color: #1FBDEE;
 }
 /* line 189, ../scss/old/_icones_lletres.scss */
 body#tinymce .color-verd,
+.mosaic-tile-content .color-verd,
 #content-core #parent-fieldname-text .color-verd {
   color: #069182;
 }
 /* line 193, ../scss/old/_icones_lletres.scss */
 body#tinymce .color-vermell,
+.mosaic-tile-content .color-vermell,
 #content-core #parent-fieldname-text .color-vermell {
   color: #D01157;
 }
 /* line 197, ../scss/old/_icones_lletres.scss */
 body#tinymce .color-groc,
+.mosaic-tile-content .color-groc,
 #content-core #parent-fieldname-text .color-groc {
   color: #f6a808;
 }
 /* line 201, ../scss/old/_icones_lletres.scss */
 body#tinymce .color-morat,
+.mosaic-tile-content .color-morat,
 #content-core #parent-fieldname-text .color-morat {
   color: #622AD9;
 }
 /* line 205, ../scss/old/_icones_lletres.scss */
 body#tinymce .color-violeta,
+.mosaic-tile-content .color-violeta,
 #content-core #parent-fieldname-text .color-violeta {
   color: #023470;
 }
 /* line 209, ../scss/old/_icones_lletres.scss */
 body#tinymce .color-carbassa,
+.mosaic-tile-content .color-carbassa,
 #content-core #parent-fieldname-text .color-carbassa {
   color: #ED4033;
 }
 /* line 213, ../scss/old/_icones_lletres.scss */
 body#tinymce .color-lila,
+.mosaic-tile-content .color-lila,
 #content-core #parent-fieldname-text .color-lila {
   color: #A71FAF;
 }
 /* line 217, ../scss/old/_icones_lletres.scss */
 body#tinymce .color-taronja,
+.mosaic-tile-content .color-taronja,
 #content-core #parent-fieldname-text .color-taronja {
   color: #fa5c2a;
 }
@@ -2792,6 +2886,15 @@ body#tinymce ul.list-links-upc li,
 body#tinymce ul.list-links li,
 body#tinymce ul.list-condensed li,
 body#tinymce ul.list-bordered li,
+.mosaic-tile-content ul.list-sections li,
+.mosaic-tile-content ul.list.list-index li,
+.mosaic-tile-content ul.list-striped li,
+.mosaic-tile-content ul.list-hover li,
+.mosaic-tile-content ul.list-highlighted li,
+.mosaic-tile-content ul.list-links-upc li,
+.mosaic-tile-content ul.list-links li,
+.mosaic-tile-content ul.list-condensed li,
+.mosaic-tile-content ul.list-bordered li,
 #content-core #parent-fieldname-text ul.list-sections li,
 #content-core #parent-fieldname-text ul.list.list-index li,
 #content-core #parent-fieldname-text ul.list-striped li,
@@ -2816,6 +2919,15 @@ body#tinymce ul.list-links-upc li:before,
 body#tinymce ul.list-links li:before,
 body#tinymce ul.list-condensed li:before,
 body#tinymce ul.list-bordered li:before,
+.mosaic-tile-content ul.list-sections li:before,
+.mosaic-tile-content ul.list.list-index li:before,
+.mosaic-tile-content ul.list-striped li:before,
+.mosaic-tile-content ul.list-hover li:before,
+.mosaic-tile-content ul.list-highlighted li:before,
+.mosaic-tile-content ul.list-links-upc li:before,
+.mosaic-tile-content ul.list-links li:before,
+.mosaic-tile-content ul.list-condensed li:before,
+.mosaic-tile-content ul.list-bordered li:before,
 #content-core #parent-fieldname-text ul.list-sections li:before,
 #content-core #parent-fieldname-text ul.list.list-index li:before,
 #content-core #parent-fieldname-text ul.list-striped li:before,
@@ -2841,6 +2953,15 @@ body#tinymce ul.list-links-upc ul.llistaesquerra,
 body#tinymce ul.list-links ul.llistaesquerra,
 body#tinymce ul.list-condensed ul.llistaesquerra,
 body#tinymce ul.list-bordered ul.llistaesquerra,
+.mosaic-tile-content ul.list-sections ul.llistaesquerra,
+.mosaic-tile-content ul.list.list-index ul.llistaesquerra,
+.mosaic-tile-content ul.list-striped ul.llistaesquerra,
+.mosaic-tile-content ul.list-hover ul.llistaesquerra,
+.mosaic-tile-content ul.list-highlighted ul.llistaesquerra,
+.mosaic-tile-content ul.list-links-upc ul.llistaesquerra,
+.mosaic-tile-content ul.list-links ul.llistaesquerra,
+.mosaic-tile-content ul.list-condensed ul.llistaesquerra,
+.mosaic-tile-content ul.list-bordered ul.llistaesquerra,
 #content-core #parent-fieldname-text ul.list-sections ul.llistaesquerra,
 #content-core #parent-fieldname-text ul.list.list-index ul.llistaesquerra,
 #content-core #parent-fieldname-text ul.list-striped ul.llistaesquerra,
@@ -2858,6 +2979,11 @@ body#tinymce ul.list-striped li:before,
 body#tinymce ul.list-hover li:before,
 body#tinymce ul.list-condensed li:before,
 body#tinymce ul.list-bordered li:before,
+.mosaic-tile-content ul.list.list-index li:before,
+.mosaic-tile-content ul.list-striped li:before,
+.mosaic-tile-content ul.list-hover li:before,
+.mosaic-tile-content ul.list-condensed li:before,
+.mosaic-tile-content ul.list-bordered li:before,
 #content-core #parent-fieldname-text ul.list.list-index li:before,
 #content-core #parent-fieldname-text ul.list-striped li:before,
 #content-core #parent-fieldname-text ul.list-hover li:before,
@@ -2868,6 +2994,7 @@ body#tinymce ul.list-bordered li:before,
 }
 /* line 45, ../scss/old/_lists.scss */
 body#tinymce ul.list-links li:before,
+.mosaic-tile-content ul.list-links li:before,
 #content-core #parent-fieldname-text ul.list-links li:before {
   content: "\25b6";
   margin-top: 5px;
@@ -2875,6 +3002,7 @@ body#tinymce ul.list-links li:before,
 }
 /* line 54, ../scss/old/_lists.scss */
 body#tinymce ul.list-links-upc li:before,
+.mosaic-tile-content ul.list-links-upc li:before,
 #content-core #parent-fieldname-text ul.list-links-upc li:before {
   content: "\25b7";
   margin-top: 5px;
@@ -2882,6 +3010,7 @@ body#tinymce ul.list-links-upc li:before,
 }
 /* line 63, ../scss/old/_lists.scss */
 body#tinymce ul.list-highlighted li:before,
+.mosaic-tile-content ul.list-highlighted li:before,
 #content-core #parent-fieldname-text ul.list-highlighted li:before {
   content: "\ffeb";
   color: var(--bs-yellow);
@@ -2892,6 +3021,10 @@ body#tinymce ul.list-links-upc li:before,
 body#tinymce ul.list-links li:before,
 body#tinymce ul.list-condensed li:before,
 body#tinymce ul.list-bordered li:before,
+.mosaic-tile-content ul.list-links-upc li:before,
+.mosaic-tile-content ul.list-links li:before,
+.mosaic-tile-content ul.list-condensed li:before,
+.mosaic-tile-content ul.list-bordered li:before,
 #content-core #parent-fieldname-text ul.list-links-upc li:before,
 #content-core #parent-fieldname-text ul.list-links li:before,
 #content-core #parent-fieldname-text ul.list-condensed li:before,
@@ -2900,36 +3033,43 @@ body#tinymce ul.list-bordered li:before,
 }
 /* line 81, ../scss/old/_lists.scss */
 body#tinymce ul.list-bordered,
+.mosaic-tile-content ul.list-bordered,
 #content-core #parent-fieldname-text ul.list-bordered {
   border: 1px solid var(--bs-gray-400);
 }
 /* line 84, ../scss/old/_lists.scss */
 body#tinymce ul.list-bordered li,
+.mosaic-tile-content ul.list-bordered li,
 #content-core #parent-fieldname-text ul.list-bordered li {
   border-bottom: 1px solid var(--bs-gray-400);
 }
 /* line 87, ../scss/old/_lists.scss */
 body#tinymce ul.list-bordered li:last-child,
+.mosaic-tile-content ul.list-bordered li:last-child,
 #content-core #parent-fieldname-text ul.list-bordered li:last-child {
   border-bottom: 0px solid transparent;
 }
 /* line 95, ../scss/old/_lists.scss */
 body#tinymce ul.list-condensed li,
+.mosaic-tile-content ul.list-condensed li,
 #content-core #parent-fieldname-text ul.list-condensed li {
   padding: 0 0 0 28px;
 }
 /* line 102, ../scss/old/_lists.scss */
 body#tinymce ul.list-hover li:hover,
+.mosaic-tile-content ul.list-hover li:hover,
 #content-core #parent-fieldname-text ul.list-hover li:hover {
   background-color: var(--bs-gray-200);
 }
 /* line 109, ../scss/old/_lists.scss */
 body#tinymce ul.list-striped li:nth-child(odd),
+.mosaic-tile-content ul.list-striped li:nth-child(odd),
 #content-core #parent-fieldname-text ul.list-striped li:nth-child(odd) {
   background-color: var(--bs-gray-200);
 }
 /* line 117, ../scss/old/_lists.scss */
 body#tinymce ul.list-sections li,
+.mosaic-tile-content ul.list-sections li,
 #content-core #parent-fieldname-text ul.list-sections li {
   border-top: 1px solid var(--bs-gray-300);
   border-bottom: 1px solid var(--bs-gray-300);
@@ -2938,6 +3078,8 @@ body#tinymce ul.list-sections li,
 /* line 122, ../scss/old/_lists.scss */
 body#tinymce ul.list-sections li > img:first-child ~ *,
 body#tinymce ul.list-sections li .lletra-cercle:first-child ~ *,
+.mosaic-tile-content ul.list-sections li > img:first-child ~ *,
+.mosaic-tile-content ul.list-sections li .lletra-cercle:first-child ~ *,
 #content-core #parent-fieldname-text ul.list-sections li > img:first-child ~ *,
 #content-core #parent-fieldname-text ul.list-sections li .lletra-cercle:first-child ~ * {
   margin-left: 66px;
@@ -2945,12 +3087,14 @@ body#tinymce ul.list-sections li .lletra-cercle:first-child ~ *,
 }
 /* line 131, ../scss/old/_lists.scss */
 body#tinymce ul.unstyled,
+.mosaic-tile-content ul.unstyled,
 #content-core #parent-fieldname-text ul.unstyled {
   list-style: none;
   padding-left: 0;
 }
 /* line 137, ../scss/old/_lists.scss */
 body#tinymce ul.list-notebook,
+.mosaic-tile-content ul.list-notebook,
 #content-core #parent-fieldname-text ul.list-notebook {
   margin-left: 30px;
   padding-left: 10px;
@@ -2958,6 +3102,7 @@ body#tinymce ul.list-notebook,
 }
 /* line 142, ../scss/old/_lists.scss */
 body#tinymce ul.list-notebook li,
+.mosaic-tile-content ul.list-notebook li,
 #content-core #parent-fieldname-text ul.list-notebook li {
   margin-left: -40px;
   padding-left: 40px;
@@ -2967,11 +3112,13 @@ body#tinymce ul.list-notebook li,
 }
 /* line 149, ../scss/old/_lists.scss */
 body#tinymce ul.list-notebook li:first-child,
+.mosaic-tile-content ul.list-notebook li:first-child,
 #content-core #parent-fieldname-text ul.list-notebook li:first-child {
   border-top: 1px solid var(--bs-cyan);
 }
 /* line 153, ../scss/old/_lists.scss */
 body#tinymce ul.list-notebook li::before,
+.mosaic-tile-content ul.list-notebook li::before,
 #content-core #parent-fieldname-text ul.list-notebook li::before {
   position: absolute;
   content: "\25CF";
@@ -2982,6 +3129,8 @@ body#tinymce ul.list-notebook li::before,
 /* line 17, ../scss/old/_sprites.scss */
 body#tinymce [class^="icon-"],
 body#tinymce [class*=" icon-"],
+.mosaic-tile-content [class^="icon-"],
+.mosaic-tile-content [class*=" icon-"],
 #content-core #parent-fieldname-text [class^="icon-"],
 #content-core #parent-fieldname-text [class*=" icon-"] {
   display: inline-block;
@@ -2989,7 +3138,7 @@ body#tinymce [class*=" icon-"],
   height: 14px;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url('/++theme++genweb6.theme/img/gh.png');
+  background-image: url(/++theme++genweb6.theme/img/gh.png);
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 3px;
@@ -3002,6 +3151,13 @@ body#tinymce .dropdown-menu > li > a:hover > [class^="icon-"],
 body#tinymce .dropdown-menu > li > a:hover > [class*=" icon-"],
 body#tinymce .dropdown-menu > .active > a > [class^="icon-"],
 body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
+.mosaic-tile-content .icon-white,
+.mosaic-tile-content .nav > .active > a > [class^="icon-"],
+.mosaic-tile-content .nav > .active > a > [class*=" icon-"],
+.mosaic-tile-content .dropdown-menu > li > a:hover > [class^="icon-"],
+.mosaic-tile-content .dropdown-menu > li > a:hover > [class*=" icon-"],
+.mosaic-tile-content .dropdown-menu > .active > a > [class^="icon-"],
+.mosaic-tile-content .dropdown-menu > .active > a > [class*=" icon-"],
 #content-core #parent-fieldname-text .icon-white,
 #content-core #parent-fieldname-text .nav > .active > a > [class^="icon-"],
 #content-core #parent-fieldname-text .nav > .active > a > [class*=" icon-"],
@@ -3009,25 +3165,29 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > li > a:hover > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class^="icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class*=" icon-"] {
-  background-image: url('/++theme++genweb6.theme/img/gh-w.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-w.png);
 }
 /* line 43, ../scss/old/_sprites.scss */
 body#tinymce .icon-color,
+.mosaic-tile-content .icon-color,
 #content-core #parent-fieldname-text .icon-color {
-  background-image: url('/++theme++genweb6.theme/img/gh-c.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-c.png);
 }
 /* line 47, ../scss/old/_sprites.scss */
 body#tinymce .icon-glass,
+.mosaic-tile-content .icon-glass,
 #content-core #parent-fieldname-text .icon-glass {
   background-position: 0      0;
 }
 /* line 48, ../scss/old/_sprites.scss */
 body#tinymce .icon-music,
+.mosaic-tile-content .icon-music,
 #content-core #parent-fieldname-text .icon-music {
   background-position: -24px  0;
 }
 /* line 49, ../scss/old/_sprites.scss */
 body#tinymce .icon-search,
+.mosaic-tile-content .icon-search,
 #content-core #parent-fieldname-text .icon-search {
   background-position: -48px  0;
 }
@@ -3035,18 +3195,27 @@ body#tinymce .icon-search,
 body#tinymce .icon-envelope, body#tinymce .icon-formmaileradapter,
 body#tinymce #content-core #parent-fieldname-text .icon-formmaileradapter,
 #content-core #parent-fieldname-text body#tinymce .icon-formmaileradapter,
+.mosaic-tile-content .icon-envelope,
+.mosaic-tile-content body#tinymce .icon-formmaileradapter,
+body#tinymce .mosaic-tile-content .icon-formmaileradapter,
+.mosaic-tile-content .icon-formmaileradapter,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-formmaileradapter,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-formmaileradapter,
 #content-core #parent-fieldname-text .icon-envelope,
 #content-core #parent-fieldname-text .icon-formmaileradapter {
   background-position: -72px  0;
 }
 /* line 51, ../scss/old/_sprites.scss */
 body#tinymce .icon-heart,
+.mosaic-tile-content .icon-heart,
 #content-core #parent-fieldname-text .icon-heart {
   background-position: -96px  0;
 }
 /* line 52, ../scss/old/_sprites.scss */
 body#tinymce .icon-star,
 body#tinymce .icon-folderChangeDefaultPage,
+.mosaic-tile-content .icon-star,
+.mosaic-tile-content .icon-folderChangeDefaultPage,
 #content-core #parent-fieldname-text .icon-star,
 #content-core #parent-fieldname-text .icon-folderChangeDefaultPage {
   background-position: -120px 0;
@@ -3054,22 +3223,27 @@ body#tinymce .icon-folderChangeDefaultPage,
 /* line 54, ../scss/old/_sprites.scss */
 body#tinymce .icon-star-empty,
 body#tinymce .icon-contextSetDefaultPage,
+.mosaic-tile-content .icon-star-empty,
+.mosaic-tile-content .icon-contextSetDefaultPage,
 #content-core #parent-fieldname-text .icon-star-empty,
 #content-core #parent-fieldname-text .icon-contextSetDefaultPage {
   background-position: -144px 0;
 }
 /* line 56, ../scss/old/_sprites.scss */
 body#tinymce .icon-user,
+.mosaic-tile-content .icon-user,
 #content-core #parent-fieldname-text .icon-user {
   background-position: -168px 0;
 }
 /* line 57, ../scss/old/_sprites.scss */
 body#tinymce .icon-film,
+.mosaic-tile-content .icon-film,
 #content-core #parent-fieldname-text .icon-film {
   background-position: -192px 0;
 }
 /* line 58, ../scss/old/_sprites.scss */
 body#tinymce .icon-th-large,
+.mosaic-tile-content .icon-th-large,
 #content-core #parent-fieldname-text .icon-th-large {
   background-position: -216px 0;
 }
@@ -3081,6 +3255,16 @@ body#tinymce .icon-plone-contentmenu-display-atct_album_view,
 body#tinymce .icon-plone-contentmenu-display-album_view,
 body#tinymce .icon-folder-album_view,
 body#tinymce .icon-folder-atct_album_view,
+.mosaic-tile-content .icon-th,
+.mosaic-tile-content body#tinymce .icon-surveymatrix,
+body#tinymce .mosaic-tile-content .icon-surveymatrix,
+.mosaic-tile-content .icon-surveymatrix,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-surveymatrix,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-surveymatrix,
+.mosaic-tile-content .icon-plone-contentmenu-display-atct_album_view,
+.mosaic-tile-content .icon-plone-contentmenu-display-album_view,
+.mosaic-tile-content .icon-folder-album_view,
+.mosaic-tile-content .icon-folder-atct_album_view,
 #content-core #parent-fieldname-text .icon-th,
 #content-core #parent-fieldname-text .icon-surveymatrix,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-display-atct_album_view,
@@ -3091,32 +3275,39 @@ body#tinymce .icon-folder-atct_album_view,
 }
 /* line 64, ../scss/old/_sprites.scss */
 body#tinymce .icon-th-list,
+.mosaic-tile-content .icon-th-list,
 #content-core #parent-fieldname-text .icon-th-list {
   background-position: -264px 0;
 }
 /* line 65, ../scss/old/_sprites.scss */
 body#tinymce .icon-ok,
+.mosaic-tile-content .icon-ok,
 #content-core #parent-fieldname-text .icon-ok {
   background-position: -288px 0;
 }
 /* line 66, ../scss/old/_sprites.scss */
 body#tinymce .icon-remove, body#tinymce .icon-plone-contentmenu-actions-delete,
+.mosaic-tile-content .icon-remove,
+.mosaic-tile-content .icon-plone-contentmenu-actions-delete,
 #content-core #parent-fieldname-text .icon-remove,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-actions-delete {
   background-position: -312px 0;
 }
 /* line 67, ../scss/old/_sprites.scss */
 body#tinymce .icon-zoom-in,
+.mosaic-tile-content .icon-zoom-in,
 #content-core #parent-fieldname-text .icon-zoom-in {
   background-position: -336px 0;
 }
 /* line 68, ../scss/old/_sprites.scss */
 body#tinymce .icon-zoom-out,
+.mosaic-tile-content .icon-zoom-out,
 #content-core #parent-fieldname-text .icon-zoom-out {
   background-position: -360px 0;
 }
 /* line 69, ../scss/old/_sprites.scss */
 body#tinymce .icon-off,
+.mosaic-tile-content .icon-off,
 #content-core #parent-fieldname-text .icon-off {
   background-position: -384px 0;
 }
@@ -3124,28 +3315,39 @@ body#tinymce .icon-off,
 body#tinymce .icon-signal, body#tinymce .icon-formlikertfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formlikertfield,
 #content-core #parent-fieldname-text body#tinymce .icon-formlikertfield,
+.mosaic-tile-content .icon-signal,
+.mosaic-tile-content body#tinymce .icon-formlikertfield,
+body#tinymce .mosaic-tile-content .icon-formlikertfield,
+.mosaic-tile-content .icon-formlikertfield,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-formlikertfield,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-formlikertfield,
 #content-core #parent-fieldname-text .icon-signal,
 #content-core #parent-fieldname-text .icon-formlikertfield {
   background-position: -408px 0;
 }
 /* line 71, ../scss/old/_sprites.scss */
 body#tinymce .icon-cog, body#tinymce .icon-workflow-transition-advanced,
+.mosaic-tile-content .icon-cog,
+.mosaic-tile-content .icon-workflow-transition-advanced,
 #content-core #parent-fieldname-text .icon-cog,
 #content-core #parent-fieldname-text .icon-workflow-transition-advanced {
   background-position: -432px 0;
 }
 /* line 72, ../scss/old/_sprites.scss */
 body#tinymce .icon-trash,
+.mosaic-tile-content .icon-trash,
 #content-core #parent-fieldname-text .icon-trash {
   background-position: -456px 0;
 }
 /* line 74, ../scss/old/_sprites.scss */
 body#tinymce .icon-home,
+.mosaic-tile-content .icon-home,
 #content-core #parent-fieldname-text .icon-home {
   background-position: 0      -24px;
 }
 /* line 75, ../scss/old/_sprites.scss */
 body#tinymce .icon-page,
+.mosaic-tile-content .icon-page,
 #content-core #parent-fieldname-text .icon-page {
   background-position: -24px  -24px;
 }
@@ -3155,6 +3357,17 @@ body#tinymce #content-core #parent-fieldname-text .icon-surveydatequestion,
 #content-core #parent-fieldname-text body#tinymce .icon-surveydatequestion, body#tinymce .icon-formdatefield,
 body#tinymce #content-core #parent-fieldname-text .icon-formdatefield,
 #content-core #parent-fieldname-text body#tinymce .icon-formdatefield,
+.mosaic-tile-content .icon-time,
+.mosaic-tile-content body#tinymce .icon-surveydatequestion,
+body#tinymce .mosaic-tile-content .icon-surveydatequestion,
+.mosaic-tile-content .icon-surveydatequestion,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-surveydatequestion,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-surveydatequestion,
+.mosaic-tile-content body#tinymce .icon-formdatefield,
+body#tinymce .mosaic-tile-content .icon-formdatefield,
+.mosaic-tile-content .icon-formdatefield,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-formdatefield,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-formdatefield,
 #content-core #parent-fieldname-text .icon-time,
 #content-core #parent-fieldname-text .icon-surveydatequestion,
 #content-core #parent-fieldname-text .icon-formdatefield {
@@ -3162,41 +3375,49 @@ body#tinymce #content-core #parent-fieldname-text .icon-formdatefield,
 }
 /* line 77, ../scss/old/_sprites.scss */
 body#tinymce .icon-road,
+.mosaic-tile-content .icon-road,
 #content-core #parent-fieldname-text .icon-road {
   background-position: -72px  -24px;
 }
 /* line 78, ../scss/old/_sprites.scss */
 body#tinymce .icon-download-alt,
+.mosaic-tile-content .icon-download-alt,
 #content-core #parent-fieldname-text .icon-download-alt {
   background-position: -96px  -24px;
 }
 /* line 79, ../scss/old/_sprites.scss */
 body#tinymce .icon-download,
+.mosaic-tile-content .icon-download,
 #content-core #parent-fieldname-text .icon-download {
   background-position: -120px -24px;
 }
 /* line 80, ../scss/old/_sprites.scss */
 body#tinymce .icon-upload,
+.mosaic-tile-content .icon-upload,
 #content-core #parent-fieldname-text .icon-upload {
   background-position: -144px -24px;
 }
 /* line 81, ../scss/old/_sprites.scss */
 body#tinymce .icon-inbox,
+.mosaic-tile-content .icon-inbox,
 #content-core #parent-fieldname-text .icon-inbox {
   background-position: -168px -24px;
 }
 /* line 82, ../scss/old/_sprites.scss */
 body#tinymce .icon-play-circle,
+.mosaic-tile-content .icon-play-circle,
 #content-core #parent-fieldname-text .icon-play-circle {
   background-position: -192px -24px;
 }
 /* line 83, ../scss/old/_sprites.scss */
 body#tinymce .icon-repeat,
+.mosaic-tile-content .icon-repeat,
 #content-core #parent-fieldname-text .icon-repeat {
   background-position: -216px -24px;
 }
 /* line 84, ../scss/old/_sprites.scss */
 body#tinymce .icon-refresh,
+.mosaic-tile-content .icon-refresh,
 #content-core #parent-fieldname-text .icon-refresh {
   background-position: -240px -24px;
 }
@@ -3204,6 +3425,12 @@ body#tinymce .icon-refresh,
 body#tinymce .icon-list-alt, body#tinymce .icon-subsurvey,
 body#tinymce #content-core #parent-fieldname-text .icon-subsurvey,
 #content-core #parent-fieldname-text body#tinymce .icon-subsurvey,
+.mosaic-tile-content .icon-list-alt,
+.mosaic-tile-content body#tinymce .icon-subsurvey,
+body#tinymce .mosaic-tile-content .icon-subsurvey,
+.mosaic-tile-content .icon-subsurvey,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-subsurvey,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-subsurvey,
 #content-core #parent-fieldname-text .icon-list-alt,
 #content-core #parent-fieldname-text .icon-subsurvey {
   background-position: -264px -24px;
@@ -3212,6 +3439,13 @@ body#tinymce #content-core #parent-fieldname-text .icon-subsurvey,
 body#tinymce .icon-lock, body#tinymce .icon-formpasswordfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formpasswordfield,
 #content-core #parent-fieldname-text body#tinymce .icon-formpasswordfield, body#tinymce .icon-workflow-transition-restrict,
+.mosaic-tile-content .icon-lock,
+.mosaic-tile-content body#tinymce .icon-formpasswordfield,
+body#tinymce .mosaic-tile-content .icon-formpasswordfield,
+.mosaic-tile-content .icon-formpasswordfield,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-formpasswordfield,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-formpasswordfield,
+.mosaic-tile-content .icon-workflow-transition-restrict,
 #content-core #parent-fieldname-text .icon-lock,
 #content-core #parent-fieldname-text .icon-formpasswordfield,
 #content-core #parent-fieldname-text .icon-workflow-transition-restrict {
@@ -3219,37 +3453,45 @@ body#tinymce #content-core #parent-fieldname-text .icon-formpasswordfield,
 }
 /* line 87, ../scss/old/_sprites.scss */
 body#tinymce .icon-flag, body#tinymce .icon-banner,
+.mosaic-tile-content .icon-flag,
+.mosaic-tile-content .icon-banner,
 #content-core #parent-fieldname-text .icon-flag,
 #content-core #parent-fieldname-text .icon-banner {
   background-position: -312px -24px;
 }
 /* line 88, ../scss/old/_sprites.scss */
 body#tinymce .icon-headphones,
+.mosaic-tile-content .icon-headphones,
 #content-core #parent-fieldname-text .icon-headphones {
   background-position: -336px -24px;
 }
 /* line 89, ../scss/old/_sprites.scss */
 body#tinymce .icon-volume-off,
+.mosaic-tile-content .icon-volume-off,
 #content-core #parent-fieldname-text .icon-volume-off {
   background-position: -360px -24px;
 }
 /* line 90, ../scss/old/_sprites.scss */
 body#tinymce .icon-volume-down,
+.mosaic-tile-content .icon-volume-down,
 #content-core #parent-fieldname-text .icon-volume-down {
   background-position: -384px -24px;
 }
 /* line 91, ../scss/old/_sprites.scss */
 body#tinymce .icon-volume-up,
+.mosaic-tile-content .icon-volume-up,
 #content-core #parent-fieldname-text .icon-volume-up {
   background-position: -408px -24px;
 }
 /* line 92, ../scss/old/_sprites.scss */
 body#tinymce .icon-qrcode,
+.mosaic-tile-content .icon-qrcode,
 #content-core #parent-fieldname-text .icon-qrcode {
   background-position: -432px -24px;
 }
 /* line 93, ../scss/old/_sprites.scss */
 body#tinymce .icon-barcode,
+.mosaic-tile-content .icon-barcode,
 #content-core #parent-fieldname-text .icon-barcode {
   background-position: -456px -24px;
 }
@@ -3257,6 +3499,12 @@ body#tinymce .icon-barcode,
 body#tinymce .icon-tag, body#tinymce .icon-formlabelfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formlabelfield,
 #content-core #parent-fieldname-text body#tinymce .icon-formlabelfield,
+.mosaic-tile-content .icon-tag,
+.mosaic-tile-content body#tinymce .icon-formlabelfield,
+body#tinymce .mosaic-tile-content .icon-formlabelfield,
+.mosaic-tile-content .icon-formlabelfield,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-formlabelfield,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-formlabelfield,
 #content-core #parent-fieldname-text .icon-tag,
 #content-core #parent-fieldname-text .icon-formlabelfield {
   background-position: 0      -48px;
@@ -3265,32 +3513,43 @@ body#tinymce #content-core #parent-fieldname-text .icon-formlabelfield,
 body#tinymce .icon-tags, body#tinymce .icon-formrichlabelfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formrichlabelfield,
 #content-core #parent-fieldname-text body#tinymce .icon-formrichlabelfield,
+.mosaic-tile-content .icon-tags,
+.mosaic-tile-content body#tinymce .icon-formrichlabelfield,
+body#tinymce .mosaic-tile-content .icon-formrichlabelfield,
+.mosaic-tile-content .icon-formrichlabelfield,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-formrichlabelfield,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-formrichlabelfield,
 #content-core #parent-fieldname-text .icon-tags,
 #content-core #parent-fieldname-text .icon-formrichlabelfield {
   background-position: -25px  -48px;
 }
 /* line 97, ../scss/old/_sprites.scss */
 body#tinymce .icon-relatedItems,
+.mosaic-tile-content .icon-relatedItems,
 #content-core #parent-fieldname-text .icon-relatedItems {
   background-position: -216px -120px;
 }
 /* line 98, ../scss/old/_sprites.scss */
 body#tinymce .icon-book,
+.mosaic-tile-content .icon-book,
 #content-core #parent-fieldname-text .icon-book {
   background-position: -48px  -48px;
 }
 /* line 99, ../scss/old/_sprites.scss */
 body#tinymce .icon-bookmark,
+.mosaic-tile-content .icon-bookmark,
 #content-core #parent-fieldname-text .icon-bookmark {
   background-position: -72px  -48px;
 }
 /* line 100, ../scss/old/_sprites.scss */
 body#tinymce .icon-print,
+.mosaic-tile-content .icon-print,
 #content-core #parent-fieldname-text .icon-print {
   background-position: -96px  -48px;
 }
 /* line 101, ../scss/old/_sprites.scss */
 body#tinymce .icon-camera,
+.mosaic-tile-content .icon-camera,
 #content-core #parent-fieldname-text .icon-camera {
   background-position: -120px -48px;
 }
@@ -3298,6 +3557,12 @@ body#tinymce .icon-camera,
 body#tinymce .icon-font, body#tinymce .icon-formtextfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formtextfield,
 #content-core #parent-fieldname-text body#tinymce .icon-formtextfield,
+.mosaic-tile-content .icon-font,
+.mosaic-tile-content body#tinymce .icon-formtextfield,
+body#tinymce .mosaic-tile-content .icon-formtextfield,
+.mosaic-tile-content .icon-formtextfield,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-formtextfield,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-formtextfield,
 #content-core #parent-fieldname-text .icon-font,
 #content-core #parent-fieldname-text .icon-formtextfield {
   background-position: -144px -48px;
@@ -3306,22 +3571,31 @@ body#tinymce #content-core #parent-fieldname-text .icon-formtextfield,
 body#tinymce .icon-bold, body#tinymce .icon-formrichtextfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formrichtextfield,
 #content-core #parent-fieldname-text body#tinymce .icon-formrichtextfield,
+.mosaic-tile-content .icon-bold,
+.mosaic-tile-content body#tinymce .icon-formrichtextfield,
+body#tinymce .mosaic-tile-content .icon-formrichtextfield,
+.mosaic-tile-content .icon-formrichtextfield,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-formrichtextfield,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-formrichtextfield,
 #content-core #parent-fieldname-text .icon-bold,
 #content-core #parent-fieldname-text .icon-formrichtextfield {
   background-position: -167px -48px;
 }
 /* line 104, ../scss/old/_sprites.scss */
 body#tinymce .icon-italic,
+.mosaic-tile-content .icon-italic,
 #content-core #parent-fieldname-text .icon-italic {
   background-position: -192px -48px;
 }
 /* line 105, ../scss/old/_sprites.scss */
 body#tinymce .icon-text-height,
+.mosaic-tile-content .icon-text-height,
 #content-core #parent-fieldname-text .icon-text-height {
   background-position: -216px -48px;
 }
 /* line 106, ../scss/old/_sprites.scss */
 body#tinymce .icon-text-width,
+.mosaic-tile-content .icon-text-width,
 #content-core #parent-fieldname-text .icon-text-width {
   background-position: -240px -48px;
 }
@@ -3329,68 +3603,87 @@ body#tinymce .icon-text-width,
 body#tinymce .icon-align-left, body#tinymce .icon-surveytextquestion,
 body#tinymce #content-core #parent-fieldname-text .icon-surveytextquestion,
 #content-core #parent-fieldname-text body#tinymce .icon-surveytextquestion,
+.mosaic-tile-content .icon-align-left,
+.mosaic-tile-content body#tinymce .icon-surveytextquestion,
+body#tinymce .mosaic-tile-content .icon-surveytextquestion,
+.mosaic-tile-content .icon-surveytextquestion,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-surveytextquestion,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-surveytextquestion,
 #content-core #parent-fieldname-text .icon-align-left,
 #content-core #parent-fieldname-text .icon-surveytextquestion {
   background-position: -264px -48px;
 }
 /* line 108, ../scss/old/_sprites.scss */
 body#tinymce .icon-align-center,
+.mosaic-tile-content .icon-align-center,
 #content-core #parent-fieldname-text .icon-align-center {
   background-position: -288px -48px;
 }
 /* line 109, ../scss/old/_sprites.scss */
 body#tinymce .icon-align-right,
+.mosaic-tile-content .icon-align-right,
 #content-core #parent-fieldname-text .icon-align-right {
   background-position: -312px -48px;
 }
 /* line 110, ../scss/old/_sprites.scss */
 body#tinymce .icon-align-justify, body#tinymce .icon-formmultiselectionfield,
+.mosaic-tile-content .icon-align-justify,
+.mosaic-tile-content .icon-formmultiselectionfield,
 #content-core #parent-fieldname-text .icon-align-justify,
 #content-core #parent-fieldname-text .icon-formmultiselectionfield {
   background-position: -336px -48px;
 }
 /* line 111, ../scss/old/_sprites.scss */
 body#tinymce .icon-list,
+.mosaic-tile-content .icon-list,
 #content-core #parent-fieldname-text .icon-list {
   background-position: -360px -48px;
 }
 /* line 112, ../scss/old/_sprites.scss */
 body#tinymce .icon-indent-left,
+.mosaic-tile-content .icon-indent-left,
 #content-core #parent-fieldname-text .icon-indent-left {
   background-position: -384px -48px;
 }
 /* line 113, ../scss/old/_sprites.scss */
 body#tinymce .icon-indent-right,
+.mosaic-tile-content .icon-indent-right,
 #content-core #parent-fieldname-text .icon-indent-right {
   background-position: -408px -48px;
 }
 /* line 114, ../scss/old/_sprites.scss */
 body#tinymce .icon-facetime-video,
+.mosaic-tile-content .icon-facetime-video,
 #content-core #parent-fieldname-text .icon-facetime-video {
   background-position: -432px -48px;
 }
 /* line 115, ../scss/old/_sprites.scss */
 body#tinymce .icon-picture,
+.mosaic-tile-content .icon-picture,
 #content-core #parent-fieldname-text .icon-picture {
   background-position: -456px -48px;
 }
 /* line 117, ../scss/old/_sprites.scss */
 body#tinymce .icon-pencil,
+.mosaic-tile-content .icon-pencil,
 #content-core #parent-fieldname-text .icon-pencil {
   background-position: 0      -72px;
 }
 /* line 118, ../scss/old/_sprites.scss */
 body#tinymce .icon-map-marker,
+.mosaic-tile-content .icon-map-marker,
 #content-core #parent-fieldname-text .icon-map-marker {
   background-position: -24px  -72px;
 }
 /* line 119, ../scss/old/_sprites.scss */
 body#tinymce .icon-adjust,
+.mosaic-tile-content .icon-adjust,
 #content-core #parent-fieldname-text .icon-adjust {
   background-position: -48px  -72px;
 }
 /* line 120, ../scss/old/_sprites.scss */
 body#tinymce .icon-tint,
+.mosaic-tile-content .icon-tint,
 #content-core #parent-fieldname-text .icon-tint {
   background-position: -72px  -72px;
 }
@@ -3398,6 +3691,15 @@ body#tinymce .icon-tint,
 body#tinymce .icon-edit, body#tinymce .icon-formstringfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formstringfield,
 #content-core #parent-fieldname-text body#tinymce .icon-formstringfield, body#tinymce .icon-formlinesfield, body#tinymce .icon-formintegerfield, body#tinymce .icon-formfixedpointfield,
+.mosaic-tile-content .icon-edit,
+.mosaic-tile-content body#tinymce .icon-formstringfield,
+body#tinymce .mosaic-tile-content .icon-formstringfield,
+.mosaic-tile-content .icon-formstringfield,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-formstringfield,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-formstringfield,
+.mosaic-tile-content .icon-formlinesfield,
+.mosaic-tile-content .icon-formintegerfield,
+.mosaic-tile-content .icon-formfixedpointfield,
 #content-core #parent-fieldname-text .icon-edit,
 #content-core #parent-fieldname-text .icon-formstringfield,
 #content-core #parent-fieldname-text .icon-formlinesfield,
@@ -3407,6 +3709,7 @@ body#tinymce #content-core #parent-fieldname-text .icon-formstringfield,
 }
 /* line 122, ../scss/old/_sprites.scss */
 body#tinymce .icon-share,
+.mosaic-tile-content .icon-share,
 #content-core #parent-fieldname-text .icon-share {
   background-position: -120px -72px;
 }
@@ -3414,12 +3717,19 @@ body#tinymce .icon-share,
 body#tinymce .icon-check, body#tinymce .icon-formbooleanfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formbooleanfield,
 #content-core #parent-fieldname-text body#tinymce .icon-formbooleanfield,
+.mosaic-tile-content .icon-check,
+.mosaic-tile-content body#tinymce .icon-formbooleanfield,
+body#tinymce .mosaic-tile-content .icon-formbooleanfield,
+.mosaic-tile-content .icon-formbooleanfield,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-formbooleanfield,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-formbooleanfield,
 #content-core #parent-fieldname-text .icon-check,
 #content-core #parent-fieldname-text .icon-formbooleanfield {
   background-position: -144px -72px;
 }
 /* line 124, ../scss/old/_sprites.scss */
 body#tinymce .icon-move,
+.mosaic-tile-content .icon-move,
 #content-core #parent-fieldname-text .icon-move {
   background-position: -168px -72px;
 }
@@ -3427,42 +3737,55 @@ body#tinymce .icon-move,
 body#tinymce .icon-step-backward, body#tinymce .icon-fieldsetstart,
 body#tinymce #content-core #parent-fieldname-text .icon-fieldsetstart,
 #content-core #parent-fieldname-text body#tinymce .icon-fieldsetstart,
+.mosaic-tile-content .icon-step-backward,
+.mosaic-tile-content body#tinymce .icon-fieldsetstart,
+body#tinymce .mosaic-tile-content .icon-fieldsetstart,
+.mosaic-tile-content .icon-fieldsetstart,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-fieldsetstart,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-fieldsetstart,
 #content-core #parent-fieldname-text .icon-step-backward,
 #content-core #parent-fieldname-text .icon-fieldsetstart {
   background-position: -192px -72px;
 }
 /* line 126, ../scss/old/_sprites.scss */
 body#tinymce .icon-fast-backward,
+.mosaic-tile-content .icon-fast-backward,
 #content-core #parent-fieldname-text .icon-fast-backward {
   background-position: -216px -72px;
 }
 /* line 127, ../scss/old/_sprites.scss */
 body#tinymce .icon-backward,
+.mosaic-tile-content .icon-backward,
 #content-core #parent-fieldname-text .icon-backward {
   background-position: -240px -72px;
 }
 /* line 128, ../scss/old/_sprites.scss */
 body#tinymce .icon-play,
+.mosaic-tile-content .icon-play,
 #content-core #parent-fieldname-text .icon-play {
   background-position: -264px -72px;
 }
 /* line 129, ../scss/old/_sprites.scss */
 body#tinymce .icon-pause,
+.mosaic-tile-content .icon-pause,
 #content-core #parent-fieldname-text .icon-pause {
   background-position: -288px -72px;
 }
 /* line 130, ../scss/old/_sprites.scss */
 body#tinymce .icon-stop,
+.mosaic-tile-content .icon-stop,
 #content-core #parent-fieldname-text .icon-stop {
   background-position: -312px -72px;
 }
 /* line 131, ../scss/old/_sprites.scss */
 body#tinymce .icon-forward,
+.mosaic-tile-content .icon-forward,
 #content-core #parent-fieldname-text .icon-forward {
   background-position: -336px -72px;
 }
 /* line 132, ../scss/old/_sprites.scss */
 body#tinymce .icon-fast-forward,
+.mosaic-tile-content .icon-fast-forward,
 #content-core #parent-fieldname-text .icon-fast-forward {
   background-position: -360px -72px;
 }
@@ -3470,64 +3793,83 @@ body#tinymce .icon-fast-forward,
 body#tinymce .icon-step-forward, body#tinymce .icon-fieldsetend,
 body#tinymce #content-core #parent-fieldname-text .icon-fieldsetend,
 #content-core #parent-fieldname-text body#tinymce .icon-fieldsetend,
+.mosaic-tile-content .icon-step-forward,
+.mosaic-tile-content body#tinymce .icon-fieldsetend,
+body#tinymce .mosaic-tile-content .icon-fieldsetend,
+.mosaic-tile-content .icon-fieldsetend,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-fieldsetend,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-fieldsetend,
 #content-core #parent-fieldname-text .icon-step-forward,
 #content-core #parent-fieldname-text .icon-fieldsetend {
   background-position: -384px -72px;
 }
 /* line 134, ../scss/old/_sprites.scss */
 body#tinymce .icon-eject,
+.mosaic-tile-content .icon-eject,
 #content-core #parent-fieldname-text .icon-eject {
   background-position: -408px -72px;
 }
 /* line 135, ../scss/old/_sprites.scss */
 body#tinymce .icon-chevron-left,
+.mosaic-tile-content .icon-chevron-left,
 #content-core #parent-fieldname-text .icon-chevron-left {
   background-position: -432px -72px;
 }
 /* line 136, ../scss/old/_sprites.scss */
 body#tinymce .icon-chevron-right,
+.mosaic-tile-content .icon-chevron-right,
 #content-core #parent-fieldname-text .icon-chevron-right {
   background-position: -456px -72px;
 }
 /* line 138, ../scss/old/_sprites.scss */
 body#tinymce .icon-plus-sign,
+.mosaic-tile-content .icon-plus-sign,
 #content-core #parent-fieldname-text .icon-plus-sign {
   background-position: 0      -96px;
 }
 /* line 139, ../scss/old/_sprites.scss */
 body#tinymce .icon-minus-sign,
+.mosaic-tile-content .icon-minus-sign,
 #content-core #parent-fieldname-text .icon-minus-sign {
   background-position: -24px  -96px;
 }
 /* line 140, ../scss/old/_sprites.scss */
 body#tinymce .icon-remove-sign,
+.mosaic-tile-content .icon-remove-sign,
 #content-core #parent-fieldname-text .icon-remove-sign {
   background-position: -48px  -96px;
 }
 /* line 141, ../scss/old/_sprites.scss */
 body#tinymce .icon-ok-sign, body#tinymce .icon-plone-contentmenu-display-fg_base_view_p3,
+.mosaic-tile-content .icon-ok-sign,
+.mosaic-tile-content .icon-plone-contentmenu-display-fg_base_view_p3,
 #content-core #parent-fieldname-text .icon-ok-sign,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-display-fg_base_view_p3 {
   background-position: -72px  -96px;
 }
 /* line 142, ../scss/old/_sprites.scss */
 body#tinymce .icon-question-sign,
+.mosaic-tile-content .icon-question-sign,
 #content-core #parent-fieldname-text .icon-question-sign {
   background-position: -96px  -96px;
 }
 /* line 143, ../scss/old/_sprites.scss */
 body#tinymce .icon-info-sign, body#tinymce .icon-plone-contentmenu-display-pfg_draft_view,
+.mosaic-tile-content .icon-info-sign,
+.mosaic-tile-content .icon-plone-contentmenu-display-pfg_draft_view,
 #content-core #parent-fieldname-text .icon-info-sign,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-display-pfg_draft_view {
   background-position: -120px -96px;
 }
 /* line 144, ../scss/old/_sprites.scss */
 body#tinymce .icon-screenshot,
+.mosaic-tile-content .icon-screenshot,
 #content-core #parent-fieldname-text .icon-screenshot {
   background-position: -144px -96px;
 }
 /* line 145, ../scss/old/_sprites.scss */
 body#tinymce .icon-remove-circle,
+.mosaic-tile-content .icon-remove-circle,
 #content-core #parent-fieldname-text .icon-remove-circle {
   background-position: -168px -96px;
 }
@@ -3537,6 +3879,17 @@ body#tinymce #content-core #parent-fieldname-text .icon-surveyselectquestion,
 #content-core #parent-fieldname-text body#tinymce .icon-surveyselectquestion, body#tinymce .icon-formselectionfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formselectionfield,
 #content-core #parent-fieldname-text body#tinymce .icon-formselectionfield,
+.mosaic-tile-content .icon-ok-circle,
+.mosaic-tile-content body#tinymce .icon-surveyselectquestion,
+body#tinymce .mosaic-tile-content .icon-surveyselectquestion,
+.mosaic-tile-content .icon-surveyselectquestion,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-surveyselectquestion,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-surveyselectquestion,
+.mosaic-tile-content body#tinymce .icon-formselectionfield,
+body#tinymce .mosaic-tile-content .icon-formselectionfield,
+.mosaic-tile-content .icon-formselectionfield,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-formselectionfield,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-formselectionfield,
 #content-core #parent-fieldname-text .icon-ok-circle,
 #content-core #parent-fieldname-text .icon-surveyselectquestion,
 #content-core #parent-fieldname-text .icon-formselectionfield {
@@ -3544,140 +3897,170 @@ body#tinymce #content-core #parent-fieldname-text .icon-formselectionfield,
 }
 /* line 147, ../scss/old/_sprites.scss */
 body#tinymce .icon-ban-circle,
+.mosaic-tile-content .icon-ban-circle,
 #content-core #parent-fieldname-text .icon-ban-circle {
   background-position: -216px -96px;
 }
 /* line 148, ../scss/old/_sprites.scss */
 body#tinymce .icon-arrow-left, body#tinymce .icon-plone-contentmenu-actions-import,
+.mosaic-tile-content .icon-arrow-left,
+.mosaic-tile-content .icon-plone-contentmenu-actions-import,
 #content-core #parent-fieldname-text .icon-arrow-left,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-actions-import {
   background-position: -240px -96px;
 }
 /* line 149, ../scss/old/_sprites.scss */
 body#tinymce .icon-arrow-right, body#tinymce .icon-plone-contentmenu-actions-export,
+.mosaic-tile-content .icon-arrow-right,
+.mosaic-tile-content .icon-plone-contentmenu-actions-export,
 #content-core #parent-fieldname-text .icon-arrow-right,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-actions-export {
   background-position: -264px -96px;
 }
 /* line 150, ../scss/old/_sprites.scss */
 body#tinymce .icon-arrow-up,
+.mosaic-tile-content .icon-arrow-up,
 #content-core #parent-fieldname-text .icon-arrow-up {
   background-position: -289px -96px;
 }
 /* line 151, ../scss/old/_sprites.scss */
 body#tinymce .icon-arrow-down,
+.mosaic-tile-content .icon-arrow-down,
 #content-core #parent-fieldname-text .icon-arrow-down {
   background-position: -312px -96px;
 }
 /* line 152, ../scss/old/_sprites.scss */
 body#tinymce .icon-share-alt,
+.mosaic-tile-content .icon-share-alt,
 #content-core #parent-fieldname-text .icon-share-alt {
   background-position: -336px -96px;
 }
 /* line 153, ../scss/old/_sprites.scss */
 body#tinymce .icon-resize-full,
+.mosaic-tile-content .icon-resize-full,
 #content-core #parent-fieldname-text .icon-resize-full {
   background-position: -360px -96px;
 }
 /* line 154, ../scss/old/_sprites.scss */
 body#tinymce .icon-resize-small,
+.mosaic-tile-content .icon-resize-small,
 #content-core #parent-fieldname-text .icon-resize-small {
   background-position: -384px -96px;
 }
 /* line 155, ../scss/old/_sprites.scss */
 body#tinymce .icon-plus,
+.mosaic-tile-content .icon-plus,
 #content-core #parent-fieldname-text .icon-plus {
   background-position: -408px -96px;
 }
 /* line 156, ../scss/old/_sprites.scss */
 body#tinymce .icon-minus,
+.mosaic-tile-content .icon-minus,
 #content-core #parent-fieldname-text .icon-minus {
   background-position: -433px -96px;
 }
 /* line 157, ../scss/old/_sprites.scss */
 body#tinymce .icon-asterisk,
+.mosaic-tile-content .icon-asterisk,
 #content-core #parent-fieldname-text .icon-asterisk {
   background-position: -456px -96px;
 }
 /* line 159, ../scss/old/_sprites.scss */
 body#tinymce .icon-exclamation-sign,
+.mosaic-tile-content .icon-exclamation-sign,
 #content-core #parent-fieldname-text .icon-exclamation-sign {
   background-position: 0      -120px;
 }
 /* line 160, ../scss/old/_sprites.scss */
 body#tinymce .icon-gift,
+.mosaic-tile-content .icon-gift,
 #content-core #parent-fieldname-text .icon-gift {
   background-position: -24px  -120px;
 }
 /* line 161, ../scss/old/_sprites.scss */
 body#tinymce .icon-leaf,
+.mosaic-tile-content .icon-leaf,
 #content-core #parent-fieldname-text .icon-leaf {
   background-position: -48px  -120px;
 }
 /* line 162, ../scss/old/_sprites.scss */
 body#tinymce .icon-fire,
+.mosaic-tile-content .icon-fire,
 #content-core #parent-fieldname-text .icon-fire {
   background-position: -72px  -120px;
 }
 /* line 163, ../scss/old/_sprites.scss */
 body#tinymce .icon-eye-open,
+.mosaic-tile-content .icon-eye-open,
 #content-core #parent-fieldname-text .icon-eye-open {
   background-position: -96px  -120px;
 }
 /* line 164, ../scss/old/_sprites.scss */
 body#tinymce .icon-eye-close,
+.mosaic-tile-content .icon-eye-close,
 #content-core #parent-fieldname-text .icon-eye-close {
   background-position: -120px -120px;
 }
 /* line 165, ../scss/old/_sprites.scss */
 body#tinymce .icon-warning-sign,
+.mosaic-tile-content .icon-warning-sign,
 #content-core #parent-fieldname-text .icon-warning-sign {
   background-position: -144px -120px;
 }
 /* line 166, ../scss/old/_sprites.scss */
 body#tinymce .icon-plane,
+.mosaic-tile-content .icon-plane,
 #content-core #parent-fieldname-text .icon-plane {
   background-position: -168px -120px;
 }
 /* line 167, ../scss/old/_sprites.scss */
 body#tinymce .icon-calendar, body#tinymce .icon-event,
+.mosaic-tile-content .icon-calendar,
+.mosaic-tile-content .icon-event,
 #content-core #parent-fieldname-text .icon-calendar,
 #content-core #parent-fieldname-text .icon-event {
   background-position: -192px -120px;
 }
 /* line 168, ../scss/old/_sprites.scss */
 body#tinymce .icon-random,
+.mosaic-tile-content .icon-random,
 #content-core #parent-fieldname-text .icon-random {
   background-position: -216px -120px;
   width: 16px;
 }
 /* line 169, ../scss/old/_sprites.scss */
 body#tinymce .icon-comment,
+.mosaic-tile-content .icon-comment,
 #content-core #parent-fieldname-text .icon-comment {
   background-position: -240px -120px;
 }
 /* line 170, ../scss/old/_sprites.scss */
 body#tinymce .icon-magnet,
+.mosaic-tile-content .icon-magnet,
 #content-core #parent-fieldname-text .icon-magnet {
   background-position: -264px -120px;
 }
 /* line 171, ../scss/old/_sprites.scss */
 body#tinymce .icon-chevron-up,
+.mosaic-tile-content .icon-chevron-up,
 #content-core #parent-fieldname-text .icon-chevron-up {
   background-position: -288px -120px;
 }
 /* line 172, ../scss/old/_sprites.scss */
 body#tinymce .icon-chevron-down,
+.mosaic-tile-content .icon-chevron-down,
 #content-core #parent-fieldname-text .icon-chevron-down {
   background-position: -313px -119px;
 }
 /* line 173, ../scss/old/_sprites.scss */
 body#tinymce .icon-retweet,
+.mosaic-tile-content .icon-retweet,
 #content-core #parent-fieldname-text .icon-retweet {
   background-position: -336px -120px;
 }
 /* line 174, ../scss/old/_sprites.scss */
 body#tinymce .icon-shopping-cart,
+.mosaic-tile-content .icon-shopping-cart,
 #content-core #parent-fieldname-text .icon-shopping-cart {
   background-position: -360px -120px;
 }
@@ -3685,6 +4068,13 @@ body#tinymce .icon-shopping-cart,
 body#tinymce .icon-folder-close, body#tinymce .icon-fieldsetfolder,
 body#tinymce #content-core #parent-fieldname-text .icon-fieldsetfolder,
 #content-core #parent-fieldname-text body#tinymce .icon-fieldsetfolder, body#tinymce .icon-folder,
+.mosaic-tile-content .icon-folder-close,
+.mosaic-tile-content body#tinymce .icon-fieldsetfolder,
+body#tinymce .mosaic-tile-content .icon-fieldsetfolder,
+.mosaic-tile-content .icon-fieldsetfolder,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-fieldsetfolder,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-fieldsetfolder,
+.mosaic-tile-content .icon-folder,
 #content-core #parent-fieldname-text .icon-folder-close,
 #content-core #parent-fieldname-text .icon-fieldsetfolder,
 #content-core #parent-fieldname-text .icon-folder {
@@ -3692,17 +4082,20 @@ body#tinymce #content-core #parent-fieldname-text .icon-fieldsetfolder,
 }
 /* line 176, ../scss/old/_sprites.scss */
 body#tinymce .icon-folder-open,
+.mosaic-tile-content .icon-folder-open,
 #content-core #parent-fieldname-text .icon-folder-open {
   background-position: -408px -120px;
   width: 16px;
 }
 /* line 177, ../scss/old/_sprites.scss */
 body#tinymce .icon-resize-vertical,
+.mosaic-tile-content .icon-resize-vertical,
 #content-core #parent-fieldname-text .icon-resize-vertical {
   background-position: -432px -119px;
 }
 /* line 178, ../scss/old/_sprites.scss */
 body#tinymce .icon-resize-horizontal,
+.mosaic-tile-content .icon-resize-horizontal,
 #content-core #parent-fieldname-text .icon-resize-horizontal {
   background-position: -456px -118px;
 }
@@ -3710,22 +4103,31 @@ body#tinymce .icon-resize-horizontal,
 body#tinymce .icon-hdd, body#tinymce .icon-formsavedataadapter,
 body#tinymce #content-core #parent-fieldname-text .icon-formsavedataadapter,
 #content-core #parent-fieldname-text body#tinymce .icon-formsavedataadapter,
+.mosaic-tile-content .icon-hdd,
+.mosaic-tile-content body#tinymce .icon-formsavedataadapter,
+body#tinymce .mosaic-tile-content .icon-formsavedataadapter,
+.mosaic-tile-content .icon-formsavedataadapter,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-formsavedataadapter,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-formsavedataadapter,
 #content-core #parent-fieldname-text .icon-hdd,
 #content-core #parent-fieldname-text .icon-formsavedataadapter {
   background-position: 0      -144px;
 }
 /* line 181, ../scss/old/_sprites.scss */
 body#tinymce .icon-bullhorn,
+.mosaic-tile-content .icon-bullhorn,
 #content-core #parent-fieldname-text .icon-bullhorn {
   background-position: -24px  -144px;
 }
 /* line 182, ../scss/old/_sprites.scss */
 body#tinymce .icon-bell,
+.mosaic-tile-content .icon-bell,
 #content-core #parent-fieldname-text .icon-bell {
   background-position: -48px  -144px;
 }
 /* line 183, ../scss/old/_sprites.scss */
 body#tinymce .icon-certificate,
+.mosaic-tile-content .icon-certificate,
 #content-core #parent-fieldname-text .icon-certificate {
   background-position: -72px  -144px;
 }
@@ -3733,67 +4135,85 @@ body#tinymce .icon-certificate,
 body#tinymce .icon-thumbs-up, body#tinymce .icon-formthankspage,
 body#tinymce #content-core #parent-fieldname-text .icon-formthankspage,
 #content-core #parent-fieldname-text body#tinymce .icon-formthankspage,
+.mosaic-tile-content .icon-thumbs-up,
+.mosaic-tile-content body#tinymce .icon-formthankspage,
+body#tinymce .mosaic-tile-content .icon-formthankspage,
+.mosaic-tile-content .icon-formthankspage,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-formthankspage,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-formthankspage,
 #content-core #parent-fieldname-text .icon-thumbs-up,
 #content-core #parent-fieldname-text .icon-formthankspage {
   background-position: -96px  -144px;
 }
 /* line 185, ../scss/old/_sprites.scss */
 body#tinymce .icon-thumbs-down,
+.mosaic-tile-content .icon-thumbs-down,
 #content-core #parent-fieldname-text .icon-thumbs-down {
   background-position: -120px -144px;
 }
 /* line 186, ../scss/old/_sprites.scss */
 body#tinymce .icon-hand-right,
+.mosaic-tile-content .icon-hand-right,
 #content-core #parent-fieldname-text .icon-hand-right {
   background-position: -144px -144px;
 }
 /* line 187, ../scss/old/_sprites.scss */
 body#tinymce .icon-hand-left,
+.mosaic-tile-content .icon-hand-left,
 #content-core #parent-fieldname-text .icon-hand-left {
   background-position: -168px -144px;
 }
 /* line 188, ../scss/old/_sprites.scss */
 body#tinymce .icon-hand-up,
+.mosaic-tile-content .icon-hand-up,
 #content-core #parent-fieldname-text .icon-hand-up {
   background-position: -192px -144px;
 }
 /* line 189, ../scss/old/_sprites.scss */
 body#tinymce .icon-hand-down,
+.mosaic-tile-content .icon-hand-down,
 #content-core #parent-fieldname-text .icon-hand-down {
   background-position: -216px -144px;
 }
 /* line 190, ../scss/old/_sprites.scss */
 body#tinymce .icon-circle-arrow-right,
+.mosaic-tile-content .icon-circle-arrow-right,
 #content-core #parent-fieldname-text .icon-circle-arrow-right {
   background-position: -240px -144px;
 }
 /* line 191, ../scss/old/_sprites.scss */
 body#tinymce .icon-circle-arrow-left,
+.mosaic-tile-content .icon-circle-arrow-left,
 #content-core #parent-fieldname-text .icon-circle-arrow-left {
   background-position: -264px -144px;
 }
 /* line 192, ../scss/old/_sprites.scss */
 body#tinymce .icon-circle-arrow-up,
+.mosaic-tile-content .icon-circle-arrow-up,
 #content-core #parent-fieldname-text .icon-circle-arrow-up {
   background-position: -288px -144px;
 }
 /* line 193, ../scss/old/_sprites.scss */
 body#tinymce .icon-circle-arrow-down,
+.mosaic-tile-content .icon-circle-arrow-down,
 #content-core #parent-fieldname-text .icon-circle-arrow-down {
   background-position: -312px -144px;
 }
 /* line 194, ../scss/old/_sprites.scss */
 body#tinymce .icon-globe,
+.mosaic-tile-content .icon-globe,
 #content-core #parent-fieldname-text .icon-globe {
   background-position: -336px -144px;
 }
 /* line 195, ../scss/old/_sprites.scss */
 body#tinymce .icon-wrench,
+.mosaic-tile-content .icon-wrench,
 #content-core #parent-fieldname-text .icon-wrench {
   background-position: -360px -144px;
 }
 /* line 196, ../scss/old/_sprites.scss */
 body#tinymce .icon-tasks,
+.mosaic-tile-content .icon-tasks,
 #content-core #parent-fieldname-text .icon-tasks {
   background-position: -384px -144px;
 }
@@ -3801,53 +4221,70 @@ body#tinymce .icon-tasks,
 body#tinymce .icon-filter, body#tinymce .icon-plone-contentmenu-settings,
 body#tinymce #content-core #parent-fieldname-text .icon-plone-contentmenu-settings,
 #content-core #parent-fieldname-text body#tinymce .icon-plone-contentmenu-settings,
+.mosaic-tile-content .icon-filter,
+.mosaic-tile-content body#tinymce .icon-plone-contentmenu-settings,
+body#tinymce .mosaic-tile-content .icon-plone-contentmenu-settings,
+.mosaic-tile-content .icon-plone-contentmenu-settings,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-plone-contentmenu-settings,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-plone-contentmenu-settings,
 #content-core #parent-fieldname-text .icon-filter,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-settings {
   background-position: -408px -144px;
 }
 /* line 198, ../scss/old/_sprites.scss */
 body#tinymce .icon-briefcase,
+.mosaic-tile-content .icon-briefcase,
 #content-core #parent-fieldname-text .icon-briefcase {
   background-position: -432px -144px;
 }
 /* line 199, ../scss/old/_sprites.scss */
 body#tinymce .icon-fullscreen,
+.mosaic-tile-content .icon-fullscreen,
 #content-core #parent-fieldname-text .icon-fullscreen {
   background-position: -456px -144px;
 }
 /* line 204, ../scss/old/_sprites.scss */
 body#tinymce .icon-upc,
+.mosaic-tile-content .icon-upc,
 #content-core #parent-fieldname-text .icon-upc {
   background-position: 0      -169px;
 }
 /* line 205, ../scss/old/_sprites.scss */
 body#tinymce .icon-news,
+.mosaic-tile-content .icon-news,
 #content-core #parent-fieldname-text .icon-news {
   background-position: -23px  -169px;
 }
 /* line 206, ../scss/old/_sprites.scss */
 body#tinymce .icon-box, body#tinymce .icon-packet,
+.mosaic-tile-content .icon-box,
+.mosaic-tile-content .icon-packet,
 #content-core #parent-fieldname-text .icon-box,
 #content-core #parent-fieldname-text .icon-packet {
   background-position: -48px  -168px;
 }
 /* line 207, ../scss/old/_sprites.scss */
 body#tinymce .icon-link,
+.mosaic-tile-content .icon-link,
 #content-core #parent-fieldname-text .icon-link {
   background-position: -72px  -169px;
 }
 /* line 208, ../scss/old/_sprites.scss */
 body#tinymce .icon-iframe,
+.mosaic-tile-content .icon-iframe,
 #content-core #parent-fieldname-text .icon-iframe {
   background-position: -96px  -169px;
 }
 /* line 209, ../scss/old/_sprites.scss */
 body#tinymce .icon-desktop,
+.mosaic-tile-content .icon-desktop,
 #content-core #parent-fieldname-text .icon-desktop {
   background-position: -120px -169px;
 }
 /* line 210, ../scss/old/_sprites.scss */
 body#tinymce .icon-logosfooter, body#tinymce .icon-logos_footer,
+.mosaic-tile-content .icon-logosfooter,
+.mosaic-tile-content .icon-logos_footer,
 #content-core #parent-fieldname-text .icon-logosfooter,
 #content-core #parent-fieldname-text .icon-logos_footer {
   background-position: -144px -169px;
@@ -3856,34 +4293,48 @@ body#tinymce .icon-logosfooter, body#tinymce .icon-logos_footer,
 body#tinymce .icon-file, body#tinymce .icon-formfilefield,
 body#tinymce #content-core #parent-fieldname-text .icon-formfilefield,
 #content-core #parent-fieldname-text body#tinymce .icon-formfilefield,
+.mosaic-tile-content .icon-file,
+.mosaic-tile-content body#tinymce .icon-formfilefield,
+body#tinymce .mosaic-tile-content .icon-formfilefield,
+.mosaic-tile-content .icon-formfilefield,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-formfilefield,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-formfilefield,
 #content-core #parent-fieldname-text .icon-file,
 #content-core #parent-fieldname-text .icon-formfilefield {
   background-position: -168px -169px;
 }
 /* line 212, ../scss/old/_sprites.scss */
 body#tinymce .icon-paste, body#tinymce .icon-plone-contentmenu-actions-paste,
+.mosaic-tile-content .icon-paste,
+.mosaic-tile-content .icon-plone-contentmenu-actions-paste,
 #content-core #parent-fieldname-text .icon-paste,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-actions-paste {
   background-position: -192px -168px;
 }
 /* line 213, ../scss/old/_sprites.scss */
 body#tinymce .icon-collage,
+.mosaic-tile-content .icon-collage,
 #content-core #parent-fieldname-text .icon-collage {
   background-position: -216px -169px;
 }
 /* line 214, ../scss/old/_sprites.scss */
 body#tinymce .icon-smart-folder,
+.mosaic-tile-content .icon-smart-folder,
 #content-core #parent-fieldname-text .icon-smart-folder {
   background-position: -240px -169px;
 }
 /* line 215, ../scss/old/_sprites.scss */
 body#tinymce .icon-copy, body#tinymce .icon-plone-contentmenu-actions-copy,
+.mosaic-tile-content .icon-copy,
+.mosaic-tile-content .icon-plone-contentmenu-actions-copy,
 #content-core #parent-fieldname-text .icon-copy,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-actions-copy {
   background-position: -264px -169px;
 }
 /* line 216, ../scss/old/_sprites.scss */
 body#tinymce .icon-rename, body#tinymce .icon-plone-contentmenu-actions-rename,
+.mosaic-tile-content .icon-rename,
+.mosaic-tile-content .icon-plone-contentmenu-actions-rename,
 #content-core #parent-fieldname-text .icon-rename,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-actions-rename {
   background-position: -288px -169px;
@@ -3894,6 +4345,11 @@ body#tinymce .icon-folder-folder_summary_view,
 body#tinymce .icon-plone-contentmenu-display-folder_summary_view,
 body#tinymce .icon-plone-contentmenu-display-summary_view,
 body#tinymce .icon-folder-summary_view,
+.mosaic-tile-content .icon-resume-view,
+.mosaic-tile-content .icon-folder-folder_summary_view,
+.mosaic-tile-content .icon-plone-contentmenu-display-folder_summary_view,
+.mosaic-tile-content .icon-plone-contentmenu-display-summary_view,
+.mosaic-tile-content .icon-folder-summary_view,
 #content-core #parent-fieldname-text .icon-resume-view,
 #content-core #parent-fieldname-text .icon-folder-folder_summary_view,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-display-folder_summary_view,
@@ -3907,6 +4363,11 @@ body#tinymce .icon-folder-folder_tabular_view,
 body#tinymce .icon-folder-tabular_view,
 body#tinymce .icon-plone-contentmenu-display-tabular_view,
 body#tinymce .icon-plone-contentmenu-display-folder_tabular_view,
+.mosaic-tile-content .icon-table-view,
+.mosaic-tile-content .icon-folder-folder_tabular_view,
+.mosaic-tile-content .icon-folder-tabular_view,
+.mosaic-tile-content .icon-plone-contentmenu-display-tabular_view,
+.mosaic-tile-content .icon-plone-contentmenu-display-folder_tabular_view,
 #content-core #parent-fieldname-text .icon-table-view,
 #content-core #parent-fieldname-text .icon-folder-folder_tabular_view,
 #content-core #parent-fieldname-text .icon-folder-tabular_view,
@@ -3920,6 +4381,11 @@ body#tinymce .icon-plone-contentmenu-display-folder_listing,
 body#tinymce .icon-plone-contentmenu-display-listing_view,
 body#tinymce .icon-folder-listing_view,
 body#tinymce .icon-folder-folder_listing,
+.mosaic-tile-content .icon-list-view,
+.mosaic-tile-content .icon-plone-contentmenu-display-folder_listing,
+.mosaic-tile-content .icon-plone-contentmenu-display-listing_view,
+.mosaic-tile-content .icon-folder-listing_view,
+.mosaic-tile-content .icon-folder-folder_listing,
 #content-core #parent-fieldname-text .icon-list-view,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-display-folder_listing,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-display-listing_view,
@@ -3931,6 +4397,9 @@ body#tinymce .icon-folder-folder_listing,
 body#tinymce .icon-list-extended-view,
 body#tinymce .icon-plone-contentmenu-display-folder_extended,
 body#tinymce .icon-folder-folder_extended,
+.mosaic-tile-content .icon-list-extended-view,
+.mosaic-tile-content .icon-plone-contentmenu-display-folder_extended,
+.mosaic-tile-content .icon-folder-folder_extended,
 #content-core #parent-fieldname-text .icon-list-extended-view,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-display-folder_extended,
 #content-core #parent-fieldname-text .icon-folder-folder_extended {
@@ -3938,42 +4407,51 @@ body#tinymce .icon-folder-folder_extended,
 }
 /* line 235, ../scss/old/_sprites.scss */
 body#tinymce .icon-article-view,
+.mosaic-tile-content .icon-article-view,
 #content-core #parent-fieldname-text .icon-article-view {
   background-position: -408px -169px;
 }
 /* line 236, ../scss/old/_sprites.scss */
 body#tinymce .icon-article-extended-view,
+.mosaic-tile-content .icon-article-extended-view,
 #content-core #parent-fieldname-text .icon-article-extended-view {
   background-position: -432px -169px;
 }
 /* line 237, ../scss/old/_sprites.scss */
 body#tinymce .icon-cut, body#tinymce .icon-plone-contentmenu-actions-cut,
+.mosaic-tile-content .icon-cut,
+.mosaic-tile-content .icon-plone-contentmenu-actions-cut,
 #content-core #parent-fieldname-text .icon-cut,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-actions-cut {
   background-position: -456px -169px;
 }
 /* line 239, ../scss/old/_sprites.scss */
 body#tinymce .icon-upload,
+.mosaic-tile-content .icon-upload,
 #content-core #parent-fieldname-text .icon-upload {
   background-position: 0      -192px;
 }
 /* line 240, ../scss/old/_sprites.scss */
 body#tinymce .icon-rss,
+.mosaic-tile-content .icon-rss,
 #content-core #parent-fieldname-text .icon-rss {
   background-position: -24px  -192px;
 }
 /* line 241, ../scss/old/_sprites.scss */
 body#tinymce .icon-poll,
+.mosaic-tile-content .icon-poll,
 #content-core #parent-fieldname-text .icon-poll {
   background-position: -48px  -192px;
 }
 /* line 242, ../scss/old/_sprites.scss */
 body#tinymce .icon-collection,
+.mosaic-tile-content .icon-collection,
 #content-core #parent-fieldname-text .icon-collection {
   background-position: -72px  -192px;
 }
 /* line 243, ../scss/old/_sprites.scss */
 body#tinymce .icon-caching,
+.mosaic-tile-content .icon-caching,
 #content-core #parent-fieldname-text .icon-caching {
   background-position: -96px  -192px;
 }
@@ -3981,27 +4459,38 @@ body#tinymce .icon-caching,
 body#tinymce .icon-html, body#tinymce .icon-formcustomscriptadapter,
 body#tinymce #content-core #parent-fieldname-text .icon-formcustomscriptadapter,
 #content-core #parent-fieldname-text body#tinymce .icon-formcustomscriptadapter,
+.mosaic-tile-content .icon-html,
+.mosaic-tile-content body#tinymce .icon-formcustomscriptadapter,
+body#tinymce .mosaic-tile-content .icon-formcustomscriptadapter,
+.mosaic-tile-content .icon-formcustomscriptadapter,
+.mosaic-tile-content #content-core #parent-fieldname-text .icon-formcustomscriptadapter,
+#content-core #parent-fieldname-text .mosaic-tile-content .icon-formcustomscriptadapter,
 #content-core #parent-fieldname-text .icon-html,
 #content-core #parent-fieldname-text .icon-formcustomscriptadapter {
   background-position: -120px -192px;
 }
 /* line 245, ../scss/old/_sprites.scss */
 body#tinymce .icon-language,
+.mosaic-tile-content .icon-language,
 #content-core #parent-fieldname-text .icon-language {
   background-position: -144px -192px;
 }
 /* line 246, ../scss/old/_sprites.scss */
 body#tinymce .icon-site,
+.mosaic-tile-content .icon-site,
 #content-core #parent-fieldname-text .icon-site {
   background-position: -168px -192px;
 }
 /* line 247, ../scss/old/_sprites.scss */
 body#tinymce .icon-edit-image,
+.mosaic-tile-content .icon-edit-image,
 #content-core #parent-fieldname-text .icon-edit-image {
   background-position: -192px -192px;
 }
 /* line 248, ../scss/old/_sprites.scss */
 body#tinymce .icon-navigation, body#tinymce .icon-workflow-transition-policy,
+.mosaic-tile-content .icon-navigation,
+.mosaic-tile-content .icon-workflow-transition-policy,
 #content-core #parent-fieldname-text .icon-navigation,
 #content-core #parent-fieldname-text .icon-workflow-transition-policy {
   background-position: -216px -192px;
@@ -4010,6 +4499,9 @@ body#tinymce .icon-navigation, body#tinymce .icon-workflow-transition-policy,
 body#tinymce .icon-content-view,
 body#tinymce .icon-plone-contentmenu-display-full_view,
 body#tinymce .icon-folder-full_view,
+.mosaic-tile-content .icon-content-view,
+.mosaic-tile-content .icon-plone-contentmenu-display-full_view,
+.mosaic-tile-content .icon-folder-full_view,
 #content-core #parent-fieldname-text .icon-content-view,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-display-full_view,
 #content-core #parent-fieldname-text .icon-folder-full_view {
@@ -4018,6 +4510,8 @@ body#tinymce .icon-folder-full_view,
 /* line 252, ../scss/old/_sprites.scss */
 body#tinymce .icon-plone-contentmenu-display-folder_index_view,
 body#tinymce .icon-folder-folder_index_view,
+.mosaic-tile-content .icon-plone-contentmenu-display-folder_index_view,
+.mosaic-tile-content .icon-folder-folder_index_view,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-display-folder_index_view,
 #content-core #parent-fieldname-text .icon-folder-folder_index_view {
   background-position: -240px -192px;
@@ -4027,6 +4521,10 @@ body#tinymce .icon-plone-contentmenu-display-filtered_contents_search_complete_p
 body#tinymce .icon-folder-filtered_contents_search_complete_pretty_view,
 body#tinymce .icon-plone-contentmenu-display-filtered_contents_search_pretty_view,
 body#tinymce .icon-folder-filtered_contents_search_pretty_view,
+.mosaic-tile-content .icon-plone-contentmenu-display-filtered_contents_search_complete_pretty_view,
+.mosaic-tile-content .icon-folder-filtered_contents_search_complete_pretty_view,
+.mosaic-tile-content .icon-plone-contentmenu-display-filtered_contents_search_pretty_view,
+.mosaic-tile-content .icon-folder-filtered_contents_search_pretty_view,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-display-filtered_contents_search_complete_pretty_view,
 #content-core #parent-fieldname-text .icon-folder-filtered_contents_search_complete_pretty_view,
 #content-core #parent-fieldname-text .icon-plone-contentmenu-display-filtered_contents_search_pretty_view,
@@ -4036,54 +4534,65 @@ body#tinymce .icon-folder-filtered_contents_search_pretty_view,
 }
 /* line 260, ../scss/old/_sprites.scss */
 body#tinymce .icon-genweb,
+.mosaic-tile-content .icon-genweb,
 #content-core #parent-fieldname-text .icon-genweb {
   background-position: -264px -192px;
 }
 /* line 261, ../scss/old/_sprites.scss */
 body#tinymce .icon-captcha, body#tinymce .icon-formcaptchafield,
+.mosaic-tile-content .icon-captcha,
+.mosaic-tile-content .icon-formcaptchafield,
 #content-core #parent-fieldname-text .icon-captcha,
 #content-core #parent-fieldname-text .icon-formcaptchafield {
   background-position: -288px -192px;
 }
 /* line 262, ../scss/old/_sprites.scss */
 body#tinymce .icon-users,
+.mosaic-tile-content .icon-users,
 #content-core #parent-fieldname-text .icon-users {
   background-position: -312px -192px;
 }
 /* line 263, ../scss/old/_sprites.scss */
 body#tinymce .icon-user-news,
+.mosaic-tile-content .icon-user-news,
 #content-core #parent-fieldname-text .icon-user-news {
   background-position: -336px -192px;
 }
 /* line 264, ../scss/old/_sprites.scss */
 body#tinymce .icon-doc,
+.mosaic-tile-content .icon-doc,
 #content-core #parent-fieldname-text .icon-doc {
   background-position: -360px -192px;
 }
 /* line 265, ../scss/old/_sprites.scss */
 body#tinymce .icon-xls,
+.mosaic-tile-content .icon-xls,
 #content-core #parent-fieldname-text .icon-xls {
   background-position: -384px -192px;
 }
 /* line 266, ../scss/old/_sprites.scss */
 body#tinymce .icon-ppt,
+.mosaic-tile-content .icon-ppt,
 #content-core #parent-fieldname-text .icon-ppt {
   background-position: -408px -192px;
 }
 /* line 267, ../scss/old/_sprites.scss */
 body#tinymce .icon-pdf,
+.mosaic-tile-content .icon-pdf,
 #content-core #parent-fieldname-text .icon-pdf {
   background-position: -432px -192px;
 }
 /* line 268, ../scss/old/_sprites.scss */
 body#tinymce .icon-translate,
+.mosaic-tile-content .icon-translate,
 #content-core #parent-fieldname-text .icon-translate {
   background-position: -456px -192px;
 }
 /* line 272, ../scss/old/_sprites.scss */
 body#tinymce .large-icon,
+.mosaic-tile-content .large-icon,
 #content-core #parent-fieldname-text .large-icon {
-  background-image: url('/++theme++genweb6.theme/img/gh-150.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-150.png);
   width: 21px;
   height: 21px;
   margin-top: -1px;
@@ -4091,41 +4600,49 @@ body#tinymce .large-icon,
 }
 /* line 279, ../scss/old/_sprites.scss */
 body#tinymce .large-icon.icon-news,
+.mosaic-tile-content .large-icon.icon-news,
 #content-core #parent-fieldname-text .large-icon.icon-news {
   background-position: -37px  -252px;
 }
 /* line 280, ../scss/old/_sprites.scss */
 body#tinymce .large-icon.icon-link,
+.mosaic-tile-content .large-icon.icon-link,
 #content-core #parent-fieldname-text .large-icon.icon-link {
   background-position: -108px -252px;
 }
 /* line 281, ../scss/old/_sprites.scss */
 body#tinymce .large-icon.icon-upc,
+.mosaic-tile-content .large-icon.icon-upc,
 #content-core #parent-fieldname-text .large-icon.icon-upc {
   background-position: 0      -252px;
 }
 /* line 282, ../scss/old/_sprites.scss */
 body#tinymce .large-icon.icon-poll,
+.mosaic-tile-content .large-icon.icon-poll,
 #content-core #parent-fieldname-text .large-icon.icon-poll {
   background-position: -73px  -288px;
 }
 /* line 283, ../scss/old/_sprites.scss */
 body#tinymce .large-icon.icon-calendar,
+.mosaic-tile-content .large-icon.icon-calendar,
 #content-core #parent-fieldname-text .large-icon.icon-calendar {
   background-position: -287px -180px;
 }
 /* line 284, ../scss/old/_sprites.scss */
 body#tinymce .large-icon.icon-user-news,
+.mosaic-tile-content .large-icon.icon-user-news,
 #content-core #parent-fieldname-text .large-icon.icon-user-news {
   background-position: -504px -252px;
 }
 /* line 288, ../scss/old/_sprites.scss */
 body#tinymce .large-icon.icon-white,
+.mosaic-tile-content .large-icon.icon-white,
 #content-core #parent-fieldname-text .large-icon.icon-white {
-  background-image: url('/++theme++genweb6.theme/img/gh-150-w.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-150-w.png);
 }
 /* line 4, ../scss/old/_styles.scss */
 body#tinymce .label,
+.mosaic-tile-content .label,
 #content-core #parent-fieldname-text .label {
   --bs-badge-padding-x: 0.65em;
   --bs-badge-padding-y: 0.35em;
@@ -4147,101 +4664,120 @@ body#tinymce .label,
 }
 /* line 23, ../scss/old/_styles.scss */
 body#tinymce .label.label-important,
+.mosaic-tile-content .label.label-important,
 #content-core #parent-fieldname-text .label.label-important {
   background-color: var(--bs-danger);
 }
 /* line 27, ../scss/old/_styles.scss */
 body#tinymce .label.label-info,
+.mosaic-tile-content .label.label-info,
 #content-core #parent-fieldname-text .label.label-info {
   color: #000;
   background-color: var(--bs-info);
 }
 /* line 32, ../scss/old/_styles.scss */
 body#tinymce .label.label-inverse,
+.mosaic-tile-content .label.label-inverse,
 #content-core #parent-fieldname-text .label.label-inverse {
   background-color: var(--bs-dark);
 }
 /* line 36, ../scss/old/_styles.scss */
 body#tinymce .label.label-primary,
+.mosaic-tile-content .label.label-primary,
 #content-core #parent-fieldname-text .label.label-primary {
   background-color: var(--bs-primary);
 }
 /* line 40, ../scss/old/_styles.scss */
 body#tinymce .label.label-success,
+.mosaic-tile-content .label.label-success,
 #content-core #parent-fieldname-text .label.label-success {
   background-color: var(--bs-success);
 }
 /* line 44, ../scss/old/_styles.scss */
 body#tinymce .label.label-warning,
+.mosaic-tile-content .label.label-warning,
 #content-core #parent-fieldname-text .label.label-warning {
   color: #000;
   background-color: var(--bs-warning);
 }
 /* line 53, ../scss/old/_styles.scss */
 body#tinymce .purple-background,
+.mosaic-tile-content .purple-background,
 #content-core #parent-fieldname-text .purple-background {
   background-color: #e7dbee;
 }
 /* line 57, ../scss/old/_styles.scss */
 body#tinymce .purpleDark-background,
+.mosaic-tile-content .purpleDark-background,
 #content-core #parent-fieldname-text .purpleDark-background {
   background-color: #cfb9dd;
 }
 /* line 61, ../scss/old/_styles.scss */
 body#tinymce .pink-background,
+.mosaic-tile-content .pink-background,
 #content-core #parent-fieldname-text .pink-background {
   background-color: #f4bfe1;
 }
 /* line 65, ../scss/old/_styles.scss */
 body#tinymce .orange-background,
+.mosaic-tile-content .orange-background,
 #content-core #parent-fieldname-text .orange-background {
   background-color: #fdd49a;
 }
 /* line 69, ../scss/old/_styles.scss */
 body#tinymce .blueDark-background,
+.mosaic-tile-content .blueDark-background,
 #content-core #parent-fieldname-text .blueDark-background {
   background-color: #9acbff;
 }
 /* line 73, ../scss/old/_styles.scss */
 body#tinymce .green-background,
+.mosaic-tile-content .green-background,
 #content-core #parent-fieldname-text .green-background {
   background-color: #bce673;
 }
 /* line 77, ../scss/old/_styles.scss */
 body#tinymce .gray-background,
+.mosaic-tile-content .gray-background,
 #content-core #parent-fieldname-text .gray-background {
   background-color: var(--bs-gray-500);
 }
 /* line 81, ../scss/old/_styles.scss */
 body#tinymce .grayLight-background,
+.mosaic-tile-content .grayLight-background,
 #content-core #parent-fieldname-text .grayLight-background {
   background-color: var(--bs-gray-400);
 }
 /* line 85, ../scss/old/_styles.scss */
 body#tinymce .grayLighter-background,
+.mosaic-tile-content .grayLighter-background,
 #content-core #parent-fieldname-text .grayLighter-background {
   background-color: var(--bs-gray-300);
 }
 /* line 89, ../scss/old/_styles.scss */
 body#tinymce .success,
+.mosaic-tile-content .success,
 #content-core #parent-fieldname-text .success {
   background-color: #e5f5ca;
   color: #333;
 }
 /* line 94, ../scss/old/_styles.scss */
 body#tinymce .error,
+.mosaic-tile-content .error,
 #content-core #parent-fieldname-text .error {
   background-color: #fae6e4;
   color: #333;
 }
 /* line 99, ../scss/old/_styles.scss */
 body#tinymce .info,
+.mosaic-tile-content .info,
 #content-core #parent-fieldname-text .info {
   background-color: #e1f3f8;
   color: #333;
 }
 /* line 104, ../scss/old/_styles.scss */
 body#tinymce .warning,
+.mosaic-tile-content .warning,
 #content-core #parent-fieldname-text .warning {
   background-color: #fbf0cc;
   color: #333;
@@ -4249,6 +4785,8 @@ body#tinymce .warning,
 /* line 112, ../scss/old/_styles.scss */
 body#tinymce ins,
 body#tinymce .ins,
+.mosaic-tile-content ins,
+.mosaic-tile-content .ins,
 #content-core #parent-fieldname-text ins,
 #content-core #parent-fieldname-text .ins {
   color: #538300;
@@ -4257,6 +4795,8 @@ body#tinymce .ins,
 /* line 118, ../scss/old/_styles.scss */
 body#tinymce del,
 body#tinymce .del,
+.mosaic-tile-content del,
+.mosaic-tile-content .del,
 #content-core #parent-fieldname-text del,
 #content-core #parent-fieldname-text .del {
   color: #c00;
@@ -4264,6 +4804,7 @@ body#tinymce .del,
 }
 /* line 124, ../scss/old/_styles.scss */
 body#tinymce .liniaBaix,
+.mosaic-tile-content .liniaBaix,
 #content-core #parent-fieldname-text .liniaBaix {
   border-bottom: 1px solid var(--bs-gray-300);
   margin: 0 0 18px 0;
@@ -4271,6 +4812,7 @@ body#tinymce .liniaBaix,
 }
 /* line 130, ../scss/old/_styles.scss */
 body#tinymce .liniaDalt,
+.mosaic-tile-content .liniaDalt,
 #content-core #parent-fieldname-text .liniaDalt {
   border-top: 1px solid var(--bs-gray-300);
   margin: 18px 0 0 0;
@@ -4278,58 +4820,69 @@ body#tinymce .liniaDalt,
 }
 /* line 136, ../scss/old/_styles.scss */
 body#tinymce .m,
+.mosaic-tile-content .m,
 #content-core #parent-fieldname-text .m {
   font-size: var(--bs-body-font-size) !important;
 }
 /* line 140, ../scss/old/_styles.scss */
 body#tinymce .l,
+.mosaic-tile-content .l,
 #content-core #parent-fieldname-text .l {
   font-size: var(--bs-font-size-l) !important;
 }
 /* line 144, ../scss/old/_styles.scss */
 body#tinymce .s,
+.mosaic-tile-content .s,
 #content-core #parent-fieldname-text .s {
   font-size: var(--bs-font-size-s) !important;
 }
 /* line 148, ../scss/old/_styles.scss */
 body#tinymce .xl,
+.mosaic-tile-content .xl,
 #content-core #parent-fieldname-text .xl {
   font-size: var(--bs-font-size-xl) !important;
 }
 /* line 152, ../scss/old/_styles.scss */
 body#tinymce .xs,
+.mosaic-tile-content .xs,
 #content-core #parent-fieldname-text .xs {
   font-size: var(--bs-font-size-xs) !important;
 }
 /* line 156, ../scss/old/_styles.scss */
 body#tinymce .xxl,
+.mosaic-tile-content .xxl,
 #content-core #parent-fieldname-text .xxl {
   font-size: var(--bs-font-size-xxl) !important;
 }
 /* line 160, ../scss/old/_styles.scss */
 body#tinymce .xxs,
+.mosaic-tile-content .xxs,
 #content-core #parent-fieldname-text .xxs {
   font-size: var(--bs-font-size-xxs) !important;
 }
 /* line 164, ../scss/old/_styles.scss */
 body#tinymce .xxxl,
+.mosaic-tile-content .xxxl,
 #content-core #parent-fieldname-text .xxxl {
   font-size: var(--bs-font-size-xxxl) !important;
 }
 /* line 168, ../scss/old/_styles.scss */
 body#tinymce .xxxs,
+.mosaic-tile-content .xxxs,
 #content-core #parent-fieldname-text .xxxs {
   font-size: var(--bs-font-size-xxs) !important;
 }
 @media print {
   /* line 174, ../scss/old/_styles.scss */
   body#tinymce .pageBreak,
+  .mosaic-tile-content .pageBreak,
   #content-core #parent-fieldname-text .pageBreak {
     page-break-after: always;
   }
 }
 /* line 179, ../scss/old/_styles.scss */
 body#tinymce code,
+.mosaic-tile-content code,
 #content-core #parent-fieldname-text code {
   font-size: var(--bs-font-size-xxs);
   padding: 2px 4px;
@@ -4348,6 +4901,16 @@ body#tinymce .img:after,
 body#tinymce .vid:after,
 body#tinymce .https:after,
 body#tinymce .down:after,
+.mosaic-tile-content .doc:after,
+.mosaic-tile-content .pdf:after,
+.mosaic-tile-content .ppt:after,
+.mosaic-tile-content .txt:after,
+.mosaic-tile-content .xls:after,
+.mosaic-tile-content .xlsdf:after,
+.mosaic-tile-content .img:after,
+.mosaic-tile-content .vid:after,
+.mosaic-tile-content .https:after,
+.mosaic-tile-content .down:after,
 #content-core #parent-fieldname-text .doc:after,
 #content-core #parent-fieldname-text .pdf:after,
 #content-core #parent-fieldname-text .ppt:after,
@@ -4368,53 +4931,64 @@ body#tinymce .down:after,
 }
 /* line 211, ../scss/old/_styles.scss */
 body#tinymce .pdf:after,
+.mosaic-tile-content .pdf:after,
 #content-core #parent-fieldname-text .pdf:after {
   background-position: -432px -194px;
 }
 /* line 215, ../scss/old/_styles.scss */
 body#tinymce .ppt:after,
+.mosaic-tile-content .ppt:after,
 #content-core #parent-fieldname-text .ppt:after {
   background-position: -407px -193px;
 }
 /* line 219, ../scss/old/_styles.scss */
 body#tinymce .xlsdf:after,
 body#tinymce .xls:after,
+.mosaic-tile-content .xlsdf:after,
+.mosaic-tile-content .xls:after,
 #content-core #parent-fieldname-text .xlsdf:after,
 #content-core #parent-fieldname-text .xls:after {
   background-position: -384px -193px;
 }
 /* line 224, ../scss/old/_styles.scss */
 body#tinymce .doc:after,
+.mosaic-tile-content .doc:after,
 #content-core #parent-fieldname-text .doc:after {
   background-position: -360px -193px;
 }
 /* line 228, ../scss/old/_styles.scss */
 body#tinymce .down:after,
+.mosaic-tile-content .down:after,
 #content-core #parent-fieldname-text .down:after {
   background-position: -95px -26px;
 }
 /* line 232, ../scss/old/_styles.scss */
 body#tinymce .https:after,
+.mosaic-tile-content .https:after,
 #content-core #parent-fieldname-text .https:after {
   background-position: -288px -26px;
 }
 /* line 236, ../scss/old/_styles.scss */
 body#tinymce .vid:after,
+.mosaic-tile-content .vid:after,
 #content-core #parent-fieldname-text .vid:after {
   background-position: -192px -2px;
 }
 /* line 240, ../scss/old/_styles.scss */
 body#tinymce .img:after,
+.mosaic-tile-content .img:after,
 #content-core #parent-fieldname-text .img:after {
   background-position: -456px -50px;
 }
 /* line 244, ../scss/old/_styles.scss */
 body#tinymce .txt:after,
+.mosaic-tile-content .txt:after,
 #content-core #parent-fieldname-text .txt:after {
   background-position: -24px -26px;
 }
 /* line 251, ../scss/old/_styles.scss */
 body#tinymce .img-rounded,
+.mosaic-tile-content .img-rounded,
 #content-core #parent-fieldname-text .img-rounded {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -4422,6 +4996,7 @@ body#tinymce .img-rounded,
 }
 /* line 257, ../scss/old/_styles.scss */
 body#tinymce .img-circle,
+.mosaic-tile-content .img-circle,
 #content-core #parent-fieldname-text .img-circle {
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
@@ -4429,6 +5004,7 @@ body#tinymce .img-circle,
 }
 /* line 263, ../scss/old/_styles.scss */
 body#tinymce .img-shadowed,
+.mosaic-tile-content .img-shadowed,
 #content-core #parent-fieldname-text .img-shadowed {
   -moz-box-shadow: 0 1px 3px var(--bs-gray-600);
   -webkit-box-shadow: 0 1px 3px var(--bs-gray-600);
@@ -4437,6 +5013,8 @@ body#tinymce .img-shadowed,
 /* line 272, ../scss/old/_styles.scss */
 body#tinymce .userrole-authenticated .amaga-autenticat,
 body#tinymce .userrole-anonymous .amaga-no-autenticat,
+.mosaic-tile-content .userrole-authenticated .amaga-autenticat,
+.mosaic-tile-content .userrole-anonymous .amaga-no-autenticat,
 #content-core #parent-fieldname-text .userrole-authenticated .amaga-autenticat,
 #content-core #parent-fieldname-text .userrole-anonymous .amaga-no-autenticat {
   display: none;
@@ -4444,33 +5022,40 @@ body#tinymce .userrole-anonymous .amaga-no-autenticat,
 /* line 280, ../scss/old/_styles.scss */
 body#tinymce .white-text,
 body#tinymce .white_text,
+.mosaic-tile-content .white-text,
+.mosaic-tile-content .white_text,
 #content-core #parent-fieldname-text .white-text,
 #content-core #parent-fieldname-text .white_text {
   color: #FFF;
 }
 /* line 290, ../scss/old/_styles.scss */
 body#tinymce a.btn:not(.btn-primary):not(.btn-secondary):not(.btn-success):not(.btn-danger):not(.btn-warning):not(.btn-info):not(.btn-light):not(.btn-dark):not(.btn-link):not(.btn-outline-primary):not(.btn-outline-secondary):not(.btn-outline-success):not(.btn-outline-danger):not(.btn-outline-warning):not(.btn-outline-info):not(.btn-outline-light):not(.btn-outline-dark),
+.mosaic-tile-content a.btn:not(.btn-primary):not(.btn-secondary):not(.btn-success):not(.btn-danger):not(.btn-warning):not(.btn-info):not(.btn-light):not(.btn-dark):not(.btn-link):not(.btn-outline-primary):not(.btn-outline-secondary):not(.btn-outline-success):not(.btn-outline-danger):not(.btn-outline-warning):not(.btn-outline-info):not(.btn-outline-light):not(.btn-outline-dark),
 #content-core #parent-fieldname-text a.btn:not(.btn-primary):not(.btn-secondary):not(.btn-success):not(.btn-danger):not(.btn-warning):not(.btn-info):not(.btn-light):not(.btn-dark):not(.btn-link):not(.btn-outline-primary):not(.btn-outline-secondary):not(.btn-outline-success):not(.btn-outline-danger):not(.btn-outline-warning):not(.btn-outline-info):not(.btn-outline-light):not(.btn-outline-dark) {
   background-color: var(--bs-gray-200);
   border: 1px solid var(--bs-gray-300);
 }
 /* line 295, ../scss/old/_styles.scss */
 body#tinymce a.btn.btn-large,
+.mosaic-tile-content a.btn.btn-large,
 #content-core #parent-fieldname-text a.btn.btn-large {
   font-size: var(--bs-font-size-xl);
 }
 /* line 299, ../scss/old/_styles.scss */
 body#tinymce a.btn.btn-small,
+.mosaic-tile-content a.btn.btn-small,
 #content-core #parent-fieldname-text a.btn.btn-small {
   font-size: var(--bs-font-size-xs);
 }
 /* line 303, ../scss/old/_styles.scss */
 body#tinymce a.btn.btn-mini,
+.mosaic-tile-content a.btn.btn-mini,
 #content-core #parent-fieldname-text a.btn.btn-mini {
   font-size: var(--bs-font-size-xxxs);
 }
 /* line 307, ../scss/old/_styles.scss */
 body#tinymce a.btn.btn-inverse,
+.mosaic-tile-content a.btn.btn-inverse,
 #content-core #parent-fieldname-text a.btn.btn-inverse {
   background-color: var(--bs-gray-900);
   color: #FFF;
@@ -4478,6 +5063,8 @@ body#tinymce a.btn.btn-inverse,
 }
 /* line 312, ../scss/old/_styles.scss */
 body#tinymce a.btn.btn-inverse:active, body#tinymce a.btn.btn-inverse:hover,
+.mosaic-tile-content a.btn.btn-inverse:active,
+.mosaic-tile-content a.btn.btn-inverse:hover,
 #content-core #parent-fieldname-text a.btn.btn-inverse:active,
 #content-core #parent-fieldname-text a.btn.btn-inverse:hover {
   background-color: var(--bs-gray-800);
@@ -4485,17 +5072,20 @@ body#tinymce a.btn.btn-inverse:active, body#tinymce a.btn.btn-inverse:hover,
 }
 /* line 319, ../scss/old/_styles.scss */
 body#tinymce a.btn.btn-block + .btn-block,
+.mosaic-tile-content a.btn.btn-block + .btn-block,
 #content-core #parent-fieldname-text a.btn.btn-block + .btn-block {
   margin-top: 5px;
 }
 /* line 1, ../scss/old/_tables.scss */
 body#tinymce table,
+.mosaic-tile-content table,
 #content-core #parent-fieldname-text table {
   caption-side: top;
   width: 100%;
 }
 /* line 5, ../scss/old/_tables.scss */
 body#tinymce table thead,
+.mosaic-tile-content table thead,
 #content-core #parent-fieldname-text table thead {
   border-bottom: 5px solid var(--bs-primary);
 }
@@ -4503,6 +5093,9 @@ body#tinymce table thead,
 body#tinymce table thead,
 body#tinymce table tfoot,
 body#tinymce table th,
+.mosaic-tile-content table thead,
+.mosaic-tile-content table tfoot,
+.mosaic-tile-content table th,
 #content-core #parent-fieldname-text table thead,
 #content-core #parent-fieldname-text table tfoot,
 #content-core #parent-fieldname-text table th {
@@ -4510,43 +5103,52 @@ body#tinymce table th,
 }
 /* line 15, ../scss/old/_tables.scss */
 body#tinymce table tr.cap,
+.mosaic-tile-content table tr.cap,
 #content-core #parent-fieldname-text table tr.cap {
   border-top: 5px solid var(--bs-primary);
 }
 /* line 21, ../scss/old/_tables.scss */
 body#tinymce table:not(.table) th,
+.mosaic-tile-content table:not(.table) th,
 #content-core #parent-fieldname-text table:not(.table) th {
   text-align: center;
 }
 /* line 28, ../scss/old/_tables.scss */
 body#tinymce table.table.table-condensed th,
 body#tinymce table.table.table-condensed td,
+.mosaic-tile-content table.table.table-condensed th,
+.mosaic-tile-content table.table.table-condensed td,
 #content-core #parent-fieldname-text table.table.table-condensed th,
 #content-core #parent-fieldname-text table.table.table-condensed td {
   padding: 0.2rem 0.5rem;
 }
 /* line 36, ../scss/old/_tables.scss */
 body#tinymce table.table.table-striped th,
+.mosaic-tile-content table.table.table-striped th,
 #content-core #parent-fieldname-text table.table.table-striped th {
   background-color: transparent;
 }
 /* line 43, ../scss/old/_tables.scss */
 body#tinymce table.table.table-no-heading-border thead,
+.mosaic-tile-content table.table.table-no-heading-border thead,
 #content-core #parent-fieldname-text table.table.table-no-heading-border thead {
   border-bottom: 1px solid var(--bs-gray-300);
 }
 /* line 51, ../scss/old/_tables.scss */
 body#tinymce table.table.table-no-heading-border tbody tr th:first-child,
+.mosaic-tile-content table.table.table-no-heading-border tbody tr th:first-child,
 #content-core #parent-fieldname-text table.table.table-no-heading-border tbody tr th:first-child {
   border-right: 5px solid var(--bs-primary);
 }
 /* line 60, ../scss/old/_tables.scss */
 body#tinymce table.table.table-notebook thead,
+.mosaic-tile-content table.table.table-notebook thead,
 #content-core #parent-fieldname-text table.table.table-notebook thead {
   border-bottom: 4px double var(--bs-orange);
 }
 /* line 64, ../scss/old/_tables.scss */
 body#tinymce table.table.table-notebook tfoot,
+.mosaic-tile-content table.table.table-notebook tfoot,
 #content-core #parent-fieldname-text table.table.table-notebook tfoot {
   border-top: 4px double var(--bs-orange);
 }
@@ -4561,6 +5163,16 @@ body#tinymce .boxbg-green,
 body#tinymce .well,
 body#tinymce .destacatQuadres,
 body#tinymce .destacatBandejat,
+.mosaic-tile-content .lead-small,
+.mosaic-tile-content .lead-large,
+.mosaic-tile-content .lead,
+.mosaic-tile-content .sheet,
+.mosaic-tile-content .box,
+.mosaic-tile-content .boxbg-gray,
+.mosaic-tile-content .boxbg-green,
+.mosaic-tile-content .well,
+.mosaic-tile-content .destacatQuadres,
+.mosaic-tile-content .destacatBandejat,
 #content-core #parent-fieldname-text .lead-small,
 #content-core #parent-fieldname-text .lead-large,
 #content-core #parent-fieldname-text .lead,
@@ -4586,6 +5198,16 @@ body#tinymce .boxbg-green *:last-child,
 body#tinymce .well *:last-child,
 body#tinymce .destacatQuadres *:last-child,
 body#tinymce .destacatBandejat *:last-child,
+.mosaic-tile-content .lead-small *:last-child,
+.mosaic-tile-content .lead-large *:last-child,
+.mosaic-tile-content .lead *:last-child,
+.mosaic-tile-content .sheet *:last-child,
+.mosaic-tile-content .box *:last-child,
+.mosaic-tile-content .boxbg-gray *:last-child,
+.mosaic-tile-content .boxbg-green *:last-child,
+.mosaic-tile-content .well *:last-child,
+.mosaic-tile-content .destacatQuadres *:last-child,
+.mosaic-tile-content .destacatBandejat *:last-child,
 #content-core #parent-fieldname-text .lead-small *:last-child,
 #content-core #parent-fieldname-text .lead-large *:last-child,
 #content-core #parent-fieldname-text .lead *:last-child,
@@ -4609,6 +5231,16 @@ body#tinymce .boxbg-green .align-center,
 body#tinymce .well .align-center,
 body#tinymce .destacatQuadres .align-center,
 body#tinymce .destacatBandejat .align-center,
+.mosaic-tile-content .lead-small .align-center,
+.mosaic-tile-content .lead-large .align-center,
+.mosaic-tile-content .lead .align-center,
+.mosaic-tile-content .sheet .align-center,
+.mosaic-tile-content .box .align-center,
+.mosaic-tile-content .boxbg-gray .align-center,
+.mosaic-tile-content .boxbg-green .align-center,
+.mosaic-tile-content .well .align-center,
+.mosaic-tile-content .destacatQuadres .align-center,
+.mosaic-tile-content .destacatBandejat .align-center,
 #content-core #parent-fieldname-text .lead-small .align-center,
 #content-core #parent-fieldname-text .lead-large .align-center,
 #content-core #parent-fieldname-text .lead .align-center,
@@ -4642,6 +5274,26 @@ body#tinymce .destacatQuadres .fa-quote-right::before,
 body#tinymce .destacatQuadres .fa-quote-left::before,
 body#tinymce .destacatBandejat .fa-quote-right::before,
 body#tinymce .destacatBandejat .fa-quote-left::before,
+.mosaic-tile-content .lead-small .fa-quote-right::before,
+.mosaic-tile-content .lead-small .fa-quote-left::before,
+.mosaic-tile-content .lead-large .fa-quote-right::before,
+.mosaic-tile-content .lead-large .fa-quote-left::before,
+.mosaic-tile-content .lead .fa-quote-right::before,
+.mosaic-tile-content .lead .fa-quote-left::before,
+.mosaic-tile-content .sheet .fa-quote-right::before,
+.mosaic-tile-content .sheet .fa-quote-left::before,
+.mosaic-tile-content .box .fa-quote-right::before,
+.mosaic-tile-content .box .fa-quote-left::before,
+.mosaic-tile-content .boxbg-gray .fa-quote-right::before,
+.mosaic-tile-content .boxbg-gray .fa-quote-left::before,
+.mosaic-tile-content .boxbg-green .fa-quote-right::before,
+.mosaic-tile-content .boxbg-green .fa-quote-left::before,
+.mosaic-tile-content .well .fa-quote-right::before,
+.mosaic-tile-content .well .fa-quote-left::before,
+.mosaic-tile-content .destacatQuadres .fa-quote-right::before,
+.mosaic-tile-content .destacatQuadres .fa-quote-left::before,
+.mosaic-tile-content .destacatBandejat .fa-quote-right::before,
+.mosaic-tile-content .destacatBandejat .fa-quote-left::before,
 #content-core #parent-fieldname-text .lead-small .fa-quote-right::before,
 #content-core #parent-fieldname-text .lead-small .fa-quote-left::before,
 #content-core #parent-fieldname-text .lead-large .fa-quote-right::before,
@@ -4667,6 +5319,8 @@ body#tinymce .destacatBandejat .fa-quote-left::before,
 /* line 36, ../scss/old/_templates.scss */
 body#tinymce .lead-large,
 body#tinymce .destacatBandejat,
+.mosaic-tile-content .lead-large,
+.mosaic-tile-content .destacatBandejat,
 #content-core #parent-fieldname-text .lead-large,
 #content-core #parent-fieldname-text .destacatBandejat {
   border-top: 5px solid var(--bs-primary);
@@ -4675,6 +5329,8 @@ body#tinymce .destacatBandejat,
 /* line 41, ../scss/old/_templates.scss */
 body#tinymce .lead-large:after,
 body#tinymce .destacatBandejat:after,
+.mosaic-tile-content .lead-large:after,
+.mosaic-tile-content .destacatBandejat:after,
 #content-core #parent-fieldname-text .lead-large:after,
 #content-core #parent-fieldname-text .destacatBandejat:after {
   background: var(--bs-gray-300);
@@ -4686,6 +5342,8 @@ body#tinymce .destacatBandejat:after,
 /* line 53, ../scss/old/_templates.scss */
 body#tinymce .lead-small,
 body#tinymce .destacatQuadres,
+.mosaic-tile-content .lead-small,
+.mosaic-tile-content .destacatQuadres,
 #content-core #parent-fieldname-text .lead-small,
 #content-core #parent-fieldname-text .destacatQuadres {
   border: 5px solid var(--bs-primary);
@@ -4693,42 +5351,51 @@ body#tinymce .destacatQuadres,
 /* line 61, ../scss/old/_templates.scss */
 body#tinymce .lead,
 body#tinymce .well:not(.well-gradient),
+.mosaic-tile-content .lead,
+.mosaic-tile-content .well:not(.well-gradient),
 #content-core #parent-fieldname-text .lead,
 #content-core #parent-fieldname-text .well:not(.well-gradient) {
   background-color: var(--bs-gray-200);
 }
 /* line 69, ../scss/old/_templates.scss */
 body#tinymce .well.well-gradient,
+.mosaic-tile-content .well.well-gradient,
 #content-core #parent-fieldname-text .well.well-gradient {
   background-image: linear-gradient(to bottom, var(--bs-gray-200), var(--bs-white));
 }
 /* line 76, ../scss/old/_templates.scss */
 body#tinymce .box,
+.mosaic-tile-content .box,
 #content-core #parent-fieldname-text .box {
   border: 1px solid var(--bs-gray-300);
 }
 /* line 79, ../scss/old/_templates.scss */
 body#tinymce .box.pull-right,
+.mosaic-tile-content .box.pull-right,
 #content-core #parent-fieldname-text .box.pull-right {
   float: right;
 }
 /* line 82, ../scss/old/_templates.scss */
 body#tinymce .box.pull-right img,
+.mosaic-tile-content .box.pull-right img,
 #content-core #parent-fieldname-text .box.pull-right img {
   margin-bottom: 1rem;
 }
 /* line 90, ../scss/old/_templates.scss */
 body#tinymce .box.box-gradient,
+.mosaic-tile-content .box.box-gradient,
 #content-core #parent-fieldname-text .box.box-gradient {
   background-image: linear-gradient(to bottom, var(--bs-white), var(--bs-gray-200));
 }
 /* line 97, ../scss/old/_templates.scss */
 body#tinymce .box.box-example,
+.mosaic-tile-content .box.box-example,
 #content-core #parent-fieldname-text .box.box-example {
   position: relative;
 }
 /* line 100, ../scss/old/_templates.scss */
 body#tinymce .box.box-example:after,
+.mosaic-tile-content .box.box-example:after,
 #content-core #parent-fieldname-text .box.box-example:after {
   color: var(--bs-gray-700);
   background-color: var(--bs-gray-100);
@@ -4745,16 +5412,19 @@ body#tinymce .box.box-example:after,
 }
 /* line 118, ../scss/old/_templates.scss */
 body#tinymce body.site-es .box.box-example:after,
+.mosaic-tile-content body.site-es .box.box-example:after,
 #content-core #parent-fieldname-text body.site-es .box.box-example:after {
   content: "ejemplo";
 }
 /* line 125, ../scss/old/_templates.scss */
 body#tinymce body.site-en .box.box-example:after,
+.mosaic-tile-content body.site-en .box.box-example:after,
 #content-core #parent-fieldname-text body.site-en .box.box-example:after {
   content: "example";
 }
 /* line 132, ../scss/old/_templates.scss */
 body#tinymce .sheet,
+.mosaic-tile-content .sheet,
 #content-core #parent-fieldname-text .sheet {
   border-top: 1px solid var(--bs-gray-300);
   border-right: 15px solid var(--bs-primary);
@@ -4762,6 +5432,7 @@ body#tinymce .sheet,
 }
 /* line 137, ../scss/old/_templates.scss */
 body#tinymce .sheet:after,
+.mosaic-tile-content .sheet:after,
 #content-core #parent-fieldname-text .sheet:after {
   background: var(--bs-gray-300);
   display: block;
@@ -4773,6 +5444,10 @@ body#tinymce .sheet:after,
 body#tinymce .box .pull-right, body#tinymce .box.pull-right,
 body#tinymce .sheet .pull-right,
 body#tinymce .sheet.pull-right,
+.mosaic-tile-content .box .pull-right,
+.mosaic-tile-content .box.pull-right,
+.mosaic-tile-content .sheet .pull-right,
+.mosaic-tile-content .sheet.pull-right,
 #content-core #parent-fieldname-text .box .pull-right,
 #content-core #parent-fieldname-text .box.pull-right,
 #content-core #parent-fieldname-text .sheet .pull-right,
@@ -4784,6 +5459,10 @@ body#tinymce .sheet.pull-right,
 body#tinymce .box .pull-right img, body#tinymce .box.pull-right img,
 body#tinymce .sheet .pull-right img,
 body#tinymce .sheet.pull-right img,
+.mosaic-tile-content .box .pull-right img,
+.mosaic-tile-content .box.pull-right img,
+.mosaic-tile-content .sheet .pull-right img,
+.mosaic-tile-content .sheet.pull-right img,
 #content-core #parent-fieldname-text .box .pull-right img,
 #content-core #parent-fieldname-text .box.pull-right img,
 #content-core #parent-fieldname-text .sheet .pull-right img,
@@ -4792,6 +5471,7 @@ body#tinymce .sheet.pull-right img,
 }
 /* line 163, ../scss/old/_templates.scss */
 body#tinymce div.photoAlbumEntry,
+.mosaic-tile-content div.photoAlbumEntry,
 #content-core #parent-fieldname-text div.photoAlbumEntry {
   text-align: center;
   width: 130px;
@@ -4805,29 +5485,34 @@ body#tinymce div.photoAlbumEntry,
 }
 /* line 174, ../scss/old/_templates.scss */
 body#tinymce div.photoAlbumEntry img,
+.mosaic-tile-content div.photoAlbumEntry img,
 #content-core #parent-fieldname-text div.photoAlbumEntry img {
   margin-bottom: 0.5rem;
 }
 /* line 182, ../scss/old/_templates.scss */
 body#tinymce img.image-left,
+.mosaic-tile-content img.image-left,
 #content-core #parent-fieldname-text img.image-left {
   float: left;
   margin-right: 1rem;
 }
 /* line 190, ../scss/old/_templates.scss */
 body#tinymce img.image-right,
+.mosaic-tile-content img.image-right,
 #content-core #parent-fieldname-text img.image-right {
   float: right;
   margin-left: 1rem;
 }
 /* line 198, ../scss/old/_templates.scss */
 body#tinymce #FCKTdiv1imatgedamunttext,
+.mosaic-tile-content #FCKTdiv1imatgedamunttext,
 #content-core #parent-fieldname-text #FCKTdiv1imatgedamunttext {
   margin: 0 auto;
   position: relative;
 }
 /* line 202, ../scss/old/_templates.scss */
 body#tinymce #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext,
+.mosaic-tile-content #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext,
 #content-core #parent-fieldname-text #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext {
   background-color: white;
   color: #333;
@@ -4844,28 +5529,33 @@ body#tinymce #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext,
 }
 /* line 216, ../scss/old/_templates.scss */
 body#tinymce #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext #FCKTdiv3imatgedamunttext,
+.mosaic-tile-content #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext #FCKTdiv3imatgedamunttext,
 #content-core #parent-fieldname-text #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext #FCKTdiv3imatgedamunttext {
   padding: 10px;
 }
 /* line 225, ../scss/old/_templates.scss */
 body#tinymce a.btn.btn-block.btn-large,
+.mosaic-tile-content a.btn.btn-block.btn-large,
 #content-core #parent-fieldname-text a.btn.btn-block.btn-large {
   width: 100%;
 }
 /* line 232, ../scss/old/_templates.scss */
 body#tinymce a.btn.btn-large:not(.btn-primary),
+.mosaic-tile-content a.btn.btn-large:not(.btn-primary),
 #content-core #parent-fieldname-text a.btn.btn-large:not(.btn-primary) {
   background-color: var(--bs-gray-200);
   border: 1px solid var(--bs-gray-300);
 }
 /* line 240, ../scss/old/_templates.scss */
 body#tinymce .text-over-image,
+.mosaic-tile-content .text-over-image,
 #content-core #parent-fieldname-text .text-over-image {
   position: relative;
   margin: 0 auto;
 }
 /* line 244, ../scss/old/_templates.scss */
 body#tinymce .text-over-image .content,
+.mosaic-tile-content .text-over-image .content,
 #content-core #parent-fieldname-text .text-over-image .content {
   position: absolute;
   bottom: 0;
@@ -4873,6 +5563,7 @@ body#tinymce .text-over-image .content,
 }
 /* line 249, ../scss/old/_templates.scss */
 body#tinymce .text-over-image .content.dark-background,
+.mosaic-tile-content .text-over-image .content.dark-background,
 #content-core #parent-fieldname-text .text-over-image .content.dark-background {
   background: rgba(0, 0, 0, 0.65);
 }
@@ -4880,6 +5571,9 @@ body#tinymce .text-over-image .content.dark-background,
 body#tinymce .text-over-image .content.dark-background h4,
 body#tinymce .text-over-image .content.dark-background p,
 body#tinymce .text-over-image .content.dark-background span,
+.mosaic-tile-content .text-over-image .content.dark-background h4,
+.mosaic-tile-content .text-over-image .content.dark-background p,
+.mosaic-tile-content .text-over-image .content.dark-background span,
 #content-core #parent-fieldname-text .text-over-image .content.dark-background h4,
 #content-core #parent-fieldname-text .text-over-image .content.dark-background p,
 #content-core #parent-fieldname-text .text-over-image .content.dark-background span {
@@ -4887,6 +5581,7 @@ body#tinymce .text-over-image .content.dark-background span,
 }
 /* line 259, ../scss/old/_templates.scss */
 body#tinymce .text-over-image .content.light-background,
+.mosaic-tile-content .text-over-image .content.light-background,
 #content-core #parent-fieldname-text .text-over-image .content.light-background {
   background: rgba(255, 255, 255, 0.65);
 }
@@ -4894,6 +5589,9 @@ body#tinymce .text-over-image .content.light-background,
 body#tinymce .text-over-image .content.light-background h4,
 body#tinymce .text-over-image .content.light-background p,
 body#tinymce .text-over-image .content.light-background span,
+.mosaic-tile-content .text-over-image .content.light-background h4,
+.mosaic-tile-content .text-over-image .content.light-background p,
+.mosaic-tile-content .text-over-image .content.light-background span,
 #content-core #parent-fieldname-text .text-over-image .content.light-background h4,
 #content-core #parent-fieldname-text .text-over-image .content.light-background p,
 #content-core #parent-fieldname-text .text-over-image .content.light-background span {
@@ -4901,26 +5599,31 @@ body#tinymce .text-over-image .content.light-background span,
 }
 /* line 269, ../scss/old/_templates.scss */
 body#tinymce .text-over-image .content .caption,
+.mosaic-tile-content .text-over-image .content .caption,
 #content-core #parent-fieldname-text .text-over-image .content .caption {
   padding: 1.5rem;
 }
 /* line 272, ../scss/old/_templates.scss */
 body#tinymce .text-over-image .content .caption p:last-child,
+.mosaic-tile-content .text-over-image .content .caption p:last-child,
 #content-core #parent-fieldname-text .text-over-image .content .caption p:last-child {
   margin-bottom: 0;
 }
 /* line 282, ../scss/old/_templates.scss */
 body#tinymce .boxbg-gray,
+.mosaic-tile-content .boxbg-gray,
 #content-core #parent-fieldname-text .boxbg-gray {
   background-color: var(--bs-gray-100);
 }
 /* line 289, ../scss/old/_templates.scss */
 body#tinymce .boxbg-green,
+.mosaic-tile-content .boxbg-green,
 #content-core #parent-fieldname-text .boxbg-green {
   background-color: #e5f5ca;
 }
 /* line 296, ../scss/old/_templates.scss */
 body#tinymce .list-numeral,
+.mosaic-tile-content .list-numeral,
 #content-core #parent-fieldname-text .list-numeral {
   margin: 20px 0;
   margin-top: 20px;
@@ -4933,6 +5636,7 @@ body#tinymce .list-numeral,
 }
 /* line 306, ../scss/old/_templates.scss */
 body#tinymce .list-numeral li,
+.mosaic-tile-content .list-numeral li,
 #content-core #parent-fieldname-text .list-numeral li {
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
@@ -4944,6 +5648,7 @@ body#tinymce .list-numeral li,
 }
 /* line 316, ../scss/old/_templates.scss */
 body#tinymce .list-numeral strong,
+.mosaic-tile-content .list-numeral strong,
 #content-core #parent-fieldname-text .list-numeral strong {
   font-size: 200%;
   display: block;
@@ -4951,37 +5656,44 @@ body#tinymce .list-numeral strong,
 }
 /* line 322, ../scss/old/_templates.scss */
 body#tinymce .list-numeral :nth-child(1) strong,
+.mosaic-tile-content .list-numeral :nth-child(1) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(1) strong {
   color: #6734BA;
 }
 /* line 326, ../scss/old/_templates.scss */
 body#tinymce .list-numeral :nth-child(2) strong,
+.mosaic-tile-content .list-numeral :nth-child(2) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(2) strong {
   color: #9D1CB2;
 }
 /* line 330, ../scss/old/_templates.scss */
 body#tinymce .list-numeral :nth-child(3) strong,
+.mosaic-tile-content .list-numeral :nth-child(3) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(3) strong {
   color: #DA125F;
 }
 /* line 334, ../scss/old/_templates.scss */
 body#tinymce .list-numeral :nth-child(4) strong,
+.mosaic-tile-content .list-numeral :nth-child(4) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(4) strong {
   color: #F6412D;
 }
 /* line 338, ../scss/old/_templates.scss */
 body#tinymce .list-numeral :nth-child(5) strong,
+.mosaic-tile-content .list-numeral :nth-child(5) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(5) strong {
   color: #FF5606;
 }
 /* line 342, ../scss/old/_templates.scss */
 body#tinymce .list-numeral :nth-child(6) strong,
+.mosaic-tile-content .list-numeral :nth-child(6) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(6) strong {
   color: #FF9800;
 }
 @supports (-moz-appearance: none) {
   /* line 349, ../scss/old/_templates.scss */
   body#tinymce .list-numeral li,
+  .mosaic-tile-content .list-numeral li,
   #content-core #parent-fieldname-text .list-numeral li {
     display: inline-block !important;
   }
@@ -4989,6 +5701,7 @@ body#tinymce .list-numeral :nth-child(6) strong,
 @media (max-width: 768px) {
   /* line 356, ../scss/old/_templates.scss */
   body#tinymce .list-numeral,
+  .mosaic-tile-content .list-numeral,
   #content-core #parent-fieldname-text .list-numeral {
     column-count: 3;
     -moz-column-count: 3;
@@ -4997,6 +5710,7 @@ body#tinymce .list-numeral :nth-child(6) strong,
 @media (max-width: 480px) {
   /* line 364, ../scss/old/_templates.scss */
   body#tinymce .list-numeral,
+  .mosaic-tile-content .list-numeral,
   #content-core #parent-fieldname-text .list-numeral {
     column-count: 2;
     -moz-column-count: 2;
@@ -5004,16 +5718,19 @@ body#tinymce .list-numeral :nth-child(6) strong,
 }
 /* line 375, ../scss/old/_templates.scss */
 body#tinymce .gallery-logos .gellery-bottom,
+.mosaic-tile-content .gallery-logos .gellery-bottom,
 #content-core #parent-fieldname-text .gallery-logos .gellery-bottom {
   margin-bottom: 1.5rem;
 }
 /* line 379, ../scss/old/_templates.scss */
 body#tinymce .gallery-logos a:after,
+.mosaic-tile-content .gallery-logos a:after,
 #content-core #parent-fieldname-text .gallery-logos a:after {
   content: "";
 }
 /* line 387, ../scss/old/_templates.scss */
 body#tinymce .destacat,
+.mosaic-tile-content .destacat,
 #content-core #parent-fieldname-text .destacat {
   height: 444px;
   position: relative;
@@ -5021,6 +5738,7 @@ body#tinymce .destacat,
 }
 /* line 392, ../scss/old/_templates.scss */
 body#tinymce .destacat .destacat-contingut,
+.mosaic-tile-content .destacat .destacat-contingut,
 #content-core #parent-fieldname-text .destacat .destacat-contingut {
   width: 340px;
   padding: 1.2rem;
@@ -5033,17 +5751,20 @@ body#tinymce .destacat .destacat-contingut,
 }
 /* line 402, ../scss/old/_templates.scss */
 body#tinymce .destacat .destacat-contingut h2,
+.mosaic-tile-content .destacat .destacat-contingut h2,
 #content-core #parent-fieldname-text .destacat .destacat-contingut h2 {
   margin-top: 1rem;
 }
 /* line 409, ../scss/old/_templates.scss */
 body#tinymce .destacat .destacat-imatge.compat-object-fit,
+.mosaic-tile-content .destacat .destacat-imatge.compat-object-fit,
 #content-core #parent-fieldname-text .destacat .destacat-imatge.compat-object-fit {
   background-size: cover;
   background-position: center;
 }
 /* line 414, ../scss/old/_templates.scss */
 body#tinymce .destacat .destacat-imatge img,
+.mosaic-tile-content .destacat .destacat-imatge img,
 #content-core #parent-fieldname-text .destacat .destacat-imatge img {
   object-fit: cover;
   left: 0;
@@ -5055,18 +5776,21 @@ body#tinymce .destacat .destacat-imatge img,
 }
 /* line 428, ../scss/old/_templates.scss */
 body#tinymce .destacat.destacat-dreta .destacat-contingut,
+.mosaic-tile-content .destacat.destacat-dreta .destacat-contingut,
 #content-core #parent-fieldname-text .destacat.destacat-dreta .destacat-contingut {
   right: 0;
   left: auto;
 }
 /* line 433, ../scss/old/_templates.scss */
 body#tinymce .destacat.destacat-dreta .destacat-imatge img,
+.mosaic-tile-content .destacat.destacat-dreta .destacat-imatge img,
 #content-core #parent-fieldname-text .destacat.destacat-dreta .destacat-imatge img {
   padding-left: 0;
 }
 @media (max-width: 768px) {
   /* line 439, ../scss/old/_templates.scss */
   body#tinymce .destacat.destacat-dreta img,
+  .mosaic-tile-content .destacat.destacat-dreta img,
   #content-core #parent-fieldname-text .destacat.destacat-dreta img {
     position: relative;
     padding: 0;
@@ -5075,11 +5799,13 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
 @media (max-width: 768px) {
   /* line 449, ../scss/old/_templates.scss */
   body#tinymce .destacat,
+  .mosaic-tile-content .destacat,
   #content-core #parent-fieldname-text .destacat {
     height: auto;
   }
   /* line 452, ../scss/old/_templates.scss */
   body#tinymce .destacat .destacat-contingut,
+  .mosaic-tile-content .destacat .destacat-contingut,
   #content-core #parent-fieldname-text .destacat .destacat-contingut {
     width: 100%;
     position: relative;
@@ -5088,6 +5814,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
   }
   /* line 458, ../scss/old/_templates.scss */
   body#tinymce .destacat .destacat-contingut img,
+  .mosaic-tile-content .destacat .destacat-contingut img,
   #content-core #parent-fieldname-text .destacat .destacat-contingut img {
     position: relative;
     padding: 0;
@@ -5096,22 +5823,26 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
 }
 /* line 470, ../scss/old/_templates.scss */
 body#tinymce .lead,
+.mosaic-tile-content .lead,
 #content-core #parent-fieldname-text .lead {
   font-size: 1rem;
 }
 /* line 474, ../scss/old/_templates.scss */
 body#tinymce .lead-small,
+.mosaic-tile-content .lead-small,
 #content-core #parent-fieldname-text .lead-small {
   font-size: var(--bs-font-size-xs);
   padding: 0.5rem;
 }
 /* line 479, ../scss/old/_templates.scss */
 body#tinymce .box.box-large,
+.mosaic-tile-content .box.box-large,
 #content-core #parent-fieldname-text .box.box-large {
   padding: 2rem;
 }
 /* line 483, ../scss/old/_templates.scss */
 body#tinymce .box.box-small,
+.mosaic-tile-content .box.box-small,
 #content-core #parent-fieldname-text .box.box-small {
   padding: 0.5rem;
 }
@@ -5286,6 +6017,25 @@ body.template-cas-controlpanel #accordionLogin {
 /* line 1, ../scss/controlpanels/_cookies.scss */
 #cookies-gw-preview {
   position: inherit;
+}
+
+/* line 3, ../scss/controlpanels/_footer.scss */
+body.template-footer-controlpanel #formfield-form-widgets-signatura_ca,
+body.template-footer-controlpanel #formfield-form-widgets-signatura_es,
+body.template-footer-controlpanel #formfield-form-widgets-table_links_ca,
+body.template-footer-controlpanel #formfield-form-widgets-table_links_es,
+body.template-footer-controlpanel #formfield-form-widgets-title_links_ca,
+body.template-footer-controlpanel #formfield-form-widgets-title_links_es {
+  width: 32%;
+  margin-right: 2%;
+  float: left;
+}
+/* line 14, ../scss/controlpanels/_footer.scss */
+body.template-footer-controlpanel #formfield-form-widgets-signatura_en,
+body.template-footer-controlpanel #formfield-form-widgets-table_links_en,
+body.template-footer-controlpanel #formfield-form-widgets-title_links_en {
+  width: 32%;
+  float: right;
 }
 
 /* line 3, ../scss/controlpanels/_header.scss */
@@ -6344,233 +7094,6 @@ div.portlet.portletLogin a.btn {
   margin-bottom: 0;
 }
 
-/* Tile video */
-/* line 4, ../scss/tiles/video.scss */
-.mosaic-video-tile article {
-  margin: auto !important;
-}
-/* line 8, ../scss/tiles/video.scss */
-.mosaic-video-tile .video-section .video_upc {
-  object-fit: cover;
-  left: initial !important;
-  top: 0;
-  width: 1140px;
-  margin: 0 auto;
-  height: 100%;
-  position: relative;
-  z-index: 0;
-  transition: all 0.5s ease;
-  border-radius: 0;
-}
-/* line 20, ../scss/tiles/video.scss */
-.mosaic-video-tile .video-section iframe.embed {
-  height: 73vh;
-  object-fit: unset;
-  top: unset;
-  width: auto;
-  margin: unset;
-}
-
-/* line 30, ../scss/tiles/video.scss */
-.video-highlighted {
-  background: #252525;
-  text-align: center;
-  min-height: 100%;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  justify-content: center;
-  flex-direction: column;
-  overflow: auto;
-  position: relative;
-  margin-bottom: 48px;
-  max-width: 100%;
-}
-/* line 46, ../scss/tiles/video.scss */
-.video-highlighted.compat-object-fit {
-  background-size: cover;
-  background-position: center;
-}
-/* line 51, ../scss/tiles/video.scss */
-.video-highlighted article {
-  z-index: 2;
-  margin: 80px 0;
-}
-/* line 54, ../scss/tiles/video.scss */
-.video-highlighted article h2 {
-  margin-top: 0;
-  color: #fff;
-}
-/* line 58, ../scss/tiles/video.scss */
-.video-highlighted article p {
-  color: #fff;
-}
-/* line 61, ../scss/tiles/video.scss */
-.video-highlighted article :last-child {
-  margin-bottom: 0;
-}
-
-/* line 67, ../scss/tiles/video.scss */
-.titolvideoblack {
-  width: 1140px;
-  margin: 0 auto;
-  margin-bottom: 0px;
-  background: rgba(0, 0, 0, 0.75);
-  padding: 1vh;
-}
-/* line 73, ../scss/tiles/video.scss */
-.titolvideoblack h2 {
-  color: #edf1f2 !important;
-}
-/* line 76, ../scss/tiles/video.scss */
-.titolvideoblack a {
-  padding: 0;
-}
-/* line 78, ../scss/tiles/video.scss */
-.titolvideoblack a h2 {
-  color: #edf1f2 !important;
-}
-/* line 81, ../scss/tiles/video.scss */
-.titolvideoblack a:hover {
-  color: #edf1f2;
-}
-
-/* line 87, ../scss/tiles/video.scss */
-.titolvideowhite {
-  width: 1140px;
-  margin: 0 auto;
-  margin-bottom: 0px;
-  background: #edf1f2;
-  padding: 1vh;
-}
-/* line 93, ../scss/tiles/video.scss */
-.titolvideowhite h2 {
-  color: #4a4a4a !important;
-}
-/* line 96, ../scss/tiles/video.scss */
-.titolvideowhite a {
-  padding: 0;
-}
-/* line 98, ../scss/tiles/video.scss */
-.titolvideowhite a h2 {
-  color: #4a4a4a !important;
-}
-/* line 101, ../scss/tiles/video.scss */
-.titolvideowhite a:hover {
-  color: #4a4a4a;
-}
-
-/* line 107, ../scss/tiles/video.scss */
-.cei {
-  padding-right: 1rem;
-}
-
-/* line 111, ../scss/tiles/video.scss */
-.video-section.hero-posicio-inferior-centre.video-highlighted > div > a::after {
-  display: none;
-}
-
-@media (max-width: 1140px) {
-  /* line 116, ../scss/tiles/video.scss */
-  .mosaic-video-tile .video-section .video_upc {
-    position: relative;
-    object-fit: cover;
-    width: 100%;
-    height: 73vh;
-  }
-
-  /* line 122, ../scss/tiles/video.scss */
-  .mosaic-video-tile .video-section iframe.embed {
-    height: 39vh;
-  }
-
-  /* line 125, ../scss/tiles/video.scss */
-  .titolvideowhite,
-  .titolvideoblack {
-    width: 100%;
-  }
-  /* line 128, ../scss/tiles/video.scss */
-  .titolvideowhite h2,
-  .titolvideoblack h2 {
-    font-size: 1.5rem;
-  }
-
-  /* line 132, ../scss/tiles/video.scss */
-  .video-highlighted {
-    padding-bottom: 0px;
-  }
-}
-@media (max-width: 1140px) and (orientation: landscape) {
-  /* line 138, ../scss/tiles/video.scss */
-  .mosaic-video-tile .video-section iframe.embed {
-    height: 73vh;
-  }
-}
-@media (max-width: 768px) {
-  /* line 144, ../scss/tiles/video.scss */
-  .peu-multi {
-    flex-direction: column !important;
-    padding: 1rem;
-  }
-
-  /* line 148, ../scss/tiles/video.scss */
-  .images-right {
-    float: none !important;
-  }
-
-  /* line 152, ../scss/tiles/video.scss */
-  li.upc-eines-cerca input {
-    width: 630px !important;
-  }
-}
-@media (max-width: 768px) and (orientation: landscape) {
-  /* line 159, ../scss/tiles/video.scss */
-  .mosaic-video-tile .video-section iframe.embed {
-    height: 108vh;
-  }
-}
-@media (max-width: 600px) {
-  /* line 166, ../scss/tiles/video.scss */
-  li.upc-eines-cerca input {
-    width: 292px !important;
-  }
-}
-@media (max-width: 414px) {
-  /* line 173, ../scss/tiles/video.scss */
-  .mosaic-video-tile .video-section .video_upc {
-    height: 70vh;
-  }
-
-  /* line 176, ../scss/tiles/video.scss */
-  .mosaic-video-tile .video-section iframe.embed {
-    height: 34vh;
-  }
-
-  /* line 180, ../scss/tiles/video.scss */
-  li.upc-eines-cerca input {
-    width: 240px !important;
-  }
-}
-@media (max-width: 360px) {
-  /* line 187, ../scss/tiles/video.scss */
-  .mosaic-video-tile .video-section .video_upc {
-    height: 67vh;
-  }
-
-  /* line 190, ../scss/tiles/video.scss */
-  .mosaic-video-tile .video-section iframe.embed {
-    height: 34vh;
-  }
-
-  /* line 194, ../scss/tiles/video.scss */
-  li.upc-eines-cerca input {
-    width: 187px !important;
-  }
-}
-/* fi Tile video */
 /* destacat 4 esdeveniments */
 /* line 62, ../scss/tiles/destacats_4_esdeveniments.scss */
 .content-agenda {
@@ -7148,6 +7671,233 @@ section.content-hotnews a.stretched-link[target=_blank] p::after {
     height: fit-content;
   }
 }
+/* Tile video */
+/* line 4, ../scss/tiles/video.scss */
+.mosaic-video-tile article {
+  margin: auto !important;
+}
+/* line 8, ../scss/tiles/video.scss */
+.mosaic-video-tile .video-section .video_upc {
+  object-fit: cover;
+  left: initial !important;
+  top: 0;
+  width: 1140px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+  transition: all 0.5s ease;
+  border-radius: 0;
+}
+/* line 20, ../scss/tiles/video.scss */
+.mosaic-video-tile .video-section iframe.embed {
+  height: 73vh;
+  object-fit: unset;
+  top: unset;
+  width: auto;
+  margin: unset;
+}
+
+/* line 30, ../scss/tiles/video.scss */
+.video-highlighted {
+  background: #252525;
+  text-align: center;
+  min-height: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  justify-content: center;
+  flex-direction: column;
+  overflow: auto;
+  position: relative;
+  margin-bottom: 48px;
+  max-width: 100%;
+}
+/* line 46, ../scss/tiles/video.scss */
+.video-highlighted.compat-object-fit {
+  background-size: cover;
+  background-position: center;
+}
+/* line 51, ../scss/tiles/video.scss */
+.video-highlighted article {
+  z-index: 2;
+  margin: 80px 0;
+}
+/* line 54, ../scss/tiles/video.scss */
+.video-highlighted article h2 {
+  margin-top: 0;
+  color: #fff;
+}
+/* line 58, ../scss/tiles/video.scss */
+.video-highlighted article p {
+  color: #fff;
+}
+/* line 61, ../scss/tiles/video.scss */
+.video-highlighted article :last-child {
+  margin-bottom: 0;
+}
+
+/* line 67, ../scss/tiles/video.scss */
+.titolvideoblack {
+  width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 1vh;
+}
+/* line 73, ../scss/tiles/video.scss */
+.titolvideoblack h2 {
+  color: #edf1f2 !important;
+}
+/* line 76, ../scss/tiles/video.scss */
+.titolvideoblack a {
+  padding: 0;
+}
+/* line 78, ../scss/tiles/video.scss */
+.titolvideoblack a h2 {
+  color: #edf1f2 !important;
+}
+/* line 81, ../scss/tiles/video.scss */
+.titolvideoblack a:hover {
+  color: #edf1f2;
+}
+
+/* line 87, ../scss/tiles/video.scss */
+.titolvideowhite {
+  width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  background: #edf1f2;
+  padding: 1vh;
+}
+/* line 93, ../scss/tiles/video.scss */
+.titolvideowhite h2 {
+  color: #4a4a4a !important;
+}
+/* line 96, ../scss/tiles/video.scss */
+.titolvideowhite a {
+  padding: 0;
+}
+/* line 98, ../scss/tiles/video.scss */
+.titolvideowhite a h2 {
+  color: #4a4a4a !important;
+}
+/* line 101, ../scss/tiles/video.scss */
+.titolvideowhite a:hover {
+  color: #4a4a4a;
+}
+
+/* line 107, ../scss/tiles/video.scss */
+.cei {
+  padding-right: 1rem;
+}
+
+/* line 111, ../scss/tiles/video.scss */
+.video-section.hero-posicio-inferior-centre.video-highlighted > div > a::after {
+  display: none;
+}
+
+@media (max-width: 1140px) {
+  /* line 116, ../scss/tiles/video.scss */
+  .mosaic-video-tile .video-section .video_upc {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 73vh;
+  }
+
+  /* line 122, ../scss/tiles/video.scss */
+  .mosaic-video-tile .video-section iframe.embed {
+    height: 39vh;
+  }
+
+  /* line 125, ../scss/tiles/video.scss */
+  .titolvideowhite,
+  .titolvideoblack {
+    width: 100%;
+  }
+  /* line 128, ../scss/tiles/video.scss */
+  .titolvideowhite h2,
+  .titolvideoblack h2 {
+    font-size: 1.5rem;
+  }
+
+  /* line 132, ../scss/tiles/video.scss */
+  .video-highlighted {
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 1140px) and (orientation: landscape) {
+  /* line 138, ../scss/tiles/video.scss */
+  .mosaic-video-tile .video-section iframe.embed {
+    height: 73vh;
+  }
+}
+@media (max-width: 768px) {
+  /* line 144, ../scss/tiles/video.scss */
+  .peu-multi {
+    flex-direction: column !important;
+    padding: 1rem;
+  }
+
+  /* line 148, ../scss/tiles/video.scss */
+  .images-right {
+    float: none !important;
+  }
+
+  /* line 152, ../scss/tiles/video.scss */
+  li.upc-eines-cerca input {
+    width: 630px !important;
+  }
+}
+@media (max-width: 768px) and (orientation: landscape) {
+  /* line 159, ../scss/tiles/video.scss */
+  .mosaic-video-tile .video-section iframe.embed {
+    height: 108vh;
+  }
+}
+@media (max-width: 600px) {
+  /* line 166, ../scss/tiles/video.scss */
+  li.upc-eines-cerca input {
+    width: 292px !important;
+  }
+}
+@media (max-width: 414px) {
+  /* line 173, ../scss/tiles/video.scss */
+  .mosaic-video-tile .video-section .video_upc {
+    height: 70vh;
+  }
+
+  /* line 176, ../scss/tiles/video.scss */
+  .mosaic-video-tile .video-section iframe.embed {
+    height: 34vh;
+  }
+
+  /* line 180, ../scss/tiles/video.scss */
+  li.upc-eines-cerca input {
+    width: 240px !important;
+  }
+}
+@media (max-width: 360px) {
+  /* line 187, ../scss/tiles/video.scss */
+  .mosaic-video-tile .video-section .video_upc {
+    height: 67vh;
+  }
+
+  /* line 190, ../scss/tiles/video.scss */
+  .mosaic-video-tile .video-section iframe.embed {
+    height: 34vh;
+  }
+
+  /* line 194, ../scss/tiles/video.scss */
+  li.upc-eines-cerca input {
+    width: 187px !important;
+  }
+}
+/* fi Tile video */
 /* line 1, ../scss/viewlets/_breadcrumb.scss */
 #portal-breadcrumbs {
   background-color: #ffffff;
@@ -7222,10 +7972,23 @@ body.plone-toolbar-left div#edit-zone .dropdown-menu {
 }
 
 /* line 1, ../scss/viewlets/_footer.scss */
+footer#portal-footer-wrapper {
+  background-color: initial;
+  color: initial;
+  text-align: initial;
+  padding: 0rem;
+}
+/* line 9, ../scss/viewlets/_footer.scss */
+footer#portal-footer-wrapper [id^="footer-"] h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+}
+
+/* line 16, ../scss/viewlets/_footer.scss */
 #portal-footer {
   position: relative;
 }
-/* line 4, ../scss/viewlets/_footer.scss */
+/* line 19, ../scss/viewlets/_footer.scss */
 #portal-footer::before {
   content: ' ';
   display: block;
@@ -7234,59 +7997,59 @@ body.plone-toolbar-left div#edit-zone .dropdown-menu {
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(@@gw-hero);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/@@gw-hero);
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
   z-index: -1;
 }
-/* line 19, ../scss/viewlets/_footer.scss */
+/* line 34, ../scss/viewlets/_footer.scss */
 #portal-footer div[id^='footer-']:not(.show-image) {
   background-color: var(--bs-dark);
 }
 
-/* line 24, ../scss/viewlets/_footer.scss */
+/* line 39, ../scss/viewlets/_footer.scss */
 #footer-logos {
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 2em 4em 1em 4em;
   background-color: var(--bs-body-bg);
   border-top: 1px solid var(--bs-gray-300);
 }
-/* line 30, ../scss/viewlets/_footer.scss */
+/* line 45, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos {
   margin: 0 auto;
   padding: 0;
   list-style: none;
   text-align: center;
 }
-/* line 36, ../scss/viewlets/_footer.scss */
+/* line 51, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li {
   display: inline-block;
   margin: 0 0 1em;
 }
-/* line 40, ../scss/viewlets/_footer.scss */
+/* line 55, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a {
   text-decoration: none;
   margin-left: 2em;
 }
-/* line 44, ../scss/viewlets/_footer.scss */
+/* line 59, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a[target="_blank"]::after {
   display: none;
   content: "";
 }
-/* line 49, ../scss/viewlets/_footer.scss */
+/* line 64, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a img {
   max-height: 90px;
   border-radius: 7px;
 }
 
-/* line 58, ../scss/viewlets/_footer.scss */
+/* line 73, ../scss/viewlets/_footer.scss */
 #footer-links {
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
-  padding: 2em 4em 0em 4em;
+  padding: 0em 4em 0em 4em;
   color: var(--bs-body-bg);
 }
-/* line 63, ../scss/viewlets/_footer.scss */
+/* line 78, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer {
   padding-left: 0;
   padding-bottom: 0;
@@ -7294,97 +8057,127 @@ body.plone-toolbar-left div#edit-zone .dropdown-menu {
   flex-wrap: wrap;
   gap: 1rem;
 }
-/* line 70, ../scss/viewlets/_footer.scss */
+/* line 85, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li {
-  flex: 1 1 30%;
+  flex-basis: 32%;
   list-style: none;
   font-weight: 500;
   font-size: var(--bs-font-size-xxxl);
+  margin-top: 2em;
 }
-/* line 76, ../scss/viewlets/_footer.scss */
+@media (max-width: 768px) {
+  /* line 85, ../scss/viewlets/_footer.scss */
+  #footer-links ul.navbar-nav-footer > li {
+    flex-basis: 49%;
+  }
+}
+/* line 96, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li:not(.has_subtree) {
   display: none;
 }
-@media (max-width: 768px) {
-  /* line 70, ../scss/viewlets/_footer.scss */
-  #footer-links ul.navbar-nav-footer > li {
-    flex: 1 1 49%;
-  }
-}
-/* line 84, ../scss/viewlets/_footer.scss */
+/* line 100, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li > a, #footer-links ul.navbar-nav-footer > li > p {
   margin-bottom: 1rem;
 }
-/* line 89, ../scss/viewlets/_footer.scss */
+/* line 105, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li > a:hover {
   font-weight: 700;
 }
-/* line 93, ../scss/viewlets/_footer.scss */
+/* line 109, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li > ul {
   margin-left: -15px;
   list-style: disc;
 }
-/* line 97, ../scss/viewlets/_footer.scss */
+/* line 113, ../scss/viewlets/_footer.scss */
+#footer-links ul.navbar-nav-footer > li > ul.navbar-nav-footer-no-folders {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+/* line 118, ../scss/viewlets/_footer.scss */
+#footer-links ul.navbar-nav-footer > li > ul.navbar-nav-footer-no-folders > li {
+  font-weight: 500;
+  font-size: var(--bs-font-size-xxxl);
+}
+/* line 122, ../scss/viewlets/_footer.scss */
+#footer-links ul.navbar-nav-footer > li > ul.navbar-nav-footer-no-folders > li > a:hover {
+  font-weight: 700;
+}
+/* line 126, ../scss/viewlets/_footer.scss */
+#footer-links ul.navbar-nav-footer > li > ul.navbar-nav-footer-no-folders > li.has_subtree {
+  display: none;
+}
+/* line 132, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li > ul > li {
   font-weight: 300;
   font-size: 1rem;
 }
-/* line 101, ../scss/viewlets/_footer.scss */
+/* line 136, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li > ul > li > a {
-  margin-bottom: 0rem;
+  margin-bottom: 5px;
 }
-/* line 104, ../scss/viewlets/_footer.scss */
+/* line 139, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li > ul > li > a:hover {
   font-weight: 500;
 }
+@media (max-width: 768px) {
+  /* line 150, ../scss/viewlets/_footer.scss */
+  #footer-links .col-md-9 {
+    order: 2;
+  }
+  /* line 154, ../scss/viewlets/_footer.scss */
+  #footer-links .col-md-3 {
+    order: 1;
+  }
+}
 
-/* line 114, ../scss/viewlets/_footer.scss */
+/* line 160, ../scss/viewlets/_footer.scss */
 #footer-complementary {
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 0 4em;
 }
-/* line 118, ../scss/viewlets/_footer.scss */
+/* line 164, ../scss/viewlets/_footer.scss */
 #footer-complementary p {
   display: inline-block;
   margin: 18px 0;
   color: #FFF;
 }
-/* line 124, ../scss/viewlets/_footer.scss */
+/* line 170, ../scss/viewlets/_footer.scss */
 #footer-complementary nav {
   float: right;
   margin: 18px 0;
   text-align: right;
 }
-/* line 129, ../scss/viewlets/_footer.scss */
+/* line 175, ../scss/viewlets/_footer.scss */
 #footer-complementary nav li {
   white-space: nowrap;
   margin-left: 24px;
 }
-/* line 134, ../scss/viewlets/_footer.scss */
+/* line 180, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul,
 #footer-complementary nav li {
   display: inline;
   padding: 0;
 }
-/* line 139, ../scss/viewlets/_footer.scss */
+/* line 185, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul a,
 #footer-complementary nav li a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 143, ../scss/viewlets/_footer.scss */
+/* line 189, ../scss/viewlets/_footer.scss */
 #footer-complementary nav ul a:hover,
 #footer-complementary nav li a:hover {
   font-weight: 400;
 }
 
 @media (max-width: 768px) {
-  /* line 153, ../scss/viewlets/_footer.scss */
+  /* line 199, ../scss/viewlets/_footer.scss */
   #footer-complementary nav {
     float: left;
     text-align: left;
   }
-  /* line 157, ../scss/viewlets/_footer.scss */
+  /* line 203, ../scss/viewlets/_footer.scss */
   #footer-complementary nav li {
     margin-right: 24px;
     margin-left: 0;
@@ -7435,7 +8228,7 @@ body.plone-toolbar-left div#edit-zone .dropdown-menu {
 }
 /* line 44, ../scss/viewlets/_header.scss */
 #header #portal-logos img {
-  max-height: 60px;
+  max-height: 50px;
 }
 /* line 47, ../scss/viewlets/_header.scss */
 #header #portal-logos img.img-responsive {
@@ -7463,31 +8256,36 @@ body.plone-toolbar-left div#edit-zone .dropdown-menu {
 #header #portal-navbar .navbar-nav .nav-item:hover a {
   color: var(--bs-primary);
 }
-/* line 78, ../scss/viewlets/_header.scss */
-#header #portal-navbar .navbar-nav .nav-item label::after {
-  transition: initial;
-}
-/* line 85, ../scss/viewlets/_header.scss */
+/* line 81, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) {
   position: initial;
   display: inline;
   vertical-align: middle;
   padding: 0 0 0 15px;
 }
-/* line 91, ../scss/viewlets/_header.scss */
-#header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang):hover {
-  padding: 18px 0 18px 15px;
-}
-/* line 95, ../scss/viewlets/_header.scss */
+/* line 87, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > a.nav-link {
   padding: 6px 6px 6px 0px;
   float: left;
 }
-/* line 100, ../scss/viewlets/_header.scss */
+/* line 92, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > label {
   position: relative;
 }
-/* line 104, ../scss/viewlets/_header.scss */
+/* line 95, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > label::after {
+  font-family: bootstrap-icons !important;
+  content: "\f282";
+}
+/* line 101, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang):hover {
+  padding: 18px 0 18px 15px;
+}
+/* line 106, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang):hover > label::after {
+  transform: rotate(180deg);
+}
+/* line 112, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul {
   display: flex;
   flex-wrap: wrap;
@@ -7499,7 +8297,7 @@ body.plone-toolbar-left div#edit-zone .dropdown-menu {
   background-color: #212529DD;
   border: 0px solid transparent;
 }
-/* line 115, ../scss/viewlets/_header.scss */
+/* line 123, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul li.nav-item {
   flex: 1 0 calc(100% / 6);
   text-align: left;
@@ -7507,24 +8305,24 @@ body.plone-toolbar-left div#edit-zone .dropdown-menu {
   border-left: 1px solid #ebebeb;
   max-width: calc(100% / 6);
 }
-/* line 123, ../scss/viewlets/_header.scss */
+/* line 131, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul li.nav-item a.nav-link {
   color: var(--bs-white);
 }
-/* line 130, ../scss/viewlets/_header.scss */
+/* line 138, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul li.has_subtree ul, #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul li.has_subtree > label {
   display: none;
 }
-/* line 138, ../scss/viewlets/_header.scss */
+/* line 146, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > label {
   height: 2.1em;
   margin-top: 2px;
 }
-/* line 143, ../scss/viewlets/_header.scss */
+/* line 151, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > a.nav-link {
   padding-right: 1em;
 }
-/* line 147, ../scss/viewlets/_header.scss */
+/* line 155, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul {
   width: max-content;
   max-width: 350px;
@@ -7535,17 +8333,17 @@ body.plone-toolbar-left div#edit-zone .dropdown-menu {
   background-color: #fff;
   border: 1px solid #ebebeb;
 }
-/* line 157, ../scss/viewlets/_header.scss */
+/* line 165, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item {
   text-align: right;
   border-bottom: 1px solid #ebebeb;
   text-shadow: none;
 }
-/* line 162, ../scss/viewlets/_header.scss */
+/* line 170, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item::last-child {
   border-bottom: 0px solid;
 }
-/* line 166, ../scss/viewlets/_header.scss */
+/* line 174, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item a.nav-link {
   min-width: auto;
   padding-right: 0em;
@@ -7553,31 +8351,31 @@ body.plone-toolbar-left div#edit-zone .dropdown-menu {
   line-height: 18px;
   color: #666;
 }
-/* line 173, ../scss/viewlets/_header.scss */
+/* line 181, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item a.nav-link:hover {
   color: var(--bs-primary);
 }
-/* line 179, ../scss/viewlets/_header.scss */
+/* line 187, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item:hover {
   background-color: var(--bs-primary);
 }
-/* line 182, ../scss/viewlets/_header.scss */
+/* line 190, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item:hover a.nav-link {
   color: #FFF;
 }
-/* line 190, ../scss/viewlets/_header.scss */
+/* line 198, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul {
   flex-direction: row;
 }
-/* line 193, ../scss/viewlets/_header.scss */
+/* line 201, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul li {
   padding: 0 15px 0 15px;
 }
-/* line 196, ../scss/viewlets/_header.scss */
+/* line 204, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul li.nav-lang, #header #portal-navbar ul li.nav-action {
   padding: 0 0 0 15px;
 }
-/* line 206, ../scss/viewlets/_header.scss */
+/* line 214, ../scss/viewlets/_header.scss */
 #header #portal-searchbox input#searchGadget {
   width: 0;
   padding: 0;
@@ -7588,25 +8386,25 @@ body.plone-toolbar-left div#edit-zone .dropdown-menu {
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
 }
-/* line 219, ../scss/viewlets/_header.scss */
+/* line 227, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form input#searchGadget {
   margin-left: 0rem;
 }
-/* line 222, ../scss/viewlets/_header.scss */
+/* line 230, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form input#searchGadget:focus, #header #portal-searchbox #searchGadget_form input#searchGadget:not(:placeholder-shown) {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
   margin-left: 0.75rem;
 }
-/* line 233, ../scss/viewlets/_header.scss */
+/* line 241, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form:hover input#searchGadget {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
   margin-left: 0.75rem;
 }
-/* line 243, ../scss/viewlets/_header.scss */
+/* line 251, ../scss/viewlets/_header.scss */
 #header #portal-searchbox button.searchButton {
   background: none;
   color: inherit;
@@ -7617,70 +8415,70 @@ body.plone-toolbar-left div#edit-zone .dropdown-menu {
   outline: inherit;
 }
 @media (min-width: 992px) {
-  /* line 255, ../scss/viewlets/_header.scss */
+  /* line 263, ../scss/viewlets/_header.scss */
   #header #portal-searchbox .livesearch-results {
     margin-top: 0.5rem;
     right: 4em;
   }
 }
 
-/* line 263, ../scss/viewlets/_header.scss */
+/* line 271, ../scss/viewlets/_header.scss */
 #header.shink {
   background-color: #212529DD;
   height: 72px;
 }
-/* line 269, ../scss/viewlets/_header.scss */
+/* line 277, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img {
   max-height: 40px;
 }
-/* line 272, ../scss/viewlets/_header.scss */
+/* line 280, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img.img-desktop {
   display: none;
 }
-/* line 276, ../scss/viewlets/_header.scss */
+/* line 284, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img.img-responsive {
   display: block;
 }
 
-/* line 285, ../scss/viewlets/_header.scss */
+/* line 293, ../scss/viewlets/_header.scss */
 #header:not(.shink) #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang):hover {
   padding: 28px 0 28px 15px;
 }
-/* line 288, ../scss/viewlets/_header.scss */
+/* line 296, ../scss/viewlets/_header.scss */
 #header:not(.shink) #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang):hover > ul {
   top: 92px;
 }
 
-/* line 296, ../scss/viewlets/_header.scss */
+/* line 304, ../scss/viewlets/_header.scss */
 #header.old-style:not(.shink) #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul {
   background-color: var(--bs-dark);
 }
 
-/* line 303, ../scss/viewlets/_header.scss */
+/* line 311, ../scss/viewlets/_header.scss */
 #header-cintillo + #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul {
   top: calc(72px + 85px);
 }
-/* line 309, ../scss/viewlets/_header.scss */
+/* line 317, ../scss/viewlets/_header.scss */
 #header-cintillo + #header:not(.shink) #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul {
   top: calc(92px + 85px);
 }
 
-/* line 317, ../scss/viewlets/_header.scss */
+/* line 325, ../scss/viewlets/_header.scss */
 body.template-homepage #hero {
   margin-bottom: 2rem;
 }
 
-/* line 322, ../scss/viewlets/_header.scss */
+/* line 330, ../scss/viewlets/_header.scss */
 #hero {
   text-align: center;
   position: relative;
 }
-/* line 326, ../scss/viewlets/_header.scss */
+/* line 334, ../scss/viewlets/_header.scss */
 #hero.old-style {
   height: 126px;
   box-shadow: 0 -126px 0 #000;
 }
-/* line 330, ../scss/viewlets/_header.scss */
+/* line 338, ../scss/viewlets/_header.scss */
 #hero.old-style > h1 {
   top: 50%;
   left: 50%;
@@ -7689,35 +8487,35 @@ body.template-homepage #hero {
   width: 100%;
   max-width: 1320px;
 }
-/* line 340, ../scss/viewlets/_header.scss */
+/* line 348, ../scss/viewlets/_header.scss */
 #hero.new-style {
   height: 600px;
   margin-top: -92px;
 }
-/* line 344, ../scss/viewlets/_header.scss */
+/* line 352, ../scss/viewlets/_header.scss */
 #hero.new-style > div {
   top: calc(50% + 46px);
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
 }
-/* line 350, ../scss/viewlets/_header.scss */
+/* line 358, ../scss/viewlets/_header.scss */
 #hero.new-style > div .line {
   width: 50%;
   border-top: 3px solid white;
   margin: 10px auto;
 }
-/* line 357, ../scss/viewlets/_header.scss */
+/* line 365, ../scss/viewlets/_header.scss */
 #hero.new-style img {
   filter: brightness(40%);
 }
-/* line 362, ../scss/viewlets/_header.scss */
+/* line 370, ../scss/viewlets/_header.scss */
 #hero img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-/* line 368, ../scss/viewlets/_header.scss */
+/* line 376, ../scss/viewlets/_header.scss */
 #hero h2,
 #hero h1 {
   font-weight: 700;
@@ -8125,9 +8923,51 @@ body.template-sharing main#main-container article#content .mb-3 button#sharing-s
   width: 18%;
 }
 
-/* line 7, ../scss/views/_site_map.scss */
-body.template-sitemap #content #content-core class.navTreeItem.visualNoMarker {
+/* line 5, ../scss/views/_site_map.scss */
+body.template-sitemap #content-core #portal-sitemap {
+  margin-top: 2rem;
+  padding-left: 0;
+}
+/* line 9, ../scss/views/_site_map.scss */
+body.template-sitemap #content-core #portal-sitemap li {
+  list-style: none;
   padding-bottom: 8px;
+}
+/* line 13, ../scss/views/_site_map.scss */
+body.template-sitemap #content-core #portal-sitemap li a {
+  text-decoration: none;
+}
+/* line 18, ../scss/views/_site_map.scss */
+body.template-sitemap #content-core #portal-sitemap > li.navTreeItem {
+  padding-bottom: 1rem;
+}
+/* line 21, ../scss/views/_site_map.scss */
+body.template-sitemap #content-core #portal-sitemap > li.navTreeItem > a {
+  display: block;
+  width: 100%;
+  font-size: var(--bs-font-size-xxxl);
+  border-bottom: 1px solid var(--bs-gray-300);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--bs-link-color);
+}
+/* line 31, ../scss/views/_site_map.scss */
+body.template-sitemap #content-core #portal-sitemap > li.navTreeItem > ul {
+  padding-left: 0px;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 2em;
+  -moz-column-gap: 2em;
+  column-gap: 2em;
+  -webkit-column-fill: auto;
+  -moz-column-fill: auto;
+  column-fill: auto;
+  color: var(--bs-link-hover-color);
+}
+/* line 44, ../scss/views/_site_map.scss */
+body.template-sitemap #content-core #portal-sitemap > li.navTreeItem > ul ::hover {
+  color: black;
 }
 
 /* line 7, ../scss/views/_album_view.scss */
@@ -8141,18 +8981,30 @@ body.template-album_view #main-container.row #content-core .mb-5 {
   min-width: 30%;
   max-width: 30%;
 }
-/* line 20, ../scss/views/_album_view.scss */
-body.template-album_view #main-container.row #content-core .card-image.d-flex .justify-content-center.align-items-center img {
-  border-radius: 7px;
+@media (max-width: 768px) {
+  /* line 13, ../scss/views/_album_view.scss */
+  body.template-album_view #main-container.row #content-core .mb-5 {
+    min-width: 100%;
+    max-width: 100%;
+  }
 }
 /* line 26, ../scss/views/_album_view.scss */
+body.template-album_view #main-container.row #content-core .card-image img {
+  border-radius: 7px;
+}
+/* line 32, ../scss/views/_album_view.scss */
 body.template-album_view #main-container.row #content-core .card-link-container {
   display: flex;
   align-items: flex-end;
   padding: 16px;
 }
-/* line 31, ../scss/views/_album_view.scss */
+/* line 37, ../scss/views/_album_view.scss */
 body.template-album_view #main-container.row #content-core .card-link-container a.card-link {
+  text-decoration: none;
+}
+
+/* line 5, ../scss/views/_event_listing.scss */
+body.template-event_listing #content-core a.url {
   text-decoration: none;
 }
 
@@ -8548,6 +9400,10 @@ body.template-tabular_view #content-core td:first-child {
 /* line 20, ../scss/views/_tabular_view.scss */
 body.template-tabular_view #content-core td:last-child {
   width: 15%;
+}
+/* line 24, ../scss/views/_tabular_view.scss */
+body.template-tabular_view #content-core td .plone-icon {
+  height: 1em;
 }
 
 @media print {

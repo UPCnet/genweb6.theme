@@ -1,0 +1,20 @@
+body.template-footer-controlpanel {
+
+  #formfield-form-widgets-signatura_ca,
+  #formfield-form-widgets-signatura_es,
+  #formfield-form-widgets-table_links_ca,
+  #formfield-form-widgets-table_links_es,
+  #formfield-form-widgets-title_links_ca,
+  #formfield-form-widgets-title_links_es {
+    width: 32%;
+    margin-right: 2%;
+    float: left;
+  }
+
+  #formfield-form-widgets-signatura_en,
+  #formfield-form-widgets-table_links_en,
+  #formfield-form-widgets-title_links_en {
+    width: 32%;
+    float: right;
+  }
+}
