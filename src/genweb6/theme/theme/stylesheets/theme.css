@@ -6865,23 +6865,23 @@ div.portlet.portletLogin a.btn {
 }
 
 @media (min-width: 992px) {
-  /* line 34, ../scss/tiles/_destacat_principal.scss */
+  /* line 33, ../scss/tiles/_destacat_principal.scss */
   #hero a {
     width: auto;
   }
 
-  /* line 38, ../scss/tiles/_destacat_principal.scss */
+  /* line 37, ../scss/tiles/_destacat_principal.scss */
   .hero-posicio-superior-esquerra article {
     position: absolute;
   }
-  /* line 41, ../scss/tiles/_destacat_principal.scss */
+  /* line 40, ../scss/tiles/_destacat_principal.scss */
   .hero-posicio-superior-esquerra a {
     position: absolute;
     left: 15px;
     top: -70px;
   }
 
-  /* line 48, ../scss/tiles/_destacat_principal.scss */
+  /* line 47, ../scss/tiles/_destacat_principal.scss */
   .hero-posicio-superior-centre article {
     position: absolute;
     right: 0;
@@ -6890,35 +6890,35 @@ div.portlet.portletLogin a.btn {
     margin: 0 !important;
     padding: 0;
   }
-  /* line 56, ../scss/tiles/_destacat_principal.scss */
+  /* line 55, ../scss/tiles/_destacat_principal.scss */
   .hero-posicio-superior-centre a {
     width: 100% !important;
   }
 
-  /* line 61, ../scss/tiles/_destacat_principal.scss */
+  /* line 60, ../scss/tiles/_destacat_principal.scss */
   .hero-posicio-superior-dreta article {
     position: absolute;
   }
-  /* line 64, ../scss/tiles/_destacat_principal.scss */
+  /* line 63, ../scss/tiles/_destacat_principal.scss */
   .hero-posicio-superior-dreta a {
     position: absolute;
     right: 15px;
     top: -70px;
   }
 
-  /* line 71, ../scss/tiles/_destacat_principal.scss */
+  /* line 70, ../scss/tiles/_destacat_principal.scss */
   .hero-posicio-inferior-esquerra article {
     position: absolute;
     bottom: 0;
   }
-  /* line 75, ../scss/tiles/_destacat_principal.scss */
+  /* line 74, ../scss/tiles/_destacat_principal.scss */
   .hero-posicio-inferior-esquerra a {
     position: absolute;
     left: 15px;
     bottom: -70px;
   }
 
-  /* line 82, ../scss/tiles/_destacat_principal.scss */
+  /* line 81, ../scss/tiles/_destacat_principal.scss */
   .hero-posicio-inferior-centre article {
     position: absolute;
     right: 0;
@@ -6927,50 +6927,50 @@ div.portlet.portletLogin a.btn {
     margin: 0 !important;
     padding: 0;
   }
-  /* line 90, ../scss/tiles/_destacat_principal.scss */
+  /* line 89, ../scss/tiles/_destacat_principal.scss */
   .hero-posicio-inferior-centre a {
     width: 100% !important;
   }
 
-  /* line 95, ../scss/tiles/_destacat_principal.scss */
+  /* line 94, ../scss/tiles/_destacat_principal.scss */
   .hero-posicio-inferior-dreta article {
     position: absolute;
     bottom: 0;
   }
-  /* line 99, ../scss/tiles/_destacat_principal.scss */
+  /* line 98, ../scss/tiles/_destacat_principal.scss */
   .hero-posicio-inferior-dreta a {
     position: absolute;
     right: 15px;
     bottom: -70px;
   }
 
-  /* line 106, ../scss/tiles/_destacat_principal.scss */
+  /* line 105, ../scss/tiles/_destacat_principal.scss */
   section[class*="hero-posicio-cercle"] a {
     width: 360px !important;
     height: 360px;
     border-radius: 50%;
   }
-  /* line 110, ../scss/tiles/_destacat_principal.scss */
+  /* line 109, ../scss/tiles/_destacat_principal.scss */
   section[class*="hero-posicio-cercle"] a > h2 {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
   }
-  /* line 116, ../scss/tiles/_destacat_principal.scss */
+  /* line 115, ../scss/tiles/_destacat_principal.scss */
   section[class*="hero-posicio-cercle"] a.video-link > h2 {
     top: 45%;
   }
-  /* line 119, ../scss/tiles/_destacat_principal.scss */
+  /* line 118, ../scss/tiles/_destacat_principal.scss */
   section[class*="hero-posicio-cercle"] a.video-link:after {
     position: absolute;
     top: 53%;
     left: 48%;
   }
-  /* line 125, ../scss/tiles/_destacat_principal.scss */
+  /* line 124, ../scss/tiles/_destacat_principal.scss */
   section[class*="hero-posicio-cercle"] a:hover {
     transform: none;
   }
-  /* line 130, ../scss/tiles/_destacat_principal.scss */
+  /* line 129, ../scss/tiles/_destacat_principal.scss */
   section[class*="hero-posicio-cercle"] a[target="_blank"] h2:after {
     font-family: upc-icones;
     font-size: 1.125rem;
@@ -6978,51 +6978,51 @@ div.portlet.portletLogin a.btn {
     border-radius: 50%;
     padding: 5px;
   }
-  /* line 140, ../scss/tiles/_destacat_principal.scss */
+  /* line 139, ../scss/tiles/_destacat_principal.scss */
   section[class*="hero-posicio-cercle"].content-highlighted article {
     margin: 50px 0;
   }
-  /* line 143, ../scss/tiles/_destacat_principal.scss */
+  /* line 142, ../scss/tiles/_destacat_principal.scss */
   section[class*="hero-posicio-cercle"] p.lead.event-description {
     display: none !important;
   }
 
-  /* line 148, ../scss/tiles/_destacat_principal.scss */
+  /* line 147, ../scss/tiles/_destacat_principal.scss */
   .hero-posicio-cercle-esquerra a {
     position: relative;
     left: calc(180px - 50%);
   }
-  /* line 152, ../scss/tiles/_destacat_principal.scss */
+  /* line 151, ../scss/tiles/_destacat_principal.scss */
   .hero-posicio-cercle-esquerra a.video-link:after {
     left: 43% !important;
   }
 
-  /* line 159, ../scss/tiles/_destacat_principal.scss */
+  /* line 158, ../scss/tiles/_destacat_principal.scss */
   .hero-posicio-cercle-dreta a {
     position: relative;
     right: calc(180px - 50%);
   }
-  /* line 163, ../scss/tiles/_destacat_principal.scss */
+  /* line 162, ../scss/tiles/_destacat_principal.scss */
   .hero-posicio-cercle-dreta a.video-link:after {
     left: 43% !important;
   }
 
-  /* line 169, ../scss/tiles/_destacat_principal.scss */
+  /* line 168, ../scss/tiles/_destacat_principal.scss */
   .hero-color-blanc a {
     background: rgba(255, 255, 255, 0.75) !important;
   }
-  /* line 171, ../scss/tiles/_destacat_principal.scss */
+  /* line 170, ../scss/tiles/_destacat_principal.scss */
   .hero-color-blanc a h2,
   .hero-color-blanc a p, .hero-color-blanc a:after {
     color: #636363 !important;
   }
 }
-/* line 179, ../scss/tiles/_destacat_principal.scss */
+/* line 178, ../scss/tiles/_destacat_principal.scss */
 #hero p {
   font-size: 25px;
 }
 
-/* line 183, ../scss/tiles/_destacat_principal.scss */
+/* line 182, ../scss/tiles/_destacat_principal.scss */
 .content-highlighted {
   background: var(--bs-gray-300);
   text-align: center;
@@ -7032,7 +7032,7 @@ div.portlet.portletLogin a.btn {
   overflow: hidden;
   position: relative;
 }
-/* line 191, ../scss/tiles/_destacat_principal.scss */
+/* line 190, ../scss/tiles/_destacat_principal.scss */
 .content-highlighted::before {
   content: "";
   position: absolute;
@@ -7041,7 +7041,7 @@ div.portlet.portletLogin a.btn {
   z-index: 1;
   opacity: 0.69;
 }
-/* line 200, ../scss/tiles/_destacat_principal.scss */
+/* line 199, ../scss/tiles/_destacat_principal.scss */
 .content-highlighted::after {
   content: "";
   position: absolute;
@@ -7050,7 +7050,7 @@ div.portlet.portletLogin a.btn {
   z-index: 1;
   opacity: 0.3;
 }
-/* line 209, ../scss/tiles/_destacat_principal.scss */
+/* line 208, ../scss/tiles/_destacat_principal.scss */
 .content-highlighted img {
   object-fit: cover;
   left: 0;
@@ -7062,12 +7062,12 @@ div.portlet.portletLogin a.btn {
   transition: all .5s ease;
   border-radius: 0;
 }
-/* line 220, ../scss/tiles/_destacat_principal.scss */
+/* line 219, ../scss/tiles/_destacat_principal.scss */
 .content-highlighted.compat-object-fit {
   background-size: cover;
   background-position: center;
 }
-/* line 225, ../scss/tiles/_destacat_principal.scss */
+/* line 224, ../scss/tiles/_destacat_principal.scss */
 .content-highlighted a {
   text-decoration: none;
   background: rgba(0, 0, 0, 0.75);
@@ -7077,32 +7077,32 @@ div.portlet.portletLogin a.btn {
   transition: all .5s ease;
 }
 @media (max-width: 768px) {
-  /* line 225, ../scss/tiles/_destacat_principal.scss */
+  /* line 224, ../scss/tiles/_destacat_principal.scss */
   .content-highlighted a {
     width: 90vw;
     max-width: 540px;
   }
 }
-/* line 236, ../scss/tiles/_destacat_principal.scss */
+/* line 235, ../scss/tiles/_destacat_principal.scss */
 .content-highlighted a:hover, .content-highlighted a:focus {
   background: rgba(0, 0, 0, 0.9);
   transform: perspective(25rem) scale(1.03);
 }
-/* line 243, ../scss/tiles/_destacat_principal.scss */
+/* line 242, ../scss/tiles/_destacat_principal.scss */
 .content-highlighted article {
   z-index: 2;
   margin: 80px 0;
 }
-/* line 246, ../scss/tiles/_destacat_principal.scss */
+/* line 245, ../scss/tiles/_destacat_principal.scss */
 .content-highlighted article h2 {
   margin-top: 0;
   color: #fff;
 }
-/* line 250, ../scss/tiles/_destacat_principal.scss */
+/* line 249, ../scss/tiles/_destacat_principal.scss */
 .content-highlighted article p {
   color: #fff;
 }
-/* line 253, ../scss/tiles/_destacat_principal.scss */
+/* line 252, ../scss/tiles/_destacat_principal.scss */
 .content-highlighted article .event-category::before {
   content: "\e902";
   font-family: upc-icones;
@@ -7119,7 +7119,7 @@ div.portlet.portletLogin a.btn {
   bottom: 36px;
   font-weight: 300;
 }
-/* line 269, ../scss/tiles/_destacat_principal.scss */
+/* line 268, ../scss/tiles/_destacat_principal.scss */
 .content-highlighted article .event-category {
   font-size: var(--bs-font-size-xxs);
   font-weight: 700;
@@ -7127,7 +7127,7 @@ div.portlet.portletLogin a.btn {
   margin-top: 120px;
   position: relative;
 }
-/* line 276, ../scss/tiles/_destacat_principal.scss */
+/* line 275, ../scss/tiles/_destacat_principal.scss */
 .content-highlighted article :last-child {
   margin-bottom: 0;
 }
