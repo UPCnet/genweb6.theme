@@ -83,7 +83,7 @@ footer#portal-footer-wrapper {
     gap: 1rem;
 
     & > li {
-      flex-basis: 32%;
+      flex-basis: 24%;
       list-style: none;
       font-weight: 500;
       font-size: var(--bs-font-size-xxxl);
@@ -95,6 +95,12 @@ footer#portal-footer-wrapper {
 
       &:not(.has_subtree) {
         display: none;
+      }
+
+      &.custom-links {
+        border-left: 1px solid #FFF;
+        padding-left: 0.7em;
+        margin-left: -0.7em;
       }
 
       & > a,
@@ -118,6 +124,7 @@ footer#portal-footer-wrapper {
           & > li {
             font-weight: 500;
             font-size: var(--bs-font-size-xxxl);
+            margin-bottom: 0.5rem;
 
             & > a:hover {
               font-weight: 700;
