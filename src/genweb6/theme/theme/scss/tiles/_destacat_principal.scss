@@ -180,31 +180,8 @@
     font-size: 25px;
 }
 
-
-/* fiposicio configurable text hero */
-
-$gray-base:              #252525 !default;
-$screen-sm:              768px !default;
-$max-width:              100%;
-
-//*// UPC
-
-$font-size-base:         16px !default;
-$font-size-m:            ($font-size-base/$font-size-base) * 1rem;
-
-$font-size-xxxl:         $font-size-m * 48/16 !default; // ~48px
-$font-size-xxl:          $font-size-m * 36/16 !default; // ~36px
-$font-size-xl:           $font-size-m * 24/16 !default; // ~24px
-$font-size-l:            $font-size-m * 18/16 !default; // ~18px
-
-$font-size-s:            $font-size-m * 14/16 !default; // ~14px
-$font-size-xs:           $font-size-m * 13/16 !default; // ~13px
-$font-size-xxs:          $font-size-m * 12/16 !default; // ~12px
-$font-size-xxxs:         $font-size-m * 11/16 !default; // ~11px
-
-
 .content-highlighted {
-    background: $gray-base;
+    background: var(--bs-gray-300);
     text-align: center;
     min-height: 400px;
     display: flex;
@@ -252,7 +229,7 @@ $font-size-xxxs:         $font-size-m * 11/16 !default; // ~11px
         width: 540px;
         display: inline-block;
         transition: all .5s ease;
-        @media (#{$max-width}: $screen-sm) {
+        @media (max-width: 768px) {
             width: 90vw;
             max-width: 540px;
         }
@@ -278,7 +255,7 @@ $font-size-xxxs:         $font-size-m * 11/16 !default; // ~11px
             font-family: upc-icones;
             border: 3px solid rgba(255, 255, 255, 1);
             position: absolute;
-            font-size: $font-size-xxl;
+            font-size: var(--bs-font-size-xxl);
             width: 72px;
             height: 72px;
             border-radius: 50%;
@@ -290,7 +267,7 @@ $font-size-xxxs:         $font-size-m * 11/16 !default; // ~11px
             font-weight: 300;
         }
         .event-category {
-            font-size: $font-size-xxs;
+            font-size: var(--bs-font-size-xxs);
             font-weight: 700;
             text-transform: uppercase;
             margin-top: 120px;
