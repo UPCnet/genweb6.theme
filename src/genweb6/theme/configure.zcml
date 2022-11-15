@@ -8,7 +8,6 @@
 
     <include file="upgrades.zcml" />
 
-
     <genericsetup:registerProfile
         name="default"
         title="genweb6.theme"
@@ -38,67 +37,4 @@
         name="genweb6.theme"
         />
 
-    <include package="plone.tiles" file="meta.zcml" />
-    <include package="plone.app.tiles" />
-    <include package="plone.app.standardtiles" />
-
-    <plone:tile
-      name="destacats"
-      title="Destacats Home"
-      description="Tile used to show destacats in homepage"
-      add_permission="cmf.ModifyPortalContent"
-      schema="genweb6.theme.browser.hometiles.destacats.IDestacats"
-      class="genweb6.theme.browser.hometiles.destacats.Destacats"
-      permission="zope2.View"
-      for="*"
-      layer="*"
-      template="browser/hometiles/templates/destacats.pt"
-      />
-
-    <plone:tile
-      name="formulari_existent"
-      title="Formulari Existent"
-      description="Tile used to show easyform as tile"
-      add_permission="cmf.ModifyPortalContent"
-      schema="genweb6.theme.browser.hometiles.formulari_existent.IFormulariExistent"
-      class="genweb6.theme.browser.hometiles.formulari_existent.FormulariExistent"
-      permission="zope2.View"
-      for="*"
-      layer="*"
-      template="browser/hometiles/templates/formulari_existent.pt"
-      />
-    <adapter factory="genweb6.theme.browser.hometiles.formulari_existent.SameContentValidator" />
-
-    <plone:tile
-      name="video"
-      title="Custom Video"
-      description="Tile used to show custom video"
-      add_permission="cmf.ModifyPortalContent"
-      class="genweb6.theme.browser.hometiles.video.CustomVideo"
-      for="*"
-      permission="zope2.View"
-      schema="genweb6.theme.browser.hometiles.video.ICustomVideo"
-      template="browser/hometiles/templates/video.pt"
-      />
-
-    <plone:tile
-      name="twitter"
-      title="Twitter"
-      description="Tile used to show twitter widget"
-      add_permission="cmf.ModifyPortalContent"
-      schema="genweb6.theme.browser.hometiles.twitter.ITwitter"
-      class="genweb6.theme.browser.hometiles.twitter.Twitter"
-      permission="zope2.View"
-      for="*"
-      layer="*"
-      template="browser/hometiles/templates/twitter.pt"
-      />
-
-    <!-- macros per home tiles -->
-    <browser:page
-     name="macros-hometiles"
-     for="*"
-     permission="zope.Public"
-     template="browser/hometiles/templates/macros.pt"
-    />
 </configure>
