@@ -60,6 +60,10 @@ module.exports = function (grunt) {
                         '../../../../../genweb6.core/src/genweb6/core/portlets/rss/rss.js',
                     'js/templates/multiple_carousel.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/browser/macros/carousel/multiple_carousel.js',
+                    'js/tiles/destacat_principal_youtube.min.js':
+                        '../../../../../genweb6.core/src/genweb6/core/tiles/destacats/destacat_principal_youtube.js',
+                    'js/tiles/destacat_principal_upctv.min.js':
+                        '../../../../../genweb6.core/src/genweb6/core/tiles/destacats/destacat_principal_upctv.js',
                     'js/views/filtered_contents_search.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/browser/views_templates/filtered_contents_search/filtered_contents_search.js',
                 }
