@@ -18363,7 +18363,7 @@ body#tinymce [class*=" icon-"],
   height: 14px;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url(/++theme++genweb6.theme/img/gh.png);
+  background-image: url('/++theme++genweb6.theme/img/gh.png');
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 3px;
@@ -18390,13 +18390,13 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > li > a:hover > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class^="icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class*=" icon-"] {
-  background-image: url(/++theme++genweb6.theme/img/gh-w.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-w.png');
 }
 /* line 43, ../scss/old/_sprites.scss */
 body#tinymce .icon-color,
 .mosaic-tile-content .icon-color,
 #content-core #parent-fieldname-text .icon-color {
-  background-image: url(/++theme++genweb6.theme/img/gh-c.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-c.png');
 }
 /* line 47, ../scss/old/_sprites.scss */
 body#tinymce .icon-glass,
@@ -19817,7 +19817,7 @@ body#tinymce .icon-translate,
 body#tinymce .large-icon,
 .mosaic-tile-content .large-icon,
 #content-core #parent-fieldname-text .large-icon {
-  background-image: url(/++theme++genweb6.theme/img/gh-150.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-150.png');
   width: 21px;
   height: 21px;
   margin-top: -1px;
@@ -19863,7 +19863,7 @@ body#tinymce .large-icon.icon-user-news,
 body#tinymce .large-icon.icon-white,
 .mosaic-tile-content .large-icon.icon-white,
 #content-core #parent-fieldname-text .large-icon.icon-white {
-  background-image: url(/++theme++genweb6.theme/img/gh-150-w.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-150-w.png');
 }
 /* line 4, ../scss/old/_styles.scss */
 body#tinymce .label,
@@ -21444,11 +21444,13 @@ body.template-subhome_view div.container #content-core div.col-md-4 .plone-icon 
   margin-right: 5px;
 }
 
-/* line 5, ../scss/portlets/_grid_events.scss */
+/* line 6, ../scss/portlets/_grid_events.scss */
+.gw-tile.destacats4-esdeveniments .list-agenda ol.row,
 .portlet.portlet-grid-events .list-agenda ol.row {
   list-style: none;
 }
-/* line 8, ../scss/portlets/_grid_events.scss */
+/* line 9, ../scss/portlets/_grid_events.scss */
+.gw-tile.destacats4-esdeveniments .list-agenda ol.row .card,
 .portlet.portlet-grid-events .list-agenda ol.row .card {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   height: 250px;
@@ -21458,7 +21460,8 @@ body.template-subhome_view div.container #content-core div.col-md-4 .plone-icon 
   transition: all .25s ease-out;
   overflow: hidden;
 }
-/* line 17, ../scss/portlets/_grid_events.scss */
+/* line 18, ../scss/portlets/_grid_events.scss */
+.gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-time,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-time {
   opacity: 0.9;
   background-image: linear-gradient(90deg, #00BCD4 0%, #007bc1 100%);
@@ -21472,18 +21475,21 @@ body.template-subhome_view div.container #content-core div.col-md-4 .plone-icon 
   left: calc(50% - 67px);
   top: calc(50% - 67px - 45px);
 }
-/* line 30, ../scss/portlets/_grid_events.scss */
+/* line 31, ../scss/portlets/_grid_events.scss */
+.gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-time .event-time--wrap,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-time .event-time--wrap {
   top: 50%;
   transform: translateY(-50%);
   position: relative;
   display: block;
 }
-/* line 37, ../scss/portlets/_grid_events.scss */
+/* line 38, ../scss/portlets/_grid_events.scss */
+.gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-time .event-months,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-time .event-months {
   margin-top: 5px;
 }
-/* line 42, ../scss/portlets/_grid_events.scss */
+/* line 43, ../scss/portlets/_grid_events.scss */
+.gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-days,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-days {
   font-weight: 700;
   font-size: 1.5rem;
@@ -21492,14 +21498,16 @@ body.template-subhome_view div.container #content-core div.col-md-4 .plone-icon 
   padding-bottom: 1px;
   line-height: 1;
 }
-/* line 50, ../scss/portlets/_grid_events.scss */
+/* line 51, ../scss/portlets/_grid_events.scss */
+.gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-days.event-days-connector,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-days.event-days-connector {
   font-size: 0.9rem;
   font-weight: 300;
   margin-bottom: 3px;
   margin-top: 3px;
 }
-/* line 58, ../scss/portlets/_grid_events.scss */
+/* line 59, ../scss/portlets/_grid_events.scss */
+.gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-months,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-months {
   font-weight: 300;
   font-size: .875rem;
@@ -21508,7 +21516,8 @@ body.template-subhome_view div.container #content-core div.col-md-4 .plone-icon 
   display: block;
   padding-bottom: 1px;
 }
-/* line 67, ../scss/portlets/_grid_events.scss */
+/* line 68, ../scss/portlets/_grid_events.scss */
+.gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-title,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-title {
   font-size: 1.125rem;
   font-weight: 300;
@@ -21526,7 +21535,8 @@ body.template-subhome_view div.container #content-core div.col-md-4 .plone-icon 
   justify-content: center;
   box-sizing: border-box;
 }
-/* line 85, ../scss/portlets/_grid_events.scss */
+/* line 86, ../scss/portlets/_grid_events.scss */
+.gw-tile.destacats4-esdeveniments .list-agenda ol.row .card:hover,
 .portlet.portlet-grid-events .list-agenda ol.row .card:hover {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 5px 10px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05);
   text-decoration: none;
@@ -21534,7 +21544,8 @@ body.template-subhome_view div.container #content-core div.col-md-4 .plone-icon 
   transform: perspective(1px) scale(1.00775, 1.00775) translateZ(0px);
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 94, ../scss/portlets/_grid_events.scss */
+/* line 95, ../scss/portlets/_grid_events.scss */
+.gw-tile.destacats4-esdeveniments .list-agenda ol.row .card:hover .event-time::after,
 .portlet.portlet-grid-events .list-agenda ol.row .card:hover .event-time::after {
   opacity: .9;
   content: "\e902";
@@ -22198,216 +22209,265 @@ body.template-layout .gw-tile.hero.content-highlighted article p {
     left: 43% !important;
   }
 }
-/* line 1, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .content-agenda,
-body.template-layout .content-agenda {
-  margin-bottom: 48px;
-}
-/* line 6, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .titling-line-container,
-body.template-layout .titling-line-container {
-  position: relative;
-}
-/* line 10, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .titling-line,
-body.template-layout .titling-line {
-  font-size: var(--bs-font-size-xl);
-  color: var(--bs-gray-900);
+/* line 3, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner,
+body.template-layout .gw-tile.destacats3 .btn-banner {
+  align-items: flex-start;
+  background: #fff;
+  padding: 2px 72px 2px 20px;
+  min-height: 80px;
+  color: var(--bs-gray-700);
   position: relative;
   overflow: hidden;
-  padding: 6px 0;
-  margin-top: 0;
-}
-/* line 17, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .titling-line::after,
-body.template-layout .titling-line::after {
-  content: "";
-  position: absolute;
-  margin-left: 12px;
-  background: var(--bs-gray-300);
-  height: 1px;
-  box-shadow: 1000px 0 0 -1000px var(--bs-gray-300);
-  width: 100%;
-  top: 50%;
-}
-/* line 31, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda,
-body.template-layout .list-agenda {
-  list-style: none;
-  padding: 0;
-}
-/* line 34, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda a,
-body.template-layout .list-agenda a {
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
-  height: 300px;
-  position: relative;
-  display: block;
-  transition: all .25s ease-out;
-  overflow: hidden;
-  margin-bottom: 24px;
-}
-/* line 42, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda a:hover,
-body.template-layout .list-agenda a:hover {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 5px 10px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05);
-  text-decoration: none;
-  background-color: #F6F7F7;
-  transform: perspective(25rem) scale(1.03);
-  -webkit-font-smoothing: subpixel-antialiased;
-}
-/* line 48, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda a:hover .event-time::after,
-body.template-layout .list-agenda a:hover .event-time::after {
-  opacity: 1;
-  transition: all .5s ease;
-}
-/* line 54, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda .event-title,
-body.template-layout .list-agenda .event-title {
-  font-size: var(--bs-font-size-l);
-  color: var(--bs-gray-900);
-  height: 84px;
-  background: rgba(255, 255, 255, 0.9);
-  position: absolute;
-  width: 100%;
-  margin: 0;
-  bottom: 0;
-  padding: 12px;
-  text-align: center;
   display: flex;
-  align-items: center;
   justify-content: center;
+  flex-direction: column;
+  transition: all .25s ease-out;
+  margin: 0 0 24px;
+  transform: scale(1, 1) perspective(1px) translateZ(0px);
+  text-decoration: none;
+  border-radius: 7px;
+  /* Arrow icon for mobiles */
+  /* Square icon (hidden on mobile) */
+  /* Square icon (Mobiles only) */
 }
-/* line 69, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda .event-category,
-body.template-layout .list-agenda .event-category {
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 6px 7px 5px;
-  border-radius: 2px;
-  position: absolute;
-  left: 12px;
-  top: 12px;
+/* line 20, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner.btn-banner-stretch,
+body.template-layout .gw-tile.destacats3 .btn-banner.btn-banner-stretch {
+  align-items: stretch;
 }
-/* line 81, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda .event-time,
-body.template-layout .list-agenda .event-time {
-  opacity: 0.9;
-  background-image: linear-gradient(89deg, #00BCD4 0%, #007bc1 100%);
-  width: 128px;
-  height: 128px;
-  border-radius: 50%;
-  position: absolute;
-  left: 18px;
-  display: table-cell;
-  text-align: center;
-  left: calc(50% - 64px);
-  top: calc(50% - 64px - 36px);
-}
-/* line 93, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda .event-time--wrap,
-body.template-layout .list-agenda .event-time--wrap {
-  top: 50%;
-  transform: translateY(-50%);
-  position: relative;
-  display: block;
-}
-/* line 99, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda .event-time::after,
-body.template-layout .list-agenda .event-time::after {
-  opacity: 0;
-  content: "\e902";
-  font-family: upc-icones;
+/* line 24, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner:before,
+body.template-layout .gw-tile.destacats3 .btn-banner:before {
+  content: "";
   border: 1.5px solid var(--bs-primary);
   position: absolute;
-  font-size: var(--bs-font-size-l);
-  bottom: -18px;
-  left: calc(50% - 18px);
+  right: 18px;
+  top: 50%;
   margin-top: -18px;
   width: 36px;
   height: 36px;
   border-radius: 50%;
   text-align: center;
   padding-top: 5px;
+  z-index: 0;
+}
+@media (max-width: 420px) {
+  /* line 24, ../scss/tiles/_destacats_3.scss */
+  body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner:before,
+  body.template-layout .gw-tile.destacats3 .btn-banner:before {
+    display: none;
+  }
+}
+/* line 43, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner:after,
+body.template-layout .gw-tile.destacats3 .btn-banner:after {
+  content: "\e902";
+  font-family: upc-icones;
+  border: 1.5px solid rgba(255, 255, 255, 0);
+  position: absolute;
+  font-size: var(--bs-font-size-xl);
+  right: 18px;
+  top: 50%;
+  margin-top: -18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 2px;
   color: var(--bs-primary);
   background: rgba(255, 255, 255, 0.8);
   z-index: 0;
-  transition: all .5s ease;
 }
-/* line 120, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda .event-days,
-body.template-layout .list-agenda .event-days {
-  font-weight: 700;
-  font-size: var(--bs-font-size-l);
-  color: #fff;
-  display: block;
-  padding-bottom: 1px;
-  margin-top: -2px;
-  line-height: 1;
+@media (max-width: 420px) {
+  /* line 43, ../scss/tiles/_destacats_3.scss */
+  body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner:after,
+  body.template-layout .gw-tile.destacats3 .btn-banner:after {
+    display: none;
+  }
 }
-/* line 129, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda .event-months,
-body.template-layout .list-agenda .event-months {
-  font-weight: 300;
-  font-size: var(--bs-font-size-s);
-  text-transform: uppercase;
-  color: #fff;
-  display: block;
-  padding-bottom: 1px;
-  margin-top: -2px;
+@media (max-width: 420px) {
+  /* line 67, ../scss/tiles/_destacats_3.scss */
+  body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner:not([target="_blank"]) h2::after,
+  body.template-layout .gw-tile.destacats3 .btn-banner:not([target="_blank"]) h2::after {
+    content: "\e902";
+    font-family: "upc-icones";
+    font-size: 100%;
+    position: relative;
+    top: 2px;
+    margin-left: 7px;
+  }
 }
-/* line 138, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda .event-days-connector,
-body.template-layout .list-agenda .event-days-connector {
-  font-size: var(--bs-font-size-l);
-  font-weight: 300 !important;
+/* line 80, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner[target="_blank"]:after,
+body.template-layout .gw-tile.destacats3 .btn-banner[target="_blank"]:after {
+  content: "\e91c";
 }
-/* line 143, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda .event-highlighted .event-time,
-body.template-layout .list-agenda .event-highlighted .event-time {
-  opacity: 0.9;
-  background-image: linear-gradient(89deg, #fa5c2a 0%, #ed4033 98%);
+@media (max-width: 420px) {
+  /* line 80, ../scss/tiles/_destacats_3.scss */
+  body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner[target="_blank"]:after,
+  body.template-layout .gw-tile.destacats3 .btn-banner[target="_blank"]:after {
+    display: none;
+  }
 }
-/* line 148, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda .event-highlighted.event-img .event-time,
-body.template-layout .list-agenda .event-highlighted.event-img .event-time {
-  opacity: 0.9;
-  background: rgba(255, 255, 255, 0.9);
+@media (max-width: 420px) {
+  /* line 89, ../scss/tiles/_destacats_3.scss */
+  body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner[target="_blank"] h2::after,
+  body.template-layout .gw-tile.destacats3 .btn-banner[target="_blank"] h2::after {
+    content: " \e91c";
+    font-family: "upc-icones";
+    font-size: 100%;
+    position: relative;
+    top: 1px;
+  }
 }
-/* line 151, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda .event-highlighted.event-img .event-time .event-days,
-body.template-edit.mosaic-layout-customized .list-agenda .event-highlighted.event-img .event-time .event-months,
-body.template-layout .list-agenda .event-highlighted.event-img .event-time .event-days,
-body.template-layout .list-agenda .event-highlighted.event-img .event-time .event-months {
-  color: var(--bs-gray-900);
-}
-/* line 156, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda .event-highlighted.event-img .event-title,
-body.template-layout .list-agenda .event-highlighted.event-img .event-title {
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-}
-/* line 163, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda .event-img img,
-body.template-layout .list-agenda .event-img img {
+/* line 100, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner img,
+body.template-layout .gw-tile.destacats3 .btn-banner img {
   object-fit: cover;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   transition: all .5s ease;
 }
-/* line 173, ../scss/tiles/_destacats_4_esdeveniments.scss */
-body.template-edit.mosaic-layout-customized .list-agenda .event-img.compat-object-fit,
-body.template-layout .list-agenda .event-img.compat-object-fit {
+/* line 111, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner.compat-object-fit,
+body.template-layout .gw-tile.destacats3 .btn-banner.compat-object-fit {
   background-size: cover;
   background-position: center;
+}
+/* line 117, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner h2,
+body.template-layout .gw-tile.destacats3 .btn-banner h2 {
+  font-size: var(--bs-font-size-xl);
+  font-weight: 900;
+  margin: 0;
+  margin: -3px -6px -6px;
+  padding: 3px 6px;
+  z-index: 1;
+  display: inline-table;
+  position: relative;
+  color: var(--bs-gray-700);
+}
+/* line 129, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner p,
+body.template-layout .gw-tile.destacats3 .btn-banner p {
+  font-size: var(--bs-font-size-s);
+  font-weight: 300;
+  margin: 6px -6px -3px;
+  padding: 3px 6px;
+  position: relative;
+  z-index: 1;
+}
+/* line 138, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner p, body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner:hover p,
+body.template-layout .gw-tile.destacats3 .btn-banner p,
+body.template-layout .gw-tile.destacats3 .btn-banner:hover p {
+  -webkit-font-smoothing: subpixel-antialiased;
+  tramsform: translateZ(0px);
+}
+/* line 144, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner img + h2,
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner img ~ p,
+body.template-layout .gw-tile.destacats3 .btn-banner img + h2,
+body.template-layout .gw-tile.destacats3 .btn-banner img ~ p {
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(1px);
+  transition: all .25s ease-in;
+}
+/* line 151, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner:hover, body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner:focus,
+body.template-layout .gw-tile.destacats3 .btn-banner:hover,
+body.template-layout .gw-tile.destacats3 .btn-banner:focus {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 5px 10px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05);
+  color: #252525;
+  transition: all .25s ease-in;
+  text-decoration: none;
+  transform: perspective(25rem) scale(1.03);
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+/* line 161, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner:hover img + h2, body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner:hover img ~ p, body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner:focus img + h2, body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner:focus img ~ p,
+body.template-layout .gw-tile.destacats3 .btn-banner:hover img + h2,
+body.template-layout .gw-tile.destacats3 .btn-banner:hover img ~ p,
+body.template-layout .gw-tile.destacats3 .btn-banner:focus img + h2,
+body.template-layout .gw-tile.destacats3 .btn-banner:focus img ~ p {
+  background: rgba(255, 255, 255, 0.85);
+  -webkit-backdrop-filter: blur(3px);
+  transition: all .25s ease-in;
+}
+/* line 168, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner:hover img, body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner:focus img,
+body.template-layout .gw-tile.destacats3 .btn-banner:hover img,
+body.template-layout .gw-tile.destacats3 .btn-banner:focus img {
+  width: 101%;
+  height: 101%;
+  transition: all .5s ease;
+}
+/* line 176, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner-large,
+body.template-layout .gw-tile.destacats3 .btn-banner-large {
+  height: 280px;
+  padding: 0;
+  justify-content: flex-end;
+}
+/* line 181, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner-large div,
+body.template-layout .gw-tile.destacats3 .btn-banner-large div {
+  padding: 10px 72px 10px 20px;
+  background: rgba(255, 255, 255, 0.95);
+  z-index: 0;
+  height: 80px;
+  bottom: 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: all .25s ease-out;
+  min-height: 80px;
+  height: auto;
+}
+/* line 197, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner-large::before, body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner-large::after,
+body.template-layout .gw-tile.destacats3 .btn-banner-large::before,
+body.template-layout .gw-tile.destacats3 .btn-banner-large::after {
+  bottom: 18px;
+  top: auto;
+  /* Hide icon on moviles */
+}
+@media (max-width: 420px) {
+  /* line 197, ../scss/tiles/_destacats_3.scss */
+  body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner-large::before, body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner-large::after,
+  body.template-layout .gw-tile.destacats3 .btn-banner-large::before,
+  body.template-layout .gw-tile.destacats3 .btn-banner-large::after {
+    display: none;
+  }
+}
+/* line 208, ../scss/tiles/_destacats_3.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner-large::after,
+body.template-layout .gw-tile.destacats3 .btn-banner-large::after {
+  border-color: var(--bs-primary);
+}
+@media (max-width: 420px) {
+  /* line 212, ../scss/tiles/_destacats_3.scss */
+  body.template-edit.mosaic-layout-customized .gw-tile.destacats3 .btn-banner-large:not([target="_blank"]) h2::after,
+  body.template-layout .gw-tile.destacats3 .btn-banner-large:not([target="_blank"]) h2::after {
+    content: "\e902";
+    font-family: "upc-icones";
+    font-size: 100%;
+    position: relative;
+    top: 2px;
+    margin-left: 7px;
+  }
+}
+/* line 3, ../scss/tiles/_destacats_4_esdeveniments.scss */
+body.template-edit.mosaic-layout-customized .gw-tile.destacats4-esdeveniments .link-tile-footer,
+body.template-layout .gw-tile.destacats4-esdeveniments .link-tile-footer {
+  margin-top: 1rem;
 }
 /* line 3, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-layout-customized .gw-tile.destacats5 .grid-container,
@@ -22597,17 +22657,33 @@ body.template-layout #global_statusmessage {
     width: 1170px;
   }
 }
-/* line 20, ../scss/tiles/_template_layout.scss */
+/* line 22, ../scss/tiles/_template_layout.scss */
+body.template-edit.mosaic-layout-customized .mosaic-toolbar-secondary-functions div.mosaic-menu,
+body.template-layout .mosaic-toolbar-secondary-functions div.mosaic-menu {
+  border: 1px solid var(--bs-gray-700);
+  padding-left: 5px;
+}
+/* line 28, ../scss/tiles/_template_layout.scss */
+body.template-edit.mosaic-layout-customized .mosaic-tile-control,
+body.template-layout .mosaic-tile-control {
+  margin-right: 1rem;
+}
+/* line 32, ../scss/tiles/_template_layout.scss */
 body.template-edit.mosaic-layout-customized .mosaic-grid-row,
 body.template-layout .mosaic-grid-row {
   max-width: unset !important;
 }
-/* line 23, ../scss/tiles/_template_layout.scss */
+/* line 35, ../scss/tiles/_template_layout.scss */
 body.template-edit.mosaic-layout-customized .mosaic-grid-row .mosaic-grid-cell,
 body.template-layout .mosaic-grid-row .mosaic-grid-cell {
   padding: 0;
 }
-/* line 29, ../scss/tiles/_template_layout.scss */
+/* line 42, ../scss/tiles/_template_layout.scss */
+body.template-edit.mosaic-layout-customized .pattern-modal-buttons #buttons-save + #buttons-cancel,
+body.template-layout .pattern-modal-buttons #buttons-save + #buttons-cancel {
+  margin-left: 1rem;
+}
+/* line 48, ../scss/tiles/_template_layout.scss */
 body.template-edit.mosaic-layout-customized #above-content-wrapper,
 body.template-layout #above-content-wrapper {
   display: none;
@@ -22862,12 +22938,12 @@ body.template-layout .video-section.hero-posicio-inferior-centre.video-highlight
     width: 187px !important;
   }
 }
-/* line 10, ../scss/tiles/_tiles.scss */
+/* line 11, ../scss/tiles/_tiles.scss */
 body.template-edit.mosaic-layout-customized .gw-tile,
 body.template-layout .gw-tile {
   margin-bottom: 2rem;
 }
-/* line 13, ../scss/tiles/_tiles.scss */
+/* line 14, ../scss/tiles/_tiles.scss */
 body.template-edit.mosaic-layout-customized .gw-tile .titling-line,
 body.template-layout .gw-tile .titling-line {
   font-size: var(--bs-font-size-xxxl);
@@ -22877,6 +22953,18 @@ body.template-layout .gw-tile .titling-line {
   overflow: hidden;
   padding: 0.5rem 0;
   margin-top: 0;
+}
+/* line 23, ../scss/tiles/_tiles.scss */
+body.template-edit.mosaic-layout-customized .gw-tile .titling-line::after,
+body.template-layout .gw-tile .titling-line::after {
+  content: "";
+  position: absolute;
+  margin-left: 12px;
+  background: var(--bs-gray-300);
+  height: 1px;
+  box-shadow: 1000px 0 0 -1000px var(--bs-gray-300);
+  width: 100%;
+  top: 50%;
 }
 
 /* line 1, ../scss/viewlets/_breadcrumb.scss */

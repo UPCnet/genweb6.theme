@@ -17,11 +17,30 @@
   }
 }
 
+.mosaic-toolbar-secondary-functions {
+
+  div.mosaic-menu {
+    border: 1px solid var(--bs-gray-700);
+    padding-left: 5px;
+  }
+}
+
+.mosaic-tile-control {
+  margin-right: 1rem;
+}
+
 .mosaic-grid-row {
   max-width: unset !important;
 
   .mosaic-grid-cell {
     padding: 0;
+  }
+}
+
+.pattern-modal-buttons {
+
+  #buttons-save + #buttons-cancel {
+    margin-left: 1rem;
   }
 }
 
