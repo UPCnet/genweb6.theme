@@ -1,0 +1,23 @@
+.portlet.portlet-homepage {
+    margin-bottom: 2rem;
+
+    div.p-3.mb-2.bg-primary.text-white {
+        background-color: white;
+        border-radius: 7px;
+
+        .bi-android2.text-white {
+            font-size: 5em;
+            color: var(--bs-primary);
+        }
+    
+        h3 {
+            text-align: left;
+            color: var(--bs-primary);
+        }
+    
+        p {
+            text-align: left;
+            color: var(--bs-gray-dark);
+        }
+    }
+}

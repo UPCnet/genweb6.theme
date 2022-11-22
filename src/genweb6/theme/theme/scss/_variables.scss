@@ -12,3 +12,14 @@
   --bs-font-size-xxs: calc(var(--bs-font-size-xs) * .925);
   --bs-font-size-xxxs: calc(var(--bs-font-size-xxs) * .925);
 }
+
+.btn-primary {
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: var(--bs-primary-hover);
+  --bs-btn-hover-border-color: #{darken(#007BC1, 15%)};
+  --bs-btn-active-bg: #{darken(#007BC1, 15%)};
+  --bs-btn-active-border-color: #{darken(#007BC1, 15%)};
+  --bs-btn-disabled-bg: var(--bs-primary);
+  --bs-btn-disabled-border-color: var(--bs-primary);
+}
