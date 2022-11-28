@@ -26,9 +26,6 @@ $(document).ready(function(){
 function checkNavbar() {
     if($('#portal-globalnav').outerWidth(true) >= $('#portal-navbar').outerWidth(true)){
         $('#header').addClass('mobile');
-    }else{
-        debugger;
-        $('#header').removeClass('mobile');
     }
 }
 
