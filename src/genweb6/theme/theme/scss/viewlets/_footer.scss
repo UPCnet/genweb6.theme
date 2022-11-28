@@ -75,6 +75,18 @@ footer#portal-footer-wrapper {
   padding: 0em 4em 0em 4em;
   color: var(--bs-body-bg);
 
+  div.navbar-nav-footer.custom {
+    margin-top: 2rem;
+
+    * {
+      color: var(--bs-white);
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
   ul.navbar-nav-footer {
     padding-left: 0;
     padding-bottom: 0;

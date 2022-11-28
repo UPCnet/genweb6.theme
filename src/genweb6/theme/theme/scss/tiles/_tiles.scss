@@ -1,35 +1,12 @@
-body.template-edit.mosaic-layout-customized,
+body.template-edit.mosaic-enabled,
 body.template-layout {
 
+  @import "edit";
   @import "destacat_principal";
   @import "destacats_3";
   @import "destacats_4_esdeveniments";
   @import "destacats_5_esquerra_dreta";
+  @import "general";
   @import "template_layout";
   @import "video";
-
-  .gw-tile {
-    margin-bottom: 2rem;
-
-    .titling-line {
-      font-size: var(--bs-font-size-xxxl);
-      color: var(--gray-700);
-      font-weight: 300;
-      position: relative;
-      overflow: hidden;
-      padding: 0.5rem 0;
-      margin-top: 0;
-
-      &::after {
-        content: "";
-        position: absolute;
-        margin-left: 12px;
-        background: var(--bs-gray-300);
-        height: 1px;
-        box-shadow: 1000px 0 0 -1000px var(--bs-gray-300);
-        width: 100%;
-        top: 50%;
-      }
-    }
-  }
 }

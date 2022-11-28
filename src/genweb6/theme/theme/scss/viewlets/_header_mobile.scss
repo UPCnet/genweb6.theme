@@ -1,11 +1,23 @@
-@media (max-width: 1000px) {
+@media (max-width: 1320px) {
 
   #portal-top {
 
-    #header{
+    #header {
       padding: 1em 0 1em 1em;
     }
   }
+
+  #portal-navbar,
+  #portal-searchbox {
+    display: none;
+  }
+
+  #portal-navbar-mobile {
+    display: block;
+  }
+}
+
+#header.mobile {
 
   #portal-navbar,
   #portal-searchbox {
