@@ -18,6 +18,7 @@ module.exports = function (grunt) {
             css: {
                 src: ['stylesheets/barceloneta.css',
                       'stylesheets/bootstrap-icons.css',
+                      'stylesheets/jquery.dataTables.css',
                       'stylesheets/theme.css'],
                 dest: 'stylesheets/theme-concat.css',
             },
@@ -37,6 +38,7 @@ module.exports = function (grunt) {
                 files: [
                     'stylesheets/barceloneta.css',
                     'stylesheets/bootstrap-icons.css',
+                    'stylesheets/jquery.dataTables.css',
                     'scss/*',
                     'scss/**/*'
                 ],
