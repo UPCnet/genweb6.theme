@@ -1,41 +1,35 @@
 body.template-album_view {
 	
-	#main-container.row {
+	#content-core {
 
-		#content-core {
+		.card {
+			width: 18rem;
+			height: 30rem;
 
-			.card-title {
-				color: var(--bs-gray-dark);
-				text-align: center;
-			    margin: 15px;
+			&.album {
+				width: 14rem;
 			}
 
-			.mb-5 {
-				min-width: 30%;
-				max-width: 30%;
-
-				@media (max-width: 768px) {
-					min-width: 100%;
-					max-width: 100%;
-				}
-			}
-
-
-			.card-image {
+			.card-image-top {
 
 				img {
-					border-radius: 7px;
+					object-fit: cover;
+					width: 100%;
+					aspect-ratio: 4 / 3;
 				}
 			}
 
-
-			.card-link-container {
+			.card-body {
+				flex: 1 1 auto;
 				display: flex;
-				align-items: flex-end;
-				padding: 16px;
+				padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+				color: var(--bs-card-color);
+				flex-direction: column;
+				justify-content: space-between;
+				
 
-				a.card-link {
-					text-decoration: none;
+				h5 + a.stretched-link {
+					margin-top: 0.5rem;
 				}
 			}
 		}

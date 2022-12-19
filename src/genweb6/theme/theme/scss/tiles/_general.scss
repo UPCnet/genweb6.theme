@@ -1,9 +1,14 @@
+h2.tileHeader {
+  margin-bottom: 1rem;
+}
+
 .gw-tile {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  padding: 0;
 
   .titling-line {
-    font-size: var(--bs-font-size-xxxl);
+    font-size: var(--gw-font-size-xxxl);
     color: var(--gray-700);
     font-weight: 300;
     position: relative;

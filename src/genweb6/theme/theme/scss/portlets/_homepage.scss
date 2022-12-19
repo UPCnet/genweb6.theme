@@ -4,20 +4,26 @@
     div.p-3.mb-2.bg-primary.text-white {
         background-color: white;
         border-radius: 7px;
+        padding: 0;
 
-        .bi-android2.text-white {
-            font-size: 5em;
-            color: var(--bs-primary);
-        }
-    
-        h3 {
-            text-align: left;
-            color: var(--bs-primary);
-        }
-    
-        p {
-            text-align: left;
-            color: var(--bs-gray-dark);
-        }
+        .col.d-flex.align-items-center {
+            padding-left: 16px;
+            padding-right: 16px;
+
+            .bi-android2.text-white {
+                font-size: 5em;
+                color: var(--bs-primary);
+            }
+        
+            h3 {
+                text-align: left;
+                color: var(--bs-primary);
+            }
+        
+            p {
+                text-align: left;
+                color: var(--bs-gray-dark);
+            }
+        }   
     }
 }

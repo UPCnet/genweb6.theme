@@ -1,0 +1,22 @@
+.contentlisting-tile {
+
+    dl {
+
+        dt {
+            font-weight: 300;
+            display: grid;
+
+            a {
+                text-decoration: none;
+            }
+
+            span.summary {
+                font-size: 20px;
+            }
+        }
+
+        dd {
+            margin-bottom: 2rem;
+        }
+    }
+}

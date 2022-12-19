@@ -79,7 +79,7 @@ footer#portal-footer-wrapper {
     margin-top: 2rem;
 
     * {
-      color: var(--bs-white);
+      color: var(--bs-white) !important;
     }
 
     a {
@@ -98,7 +98,7 @@ footer#portal-footer-wrapper {
       flex-basis: 24%;
       list-style: none;
       font-weight: 500;
-      font-size: var(--bs-font-size-xxxl);
+      font-size: var(--gw-font-size-xxxl);
       margin-top: 2em;
       padding-right: 2em;
 
@@ -134,6 +134,7 @@ footer#portal-footer-wrapper {
       & > a,
       & > p {
         margin-bottom: 1rem;
+        color: var(--bs-white) !important;
       }
 
       & > a:hover {
@@ -151,7 +152,7 @@ footer#portal-footer-wrapper {
 
           & > li {
             font-weight: 500;
-            font-size: var(--bs-font-size-xxxl);
+            font-size: var(--gw-font-size-xxxl);
             margin-bottom: 0.5rem;
 
             & > a:hover {
@@ -170,6 +171,7 @@ footer#portal-footer-wrapper {
 
           & > a {
             margin-bottom: 5px;
+            color: var(--bs-white) !important;
 
             &:hover {
               font-weight: 500;

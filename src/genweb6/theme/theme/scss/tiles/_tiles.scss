@@ -1,12 +1,14 @@
 body.template-edit.mosaic-enabled,
 body.template-layout {
 
-  @import "edit";
   @import "destacat_principal";
   @import "destacats_3";
   @import "destacats_4_esdeveniments";
   @import "destacats_5_esquerra_dreta";
+  @import "edit";
   @import "general";
+  @import "listing";
+  @import "navigation";
   @import "template_layout";
   @import "video";
 }

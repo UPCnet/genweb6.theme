@@ -1,0 +1,15 @@
+.navigationTile {
+
+    .navTree.navTreeLevel0 {
+        list-style: none;
+        padding-left: 0;
+
+        a {
+            text-decoration: none;
+        }
+
+        .navTree.navTreeLevel1 {
+            list-style: none;
+        }
+    }
+}

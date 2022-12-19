@@ -1,7 +1,10 @@
 @import "author";
 @import "clouseau";
+@import "confirm_action";
 @import "contact";
+@import "folder_contents";
 @import "history";
+@import "image_view_fullscreen";
 @import "login";
 @import "search";
 @import "sharing";
@@ -11,6 +14,7 @@
 @import "event_listing";
 @import "filtered_contents_search_pretty_view";
 @import "folder_index_view";
+@import "folder_listing";
 @import "full_view";
 @import "grid_events_view";
 @import "listing_view";

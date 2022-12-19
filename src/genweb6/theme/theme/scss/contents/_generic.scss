@@ -2,6 +2,10 @@ article#content {
 
   header {
 
+    h1 {
+      font-size: 2rem;
+    }
+
     p.lead {
       font-family: 'Roboto';
       font-weight: 300;
@@ -14,5 +18,51 @@ article#content {
 
   .toolbar.d-flex {
     border-radius: 7px 7px 0 0;
+  }
+}
+
+body.portaltype-genweb.upc.subhome,
+body.portaltype-genweb-upc-documentimage,
+body.portaltype-easyform,
+body.portaltype-logos_footer,
+body.portaltype-logos_container,
+body.portaltype-banner,
+body.portaltype-bannercontainer,
+body.portaltype-packet {
+
+  li#contentview-configure,
+  li#contentview-view,
+  li#contentview-edit {
+
+    a::before {
+      font-family: 'bootstrap-icons';
+      margin-top: 0.3em;
+      margin-right: 0.65em;
+      font-size: 0.73em;
+    }
+  }
+
+  &:not(.plone-toolbar-left-expanded) {
+
+    li#contentview-configure,
+    li#contentview-view,
+    li#contentview-edit {
+
+      a::before {
+        margin-top: 0;
+      }
+    }
+  }
+
+  li#contentview-edit a::before {
+    content: "\F4CB";
+  }
+
+  li#contentview-view a::before {
+    content: "\F341";
+  }
+
+  li#contentview-configure a::before {
+    content: "\F3E5";
   }
 }

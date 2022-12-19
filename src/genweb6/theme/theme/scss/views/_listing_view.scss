@@ -7,6 +7,10 @@ body.template-listing_view {
 			a {
 				font-weight: 400;
 				text-decoration: none;
+
+				&.url {
+					font-size: 28px;
+				}
 			}
 		}
 

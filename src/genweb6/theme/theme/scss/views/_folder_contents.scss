@@ -1,0 +1,21 @@
+body.template-folder_contents {
+
+  .select2-results .select2-highlighted {
+    color: var(--bs-white) !important;
+  }
+
+  .table-striped > tbody > tr {
+
+    & > td:not(:first-child) {
+      color: var(--bs-table-color);
+    }
+
+    &:nth-of-type(odd) > td:not(:first-child) {
+      color: var(--bs-table-striped-color);
+    }
+
+    .plone-item-exclude-from-nav {
+      margin-left: 0.5rem;
+    }
+  }
+}

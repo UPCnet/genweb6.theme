@@ -98,7 +98,7 @@
                     }
 
                     h3.card-title {
-                        font-size: var(--bs-font-size-xxl);
+                        font-size: var(--gw-font-size-xxl);
                         color: var(--bs-gray-700);
                         font-weight: 300;
                         margin-top: 1rem;
@@ -111,7 +111,7 @@
             grid-area: area-gran;
 
             .card-body p {
-                font-size: var(--bs-font-size-xl);
+                font-size: var(--gw-font-size-xl);
                 color: var(--bs-gray-700);
             }
         }

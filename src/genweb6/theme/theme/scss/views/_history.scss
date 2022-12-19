@@ -94,18 +94,17 @@ body.template-versions_history_form {
 			}
 
 			input.standalone {
+				margin-top: 0.5rem;
 				border-radius: 7px;
-			    background-color: transparent;
-		 		border: 2px solid var(--bs-primary);
-				color: var(--bs-gray-dark);
-				border-style: solid;
-			}
+				padding: 0.375rem 0.75rem;
+		 		background-color: var(--bs-primary);
+				color: var(--bs-white);
+				border: 0 solid transparent;
 
-			input.standalone:hover {
-				color: var(--bs-body-bg);
-			    background-color: var(--bs-primary-hover);
-			    border: 2px solid var(--bs-btn-hover-border-color);
-			    border-style: solid;
+				&:hover {
+				    background-color: var(--bs-primary-hover);
+				    border: 0 solid transparent;
+				}
 			}
 		}
 	}

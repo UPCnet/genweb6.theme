@@ -1,20 +1,14 @@
-body.template-subhome_view {
-	
-	div.container {
+.portlet.portlet-collection {
 
-		#content-core {
+	&.portlet-collection-noticias,
+	&.portlet-collection-eventos {
 
-			div.col-md-4 {
+		div.img {
+			padding-top: 5px;
+		}
 
-				div.img.col-md-5 {
-					align-items: flex-start;
-					padding-top: 5px;
-				}
-
-				.plone-icon {
-					margin-right: 5px;
-				}
-			}
+		.plone-icon {
+			margin-right: 5px;
 		}
 	}
 }

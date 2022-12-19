@@ -138,35 +138,35 @@ del,
 }
 
 .l {
-  font-size: var(--bs-font-size-l) !important;
+  font-size: var(--gw-font-size-l) !important;
 }
 
 .s {
-  font-size: var(--bs-font-size-s) !important;
+  font-size: var(--gw-font-size-s) !important;
 }
 
 .xl {
-  font-size: var(--bs-font-size-xl) !important;
+  font-size: var(--gw-font-size-xl) !important;
 }
 
 .xs {
-  font-size: var(--bs-font-size-xs) !important;
+  font-size: var(--gw-font-size-xs) !important;
 }
 
 .xxl {
-  font-size: var(--bs-font-size-xxl) !important;
+  font-size: var(--gw-font-size-xxl) !important;
 }
 
 .xxs {
-  font-size: var(--bs-font-size-xxs) !important;
+  font-size: var(--gw-font-size-xxs) !important;
 }
 
 .xxxl {
-  font-size: var(--bs-font-size-xxxl) !important;
+  font-size: var(--gw-font-size-xxxl) !important;
 }
 
 .xxxs {
-  font-size: var(--bs-font-size-xxs) !important;
+  font-size: var(--gw-font-size-xxs) !important;
 }
 
 @media print {
@@ -177,7 +177,7 @@ del,
 }
 
 code {
-  font-size: var(--bs-font-size-xxs);
+  font-size: var(--gw-font-size-xxs);
   padding: 2px 4px;
   color: #FFF;
   background-color: #c04500;
@@ -293,15 +293,15 @@ a.btn {
   }
 
   &.btn-large {
-    font-size: var(--bs-font-size-xl);
+    font-size: var(--gw-font-size-xl);
   }
 
   &.btn-small {
-    font-size: var(--bs-font-size-xs);
+    font-size: var(--gw-font-size-xs);
   }
 
   &.btn-mini {
-    font-size: var(--bs-font-size-xxxs);
+    font-size: var(--gw-font-size-xxxs);
   }
 
   &.btn-inverse {

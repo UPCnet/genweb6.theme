@@ -1,6 +1,10 @@
 .gw-tile.destacats4-esdeveniments,
 .portlet.portlet-grid-events {
 
+	h2.portlet-title {
+		margin-bottom: 24px;
+	}
+
 	.list-agenda {
 
 	  ol.row {
@@ -116,5 +120,11 @@
 	      }
 	    }
 	  }
-	}    
+	} 
+	
+	.portlet-footer {
+		a {
+			text-decoration: none;
+		}
+	}
 }

@@ -14,7 +14,7 @@
 
     div.img {
       display: flex;
-      align-items: center;
+      align-items: start;
       justify-content: center;
 
       img {
@@ -33,6 +33,7 @@
       .title {
         order: 1;
         font-weight: 500;
+        font-size: var(--gw-font-size-xl);
 
         &:first-child {
           white-space: normal;
@@ -53,10 +54,15 @@
   &.portlet-collection-iltr {
 
     ul.list-group {
-      width: 90%;
+      /* width: 90%; */
 
       div.img {
         align-items: flex-start;
+        padding-top: 5px;
+
+        @media (max-width: 768px) {
+          margin-bottom: 0.5rem;
+        }
       }
     }
   }

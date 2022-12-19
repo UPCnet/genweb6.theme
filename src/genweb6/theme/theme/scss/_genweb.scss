@@ -80,7 +80,7 @@ a[target="_blank"]::after {
 }
 
 .smaller {
-  font-size: var(--bs-font-size-xxxs);
+  font-size: var(--gw-font-size-xxxs);
 }
 
 body.template-manage-viewlets header {
@@ -121,35 +121,35 @@ body.template-edit {
 }
 
 .fs-l {
-  font-size: var(--bs-font-size-l) !important;
+  font-size: var(--gw-font-size-l) !important;
 }
 
 .fs-s {
-  font-size: var(--bs-font-size-s) !important;
+  font-size: var(--gw-font-size-s) !important;
 }
 
 .fs-xl {
-  font-size: var(--bs-font-size-xl) !important;
+  font-size: var(--gw-font-size-xl) !important;
 }
 
 .fs-xs {
-  font-size: var(--bs-font-size-xs) !important;
+  font-size: var(--gw-font-size-xs) !important;
 }
 
 .fs-xxl {
-  font-size: var(--bs-font-size-xxl) !important;
+  font-size: var(--gw-font-size-xxl) !important;
 }
 
 .fs-xxs {
-  font-size: var(--bs-font-size-xxs) !important;
+  font-size: var(--gw-font-size-xxs) !important;
 }
 
 .fs-xxxl {
-  font-size: var(--bs-font-size-xxxl) !important;
+  font-size: var(--gw-font-size-xxxl) !important;
 }
 
 .fs-xxxs {
-  font-size: var(--bs-font-size-xxs) !important;
+  font-size: var(--gw-font-size-xxs) !important;
 }
 
 .text-justify {
@@ -177,5 +177,65 @@ body.template-edit {
   svg {
     width: 45px;
     height: 45px;
+  }
+}
+
+/* Los colores de los estados de cada elemento solo se podrán ver una vez logueado */
+body.userrole-authenticated {
+
+  .state-visible {
+    color: var(--gw-state-visible) !important;
+
+    &:hover {
+      color: var(--gw-state-visible-hover) !important;
+    }
+  }
+
+  .state-draft {
+    color: var(--gw-state-draft) !important;
+
+    &:hover {
+      color: var(--gw-state-draft-hover) !important;
+    }
+  }
+
+  .state-private {
+    color: var(--gw-state-private) !important;
+
+    &:hover {
+      color: var(--gw-state-private-hover) !important;
+    }
+  }
+
+  .state-intranet {
+    color: var(--gw-state-intranet) !important;
+
+    &:hover {
+      color: var(--gw-state-intranet-hover) !important;
+    }
+  }
+
+  .state-pending {
+    color: var(--gw-state-pending) !important;
+
+    &:hover {
+      color: var(--gw-state-pending-hover) !important;
+    }
+  }
+
+  .state-published {
+    color: var(--gw-state-published) !important;
+
+    &:hover {
+      color: var(--gw-state-published-hover) !important;
+    }
+  }
+
+  .state-restricted-to-managers {
+    color: var(--gw-state-restricted-to-managers) !important;
+
+    &:hover {
+      color: var(--gw-state-restricted-to-managers-hover) !important;
+    }
   }
 }

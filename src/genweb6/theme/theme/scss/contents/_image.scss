@@ -24,7 +24,15 @@ body.template-image_view {
 			    	}
 				}
 			}
+		}
+		
+		.section.section-actions {
 
+			a.btn.btn-primary.fullscreen {
+				background-color: #ffffff;			
+				   color: var(--bs-primary);
+				border: 2px solid var(--bs-primary);
+			}
 		}
 	}
 }
