@@ -59,6 +59,10 @@ body:not([class*="section-"]) {
         display: none;
       }
     }
+
+    #logo-secundary {
+      filter: brightness(0) invert(1);
+    }
   }
 
   .bi-search {
@@ -96,7 +100,7 @@ body:not([class*="section-"]) {
           a {
             color: var(--bs-primary) !important;
           }
-        } 
+        }
       }
 
       & > li.has_subtree {
@@ -115,7 +119,7 @@ body:not([class*="section-"]) {
             }
           }
         }
-      
+
         &:not(.nav-lang) {
           position: initial;
           display: inline;
@@ -309,9 +313,8 @@ body:not([class*="section-"]) {
   height: 72px;
 
   #portal-logos {
-    filter: brightness(0) invert(1);
 
-    img {
+    img{
       max-height: 40px;
 
       &.img-desktop {
@@ -326,71 +329,13 @@ body:not([class*="section-"]) {
 }
 
 #header:not(.shink) {
-  background-color: var(--bs-white);
-  color: var(--bs-primary);
-  box-shadow: 0 7px 8px #00000033;
 
-  #portal-navbar {
+  #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang):hover {
+    padding: 28px 0 28px 15px;
 
-    .navbar-nav {
-
-      .nav-item {
-
-        &.has_subtree:not(.nav-lang):hover {
-          padding: 28px 0 28px 15px;
-
-          & > ul {
-            top: 92px;
-            background-color: var(--bs-white);
-            box-shadow: 0 7px 8px #00000033;
-
-            .nav-item {
-              border-left: 1px solid var(--bs-primary);
-
-              &:hover {
-
-                a {
-                  color: var(--bs-white) !important;
-                }
-              }
-
-              a {
-                color: var(--bs-primary) !important;
-              }
-            }
-
-          }
-        }
-
-        &.nav-lang {
-
-          & > ul {
-            background-color: #FFFFFF;
-            border: 1px solid var(--bs-primary);
-
-            .nav-item {
-              border: 1px solid var(--bs-primary);
-
-              a {
-                color: var(--bs-primary) !important;
-              }
-            }
-          }
-        }
-
-        a {
-          color: var(--bs-primary) !important;
-
-          &:hover {
-            color: var(--bs-primary-hover) !important;
-          }
-        }
-      }
+    & > ul {
+      top: 92px;
     }
-  }
-
-  .bi-search {
-    text-shadow: none;
   }
 }
 
@@ -473,7 +418,7 @@ body.template-homepage {
     }
 
     /*img {
-      filter: brightness(40%); 
+      filter: brightness(40%);
     }*/
   }
 

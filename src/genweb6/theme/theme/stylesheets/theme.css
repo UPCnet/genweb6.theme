@@ -8414,86 +8414,82 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
 #header #portal-logos img.img-responsive {
   display: none;
 }
-/* line 63, ../scss/viewlets/_header.scss */
-#header #portal-logos #logo-secundary {
-  filter: brightness(0) invert(1);
-}
-/* line 68, ../scss/viewlets/_header.scss */
+/* line 64, ../scss/viewlets/_header.scss */
 #header .bi-search {
   text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark);
 }
-/* line 71, ../scss/viewlets/_header.scss */
+/* line 67, ../scss/viewlets/_header.scss */
 #header .bi-search:hover {
   color: var(--bs-primary);
 }
-/* line 80, ../scss/viewlets/_header.scss */
+/* line 76, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item {
   font-weight: 400;
   /*text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark);*/
 }
-/* line 84, ../scss/viewlets/_header.scss */
+/* line 80, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item a {
   color: var(--bs-white) !important;
   padding: 6px 0px 6px 0px;
 }
-/* line 91, ../scss/viewlets/_header.scss */
+/* line 87, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item.current > a {
   padding: 6px 3px 3px 3px !important;
   border-bottom: 3px solid var(--bs-primary);
 }
-/* line 97, ../scss/viewlets/_header.scss */
+/* line 93, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item:hover {
   color: var(--bs-primary) !important;
 }
-/* line 100, ../scss/viewlets/_header.scss */
+/* line 96, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item:hover a {
   color: var(--bs-primary) !important;
 }
-/* line 108, ../scss/viewlets/_header.scss */
+/* line 104, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree .dropdown {
   background-color: #212529DD;
   border: 1px solid #212529DD;
 }
-/* line 112, ../scss/viewlets/_header.scss */
+/* line 108, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree .dropdown .nav-item {
   border-bottom: 1px solid #212529DD;
   text-align: center;
 }
-/* line 116, ../scss/viewlets/_header.scss */
+/* line 112, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree .dropdown .nav-item a.nav-link {
   color: var(--bs-white) !important;
   padding: 6px 3px 6px 3px;
 }
-/* line 123, ../scss/viewlets/_header.scss */
+/* line 119, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) {
   position: initial;
   display: inline;
   vertical-align: middle;
   padding: 0 0 0 15px;
 }
-/* line 129, ../scss/viewlets/_header.scss */
+/* line 125, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > a.nav-link {
   padding: 6px 3px 6px 3px;
   float: left;
 }
-/* line 134, ../scss/viewlets/_header.scss */
+/* line 130, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > label {
   position: relative;
 }
-/* line 137, ../scss/viewlets/_header.scss */
+/* line 133, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > label::after {
   font-family: bootstrap-icons !important;
   content: "\f282";
 }
-/* line 143, ../scss/viewlets/_header.scss */
+/* line 139, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang):hover {
   padding: 18px 0 18px 15px;
 }
-/* line 148, ../scss/viewlets/_header.scss */
+/* line 144, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang):hover > label::after {
   transform: rotate(180deg);
 }
-/* line 154, ../scss/viewlets/_header.scss */
+/* line 150, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul {
   display: flex;
   flex-wrap: wrap;
@@ -8505,7 +8501,7 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   background-color: #212529DD;
   border: 0px solid transparent;
 }
-/* line 165, ../scss/viewlets/_header.scss */
+/* line 161, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul li.nav-item {
   flex: 1 0 calc(100% / 6);
   text-align: left;
@@ -8513,24 +8509,24 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   border-left: 1px solid #ebebeb;
   max-width: calc(100% / 6);
 }
-/* line 173, ../scss/viewlets/_header.scss */
+/* line 169, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul li.nav-item a.nav-link {
   color: var(--bs-white) !important;
 }
-/* line 180, ../scss/viewlets/_header.scss */
+/* line 176, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul li.has_subtree ul, #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul li.has_subtree > label {
   display: none;
 }
-/* line 188, ../scss/viewlets/_header.scss */
+/* line 184, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > label {
   height: 2.1em;
   margin-top: 2px;
 }
-/* line 193, ../scss/viewlets/_header.scss */
+/* line 189, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > a.nav-link {
   padding-right: 1em;
 }
-/* line 197, ../scss/viewlets/_header.scss */
+/* line 193, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul {
   width: max-content;
   max-width: 350px;
@@ -8541,16 +8537,16 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   background-color: var(--bs-white);
   border: 1px solid #ebebeb;
 }
-/* line 207, ../scss/viewlets/_header.scss */
+/* line 203, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item {
   text-align: right;
   border-bottom: 1px solid #ebebeb;
 }
-/* line 211, ../scss/viewlets/_header.scss */
+/* line 207, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item::last-child {
   border-bottom: 0px solid;
 }
-/* line 215, ../scss/viewlets/_header.scss */
+/* line 211, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item a.nav-link {
   min-width: auto;
   padding-right: 0em;
@@ -8558,31 +8554,31 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   line-height: 18px;
   color: #666;
 }
-/* line 222, ../scss/viewlets/_header.scss */
+/* line 218, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item a.nav-link:hover {
   color: var(--bs-primary) !important;
 }
-/* line 228, ../scss/viewlets/_header.scss */
+/* line 224, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item:hover {
   background-color: var(--bs-primary);
 }
-/* line 231, ../scss/viewlets/_header.scss */
+/* line 227, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item:hover a.nav-link {
   color: var(--bs-white) !important;
 }
-/* line 239, ../scss/viewlets/_header.scss */
+/* line 235, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul {
   flex-direction: row;
 }
-/* line 242, ../scss/viewlets/_header.scss */
+/* line 238, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul li {
   padding: 0 15px 0 15px;
 }
-/* line 245, ../scss/viewlets/_header.scss */
+/* line 241, ../scss/viewlets/_header.scss */
 #header #portal-navbar ul li.nav-lang {
   padding: 0 0 0 15px;
 }
-/* line 254, ../scss/viewlets/_header.scss */
+/* line 250, ../scss/viewlets/_header.scss */
 #header #portal-searchbox input#searchGadget {
   width: 0;
   padding: 0;
@@ -8593,25 +8589,25 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
 }
-/* line 267, ../scss/viewlets/_header.scss */
+/* line 263, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form input#searchGadget {
   margin-left: 0rem;
 }
-/* line 270, ../scss/viewlets/_header.scss */
+/* line 266, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form input#searchGadget:focus, #header #portal-searchbox #searchGadget_form input#searchGadget:not(:placeholder-shown) {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
   margin-left: 0.75rem;
 }
-/* line 281, ../scss/viewlets/_header.scss */
+/* line 277, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form:hover input#searchGadget {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
   margin-left: 0.75rem;
 }
-/* line 291, ../scss/viewlets/_header.scss */
+/* line 287, ../scss/viewlets/_header.scss */
 #header #portal-searchbox button.searchButton {
   background: none;
   color: inherit;
@@ -8622,71 +8618,120 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   outline: inherit;
 }
 @media (min-width: 992px) {
-  /* line 303, ../scss/viewlets/_header.scss */
+  /* line 299, ../scss/viewlets/_header.scss */
   #header #portal-searchbox .livesearch-results {
     margin-top: 0.5rem;
     right: 4em;
   }
 }
 
-/* line 311, ../scss/viewlets/_header.scss */
+/* line 307, ../scss/viewlets/_header.scss */
 #header.shink {
   background-color: #212529DD;
   height: 72px;
 }
-/* line 317, ../scss/viewlets/_header.scss */
+/* line 311, ../scss/viewlets/_header.scss */
+#header.shink #portal-logos {
+  filter: brightness(0) invert(1);
+}
+/* line 314, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img {
   max-height: 40px;
 }
-/* line 320, ../scss/viewlets/_header.scss */
+/* line 317, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img.img-desktop {
   display: none;
 }
-/* line 324, ../scss/viewlets/_header.scss */
+/* line 321, ../scss/viewlets/_header.scss */
 #header.shink #portal-logos img.img-responsive {
   display: block;
 }
 
-/* line 333, ../scss/viewlets/_header.scss */
-#header:not(.shink) #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang):hover {
+/* line 328, ../scss/viewlets/_header.scss */
+#header:not(.shink) {
+  background-color: var(--bs-white);
+  color: var(--bs-primary);
+  box-shadow: 0 7px 8px #00000033;
+}
+/* line 339, ../scss/viewlets/_header.scss */
+#header:not(.shink) #portal-navbar .navbar-nav .nav-item.has_subtree:not(.nav-lang):hover {
   padding: 28px 0 28px 15px;
 }
-/* line 336, ../scss/viewlets/_header.scss */
-#header:not(.shink) #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang):hover > ul {
+/* line 342, ../scss/viewlets/_header.scss */
+#header:not(.shink) #portal-navbar .navbar-nav .nav-item.has_subtree:not(.nav-lang):hover > ul {
   top: 92px;
+  background-color: var(--bs-white);
+  box-shadow: 0 7px 8px #00000033;
+}
+/* line 347, ../scss/viewlets/_header.scss */
+#header:not(.shink) #portal-navbar .navbar-nav .nav-item.has_subtree:not(.nav-lang):hover > ul .nav-item {
+  border-left: 1px solid var(--bs-primary);
+}
+/* line 352, ../scss/viewlets/_header.scss */
+#header:not(.shink) #portal-navbar .navbar-nav .nav-item.has_subtree:not(.nav-lang):hover > ul .nav-item:hover a {
+  color: var(--bs-white) !important;
+}
+/* line 357, ../scss/viewlets/_header.scss */
+#header:not(.shink) #portal-navbar .navbar-nav .nav-item.has_subtree:not(.nav-lang):hover > ul .nav-item a {
+  color: var(--bs-primary) !important;
+}
+/* line 367, ../scss/viewlets/_header.scss */
+#header:not(.shink) #portal-navbar .navbar-nav .nav-item.nav-lang > ul {
+  background-color: #FFFFFF;
+  border: 1px solid var(--bs-primary);
+}
+/* line 371, ../scss/viewlets/_header.scss */
+#header:not(.shink) #portal-navbar .navbar-nav .nav-item.nav-lang > ul .nav-item {
+  border: 1px solid var(--bs-primary);
+}
+/* line 374, ../scss/viewlets/_header.scss */
+#header:not(.shink) #portal-navbar .navbar-nav .nav-item.nav-lang > ul .nav-item a {
+  color: var(--bs-primary) !important;
+}
+/* line 381, ../scss/viewlets/_header.scss */
+#header:not(.shink) #portal-navbar .navbar-nav .nav-item a {
+  color: var(--bs-primary) !important;
+}
+/* line 384, ../scss/viewlets/_header.scss */
+#header:not(.shink) #portal-navbar .navbar-nav .nav-item a:hover {
+  color: var(--bs-primary-hover) !important;
+}
+/* line 392, ../scss/viewlets/_header.scss */
+#header:not(.shink) .bi-search {
+  text-shadow: none;
 }
 
-/* line 345, ../scss/viewlets/_header.scss */
+/* line 400, ../scss/viewlets/_header.scss */
 #header.content-style:not(.shink) #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul,
 #header.old-style:not(.shink) #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul {
   background-color: var(--bs-dark);
 }
 
-/* line 352, ../scss/viewlets/_header.scss */
+/* line 407, ../scss/viewlets/_header.scss */
 #header-cintillo + #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul {
   top: calc(72px + 85px);
 }
-/* line 358, ../scss/viewlets/_header.scss */
+/* line 413, ../scss/viewlets/_header.scss */
 #header-cintillo + #header:not(.shink) #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul {
   top: calc(92px + 85px);
 }
 
-/* line 366, ../scss/viewlets/_header.scss */
+/* line 421, ../scss/viewlets/_header.scss */
 body.template-homepage #hero {
   margin-bottom: 2rem;
 }
 
-/* line 371, ../scss/viewlets/_header.scss */
+/* line 426, ../scss/viewlets/_header.scss */
 #hero {
   text-align: center;
   position: relative;
 }
-/* line 375, ../scss/viewlets/_header.scss */
+/* line 430, ../scss/viewlets/_header.scss */
 #hero.content-style, #hero.old-style {
   height: 126px;
   box-shadow: 0 -126px 0 #000;
 }
-/* line 380, ../scss/viewlets/_header.scss */
+/* line 435, ../scss/viewlets/_header.scss */
 #hero.content-style > h1, #hero.old-style > h1 {
   top: 50%;
   left: 50%;
@@ -8701,7 +8746,7 @@ body.template-homepage #hero {
   justify-content: center;
   box-shadow: 0px -2px 4px 0px #065988dd;
 }
-/* line 396, ../scss/viewlets/_header.scss */
+/* line 451, ../scss/viewlets/_header.scss */
 #hero.new-style {
   height: 700px;
   margin-top: -92px;
@@ -8709,7 +8754,7 @@ body.template-homepage #hero {
     filter: brightness(40%); 
   }*/
 }
-/* line 400, ../scss/viewlets/_header.scss */
+/* line 455, ../scss/viewlets/_header.scss */
 #hero.new-style > div {
   top: calc(50% - 46px);
   margin-top: 92px;
@@ -8723,19 +8768,19 @@ body.template-homepage #hero {
   justify-content: center;
   padding: 1rem 2rem;
 }
-/* line 413, ../scss/viewlets/_header.scss */
+/* line 468, ../scss/viewlets/_header.scss */
 #hero.new-style > div .line {
   width: 50%;
   border-top: 3px solid white;
   margin: 10px auto;
 }
-/* line 425, ../scss/viewlets/_header.scss */
+/* line 480, ../scss/viewlets/_header.scss */
 #hero img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-/* line 431, ../scss/viewlets/_header.scss */
+/* line 486, ../scss/viewlets/_header.scss */
 #hero h2,
 #hero h1 {
   /* font-weight: 700; */
