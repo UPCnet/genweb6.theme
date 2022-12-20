@@ -24445,141 +24445,75 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   color: var(--bs-primary);
   box-shadow: 0 7px 8px #00000033;
 }
-/* line 339, ../scss/viewlets/_header.scss */
+/* line 335, ../scss/viewlets/_header.scss */
+#header:not(.shink) #portal-navbar-mobile button.navbar-toggler {
+  background-color: var(--bs-primary);
+}
+/* line 338, ../scss/viewlets/_header.scss */
+#header:not(.shink) #portal-navbar-mobile button.navbar-toggler:hover {
+  background-color: var(--bs-primary-hover);
+}
+/* line 350, ../scss/viewlets/_header.scss */
 #header:not(.shink) #portal-navbar .navbar-nav .nav-item.has_subtree:not(.nav-lang):hover {
   padding: 28px 0 28px 15px;
 }
-/* line 342, ../scss/viewlets/_header.scss */
+/* line 353, ../scss/viewlets/_header.scss */
 #header:not(.shink) #portal-navbar .navbar-nav .nav-item.has_subtree:not(.nav-lang):hover > ul {
   top: 92px;
   background-color: var(--bs-white);
   box-shadow: 0 7px 8px #00000033;
 }
-/* line 347, ../scss/viewlets/_header.scss */
+/* line 358, ../scss/viewlets/_header.scss */
 #header:not(.shink) #portal-navbar .navbar-nav .nav-item.has_subtree:not(.nav-lang):hover > ul .nav-item {
   border-left: 1px solid var(--bs-primary);
 }
-/* line 352, ../scss/viewlets/_header.scss */
+/* line 363, ../scss/viewlets/_header.scss */
 #header:not(.shink) #portal-navbar .navbar-nav .nav-item.has_subtree:not(.nav-lang):hover > ul .nav-item:hover a {
   color: var(--bs-white) !important;
 }
-/* line 357, ../scss/viewlets/_header.scss */
+/* line 368, ../scss/viewlets/_header.scss */
 #header:not(.shink) #portal-navbar .navbar-nav .nav-item.has_subtree:not(.nav-lang):hover > ul .nav-item a {
   color: var(--bs-primary) !important;
 }
-/* line 367, ../scss/viewlets/_header.scss */
+/* line 378, ../scss/viewlets/_header.scss */
 #header:not(.shink) #portal-navbar .navbar-nav .nav-item.nav-lang > ul {
   background-color: #FFFFFF;
   border: 1px solid var(--bs-primary);
 }
-/* line 371, ../scss/viewlets/_header.scss */
+/* line 382, ../scss/viewlets/_header.scss */
 #header:not(.shink) #portal-navbar .navbar-nav .nav-item.nav-lang > ul .nav-item {
   border: 1px solid var(--bs-primary);
 }
-/* line 374, ../scss/viewlets/_header.scss */
+/* line 385, ../scss/viewlets/_header.scss */
 #header:not(.shink) #portal-navbar .navbar-nav .nav-item.nav-lang > ul .nav-item a {
   color: var(--bs-primary) !important;
 }
-/* line 381, ../scss/viewlets/_header.scss */
+/* line 392, ../scss/viewlets/_header.scss */
 #header:not(.shink) #portal-navbar .navbar-nav .nav-item a {
   color: var(--bs-primary) !important;
 }
-/* line 384, ../scss/viewlets/_header.scss */
+/* line 395, ../scss/viewlets/_header.scss */
 #header:not(.shink) #portal-navbar .navbar-nav .nav-item a:hover {
   color: var(--bs-primary-hover) !important;
 }
-/* line 392, ../scss/viewlets/_header.scss */
+/* line 403, ../scss/viewlets/_header.scss */
 #header:not(.shink) .bi-search {
   text-shadow: none;
 }
 
-/* line 400, ../scss/viewlets/_header.scss */
+/* line 411, ../scss/viewlets/_header.scss */
 #header.content-style:not(.shink) #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul,
 #header.old-style:not(.shink) #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul {
   background-color: var(--bs-dark);
 }
 
-/* line 407, ../scss/viewlets/_header.scss */
+/* line 418, ../scss/viewlets/_header.scss */
 #header-cintillo + #header #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul {
   top: calc(72px + 85px);
 }
-/* line 413, ../scss/viewlets/_header.scss */
+/* line 424, ../scss/viewlets/_header.scss */
 #header-cintillo + #header:not(.shink) #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul {
   top: calc(92px + 85px);
-}
-
-/* line 421, ../scss/viewlets/_header.scss */
-body.template-homepage #hero {
-  margin-bottom: 2rem;
-}
-
-/* line 426, ../scss/viewlets/_header.scss */
-#hero {
-  text-align: center;
-  position: relative;
-}
-/* line 430, ../scss/viewlets/_header.scss */
-#hero.content-style, #hero.old-style {
-  height: 126px;
-  box-shadow: 0 -126px 0 #000;
-}
-/* line 435, ../scss/viewlets/_header.scss */
-#hero.content-style > h1, #hero.old-style > h1 {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  width: 100%;
-  max-width: 1320px;
-  height: 100%;
-  background-color: #007BC1DD;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  box-shadow: 0px -2px 4px 0px #065988dd;
-}
-/* line 451, ../scss/viewlets/_header.scss */
-#hero.new-style {
-  height: 700px;
-  margin-top: -92px;
-  /*img {
-    filter: brightness(40%); 
-  }*/
-}
-/* line 455, ../scss/viewlets/_header.scss */
-#hero.new-style > div {
-  top: calc(50% - 46px);
-  margin-top: 92px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  height: calc(100% - 92px);
-  background-color: #007BC1DD;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1rem 2rem;
-}
-/* line 468, ../scss/viewlets/_header.scss */
-#hero.new-style > div .line {
-  width: 50%;
-  border-top: 3px solid white;
-  margin: 10px auto;
-}
-/* line 480, ../scss/viewlets/_header.scss */
-#hero img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-/* line 486, ../scss/viewlets/_header.scss */
-#hero h2,
-#hero h1 {
-  /* font-weight: 700; */
-  font-family: 'Fira sans';
-  color: var(--bs-white);
-  /* text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark); */
-  margin-bottom: 0;
 }
 
 @media (max-width: 992px) {
@@ -24622,32 +24556,36 @@ body.template-homepage #hero {
 #portal-navbar-mobile .offcanvas-body {
   padding-top: 0;
 }
-/* line 49, ../scss/viewlets/_header_mobile.scss */
+/* line 50, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar .container-fluid {
   justify-content: flex-end;
 }
-/* line 58, ../scss/viewlets/_header_mobile.scss */
+/* line 54, ../scss/viewlets/_header_mobile.scss */
+#portal-navbar-mobile .navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+/* line 63, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li a {
-  color: var(--bs-white);
+  color: var(--bs-white) !important;
   background-color: var(--bs-navbar-background);
 }
-/* line 62, ../scss/viewlets/_header_mobile.scss */
+/* line 67, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li a:hover {
   background: transparent;
   font-weight: 500;
 }
-/* line 68, ../scss/viewlets/_header_mobile.scss */
+/* line 73, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li label {
   padding-right: 1rem;
 }
-/* line 71, ../scss/viewlets/_header_mobile.scss */
+/* line 76, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li label:after {
   font-size: .75em;
   background: 0 0;
   border: 1px solid var(--bs-white);
   padding: 5px;
 }
-/* line 79, ../scss/viewlets/_header_mobile.scss */
+/* line 84, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li ul.has_subtree {
   position: initial;
   padding-left: 0.5em !important;
@@ -24656,32 +24594,32 @@ body.template-homepage #hero {
   visibility: hidden;
   opacity: 0;
 }
-/* line 90, ../scss/viewlets/_header_mobile.scss */
+/* line 95, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li:hover label:after {
   background: var(--bs-white) !important;
   color: var(--bs-navbar-background);
 }
-/* line 98, ../scss/viewlets/_header_mobile.scss */
+/* line 103, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li.current label:after {
   background: var(--bs-primary);
 }
-/* line 105, ../scss/viewlets/_header_mobile.scss */
+/* line 110, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li.open label:after {
   transform: rotate(180deg);
 }
-/* line 109, ../scss/viewlets/_header_mobile.scss */
+/* line 114, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li.open ul {
   opacity: 1;
   visibility: visible;
   height: auto;
   margin-left: 1rem;
 }
-/* line 119, ../scss/viewlets/_header_mobile.scss */
+/* line 124, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile {
   width: 100%;
   padding: 0 1rem;
 }
-/* line 123, ../scss/viewlets/_header_mobile.scss */
+/* line 128, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile button.searchButton {
   background: none;
   color: inherit;
@@ -24691,7 +24629,7 @@ body.template-homepage #hero {
   cursor: pointer;
   outline: inherit;
 }
-/* line 133, ../scss/viewlets/_header_mobile.scss */
+/* line 138, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile .livesearch-results {
   position: absolute;
   left: 0;
@@ -24700,6 +24638,80 @@ body.template-homepage #hero {
   padding-right: 2rem;
   width: 100%;
   z-index: 1;
+}
+
+/* line 3, ../scss/viewlets/_hero.scss */
+body.template-homepage #hero {
+  margin-bottom: 2rem;
+}
+
+/* line 8, ../scss/viewlets/_hero.scss */
+#hero {
+  text-align: center;
+  position: relative;
+}
+/* line 12, ../scss/viewlets/_hero.scss */
+#hero.content-style, #hero.old-style {
+  height: 126px;
+  box-shadow: 0 -126px 0 #000;
+}
+/* line 17, ../scss/viewlets/_hero.scss */
+#hero.content-style > h1, #hero.old-style > h1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 100%;
+  max-width: 1320px;
+  height: 100%;
+  background-color: #007BC1DD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px -2px 4px 0px #065988dd;
+}
+/* line 33, ../scss/viewlets/_hero.scss */
+#hero.new-style {
+  height: 700px;
+  margin-top: -92px;
+  /*img {
+    filter: brightness(40%);
+  }*/
+}
+/* line 37, ../scss/viewlets/_hero.scss */
+#hero.new-style > div {
+  top: calc(50% - 46px);
+  margin-top: 92px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: calc(100% - 92px);
+  background-color: #007BC1DD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+/* line 50, ../scss/viewlets/_hero.scss */
+#hero.new-style > div .line {
+  width: 50%;
+  border-top: 3px solid white;
+  margin: 10px auto;
+}
+/* line 62, ../scss/viewlets/_hero.scss */
+#hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* line 68, ../scss/viewlets/_hero.scss */
+#hero h2,
+#hero h1 {
+  /* font-weight: 700; */
+  font-family: 'Fira sans';
+  color: var(--bs-white);
+  /* text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark); */
+  margin-bottom: 0;
 }
 
 /* line 5, ../scss/views/_author.scss */
