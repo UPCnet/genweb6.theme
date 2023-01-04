@@ -43,7 +43,7 @@
         &:after {
             content: "\e902";
             font-family: upc-icones;
-            border: 1.5px solid rgba(255, 255, 255, 0);
+            border: 1.5px solid rgba(243, 243, 243, 0.95);
             position: absolute;
             font-size: var(--gw-font-size-xl);
             right: 18px;
@@ -180,7 +180,7 @@
 
         div {
             padding: 10px 72px 10px 20px;
-            background: rgba(255, 255, 255, .95);
+            background: rgba(243, 243, 243, 0.95);
             z-index: 0;
             height: 80px;
             bottom: 0;
@@ -228,7 +228,14 @@
             height: auto;
 
             div {
-                background-color: var(--bs-gray-100);
+                background-color: #ffffff;
+                border: 2px solid var(--bs-primary);
+                border-radius: 7px;
+
+                h2 {
+                    color: var(--bs-primary);
+                    font-weight: 500;
+                }
             }
 
             &:after {

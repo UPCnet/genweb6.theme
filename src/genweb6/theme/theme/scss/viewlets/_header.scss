@@ -133,6 +133,7 @@ body:not([class*="section-"]) {
             &::after {
               font-family: bootstrap-icons !important;
               content: "\f282";
+              transition: ease-in .35s transform;
             }
           }
 

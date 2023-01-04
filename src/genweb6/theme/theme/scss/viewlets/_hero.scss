@@ -25,6 +25,7 @@ body.template-homepage {
 
       h1 {
         color: var(--bs-black);
+        font-size: 1.75rem;
       }
     }
 
@@ -54,12 +55,18 @@ body.template-homepage {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 1rem 2rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+
+      & > * {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
 
       .line {
         width: 50%;
         border-top: 3px solid white;
-        margin: 10px auto;
+        margin: 15px auto;
       }
     }
 

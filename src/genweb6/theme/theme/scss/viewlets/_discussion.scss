@@ -1,0 +1,17 @@
+.pat-discussion .discussion {
+
+  .comment {
+    color: var(--bs-black) !important;
+
+    &:hover {
+      color: var(--bs-black) !important;
+    }
+
+    .comment-author {
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
