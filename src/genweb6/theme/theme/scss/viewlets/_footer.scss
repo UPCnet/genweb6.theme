@@ -16,23 +16,47 @@ footer#portal-footer-wrapper {
 #portal-footer {
   position: relative;
 
-  &::before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/@@gw-hero);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-size: cover;
-    z-index: -1;
+  &.image-theme {
+
+    * {
+      color: var(--bs-white) !important;
+    }
+
+    &::before {
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), var(--bg-img-url);
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      background-size: cover;
+      z-index: -1;
+    }
   }
 
-  div[id^='footer-']:not(.show-image) {
-    background-color: var(--bs-dark);
+  &.light-theme #footer-complementary,
+  &.dark-theme {
+    background-color: #212529;
+
+    * {
+      color: var(--bs-white) !important;
+    }
+  }
+
+  &.light-theme {
+    background-color: var(--bs-white);
+
+    * {
+      color: var(--bs-dark) !important;
+    }
+
+    #footer-logos {
+      border-bottom: 1px solid var(--bs-gray-300);
+    }
   }
 }
 
@@ -78,12 +102,12 @@ footer#portal-footer-wrapper {
   div.navbar-nav-footer.custom {
     margin-top: 2rem;
 
-    * {
-      color: var(--bs-white) !important;
-    }
-
     a {
       text-decoration: none;
+
+      &:hover {
+        font-weight: 500;
+      }
     }
   }
 
@@ -134,7 +158,6 @@ footer#portal-footer-wrapper {
       & > a,
       & > p {
         margin-bottom: 1rem;
-        color: var(--bs-white) !important;
       }
 
       & > a:hover {
@@ -171,7 +194,6 @@ footer#portal-footer-wrapper {
 
           & > a {
             margin-bottom: 5px;
-            color: var(--bs-white) !important;
 
             &:hover {
               font-weight: 500;

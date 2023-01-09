@@ -1,0 +1,147 @@
+/* White */
+
+#header.light-theme.bshadow,
+#header.light-theme.shink,
+#header.light-to-dark-theme.bshadow:not(.shink) {
+    box-shadow: 0 7px 8px #00000033;
+}
+
+#header.light-theme,
+#header.light-to-dark-theme:not(.shink) {
+  background-color: var(--bs-white);
+
+  #portal-navbar {
+
+    .nav-item {
+
+      & > label:after,
+      & > a {
+        color: var(--bs-primary);
+      }
+
+      &:hover {
+
+        & > label:after,
+        & > a {
+          color: var(--bs-primary-hover);
+        }
+      }
+
+      ul.has_subtree {
+        background-color: var(--bs-white);
+
+        .nav-item {
+          border-left: 1px solid var(--bs-primary);
+
+          &:hover {
+            background-color: var(--bs-primary);
+
+            a {
+              color: var(--bs-white);
+            }
+          }
+        }
+      }
+
+      &:not(.nav-lang) {
+
+        ul.has_subtree {
+          box-shadow: 0 7px 8px #00000033;
+        }
+      }
+
+      &.nav-lang {
+
+        .nav-item {
+          border: 1px solid var(--bs-primary);
+        }
+      }
+    }
+  }
+
+  #portal-navbar-mobile {
+
+    button.navbar-toggler {
+      background-color: var(--bs-primary);
+
+      &:hover {
+        background-color: var(--bs-primary-hover);
+      }
+    }
+  }
+
+  #portal-searchbox {
+
+    i.bi.bi-search {
+      color: var(--bs-primary);
+    }
+  }
+}
+
+/* Dark */
+
+#header.dark-theme,
+#header.light-to-dark-theme.shink {
+  background-color: var(--bs-dark);
+
+  #portal-logos {
+    filter: brightness(0) invert(1);
+  }
+
+  #portal-navbar {
+
+    .nav-item {
+
+      & > label:after,
+      & > a {
+        color: var(--bs-white);
+      }
+
+      &:hover {
+
+        & > label:after,
+        & > a {
+          font-weight: 500;
+        }
+      }
+
+      ul.has_subtree {
+        background-color: var(--bs-dark);
+
+        .nav-item {
+          border-left: 1px solid var(--bs-white);
+
+          &:hover {
+            background-color: var(--bs-primary);
+
+            a {
+              color: var(--bs-white);
+            }
+          }
+        }
+      }
+
+      &.nav-lang {
+
+        .nav-item {
+          border: 1px solid #000 !important;
+        }
+      }
+    }
+  }
+
+  #portal-navbar-mobile {
+
+    button.navbar-toggler:hover {
+      border-color: var(--bs-white);
+    }
+  }
+
+  #portal-searchbox {
+
+    i.bi.bi-search {
+      color: var(--bs-white);
+      text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark);
+    }
+  }
+}

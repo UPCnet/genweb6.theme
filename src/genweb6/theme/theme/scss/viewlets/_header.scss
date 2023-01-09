@@ -33,17 +33,11 @@ body:not([class*="section-"]) {
 
 #header {
   padding: 1em 4em;
-  background-color: var(--bs-dark);
-  color: #FFF;
   height: 92px;
-  transition: all .4s ease;
-  -webkit-transition: all .4s ease;
-  -moz-transition: all .4s ease;
-  -o-transition: all .4s ease;
-
-  &.new-style {
-    background-color: #212529DD;
-  }
+  transition: height .4s ease;
+  -webkit-transition: height .4s ease;
+  -moz-transition: height .4s ease;
+  -o-transition: height .4s ease;
 
   #portal-logos {
 
@@ -61,24 +55,14 @@ body:not([class*="section-"]) {
     }
   }
 
-  .bi-search {
-    text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark);
-
-      &:hover {
-        color: var(--bs-primary);
-      }
-  }
-
   #portal-navbar {
 
     .navbar-nav {
 
       .nav-item {
         font-weight: 400;
-        /*text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark);*/
 
         a {
-          color: var(--bs-white) !important;
           padding: 6px 0px 6px 0px;
         }
 
@@ -89,28 +73,16 @@ body:not([class*="section-"]) {
             border-bottom: 3px solid var(--bs-primary);
           }
         }
-
-        &:hover {
-          color: var(--bs-primary) !important;
-
-          a {
-            color: var(--bs-primary) !important;
-          }
-        } 
       }
 
       & > li.has_subtree {
 
         .dropdown {
-          background-color: #212529DD;
-          border: 1px solid #212529DD;
 
           .nav-item {
-            border-bottom: 1px solid #212529DD;
             text-align: center;
 
             a.nav-link {
-              color: var(--bs-white) !important;
               padding: 6px 3px 6px 3px;
             }
           }
@@ -156,20 +128,13 @@ body:not([class*="section-"]) {
             left: 0;
             max-width: 100%;
             width: 100%;
-            background-color: #212529DD;
             border: 0px solid transparent;
 
             li.nav-item {
               flex: 1 0 calc(100% / 6);
               text-align: left;
               border-bottom: 0px solid transparent;
-              border-left: 1px solid #ebebeb;
               max-width: calc(100% / 6);
-
-
-              a.nav-link {
-                color: var(--bs-white) !important;
-              }
             }
 
             li.has_subtree {
@@ -198,12 +163,9 @@ body:not([class*="section-"]) {
           height: auto;
           right: 8px;
           top: 40px;
-          background-color: var(--bs-white);
-          border: 1px solid #ebebeb;
 
           li.nav-item {
             text-align: right;
-            border-bottom: 1px solid #ebebeb;
 
             &::last-child {
               border-bottom: 0px solid;
@@ -214,19 +176,6 @@ body:not([class*="section-"]) {
               padding-right: 0em;
               font-weight: normal;
               line-height: 18px;
-              color: #666;
-
-              &:hover {
-                color: var(--bs-primary) !important;;
-              }
-            }
-          }
-
-          li.nav-item:hover {
-            background-color: var(--bs-primary);
-
-            a.nav-link {
-              color: var(--bs-white) !important;;
             }
           }
         }
@@ -306,11 +255,9 @@ body:not([class*="section-"]) {
 }
 
 #header.shink {
-  background-color: #212529DD;
   height: 72px;
 
   #portal-logos {
-    filter: brightness(0) invert(1);
 
     img {
       max-height: 40px;
@@ -327,19 +274,6 @@ body:not([class*="section-"]) {
 }
 
 #header:not(.shink) {
-  background-color: var(--bs-white);
-  color: var(--bs-primary);
-
-  #portal-navbar-mobile {
-
-    button.navbar-toggler {
-      background-color: var(--bs-primary);
-
-      &:hover {
-        background-color: var(--bs-primary-hover);
-      }
-    }
-  }
 
   #portal-navbar {
 
@@ -352,64 +286,10 @@ body:not([class*="section-"]) {
 
           & > ul {
             top: 92px;
-            background-color: var(--bs-white);
-            box-shadow: 0 7px 8px #00000033;
-
-            .nav-item {
-              border-left: 1px solid var(--bs-primary);
-
-              &:hover {
-
-                a {
-                  color: var(--bs-white) !important;
-                }
-              }
-
-              a {
-                color: var(--bs-primary) !important;
-              }
-            }
-
-          }
-        }
-
-        &.nav-lang {
-
-          & > ul {
-            background-color: #FFFFFF;
-            border: 1px solid var(--bs-primary);
-
-            .nav-item {
-              border: 1px solid var(--bs-primary);
-
-              a {
-                color: var(--bs-primary) !important;
-              }
-            }
-          }
-        }
-
-        a {
-          color: var(--bs-primary) !important;
-
-          &:hover {
-            color: var(--bs-primary-hover) !important;
           }
         }
       }
     }
-  }
-
-  .bi-search {
-    text-shadow: none;
-  }
-}
-
-#header.content-style:not(.shink),
-#header.old-style:not(.shink) {
-
-  #portal-navbar .navbar-nav > li.has_subtree:not(.nav-lang) > ul {
-    background-color: var(--bs-dark);
   }
 }
 
