@@ -21871,94 +21871,35 @@ article#content header p.lead {
   border-radius: 7px 7px 0 0;
 }
 
-/* line 37, ../scss/contents/_generic.scss */
-body.portaltype-genweb.upc.subhome li#contentview-configure a::before,
-body.portaltype-genweb.upc.subhome li#contentview-view a::before,
-body.portaltype-genweb.upc.subhome li#contentview-edit a::before,
-body.portaltype-genweb-upc-documentimage li#contentview-configure a::before,
-body.portaltype-genweb-upc-documentimage li#contentview-view a::before,
-body.portaltype-genweb-upc-documentimage li#contentview-edit a::before,
-body.portaltype-easyform li#contentview-configure a::before,
-body.portaltype-easyform li#contentview-view a::before,
-body.portaltype-easyform li#contentview-edit a::before,
-body.portaltype-logos_footer li#contentview-configure a::before,
-body.portaltype-logos_footer li#contentview-view a::before,
-body.portaltype-logos_footer li#contentview-edit a::before,
-body.portaltype-logos_container li#contentview-configure a::before,
-body.portaltype-logos_container li#contentview-view a::before,
-body.portaltype-logos_container li#contentview-edit a::before,
-body.portaltype-banner li#contentview-configure a::before,
-body.portaltype-banner li#contentview-view a::before,
-body.portaltype-banner li#contentview-edit a::before,
-body.portaltype-bannercontainer li#contentview-configure a::before,
-body.portaltype-bannercontainer li#contentview-view a::before,
-body.portaltype-bannercontainer li#contentview-edit a::before,
-body.portaltype-packet li#contentview-configure a::before,
-body.portaltype-packet li#contentview-view a::before,
-body.portaltype-packet li#contentview-edit a::before {
+/* line 30, ../scss/contents/_generic.scss */
+li#contentview-configure > a::before,
+li#contentview-view > a::before,
+li#contentview-edit > a::before {
   font-family: 'bootstrap-icons';
   margin-top: 0.3em;
   margin-right: 0.65em;
   font-size: 0.73em;
 }
-/* line 51, ../scss/contents/_generic.scss */
-body.portaltype-genweb.upc.subhome:not(.plone-toolbar-left-expanded) li#contentview-configure a::before,
-body.portaltype-genweb.upc.subhome:not(.plone-toolbar-left-expanded) li#contentview-view a::before,
-body.portaltype-genweb.upc.subhome:not(.plone-toolbar-left-expanded) li#contentview-edit a::before,
-body.portaltype-genweb-upc-documentimage:not(.plone-toolbar-left-expanded) li#contentview-configure a::before,
-body.portaltype-genweb-upc-documentimage:not(.plone-toolbar-left-expanded) li#contentview-view a::before,
-body.portaltype-genweb-upc-documentimage:not(.plone-toolbar-left-expanded) li#contentview-edit a::before,
-body.portaltype-easyform:not(.plone-toolbar-left-expanded) li#contentview-configure a::before,
-body.portaltype-easyform:not(.plone-toolbar-left-expanded) li#contentview-view a::before,
-body.portaltype-easyform:not(.plone-toolbar-left-expanded) li#contentview-edit a::before,
-body.portaltype-logos_footer:not(.plone-toolbar-left-expanded) li#contentview-configure a::before,
-body.portaltype-logos_footer:not(.plone-toolbar-left-expanded) li#contentview-view a::before,
-body.portaltype-logos_footer:not(.plone-toolbar-left-expanded) li#contentview-edit a::before,
-body.portaltype-logos_container:not(.plone-toolbar-left-expanded) li#contentview-configure a::before,
-body.portaltype-logos_container:not(.plone-toolbar-left-expanded) li#contentview-view a::before,
-body.portaltype-logos_container:not(.plone-toolbar-left-expanded) li#contentview-edit a::before,
-body.portaltype-banner:not(.plone-toolbar-left-expanded) li#contentview-configure a::before,
-body.portaltype-banner:not(.plone-toolbar-left-expanded) li#contentview-view a::before,
-body.portaltype-banner:not(.plone-toolbar-left-expanded) li#contentview-edit a::before,
-body.portaltype-bannercontainer:not(.plone-toolbar-left-expanded) li#contentview-configure a::before,
-body.portaltype-bannercontainer:not(.plone-toolbar-left-expanded) li#contentview-view a::before,
-body.portaltype-bannercontainer:not(.plone-toolbar-left-expanded) li#contentview-edit a::before,
-body.portaltype-packet:not(.plone-toolbar-left-expanded) li#contentview-configure a::before,
-body.portaltype-packet:not(.plone-toolbar-left-expanded) li#contentview-view a::before,
-body.portaltype-packet:not(.plone-toolbar-left-expanded) li#contentview-edit a::before {
+
+/* line 45, ../scss/contents/_generic.scss */
+body:not(.plone-toolbar-left-expanded) li#contentview-configure a::before,
+body:not(.plone-toolbar-left-expanded) li#contentview-view a::before,
+body:not(.plone-toolbar-left-expanded) li#contentview-edit a::before {
   margin-top: 0;
 }
-/* line 57, ../scss/contents/_generic.scss */
-body.portaltype-genweb.upc.subhome li#contentview-edit a::before,
-body.portaltype-genweb-upc-documentimage li#contentview-edit a::before,
-body.portaltype-easyform li#contentview-edit a::before,
-body.portaltype-logos_footer li#contentview-edit a::before,
-body.portaltype-logos_container li#contentview-edit a::before,
-body.portaltype-banner li#contentview-edit a::before,
-body.portaltype-bannercontainer li#contentview-edit a::before,
-body.portaltype-packet li#contentview-edit a::before {
+
+/* line 51, ../scss/contents/_generic.scss */
+li#contentview-edit a:not(:has(svg))::before {
   content: "\F4CB";
 }
-/* line 61, ../scss/contents/_generic.scss */
-body.portaltype-genweb.upc.subhome li#contentview-view a::before,
-body.portaltype-genweb-upc-documentimage li#contentview-view a::before,
-body.portaltype-easyform li#contentview-view a::before,
-body.portaltype-logos_footer li#contentview-view a::before,
-body.portaltype-logos_container li#contentview-view a::before,
-body.portaltype-banner li#contentview-view a::before,
-body.portaltype-bannercontainer li#contentview-view a::before,
-body.portaltype-packet li#contentview-view a::before {
+
+/* line 55, ../scss/contents/_generic.scss */
+li#contentview-view a:not(:has(svg))::before {
   content: "\F341";
 }
-/* line 65, ../scss/contents/_generic.scss */
-body.portaltype-genweb.upc.subhome li#contentview-configure a::before,
-body.portaltype-genweb-upc-documentimage li#contentview-configure a::before,
-body.portaltype-easyform li#contentview-configure a::before,
-body.portaltype-logos_footer li#contentview-configure a::before,
-body.portaltype-logos_container li#contentview-configure a::before,
-body.portaltype-banner li#contentview-configure a::before,
-body.portaltype-bannercontainer li#contentview-configure a::before,
-body.portaltype-packet li#contentview-configure a::before {
+
+/* line 59, ../scss/contents/_generic.scss */
+li#contentview-configure a:not(:has(svg))::before {
   content: "\F3E5";
 }
 
@@ -22841,6 +22782,62 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 /* line 191, ../scss/templates/_carousel.scss */
 .col-md-4 > .portletWrapper .template-carousel .carousel-item img {
   aspect-ratio: 4 / 3;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(var(--nsize) / 2));
+  }
+}
+/* line 12, ../scss/templates/_slider.scss */
+.slider {
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+/* line 18, ../scss/templates/_slider.scss */
+.slider::before, .slider::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+/* line 28, ../scss/templates/_slider.scss */
+.slider::after {
+  right: 0;
+  top: 0;
+  -webkit-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+}
+/* line 35, ../scss/templates/_slider.scss */
+.slider::before {
+  left: 0;
+  top: 0;
+}
+/* line 40, ../scss/templates/_slider.scss */
+.slider .slide-track {
+  -webkit-animation: scroll var(--time) linear infinite;
+  animation: scroll var(--time) linear infinite;
+  display: flex;
+  width: var(--size);
+}
+/* line 46, ../scss/templates/_slider.scss */
+.slider .slide-track .slide {
+  height: var(--size);
+  width: fit-content;
+  margin-right: 50px;
+}
+/* line 52, ../scss/templates/_slider.scss */
+.slider .slide-track img.slide-image {
+  height: var(--size);
+  width: auto;
+  max-width: unset;
 }
 
 /* line 1, ../scss/tiles/_tiles.scss */

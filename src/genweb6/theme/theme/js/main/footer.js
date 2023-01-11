@@ -1,4 +1,5 @@
 /*  INICIO footer.js */
+
 $(document).ready(function(){
 
     $('#portal-footer').addClass($('#footer-complementary').data('class'));

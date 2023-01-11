@@ -21,48 +21,42 @@ article#content {
   }
 }
 
-body.portaltype-genweb.upc.subhome,
-body.portaltype-genweb-upc-documentimage,
-body.portaltype-easyform,
-body.portaltype-logos_footer,
-body.portaltype-logos_container,
-body.portaltype-banner,
-body.portaltype-bannercontainer,
-body.portaltype-packet {
+li#contentview-configure,
+li#contentview-view,
+li#contentview-edit {
 
-  li#contentview-configure,
-  li#contentview-view,
-  li#contentview-edit {
+  & > a:not(:has(svg)) {
 
-    a::before {
+    &::before {
       font-family: 'bootstrap-icons';
       margin-top: 0.3em;
       margin-right: 0.65em;
       font-size: 0.73em;
     }
   }
+}
 
-  &:not(.plone-toolbar-left-expanded) {
+body:not(.plone-toolbar-left-expanded) {
 
-    li#contentview-configure,
-    li#contentview-view,
-    li#contentview-edit {
+  li#contentview-configure,
+  li#contentview-view,
+  li#contentview-edit {
 
-      a::before {
-        margin-top: 0;
-      }
+    a:not(:has(svg))::before {
+      margin-top: 0;
     }
   }
-
-  li#contentview-edit a::before {
-    content: "\F4CB";
-  }
-
-  li#contentview-view a::before {
-    content: "\F341";
-  }
-
-  li#contentview-configure a::before {
-    content: "\F3E5";
-  }
 }
+
+li#contentview-edit a:not(:has(svg))::before {
+  content: "\F4CB";
+}
+
+li#contentview-view a:not(:has(svg))::before {
+  content: "\F341";
+}
+
+li#contentview-configure a:not(:has(svg))::before {
+  content: "\F3E5";
+}
+
