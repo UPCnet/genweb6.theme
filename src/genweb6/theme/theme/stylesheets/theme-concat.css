@@ -24725,7 +24725,7 @@ body.template-homepage #hero {
   text-align: left;
 }
 /* line 46, ../scss/viewlets/_hero.scss */
-#hero.text-hero > .site_title h1, #hero.image-hero > .site_title h1 {
+#hero.text-hero > .site_title .h1, #hero.image-hero > .site_title .h1 {
   color: var(--bs-black);
   font-size: 1.75rem;
 }
@@ -24741,10 +24741,12 @@ body.template-homepage #hero {
 }
 /* line 62, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero h2,
-#hero.pretty-image-hero h1 {
+#hero.pretty-image-hero h1,
+#hero.pretty-image-hero .h2,
+#hero.pretty-image-hero .h1 {
   color: var(--bs-white);
 }
-/* line 67, ../scss/viewlets/_hero.scss */
+/* line 69, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero > div {
   top: calc(50% - 46px);
   margin-top: 92px;
@@ -24759,19 +24761,19 @@ body.template-homepage #hero {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-/* line 81, ../scss/viewlets/_hero.scss */
+/* line 83, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero > div > * {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-/* line 86, ../scss/viewlets/_hero.scss */
+/* line 88, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero > div .line {
   width: 50%;
   border-top: 3px solid white;
   margin: 15px auto;
   color: var(--bs-primary);
 }
-/* line 95, ../scss/viewlets/_hero.scss */
+/* line 97, ../scss/viewlets/_hero.scss */
 #hero.full-pretty-image-hero {
   width: 100%;
   height: calc(100vh - 92px);
@@ -24786,7 +24788,7 @@ body.template-homepage #hero {
   background-repeat: no-repeat;
   padding: 2rem;
 }
-/* line 109, ../scss/viewlets/_hero.scss */
+/* line 111, ../scss/viewlets/_hero.scss */
 #hero.full-pretty-image-hero > div {
   max-width: 60%;
   display: flex;
@@ -24796,25 +24798,28 @@ body.template-homepage #hero {
   flex-direction: column;
 }
 @media (max-width: 768px) {
-  /* line 109, ../scss/viewlets/_hero.scss */
+  /* line 111, ../scss/viewlets/_hero.scss */
   #hero.full-pretty-image-hero > div {
     max-width: 90%;
     position: absolute;
     top: 2rem;
   }
 }
-/* line 123, ../scss/viewlets/_hero.scss */
+/* line 125, ../scss/viewlets/_hero.scss */
 #hero.full-pretty-image-hero > div h2,
-#hero.full-pretty-image-hero > div h1 {
+#hero.full-pretty-image-hero > div h1,
+#hero.full-pretty-image-hero > div .h2,
+#hero.full-pretty-image-hero > div .h1 {
   background-color: var(--bs-primary);
   color: white;
   padding: 0.25rem 0.5rem;
 }
-/* line 130, ../scss/viewlets/_hero.scss */
-#hero.full-pretty-image-hero > div h2 {
+/* line 134, ../scss/viewlets/_hero.scss */
+#hero.full-pretty-image-hero > div h2,
+#hero.full-pretty-image-hero > div .h2 {
   margin-top: 2rem;
 }
-/* line 135, ../scss/viewlets/_hero.scss */
+/* line 140, ../scss/viewlets/_hero.scss */
 #hero.full-pretty-image-hero a.down-hero {
   font-size: 3rem;
   color: var(--bs-primary);
@@ -24822,24 +24827,26 @@ body.template-homepage #hero {
   bottom: 1.5rem;
 }
 @media (max-width: 768px) {
-  /* line 135, ../scss/viewlets/_hero.scss */
+  /* line 140, ../scss/viewlets/_hero.scss */
   #hero.full-pretty-image-hero a.down-hero {
     bottom: 1rem;
   }
 }
-/* line 145, ../scss/viewlets/_hero.scss */
+/* line 150, ../scss/viewlets/_hero.scss */
 #hero.full-pretty-image-hero a.down-hero:hover {
   color: var(--bs-primary-hover);
 }
-/* line 151, ../scss/viewlets/_hero.scss */
+/* line 156, ../scss/viewlets/_hero.scss */
 #hero img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-/* line 157, ../scss/viewlets/_hero.scss */
+/* line 162, ../scss/viewlets/_hero.scss */
 #hero h2,
-#hero h1 {
+#hero h1,
+#hero .h2,
+#hero .h1 {
   /* font-weight: 700; */
   font-family: 'Fira sans';
   /* text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark); */

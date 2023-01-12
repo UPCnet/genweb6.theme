@@ -43,7 +43,7 @@ body.template-homepage {
       padding: 0em 4em 1em 4em;
       text-align: left;
 
-      h1 {
+      .h1 {
         color: var(--bs-black);
         font-size: 1.75rem;
       }
@@ -60,7 +60,9 @@ body.template-homepage {
     margin-top: -92px;
 
     h2,
-    h1 {
+    h1,
+    .h2,
+    .h1 {
       color: var(--bs-white);
     }
 
@@ -121,13 +123,16 @@ body.template-homepage {
       }
 
       h2,
-      h1 {
+      h1,
+      .h2,
+      .h1 {
         background-color: var(--bs-primary);
         color: white;
         padding: 0.25rem 0.5rem;
       }
 
-      h2 {
+      h2,
+      .h2 {
         margin-top: 2rem;
       }
     }
@@ -155,7 +160,9 @@ body.template-homepage {
   }
 
   h2,
-  h1 {
+  h1,
+  .h2,
+  .h1 {
     /* font-weight: 700; */
     font-family: 'Fira sans';
     /* text-shadow: 1px 1px 1px var(--bs-dark), 0 0 0.2em var(--bs-dark), 0 0 0.2em var(--bs-dark); */
