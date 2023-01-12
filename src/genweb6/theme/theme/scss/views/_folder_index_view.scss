@@ -2,8 +2,13 @@ body.template-folder_index_view {
 
     #content-core {
 
-        h3 a {
-            text-decoration: none;
+        #folder-index-view.well{
+            list-style: none;
+
+            h3 a {
+                text-decoration: none;
+                font-size: 20px;
+            }
         }
     }
 }

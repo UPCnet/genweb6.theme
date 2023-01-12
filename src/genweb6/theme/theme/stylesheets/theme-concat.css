@@ -19017,7 +19017,7 @@ body#tinymce [class*=" icon-"],
   height: 14px;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url('/++theme++genweb6.theme/img/gh.png');
+  background-image: url(/++theme++genweb6.theme/img/gh.png);
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 3px;
@@ -19044,13 +19044,13 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > li > a:hover > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class^="icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class*=" icon-"] {
-  background-image: url('/++theme++genweb6.theme/img/gh-w.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-w.png);
 }
 /* line 43, ../scss/old/_sprites.scss */
 body#tinymce .icon-color,
 .mosaic-tile-content .icon-color,
 #content-core #parent-fieldname-text .icon-color {
-  background-image: url('/++theme++genweb6.theme/img/gh-c.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-c.png);
 }
 /* line 47, ../scss/old/_sprites.scss */
 body#tinymce .icon-glass,
@@ -20471,7 +20471,7 @@ body#tinymce .icon-translate,
 body#tinymce .large-icon,
 .mosaic-tile-content .large-icon,
 #content-core #parent-fieldname-text .large-icon {
-  background-image: url('/++theme++genweb6.theme/img/gh-150.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-150.png);
   width: 21px;
   height: 21px;
   margin-top: -1px;
@@ -20517,7 +20517,7 @@ body#tinymce .large-icon.icon-user-news,
 body#tinymce .large-icon.icon-white,
 .mosaic-tile-content .large-icon.icon-white,
 #content-core #parent-fieldname-text .large-icon.icon-white {
-  background-image: url('/++theme++genweb6.theme/img/gh-150-w.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-150-w.png);
 }
 /* line 4, ../scss/old/_styles.scss */
 body#tinymce .label,
@@ -22013,7 +22013,7 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 .portlet h2.portlet-title {
   color: var(--bs-primary);
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: var(--gw-font-size-xxl);
   margin-bottom: 1rem;
 }
 /* line 12, ../scss/portlets/_generic.scss */
@@ -22448,23 +22448,24 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   text-decoration: none;
   font-size: 1.05rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
-/* line 65, ../scss/portlets/_navigation.scss */
+/* line 66, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a:hover {
   background-color: transparent;
   text-decoration: none;
   color: var(--bs-primary);
 }
-/* line 70, ../scss/portlets/_navigation.scss */
+/* line 71, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a:hover svg {
   text-decoration: none;
 }
-/* line 75, ../scss/portlets/_navigation.scss */
+/* line 76, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a.navTreeItemInPath {
   color: var(--bs-primary);
 }
-/* line 79, ../scss/portlets/_navigation.scss */
+/* line 80, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a svg {
   height: 1em;
   width: auto;
@@ -22472,7 +22473,7 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   padding-bottom: 2px;
   min-width: 24px;
 }
-/* line 88, ../scss/portlets/_navigation.scss */
+/* line 89, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem ul {
   padding-left: 1rem;
 }
@@ -23857,12 +23858,12 @@ section#section-byline .badge {
 
 /* line 1, ../scss/viewlets/_cookies.scss */
 #cookies-gw-preview,
-#cookies-gw {
+footer #portal-footer #cookies-gw {
   bottom: 0;
   font-size: 16px;
   text-align: justify;
   margin: auto;
-  color: #4a4a4a;
+  color: #4a4a4a !important;
   background: #fffffff2;
   box-shadow: 0 0 1px 1px #0000000d !important;
   transition: opacity 0.15s linear;
@@ -23871,23 +23872,44 @@ section#section-byline .badge {
   border: 1px solid transparent;
   border-radius: 2px;
   z-index: 10;
-  width: 100%;
   border-top: 1px solid #cccccc;
 }
-/* line 19, ../scss/viewlets/_cookies.scss */
+/* line 18, ../scss/viewlets/_cookies.scss */
+#cookies-gw-preview #cookies-bodyText,
 #cookies-gw-preview #cookies-bodyContent,
-#cookies-gw #cookies-bodyContent {
+footer #portal-footer #cookies-gw #cookies-bodyText,
+footer #portal-footer #cookies-gw #cookies-bodyContent {
   text-align: justify;
+  color: #4a4a4a !important;
 }
 /* line 23, ../scss/viewlets/_cookies.scss */
+#cookies-gw-preview #cookies-bodyText a,
+#cookies-gw-preview #cookies-bodyContent a,
+footer #portal-footer #cookies-gw #cookies-bodyText a,
+footer #portal-footer #cookies-gw #cookies-bodyContent a {
+  color: var(--bs-primary) !important;
+}
+/* line 26, ../scss/viewlets/_cookies.scss */
+#cookies-gw-preview #cookies-bodyText a:hover,
+#cookies-gw-preview #cookies-bodyContent a:hover,
+footer #portal-footer #cookies-gw #cookies-bodyText a:hover,
+footer #portal-footer #cookies-gw #cookies-bodyContent a:hover {
+  color: var(--bs-primary-hover) !important;
+}
+/* line 32, ../scss/viewlets/_cookies.scss */
 #cookies-gw-preview #cookies-buttons,
-#cookies-gw #cookies-buttons {
+footer #portal-footer #cookies-gw #cookies-buttons {
   margin: 10px 0 0 0 !important;
   padding: 0;
 }
 
-/* line 29, ../scss/viewlets/_cookies.scss */
-#cookies-gw {
+/* line 38, ../scss/viewlets/_cookies.scss */
+#cookies-gw-preview {
+  width: 100%;
+}
+
+/* line 42, ../scss/viewlets/_cookies.scss */
+footer #portal-footer #cookies-gw {
   position: fixed;
 }
 
@@ -24603,7 +24625,7 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
 /* line 39, ../scss/viewlets/_header_theme.scss */
 #header.light-theme #portal-navbar .nav-item ul.has_subtree .nav-item:hover a,
 #header.light-to-dark-theme:not(.shink) #portal-navbar .nav-item ul.has_subtree .nav-item:hover a {
-  color: var(--bs-white);
+  color: var(--bs-white) !important;
 }
 /* line 48, ../scss/viewlets/_header_theme.scss */
 #header.light-theme #portal-navbar .nav-item:not(.nav-lang) ul.has_subtree,
@@ -24672,7 +24694,7 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
 /* line 117, ../scss/viewlets/_header_theme.scss */
 #header.dark-theme #portal-navbar .nav-item ul.has_subtree .nav-item:hover a,
 #header.light-to-dark-theme.shink #portal-navbar .nav-item ul.has_subtree .nav-item:hover a {
-  color: var(--bs-white);
+  color: var(--bs-white) !important;
 }
 /* line 126, ../scss/viewlets/_header_theme.scss */
 #header.dark-theme #portal-navbar .nav-item.nav-lang .nav-item,
@@ -24854,10 +24876,14 @@ body.template-homepage #hero {
 }
 
 /* line 5, ../scss/views/_author.scss */
+body.template-author #content-core h2 {
+  font-size: 24px;
+}
+/* line 9, ../scss/views/_author.scss */
 body.template-author #content-core table.table {
   margin-bottom: 2rem;
 }
-/* line 8, ../scss/views/_author.scss */
+/* line 12, ../scss/views/_author.scss */
 body.template-author #content-core table.table th {
   font-weight: 400;
 }
@@ -25374,8 +25400,13 @@ body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem
 }
 
 /* line 5, ../scss/views/_folder_index_view.scss */
-body.template-folder_index_view #content-core h3 a {
+body.template-folder_index_view #content-core #folder-index-view.well {
+  list-style: none;
+}
+/* line 8, ../scss/views/_folder_index_view.scss */
+body.template-folder_index_view #content-core #folder-index-view.well h3 a {
   text-decoration: none;
+  font-size: 20px;
 }
 
 /* line 5, ../scss/views/_folder_listing.scss */

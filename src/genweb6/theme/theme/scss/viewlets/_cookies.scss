@@ -1,10 +1,10 @@
 #cookies-gw-preview,
-#cookies-gw {
+footer #portal-footer #cookies-gw {
   bottom: 0;
   font-size: 16px;
   text-align: justify;
   margin: auto;
-  color: #4a4a4a;
+  color: #4a4a4a !important;
   background: #fffffff2;
   box-shadow: 0 0 1px 1px #0000000d !important;
   transition: opacity 0.15s linear;
@@ -13,11 +13,20 @@
   border: 1px solid transparent;
   border-radius: 2px;
   z-index: 10;
-  width: 100%;
   border-top: 1px solid #cccccc;
 
+  #cookies-bodyText,
   #cookies-bodyContent {
     text-align: justify;
+    color: #4a4a4a !important;
+
+    a {
+      color: var(--bs-primary) !important;
+
+      &:hover {
+        color: var(--bs-primary-hover) !important;
+      }
+    }
   }
 
   #cookies-buttons {
@@ -26,6 +35,10 @@
   }
 }
 
-#cookies-gw {
+#cookies-gw-preview {
+  width: 100%;
+}
+
+footer #portal-footer #cookies-gw {
   position: fixed;
 }

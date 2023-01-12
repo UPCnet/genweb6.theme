@@ -37,7 +37,7 @@
             background-color: var(--bs-primary);
 
             a {
-              color: var(--bs-white);
+              color: var(--bs-white) !important;
             }
           }
         }
@@ -115,7 +115,7 @@
             background-color: var(--bs-primary);
 
             a {
-              color: var(--bs-white);
+              color: var(--bs-white) !important;
             }
           }
         }
