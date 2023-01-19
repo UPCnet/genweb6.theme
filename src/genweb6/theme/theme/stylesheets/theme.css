@@ -2269,6 +2269,7 @@ body.userrole-authenticated .state-restricted-to-managers:hover {
    Para no romper estilos de otros lados solo los añadimos en el contenido de las páginas y dentro
    del TinyMCE y del mosaic. */
 /* line 6, ../scss/old/_old.scss */
+.mceTmpl,
 body#tinymce,
 .mosaic-tile-content,
 #content-core #parent-fieldname-text {
@@ -2307,6 +2308,7 @@ body#tinymce,
   /* Otros */
 }
 /* line 1, ../scss/old/_banners.scss */
+.mceTmpl a[class^='link-banner'],
 body#tinymce a[class^='link-banner'],
 .mosaic-tile-content a[class^='link-banner'],
 #content-core #parent-fieldname-text a[class^='link-banner'] {
@@ -2318,6 +2320,7 @@ body#tinymce a[class^='link-banner'],
   font-size: var(--gw-font-size-xl);
 }
 /* line 9, ../scss/old/_banners.scss */
+.mceTmpl a[class^='link-banner']:after,
 body#tinymce a[class^='link-banner']:after,
 .mosaic-tile-content a[class^='link-banner']:after,
 #content-core #parent-fieldname-text a[class^='link-banner']:after {
@@ -2339,6 +2342,7 @@ body#tinymce a[class^='link-banner']:after,
   box-sizing: border-box;
 }
 /* line 28, ../scss/old/_banners.scss */
+.mceTmpl a[class^='link-banner'] span[class^='btntitol'],
 body#tinymce a[class^='link-banner'] span[class^='btntitol'],
 .mosaic-tile-content a[class^='link-banner'] span[class^='btntitol'],
 #content-core #parent-fieldname-text a[class^='link-banner'] span[class^='btntitol'] {
@@ -2346,6 +2350,7 @@ body#tinymce a[class^='link-banner'] span[class^='btntitol'],
   font-weight: 700;
 }
 /* line 33, ../scss/old/_banners.scss */
+.mceTmpl a[class^='link-banner']:hover,
 body#tinymce a[class^='link-banner']:hover,
 .mosaic-tile-content a[class^='link-banner']:hover,
 #content-core #parent-fieldname-text a[class^='link-banner']:hover {
@@ -2356,6 +2361,7 @@ body#tinymce a[class^='link-banner']:hover,
   -webkit-font-smoothing: subpixel-antialiased;
 }
 /* line 41, ../scss/old/_banners.scss */
+.mceTmpl a[class^='link-banner'] > img,
 body#tinymce a[class^='link-banner'] > img,
 .mosaic-tile-content a[class^='link-banner'] > img,
 #content-core #parent-fieldname-text a[class^='link-banner'] > img {
@@ -2369,7 +2375,9 @@ body#tinymce a[class^='link-banner'] > img,
   transition: all .5s ease;
 }
 /* line 52, ../scss/old/_banners.scss */
-body#tinymce a[class^='link-banner'] > img + span + br + span, body#tinymce a[class^='link-banner'] > img + span,
+.mceTmpl a[class^='link-banner'] > img + span + br + span, .mceTmpl a[class^='link-banner'] > img + span,
+body#tinymce a[class^='link-banner'] > img + span + br + span,
+body#tinymce a[class^='link-banner'] > img + span,
 .mosaic-tile-content a[class^='link-banner'] > img + span + br + span,
 .mosaic-tile-content a[class^='link-banner'] > img + span,
 #content-core #parent-fieldname-text a[class^='link-banner'] > img + span + br + span,
@@ -2380,6 +2388,10 @@ body#tinymce a[class^='link-banner'] > img + span + br + span, body#tinymce a[cl
   color: var(--bs-gray-700);
 }
 /* line 62, ../scss/old/_banners.scss */
+.mceTmpl a.link-bannersuccess,
+.mceTmpl a.link-bannerwarning,
+.mceTmpl a.link-bannerdanger,
+.mceTmpl a.link-banner-minimal-blue,
 body#tinymce a.link-bannersuccess,
 body#tinymce a.link-bannerwarning,
 body#tinymce a.link-bannerdanger,
@@ -2395,7 +2407,15 @@ body#tinymce a.link-banner-minimal-blue,
   color: var(--bs-white);
 }
 /* line 68, ../scss/old/_banners.scss */
-body#tinymce a.link-bannersuccess:before, body#tinymce a.link-bannersuccess:after,
+.mceTmpl a.link-bannersuccess:before, .mceTmpl a.link-bannersuccess:after,
+.mceTmpl a.link-bannerwarning:before,
+.mceTmpl a.link-bannerwarning:after,
+.mceTmpl a.link-bannerdanger:before,
+.mceTmpl a.link-bannerdanger:after,
+.mceTmpl a.link-banner-minimal-blue:before,
+.mceTmpl a.link-banner-minimal-blue:after,
+body#tinymce a.link-bannersuccess:before,
+body#tinymce a.link-bannersuccess:after,
 body#tinymce a.link-bannerwarning:before,
 body#tinymce a.link-bannerwarning:after,
 body#tinymce a.link-bannerdanger:before,
@@ -2421,6 +2441,10 @@ body#tinymce a.link-banner-minimal-blue:after,
   color: var(--bs-white);
 }
 /* line 73, ../scss/old/_banners.scss */
+.mceTmpl a.link-bannersuccess:after,
+.mceTmpl a.link-bannerwarning:after,
+.mceTmpl a.link-bannerdanger:after,
+.mceTmpl a.link-banner-minimal-blue:after,
 body#tinymce a.link-bannersuccess:after,
 body#tinymce a.link-bannerwarning:after,
 body#tinymce a.link-bannerdanger:after,
@@ -2436,30 +2460,36 @@ body#tinymce a.link-banner-minimal-blue:after,
   border-color: var(--bs-white);
 }
 /* line 78, ../scss/old/_banners.scss */
+.mceTmpl a.link-banner-minimal-blue,
 body#tinymce a.link-banner-minimal-blue,
 .mosaic-tile-content a.link-banner-minimal-blue,
 #content-core #parent-fieldname-text a.link-banner-minimal-blue {
   background-color: #007BC1;
 }
 /* line 82, ../scss/old/_banners.scss */
+.mceTmpl a.link-bannersuccess,
 body#tinymce a.link-bannersuccess,
 .mosaic-tile-content a.link-bannersuccess,
 #content-core #parent-fieldname-text a.link-bannersuccess {
   background-color: #069182;
 }
 /* line 86, ../scss/old/_banners.scss */
+.mceTmpl a.link-bannerwarning,
 body#tinymce a.link-bannerwarning,
 .mosaic-tile-content a.link-bannerwarning,
 #content-core #parent-fieldname-text a.link-bannerwarning {
   background-color: #f6a808;
 }
 /* line 90, ../scss/old/_banners.scss */
+.mceTmpl a.link-bannerdanger,
 body#tinymce a.link-bannerdanger,
 .mosaic-tile-content a.link-bannerdanger,
 #content-core #parent-fieldname-text a.link-bannerdanger {
   background-color: #d01157;
 }
 /* line 1, ../scss/old/_bootstrap2.scss */
+.mceTmpl .row-fluid:before,
+.mceTmpl .row-fluid:after,
 body#tinymce .row-fluid:before,
 body#tinymce .row-fluid:after,
 .mosaic-tile-content .row-fluid:before,
@@ -2471,12 +2501,14 @@ body#tinymce .row-fluid:after,
   content: "";
 }
 /* line 8, ../scss/old/_bootstrap2.scss */
+.mceTmpl .row-fluid:after,
 body#tinymce .row-fluid:after,
 .mosaic-tile-content .row-fluid:after,
 #content-core #parent-fieldname-text .row-fluid:after {
   clear: both;
 }
 /* line 12, ../scss/old/_bootstrap2.scss */
+.mceTmpl .row-fluid [class*="span"],
 body#tinymce .row-fluid [class*="span"],
 .mosaic-tile-content .row-fluid [class*="span"],
 #content-core #parent-fieldname-text .row-fluid [class*="span"] {
@@ -2492,18 +2524,21 @@ body#tinymce .row-fluid [class*="span"],
   box-sizing: border-box;
 }
 /* line 25, ../scss/old/_bootstrap2.scss */
+.mceTmpl .row-fluid [class*="span"]:first-child,
 body#tinymce .row-fluid [class*="span"]:first-child,
 .mosaic-tile-content .row-fluid [class*="span"]:first-child,
 #content-core #parent-fieldname-text .row-fluid [class*="span"]:first-child {
   margin-left: 0;
 }
 /* line 29, ../scss/old/_bootstrap2.scss */
+.mceTmpl .row-fluid .controls-row [class*="span"] + [class*="span"],
 body#tinymce .row-fluid .controls-row [class*="span"] + [class*="span"],
 .mosaic-tile-content .row-fluid .controls-row [class*="span"] + [class*="span"],
 #content-core #parent-fieldname-text .row-fluid .controls-row [class*="span"] + [class*="span"] {
   margin-left: 2.127659574468085%;
 }
 /* line 33, ../scss/old/_bootstrap2.scss */
+.mceTmpl .row-fluid .span12,
 body#tinymce .row-fluid .span12,
 .mosaic-tile-content .row-fluid .span12,
 #content-core #parent-fieldname-text .row-fluid .span12 {
@@ -2511,6 +2546,7 @@ body#tinymce .row-fluid .span12,
   *width: 99.94680851063829%;
 }
 /* line 38, ../scss/old/_bootstrap2.scss */
+.mceTmpl .row-fluid .span11,
 body#tinymce .row-fluid .span11,
 .mosaic-tile-content .row-fluid .span11,
 #content-core #parent-fieldname-text .row-fluid .span11 {
@@ -2518,6 +2554,7 @@ body#tinymce .row-fluid .span11,
   *width: 91.43617021276594%;
 }
 /* line 43, ../scss/old/_bootstrap2.scss */
+.mceTmpl .row-fluid .span10,
 body#tinymce .row-fluid .span10,
 .mosaic-tile-content .row-fluid .span10,
 #content-core #parent-fieldname-text .row-fluid .span10 {
@@ -2525,6 +2562,7 @@ body#tinymce .row-fluid .span10,
   *width: 82.92553191489361%;
 }
 /* line 48, ../scss/old/_bootstrap2.scss */
+.mceTmpl .row-fluid .span9,
 body#tinymce .row-fluid .span9,
 .mosaic-tile-content .row-fluid .span9,
 #content-core #parent-fieldname-text .row-fluid .span9 {
@@ -2532,6 +2570,7 @@ body#tinymce .row-fluid .span9,
   *width: 74.41489361702126%;
 }
 /* line 53, ../scss/old/_bootstrap2.scss */
+.mceTmpl .row-fluid .span8,
 body#tinymce .row-fluid .span8,
 .mosaic-tile-content .row-fluid .span8,
 #content-core #parent-fieldname-text .row-fluid .span8 {
@@ -2539,6 +2578,7 @@ body#tinymce .row-fluid .span8,
   *width: 65.90425531914893%;
 }
 /* line 58, ../scss/old/_bootstrap2.scss */
+.mceTmpl .row-fluid .span7,
 body#tinymce .row-fluid .span7,
 .mosaic-tile-content .row-fluid .span7,
 #content-core #parent-fieldname-text .row-fluid .span7 {
@@ -2546,6 +2586,7 @@ body#tinymce .row-fluid .span7,
   *width: 57.39361702127659%;
 }
 /* line 63, ../scss/old/_bootstrap2.scss */
+.mceTmpl .row-fluid .span6,
 body#tinymce .row-fluid .span6,
 .mosaic-tile-content .row-fluid .span6,
 #content-core #parent-fieldname-text .row-fluid .span6 {
@@ -2553,6 +2594,7 @@ body#tinymce .row-fluid .span6,
   *width: 48.88297872340425%;
 }
 /* line 68, ../scss/old/_bootstrap2.scss */
+.mceTmpl .row-fluid .span5,
 body#tinymce .row-fluid .span5,
 .mosaic-tile-content .row-fluid .span5,
 #content-core #parent-fieldname-text .row-fluid .span5 {
@@ -2560,6 +2602,7 @@ body#tinymce .row-fluid .span5,
   *width: 40.37234042553192%;
 }
 /* line 73, ../scss/old/_bootstrap2.scss */
+.mceTmpl .row-fluid .span4,
 body#tinymce .row-fluid .span4,
 .mosaic-tile-content .row-fluid .span4,
 #content-core #parent-fieldname-text .row-fluid .span4 {
@@ -2567,6 +2610,7 @@ body#tinymce .row-fluid .span4,
   *width: 31.861702127659576%;
 }
 /* line 78, ../scss/old/_bootstrap2.scss */
+.mceTmpl .row-fluid .span3,
 body#tinymce .row-fluid .span3,
 .mosaic-tile-content .row-fluid .span3,
 #content-core #parent-fieldname-text .row-fluid .span3 {
@@ -2574,6 +2618,7 @@ body#tinymce .row-fluid .span3,
   *width: 23.351063829787233%;
 }
 /* line 83, ../scss/old/_bootstrap2.scss */
+.mceTmpl .row-fluid .span2,
 body#tinymce .row-fluid .span2,
 .mosaic-tile-content .row-fluid .span2,
 #content-core #parent-fieldname-text .row-fluid .span2 {
@@ -2581,6 +2626,7 @@ body#tinymce .row-fluid .span2,
   *width: 14.840425531914894%;
 }
 /* line 88, ../scss/old/_bootstrap2.scss */
+.mceTmpl .row-fluid .span1,
 body#tinymce .row-fluid .span1,
 .mosaic-tile-content .row-fluid .span1,
 #content-core #parent-fieldname-text .row-fluid .span1 {
@@ -2588,6 +2634,7 @@ body#tinymce .row-fluid .span1,
   *width: 6.329787234042553%;
 }
 /* line 93, ../scss/old/_bootstrap2.scss */
+.mceTmpl .img-polaroid,
 body#tinymce .img-polaroid,
 .mosaic-tile-content .img-polaroid,
 #content-core #parent-fieldname-text .img-polaroid {
@@ -2600,42 +2647,49 @@ body#tinymce .img-polaroid,
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 /* line 103, ../scss/old/_bootstrap2.scss */
+.mceTmpl .pull-left,
 body#tinymce .pull-left,
 .mosaic-tile-content .pull-left,
 #content-core #parent-fieldname-text .pull-left {
   float: left;
 }
 /* line 107, ../scss/old/_bootstrap2.scss */
+.mceTmpl .pull-right,
 body#tinymce .pull-right,
 .mosaic-tile-content .pull-right,
 #content-core #parent-fieldname-text .pull-right {
   float: right;
 }
 /* line 111, ../scss/old/_bootstrap2.scss */
+.mceTmpl .align-left,
 body#tinymce .align-left,
 .mosaic-tile-content .align-left,
 #content-core #parent-fieldname-text .align-left {
   text-align: left;
 }
 /* line 115, ../scss/old/_bootstrap2.scss */
+.mceTmpl .align-center,
 body#tinymce .align-center,
 .mosaic-tile-content .align-center,
 #content-core #parent-fieldname-text .align-center {
   text-align: center;
 }
 /* line 119, ../scss/old/_bootstrap2.scss */
+.mceTmpl .align-right,
 body#tinymce .align-right,
 .mosaic-tile-content .align-right,
 #content-core #parent-fieldname-text .align-right {
   text-align: right;
 }
 /* line 123, ../scss/old/_bootstrap2.scss */
+.mceTmpl .align-justify,
 body#tinymce .align-justify,
 .mosaic-tile-content .align-justify,
 #content-core #parent-fieldname-text .align-justify {
   text-align: justify;
 }
 /* line 1, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle,
 body#tinymce .lletra-cercle,
 .mosaic-tile-content .lletra-cercle,
 #content-core #parent-fieldname-text .lletra-cercle {
@@ -2644,18 +2698,21 @@ body#tinymce .lletra-cercle,
   margin-top: -5px;
 }
 /* line 7, ../scss/old/_icones_lletres.scss */
+.mceTmpl .numero-cercle,
 body#tinymce .numero-cercle,
 .mosaic-tile-content .numero-cercle,
 #content-core #parent-fieldname-text .numero-cercle {
   font-size: 3rem;
 }
 /* line 11, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-petita,
 body#tinymce .lletra-cercle-petita,
 .mosaic-tile-content .lletra-cercle-petita,
 #content-core #parent-fieldname-text .lletra-cercle-petita {
   font-size: 0.9rem !important;
 }
 /* line 15, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-petita:before,
 body#tinymce .lletra-cercle-petita:before,
 .mosaic-tile-content .lletra-cercle-petita:before,
 #content-core #parent-fieldname-text .lletra-cercle-petita:before {
@@ -2664,306 +2721,365 @@ body#tinymce .lletra-cercle-petita:before,
   margin-right: 0.2rem;
 }
 /* line 21, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-a:before,
 body#tinymce .lletra-cercle-a:before,
 .mosaic-tile-content .lletra-cercle-a:before,
 #content-core #parent-fieldname-text .lletra-cercle-a:before {
   content: "\24d0";
 }
 /* line 25, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-b:before,
 body#tinymce .lletra-cercle-b:before,
 .mosaic-tile-content .lletra-cercle-b:before,
 #content-core #parent-fieldname-text .lletra-cercle-b:before {
   content: "\24d1";
 }
 /* line 29, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-c:before,
 body#tinymce .lletra-cercle-c:before,
 .mosaic-tile-content .lletra-cercle-c:before,
 #content-core #parent-fieldname-text .lletra-cercle-c:before {
   content: "\24d2";
 }
 /* line 33, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-d:before,
 body#tinymce .lletra-cercle-d:before,
 .mosaic-tile-content .lletra-cercle-d:before,
 #content-core #parent-fieldname-text .lletra-cercle-d:before {
   content: "\24d3";
 }
 /* line 37, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-e:before,
 body#tinymce .lletra-cercle-e:before,
 .mosaic-tile-content .lletra-cercle-e:before,
 #content-core #parent-fieldname-text .lletra-cercle-e:before {
   content: "\24d4";
 }
 /* line 41, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-f:before,
 body#tinymce .lletra-cercle-f:before,
 .mosaic-tile-content .lletra-cercle-f:before,
 #content-core #parent-fieldname-text .lletra-cercle-f:before {
   content: "\24d5";
 }
 /* line 45, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-g:before,
 body#tinymce .lletra-cercle-g:before,
 .mosaic-tile-content .lletra-cercle-g:before,
 #content-core #parent-fieldname-text .lletra-cercle-g:before {
   content: "\24d6";
 }
 /* line 49, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-h:before,
 body#tinymce .lletra-cercle-h:before,
 .mosaic-tile-content .lletra-cercle-h:before,
 #content-core #parent-fieldname-text .lletra-cercle-h:before {
   content: "\24d7";
 }
 /* line 53, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-i:before,
 body#tinymce .lletra-cercle-i:before,
 .mosaic-tile-content .lletra-cercle-i:before,
 #content-core #parent-fieldname-text .lletra-cercle-i:before {
   content: "\24d8";
 }
 /* line 57, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-j:before,
 body#tinymce .lletra-cercle-j:before,
 .mosaic-tile-content .lletra-cercle-j:before,
 #content-core #parent-fieldname-text .lletra-cercle-j:before {
   content: "\24d9";
 }
 /* line 61, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-k:before,
 body#tinymce .lletra-cercle-k:before,
 .mosaic-tile-content .lletra-cercle-k:before,
 #content-core #parent-fieldname-text .lletra-cercle-k:before {
   content: "\24da";
 }
 /* line 65, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-l:before,
 body#tinymce .lletra-cercle-l:before,
 .mosaic-tile-content .lletra-cercle-l:before,
 #content-core #parent-fieldname-text .lletra-cercle-l:before {
   content: "\24db";
 }
 /* line 69, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-m:before,
 body#tinymce .lletra-cercle-m:before,
 .mosaic-tile-content .lletra-cercle-m:before,
 #content-core #parent-fieldname-text .lletra-cercle-m:before {
   content: "\24dc";
 }
 /* line 73, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-n:before,
 body#tinymce .lletra-cercle-n:before,
 .mosaic-tile-content .lletra-cercle-n:before,
 #content-core #parent-fieldname-text .lletra-cercle-n:before {
   content: "\24dd";
 }
 /* line 77, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-o:before,
 body#tinymce .lletra-cercle-o:before,
 .mosaic-tile-content .lletra-cercle-o:before,
 #content-core #parent-fieldname-text .lletra-cercle-o:before {
   content: "\24de";
 }
 /* line 81, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-p:before,
 body#tinymce .lletra-cercle-p:before,
 .mosaic-tile-content .lletra-cercle-p:before,
 #content-core #parent-fieldname-text .lletra-cercle-p:before {
   content: "\24df";
 }
 /* line 85, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-q:before,
 body#tinymce .lletra-cercle-q:before,
 .mosaic-tile-content .lletra-cercle-q:before,
 #content-core #parent-fieldname-text .lletra-cercle-q:before {
   content: "\24e0";
 }
 /* line 89, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-r:before,
 body#tinymce .lletra-cercle-r:before,
 .mosaic-tile-content .lletra-cercle-r:before,
 #content-core #parent-fieldname-text .lletra-cercle-r:before {
   content: "\24e1";
 }
 /* line 93, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-s:before,
 body#tinymce .lletra-cercle-s:before,
 .mosaic-tile-content .lletra-cercle-s:before,
 #content-core #parent-fieldname-text .lletra-cercle-s:before {
   content: "\24e2";
 }
 /* line 97, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-t:before,
 body#tinymce .lletra-cercle-t:before,
 .mosaic-tile-content .lletra-cercle-t:before,
 #content-core #parent-fieldname-text .lletra-cercle-t:before {
   content: "\24e3";
 }
 /* line 101, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-u:before,
 body#tinymce .lletra-cercle-u:before,
 .mosaic-tile-content .lletra-cercle-u:before,
 #content-core #parent-fieldname-text .lletra-cercle-u:before {
   content: "\24e4";
 }
 /* line 105, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-v:before,
 body#tinymce .lletra-cercle-v:before,
 .mosaic-tile-content .lletra-cercle-v:before,
 #content-core #parent-fieldname-text .lletra-cercle-v:before {
   content: "\24e5";
 }
 /* line 109, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-w:before,
 body#tinymce .lletra-cercle-w:before,
 .mosaic-tile-content .lletra-cercle-w:before,
 #content-core #parent-fieldname-text .lletra-cercle-w:before {
   content: "\24e6";
 }
 /* line 113, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-x:before,
 body#tinymce .lletra-cercle-x:before,
 .mosaic-tile-content .lletra-cercle-x:before,
 #content-core #parent-fieldname-text .lletra-cercle-x:before {
   content: "\24e7";
 }
 /* line 117, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-y:before,
 body#tinymce .lletra-cercle-y:before,
 .mosaic-tile-content .lletra-cercle-y:before,
 #content-core #parent-fieldname-text .lletra-cercle-y:before {
   content: "\24e8";
 }
 /* line 121, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-z:before,
 body#tinymce .lletra-cercle-z:before,
 .mosaic-tile-content .lletra-cercle-z:before,
 #content-core #parent-fieldname-text .lletra-cercle-z:before {
   content: "\24e9";
 }
 /* line 125, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-1:before,
 body#tinymce .lletra-cercle-1:before,
 .mosaic-tile-content .lletra-cercle-1:before,
 #content-core #parent-fieldname-text .lletra-cercle-1:before {
   content: "\278A";
 }
 /* line 129, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-2:before,
 body#tinymce .lletra-cercle-2:before,
 .mosaic-tile-content .lletra-cercle-2:before,
 #content-core #parent-fieldname-text .lletra-cercle-2:before {
   content: "\278B";
 }
 /* line 133, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-3:before,
 body#tinymce .lletra-cercle-3:before,
 .mosaic-tile-content .lletra-cercle-3:before,
 #content-core #parent-fieldname-text .lletra-cercle-3:before {
   content: "\278C";
 }
 /* line 137, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-4:before,
 body#tinymce .lletra-cercle-4:before,
 .mosaic-tile-content .lletra-cercle-4:before,
 #content-core #parent-fieldname-text .lletra-cercle-4:before {
   content: "\278D";
 }
 /* line 141, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-5:before,
 body#tinymce .lletra-cercle-5:before,
 .mosaic-tile-content .lletra-cercle-5:before,
 #content-core #parent-fieldname-text .lletra-cercle-5:before {
   content: "\278E";
 }
 /* line 145, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-6:before,
 body#tinymce .lletra-cercle-6:before,
 .mosaic-tile-content .lletra-cercle-6:before,
 #content-core #parent-fieldname-text .lletra-cercle-6:before {
   content: "\278F";
 }
 /* line 149, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-7:before,
 body#tinymce .lletra-cercle-7:before,
 .mosaic-tile-content .lletra-cercle-7:before,
 #content-core #parent-fieldname-text .lletra-cercle-7:before {
   content: "\2790";
 }
 /* line 153, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-8:before,
 body#tinymce .lletra-cercle-8:before,
 .mosaic-tile-content .lletra-cercle-8:before,
 #content-core #parent-fieldname-text .lletra-cercle-8:before {
   content: "\2791";
 }
 /* line 157, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-9:before,
 body#tinymce .lletra-cercle-9:before,
 .mosaic-tile-content .lletra-cercle-9:before,
 #content-core #parent-fieldname-text .lletra-cercle-9:before {
   content: "\2792";
 }
 /* line 161, ../scss/old/_icones_lletres.scss */
+.mceTmpl .lletra-cercle-10:before,
 body#tinymce .lletra-cercle-10:before,
 .mosaic-tile-content .lletra-cercle-10:before,
 #content-core #parent-fieldname-text .lletra-cercle-10:before {
   content: "\2793";
 }
 /* line 165, ../scss/old/_icones_lletres.scss */
+.mceTmpl .fletxa-dreta:before,
 body#tinymce .fletxa-dreta:before,
 .mosaic-tile-content .fletxa-dreta:before,
 #content-core #parent-fieldname-text .fletxa-dreta:before {
   content: "\1F87A";
 }
 /* line 169, ../scss/old/_icones_lletres.scss */
+.mceTmpl .fletxa-esquerra:before,
 body#tinymce .fletxa-esquerra:before,
 .mosaic-tile-content .fletxa-esquerra:before,
 #content-core #parent-fieldname-text .fletxa-esquerra:before {
   content: "\1F878";
 }
 /* line 173, ../scss/old/_icones_lletres.scss */
+.mceTmpl .fletxa-adalt:before,
 body#tinymce .fletxa-adalt:before,
 .mosaic-tile-content .fletxa-adalt:before,
 #content-core #parent-fieldname-text .fletxa-adalt:before {
   content: "\1F879";
 }
 /* line 177, ../scss/old/_icones_lletres.scss */
+.mceTmpl .fletxa-abaix:before,
 body#tinymce .fletxa-abaix:before,
 .mosaic-tile-content .fletxa-abaix:before,
 #content-core #parent-fieldname-text .fletxa-abaix:before {
   content: "\1F87B";
 }
 /* line 181, ../scss/old/_icones_lletres.scss */
+.mceTmpl .color-blau,
 body#tinymce .color-blau,
 .mosaic-tile-content .color-blau,
 #content-core #parent-fieldname-text .color-blau {
   color: #089FE4;
 }
 /* line 185, ../scss/old/_icones_lletres.scss */
+.mceTmpl .color-blaucel,
 body#tinymce .color-blaucel,
 .mosaic-tile-content .color-blaucel,
 #content-core #parent-fieldname-text .color-blaucel {
   color: #1FBDEE;
 }
 /* line 189, ../scss/old/_icones_lletres.scss */
+.mceTmpl .color-verd,
 body#tinymce .color-verd,
 .mosaic-tile-content .color-verd,
 #content-core #parent-fieldname-text .color-verd {
   color: #069182;
 }
 /* line 193, ../scss/old/_icones_lletres.scss */
+.mceTmpl .color-vermell,
 body#tinymce .color-vermell,
 .mosaic-tile-content .color-vermell,
 #content-core #parent-fieldname-text .color-vermell {
   color: #D01157;
 }
 /* line 197, ../scss/old/_icones_lletres.scss */
+.mceTmpl .color-groc,
 body#tinymce .color-groc,
 .mosaic-tile-content .color-groc,
 #content-core #parent-fieldname-text .color-groc {
   color: #f6a808;
 }
 /* line 201, ../scss/old/_icones_lletres.scss */
+.mceTmpl .color-morat,
 body#tinymce .color-morat,
 .mosaic-tile-content .color-morat,
 #content-core #parent-fieldname-text .color-morat {
   color: #622AD9;
 }
 /* line 205, ../scss/old/_icones_lletres.scss */
+.mceTmpl .color-violeta,
 body#tinymce .color-violeta,
 .mosaic-tile-content .color-violeta,
 #content-core #parent-fieldname-text .color-violeta {
   color: #023470;
 }
 /* line 209, ../scss/old/_icones_lletres.scss */
+.mceTmpl .color-carbassa,
 body#tinymce .color-carbassa,
 .mosaic-tile-content .color-carbassa,
 #content-core #parent-fieldname-text .color-carbassa {
   color: #ED4033;
 }
 /* line 213, ../scss/old/_icones_lletres.scss */
+.mceTmpl .color-lila,
 body#tinymce .color-lila,
 .mosaic-tile-content .color-lila,
 #content-core #parent-fieldname-text .color-lila {
   color: #A71FAF;
 }
 /* line 217, ../scss/old/_icones_lletres.scss */
+.mceTmpl .color-taronja,
 body#tinymce .color-taronja,
 .mosaic-tile-content .color-taronja,
 #content-core #parent-fieldname-text .color-taronja {
   color: #fa5c2a;
 }
 /* line 11, ../scss/old/_lists.scss */
+.mceTmpl ul.list-sections li,
+.mceTmpl ul.list.list-index li,
+.mceTmpl ul.list-striped li,
+.mceTmpl ul.list-hover li,
+.mceTmpl ul.list-highlighted li,
+.mceTmpl ul.list-links-upc li,
+.mceTmpl ul.list-links li,
+.mceTmpl ul.list-condensed li,
+.mceTmpl ul.list-bordered li,
 body#tinymce ul.list-sections li,
 body#tinymce ul.list.list-index li,
 body#tinymce ul.list-striped li,
@@ -2997,6 +3113,15 @@ body#tinymce ul.list-bordered li,
   position: relative;
 }
 /* line 17, ../scss/old/_lists.scss */
+.mceTmpl ul.list-sections li:before,
+.mceTmpl ul.list.list-index li:before,
+.mceTmpl ul.list-striped li:before,
+.mceTmpl ul.list-hover li:before,
+.mceTmpl ul.list-highlighted li:before,
+.mceTmpl ul.list-links-upc li:before,
+.mceTmpl ul.list-links li:before,
+.mceTmpl ul.list-condensed li:before,
+.mceTmpl ul.list-bordered li:before,
 body#tinymce ul.list-sections li:before,
 body#tinymce ul.list.list-index li:before,
 body#tinymce ul.list-striped li:before,
@@ -3031,6 +3156,15 @@ body#tinymce ul.list-bordered li:before,
   margin-top: 0.2rem;
 }
 /* line 26, ../scss/old/_lists.scss */
+.mceTmpl ul.list-sections ul.llistaesquerra,
+.mceTmpl ul.list.list-index ul.llistaesquerra,
+.mceTmpl ul.list-striped ul.llistaesquerra,
+.mceTmpl ul.list-hover ul.llistaesquerra,
+.mceTmpl ul.list-highlighted ul.llistaesquerra,
+.mceTmpl ul.list-links-upc ul.llistaesquerra,
+.mceTmpl ul.list-links ul.llistaesquerra,
+.mceTmpl ul.list-condensed ul.llistaesquerra,
+.mceTmpl ul.list-bordered ul.llistaesquerra,
 body#tinymce ul.list-sections ul.llistaesquerra,
 body#tinymce ul.list.list-index ul.llistaesquerra,
 body#tinymce ul.list-striped ul.llistaesquerra,
@@ -3061,6 +3195,11 @@ body#tinymce ul.list-bordered ul.llistaesquerra,
   padding-left: 1rem;
 }
 /* line 37, ../scss/old/_lists.scss */
+.mceTmpl ul.list.list-index li:before,
+.mceTmpl ul.list-striped li:before,
+.mceTmpl ul.list-hover li:before,
+.mceTmpl ul.list-condensed li:before,
+.mceTmpl ul.list-bordered li:before,
 body#tinymce ul.list.list-index li:before,
 body#tinymce ul.list-striped li:before,
 body#tinymce ul.list-hover li:before,
@@ -3080,6 +3219,7 @@ body#tinymce ul.list-bordered li:before,
   font-size: .75rem;
 }
 /* line 45, ../scss/old/_lists.scss */
+.mceTmpl ul.list-links li:before,
 body#tinymce ul.list-links li:before,
 .mosaic-tile-content ul.list-links li:before,
 #content-core #parent-fieldname-text ul.list-links li:before {
@@ -3088,6 +3228,7 @@ body#tinymce ul.list-links li:before,
   font-size: .65rem;
 }
 /* line 54, ../scss/old/_lists.scss */
+.mceTmpl ul.list-links-upc li:before,
 body#tinymce ul.list-links-upc li:before,
 .mosaic-tile-content ul.list-links-upc li:before,
 #content-core #parent-fieldname-text ul.list-links-upc li:before {
@@ -3096,6 +3237,7 @@ body#tinymce ul.list-links-upc li:before,
   font-size: .65rem;
 }
 /* line 63, ../scss/old/_lists.scss */
+.mceTmpl ul.list-highlighted li:before,
 body#tinymce ul.list-highlighted li:before,
 .mosaic-tile-content ul.list-highlighted li:before,
 #content-core #parent-fieldname-text ul.list-highlighted li:before {
@@ -3104,6 +3246,10 @@ body#tinymce ul.list-highlighted li:before,
   margin-top: 0rem;
 }
 /* line 75, ../scss/old/_lists.scss */
+.mceTmpl ul.list-links-upc li:before,
+.mceTmpl ul.list-links li:before,
+.mceTmpl ul.list-condensed li:before,
+.mceTmpl ul.list-bordered li:before,
 body#tinymce ul.list-links-upc li:before,
 body#tinymce ul.list-links li:before,
 body#tinymce ul.list-condensed li:before,
@@ -3119,42 +3265,49 @@ body#tinymce ul.list-bordered li:before,
   color: var(--bs-primary);
 }
 /* line 81, ../scss/old/_lists.scss */
+.mceTmpl ul.list-bordered,
 body#tinymce ul.list-bordered,
 .mosaic-tile-content ul.list-bordered,
 #content-core #parent-fieldname-text ul.list-bordered {
   border: 1px solid var(--bs-gray-400);
 }
 /* line 84, ../scss/old/_lists.scss */
+.mceTmpl ul.list-bordered li,
 body#tinymce ul.list-bordered li,
 .mosaic-tile-content ul.list-bordered li,
 #content-core #parent-fieldname-text ul.list-bordered li {
   border-bottom: 1px solid var(--bs-gray-400);
 }
 /* line 87, ../scss/old/_lists.scss */
+.mceTmpl ul.list-bordered li:last-child,
 body#tinymce ul.list-bordered li:last-child,
 .mosaic-tile-content ul.list-bordered li:last-child,
 #content-core #parent-fieldname-text ul.list-bordered li:last-child {
   border-bottom: 0px solid transparent;
 }
 /* line 95, ../scss/old/_lists.scss */
+.mceTmpl ul.list-condensed li,
 body#tinymce ul.list-condensed li,
 .mosaic-tile-content ul.list-condensed li,
 #content-core #parent-fieldname-text ul.list-condensed li {
   padding: 0 0 0 28px;
 }
 /* line 102, ../scss/old/_lists.scss */
+.mceTmpl ul.list-hover li:hover,
 body#tinymce ul.list-hover li:hover,
 .mosaic-tile-content ul.list-hover li:hover,
 #content-core #parent-fieldname-text ul.list-hover li:hover {
   background-color: var(--bs-gray-200);
 }
 /* line 109, ../scss/old/_lists.scss */
+.mceTmpl ul.list-striped li:nth-child(odd),
 body#tinymce ul.list-striped li:nth-child(odd),
 .mosaic-tile-content ul.list-striped li:nth-child(odd),
 #content-core #parent-fieldname-text ul.list-striped li:nth-child(odd) {
   background-color: var(--bs-gray-200);
 }
 /* line 117, ../scss/old/_lists.scss */
+.mceTmpl ul.list-sections li,
 body#tinymce ul.list-sections li,
 .mosaic-tile-content ul.list-sections li,
 #content-core #parent-fieldname-text ul.list-sections li {
@@ -3163,6 +3316,8 @@ body#tinymce ul.list-sections li,
   padding: 18px 0;
 }
 /* line 122, ../scss/old/_lists.scss */
+.mceTmpl ul.list-sections li > img:first-child ~ *,
+.mceTmpl ul.list-sections li .lletra-cercle:first-child ~ *,
 body#tinymce ul.list-sections li > img:first-child ~ *,
 body#tinymce ul.list-sections li .lletra-cercle:first-child ~ *,
 .mosaic-tile-content ul.list-sections li > img:first-child ~ *,
@@ -3173,6 +3328,7 @@ body#tinymce ul.list-sections li .lletra-cercle:first-child ~ *,
   max-width: calc(100% - 66px);
 }
 /* line 131, ../scss/old/_lists.scss */
+.mceTmpl ul.unstyled,
 body#tinymce ul.unstyled,
 .mosaic-tile-content ul.unstyled,
 #content-core #parent-fieldname-text ul.unstyled {
@@ -3180,6 +3336,7 @@ body#tinymce ul.unstyled,
   padding-left: 0;
 }
 /* line 137, ../scss/old/_lists.scss */
+.mceTmpl ul.list-notebook,
 body#tinymce ul.list-notebook,
 .mosaic-tile-content ul.list-notebook,
 #content-core #parent-fieldname-text ul.list-notebook {
@@ -3188,6 +3345,7 @@ body#tinymce ul.list-notebook,
   border-left: 4px double var(--bs-orange);
 }
 /* line 142, ../scss/old/_lists.scss */
+.mceTmpl ul.list-notebook li,
 body#tinymce ul.list-notebook li,
 .mosaic-tile-content ul.list-notebook li,
 #content-core #parent-fieldname-text ul.list-notebook li {
@@ -3198,12 +3356,14 @@ body#tinymce ul.list-notebook li,
   list-style: none;
 }
 /* line 149, ../scss/old/_lists.scss */
+.mceTmpl ul.list-notebook li:first-child,
 body#tinymce ul.list-notebook li:first-child,
 .mosaic-tile-content ul.list-notebook li:first-child,
 #content-core #parent-fieldname-text ul.list-notebook li:first-child {
   border-top: 1px solid var(--bs-cyan);
 }
 /* line 153, ../scss/old/_lists.scss */
+.mceTmpl ul.list-notebook li::before,
 body#tinymce ul.list-notebook li::before,
 .mosaic-tile-content ul.list-notebook li::before,
 #content-core #parent-fieldname-text ul.list-notebook li::before {
@@ -3214,6 +3374,8 @@ body#tinymce ul.list-notebook li::before,
   margin-top: 5px;
 }
 /* line 17, ../scss/old/_sprites.scss */
+.mceTmpl [class^="icon-"],
+.mceTmpl [class*=" icon-"],
 body#tinymce [class^="icon-"],
 body#tinymce [class*=" icon-"],
 .mosaic-tile-content [class^="icon-"],
@@ -3225,12 +3387,19 @@ body#tinymce [class*=" icon-"],
   height: 14px;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url(/++theme++genweb6.theme/img/gh.png);
+  background-image: url('/++theme++genweb6.theme/img/gh.png');
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 3px;
 }
 /* line 33, ../scss/old/_sprites.scss */
+.mceTmpl .icon-white,
+.mceTmpl .nav > .active > a > [class^="icon-"],
+.mceTmpl .nav > .active > a > [class*=" icon-"],
+.mceTmpl .dropdown-menu > li > a:hover > [class^="icon-"],
+.mceTmpl .dropdown-menu > li > a:hover > [class*=" icon-"],
+.mceTmpl .dropdown-menu > .active > a > [class^="icon-"],
+.mceTmpl .dropdown-menu > .active > a > [class*=" icon-"],
 body#tinymce .icon-white,
 body#tinymce .nav > .active > a > [class^="icon-"],
 body#tinymce .nav > .active > a > [class*=" icon-"],
@@ -3252,34 +3421,44 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > li > a:hover > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class^="icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class*=" icon-"] {
-  background-image: url(/++theme++genweb6.theme/img/gh-w.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-w.png');
 }
 /* line 43, ../scss/old/_sprites.scss */
+.mceTmpl .icon-color,
 body#tinymce .icon-color,
 .mosaic-tile-content .icon-color,
 #content-core #parent-fieldname-text .icon-color {
-  background-image: url(/++theme++genweb6.theme/img/gh-c.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-c.png');
 }
 /* line 47, ../scss/old/_sprites.scss */
+.mceTmpl .icon-glass,
 body#tinymce .icon-glass,
 .mosaic-tile-content .icon-glass,
 #content-core #parent-fieldname-text .icon-glass {
   background-position: 0      0;
 }
 /* line 48, ../scss/old/_sprites.scss */
+.mceTmpl .icon-music,
 body#tinymce .icon-music,
 .mosaic-tile-content .icon-music,
 #content-core #parent-fieldname-text .icon-music {
   background-position: -24px  0;
 }
 /* line 49, ../scss/old/_sprites.scss */
+.mceTmpl .icon-search,
 body#tinymce .icon-search,
 .mosaic-tile-content .icon-search,
 #content-core #parent-fieldname-text .icon-search {
   background-position: -48px  0;
 }
 /* line 50, ../scss/old/_sprites.scss */
-body#tinymce .icon-envelope, body#tinymce .icon-formmaileradapter,
+.mceTmpl .icon-envelope, .mceTmpl .icon-formmaileradapter,
+.mceTmpl body#tinymce .icon-formmaileradapter,
+body#tinymce .mceTmpl .icon-formmaileradapter,
+.mceTmpl #content-core #parent-fieldname-text .icon-formmaileradapter,
+#content-core #parent-fieldname-text .mceTmpl .icon-formmaileradapter,
+body#tinymce .icon-envelope,
+body#tinymce .icon-formmaileradapter,
 body#tinymce #content-core #parent-fieldname-text .icon-formmaileradapter,
 #content-core #parent-fieldname-text body#tinymce .icon-formmaileradapter,
 .mosaic-tile-content .icon-envelope,
@@ -3293,12 +3472,15 @@ body#tinymce .mosaic-tile-content .icon-formmaileradapter,
   background-position: -72px  0;
 }
 /* line 51, ../scss/old/_sprites.scss */
+.mceTmpl .icon-heart,
 body#tinymce .icon-heart,
 .mosaic-tile-content .icon-heart,
 #content-core #parent-fieldname-text .icon-heart {
   background-position: -96px  0;
 }
 /* line 52, ../scss/old/_sprites.scss */
+.mceTmpl .icon-star,
+.mceTmpl .icon-folderChangeDefaultPage,
 body#tinymce .icon-star,
 body#tinymce .icon-folderChangeDefaultPage,
 .mosaic-tile-content .icon-star,
@@ -3308,6 +3490,8 @@ body#tinymce .icon-folderChangeDefaultPage,
   background-position: -120px 0;
 }
 /* line 54, ../scss/old/_sprites.scss */
+.mceTmpl .icon-star-empty,
+.mceTmpl .icon-contextSetDefaultPage,
 body#tinymce .icon-star-empty,
 body#tinymce .icon-contextSetDefaultPage,
 .mosaic-tile-content .icon-star-empty,
@@ -3317,25 +3501,38 @@ body#tinymce .icon-contextSetDefaultPage,
   background-position: -144px 0;
 }
 /* line 56, ../scss/old/_sprites.scss */
+.mceTmpl .icon-user,
 body#tinymce .icon-user,
 .mosaic-tile-content .icon-user,
 #content-core #parent-fieldname-text .icon-user {
   background-position: -168px 0;
 }
 /* line 57, ../scss/old/_sprites.scss */
+.mceTmpl .icon-film,
 body#tinymce .icon-film,
 .mosaic-tile-content .icon-film,
 #content-core #parent-fieldname-text .icon-film {
   background-position: -192px 0;
 }
 /* line 58, ../scss/old/_sprites.scss */
+.mceTmpl .icon-th-large,
 body#tinymce .icon-th-large,
 .mosaic-tile-content .icon-th-large,
 #content-core #parent-fieldname-text .icon-th-large {
   background-position: -216px 0;
 }
 /* line 59, ../scss/old/_sprites.scss */
-body#tinymce .icon-th, body#tinymce .icon-surveymatrix,
+.mceTmpl .icon-th, .mceTmpl .icon-surveymatrix,
+.mceTmpl body#tinymce .icon-surveymatrix,
+body#tinymce .mceTmpl .icon-surveymatrix,
+.mceTmpl #content-core #parent-fieldname-text .icon-surveymatrix,
+#content-core #parent-fieldname-text .mceTmpl .icon-surveymatrix,
+.mceTmpl .icon-plone-contentmenu-display-atct_album_view,
+.mceTmpl .icon-plone-contentmenu-display-album_view,
+.mceTmpl .icon-folder-album_view,
+.mceTmpl .icon-folder-atct_album_view,
+body#tinymce .icon-th,
+body#tinymce .icon-surveymatrix,
 body#tinymce #content-core #parent-fieldname-text .icon-surveymatrix,
 #content-core #parent-fieldname-text body#tinymce .icon-surveymatrix,
 body#tinymce .icon-plone-contentmenu-display-atct_album_view,
@@ -3361,19 +3558,23 @@ body#tinymce .mosaic-tile-content .icon-surveymatrix,
   background-position: -240px 0;
 }
 /* line 64, ../scss/old/_sprites.scss */
+.mceTmpl .icon-th-list,
 body#tinymce .icon-th-list,
 .mosaic-tile-content .icon-th-list,
 #content-core #parent-fieldname-text .icon-th-list {
   background-position: -264px 0;
 }
 /* line 65, ../scss/old/_sprites.scss */
+.mceTmpl .icon-ok,
 body#tinymce .icon-ok,
 .mosaic-tile-content .icon-ok,
 #content-core #parent-fieldname-text .icon-ok {
   background-position: -288px 0;
 }
 /* line 66, ../scss/old/_sprites.scss */
-body#tinymce .icon-remove, body#tinymce .icon-plone-contentmenu-actions-delete,
+.mceTmpl .icon-remove, .mceTmpl .icon-plone-contentmenu-actions-delete,
+body#tinymce .icon-remove,
+body#tinymce .icon-plone-contentmenu-actions-delete,
 .mosaic-tile-content .icon-remove,
 .mosaic-tile-content .icon-plone-contentmenu-actions-delete,
 #content-core #parent-fieldname-text .icon-remove,
@@ -3381,25 +3582,34 @@ body#tinymce .icon-remove, body#tinymce .icon-plone-contentmenu-actions-delete,
   background-position: -312px 0;
 }
 /* line 67, ../scss/old/_sprites.scss */
+.mceTmpl .icon-zoom-in,
 body#tinymce .icon-zoom-in,
 .mosaic-tile-content .icon-zoom-in,
 #content-core #parent-fieldname-text .icon-zoom-in {
   background-position: -336px 0;
 }
 /* line 68, ../scss/old/_sprites.scss */
+.mceTmpl .icon-zoom-out,
 body#tinymce .icon-zoom-out,
 .mosaic-tile-content .icon-zoom-out,
 #content-core #parent-fieldname-text .icon-zoom-out {
   background-position: -360px 0;
 }
 /* line 69, ../scss/old/_sprites.scss */
+.mceTmpl .icon-off,
 body#tinymce .icon-off,
 .mosaic-tile-content .icon-off,
 #content-core #parent-fieldname-text .icon-off {
   background-position: -384px 0;
 }
 /* line 70, ../scss/old/_sprites.scss */
-body#tinymce .icon-signal, body#tinymce .icon-formlikertfield,
+.mceTmpl .icon-signal, .mceTmpl .icon-formlikertfield,
+.mceTmpl body#tinymce .icon-formlikertfield,
+body#tinymce .mceTmpl .icon-formlikertfield,
+.mceTmpl #content-core #parent-fieldname-text .icon-formlikertfield,
+#content-core #parent-fieldname-text .mceTmpl .icon-formlikertfield,
+body#tinymce .icon-signal,
+body#tinymce .icon-formlikertfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formlikertfield,
 #content-core #parent-fieldname-text body#tinymce .icon-formlikertfield,
 .mosaic-tile-content .icon-signal,
@@ -3413,7 +3623,9 @@ body#tinymce .mosaic-tile-content .icon-formlikertfield,
   background-position: -408px 0;
 }
 /* line 71, ../scss/old/_sprites.scss */
-body#tinymce .icon-cog, body#tinymce .icon-workflow-transition-advanced,
+.mceTmpl .icon-cog, .mceTmpl .icon-workflow-transition-advanced,
+body#tinymce .icon-cog,
+body#tinymce .icon-workflow-transition-advanced,
 .mosaic-tile-content .icon-cog,
 .mosaic-tile-content .icon-workflow-transition-advanced,
 #content-core #parent-fieldname-text .icon-cog,
@@ -3421,27 +3633,41 @@ body#tinymce .icon-cog, body#tinymce .icon-workflow-transition-advanced,
   background-position: -432px 0;
 }
 /* line 72, ../scss/old/_sprites.scss */
+.mceTmpl .icon-trash,
 body#tinymce .icon-trash,
 .mosaic-tile-content .icon-trash,
 #content-core #parent-fieldname-text .icon-trash {
   background-position: -456px 0;
 }
 /* line 74, ../scss/old/_sprites.scss */
+.mceTmpl .icon-home,
 body#tinymce .icon-home,
 .mosaic-tile-content .icon-home,
 #content-core #parent-fieldname-text .icon-home {
   background-position: 0      -24px;
 }
 /* line 75, ../scss/old/_sprites.scss */
+.mceTmpl .icon-page,
 body#tinymce .icon-page,
 .mosaic-tile-content .icon-page,
 #content-core #parent-fieldname-text .icon-page {
   background-position: -24px  -24px;
 }
 /* line 76, ../scss/old/_sprites.scss */
-body#tinymce .icon-time, body#tinymce .icon-surveydatequestion,
+.mceTmpl .icon-time, .mceTmpl .icon-surveydatequestion,
+.mceTmpl body#tinymce .icon-surveydatequestion,
+body#tinymce .mceTmpl .icon-surveydatequestion,
+.mceTmpl #content-core #parent-fieldname-text .icon-surveydatequestion,
+#content-core #parent-fieldname-text .mceTmpl .icon-surveydatequestion, .mceTmpl .icon-formdatefield,
+.mceTmpl body#tinymce .icon-formdatefield,
+body#tinymce .mceTmpl .icon-formdatefield,
+.mceTmpl #content-core #parent-fieldname-text .icon-formdatefield,
+#content-core #parent-fieldname-text .mceTmpl .icon-formdatefield,
+body#tinymce .icon-time,
+body#tinymce .icon-surveydatequestion,
 body#tinymce #content-core #parent-fieldname-text .icon-surveydatequestion,
-#content-core #parent-fieldname-text body#tinymce .icon-surveydatequestion, body#tinymce .icon-formdatefield,
+#content-core #parent-fieldname-text body#tinymce .icon-surveydatequestion,
+body#tinymce .icon-formdatefield,
 body#tinymce #content-core #parent-fieldname-text .icon-formdatefield,
 #content-core #parent-fieldname-text body#tinymce .icon-formdatefield,
 .mosaic-tile-content .icon-time,
@@ -3461,55 +3687,69 @@ body#tinymce .mosaic-tile-content .icon-formdatefield,
   background-position: -48px  -24px;
 }
 /* line 77, ../scss/old/_sprites.scss */
+.mceTmpl .icon-road,
 body#tinymce .icon-road,
 .mosaic-tile-content .icon-road,
 #content-core #parent-fieldname-text .icon-road {
   background-position: -72px  -24px;
 }
 /* line 78, ../scss/old/_sprites.scss */
+.mceTmpl .icon-download-alt,
 body#tinymce .icon-download-alt,
 .mosaic-tile-content .icon-download-alt,
 #content-core #parent-fieldname-text .icon-download-alt {
   background-position: -96px  -24px;
 }
 /* line 79, ../scss/old/_sprites.scss */
+.mceTmpl .icon-download,
 body#tinymce .icon-download,
 .mosaic-tile-content .icon-download,
 #content-core #parent-fieldname-text .icon-download {
   background-position: -120px -24px;
 }
 /* line 80, ../scss/old/_sprites.scss */
+.mceTmpl .icon-upload,
 body#tinymce .icon-upload,
 .mosaic-tile-content .icon-upload,
 #content-core #parent-fieldname-text .icon-upload {
   background-position: -144px -24px;
 }
 /* line 81, ../scss/old/_sprites.scss */
+.mceTmpl .icon-inbox,
 body#tinymce .icon-inbox,
 .mosaic-tile-content .icon-inbox,
 #content-core #parent-fieldname-text .icon-inbox {
   background-position: -168px -24px;
 }
 /* line 82, ../scss/old/_sprites.scss */
+.mceTmpl .icon-play-circle,
 body#tinymce .icon-play-circle,
 .mosaic-tile-content .icon-play-circle,
 #content-core #parent-fieldname-text .icon-play-circle {
   background-position: -192px -24px;
 }
 /* line 83, ../scss/old/_sprites.scss */
+.mceTmpl .icon-repeat,
 body#tinymce .icon-repeat,
 .mosaic-tile-content .icon-repeat,
 #content-core #parent-fieldname-text .icon-repeat {
   background-position: -216px -24px;
 }
 /* line 84, ../scss/old/_sprites.scss */
+.mceTmpl .icon-refresh,
 body#tinymce .icon-refresh,
 .mosaic-tile-content .icon-refresh,
 #content-core #parent-fieldname-text .icon-refresh {
   background-position: -240px -24px;
 }
 /* line 85, ../scss/old/_sprites.scss */
-body#tinymce .icon-list-alt, body#tinymce .icon-subsurvey,
+.mceTmpl .icon-list-alt, .mceTmpl .icon-subsurvey,
+.mceTmpl body#tinymce .icon-subsurvey,
+body#tinymce .mceTmpl .icon-subsurvey,
+.mceTmpl #content-core #parent-fieldname-text .icon-subsurvey,
+#content-core #parent-fieldname-text .mceTmpl .icon-subsurvey,
+body#tinymce .icon-list-alt,
+body#tinymce .icon-subsurvey,
 body#tinymce #content-core #parent-fieldname-text .icon-subsurvey,
 #content-core #parent-fieldname-text body#tinymce .icon-subsurvey,
 .mosaic-tile-content .icon-list-alt,
@@ -3523,9 +3763,16 @@ body#tinymce .mosaic-tile-content .icon-subsurvey,
   background-position: -264px -24px;
 }
 /* line 86, ../scss/old/_sprites.scss */
-body#tinymce .icon-lock, body#tinymce .icon-formpasswordfield,
+.mceTmpl .icon-lock, .mceTmpl .icon-formpasswordfield,
+.mceTmpl body#tinymce .icon-formpasswordfield,
+body#tinymce .mceTmpl .icon-formpasswordfield,
+.mceTmpl #content-core #parent-fieldname-text .icon-formpasswordfield,
+#content-core #parent-fieldname-text .mceTmpl .icon-formpasswordfield, .mceTmpl .icon-workflow-transition-restrict,
+body#tinymce .icon-lock,
+body#tinymce .icon-formpasswordfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formpasswordfield,
-#content-core #parent-fieldname-text body#tinymce .icon-formpasswordfield, body#tinymce .icon-workflow-transition-restrict,
+#content-core #parent-fieldname-text body#tinymce .icon-formpasswordfield,
+body#tinymce .icon-workflow-transition-restrict,
 .mosaic-tile-content .icon-lock,
 .mosaic-tile-content body#tinymce .icon-formpasswordfield,
 body#tinymce .mosaic-tile-content .icon-formpasswordfield,
@@ -3539,7 +3786,9 @@ body#tinymce .mosaic-tile-content .icon-formpasswordfield,
   background-position: -287px -24px;
 }
 /* line 87, ../scss/old/_sprites.scss */
-body#tinymce .icon-flag, body#tinymce .icon-banner,
+.mceTmpl .icon-flag, .mceTmpl .icon-banner,
+body#tinymce .icon-flag,
+body#tinymce .icon-banner,
 .mosaic-tile-content .icon-flag,
 .mosaic-tile-content .icon-banner,
 #content-core #parent-fieldname-text .icon-flag,
@@ -3547,43 +3796,55 @@ body#tinymce .icon-flag, body#tinymce .icon-banner,
   background-position: -312px -24px;
 }
 /* line 88, ../scss/old/_sprites.scss */
+.mceTmpl .icon-headphones,
 body#tinymce .icon-headphones,
 .mosaic-tile-content .icon-headphones,
 #content-core #parent-fieldname-text .icon-headphones {
   background-position: -336px -24px;
 }
 /* line 89, ../scss/old/_sprites.scss */
+.mceTmpl .icon-volume-off,
 body#tinymce .icon-volume-off,
 .mosaic-tile-content .icon-volume-off,
 #content-core #parent-fieldname-text .icon-volume-off {
   background-position: -360px -24px;
 }
 /* line 90, ../scss/old/_sprites.scss */
+.mceTmpl .icon-volume-down,
 body#tinymce .icon-volume-down,
 .mosaic-tile-content .icon-volume-down,
 #content-core #parent-fieldname-text .icon-volume-down {
   background-position: -384px -24px;
 }
 /* line 91, ../scss/old/_sprites.scss */
+.mceTmpl .icon-volume-up,
 body#tinymce .icon-volume-up,
 .mosaic-tile-content .icon-volume-up,
 #content-core #parent-fieldname-text .icon-volume-up {
   background-position: -408px -24px;
 }
 /* line 92, ../scss/old/_sprites.scss */
+.mceTmpl .icon-qrcode,
 body#tinymce .icon-qrcode,
 .mosaic-tile-content .icon-qrcode,
 #content-core #parent-fieldname-text .icon-qrcode {
   background-position: -432px -24px;
 }
 /* line 93, ../scss/old/_sprites.scss */
+.mceTmpl .icon-barcode,
 body#tinymce .icon-barcode,
 .mosaic-tile-content .icon-barcode,
 #content-core #parent-fieldname-text .icon-barcode {
   background-position: -456px -24px;
 }
 /* line 95, ../scss/old/_sprites.scss */
-body#tinymce .icon-tag, body#tinymce .icon-formlabelfield,
+.mceTmpl .icon-tag, .mceTmpl .icon-formlabelfield,
+.mceTmpl body#tinymce .icon-formlabelfield,
+body#tinymce .mceTmpl .icon-formlabelfield,
+.mceTmpl #content-core #parent-fieldname-text .icon-formlabelfield,
+#content-core #parent-fieldname-text .mceTmpl .icon-formlabelfield,
+body#tinymce .icon-tag,
+body#tinymce .icon-formlabelfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formlabelfield,
 #content-core #parent-fieldname-text body#tinymce .icon-formlabelfield,
 .mosaic-tile-content .icon-tag,
@@ -3597,7 +3858,13 @@ body#tinymce .mosaic-tile-content .icon-formlabelfield,
   background-position: 0      -48px;
 }
 /* line 96, ../scss/old/_sprites.scss */
-body#tinymce .icon-tags, body#tinymce .icon-formrichlabelfield,
+.mceTmpl .icon-tags, .mceTmpl .icon-formrichlabelfield,
+.mceTmpl body#tinymce .icon-formrichlabelfield,
+body#tinymce .mceTmpl .icon-formrichlabelfield,
+.mceTmpl #content-core #parent-fieldname-text .icon-formrichlabelfield,
+#content-core #parent-fieldname-text .mceTmpl .icon-formrichlabelfield,
+body#tinymce .icon-tags,
+body#tinymce .icon-formrichlabelfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formrichlabelfield,
 #content-core #parent-fieldname-text body#tinymce .icon-formrichlabelfield,
 .mosaic-tile-content .icon-tags,
@@ -3611,37 +3878,48 @@ body#tinymce .mosaic-tile-content .icon-formrichlabelfield,
   background-position: -25px  -48px;
 }
 /* line 97, ../scss/old/_sprites.scss */
+.mceTmpl .icon-relatedItems,
 body#tinymce .icon-relatedItems,
 .mosaic-tile-content .icon-relatedItems,
 #content-core #parent-fieldname-text .icon-relatedItems {
   background-position: -216px -120px;
 }
 /* line 98, ../scss/old/_sprites.scss */
+.mceTmpl .icon-book,
 body#tinymce .icon-book,
 .mosaic-tile-content .icon-book,
 #content-core #parent-fieldname-text .icon-book {
   background-position: -48px  -48px;
 }
 /* line 99, ../scss/old/_sprites.scss */
+.mceTmpl .icon-bookmark,
 body#tinymce .icon-bookmark,
 .mosaic-tile-content .icon-bookmark,
 #content-core #parent-fieldname-text .icon-bookmark {
   background-position: -72px  -48px;
 }
 /* line 100, ../scss/old/_sprites.scss */
+.mceTmpl .icon-print,
 body#tinymce .icon-print,
 .mosaic-tile-content .icon-print,
 #content-core #parent-fieldname-text .icon-print {
   background-position: -96px  -48px;
 }
 /* line 101, ../scss/old/_sprites.scss */
+.mceTmpl .icon-camera,
 body#tinymce .icon-camera,
 .mosaic-tile-content .icon-camera,
 #content-core #parent-fieldname-text .icon-camera {
   background-position: -120px -48px;
 }
 /* line 102, ../scss/old/_sprites.scss */
-body#tinymce .icon-font, body#tinymce .icon-formtextfield,
+.mceTmpl .icon-font, .mceTmpl .icon-formtextfield,
+.mceTmpl body#tinymce .icon-formtextfield,
+body#tinymce .mceTmpl .icon-formtextfield,
+.mceTmpl #content-core #parent-fieldname-text .icon-formtextfield,
+#content-core #parent-fieldname-text .mceTmpl .icon-formtextfield,
+body#tinymce .icon-font,
+body#tinymce .icon-formtextfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formtextfield,
 #content-core #parent-fieldname-text body#tinymce .icon-formtextfield,
 .mosaic-tile-content .icon-font,
@@ -3655,7 +3933,13 @@ body#tinymce .mosaic-tile-content .icon-formtextfield,
   background-position: -144px -48px;
 }
 /* line 103, ../scss/old/_sprites.scss */
-body#tinymce .icon-bold, body#tinymce .icon-formrichtextfield,
+.mceTmpl .icon-bold, .mceTmpl .icon-formrichtextfield,
+.mceTmpl body#tinymce .icon-formrichtextfield,
+body#tinymce .mceTmpl .icon-formrichtextfield,
+.mceTmpl #content-core #parent-fieldname-text .icon-formrichtextfield,
+#content-core #parent-fieldname-text .mceTmpl .icon-formrichtextfield,
+body#tinymce .icon-bold,
+body#tinymce .icon-formrichtextfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formrichtextfield,
 #content-core #parent-fieldname-text body#tinymce .icon-formrichtextfield,
 .mosaic-tile-content .icon-bold,
@@ -3669,25 +3953,34 @@ body#tinymce .mosaic-tile-content .icon-formrichtextfield,
   background-position: -167px -48px;
 }
 /* line 104, ../scss/old/_sprites.scss */
+.mceTmpl .icon-italic,
 body#tinymce .icon-italic,
 .mosaic-tile-content .icon-italic,
 #content-core #parent-fieldname-text .icon-italic {
   background-position: -192px -48px;
 }
 /* line 105, ../scss/old/_sprites.scss */
+.mceTmpl .icon-text-height,
 body#tinymce .icon-text-height,
 .mosaic-tile-content .icon-text-height,
 #content-core #parent-fieldname-text .icon-text-height {
   background-position: -216px -48px;
 }
 /* line 106, ../scss/old/_sprites.scss */
+.mceTmpl .icon-text-width,
 body#tinymce .icon-text-width,
 .mosaic-tile-content .icon-text-width,
 #content-core #parent-fieldname-text .icon-text-width {
   background-position: -240px -48px;
 }
 /* line 107, ../scss/old/_sprites.scss */
-body#tinymce .icon-align-left, body#tinymce .icon-surveytextquestion,
+.mceTmpl .icon-align-left, .mceTmpl .icon-surveytextquestion,
+.mceTmpl body#tinymce .icon-surveytextquestion,
+body#tinymce .mceTmpl .icon-surveytextquestion,
+.mceTmpl #content-core #parent-fieldname-text .icon-surveytextquestion,
+#content-core #parent-fieldname-text .mceTmpl .icon-surveytextquestion,
+body#tinymce .icon-align-left,
+body#tinymce .icon-surveytextquestion,
 body#tinymce #content-core #parent-fieldname-text .icon-surveytextquestion,
 #content-core #parent-fieldname-text body#tinymce .icon-surveytextquestion,
 .mosaic-tile-content .icon-align-left,
@@ -3701,19 +3994,23 @@ body#tinymce .mosaic-tile-content .icon-surveytextquestion,
   background-position: -264px -48px;
 }
 /* line 108, ../scss/old/_sprites.scss */
+.mceTmpl .icon-align-center,
 body#tinymce .icon-align-center,
 .mosaic-tile-content .icon-align-center,
 #content-core #parent-fieldname-text .icon-align-center {
   background-position: -288px -48px;
 }
 /* line 109, ../scss/old/_sprites.scss */
+.mceTmpl .icon-align-right,
 body#tinymce .icon-align-right,
 .mosaic-tile-content .icon-align-right,
 #content-core #parent-fieldname-text .icon-align-right {
   background-position: -312px -48px;
 }
 /* line 110, ../scss/old/_sprites.scss */
-body#tinymce .icon-align-justify, body#tinymce .icon-formmultiselectionfield,
+.mceTmpl .icon-align-justify, .mceTmpl .icon-formmultiselectionfield,
+body#tinymce .icon-align-justify,
+body#tinymce .icon-formmultiselectionfield,
 .mosaic-tile-content .icon-align-justify,
 .mosaic-tile-content .icon-formmultiselectionfield,
 #content-core #parent-fieldname-text .icon-align-justify,
@@ -3721,63 +4018,81 @@ body#tinymce .icon-align-justify, body#tinymce .icon-formmultiselectionfield,
   background-position: -336px -48px;
 }
 /* line 111, ../scss/old/_sprites.scss */
+.mceTmpl .icon-list,
 body#tinymce .icon-list,
 .mosaic-tile-content .icon-list,
 #content-core #parent-fieldname-text .icon-list {
   background-position: -360px -48px;
 }
 /* line 112, ../scss/old/_sprites.scss */
+.mceTmpl .icon-indent-left,
 body#tinymce .icon-indent-left,
 .mosaic-tile-content .icon-indent-left,
 #content-core #parent-fieldname-text .icon-indent-left {
   background-position: -384px -48px;
 }
 /* line 113, ../scss/old/_sprites.scss */
+.mceTmpl .icon-indent-right,
 body#tinymce .icon-indent-right,
 .mosaic-tile-content .icon-indent-right,
 #content-core #parent-fieldname-text .icon-indent-right {
   background-position: -408px -48px;
 }
 /* line 114, ../scss/old/_sprites.scss */
+.mceTmpl .icon-facetime-video,
 body#tinymce .icon-facetime-video,
 .mosaic-tile-content .icon-facetime-video,
 #content-core #parent-fieldname-text .icon-facetime-video {
   background-position: -432px -48px;
 }
 /* line 115, ../scss/old/_sprites.scss */
+.mceTmpl .icon-picture,
 body#tinymce .icon-picture,
 .mosaic-tile-content .icon-picture,
 #content-core #parent-fieldname-text .icon-picture {
   background-position: -456px -48px;
 }
 /* line 117, ../scss/old/_sprites.scss */
+.mceTmpl .icon-pencil,
 body#tinymce .icon-pencil,
 .mosaic-tile-content .icon-pencil,
 #content-core #parent-fieldname-text .icon-pencil {
   background-position: 0      -72px;
 }
 /* line 118, ../scss/old/_sprites.scss */
+.mceTmpl .icon-map-marker,
 body#tinymce .icon-map-marker,
 .mosaic-tile-content .icon-map-marker,
 #content-core #parent-fieldname-text .icon-map-marker {
   background-position: -24px  -72px;
 }
 /* line 119, ../scss/old/_sprites.scss */
+.mceTmpl .icon-adjust,
 body#tinymce .icon-adjust,
 .mosaic-tile-content .icon-adjust,
 #content-core #parent-fieldname-text .icon-adjust {
   background-position: -48px  -72px;
 }
 /* line 120, ../scss/old/_sprites.scss */
+.mceTmpl .icon-tint,
 body#tinymce .icon-tint,
 .mosaic-tile-content .icon-tint,
 #content-core #parent-fieldname-text .icon-tint {
   background-position: -72px  -72px;
 }
 /* line 121, ../scss/old/_sprites.scss */
-body#tinymce .icon-edit, body#tinymce .icon-formstringfield,
+.mceTmpl .icon-edit, .mceTmpl .icon-formstringfield,
+.mceTmpl body#tinymce .icon-formstringfield,
+body#tinymce .mceTmpl .icon-formstringfield,
+.mceTmpl #content-core #parent-fieldname-text .icon-formstringfield,
+#content-core #parent-fieldname-text .mceTmpl .icon-formstringfield, .mceTmpl .icon-formlinesfield, .mceTmpl .icon-formintegerfield, .mceTmpl .icon-formfixedpointfield,
+body#tinymce .icon-edit,
+body#tinymce .icon-formstringfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formstringfield,
-#content-core #parent-fieldname-text body#tinymce .icon-formstringfield, body#tinymce .icon-formlinesfield, body#tinymce .icon-formintegerfield, body#tinymce .icon-formfixedpointfield,
+#content-core #parent-fieldname-text body#tinymce .icon-formstringfield,
+body#tinymce .icon-formlinesfield,
+body#tinymce .icon-formintegerfield,
+body#tinymce .icon-formfixedpointfield,
 .mosaic-tile-content .icon-edit,
 .mosaic-tile-content body#tinymce .icon-formstringfield,
 body#tinymce .mosaic-tile-content .icon-formstringfield,
@@ -3795,13 +4110,20 @@ body#tinymce .mosaic-tile-content .icon-formstringfield,
   background-position: -96px  -72px;
 }
 /* line 122, ../scss/old/_sprites.scss */
+.mceTmpl .icon-share,
 body#tinymce .icon-share,
 .mosaic-tile-content .icon-share,
 #content-core #parent-fieldname-text .icon-share {
   background-position: -120px -72px;
 }
 /* line 123, ../scss/old/_sprites.scss */
-body#tinymce .icon-check, body#tinymce .icon-formbooleanfield,
+.mceTmpl .icon-check, .mceTmpl .icon-formbooleanfield,
+.mceTmpl body#tinymce .icon-formbooleanfield,
+body#tinymce .mceTmpl .icon-formbooleanfield,
+.mceTmpl #content-core #parent-fieldname-text .icon-formbooleanfield,
+#content-core #parent-fieldname-text .mceTmpl .icon-formbooleanfield,
+body#tinymce .icon-check,
+body#tinymce .icon-formbooleanfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formbooleanfield,
 #content-core #parent-fieldname-text body#tinymce .icon-formbooleanfield,
 .mosaic-tile-content .icon-check,
@@ -3815,13 +4137,20 @@ body#tinymce .mosaic-tile-content .icon-formbooleanfield,
   background-position: -144px -72px;
 }
 /* line 124, ../scss/old/_sprites.scss */
+.mceTmpl .icon-move,
 body#tinymce .icon-move,
 .mosaic-tile-content .icon-move,
 #content-core #parent-fieldname-text .icon-move {
   background-position: -168px -72px;
 }
 /* line 125, ../scss/old/_sprites.scss */
-body#tinymce .icon-step-backward, body#tinymce .icon-fieldsetstart,
+.mceTmpl .icon-step-backward, .mceTmpl .icon-fieldsetstart,
+.mceTmpl body#tinymce .icon-fieldsetstart,
+body#tinymce .mceTmpl .icon-fieldsetstart,
+.mceTmpl #content-core #parent-fieldname-text .icon-fieldsetstart,
+#content-core #parent-fieldname-text .mceTmpl .icon-fieldsetstart,
+body#tinymce .icon-step-backward,
+body#tinymce .icon-fieldsetstart,
 body#tinymce #content-core #parent-fieldname-text .icon-fieldsetstart,
 #content-core #parent-fieldname-text body#tinymce .icon-fieldsetstart,
 .mosaic-tile-content .icon-step-backward,
@@ -3835,49 +4164,62 @@ body#tinymce .mosaic-tile-content .icon-fieldsetstart,
   background-position: -192px -72px;
 }
 /* line 126, ../scss/old/_sprites.scss */
+.mceTmpl .icon-fast-backward,
 body#tinymce .icon-fast-backward,
 .mosaic-tile-content .icon-fast-backward,
 #content-core #parent-fieldname-text .icon-fast-backward {
   background-position: -216px -72px;
 }
 /* line 127, ../scss/old/_sprites.scss */
+.mceTmpl .icon-backward,
 body#tinymce .icon-backward,
 .mosaic-tile-content .icon-backward,
 #content-core #parent-fieldname-text .icon-backward {
   background-position: -240px -72px;
 }
 /* line 128, ../scss/old/_sprites.scss */
+.mceTmpl .icon-play,
 body#tinymce .icon-play,
 .mosaic-tile-content .icon-play,
 #content-core #parent-fieldname-text .icon-play {
   background-position: -264px -72px;
 }
 /* line 129, ../scss/old/_sprites.scss */
+.mceTmpl .icon-pause,
 body#tinymce .icon-pause,
 .mosaic-tile-content .icon-pause,
 #content-core #parent-fieldname-text .icon-pause {
   background-position: -288px -72px;
 }
 /* line 130, ../scss/old/_sprites.scss */
+.mceTmpl .icon-stop,
 body#tinymce .icon-stop,
 .mosaic-tile-content .icon-stop,
 #content-core #parent-fieldname-text .icon-stop {
   background-position: -312px -72px;
 }
 /* line 131, ../scss/old/_sprites.scss */
+.mceTmpl .icon-forward,
 body#tinymce .icon-forward,
 .mosaic-tile-content .icon-forward,
 #content-core #parent-fieldname-text .icon-forward {
   background-position: -336px -72px;
 }
 /* line 132, ../scss/old/_sprites.scss */
+.mceTmpl .icon-fast-forward,
 body#tinymce .icon-fast-forward,
 .mosaic-tile-content .icon-fast-forward,
 #content-core #parent-fieldname-text .icon-fast-forward {
   background-position: -360px -72px;
 }
 /* line 133, ../scss/old/_sprites.scss */
-body#tinymce .icon-step-forward, body#tinymce .icon-fieldsetend,
+.mceTmpl .icon-step-forward, .mceTmpl .icon-fieldsetend,
+.mceTmpl body#tinymce .icon-fieldsetend,
+body#tinymce .mceTmpl .icon-fieldsetend,
+.mceTmpl #content-core #parent-fieldname-text .icon-fieldsetend,
+#content-core #parent-fieldname-text .mceTmpl .icon-fieldsetend,
+body#tinymce .icon-step-forward,
+body#tinymce .icon-fieldsetend,
 body#tinymce #content-core #parent-fieldname-text .icon-fieldsetend,
 #content-core #parent-fieldname-text body#tinymce .icon-fieldsetend,
 .mosaic-tile-content .icon-step-forward,
@@ -3891,43 +4233,51 @@ body#tinymce .mosaic-tile-content .icon-fieldsetend,
   background-position: -384px -72px;
 }
 /* line 134, ../scss/old/_sprites.scss */
+.mceTmpl .icon-eject,
 body#tinymce .icon-eject,
 .mosaic-tile-content .icon-eject,
 #content-core #parent-fieldname-text .icon-eject {
   background-position: -408px -72px;
 }
 /* line 135, ../scss/old/_sprites.scss */
+.mceTmpl .icon-chevron-left,
 body#tinymce .icon-chevron-left,
 .mosaic-tile-content .icon-chevron-left,
 #content-core #parent-fieldname-text .icon-chevron-left {
   background-position: -432px -72px;
 }
 /* line 136, ../scss/old/_sprites.scss */
+.mceTmpl .icon-chevron-right,
 body#tinymce .icon-chevron-right,
 .mosaic-tile-content .icon-chevron-right,
 #content-core #parent-fieldname-text .icon-chevron-right {
   background-position: -456px -72px;
 }
 /* line 138, ../scss/old/_sprites.scss */
+.mceTmpl .icon-plus-sign,
 body#tinymce .icon-plus-sign,
 .mosaic-tile-content .icon-plus-sign,
 #content-core #parent-fieldname-text .icon-plus-sign {
   background-position: 0      -96px;
 }
 /* line 139, ../scss/old/_sprites.scss */
+.mceTmpl .icon-minus-sign,
 body#tinymce .icon-minus-sign,
 .mosaic-tile-content .icon-minus-sign,
 #content-core #parent-fieldname-text .icon-minus-sign {
   background-position: -24px  -96px;
 }
 /* line 140, ../scss/old/_sprites.scss */
+.mceTmpl .icon-remove-sign,
 body#tinymce .icon-remove-sign,
 .mosaic-tile-content .icon-remove-sign,
 #content-core #parent-fieldname-text .icon-remove-sign {
   background-position: -48px  -96px;
 }
 /* line 141, ../scss/old/_sprites.scss */
-body#tinymce .icon-ok-sign, body#tinymce .icon-plone-contentmenu-display-fg_base_view_p3,
+.mceTmpl .icon-ok-sign, .mceTmpl .icon-plone-contentmenu-display-fg_base_view_p3,
+body#tinymce .icon-ok-sign,
+body#tinymce .icon-plone-contentmenu-display-fg_base_view_p3,
 .mosaic-tile-content .icon-ok-sign,
 .mosaic-tile-content .icon-plone-contentmenu-display-fg_base_view_p3,
 #content-core #parent-fieldname-text .icon-ok-sign,
@@ -3935,13 +4285,16 @@ body#tinymce .icon-ok-sign, body#tinymce .icon-plone-contentmenu-display-fg_base
   background-position: -72px  -96px;
 }
 /* line 142, ../scss/old/_sprites.scss */
+.mceTmpl .icon-question-sign,
 body#tinymce .icon-question-sign,
 .mosaic-tile-content .icon-question-sign,
 #content-core #parent-fieldname-text .icon-question-sign {
   background-position: -96px  -96px;
 }
 /* line 143, ../scss/old/_sprites.scss */
-body#tinymce .icon-info-sign, body#tinymce .icon-plone-contentmenu-display-pfg_draft_view,
+.mceTmpl .icon-info-sign, .mceTmpl .icon-plone-contentmenu-display-pfg_draft_view,
+body#tinymce .icon-info-sign,
+body#tinymce .icon-plone-contentmenu-display-pfg_draft_view,
 .mosaic-tile-content .icon-info-sign,
 .mosaic-tile-content .icon-plone-contentmenu-display-pfg_draft_view,
 #content-core #parent-fieldname-text .icon-info-sign,
@@ -3949,21 +4302,34 @@ body#tinymce .icon-info-sign, body#tinymce .icon-plone-contentmenu-display-pfg_d
   background-position: -120px -96px;
 }
 /* line 144, ../scss/old/_sprites.scss */
+.mceTmpl .icon-screenshot,
 body#tinymce .icon-screenshot,
 .mosaic-tile-content .icon-screenshot,
 #content-core #parent-fieldname-text .icon-screenshot {
   background-position: -144px -96px;
 }
 /* line 145, ../scss/old/_sprites.scss */
+.mceTmpl .icon-remove-circle,
 body#tinymce .icon-remove-circle,
 .mosaic-tile-content .icon-remove-circle,
 #content-core #parent-fieldname-text .icon-remove-circle {
   background-position: -168px -96px;
 }
 /* line 146, ../scss/old/_sprites.scss */
-body#tinymce .icon-ok-circle, body#tinymce .icon-surveyselectquestion,
+.mceTmpl .icon-ok-circle, .mceTmpl .icon-surveyselectquestion,
+.mceTmpl body#tinymce .icon-surveyselectquestion,
+body#tinymce .mceTmpl .icon-surveyselectquestion,
+.mceTmpl #content-core #parent-fieldname-text .icon-surveyselectquestion,
+#content-core #parent-fieldname-text .mceTmpl .icon-surveyselectquestion, .mceTmpl .icon-formselectionfield,
+.mceTmpl body#tinymce .icon-formselectionfield,
+body#tinymce .mceTmpl .icon-formselectionfield,
+.mceTmpl #content-core #parent-fieldname-text .icon-formselectionfield,
+#content-core #parent-fieldname-text .mceTmpl .icon-formselectionfield,
+body#tinymce .icon-ok-circle,
+body#tinymce .icon-surveyselectquestion,
 body#tinymce #content-core #parent-fieldname-text .icon-surveyselectquestion,
-#content-core #parent-fieldname-text body#tinymce .icon-surveyselectquestion, body#tinymce .icon-formselectionfield,
+#content-core #parent-fieldname-text body#tinymce .icon-surveyselectquestion,
+body#tinymce .icon-formselectionfield,
 body#tinymce #content-core #parent-fieldname-text .icon-formselectionfield,
 #content-core #parent-fieldname-text body#tinymce .icon-formselectionfield,
 .mosaic-tile-content .icon-ok-circle,
@@ -3983,13 +4349,16 @@ body#tinymce .mosaic-tile-content .icon-formselectionfield,
   background-position: -192px -96px;
 }
 /* line 147, ../scss/old/_sprites.scss */
+.mceTmpl .icon-ban-circle,
 body#tinymce .icon-ban-circle,
 .mosaic-tile-content .icon-ban-circle,
 #content-core #parent-fieldname-text .icon-ban-circle {
   background-position: -216px -96px;
 }
 /* line 148, ../scss/old/_sprites.scss */
-body#tinymce .icon-arrow-left, body#tinymce .icon-plone-contentmenu-actions-import,
+.mceTmpl .icon-arrow-left, .mceTmpl .icon-plone-contentmenu-actions-import,
+body#tinymce .icon-arrow-left,
+body#tinymce .icon-plone-contentmenu-actions-import,
 .mosaic-tile-content .icon-arrow-left,
 .mosaic-tile-content .icon-plone-contentmenu-actions-import,
 #content-core #parent-fieldname-text .icon-arrow-left,
@@ -3997,7 +4366,9 @@ body#tinymce .icon-arrow-left, body#tinymce .icon-plone-contentmenu-actions-impo
   background-position: -240px -96px;
 }
 /* line 149, ../scss/old/_sprites.scss */
-body#tinymce .icon-arrow-right, body#tinymce .icon-plone-contentmenu-actions-export,
+.mceTmpl .icon-arrow-right, .mceTmpl .icon-plone-contentmenu-actions-export,
+body#tinymce .icon-arrow-right,
+body#tinymce .icon-plone-contentmenu-actions-export,
 .mosaic-tile-content .icon-arrow-right,
 .mosaic-tile-content .icon-plone-contentmenu-actions-export,
 #content-core #parent-fieldname-text .icon-arrow-right,
@@ -4005,103 +4376,121 @@ body#tinymce .icon-arrow-right, body#tinymce .icon-plone-contentmenu-actions-exp
   background-position: -264px -96px;
 }
 /* line 150, ../scss/old/_sprites.scss */
+.mceTmpl .icon-arrow-up,
 body#tinymce .icon-arrow-up,
 .mosaic-tile-content .icon-arrow-up,
 #content-core #parent-fieldname-text .icon-arrow-up {
   background-position: -289px -96px;
 }
 /* line 151, ../scss/old/_sprites.scss */
+.mceTmpl .icon-arrow-down,
 body#tinymce .icon-arrow-down,
 .mosaic-tile-content .icon-arrow-down,
 #content-core #parent-fieldname-text .icon-arrow-down {
   background-position: -312px -96px;
 }
 /* line 152, ../scss/old/_sprites.scss */
+.mceTmpl .icon-share-alt,
 body#tinymce .icon-share-alt,
 .mosaic-tile-content .icon-share-alt,
 #content-core #parent-fieldname-text .icon-share-alt {
   background-position: -336px -96px;
 }
 /* line 153, ../scss/old/_sprites.scss */
+.mceTmpl .icon-resize-full,
 body#tinymce .icon-resize-full,
 .mosaic-tile-content .icon-resize-full,
 #content-core #parent-fieldname-text .icon-resize-full {
   background-position: -360px -96px;
 }
 /* line 154, ../scss/old/_sprites.scss */
+.mceTmpl .icon-resize-small,
 body#tinymce .icon-resize-small,
 .mosaic-tile-content .icon-resize-small,
 #content-core #parent-fieldname-text .icon-resize-small {
   background-position: -384px -96px;
 }
 /* line 155, ../scss/old/_sprites.scss */
+.mceTmpl .icon-plus,
 body#tinymce .icon-plus,
 .mosaic-tile-content .icon-plus,
 #content-core #parent-fieldname-text .icon-plus {
   background-position: -408px -96px;
 }
 /* line 156, ../scss/old/_sprites.scss */
+.mceTmpl .icon-minus,
 body#tinymce .icon-minus,
 .mosaic-tile-content .icon-minus,
 #content-core #parent-fieldname-text .icon-minus {
   background-position: -433px -96px;
 }
 /* line 157, ../scss/old/_sprites.scss */
+.mceTmpl .icon-asterisk,
 body#tinymce .icon-asterisk,
 .mosaic-tile-content .icon-asterisk,
 #content-core #parent-fieldname-text .icon-asterisk {
   background-position: -456px -96px;
 }
 /* line 159, ../scss/old/_sprites.scss */
+.mceTmpl .icon-exclamation-sign,
 body#tinymce .icon-exclamation-sign,
 .mosaic-tile-content .icon-exclamation-sign,
 #content-core #parent-fieldname-text .icon-exclamation-sign {
   background-position: 0      -120px;
 }
 /* line 160, ../scss/old/_sprites.scss */
+.mceTmpl .icon-gift,
 body#tinymce .icon-gift,
 .mosaic-tile-content .icon-gift,
 #content-core #parent-fieldname-text .icon-gift {
   background-position: -24px  -120px;
 }
 /* line 161, ../scss/old/_sprites.scss */
+.mceTmpl .icon-leaf,
 body#tinymce .icon-leaf,
 .mosaic-tile-content .icon-leaf,
 #content-core #parent-fieldname-text .icon-leaf {
   background-position: -48px  -120px;
 }
 /* line 162, ../scss/old/_sprites.scss */
+.mceTmpl .icon-fire,
 body#tinymce .icon-fire,
 .mosaic-tile-content .icon-fire,
 #content-core #parent-fieldname-text .icon-fire {
   background-position: -72px  -120px;
 }
 /* line 163, ../scss/old/_sprites.scss */
+.mceTmpl .icon-eye-open,
 body#tinymce .icon-eye-open,
 .mosaic-tile-content .icon-eye-open,
 #content-core #parent-fieldname-text .icon-eye-open {
   background-position: -96px  -120px;
 }
 /* line 164, ../scss/old/_sprites.scss */
+.mceTmpl .icon-eye-close,
 body#tinymce .icon-eye-close,
 .mosaic-tile-content .icon-eye-close,
 #content-core #parent-fieldname-text .icon-eye-close {
   background-position: -120px -120px;
 }
 /* line 165, ../scss/old/_sprites.scss */
+.mceTmpl .icon-warning-sign,
 body#tinymce .icon-warning-sign,
 .mosaic-tile-content .icon-warning-sign,
 #content-core #parent-fieldname-text .icon-warning-sign {
   background-position: -144px -120px;
 }
 /* line 166, ../scss/old/_sprites.scss */
+.mceTmpl .icon-plane,
 body#tinymce .icon-plane,
 .mosaic-tile-content .icon-plane,
 #content-core #parent-fieldname-text .icon-plane {
   background-position: -168px -120px;
 }
 /* line 167, ../scss/old/_sprites.scss */
-body#tinymce .icon-calendar, body#tinymce .icon-event,
+.mceTmpl .icon-calendar, .mceTmpl .icon-event,
+body#tinymce .icon-calendar,
+body#tinymce .icon-event,
 .mosaic-tile-content .icon-calendar,
 .mosaic-tile-content .icon-event,
 #content-core #parent-fieldname-text .icon-calendar,
@@ -4109,6 +4498,7 @@ body#tinymce .icon-calendar, body#tinymce .icon-event,
   background-position: -192px -120px;
 }
 /* line 168, ../scss/old/_sprites.scss */
+.mceTmpl .icon-random,
 body#tinymce .icon-random,
 .mosaic-tile-content .icon-random,
 #content-core #parent-fieldname-text .icon-random {
@@ -4116,45 +4506,58 @@ body#tinymce .icon-random,
   width: 16px;
 }
 /* line 169, ../scss/old/_sprites.scss */
+.mceTmpl .icon-comment,
 body#tinymce .icon-comment,
 .mosaic-tile-content .icon-comment,
 #content-core #parent-fieldname-text .icon-comment {
   background-position: -240px -120px;
 }
 /* line 170, ../scss/old/_sprites.scss */
+.mceTmpl .icon-magnet,
 body#tinymce .icon-magnet,
 .mosaic-tile-content .icon-magnet,
 #content-core #parent-fieldname-text .icon-magnet {
   background-position: -264px -120px;
 }
 /* line 171, ../scss/old/_sprites.scss */
+.mceTmpl .icon-chevron-up,
 body#tinymce .icon-chevron-up,
 .mosaic-tile-content .icon-chevron-up,
 #content-core #parent-fieldname-text .icon-chevron-up {
   background-position: -288px -120px;
 }
 /* line 172, ../scss/old/_sprites.scss */
+.mceTmpl .icon-chevron-down,
 body#tinymce .icon-chevron-down,
 .mosaic-tile-content .icon-chevron-down,
 #content-core #parent-fieldname-text .icon-chevron-down {
   background-position: -313px -119px;
 }
 /* line 173, ../scss/old/_sprites.scss */
+.mceTmpl .icon-retweet,
 body#tinymce .icon-retweet,
 .mosaic-tile-content .icon-retweet,
 #content-core #parent-fieldname-text .icon-retweet {
   background-position: -336px -120px;
 }
 /* line 174, ../scss/old/_sprites.scss */
+.mceTmpl .icon-shopping-cart,
 body#tinymce .icon-shopping-cart,
 .mosaic-tile-content .icon-shopping-cart,
 #content-core #parent-fieldname-text .icon-shopping-cart {
   background-position: -360px -120px;
 }
 /* line 175, ../scss/old/_sprites.scss */
-body#tinymce .icon-folder-close, body#tinymce .icon-fieldsetfolder,
+.mceTmpl .icon-folder-close, .mceTmpl .icon-fieldsetfolder,
+.mceTmpl body#tinymce .icon-fieldsetfolder,
+body#tinymce .mceTmpl .icon-fieldsetfolder,
+.mceTmpl #content-core #parent-fieldname-text .icon-fieldsetfolder,
+#content-core #parent-fieldname-text .mceTmpl .icon-fieldsetfolder, .mceTmpl .icon-folder,
+body#tinymce .icon-folder-close,
+body#tinymce .icon-fieldsetfolder,
 body#tinymce #content-core #parent-fieldname-text .icon-fieldsetfolder,
-#content-core #parent-fieldname-text body#tinymce .icon-fieldsetfolder, body#tinymce .icon-folder,
+#content-core #parent-fieldname-text body#tinymce .icon-fieldsetfolder,
+body#tinymce .icon-folder,
 .mosaic-tile-content .icon-folder-close,
 .mosaic-tile-content body#tinymce .icon-fieldsetfolder,
 body#tinymce .mosaic-tile-content .icon-fieldsetfolder,
@@ -4168,6 +4571,7 @@ body#tinymce .mosaic-tile-content .icon-fieldsetfolder,
   background-position: -384px -120px;
 }
 /* line 176, ../scss/old/_sprites.scss */
+.mceTmpl .icon-folder-open,
 body#tinymce .icon-folder-open,
 .mosaic-tile-content .icon-folder-open,
 #content-core #parent-fieldname-text .icon-folder-open {
@@ -4175,19 +4579,27 @@ body#tinymce .icon-folder-open,
   width: 16px;
 }
 /* line 177, ../scss/old/_sprites.scss */
+.mceTmpl .icon-resize-vertical,
 body#tinymce .icon-resize-vertical,
 .mosaic-tile-content .icon-resize-vertical,
 #content-core #parent-fieldname-text .icon-resize-vertical {
   background-position: -432px -119px;
 }
 /* line 178, ../scss/old/_sprites.scss */
+.mceTmpl .icon-resize-horizontal,
 body#tinymce .icon-resize-horizontal,
 .mosaic-tile-content .icon-resize-horizontal,
 #content-core #parent-fieldname-text .icon-resize-horizontal {
   background-position: -456px -118px;
 }
 /* line 180, ../scss/old/_sprites.scss */
-body#tinymce .icon-hdd, body#tinymce .icon-formsavedataadapter,
+.mceTmpl .icon-hdd, .mceTmpl .icon-formsavedataadapter,
+.mceTmpl body#tinymce .icon-formsavedataadapter,
+body#tinymce .mceTmpl .icon-formsavedataadapter,
+.mceTmpl #content-core #parent-fieldname-text .icon-formsavedataadapter,
+#content-core #parent-fieldname-text .mceTmpl .icon-formsavedataadapter,
+body#tinymce .icon-hdd,
+body#tinymce .icon-formsavedataadapter,
 body#tinymce #content-core #parent-fieldname-text .icon-formsavedataadapter,
 #content-core #parent-fieldname-text body#tinymce .icon-formsavedataadapter,
 .mosaic-tile-content .icon-hdd,
@@ -4201,25 +4613,34 @@ body#tinymce .mosaic-tile-content .icon-formsavedataadapter,
   background-position: 0      -144px;
 }
 /* line 181, ../scss/old/_sprites.scss */
+.mceTmpl .icon-bullhorn,
 body#tinymce .icon-bullhorn,
 .mosaic-tile-content .icon-bullhorn,
 #content-core #parent-fieldname-text .icon-bullhorn {
   background-position: -24px  -144px;
 }
 /* line 182, ../scss/old/_sprites.scss */
+.mceTmpl .icon-bell,
 body#tinymce .icon-bell,
 .mosaic-tile-content .icon-bell,
 #content-core #parent-fieldname-text .icon-bell {
   background-position: -48px  -144px;
 }
 /* line 183, ../scss/old/_sprites.scss */
+.mceTmpl .icon-certificate,
 body#tinymce .icon-certificate,
 .mosaic-tile-content .icon-certificate,
 #content-core #parent-fieldname-text .icon-certificate {
   background-position: -72px  -144px;
 }
 /* line 184, ../scss/old/_sprites.scss */
-body#tinymce .icon-thumbs-up, body#tinymce .icon-formthankspage,
+.mceTmpl .icon-thumbs-up, .mceTmpl .icon-formthankspage,
+.mceTmpl body#tinymce .icon-formthankspage,
+body#tinymce .mceTmpl .icon-formthankspage,
+.mceTmpl #content-core #parent-fieldname-text .icon-formthankspage,
+#content-core #parent-fieldname-text .mceTmpl .icon-formthankspage,
+body#tinymce .icon-thumbs-up,
+body#tinymce .icon-formthankspage,
 body#tinymce #content-core #parent-fieldname-text .icon-formthankspage,
 #content-core #parent-fieldname-text body#tinymce .icon-formthankspage,
 .mosaic-tile-content .icon-thumbs-up,
@@ -4233,79 +4654,97 @@ body#tinymce .mosaic-tile-content .icon-formthankspage,
   background-position: -96px  -144px;
 }
 /* line 185, ../scss/old/_sprites.scss */
+.mceTmpl .icon-thumbs-down,
 body#tinymce .icon-thumbs-down,
 .mosaic-tile-content .icon-thumbs-down,
 #content-core #parent-fieldname-text .icon-thumbs-down {
   background-position: -120px -144px;
 }
 /* line 186, ../scss/old/_sprites.scss */
+.mceTmpl .icon-hand-right,
 body#tinymce .icon-hand-right,
 .mosaic-tile-content .icon-hand-right,
 #content-core #parent-fieldname-text .icon-hand-right {
   background-position: -144px -144px;
 }
 /* line 187, ../scss/old/_sprites.scss */
+.mceTmpl .icon-hand-left,
 body#tinymce .icon-hand-left,
 .mosaic-tile-content .icon-hand-left,
 #content-core #parent-fieldname-text .icon-hand-left {
   background-position: -168px -144px;
 }
 /* line 188, ../scss/old/_sprites.scss */
+.mceTmpl .icon-hand-up,
 body#tinymce .icon-hand-up,
 .mosaic-tile-content .icon-hand-up,
 #content-core #parent-fieldname-text .icon-hand-up {
   background-position: -192px -144px;
 }
 /* line 189, ../scss/old/_sprites.scss */
+.mceTmpl .icon-hand-down,
 body#tinymce .icon-hand-down,
 .mosaic-tile-content .icon-hand-down,
 #content-core #parent-fieldname-text .icon-hand-down {
   background-position: -216px -144px;
 }
 /* line 190, ../scss/old/_sprites.scss */
+.mceTmpl .icon-circle-arrow-right,
 body#tinymce .icon-circle-arrow-right,
 .mosaic-tile-content .icon-circle-arrow-right,
 #content-core #parent-fieldname-text .icon-circle-arrow-right {
   background-position: -240px -144px;
 }
 /* line 191, ../scss/old/_sprites.scss */
+.mceTmpl .icon-circle-arrow-left,
 body#tinymce .icon-circle-arrow-left,
 .mosaic-tile-content .icon-circle-arrow-left,
 #content-core #parent-fieldname-text .icon-circle-arrow-left {
   background-position: -264px -144px;
 }
 /* line 192, ../scss/old/_sprites.scss */
+.mceTmpl .icon-circle-arrow-up,
 body#tinymce .icon-circle-arrow-up,
 .mosaic-tile-content .icon-circle-arrow-up,
 #content-core #parent-fieldname-text .icon-circle-arrow-up {
   background-position: -288px -144px;
 }
 /* line 193, ../scss/old/_sprites.scss */
+.mceTmpl .icon-circle-arrow-down,
 body#tinymce .icon-circle-arrow-down,
 .mosaic-tile-content .icon-circle-arrow-down,
 #content-core #parent-fieldname-text .icon-circle-arrow-down {
   background-position: -312px -144px;
 }
 /* line 194, ../scss/old/_sprites.scss */
+.mceTmpl .icon-globe,
 body#tinymce .icon-globe,
 .mosaic-tile-content .icon-globe,
 #content-core #parent-fieldname-text .icon-globe {
   background-position: -336px -144px;
 }
 /* line 195, ../scss/old/_sprites.scss */
+.mceTmpl .icon-wrench,
 body#tinymce .icon-wrench,
 .mosaic-tile-content .icon-wrench,
 #content-core #parent-fieldname-text .icon-wrench {
   background-position: -360px -144px;
 }
 /* line 196, ../scss/old/_sprites.scss */
+.mceTmpl .icon-tasks,
 body#tinymce .icon-tasks,
 .mosaic-tile-content .icon-tasks,
 #content-core #parent-fieldname-text .icon-tasks {
   background-position: -384px -144px;
 }
 /* line 197, ../scss/old/_sprites.scss */
-body#tinymce .icon-filter, body#tinymce .icon-plone-contentmenu-settings,
+.mceTmpl .icon-filter, .mceTmpl .icon-plone-contentmenu-settings,
+.mceTmpl body#tinymce .icon-plone-contentmenu-settings,
+body#tinymce .mceTmpl .icon-plone-contentmenu-settings,
+.mceTmpl #content-core #parent-fieldname-text .icon-plone-contentmenu-settings,
+#content-core #parent-fieldname-text .mceTmpl .icon-plone-contentmenu-settings,
+body#tinymce .icon-filter,
+body#tinymce .icon-plone-contentmenu-settings,
 body#tinymce #content-core #parent-fieldname-text .icon-plone-contentmenu-settings,
 #content-core #parent-fieldname-text body#tinymce .icon-plone-contentmenu-settings,
 .mosaic-tile-content .icon-filter,
@@ -4319,31 +4758,37 @@ body#tinymce .mosaic-tile-content .icon-plone-contentmenu-settings,
   background-position: -408px -144px;
 }
 /* line 198, ../scss/old/_sprites.scss */
+.mceTmpl .icon-briefcase,
 body#tinymce .icon-briefcase,
 .mosaic-tile-content .icon-briefcase,
 #content-core #parent-fieldname-text .icon-briefcase {
   background-position: -432px -144px;
 }
 /* line 199, ../scss/old/_sprites.scss */
+.mceTmpl .icon-fullscreen,
 body#tinymce .icon-fullscreen,
 .mosaic-tile-content .icon-fullscreen,
 #content-core #parent-fieldname-text .icon-fullscreen {
   background-position: -456px -144px;
 }
 /* line 204, ../scss/old/_sprites.scss */
+.mceTmpl .icon-upc,
 body#tinymce .icon-upc,
 .mosaic-tile-content .icon-upc,
 #content-core #parent-fieldname-text .icon-upc {
   background-position: 0      -169px;
 }
 /* line 205, ../scss/old/_sprites.scss */
+.mceTmpl .icon-news,
 body#tinymce .icon-news,
 .mosaic-tile-content .icon-news,
 #content-core #parent-fieldname-text .icon-news {
   background-position: -23px  -169px;
 }
 /* line 206, ../scss/old/_sprites.scss */
-body#tinymce .icon-box, body#tinymce .icon-packet,
+.mceTmpl .icon-box, .mceTmpl .icon-packet,
+body#tinymce .icon-box,
+body#tinymce .icon-packet,
 .mosaic-tile-content .icon-box,
 .mosaic-tile-content .icon-packet,
 #content-core #parent-fieldname-text .icon-box,
@@ -4351,25 +4796,30 @@ body#tinymce .icon-box, body#tinymce .icon-packet,
   background-position: -48px  -168px;
 }
 /* line 207, ../scss/old/_sprites.scss */
+.mceTmpl .icon-link,
 body#tinymce .icon-link,
 .mosaic-tile-content .icon-link,
 #content-core #parent-fieldname-text .icon-link {
   background-position: -72px  -169px;
 }
 /* line 208, ../scss/old/_sprites.scss */
+.mceTmpl .icon-iframe,
 body#tinymce .icon-iframe,
 .mosaic-tile-content .icon-iframe,
 #content-core #parent-fieldname-text .icon-iframe {
   background-position: -96px  -169px;
 }
 /* line 209, ../scss/old/_sprites.scss */
+.mceTmpl .icon-desktop,
 body#tinymce .icon-desktop,
 .mosaic-tile-content .icon-desktop,
 #content-core #parent-fieldname-text .icon-desktop {
   background-position: -120px -169px;
 }
 /* line 210, ../scss/old/_sprites.scss */
-body#tinymce .icon-logosfooter, body#tinymce .icon-logos_footer,
+.mceTmpl .icon-logosfooter, .mceTmpl .icon-logos_footer,
+body#tinymce .icon-logosfooter,
+body#tinymce .icon-logos_footer,
 .mosaic-tile-content .icon-logosfooter,
 .mosaic-tile-content .icon-logos_footer,
 #content-core #parent-fieldname-text .icon-logosfooter,
@@ -4377,7 +4827,13 @@ body#tinymce .icon-logosfooter, body#tinymce .icon-logos_footer,
   background-position: -144px -169px;
 }
 /* line 211, ../scss/old/_sprites.scss */
-body#tinymce .icon-file, body#tinymce .icon-formfilefield,
+.mceTmpl .icon-file, .mceTmpl .icon-formfilefield,
+.mceTmpl body#tinymce .icon-formfilefield,
+body#tinymce .mceTmpl .icon-formfilefield,
+.mceTmpl #content-core #parent-fieldname-text .icon-formfilefield,
+#content-core #parent-fieldname-text .mceTmpl .icon-formfilefield,
+body#tinymce .icon-file,
+body#tinymce .icon-formfilefield,
 body#tinymce #content-core #parent-fieldname-text .icon-formfilefield,
 #content-core #parent-fieldname-text body#tinymce .icon-formfilefield,
 .mosaic-tile-content .icon-file,
@@ -4391,7 +4847,9 @@ body#tinymce .mosaic-tile-content .icon-formfilefield,
   background-position: -168px -169px;
 }
 /* line 212, ../scss/old/_sprites.scss */
-body#tinymce .icon-paste, body#tinymce .icon-plone-contentmenu-actions-paste,
+.mceTmpl .icon-paste, .mceTmpl .icon-plone-contentmenu-actions-paste,
+body#tinymce .icon-paste,
+body#tinymce .icon-plone-contentmenu-actions-paste,
 .mosaic-tile-content .icon-paste,
 .mosaic-tile-content .icon-plone-contentmenu-actions-paste,
 #content-core #parent-fieldname-text .icon-paste,
@@ -4399,19 +4857,23 @@ body#tinymce .icon-paste, body#tinymce .icon-plone-contentmenu-actions-paste,
   background-position: -192px -168px;
 }
 /* line 213, ../scss/old/_sprites.scss */
+.mceTmpl .icon-collage,
 body#tinymce .icon-collage,
 .mosaic-tile-content .icon-collage,
 #content-core #parent-fieldname-text .icon-collage {
   background-position: -216px -169px;
 }
 /* line 214, ../scss/old/_sprites.scss */
+.mceTmpl .icon-smart-folder,
 body#tinymce .icon-smart-folder,
 .mosaic-tile-content .icon-smart-folder,
 #content-core #parent-fieldname-text .icon-smart-folder {
   background-position: -240px -169px;
 }
 /* line 215, ../scss/old/_sprites.scss */
-body#tinymce .icon-copy, body#tinymce .icon-plone-contentmenu-actions-copy,
+.mceTmpl .icon-copy, .mceTmpl .icon-plone-contentmenu-actions-copy,
+body#tinymce .icon-copy,
+body#tinymce .icon-plone-contentmenu-actions-copy,
 .mosaic-tile-content .icon-copy,
 .mosaic-tile-content .icon-plone-contentmenu-actions-copy,
 #content-core #parent-fieldname-text .icon-copy,
@@ -4419,7 +4881,9 @@ body#tinymce .icon-copy, body#tinymce .icon-plone-contentmenu-actions-copy,
   background-position: -264px -169px;
 }
 /* line 216, ../scss/old/_sprites.scss */
-body#tinymce .icon-rename, body#tinymce .icon-plone-contentmenu-actions-rename,
+.mceTmpl .icon-rename, .mceTmpl .icon-plone-contentmenu-actions-rename,
+body#tinymce .icon-rename,
+body#tinymce .icon-plone-contentmenu-actions-rename,
 .mosaic-tile-content .icon-rename,
 .mosaic-tile-content .icon-plone-contentmenu-actions-rename,
 #content-core #parent-fieldname-text .icon-rename,
@@ -4427,6 +4891,11 @@ body#tinymce .icon-rename, body#tinymce .icon-plone-contentmenu-actions-rename,
   background-position: -288px -169px;
 }
 /* line 217, ../scss/old/_sprites.scss */
+.mceTmpl .icon-resume-view,
+.mceTmpl .icon-folder-folder_summary_view,
+.mceTmpl .icon-plone-contentmenu-display-folder_summary_view,
+.mceTmpl .icon-plone-contentmenu-display-summary_view,
+.mceTmpl .icon-folder-summary_view,
 body#tinymce .icon-resume-view,
 body#tinymce .icon-folder-folder_summary_view,
 body#tinymce .icon-plone-contentmenu-display-folder_summary_view,
@@ -4445,6 +4914,11 @@ body#tinymce .icon-folder-summary_view,
   background-position: -312px -169px;
 }
 /* line 222, ../scss/old/_sprites.scss */
+.mceTmpl .icon-table-view,
+.mceTmpl .icon-folder-folder_tabular_view,
+.mceTmpl .icon-folder-tabular_view,
+.mceTmpl .icon-plone-contentmenu-display-tabular_view,
+.mceTmpl .icon-plone-contentmenu-display-folder_tabular_view,
 body#tinymce .icon-table-view,
 body#tinymce .icon-folder-folder_tabular_view,
 body#tinymce .icon-folder-tabular_view,
@@ -4463,6 +4937,11 @@ body#tinymce .icon-plone-contentmenu-display-folder_tabular_view,
   background-position: -336px -169px;
 }
 /* line 227, ../scss/old/_sprites.scss */
+.mceTmpl .icon-list-view,
+.mceTmpl .icon-plone-contentmenu-display-folder_listing,
+.mceTmpl .icon-plone-contentmenu-display-listing_view,
+.mceTmpl .icon-folder-listing_view,
+.mceTmpl .icon-folder-folder_listing,
 body#tinymce .icon-list-view,
 body#tinymce .icon-plone-contentmenu-display-folder_listing,
 body#tinymce .icon-plone-contentmenu-display-listing_view,
@@ -4481,6 +4960,9 @@ body#tinymce .icon-folder-folder_listing,
   background-position: -360px -169px;
 }
 /* line 232, ../scss/old/_sprites.scss */
+.mceTmpl .icon-list-extended-view,
+.mceTmpl .icon-plone-contentmenu-display-folder_extended,
+.mceTmpl .icon-folder-folder_extended,
 body#tinymce .icon-list-extended-view,
 body#tinymce .icon-plone-contentmenu-display-folder_extended,
 body#tinymce .icon-folder-folder_extended,
@@ -4493,19 +4975,23 @@ body#tinymce .icon-folder-folder_extended,
   background-position: -384px -169px;
 }
 /* line 235, ../scss/old/_sprites.scss */
+.mceTmpl .icon-article-view,
 body#tinymce .icon-article-view,
 .mosaic-tile-content .icon-article-view,
 #content-core #parent-fieldname-text .icon-article-view {
   background-position: -408px -169px;
 }
 /* line 236, ../scss/old/_sprites.scss */
+.mceTmpl .icon-article-extended-view,
 body#tinymce .icon-article-extended-view,
 .mosaic-tile-content .icon-article-extended-view,
 #content-core #parent-fieldname-text .icon-article-extended-view {
   background-position: -432px -169px;
 }
 /* line 237, ../scss/old/_sprites.scss */
-body#tinymce .icon-cut, body#tinymce .icon-plone-contentmenu-actions-cut,
+.mceTmpl .icon-cut, .mceTmpl .icon-plone-contentmenu-actions-cut,
+body#tinymce .icon-cut,
+body#tinymce .icon-plone-contentmenu-actions-cut,
 .mosaic-tile-content .icon-cut,
 .mosaic-tile-content .icon-plone-contentmenu-actions-cut,
 #content-core #parent-fieldname-text .icon-cut,
@@ -4513,37 +4999,48 @@ body#tinymce .icon-cut, body#tinymce .icon-plone-contentmenu-actions-cut,
   background-position: -456px -169px;
 }
 /* line 239, ../scss/old/_sprites.scss */
+.mceTmpl .icon-upload,
 body#tinymce .icon-upload,
 .mosaic-tile-content .icon-upload,
 #content-core #parent-fieldname-text .icon-upload {
   background-position: 0      -192px;
 }
 /* line 240, ../scss/old/_sprites.scss */
+.mceTmpl .icon-rss,
 body#tinymce .icon-rss,
 .mosaic-tile-content .icon-rss,
 #content-core #parent-fieldname-text .icon-rss {
   background-position: -24px  -192px;
 }
 /* line 241, ../scss/old/_sprites.scss */
+.mceTmpl .icon-poll,
 body#tinymce .icon-poll,
 .mosaic-tile-content .icon-poll,
 #content-core #parent-fieldname-text .icon-poll {
   background-position: -48px  -192px;
 }
 /* line 242, ../scss/old/_sprites.scss */
+.mceTmpl .icon-collection,
 body#tinymce .icon-collection,
 .mosaic-tile-content .icon-collection,
 #content-core #parent-fieldname-text .icon-collection {
   background-position: -72px  -192px;
 }
 /* line 243, ../scss/old/_sprites.scss */
+.mceTmpl .icon-caching,
 body#tinymce .icon-caching,
 .mosaic-tile-content .icon-caching,
 #content-core #parent-fieldname-text .icon-caching {
   background-position: -96px  -192px;
 }
 /* line 244, ../scss/old/_sprites.scss */
-body#tinymce .icon-html, body#tinymce .icon-formcustomscriptadapter,
+.mceTmpl .icon-html, .mceTmpl .icon-formcustomscriptadapter,
+.mceTmpl body#tinymce .icon-formcustomscriptadapter,
+body#tinymce .mceTmpl .icon-formcustomscriptadapter,
+.mceTmpl #content-core #parent-fieldname-text .icon-formcustomscriptadapter,
+#content-core #parent-fieldname-text .mceTmpl .icon-formcustomscriptadapter,
+body#tinymce .icon-html,
+body#tinymce .icon-formcustomscriptadapter,
 body#tinymce #content-core #parent-fieldname-text .icon-formcustomscriptadapter,
 #content-core #parent-fieldname-text body#tinymce .icon-formcustomscriptadapter,
 .mosaic-tile-content .icon-html,
@@ -4557,25 +5054,30 @@ body#tinymce .mosaic-tile-content .icon-formcustomscriptadapter,
   background-position: -120px -192px;
 }
 /* line 245, ../scss/old/_sprites.scss */
+.mceTmpl .icon-language,
 body#tinymce .icon-language,
 .mosaic-tile-content .icon-language,
 #content-core #parent-fieldname-text .icon-language {
   background-position: -144px -192px;
 }
 /* line 246, ../scss/old/_sprites.scss */
+.mceTmpl .icon-site,
 body#tinymce .icon-site,
 .mosaic-tile-content .icon-site,
 #content-core #parent-fieldname-text .icon-site {
   background-position: -168px -192px;
 }
 /* line 247, ../scss/old/_sprites.scss */
+.mceTmpl .icon-edit-image,
 body#tinymce .icon-edit-image,
 .mosaic-tile-content .icon-edit-image,
 #content-core #parent-fieldname-text .icon-edit-image {
   background-position: -192px -192px;
 }
 /* line 248, ../scss/old/_sprites.scss */
-body#tinymce .icon-navigation, body#tinymce .icon-workflow-transition-policy,
+.mceTmpl .icon-navigation, .mceTmpl .icon-workflow-transition-policy,
+body#tinymce .icon-navigation,
+body#tinymce .icon-workflow-transition-policy,
 .mosaic-tile-content .icon-navigation,
 .mosaic-tile-content .icon-workflow-transition-policy,
 #content-core #parent-fieldname-text .icon-navigation,
@@ -4583,6 +5085,9 @@ body#tinymce .icon-navigation, body#tinymce .icon-workflow-transition-policy,
   background-position: -216px -192px;
 }
 /* line 249, ../scss/old/_sprites.scss */
+.mceTmpl .icon-content-view,
+.mceTmpl .icon-plone-contentmenu-display-full_view,
+.mceTmpl .icon-folder-full_view,
 body#tinymce .icon-content-view,
 body#tinymce .icon-plone-contentmenu-display-full_view,
 body#tinymce .icon-folder-full_view,
@@ -4595,6 +5100,8 @@ body#tinymce .icon-folder-full_view,
   background-position: -265px -24px;
 }
 /* line 252, ../scss/old/_sprites.scss */
+.mceTmpl .icon-plone-contentmenu-display-folder_index_view,
+.mceTmpl .icon-folder-folder_index_view,
 body#tinymce .icon-plone-contentmenu-display-folder_index_view,
 body#tinymce .icon-folder-folder_index_view,
 .mosaic-tile-content .icon-plone-contentmenu-display-folder_index_view,
@@ -4604,6 +5111,10 @@ body#tinymce .icon-folder-folder_index_view,
   background-position: -240px -192px;
 }
 /* line 254, ../scss/old/_sprites.scss */
+.mceTmpl .icon-plone-contentmenu-display-filtered_contents_search_complete_pretty_view,
+.mceTmpl .icon-folder-filtered_contents_search_complete_pretty_view,
+.mceTmpl .icon-plone-contentmenu-display-filtered_contents_search_pretty_view,
+.mceTmpl .icon-folder-filtered_contents_search_pretty_view,
 body#tinymce .icon-plone-contentmenu-display-filtered_contents_search_complete_pretty_view,
 body#tinymce .icon-folder-filtered_contents_search_complete_pretty_view,
 body#tinymce .icon-plone-contentmenu-display-filtered_contents_search_pretty_view,
@@ -4620,13 +5131,16 @@ body#tinymce .icon-folder-filtered_contents_search_pretty_view,
   transform: scaleX(-1);
 }
 /* line 260, ../scss/old/_sprites.scss */
+.mceTmpl .icon-genweb,
 body#tinymce .icon-genweb,
 .mosaic-tile-content .icon-genweb,
 #content-core #parent-fieldname-text .icon-genweb {
   background-position: -264px -192px;
 }
 /* line 261, ../scss/old/_sprites.scss */
-body#tinymce .icon-captcha, body#tinymce .icon-formcaptchafield,
+.mceTmpl .icon-captcha, .mceTmpl .icon-formcaptchafield,
+body#tinymce .icon-captcha,
+body#tinymce .icon-formcaptchafield,
 .mosaic-tile-content .icon-captcha,
 .mosaic-tile-content .icon-formcaptchafield,
 #content-core #parent-fieldname-text .icon-captcha,
@@ -4634,100 +5148,116 @@ body#tinymce .icon-captcha, body#tinymce .icon-formcaptchafield,
   background-position: -288px -192px;
 }
 /* line 262, ../scss/old/_sprites.scss */
+.mceTmpl .icon-users,
 body#tinymce .icon-users,
 .mosaic-tile-content .icon-users,
 #content-core #parent-fieldname-text .icon-users {
   background-position: -312px -192px;
 }
 /* line 263, ../scss/old/_sprites.scss */
+.mceTmpl .icon-user-news,
 body#tinymce .icon-user-news,
 .mosaic-tile-content .icon-user-news,
 #content-core #parent-fieldname-text .icon-user-news {
   background-position: -336px -192px;
 }
 /* line 264, ../scss/old/_sprites.scss */
+.mceTmpl .icon-doc,
 body#tinymce .icon-doc,
 .mosaic-tile-content .icon-doc,
 #content-core #parent-fieldname-text .icon-doc {
   background-position: -360px -192px;
 }
 /* line 265, ../scss/old/_sprites.scss */
+.mceTmpl .icon-xls,
 body#tinymce .icon-xls,
 .mosaic-tile-content .icon-xls,
 #content-core #parent-fieldname-text .icon-xls {
   background-position: -384px -192px;
 }
 /* line 266, ../scss/old/_sprites.scss */
+.mceTmpl .icon-ppt,
 body#tinymce .icon-ppt,
 .mosaic-tile-content .icon-ppt,
 #content-core #parent-fieldname-text .icon-ppt {
   background-position: -408px -192px;
 }
 /* line 267, ../scss/old/_sprites.scss */
+.mceTmpl .icon-pdf,
 body#tinymce .icon-pdf,
 .mosaic-tile-content .icon-pdf,
 #content-core #parent-fieldname-text .icon-pdf {
   background-position: -432px -192px;
 }
 /* line 268, ../scss/old/_sprites.scss */
+.mceTmpl .icon-translate,
 body#tinymce .icon-translate,
 .mosaic-tile-content .icon-translate,
 #content-core #parent-fieldname-text .icon-translate {
   background-position: -456px -192px;
 }
 /* line 272, ../scss/old/_sprites.scss */
+.mceTmpl .large-icon,
 body#tinymce .large-icon,
 .mosaic-tile-content .large-icon,
 #content-core #parent-fieldname-text .large-icon {
-  background-image: url(/++theme++genweb6.theme/img/gh-150.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-150.png');
   width: 21px;
   height: 21px;
   margin-top: -1px;
   margin-right: -5px;
 }
 /* line 279, ../scss/old/_sprites.scss */
+.mceTmpl .large-icon.icon-news,
 body#tinymce .large-icon.icon-news,
 .mosaic-tile-content .large-icon.icon-news,
 #content-core #parent-fieldname-text .large-icon.icon-news {
   background-position: -37px  -252px;
 }
 /* line 280, ../scss/old/_sprites.scss */
+.mceTmpl .large-icon.icon-link,
 body#tinymce .large-icon.icon-link,
 .mosaic-tile-content .large-icon.icon-link,
 #content-core #parent-fieldname-text .large-icon.icon-link {
   background-position: -108px -252px;
 }
 /* line 281, ../scss/old/_sprites.scss */
+.mceTmpl .large-icon.icon-upc,
 body#tinymce .large-icon.icon-upc,
 .mosaic-tile-content .large-icon.icon-upc,
 #content-core #parent-fieldname-text .large-icon.icon-upc {
   background-position: 0      -252px;
 }
 /* line 282, ../scss/old/_sprites.scss */
+.mceTmpl .large-icon.icon-poll,
 body#tinymce .large-icon.icon-poll,
 .mosaic-tile-content .large-icon.icon-poll,
 #content-core #parent-fieldname-text .large-icon.icon-poll {
   background-position: -73px  -288px;
 }
 /* line 283, ../scss/old/_sprites.scss */
+.mceTmpl .large-icon.icon-calendar,
 body#tinymce .large-icon.icon-calendar,
 .mosaic-tile-content .large-icon.icon-calendar,
 #content-core #parent-fieldname-text .large-icon.icon-calendar {
   background-position: -287px -180px;
 }
 /* line 284, ../scss/old/_sprites.scss */
+.mceTmpl .large-icon.icon-user-news,
 body#tinymce .large-icon.icon-user-news,
 .mosaic-tile-content .large-icon.icon-user-news,
 #content-core #parent-fieldname-text .large-icon.icon-user-news {
   background-position: -504px -252px;
 }
 /* line 288, ../scss/old/_sprites.scss */
+.mceTmpl .large-icon.icon-white,
 body#tinymce .large-icon.icon-white,
 .mosaic-tile-content .large-icon.icon-white,
 #content-core #parent-fieldname-text .large-icon.icon-white {
-  background-image: url(/++theme++genweb6.theme/img/gh-150-w.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-150-w.png');
 }
 /* line 4, ../scss/old/_styles.scss */
+.mceTmpl .label,
 body#tinymce .label,
 .mosaic-tile-content .label,
 #content-core #parent-fieldname-text .label {
@@ -4750,12 +5280,14 @@ body#tinymce .label,
   color: var(--bs-badge-color);
 }
 /* line 23, ../scss/old/_styles.scss */
+.mceTmpl .label.label-important,
 body#tinymce .label.label-important,
 .mosaic-tile-content .label.label-important,
 #content-core #parent-fieldname-text .label.label-important {
   background-color: var(--bs-danger);
 }
 /* line 27, ../scss/old/_styles.scss */
+.mceTmpl .label.label-info,
 body#tinymce .label.label-info,
 .mosaic-tile-content .label.label-info,
 #content-core #parent-fieldname-text .label.label-info {
@@ -4763,24 +5295,28 @@ body#tinymce .label.label-info,
   background-color: var(--bs-info);
 }
 /* line 32, ../scss/old/_styles.scss */
+.mceTmpl .label.label-inverse,
 body#tinymce .label.label-inverse,
 .mosaic-tile-content .label.label-inverse,
 #content-core #parent-fieldname-text .label.label-inverse {
   background-color: var(--bs-dark);
 }
 /* line 36, ../scss/old/_styles.scss */
+.mceTmpl .label.label-primary,
 body#tinymce .label.label-primary,
 .mosaic-tile-content .label.label-primary,
 #content-core #parent-fieldname-text .label.label-primary {
   background-color: var(--bs-primary);
 }
 /* line 40, ../scss/old/_styles.scss */
+.mceTmpl .label.label-success,
 body#tinymce .label.label-success,
 .mosaic-tile-content .label.label-success,
 #content-core #parent-fieldname-text .label.label-success {
   background-color: var(--bs-success);
 }
 /* line 44, ../scss/old/_styles.scss */
+.mceTmpl .label.label-warning,
 body#tinymce .label.label-warning,
 .mosaic-tile-content .label.label-warning,
 #content-core #parent-fieldname-text .label.label-warning {
@@ -4788,60 +5324,70 @@ body#tinymce .label.label-warning,
   background-color: var(--bs-warning);
 }
 /* line 53, ../scss/old/_styles.scss */
+.mceTmpl .purple-background,
 body#tinymce .purple-background,
 .mosaic-tile-content .purple-background,
 #content-core #parent-fieldname-text .purple-background {
   background-color: #e7dbee;
 }
 /* line 57, ../scss/old/_styles.scss */
+.mceTmpl .purpleDark-background,
 body#tinymce .purpleDark-background,
 .mosaic-tile-content .purpleDark-background,
 #content-core #parent-fieldname-text .purpleDark-background {
   background-color: #cfb9dd;
 }
 /* line 61, ../scss/old/_styles.scss */
+.mceTmpl .pink-background,
 body#tinymce .pink-background,
 .mosaic-tile-content .pink-background,
 #content-core #parent-fieldname-text .pink-background {
   background-color: #f4bfe1;
 }
 /* line 65, ../scss/old/_styles.scss */
+.mceTmpl .orange-background,
 body#tinymce .orange-background,
 .mosaic-tile-content .orange-background,
 #content-core #parent-fieldname-text .orange-background {
   background-color: #fdd49a;
 }
 /* line 69, ../scss/old/_styles.scss */
+.mceTmpl .blueDark-background,
 body#tinymce .blueDark-background,
 .mosaic-tile-content .blueDark-background,
 #content-core #parent-fieldname-text .blueDark-background {
   background-color: #9acbff;
 }
 /* line 73, ../scss/old/_styles.scss */
+.mceTmpl .green-background,
 body#tinymce .green-background,
 .mosaic-tile-content .green-background,
 #content-core #parent-fieldname-text .green-background {
   background-color: #bce673;
 }
 /* line 77, ../scss/old/_styles.scss */
+.mceTmpl .gray-background,
 body#tinymce .gray-background,
 .mosaic-tile-content .gray-background,
 #content-core #parent-fieldname-text .gray-background {
   background-color: var(--bs-gray-500);
 }
 /* line 81, ../scss/old/_styles.scss */
+.mceTmpl .grayLight-background,
 body#tinymce .grayLight-background,
 .mosaic-tile-content .grayLight-background,
 #content-core #parent-fieldname-text .grayLight-background {
   background-color: var(--bs-gray-400);
 }
 /* line 85, ../scss/old/_styles.scss */
+.mceTmpl .grayLighter-background,
 body#tinymce .grayLighter-background,
 .mosaic-tile-content .grayLighter-background,
 #content-core #parent-fieldname-text .grayLighter-background {
   background-color: var(--bs-gray-300);
 }
 /* line 89, ../scss/old/_styles.scss */
+.mceTmpl .success,
 body#tinymce .success,
 .mosaic-tile-content .success,
 #content-core #parent-fieldname-text .success {
@@ -4849,6 +5395,7 @@ body#tinymce .success,
   color: #333;
 }
 /* line 94, ../scss/old/_styles.scss */
+.mceTmpl .error,
 body#tinymce .error,
 .mosaic-tile-content .error,
 #content-core #parent-fieldname-text .error {
@@ -4856,6 +5403,7 @@ body#tinymce .error,
   color: #333;
 }
 /* line 99, ../scss/old/_styles.scss */
+.mceTmpl .info,
 body#tinymce .info,
 .mosaic-tile-content .info,
 #content-core #parent-fieldname-text .info {
@@ -4863,6 +5411,7 @@ body#tinymce .info,
   color: #333;
 }
 /* line 104, ../scss/old/_styles.scss */
+.mceTmpl .warning,
 body#tinymce .warning,
 .mosaic-tile-content .warning,
 #content-core #parent-fieldname-text .warning {
@@ -4870,6 +5419,8 @@ body#tinymce .warning,
   color: #333;
 }
 /* line 112, ../scss/old/_styles.scss */
+.mceTmpl ins,
+.mceTmpl .ins,
 body#tinymce ins,
 body#tinymce .ins,
 .mosaic-tile-content ins,
@@ -4880,6 +5431,8 @@ body#tinymce .ins,
   text-decoration: underline;
 }
 /* line 118, ../scss/old/_styles.scss */
+.mceTmpl del,
+.mceTmpl .del,
 body#tinymce del,
 body#tinymce .del,
 .mosaic-tile-content del,
@@ -4890,6 +5443,7 @@ body#tinymce .del,
   text-decoration: line-through;
 }
 /* line 124, ../scss/old/_styles.scss */
+.mceTmpl .liniaBaix,
 body#tinymce .liniaBaix,
 .mosaic-tile-content .liniaBaix,
 #content-core #parent-fieldname-text .liniaBaix {
@@ -4898,6 +5452,7 @@ body#tinymce .liniaBaix,
   padding: 0 0 12px 0;
 }
 /* line 130, ../scss/old/_styles.scss */
+.mceTmpl .liniaDalt,
 body#tinymce .liniaDalt,
 .mosaic-tile-content .liniaDalt,
 #content-core #parent-fieldname-text .liniaDalt {
@@ -4906,54 +5461,63 @@ body#tinymce .liniaDalt,
   padding: 12px 0 0 0;
 }
 /* line 136, ../scss/old/_styles.scss */
+.mceTmpl .m,
 body#tinymce .m,
 .mosaic-tile-content .m,
 #content-core #parent-fieldname-text .m {
   font-size: var(--bs-body-font-size) !important;
 }
 /* line 140, ../scss/old/_styles.scss */
+.mceTmpl .l,
 body#tinymce .l,
 .mosaic-tile-content .l,
 #content-core #parent-fieldname-text .l {
   font-size: var(--gw-font-size-l) !important;
 }
 /* line 144, ../scss/old/_styles.scss */
+.mceTmpl .s,
 body#tinymce .s,
 .mosaic-tile-content .s,
 #content-core #parent-fieldname-text .s {
   font-size: var(--gw-font-size-s) !important;
 }
 /* line 148, ../scss/old/_styles.scss */
+.mceTmpl .xl,
 body#tinymce .xl,
 .mosaic-tile-content .xl,
 #content-core #parent-fieldname-text .xl {
   font-size: var(--gw-font-size-xl) !important;
 }
 /* line 152, ../scss/old/_styles.scss */
+.mceTmpl .xs,
 body#tinymce .xs,
 .mosaic-tile-content .xs,
 #content-core #parent-fieldname-text .xs {
   font-size: var(--gw-font-size-xs) !important;
 }
 /* line 156, ../scss/old/_styles.scss */
+.mceTmpl .xxl,
 body#tinymce .xxl,
 .mosaic-tile-content .xxl,
 #content-core #parent-fieldname-text .xxl {
   font-size: var(--gw-font-size-xxl) !important;
 }
 /* line 160, ../scss/old/_styles.scss */
+.mceTmpl .xxs,
 body#tinymce .xxs,
 .mosaic-tile-content .xxs,
 #content-core #parent-fieldname-text .xxs {
   font-size: var(--gw-font-size-xxs) !important;
 }
 /* line 164, ../scss/old/_styles.scss */
+.mceTmpl .xxxl,
 body#tinymce .xxxl,
 .mosaic-tile-content .xxxl,
 #content-core #parent-fieldname-text .xxxl {
   font-size: var(--gw-font-size-xxxl) !important;
 }
 /* line 168, ../scss/old/_styles.scss */
+.mceTmpl .xxxs,
 body#tinymce .xxxs,
 .mosaic-tile-content .xxxs,
 #content-core #parent-fieldname-text .xxxs {
@@ -4961,6 +5525,7 @@ body#tinymce .xxxs,
 }
 @media print {
   /* line 174, ../scss/old/_styles.scss */
+  .mceTmpl .pageBreak,
   body#tinymce .pageBreak,
   .mosaic-tile-content .pageBreak,
   #content-core #parent-fieldname-text .pageBreak {
@@ -4968,6 +5533,7 @@ body#tinymce .xxxs,
   }
 }
 /* line 179, ../scss/old/_styles.scss */
+.mceTmpl code,
 body#tinymce code,
 .mosaic-tile-content code,
 #content-core #parent-fieldname-text code {
@@ -4978,6 +5544,16 @@ body#tinymce code,
   border: 1px solid #8d3300;
 }
 /* line 200, ../scss/old/_styles.scss */
+.mceTmpl .doc:after,
+.mceTmpl .pdf:after,
+.mceTmpl .ppt:after,
+.mceTmpl .txt:after,
+.mceTmpl .xls:after,
+.mceTmpl .xlsdf:after,
+.mceTmpl .img:after,
+.mceTmpl .vid:after,
+.mceTmpl .https:after,
+.mceTmpl .down:after,
 body#tinymce .doc:after,
 body#tinymce .pdf:after,
 body#tinymce .ppt:after,
@@ -5017,18 +5593,22 @@ body#tinymce .down:after,
   position: relative;
 }
 /* line 211, ../scss/old/_styles.scss */
+.mceTmpl .pdf:after,
 body#tinymce .pdf:after,
 .mosaic-tile-content .pdf:after,
 #content-core #parent-fieldname-text .pdf:after {
   background-position: -432px -194px;
 }
 /* line 215, ../scss/old/_styles.scss */
+.mceTmpl .ppt:after,
 body#tinymce .ppt:after,
 .mosaic-tile-content .ppt:after,
 #content-core #parent-fieldname-text .ppt:after {
   background-position: -407px -193px;
 }
 /* line 219, ../scss/old/_styles.scss */
+.mceTmpl .xlsdf:after,
+.mceTmpl .xls:after,
 body#tinymce .xlsdf:after,
 body#tinymce .xls:after,
 .mosaic-tile-content .xlsdf:after,
@@ -5038,42 +5618,49 @@ body#tinymce .xls:after,
   background-position: -384px -193px;
 }
 /* line 224, ../scss/old/_styles.scss */
+.mceTmpl .doc:after,
 body#tinymce .doc:after,
 .mosaic-tile-content .doc:after,
 #content-core #parent-fieldname-text .doc:after {
   background-position: -360px -193px;
 }
 /* line 228, ../scss/old/_styles.scss */
+.mceTmpl .down:after,
 body#tinymce .down:after,
 .mosaic-tile-content .down:after,
 #content-core #parent-fieldname-text .down:after {
   background-position: -95px -26px;
 }
 /* line 232, ../scss/old/_styles.scss */
+.mceTmpl .https:after,
 body#tinymce .https:after,
 .mosaic-tile-content .https:after,
 #content-core #parent-fieldname-text .https:after {
   background-position: -288px -26px;
 }
 /* line 236, ../scss/old/_styles.scss */
+.mceTmpl .vid:after,
 body#tinymce .vid:after,
 .mosaic-tile-content .vid:after,
 #content-core #parent-fieldname-text .vid:after {
   background-position: -192px -2px;
 }
 /* line 240, ../scss/old/_styles.scss */
+.mceTmpl .img:after,
 body#tinymce .img:after,
 .mosaic-tile-content .img:after,
 #content-core #parent-fieldname-text .img:after {
   background-position: -456px -50px;
 }
 /* line 244, ../scss/old/_styles.scss */
+.mceTmpl .txt:after,
 body#tinymce .txt:after,
 .mosaic-tile-content .txt:after,
 #content-core #parent-fieldname-text .txt:after {
   background-position: -24px -26px;
 }
 /* line 251, ../scss/old/_styles.scss */
+.mceTmpl .img-rounded,
 body#tinymce .img-rounded,
 .mosaic-tile-content .img-rounded,
 #content-core #parent-fieldname-text .img-rounded {
@@ -5082,6 +5669,7 @@ body#tinymce .img-rounded,
   border-radius: 6px;
 }
 /* line 257, ../scss/old/_styles.scss */
+.mceTmpl .img-circle,
 body#tinymce .img-circle,
 .mosaic-tile-content .img-circle,
 #content-core #parent-fieldname-text .img-circle {
@@ -5090,6 +5678,7 @@ body#tinymce .img-circle,
   border-radius: 500px;
 }
 /* line 263, ../scss/old/_styles.scss */
+.mceTmpl .img-shadowed,
 body#tinymce .img-shadowed,
 .mosaic-tile-content .img-shadowed,
 #content-core #parent-fieldname-text .img-shadowed {
@@ -5098,6 +5687,8 @@ body#tinymce .img-shadowed,
   box-shadow: 0 1px 3px var(--bs-gray-600);
 }
 /* line 272, ../scss/old/_styles.scss */
+.mceTmpl .userrole-authenticated .amaga-autenticat,
+.mceTmpl .userrole-anonymous .amaga-no-autenticat,
 body#tinymce .userrole-authenticated .amaga-autenticat,
 body#tinymce .userrole-anonymous .amaga-no-autenticat,
 .mosaic-tile-content .userrole-authenticated .amaga-autenticat,
@@ -5107,6 +5698,8 @@ body#tinymce .userrole-anonymous .amaga-no-autenticat,
   display: none;
 }
 /* line 280, ../scss/old/_styles.scss */
+.mceTmpl .white-text,
+.mceTmpl .white_text,
 body#tinymce .white-text,
 body#tinymce .white_text,
 .mosaic-tile-content .white-text,
@@ -5116,6 +5709,7 @@ body#tinymce .white_text,
   color: #FFF;
 }
 /* line 290, ../scss/old/_styles.scss */
+.mceTmpl a.btn:not(.btn-primary):not(.btn-secondary):not(.btn-success):not(.btn-danger):not(.btn-warning):not(.btn-info):not(.btn-light):not(.btn-dark):not(.btn-link):not(.btn-outline-primary):not(.btn-outline-secondary):not(.btn-outline-success):not(.btn-outline-danger):not(.btn-outline-warning):not(.btn-outline-info):not(.btn-outline-light):not(.btn-outline-dark),
 body#tinymce a.btn:not(.btn-primary):not(.btn-secondary):not(.btn-success):not(.btn-danger):not(.btn-warning):not(.btn-info):not(.btn-light):not(.btn-dark):not(.btn-link):not(.btn-outline-primary):not(.btn-outline-secondary):not(.btn-outline-success):not(.btn-outline-danger):not(.btn-outline-warning):not(.btn-outline-info):not(.btn-outline-light):not(.btn-outline-dark),
 .mosaic-tile-content a.btn:not(.btn-primary):not(.btn-secondary):not(.btn-success):not(.btn-danger):not(.btn-warning):not(.btn-info):not(.btn-light):not(.btn-dark):not(.btn-link):not(.btn-outline-primary):not(.btn-outline-secondary):not(.btn-outline-success):not(.btn-outline-danger):not(.btn-outline-warning):not(.btn-outline-info):not(.btn-outline-light):not(.btn-outline-dark),
 #content-core #parent-fieldname-text a.btn:not(.btn-primary):not(.btn-secondary):not(.btn-success):not(.btn-danger):not(.btn-warning):not(.btn-info):not(.btn-light):not(.btn-dark):not(.btn-link):not(.btn-outline-primary):not(.btn-outline-secondary):not(.btn-outline-success):not(.btn-outline-danger):not(.btn-outline-warning):not(.btn-outline-info):not(.btn-outline-light):not(.btn-outline-dark) {
@@ -5123,24 +5717,28 @@ body#tinymce a.btn:not(.btn-primary):not(.btn-secondary):not(.btn-success):not(.
   border: 1px solid var(--bs-gray-300);
 }
 /* line 295, ../scss/old/_styles.scss */
+.mceTmpl a.btn.btn-large,
 body#tinymce a.btn.btn-large,
 .mosaic-tile-content a.btn.btn-large,
 #content-core #parent-fieldname-text a.btn.btn-large {
   font-size: var(--gw-font-size-xl);
 }
 /* line 299, ../scss/old/_styles.scss */
+.mceTmpl a.btn.btn-small,
 body#tinymce a.btn.btn-small,
 .mosaic-tile-content a.btn.btn-small,
 #content-core #parent-fieldname-text a.btn.btn-small {
   font-size: var(--gw-font-size-xs);
 }
 /* line 303, ../scss/old/_styles.scss */
+.mceTmpl a.btn.btn-mini,
 body#tinymce a.btn.btn-mini,
 .mosaic-tile-content a.btn.btn-mini,
 #content-core #parent-fieldname-text a.btn.btn-mini {
   font-size: var(--gw-font-size-xxxs);
 }
 /* line 307, ../scss/old/_styles.scss */
+.mceTmpl a.btn.btn-inverse,
 body#tinymce a.btn.btn-inverse,
 .mosaic-tile-content a.btn.btn-inverse,
 #content-core #parent-fieldname-text a.btn.btn-inverse {
@@ -5149,7 +5747,9 @@ body#tinymce a.btn.btn-inverse,
   border-color: var(--bs-gray-900);
 }
 /* line 312, ../scss/old/_styles.scss */
-body#tinymce a.btn.btn-inverse:active, body#tinymce a.btn.btn-inverse:hover,
+.mceTmpl a.btn.btn-inverse:active, .mceTmpl a.btn.btn-inverse:hover,
+body#tinymce a.btn.btn-inverse:active,
+body#tinymce a.btn.btn-inverse:hover,
 .mosaic-tile-content a.btn.btn-inverse:active,
 .mosaic-tile-content a.btn.btn-inverse:hover,
 #content-core #parent-fieldname-text a.btn.btn-inverse:active,
@@ -5158,12 +5758,14 @@ body#tinymce a.btn.btn-inverse:active, body#tinymce a.btn.btn-inverse:hover,
   border-color: var(--bs-gray-800);
 }
 /* line 319, ../scss/old/_styles.scss */
+.mceTmpl a.btn.btn-block + .btn-block,
 body#tinymce a.btn.btn-block + .btn-block,
 .mosaic-tile-content a.btn.btn-block + .btn-block,
 #content-core #parent-fieldname-text a.btn.btn-block + .btn-block {
   margin-top: 5px;
 }
 /* line 1, ../scss/old/_tables.scss */
+.mceTmpl table,
 body#tinymce table,
 .mosaic-tile-content table,
 #content-core #parent-fieldname-text table {
@@ -5171,12 +5773,16 @@ body#tinymce table,
   width: 100%;
 }
 /* line 5, ../scss/old/_tables.scss */
+.mceTmpl table thead,
 body#tinymce table thead,
 .mosaic-tile-content table thead,
 #content-core #parent-fieldname-text table thead {
   border-bottom: 5px solid var(--bs-primary);
 }
 /* line 9, ../scss/old/_tables.scss */
+.mceTmpl table thead,
+.mceTmpl table tfoot,
+.mceTmpl table th,
 body#tinymce table thead,
 body#tinymce table tfoot,
 body#tinymce table th,
@@ -5189,18 +5795,22 @@ body#tinymce table th,
   background-color: var(--bs-table-striped-bg);
 }
 /* line 15, ../scss/old/_tables.scss */
+.mceTmpl table tr.cap,
 body#tinymce table tr.cap,
 .mosaic-tile-content table tr.cap,
 #content-core #parent-fieldname-text table tr.cap {
   border-top: 5px solid var(--bs-primary);
 }
 /* line 21, ../scss/old/_tables.scss */
+.mceTmpl table:not(.table) th,
 body#tinymce table:not(.table) th,
 .mosaic-tile-content table:not(.table) th,
 #content-core #parent-fieldname-text table:not(.table) th {
   text-align: center;
 }
 /* line 28, ../scss/old/_tables.scss */
+.mceTmpl table.table.table-condensed th,
+.mceTmpl table.table.table-condensed td,
 body#tinymce table.table.table-condensed th,
 body#tinymce table.table.table-condensed td,
 .mosaic-tile-content table.table.table-condensed th,
@@ -5210,36 +5820,51 @@ body#tinymce table.table.table-condensed td,
   padding: 0.2rem 0.5rem;
 }
 /* line 36, ../scss/old/_tables.scss */
+.mceTmpl table.table.table-striped th,
 body#tinymce table.table.table-striped th,
 .mosaic-tile-content table.table.table-striped th,
 #content-core #parent-fieldname-text table.table.table-striped th {
   background-color: transparent;
 }
 /* line 43, ../scss/old/_tables.scss */
+.mceTmpl table.table.table-no-heading-border thead,
 body#tinymce table.table.table-no-heading-border thead,
 .mosaic-tile-content table.table.table-no-heading-border thead,
 #content-core #parent-fieldname-text table.table.table-no-heading-border thead {
   border-bottom: 1px solid var(--bs-gray-300);
 }
 /* line 51, ../scss/old/_tables.scss */
+.mceTmpl table.table.table-no-heading-border tbody tr th:first-child,
 body#tinymce table.table.table-no-heading-border tbody tr th:first-child,
 .mosaic-tile-content table.table.table-no-heading-border tbody tr th:first-child,
 #content-core #parent-fieldname-text table.table.table-no-heading-border tbody tr th:first-child {
   border-right: 5px solid var(--bs-primary);
 }
 /* line 60, ../scss/old/_tables.scss */
+.mceTmpl table.table.table-notebook thead,
 body#tinymce table.table.table-notebook thead,
 .mosaic-tile-content table.table.table-notebook thead,
 #content-core #parent-fieldname-text table.table.table-notebook thead {
   border-bottom: 4px double var(--bs-orange);
 }
 /* line 64, ../scss/old/_tables.scss */
+.mceTmpl table.table.table-notebook tfoot,
 body#tinymce table.table.table-notebook tfoot,
 .mosaic-tile-content table.table.table-notebook tfoot,
 #content-core #parent-fieldname-text table.table.table-notebook tfoot {
   border-top: 4px double var(--bs-orange);
 }
 /* line 1, ../scss/old/_templates.scss */
+.mceTmpl .lead-small,
+.mceTmpl .lead-large,
+.mceTmpl .lead,
+.mceTmpl .sheet,
+.mceTmpl .box,
+.mceTmpl .boxbg-gray,
+.mceTmpl .boxbg-green,
+.mceTmpl .well,
+.mceTmpl .destacatQuadres,
+.mceTmpl .destacatBandejat,
 body#tinymce .lead-small,
 body#tinymce .lead-large,
 body#tinymce .lead,
@@ -5275,6 +5900,16 @@ body#tinymce .destacatBandejat,
   min-height: 20px;
 }
 /* line 15, ../scss/old/_templates.scss */
+.mceTmpl .lead-small *:last-child,
+.mceTmpl .lead-large *:last-child,
+.mceTmpl .lead *:last-child,
+.mceTmpl .sheet *:last-child,
+.mceTmpl .box *:last-child,
+.mceTmpl .boxbg-gray *:last-child,
+.mceTmpl .boxbg-green *:last-child,
+.mceTmpl .well *:last-child,
+.mceTmpl .destacatQuadres *:last-child,
+.mceTmpl .destacatBandejat *:last-child,
 body#tinymce .lead-small *:last-child,
 body#tinymce .lead-large *:last-child,
 body#tinymce .lead *:last-child,
@@ -5308,6 +5943,16 @@ body#tinymce .destacatBandejat *:last-child,
   margin-bottom: 0;
 }
 /* line 19, ../scss/old/_templates.scss */
+.mceTmpl .lead-small .align-center,
+.mceTmpl .lead-large .align-center,
+.mceTmpl .lead .align-center,
+.mceTmpl .sheet .align-center,
+.mceTmpl .box .align-center,
+.mceTmpl .boxbg-gray .align-center,
+.mceTmpl .boxbg-green .align-center,
+.mceTmpl .well .align-center,
+.mceTmpl .destacatQuadres .align-center,
+.mceTmpl .destacatBandejat .align-center,
 body#tinymce .lead-small .align-center,
 body#tinymce .lead-large .align-center,
 body#tinymce .lead .align-center,
@@ -5341,6 +5986,26 @@ body#tinymce .destacatBandejat .align-center,
   text-align: center;
 }
 /* line 27, ../scss/old/_templates.scss */
+.mceTmpl .lead-small .fa-quote-right::before,
+.mceTmpl .lead-small .fa-quote-left::before,
+.mceTmpl .lead-large .fa-quote-right::before,
+.mceTmpl .lead-large .fa-quote-left::before,
+.mceTmpl .lead .fa-quote-right::before,
+.mceTmpl .lead .fa-quote-left::before,
+.mceTmpl .sheet .fa-quote-right::before,
+.mceTmpl .sheet .fa-quote-left::before,
+.mceTmpl .box .fa-quote-right::before,
+.mceTmpl .box .fa-quote-left::before,
+.mceTmpl .boxbg-gray .fa-quote-right::before,
+.mceTmpl .boxbg-gray .fa-quote-left::before,
+.mceTmpl .boxbg-green .fa-quote-right::before,
+.mceTmpl .boxbg-green .fa-quote-left::before,
+.mceTmpl .well .fa-quote-right::before,
+.mceTmpl .well .fa-quote-left::before,
+.mceTmpl .destacatQuadres .fa-quote-right::before,
+.mceTmpl .destacatQuadres .fa-quote-left::before,
+.mceTmpl .destacatBandejat .fa-quote-right::before,
+.mceTmpl .destacatBandejat .fa-quote-left::before,
 body#tinymce .lead-small .fa-quote-right::before,
 body#tinymce .lead-small .fa-quote-left::before,
 body#tinymce .lead-large .fa-quote-right::before,
@@ -5404,6 +6069,8 @@ body#tinymce .destacatBandejat .fa-quote-left::before,
   font-size: 1.5rem;
 }
 /* line 36, ../scss/old/_templates.scss */
+.mceTmpl .lead-large,
+.mceTmpl .destacatBandejat,
 body#tinymce .lead-large,
 body#tinymce .destacatBandejat,
 .mosaic-tile-content .lead-large,
@@ -5414,6 +6081,8 @@ body#tinymce .destacatBandejat,
   background-color: var(--bs-gray-100);
 }
 /* line 41, ../scss/old/_templates.scss */
+.mceTmpl .lead-large:after,
+.mceTmpl .destacatBandejat:after,
 body#tinymce .lead-large:after,
 body#tinymce .destacatBandejat:after,
 .mosaic-tile-content .lead-large:after,
@@ -5427,6 +6096,8 @@ body#tinymce .destacatBandejat:after,
   content: ".";
 }
 /* line 53, ../scss/old/_templates.scss */
+.mceTmpl .lead-small,
+.mceTmpl .destacatQuadres,
 body#tinymce .lead-small,
 body#tinymce .destacatQuadres,
 .mosaic-tile-content .lead-small,
@@ -5436,6 +6107,8 @@ body#tinymce .destacatQuadres,
   border: 5px solid var(--bs-primary);
 }
 /* line 61, ../scss/old/_templates.scss */
+.mceTmpl .lead,
+.mceTmpl .well:not(.well-gradient),
 body#tinymce .lead,
 body#tinymce .well:not(.well-gradient),
 .mosaic-tile-content .lead,
@@ -5445,42 +6118,49 @@ body#tinymce .well:not(.well-gradient),
   background-color: var(--bs-gray-200);
 }
 /* line 69, ../scss/old/_templates.scss */
+.mceTmpl .well.well-gradient,
 body#tinymce .well.well-gradient,
 .mosaic-tile-content .well.well-gradient,
 #content-core #parent-fieldname-text .well.well-gradient {
   background-image: linear-gradient(to bottom, var(--bs-gray-200), var(--bs-white));
 }
 /* line 76, ../scss/old/_templates.scss */
+.mceTmpl .box,
 body#tinymce .box,
 .mosaic-tile-content .box,
 #content-core #parent-fieldname-text .box {
   border: 1px solid var(--bs-gray-300);
 }
 /* line 79, ../scss/old/_templates.scss */
+.mceTmpl .box.pull-right,
 body#tinymce .box.pull-right,
 .mosaic-tile-content .box.pull-right,
 #content-core #parent-fieldname-text .box.pull-right {
   float: right;
 }
 /* line 82, ../scss/old/_templates.scss */
+.mceTmpl .box.pull-right img,
 body#tinymce .box.pull-right img,
 .mosaic-tile-content .box.pull-right img,
 #content-core #parent-fieldname-text .box.pull-right img {
   margin-bottom: 1rem;
 }
 /* line 90, ../scss/old/_templates.scss */
+.mceTmpl .box.box-gradient,
 body#tinymce .box.box-gradient,
 .mosaic-tile-content .box.box-gradient,
 #content-core #parent-fieldname-text .box.box-gradient {
   background-image: linear-gradient(to bottom, var(--bs-white), var(--bs-gray-200));
 }
 /* line 97, ../scss/old/_templates.scss */
+.mceTmpl .box.box-example,
 body#tinymce .box.box-example,
 .mosaic-tile-content .box.box-example,
 #content-core #parent-fieldname-text .box.box-example {
   position: relative;
 }
 /* line 100, ../scss/old/_templates.scss */
+.mceTmpl .box.box-example:after,
 body#tinymce .box.box-example:after,
 .mosaic-tile-content .box.box-example:after,
 #content-core #parent-fieldname-text .box.box-example:after {
@@ -5498,18 +6178,21 @@ body#tinymce .box.box-example:after,
   position: absolute;
 }
 /* line 118, ../scss/old/_templates.scss */
+.mceTmpl body.site-es .box.box-example:after,
 body#tinymce body.site-es .box.box-example:after,
 .mosaic-tile-content body.site-es .box.box-example:after,
 #content-core #parent-fieldname-text body.site-es .box.box-example:after {
   content: "ejemplo";
 }
 /* line 125, ../scss/old/_templates.scss */
+.mceTmpl body.site-en .box.box-example:after,
 body#tinymce body.site-en .box.box-example:after,
 .mosaic-tile-content body.site-en .box.box-example:after,
 #content-core #parent-fieldname-text body.site-en .box.box-example:after {
   content: "example";
 }
 /* line 132, ../scss/old/_templates.scss */
+.mceTmpl .sheet,
 body#tinymce .sheet,
 .mosaic-tile-content .sheet,
 #content-core #parent-fieldname-text .sheet {
@@ -5518,6 +6201,7 @@ body#tinymce .sheet,
   background-color: var(--bs-gray-100);
 }
 /* line 137, ../scss/old/_templates.scss */
+.mceTmpl .sheet:after,
 body#tinymce .sheet:after,
 .mosaic-tile-content .sheet:after,
 #content-core #parent-fieldname-text .sheet:after {
@@ -5528,7 +6212,11 @@ body#tinymce .sheet:after,
   content: ".";
 }
 /* line 149, ../scss/old/_templates.scss */
-body#tinymce .box .pull-right, body#tinymce .box.pull-right,
+.mceTmpl .box .pull-right, .mceTmpl .box.pull-right,
+.mceTmpl .sheet .pull-right,
+.mceTmpl .sheet.pull-right,
+body#tinymce .box .pull-right,
+body#tinymce .box.pull-right,
 body#tinymce .sheet .pull-right,
 body#tinymce .sheet.pull-right,
 .mosaic-tile-content .box .pull-right,
@@ -5543,7 +6231,11 @@ body#tinymce .sheet.pull-right,
   margin-left: 1rem;
 }
 /* line 154, ../scss/old/_templates.scss */
-body#tinymce .box .pull-right img, body#tinymce .box.pull-right img,
+.mceTmpl .box .pull-right img, .mceTmpl .box.pull-right img,
+.mceTmpl .sheet .pull-right img,
+.mceTmpl .sheet.pull-right img,
+body#tinymce .box .pull-right img,
+body#tinymce .box.pull-right img,
 body#tinymce .sheet .pull-right img,
 body#tinymce .sheet.pull-right img,
 .mosaic-tile-content .box .pull-right img,
@@ -5557,6 +6249,7 @@ body#tinymce .sheet.pull-right img,
   margin-bottom: 1rem;
 }
 /* line 163, ../scss/old/_templates.scss */
+.mceTmpl div.photoAlbumEntry,
 body#tinymce div.photoAlbumEntry,
 .mosaic-tile-content div.photoAlbumEntry,
 #content-core #parent-fieldname-text div.photoAlbumEntry {
@@ -5571,12 +6264,14 @@ body#tinymce div.photoAlbumEntry,
   margin: 0.5rem;
 }
 /* line 174, ../scss/old/_templates.scss */
+.mceTmpl div.photoAlbumEntry img,
 body#tinymce div.photoAlbumEntry img,
 .mosaic-tile-content div.photoAlbumEntry img,
 #content-core #parent-fieldname-text div.photoAlbumEntry img {
   margin-bottom: 0.5rem;
 }
 /* line 182, ../scss/old/_templates.scss */
+.mceTmpl img.image-left,
 body#tinymce img.image-left,
 .mosaic-tile-content img.image-left,
 #content-core #parent-fieldname-text img.image-left {
@@ -5584,6 +6279,7 @@ body#tinymce img.image-left,
   margin-right: 1rem;
 }
 /* line 190, ../scss/old/_templates.scss */
+.mceTmpl img.image-right,
 body#tinymce img.image-right,
 .mosaic-tile-content img.image-right,
 #content-core #parent-fieldname-text img.image-right {
@@ -5591,6 +6287,7 @@ body#tinymce img.image-right,
   margin-left: 1rem;
 }
 /* line 198, ../scss/old/_templates.scss */
+.mceTmpl #FCKTdiv1imatgedamunttext,
 body#tinymce #FCKTdiv1imatgedamunttext,
 .mosaic-tile-content #FCKTdiv1imatgedamunttext,
 #content-core #parent-fieldname-text #FCKTdiv1imatgedamunttext {
@@ -5598,6 +6295,7 @@ body#tinymce #FCKTdiv1imatgedamunttext,
   position: relative;
 }
 /* line 202, ../scss/old/_templates.scss */
+.mceTmpl #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext,
 body#tinymce #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext,
 .mosaic-tile-content #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext,
 #content-core #parent-fieldname-text #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext {
@@ -5615,18 +6313,21 @@ body#tinymce #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext,
   width: 200px;
 }
 /* line 216, ../scss/old/_templates.scss */
+.mceTmpl #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext #FCKTdiv3imatgedamunttext,
 body#tinymce #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext #FCKTdiv3imatgedamunttext,
 .mosaic-tile-content #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext #FCKTdiv3imatgedamunttext,
 #content-core #parent-fieldname-text #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext #FCKTdiv3imatgedamunttext {
   padding: 10px;
 }
 /* line 225, ../scss/old/_templates.scss */
+.mceTmpl a.btn.btn-block.btn-large,
 body#tinymce a.btn.btn-block.btn-large,
 .mosaic-tile-content a.btn.btn-block.btn-large,
 #content-core #parent-fieldname-text a.btn.btn-block.btn-large {
   width: 100%;
 }
 /* line 232, ../scss/old/_templates.scss */
+.mceTmpl a.btn.btn-large:not(.btn-primary),
 body#tinymce a.btn.btn-large:not(.btn-primary),
 .mosaic-tile-content a.btn.btn-large:not(.btn-primary),
 #content-core #parent-fieldname-text a.btn.btn-large:not(.btn-primary) {
@@ -5634,6 +6335,7 @@ body#tinymce a.btn.btn-large:not(.btn-primary),
   border: 1px solid var(--bs-gray-300);
 }
 /* line 240, ../scss/old/_templates.scss */
+.mceTmpl .text-over-image,
 body#tinymce .text-over-image,
 .mosaic-tile-content .text-over-image,
 #content-core #parent-fieldname-text .text-over-image {
@@ -5641,6 +6343,7 @@ body#tinymce .text-over-image,
   margin: 0 auto;
 }
 /* line 244, ../scss/old/_templates.scss */
+.mceTmpl .text-over-image .content,
 body#tinymce .text-over-image .content,
 .mosaic-tile-content .text-over-image .content,
 #content-core #parent-fieldname-text .text-over-image .content {
@@ -5649,12 +6352,16 @@ body#tinymce .text-over-image .content,
   width: 100%;
 }
 /* line 249, ../scss/old/_templates.scss */
+.mceTmpl .text-over-image .content.dark-background,
 body#tinymce .text-over-image .content.dark-background,
 .mosaic-tile-content .text-over-image .content.dark-background,
 #content-core #parent-fieldname-text .text-over-image .content.dark-background {
   background: rgba(0, 0, 0, 0.65);
 }
 /* line 252, ../scss/old/_templates.scss */
+.mceTmpl .text-over-image .content.dark-background h4,
+.mceTmpl .text-over-image .content.dark-background p,
+.mceTmpl .text-over-image .content.dark-background span,
 body#tinymce .text-over-image .content.dark-background h4,
 body#tinymce .text-over-image .content.dark-background p,
 body#tinymce .text-over-image .content.dark-background span,
@@ -5667,12 +6374,16 @@ body#tinymce .text-over-image .content.dark-background span,
   color: var(--bs-white) !important;
 }
 /* line 259, ../scss/old/_templates.scss */
+.mceTmpl .text-over-image .content.light-background,
 body#tinymce .text-over-image .content.light-background,
 .mosaic-tile-content .text-over-image .content.light-background,
 #content-core #parent-fieldname-text .text-over-image .content.light-background {
   background: rgba(255, 255, 255, 0.65);
 }
 /* line 262, ../scss/old/_templates.scss */
+.mceTmpl .text-over-image .content.light-background h4,
+.mceTmpl .text-over-image .content.light-background p,
+.mceTmpl .text-over-image .content.light-background span,
 body#tinymce .text-over-image .content.light-background h4,
 body#tinymce .text-over-image .content.light-background p,
 body#tinymce .text-over-image .content.light-background span,
@@ -5685,30 +6396,35 @@ body#tinymce .text-over-image .content.light-background span,
   color: var(--bs-black) !important;
 }
 /* line 269, ../scss/old/_templates.scss */
+.mceTmpl .text-over-image .content .caption,
 body#tinymce .text-over-image .content .caption,
 .mosaic-tile-content .text-over-image .content .caption,
 #content-core #parent-fieldname-text .text-over-image .content .caption {
   padding: 1.5rem;
 }
 /* line 272, ../scss/old/_templates.scss */
+.mceTmpl .text-over-image .content .caption p:last-child,
 body#tinymce .text-over-image .content .caption p:last-child,
 .mosaic-tile-content .text-over-image .content .caption p:last-child,
 #content-core #parent-fieldname-text .text-over-image .content .caption p:last-child {
   margin-bottom: 0;
 }
 /* line 282, ../scss/old/_templates.scss */
+.mceTmpl .boxbg-gray,
 body#tinymce .boxbg-gray,
 .mosaic-tile-content .boxbg-gray,
 #content-core #parent-fieldname-text .boxbg-gray {
   background-color: var(--bs-gray-100);
 }
 /* line 289, ../scss/old/_templates.scss */
+.mceTmpl .boxbg-green,
 body#tinymce .boxbg-green,
 .mosaic-tile-content .boxbg-green,
 #content-core #parent-fieldname-text .boxbg-green {
   background-color: #e5f5ca;
 }
 /* line 296, ../scss/old/_templates.scss */
+.mceTmpl .list-numeral,
 body#tinymce .list-numeral,
 .mosaic-tile-content .list-numeral,
 #content-core #parent-fieldname-text .list-numeral {
@@ -5722,6 +6438,7 @@ body#tinymce .list-numeral,
   padding: 0;
 }
 /* line 306, ../scss/old/_templates.scss */
+.mceTmpl .list-numeral li,
 body#tinymce .list-numeral li,
 .mosaic-tile-content .list-numeral li,
 #content-core #parent-fieldname-text .list-numeral li {
@@ -5734,6 +6451,7 @@ body#tinymce .list-numeral li,
   padding-bottom: 20px;
 }
 /* line 316, ../scss/old/_templates.scss */
+.mceTmpl .list-numeral strong,
 body#tinymce .list-numeral strong,
 .mosaic-tile-content .list-numeral strong,
 #content-core #parent-fieldname-text .list-numeral strong {
@@ -5742,36 +6460,42 @@ body#tinymce .list-numeral strong,
   font-weight: lighter;
 }
 /* line 322, ../scss/old/_templates.scss */
+.mceTmpl .list-numeral :nth-child(1) strong,
 body#tinymce .list-numeral :nth-child(1) strong,
 .mosaic-tile-content .list-numeral :nth-child(1) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(1) strong {
   color: #6734BA;
 }
 /* line 326, ../scss/old/_templates.scss */
+.mceTmpl .list-numeral :nth-child(2) strong,
 body#tinymce .list-numeral :nth-child(2) strong,
 .mosaic-tile-content .list-numeral :nth-child(2) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(2) strong {
   color: #9D1CB2;
 }
 /* line 330, ../scss/old/_templates.scss */
+.mceTmpl .list-numeral :nth-child(3) strong,
 body#tinymce .list-numeral :nth-child(3) strong,
 .mosaic-tile-content .list-numeral :nth-child(3) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(3) strong {
   color: #DA125F;
 }
 /* line 334, ../scss/old/_templates.scss */
+.mceTmpl .list-numeral :nth-child(4) strong,
 body#tinymce .list-numeral :nth-child(4) strong,
 .mosaic-tile-content .list-numeral :nth-child(4) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(4) strong {
   color: #F6412D;
 }
 /* line 338, ../scss/old/_templates.scss */
+.mceTmpl .list-numeral :nth-child(5) strong,
 body#tinymce .list-numeral :nth-child(5) strong,
 .mosaic-tile-content .list-numeral :nth-child(5) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(5) strong {
   color: #FF5606;
 }
 /* line 342, ../scss/old/_templates.scss */
+.mceTmpl .list-numeral :nth-child(6) strong,
 body#tinymce .list-numeral :nth-child(6) strong,
 .mosaic-tile-content .list-numeral :nth-child(6) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(6) strong {
@@ -5779,6 +6503,7 @@ body#tinymce .list-numeral :nth-child(6) strong,
 }
 @supports (-moz-appearance: none) {
   /* line 349, ../scss/old/_templates.scss */
+  .mceTmpl .list-numeral li,
   body#tinymce .list-numeral li,
   .mosaic-tile-content .list-numeral li,
   #content-core #parent-fieldname-text .list-numeral li {
@@ -5787,6 +6512,7 @@ body#tinymce .list-numeral :nth-child(6) strong,
 }
 @media (max-width: 768px) {
   /* line 356, ../scss/old/_templates.scss */
+  .mceTmpl .list-numeral,
   body#tinymce .list-numeral,
   .mosaic-tile-content .list-numeral,
   #content-core #parent-fieldname-text .list-numeral {
@@ -5796,6 +6522,7 @@ body#tinymce .list-numeral :nth-child(6) strong,
 }
 @media (max-width: 576px) {
   /* line 364, ../scss/old/_templates.scss */
+  .mceTmpl .list-numeral,
   body#tinymce .list-numeral,
   .mosaic-tile-content .list-numeral,
   #content-core #parent-fieldname-text .list-numeral {
@@ -5804,18 +6531,21 @@ body#tinymce .list-numeral :nth-child(6) strong,
   }
 }
 /* line 375, ../scss/old/_templates.scss */
+.mceTmpl .gallery-logos .gellery-bottom,
 body#tinymce .gallery-logos .gellery-bottom,
 .mosaic-tile-content .gallery-logos .gellery-bottom,
 #content-core #parent-fieldname-text .gallery-logos .gellery-bottom {
   margin-bottom: 1.5rem;
 }
 /* line 379, ../scss/old/_templates.scss */
+.mceTmpl .gallery-logos a:after,
 body#tinymce .gallery-logos a:after,
 .mosaic-tile-content .gallery-logos a:after,
 #content-core #parent-fieldname-text .gallery-logos a:after {
   content: "";
 }
 /* line 387, ../scss/old/_templates.scss */
+.mceTmpl .destacat,
 body#tinymce .destacat,
 .mosaic-tile-content .destacat,
 #content-core #parent-fieldname-text .destacat {
@@ -5824,6 +6554,7 @@ body#tinymce .destacat,
   margin-bottom: 1.5rem;
 }
 /* line 392, ../scss/old/_templates.scss */
+.mceTmpl .destacat .destacat-contingut,
 body#tinymce .destacat .destacat-contingut,
 .mosaic-tile-content .destacat .destacat-contingut,
 #content-core #parent-fieldname-text .destacat .destacat-contingut {
@@ -5837,12 +6568,14 @@ body#tinymce .destacat .destacat-contingut,
   font-size: var(--gw-font-size-s);
 }
 /* line 402, ../scss/old/_templates.scss */
+.mceTmpl .destacat .destacat-contingut h2,
 body#tinymce .destacat .destacat-contingut h2,
 .mosaic-tile-content .destacat .destacat-contingut h2,
 #content-core #parent-fieldname-text .destacat .destacat-contingut h2 {
   margin-top: 1rem;
 }
 /* line 409, ../scss/old/_templates.scss */
+.mceTmpl .destacat .destacat-imatge.compat-object-fit,
 body#tinymce .destacat .destacat-imatge.compat-object-fit,
 .mosaic-tile-content .destacat .destacat-imatge.compat-object-fit,
 #content-core #parent-fieldname-text .destacat .destacat-imatge.compat-object-fit {
@@ -5850,6 +6583,7 @@ body#tinymce .destacat .destacat-imatge.compat-object-fit,
   background-position: center;
 }
 /* line 414, ../scss/old/_templates.scss */
+.mceTmpl .destacat .destacat-imatge img,
 body#tinymce .destacat .destacat-imatge img,
 .mosaic-tile-content .destacat .destacat-imatge img,
 #content-core #parent-fieldname-text .destacat .destacat-imatge img {
@@ -5862,6 +6596,7 @@ body#tinymce .destacat .destacat-imatge img,
   border-radius: 0;
 }
 /* line 428, ../scss/old/_templates.scss */
+.mceTmpl .destacat.destacat-dreta .destacat-contingut,
 body#tinymce .destacat.destacat-dreta .destacat-contingut,
 .mosaic-tile-content .destacat.destacat-dreta .destacat-contingut,
 #content-core #parent-fieldname-text .destacat.destacat-dreta .destacat-contingut {
@@ -5869,6 +6604,7 @@ body#tinymce .destacat.destacat-dreta .destacat-contingut,
   left: auto;
 }
 /* line 433, ../scss/old/_templates.scss */
+.mceTmpl .destacat.destacat-dreta .destacat-imatge img,
 body#tinymce .destacat.destacat-dreta .destacat-imatge img,
 .mosaic-tile-content .destacat.destacat-dreta .destacat-imatge img,
 #content-core #parent-fieldname-text .destacat.destacat-dreta .destacat-imatge img {
@@ -5876,6 +6612,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
 }
 @media (max-width: 768px) {
   /* line 439, ../scss/old/_templates.scss */
+  .mceTmpl .destacat.destacat-dreta img,
   body#tinymce .destacat.destacat-dreta img,
   .mosaic-tile-content .destacat.destacat-dreta img,
   #content-core #parent-fieldname-text .destacat.destacat-dreta img {
@@ -5885,12 +6622,14 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
 }
 @media (max-width: 768px) {
   /* line 449, ../scss/old/_templates.scss */
+  .mceTmpl .destacat,
   body#tinymce .destacat,
   .mosaic-tile-content .destacat,
   #content-core #parent-fieldname-text .destacat {
     height: auto;
   }
   /* line 452, ../scss/old/_templates.scss */
+  .mceTmpl .destacat .destacat-contingut,
   body#tinymce .destacat .destacat-contingut,
   .mosaic-tile-content .destacat .destacat-contingut,
   #content-core #parent-fieldname-text .destacat .destacat-contingut {
@@ -5900,6 +6639,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
     display: table-cell;
   }
   /* line 458, ../scss/old/_templates.scss */
+  .mceTmpl .destacat .destacat-contingut img,
   body#tinymce .destacat .destacat-contingut img,
   .mosaic-tile-content .destacat .destacat-contingut img,
   #content-core #parent-fieldname-text .destacat .destacat-contingut img {
@@ -5909,12 +6649,14 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
   }
 }
 /* line 470, ../scss/old/_templates.scss */
+.mceTmpl .lead,
 body#tinymce .lead,
 .mosaic-tile-content .lead,
 #content-core #parent-fieldname-text .lead {
   font-size: 1rem;
 }
 /* line 474, ../scss/old/_templates.scss */
+.mceTmpl .lead-small,
 body#tinymce .lead-small,
 .mosaic-tile-content .lead-small,
 #content-core #parent-fieldname-text .lead-small {
@@ -5922,12 +6664,14 @@ body#tinymce .lead-small,
   padding: 0.5rem;
 }
 /* line 479, ../scss/old/_templates.scss */
+.mceTmpl .box.box-large,
 body#tinymce .box.box-large,
 .mosaic-tile-content .box.box-large,
 #content-core #parent-fieldname-text .box.box-large {
   padding: 2rem;
 }
 /* line 483, ../scss/old/_templates.scss */
+.mceTmpl .box.box-small,
 body#tinymce .box.box-small,
 .mosaic-tile-content .box.box-small,
 #content-core #parent-fieldname-text .box.box-small {
