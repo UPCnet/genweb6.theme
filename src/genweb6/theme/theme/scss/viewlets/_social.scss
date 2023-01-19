@@ -1,0 +1,7 @@
+div#social_tags {
+    float: right;
+
+    a[target="_blank"]::after {
+        content: "";
+    }
+}

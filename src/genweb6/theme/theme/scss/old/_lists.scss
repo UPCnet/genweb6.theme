@@ -63,7 +63,8 @@ ul.list-highlighted {
   li:before {
     content: "\ffeb";
     color: var(--bs-yellow);
-    margin-top: 0rem;
+    margin-top: -5px;
+    font-size: var(--gw-font-size-xxxl);
   }
 }
 

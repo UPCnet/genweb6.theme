@@ -43,6 +43,10 @@ body.template-homepage {
       padding: 0em 4em 1em 4em;
       text-align: left;
 
+      @media (max-width: 992px) {
+        padding: 0em 1em 1em 1em;
+      }
+
       .h1 {
         color: var(--bs-black);
         font-size: 1.75rem;
@@ -56,8 +60,7 @@ body.template-homepage {
   }
 
   &.pretty-image-hero {
-    height: 700px;
-    margin-top: -92px;
+    height: 650px;
 
     h2,
     h1,
@@ -67,18 +70,18 @@ body.template-homepage {
     }
 
     & > div {
-      top: calc(50% - 46px);
-      margin-top: 92px;
+      top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       position: absolute;
-      height: calc(100% - 92px);
+      height: 100%;
       background-color: #007BC1DD;
       display: flex;
       flex-direction: column;
       justify-content: center;
       padding-top: 1rem;
       padding-bottom: 1rem;
+      min-width: 35%;
 
       & > * {
         padding-left: 2rem;

@@ -15,12 +15,14 @@
       right: 0;
       left: 0;
       bottom: 0;
-      padding: 19.5rem 1rem 2.5rem 1rem;
+      padding: 1rem 1rem 2.5rem 1rem;
       display: flex;
       flex-direction: column;
-      background: -moz-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
-      background: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+      /*
+      background: -moz-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 
+      background: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 
       background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      background-color: #ffffffbd;
 
       .title {
         order: 1;
