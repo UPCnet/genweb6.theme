@@ -55,63 +55,63 @@ templates = [
     },
 
     {
-      "title-ca": "",
-      "title-es": "",
-      "title-en": "",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/.html"
+      "title-ca": "Destacat - Amb imatge",
+      "title-es": "Destacado - Con imagen",
+      "title-en": "Featured - With image",
+      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/amb-image.html"
     },
     {
-      "title-ca": "",
-      "title-es": "",
-      "title-en": "",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/.html"
+      "title-ca": "Destacat - Jumbotron",
+      "title-es": "Destacado - Jumbotron",
+      "title-en": "Featured - Jumbotron",
+      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/jumtotron.html"
     },
     {
-      "title-ca": "",
-      "title-es": "",
-      "title-en": "",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/.html"
+      "title-ca": "Destacat - Alerta ",
+      "title-es": "Destacado - Alerta",
+      "title-en": "Featured - Alert",
+      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/alerta.html"
     },
     {
-      "title-ca": "",
-      "title-es": "",
-      "title-en": "",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/.html"
+      "title-ca": "Destacat - Hero",
+      "title-es": "Destacado - Hero",
+      "title-en": "Featured - Hero",
+      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/hero.html"
     },
     {
-      "title-ca": "",
-      "title-es": "",
-      "title-en": "",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/.html"
+      "title-ca": "Destacat - Hero amb imatge centrada",
+      "title-es": "Destacado - Hero con imagen centrada",
+      "title-en": "Featured - Hero with centered image",
+      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/hero-imatge-centrada.html"
     },
     {
-      "title-ca": "",
-      "title-es": "",
-      "title-en": "",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/.html"
+      "title-ca": "Destacat - Hero amb imatge esquerra",
+      "title-es": "Destacado - Hero con imagen izquierda",
+      "title-en": "Featured - Hero with  left image",
+      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/hero-imatge-esquerra.html"
     },
     {
-      "title-ca": "",
-      "title-es": "",
-      "title-en": "",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/.html"
+      "title-ca": "Destacat - Hero amb imatge dreta",
+      "title-es": "Destacado - Hero con imagen derecha",
+      "title-en": "Featured - Hero with right image",
+      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/hero-imatge-dreta.html"
     },
     {
-      "title-ca": "",
-      "title-es": "",
-      "title-en": "",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/.html"
+      "title-ca": "Destacat - Hero amb imatge retallada amb ombra",
+      "title-es": "Destacado - Hero con imagen recortada con sombra",
+      "title-en": "Featured - Hero with cropped image with drop shadow",
+      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/hero-imatge-retallada.html"
     },
     {
-      "title-ca": "",
-      "title-es": "",
-      "title-en": "",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/.html"
+      "title-ca": "Destacat - Hero fosc",
+      "title-es": "Destacado - Hero oscuro",
+      "title-en": "Featured - Dark Hero",
+      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/hero-fosc.html"
     },
     {
-      "title-ca": "",
-      "title-es": "",
-      "title-en": "",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/.html"
+      "title-ca": "Destacat - Dades numèriques",
+      "title-es": "Destacado - Datos numéricos",
+      "title-en": "Featured - Numerical data",
+      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/dades-numeriques.html"
     },
 ]
