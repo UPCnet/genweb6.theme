@@ -400,6 +400,6 @@ templates = [
       "title-ca": "Avançada - Modal",
       "title-es": "Avanzada - Modal",
       "title-en": "Advanced - Modal",
-      "url": "/++theme++genweb6.theme/tinymce_templates/avançades/modal.html"
+      "url": "/++theme++genweb6.theme/tinymce_templates/avancades/modal.html"
     }
 ]
