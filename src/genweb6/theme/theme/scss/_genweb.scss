@@ -166,6 +166,10 @@ video {
   max-width: 100%;
 }
 
+button#form-buttons-Delete {
+  margin-right: 1rem;
+}
+
 .back-to-top {
   background: none;
   margin: 0;
@@ -193,12 +197,24 @@ video {
 /* Los colores de los estados de cada elemento solo se podrán ver una vez logueado */
 body.userrole-authenticated {
 
+  #edit-zone #plone-contentmenu-workflow:hover [class^="label-state-"] {
+    color: var(--bs-white) !important;
+  }
+
+  #edit-zone .label-state-visible {
+    color: var(--gw-state-visible) !important;
+  }
+
   .state-visible {
     color: var(--gw-state-visible) !important;
 
     &:hover {
       color: var(--gw-state-visible-hover) !important;
     }
+  }
+
+  #edit-zone .label-state-draft {
+    color: var(--gw-state-draft) !important;
   }
 
   .state-draft {
@@ -209,12 +225,20 @@ body.userrole-authenticated {
     }
   }
 
+  #edit-zone .label-state-private {
+    color: var(--gw-state-private) !important;
+  }
+
   .state-private {
     color: var(--gw-state-private) !important;
 
     &:hover {
       color: var(--gw-state-private-hover) !important;
     }
+  }
+
+  #edit-zone .label-state-intranet {
+    color: var(--gw-state-intranet) !important;
   }
 
   .state-intranet {
@@ -225,6 +249,10 @@ body.userrole-authenticated {
     }
   }
 
+  #edit-zone .label-state-pending {
+    color: var(--gw-state-pending) !important;
+  }
+
   .state-pending {
     color: var(--gw-state-pending) !important;
 
@@ -233,12 +261,20 @@ body.userrole-authenticated {
     }
   }
 
+  #edit-zone .label-state-published {
+    color: var(--gw-state-published) !important;
+  }
+
   .state-published {
     color: var(--gw-state-published) !important;
 
     &:hover {
       color: var(--gw-state-published-hover) !important;
     }
+  }
+
+  #edit-zone .label-state-restricted-to-managers {
+    color: var(--gw-state-restricted-to-managers) !important;
   }
 
   .state-restricted-to-managers {

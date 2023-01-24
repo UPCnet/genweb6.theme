@@ -50,6 +50,14 @@ body.template-homepage {
       .h1 {
         color: var(--bs-black);
         font-size: 1.75rem;
+
+        a {
+          color: var(--bs-black);
+
+          &:hover {
+            color: var(--bs-primary-hover);
+          }
+        }
       }
     }
 

@@ -90,8 +90,15 @@ footer#portal-footer-wrapper {
         }
 
         img {
-          max-height: 90px;
+          max-height: 60px;
           border-radius: 7px;
+        }
+      }
+
+      &:first-child {
+
+        a {
+          margin-left: 0;
         }
       }
     }
