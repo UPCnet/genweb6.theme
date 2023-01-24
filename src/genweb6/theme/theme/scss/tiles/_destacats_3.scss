@@ -15,7 +15,6 @@
         margin: 0 0 24px;
         transform: scale(1.0, 1.0) perspective(1px) translateZ(0px);
         text-decoration: none;
-        border-radius: 7px;
 
         &.btn-banner-stretch {
             align-items: stretch;
@@ -230,7 +229,6 @@
             div {
                 background-color: #ffffff;
                 border: 2px solid var(--bs-primary);
-                border-radius: 7px;
 
                 h2 {
                     color: var(--bs-primary);
