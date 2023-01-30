@@ -19371,7 +19371,7 @@ body#tinymce [class*=" icon-"],
   height: 14px;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url(/++theme++genweb6.theme/img/gh.png);
+  background-image: url('/++theme++genweb6.theme/img/gh.png');
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 3px;
@@ -19405,14 +19405,14 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > li > a:hover > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class^="icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class*=" icon-"] {
-  background-image: url(/++theme++genweb6.theme/img/gh-w.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-w.png');
 }
 /* line 43, ../scss/old/_sprites.scss */
 .mceTmpl .icon-color,
 body#tinymce .icon-color,
 .mosaic-tile-content .icon-color,
 #content-core #parent-fieldname-text .icon-color {
-  background-image: url(/++theme++genweb6.theme/img/gh-c.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-c.png');
 }
 /* line 47, ../scss/old/_sprites.scss */
 .mceTmpl .icon-glass,
@@ -21185,7 +21185,7 @@ body#tinymce .icon-translate,
 body#tinymce .large-icon,
 .mosaic-tile-content .large-icon,
 #content-core #parent-fieldname-text .large-icon {
-  background-image: url(/++theme++genweb6.theme/img/gh-150.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-150.png');
   width: 21px;
   height: 21px;
   margin-top: -1px;
@@ -21238,7 +21238,7 @@ body#tinymce .large-icon.icon-user-news,
 body#tinymce .large-icon.icon-white,
 .mosaic-tile-content .large-icon.icon-white,
 #content-core #parent-fieldname-text .large-icon.icon-white {
-  background-image: url(/++theme++genweb6.theme/img/gh-150-w.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-150-w.png');
 }
 /* line 4, ../scss/old/_styles.scss */
 .mceTmpl .label,
@@ -22797,10 +22797,6 @@ body.template-event_view #content-core .card.event-summary p.card-text.h5 span.t
 /* line 27, ../scss/contents/_event.scss */
 body.template-event_view #content-core .card.event-summary .plone-icon {
   margin-bottom: 10px;
-}
-/* line 35, ../scss/contents/_event.scss */
-body.template-event_view section#section-leadimage img.figure-img {
-  border-radius: 7px;
 }
 
 /* line 12, ../scss/contents/_file.scss */
@@ -24809,69 +24805,6 @@ body.template-homepage #portal-breadcrumbs {
 section#section-byline .badge {
   margin-bottom: 0.5rem;
   margin-right: 0.25rem;
-}
-
-/* line 1, ../scss/viewlets/_cookies.scss */
-#cookies-gw-preview,
-footer #portal-footer #cookies-gw {
-  bottom: 0;
-  font-size: 16px;
-  text-align: justify;
-  margin: auto;
-  color: #4a4a4a !important;
-  background: #fffffff2;
-  box-shadow: 0 0 1px 1px #0000000d !important;
-  transition: opacity 0.15s linear;
-  opacity: 1;
-  padding: 15px 30px;
-  border: 1px solid transparent;
-  border-radius: 2px;
-  z-index: 10;
-  border-top: 1px solid #cccccc;
-  width: 100%;
-}
-/* line 19, ../scss/viewlets/_cookies.scss */
-#cookies-gw-preview #cookies-bodyText,
-#cookies-gw-preview #cookies-bodyContent,
-footer #portal-footer #cookies-gw #cookies-bodyText,
-footer #portal-footer #cookies-gw #cookies-bodyContent {
-  text-align: justify;
-  color: #4a4a4a !important;
-}
-/* line 24, ../scss/viewlets/_cookies.scss */
-#cookies-gw-preview #cookies-bodyText a,
-#cookies-gw-preview #cookies-bodyContent a,
-footer #portal-footer #cookies-gw #cookies-bodyText a,
-footer #portal-footer #cookies-gw #cookies-bodyContent a {
-  color: var(--bs-primary) !important;
-}
-/* line 27, ../scss/viewlets/_cookies.scss */
-#cookies-gw-preview #cookies-bodyText a:hover,
-#cookies-gw-preview #cookies-bodyContent a:hover,
-footer #portal-footer #cookies-gw #cookies-bodyText a:hover,
-footer #portal-footer #cookies-gw #cookies-bodyContent a:hover {
-  color: var(--bs-primary-hover) !important;
-}
-/* line 33, ../scss/viewlets/_cookies.scss */
-#cookies-gw-preview #cookies-buttons,
-footer #portal-footer #cookies-gw #cookies-buttons {
-  margin: 10px 0 0 0 !important;
-  padding: 0;
-}
-/* line 37, ../scss/viewlets/_cookies.scss */
-#cookies-gw-preview #cookies-buttons button,
-footer #portal-footer #cookies-gw #cookies-buttons button {
-  color: var(--bs-white) !important;
-}
-
-/* line 43, ../scss/viewlets/_cookies.scss */
-#cookies-gw-preview {
-  width: 100%;
-}
-
-/* line 47, ../scss/viewlets/_cookies.scss */
-footer #portal-footer #cookies-gw {
-  position: fixed;
 }
 
 /* line 3, ../scss/viewlets/_discussion.scss */

@@ -54,8 +54,6 @@ module.exports = function (grunt) {
                         '../../../../../genweb6.core/src/genweb6/core/content/interactive_template/interactive_template_view.js',
                     'js/contents/interactive_template_edit.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/content/interactive_template/interactive_template_edit.js',
-                    'js/controlpanels/cookies_preview.min.js':
-                        '../../../../../genweb6.core/src/genweb6/core/controlpanels/widgets/cookies_preview.js',
                     'js/controlpanels/resources.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/controlpanels/widgets/resources.js',
                     'js/controlpanels/login_preview.min.js':
