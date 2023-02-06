@@ -2048,14 +2048,20 @@ a[target="_blank"]::after {
 }
 
 /* line 62, ../scss/_genweb.scss */
+.alert a::after {
+  height: 0;
+  animation: none;
+}
+
+/* line 67, ../scss/_genweb.scss */
 .external-url-icon {
   display: table;
 }
-/* line 65, ../scss/_genweb.scss */
+/* line 70, ../scss/_genweb.scss */
 .external-url-icon.text-decoration-none:hover {
   text-decoration: none !important;
 }
-/* line 69, ../scss/_genweb.scss */
+/* line 74, ../scss/_genweb.scss */
 .external-url-icon::before {
   content: "\e91c";
   font-family: "upc-icones";
@@ -2064,113 +2070,113 @@ a[target="_blank"]::after {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 77, ../scss/_genweb.scss */
+/* line 82, ../scss/_genweb.scss */
 .external-url-icon::before:hover {
   color: var(--bs-primary-hover);
 }
 
-/* line 83, ../scss/_genweb.scss */
+/* line 88, ../scss/_genweb.scss */
 .smaller {
   font-size: var(--gw-font-size-xxxs);
 }
 
-/* line 87, ../scss/_genweb.scss */
+/* line 92, ../scss/_genweb.scss */
 body.template-manage-viewlets header {
   position: initial;
 }
 
-/* line 91, ../scss/_genweb.scss */
+/* line 96, ../scss/_genweb.scss */
 .modal-backdrop.fade.show {
   display: none;
 }
 
-/* line 95, ../scss/_genweb.scss */
+/* line 100, ../scss/_genweb.scss */
 .list-group-item.row {
   display: flex;
 }
 
-/* line 99, ../scss/_genweb.scss */
+/* line 104, ../scss/_genweb.scss */
 .plone-icon {
   height: 0.73em;
 }
 
-/* line 105, ../scss/_genweb.scss */
+/* line 110, ../scss/_genweb.scss */
 #main-container #portal-column-one {
   padding-right: 20px;
 }
 
-/* line 114, ../scss/_genweb.scss */
+/* line 119, ../scss/_genweb.scss */
 body.template-edit div.pat-relateditems-dropdown .select2-results {
   max-height: 450px;
 }
 
-/* line 120, ../scss/_genweb.scss */
+/* line 125, ../scss/_genweb.scss */
 .fs-m {
   font-size: var(--bs-body-font-size) !important;
 }
 
-/* line 124, ../scss/_genweb.scss */
+/* line 129, ../scss/_genweb.scss */
 .fs-l {
   font-size: var(--gw-font-size-l) !important;
 }
 
-/* line 128, ../scss/_genweb.scss */
+/* line 133, ../scss/_genweb.scss */
 .fs-s {
   font-size: var(--gw-font-size-s) !important;
 }
 
-/* line 132, ../scss/_genweb.scss */
+/* line 137, ../scss/_genweb.scss */
 .fs-xl {
   font-size: var(--gw-font-size-xl) !important;
 }
 
-/* line 136, ../scss/_genweb.scss */
+/* line 141, ../scss/_genweb.scss */
 .fs-xs {
   font-size: var(--gw-font-size-xs) !important;
 }
 
-/* line 140, ../scss/_genweb.scss */
+/* line 145, ../scss/_genweb.scss */
 .fs-xxl {
   font-size: var(--gw-font-size-xxl) !important;
 }
 
-/* line 144, ../scss/_genweb.scss */
+/* line 149, ../scss/_genweb.scss */
 .fs-xxs {
   font-size: var(--gw-font-size-xxs) !important;
 }
 
-/* line 148, ../scss/_genweb.scss */
+/* line 153, ../scss/_genweb.scss */
 .fs-xxxl {
   font-size: var(--gw-font-size-xxxl) !important;
 }
 
-/* line 152, ../scss/_genweb.scss */
+/* line 157, ../scss/_genweb.scss */
 .fs-xxxs {
   font-size: var(--gw-font-size-xxs) !important;
 }
 
-/* line 156, ../scss/_genweb.scss */
+/* line 161, ../scss/_genweb.scss */
 .text-justify {
   text-align: justify;
 }
 
-/* line 160, ../scss/_genweb.scss */
+/* line 165, ../scss/_genweb.scss */
 code.code-editor {
   border: 1px solid var(--bs-dark);
 }
 
-/* line 164, ../scss/_genweb.scss */
+/* line 169, ../scss/_genweb.scss */
 iframe,
 video {
   max-width: 100%;
 }
 
-/* line 169, ../scss/_genweb.scss */
+/* line 174, ../scss/_genweb.scss */
 button#form-buttons-Delete {
   margin-right: 1rem;
 }
 
-/* line 173, ../scss/_genweb.scss */
+/* line 178, ../scss/_genweb.scss */
 .back-to-top {
   background: none;
   margin: 0;
@@ -2183,102 +2189,102 @@ button#form-buttons-Delete {
   text-decoration: none;
   color: var(--bs-primary);
 }
-/* line 185, ../scss/_genweb.scss */
+/* line 190, ../scss/_genweb.scss */
 .back-to-top:hover, .back-to-top:active, .back-to-top:focus {
   color: var(--bs-primary-hover);
 }
-/* line 191, ../scss/_genweb.scss */
+/* line 196, ../scss/_genweb.scss */
 .back-to-top svg {
   width: 45px;
   height: 45px;
 }
 
 /* Los colores de los estados de cada elemento solo se podrán ver una vez logueado */
-/* line 200, ../scss/_genweb.scss */
+/* line 205, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone #plone-contentmenu-workflow:hover [class^="label-state-"] {
   color: var(--bs-white) !important;
 }
-/* line 204, ../scss/_genweb.scss */
+/* line 209, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-visible {
   color: var(--gw-state-visible) !important;
 }
-/* line 208, ../scss/_genweb.scss */
+/* line 213, ../scss/_genweb.scss */
 body.userrole-authenticated .state-visible {
   color: var(--gw-state-visible) !important;
 }
-/* line 211, ../scss/_genweb.scss */
+/* line 216, ../scss/_genweb.scss */
 body.userrole-authenticated .state-visible:hover {
   color: var(--gw-state-visible-hover) !important;
 }
-/* line 216, ../scss/_genweb.scss */
+/* line 221, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-draft {
   color: var(--gw-state-draft) !important;
 }
-/* line 220, ../scss/_genweb.scss */
+/* line 225, ../scss/_genweb.scss */
 body.userrole-authenticated .state-draft {
   color: var(--gw-state-draft) !important;
 }
-/* line 223, ../scss/_genweb.scss */
+/* line 228, ../scss/_genweb.scss */
 body.userrole-authenticated .state-draft:hover {
   color: var(--gw-state-draft-hover) !important;
 }
-/* line 228, ../scss/_genweb.scss */
+/* line 233, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-private {
   color: var(--gw-state-private) !important;
 }
-/* line 232, ../scss/_genweb.scss */
+/* line 237, ../scss/_genweb.scss */
 body.userrole-authenticated .state-private {
   color: var(--gw-state-private) !important;
 }
-/* line 235, ../scss/_genweb.scss */
+/* line 240, ../scss/_genweb.scss */
 body.userrole-authenticated .state-private:hover {
   color: var(--gw-state-private-hover) !important;
 }
-/* line 240, ../scss/_genweb.scss */
+/* line 245, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-intranet {
   color: var(--gw-state-intranet) !important;
 }
-/* line 244, ../scss/_genweb.scss */
+/* line 249, ../scss/_genweb.scss */
 body.userrole-authenticated .state-intranet {
   color: var(--gw-state-intranet) !important;
 }
-/* line 247, ../scss/_genweb.scss */
+/* line 252, ../scss/_genweb.scss */
 body.userrole-authenticated .state-intranet:hover {
   color: var(--gw-state-intranet-hover) !important;
 }
-/* line 252, ../scss/_genweb.scss */
+/* line 257, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-pending {
   color: var(--gw-state-pending) !important;
 }
-/* line 256, ../scss/_genweb.scss */
+/* line 261, ../scss/_genweb.scss */
 body.userrole-authenticated .state-pending {
   color: var(--gw-state-pending) !important;
 }
-/* line 259, ../scss/_genweb.scss */
+/* line 264, ../scss/_genweb.scss */
 body.userrole-authenticated .state-pending:hover {
   color: var(--gw-state-pending-hover) !important;
 }
-/* line 264, ../scss/_genweb.scss */
+/* line 269, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-published {
   color: var(--gw-state-published) !important;
 }
-/* line 268, ../scss/_genweb.scss */
+/* line 273, ../scss/_genweb.scss */
 body.userrole-authenticated .state-published {
   color: var(--gw-state-published) !important;
 }
-/* line 271, ../scss/_genweb.scss */
+/* line 276, ../scss/_genweb.scss */
 body.userrole-authenticated .state-published:hover {
   color: var(--gw-state-published-hover) !important;
 }
-/* line 276, ../scss/_genweb.scss */
+/* line 281, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-restricted-to-managers {
   color: var(--gw-state-restricted-to-managers) !important;
 }
-/* line 280, ../scss/_genweb.scss */
+/* line 285, ../scss/_genweb.scss */
 body.userrole-authenticated .state-restricted-to-managers {
   color: var(--gw-state-restricted-to-managers) !important;
 }
-/* line 283, ../scss/_genweb.scss */
+/* line 288, ../scss/_genweb.scss */
 body.userrole-authenticated .state-restricted-to-managers:hover {
   color: var(--gw-state-restricted-to-managers-hover) !important;
 }
