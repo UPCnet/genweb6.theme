@@ -18,12 +18,15 @@ module.exports = function (grunt) {
             css: {
                 src: ['stylesheets/barceloneta.css',
                       'stylesheets/bootstrap-icons.css',
-                      'stylesheets/jquery.dataTables.css',
+                      'stylesheets/complements/jquery.dataTables.css',
+                      'stylesheets/complements/select2.css',
+                      'stylesheets/complements/select2-bootstrap-5-theme.css',
                       'stylesheets/theme.css'],
                 dest: 'stylesheets/theme-concat.css',
             },
             js: {
                 src: ['js/main/*.js'],
+                src: ['js/complements/*.js'],
                 dest: 'js/theme-concat.js',
             }
         },
@@ -38,7 +41,7 @@ module.exports = function (grunt) {
                 files: [
                     'stylesheets/barceloneta.css',
                     'stylesheets/bootstrap-icons.css',
-                    'stylesheets/jquery.dataTables.css',
+                    'stylesheets/complements/*',
                     'scss/*',
                     'scss/**/*'
                 ],
