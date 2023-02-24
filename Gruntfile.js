@@ -25,8 +25,8 @@ module.exports = function (grunt) {
                 dest: 'stylesheets/theme-concat.css',
             },
             js: {
-                src: ['js/main/*.js'],
-                src: ['js/complements/*.js'],
+		src: ['js/main/*.js',
+		      'js/complements/*.js'],
                 dest: 'js/theme-concat.js',
             }
         },
