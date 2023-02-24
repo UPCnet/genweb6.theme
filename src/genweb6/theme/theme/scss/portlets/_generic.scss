@@ -1,9 +1,7 @@
 .portlet {
 
   h2.portlet-title {
-    color: var(--bs-primary);
     font-weight: 400;
-    font-size: 20px;
     margin-bottom: 1rem;
   }
 
@@ -26,11 +24,19 @@
     color: var(--bs-primary);
 
     &:hover {
-      color: var(--bs-link-hover-color);
+      color: var(--bs-primary);
     }
   }
 
   .external-url-icon {
     font-size: 1.8rem;
+  }
+
+  div.img {
+
+    a[target="_blank"]::after {
+      content: "";
+      display: none;
+    }
   }
 }

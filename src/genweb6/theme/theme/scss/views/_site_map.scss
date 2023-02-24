@@ -1,5 +1,10 @@
 body.template-sitemap {
 	
+	#content {
+		h1 {
+			font-size: 32px;
+		}
+	}
 	#content-core {
 
 		#portal-sitemap {
@@ -39,7 +44,7 @@ body.template-sitemap {
 				    -webkit-column-fill: auto;
 				    -moz-column-fill: auto;
 				    column-fill: auto;
-					color: var(--bs-link-hover-color);
+					color: var(--bs-primary);
 
 					::hover {
 						color: black;

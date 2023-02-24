@@ -1,5 +1,8 @@
 body.template-author {
-	
+
+	h1.documentFirstHeading {
+		font-size: 32px;
+	}
 	#content-core {
 
 		h2 {
@@ -11,6 +14,11 @@ body.template-author {
 
 			th {
 				font-weight: 400;
+
+				.sorting_1 {
+					font-weight: 300 !important;
+					font-size: 16px !important;
+				}
 			}
 		}
 	}

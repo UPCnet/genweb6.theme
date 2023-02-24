@@ -7,7 +7,7 @@
       color: var(--bs-gray-700);
 
       &:hover {
-        color: var(--bs-link-hover-color);
+        color: var(--bs-primary);
       }
     }
 
@@ -51,10 +51,11 @@
     }
   }
 
-  .porlet-footer {
+  .portlet-footer {
 
     .bi.bi-plus-circle-fill {
       display:none;
+
     }
   }
 }

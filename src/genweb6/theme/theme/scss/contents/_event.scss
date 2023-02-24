@@ -1,5 +1,11 @@
 body.template-event_view {
 	
+	#content {
+		h1.documentFirstHeading {
+		font-size: 32px;
+		}
+	}
+	
 	#content-core {
 
 		.card.event-summary {

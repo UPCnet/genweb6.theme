@@ -18,34 +18,16 @@ templates = [
       "url": "/++theme++genweb6.theme/tinymce_templates/destacat/contorn.html"
     },
     {
-      "title-ca": "Destacat - Degradat",
-      "title-es": "Destacado - Degradado",
-      "title-en": "Featured - Gradient",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/degradat.html"
-    },
-    {
       "title-ca": "Destacat - Caixa",
       "title-es": "Destacado - Caja",
       "title-en": "Featured - Box",
       "url": "/++theme++genweb6.theme/tinymce_templates/destacat/caixa.html"
     },
     {
-      "title-ca": "Destacat - Caixa degradat",
-      "title-es": "Destacado - Caja degradado",
-      "title-en": "Featured - Gradient box",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/caixa-degradat.html"
-    },
-    {
-      "title-ca": "Destacat - Caixa amb llista fons gris",
-      "title-es": "Destacado - Caja con lista fondo gris",
-      "title-en": "Featured - Box with gray background list",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/caixa-llista-gris.html"
-    },
-    {
-      "title-ca": "Destacat - Caixa amb llista fons verd",
-      "title-es": "Destacado - Caja con lista fondo verde",
-      "title-en": "Featured - Box with list green background",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/caixa-llista-verd.html"
+      "title-ca": "Destacat - Caixa amb info fons gris",
+      "title-es": "Destacado - Caja con info fondo gris",
+      "title-en": "Featured - Box with info gray background list",
+      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/caixa-info-gris.html"
     },
     {
       "title-ca": "Destacat - Frase destacada",
@@ -53,66 +35,41 @@ templates = [
       "title-en": "Featured - Featured phrase",
       "url": "/++theme++genweb6.theme/tinymce_templates/destacat/frase.html"
     },
-
-    {
-      "title-ca": "Destacat - Amb imatge",
-      "title-es": "Destacado - Con imagen",
-      "title-en": "Featured - With image",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/amb-image.html"
-    },
-    {
-      "title-ca": "Destacat - Jumbotron",
-      "title-es": "Destacado - Jumbotron",
-      "title-en": "Featured - Jumbotron",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/jumbotron.html"
-    },
-    {
-      "title-ca": "Destacat - Alerta ",
-      "title-es": "Destacado - Alerta",
-      "title-en": "Featured - Alert",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/alerta.html"
-    },
-    {
-      "title-ca": "Destacat - Hero",
-      "title-es": "Destacado - Hero",
-      "title-en": "Featured - Hero",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/hero.html"
-    },
-    {
-      "title-ca": "Destacat - Hero amb imatge centrada",
-      "title-es": "Destacado - Hero con imagen centrada",
-      "title-en": "Featured - Hero with centered image",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/hero-imatge-centrada.html"
-    },
-    {
-      "title-ca": "Destacat - Hero amb imatge esquerra",
-      "title-es": "Destacado - Hero con imagen izquierda",
-      "title-en": "Featured - Hero with  left image",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/hero-imatge-esquerra.html"
-    },
-    {
-      "title-ca": "Destacat - Hero amb imatge dreta",
-      "title-es": "Destacado - Hero con imagen derecha",
-      "title-en": "Featured - Hero with right image",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/hero-imatge-dreta.html"
-    },
-    {
-      "title-ca": "Destacat - Hero amb imatge retallada amb ombra",
-      "title-es": "Destacado - Hero con imagen recortada con sombra",
-      "title-en": "Featured - Hero with cropped image with drop shadow",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/hero-imatge-retallada.html"
-    },
-    {
-      "title-ca": "Destacat - Hero fosc",
-      "title-es": "Destacado - Hero oscuro",
-      "title-en": "Featured - Dark Hero",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/hero-fosc.html"
-    },
     {
       "title-ca": "Destacat - Dades numèriques",
       "title-es": "Destacado - Datos numéricos",
       "title-en": "Featured - Numerical data",
       "url": "/++theme++genweb6.theme/tinymce_templates/destacat/dades-numeriques.html"
+    },
+    {
+      "title-ca": "Crida a l'acció - Call to action: Text amb imatge centrada",
+      "title-es": "Llamada a la acción - Call to action: Texto con imagen centrada",
+      "title-en": "Call to action - Call to action: Text with centered image",
+      "url": "/++theme++genweb6.theme/tinymce_templates/cto/cto-imatge-centrada.html"
+    },
+    {
+      "title-ca": "Crida a l'acció - Call to action: Text amb imatge esquerra",
+      "title-es": "Llamada a la acción - Call to action: Texto con imagen izquierda",
+      "title-en": "Call to action - Call to action: Text with left image",
+      "url": "/++theme++genweb6.theme/tinymce_templates/cto/cto-imatge-esquerra.html"
+    },
+    {
+      "title-ca": "Crida a l'acció - Call to action: Text amb imatge dreta",
+      "title-es": "Llamada a la acción - Call to action: Texto con imagen derecha",
+      "title-en": "Call to action - Call to action: text with right image",
+      "url": "/++theme++genweb6.theme/tinymce_templates/cto/cto-imatge-dreta.html"
+    },
+    {
+      "title-ca": "Crida a l'acció - Call to action: Text amb imatge retallada amb ombra",
+      "title-es": "Llamada a la acción - Call to action: Texto con imagen recortada con sombra",
+      "title-en": "Call to action - Call to action: Text with cropped image with drop shadow",
+      "url": "/++theme++genweb6.theme/tinymce_templates/cto/cto-imatge-retallada.html"
+    },
+    {
+      "title-ca": "Crida a l'acció - Call to action: Text amb fons fosc",
+      "title-es": "Llamada a la acción - Call to action: Texto con fondo oscuro",
+      "title-en": "Call to action - Call to action: Text with dark background",
+      "url": "/++theme++genweb6.theme/tinymce_templates/cto/cto-fosc.html"
     },
     {
       "title-ca": "Columnes - 2",
@@ -145,173 +102,89 @@ templates = [
       "url": "/++theme++genweb6.theme/tinymce_templates/columnes/34-vs-14.html"
     },
     {
-      "title-ca": "Continguts - Text amb tots els titulars",
-      "title-es": "Contenidos - Texto con todos los titulares",
-      "title-en": "Contents - All headers text",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/text-titulars.html"
+      "title-ca": "Llistat - Enllaços",
+      "title-es": "Listado - Enlaces",
+      "title-en": "List - Links",
+      "url": "/++theme++genweb6.theme/tinymce_templates/llistats/llistat-enllaços.html"
     },
     {
-      "title-ca": "Continguts - Text amb video",
-      "title-es": "Contenidos - Texto con vídeo",
-      "title-en": "Contents - Text with video",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/text-video.html"
+      "title-ca": "Llistat - Grup",
+      "title-es": "Listado - Grupo",
+      "title-en": "List - Group",
+      "url": "/++theme++genweb6.theme/tinymce_templates/llistats/llistat-grup.html"
     },
     {
-      "title-ca": "Continguts - Llistat index",
-      "title-es": "Contenidos - Listado index",
-      "title-en": "Contents - Index list",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/llistat-index.html"
+      "title-ca": "Bàner - Blau",
+      "title-es": "Baner - Azul",
+      "title-en": "Banner - Blue",
+      "url": "/++theme++genweb6.theme/tinymce_templates/baners/baner-blau.html"
     },
     {
-      "title-ca": "Continguts - Llistat enllaços",
-      "title-es": "Contenidos - Listado enlaces",
-      "title-en": "Contents - Links list",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/llistat-enllaços.html"
+      "title-ca": "Bàner - Gris",
+      "title-es": "Baner - Gris",
+      "title-en": "Banner - Grey",
+      "url": "/++theme++genweb6.theme/tinymce_templates/baners/baner-gris.html"
     },
     {
-      "title-ca": "Continguts - Llistat destacat",
-      "title-es": "Contenidos - Listado destacado",
-      "title-en": "Contents - Featured list",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/llistat-destacat.html"
+      "title-ca": "Bàner - Gris info",
+      "title-es": "Baner - Gris info",
+      "title-en": "Banner - Grey info",
+      "url": "/++theme++genweb6.theme/tinymce_templates/baners/baner-gris-info.html"
     },
     {
-      "title-ca": "Continguts - Llistat icones",
-      "title-es": "Contenidos - Listado iconos",
-      "title-en": "Contents - Icons list",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/llistat-icones.html"
+      "title-ca": "Bàner - Blau info",
+      "title-es": "Baner - Azul info",
+      "title-en": "Banner - Blue info",
+      "url": "/++theme++genweb6.theme/tinymce_templates/baners/baner-blau-info.html"
     },
     {
-      "title-ca": "Continguts - Llistat grup",
-      "title-es": "Contenidos - Listado grupo",
-      "title-en": "Contents - Group list",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/llistat-grup.html"
+      "title-ca": "Bàner - Imatge de fons",
+      "title-es": "Baner - Imagen de fondo",
+      "title-en": "Banner - Background image",
+      "url": "/++theme++genweb6.theme/tinymce_templates/baners/baner-imatge.html"
     },
     {
-      "title-ca": "Continguts - Desplegable",
-      "title-es": "Contenidos - Desplegable",
-      "title-en": "Contents - Dropdown",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/desplegable.html"
+      "title-ca": "Botó - Blau",
+      "title-es": "Botón - Azul",
+      "title-en": "Button - Blue",
+      "url": "/++theme++genweb6.theme/tinymce_templates/botons/boto-blau.html"
     },
     {
-      "title-ca": "Continguts - Bàner blau",
-      "title-es": "Contenidos - baner azul",
-      "title-en": "Contents - Blue banner",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/baner-blau.html"
+      "title-ca": "Botó - Gris",
+      "title-es": "Botón - Gris",
+      "title-en": "Button - Grey",
+      "url": "/++theme++genweb6.theme/tinymce_templates/botons/boto-gris.html"
     },
     {
-      "title-ca": "Continguts - Bàner gris",
-      "title-es": "Contenidos - Baner gris",
-      "title-en": "Contents - Grey banner",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/baner-gris.html"
+      "title-ca": "Botó - Fosc",
+      "title-es": "Botón - Oscuro",
+      "title-en": "Button - Dark",
+      "url": "/++theme++genweb6.theme/tinymce_templates/botons/boto-fosc.html"
     },
     {
-      "title-ca": "Continguts - Bàner vermell",
-      "title-es": "Contenidos - Baner rojo",
-      "title-en": "Contents - Red banner",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/baner-vermell.html"
+      "title-ca": "Botó - Outline blau",
+      "title-es": "Botón - Outline azul",
+      "title-en": "Button - Blue outline",
+      "url": "/++theme++genweb6.theme/tinymce_templates/botons/boto-outline-blau.html"
     },
     {
-      "title-ca": "Continguts - Bàner groc",
-      "title-es": "Contenidos - Baner amarillo",
-      "title-en": "Contents - Yellow banner",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/baner-groc.html"
+      "title-ca": "Botó - Outline gris",
+      "title-es": "Botón - Outline gris",
+      "title-en": "Button - Grey outline",
+      "url": "/++theme++genweb6.theme/tinymce_templates/botons/boto-outline-gris.html"
     },
     {
-      "title-ca": "Continguts - Bàner verd",
-      "title-es": "Contenidos - Baner verde",
-      "title-en": "Contents - Green banner",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/baner-verd.html"
-    },
-    {
-      "title-ca": "Continguts - Bàner gris info",
-      "title-es": "Contenidos - Baner gris info",
-      "title-en": "Contents - Grey info banner",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/baner-gris-info.html"
-    },
-    {
-      "title-ca": "Continguts - Bàner blau info",
-      "title-es": "Contenidos - Baner azul info",
-      "title-en": "Contents - Blue info banner",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/baner-blau-info.html"
-    },
-    {
-      "title-ca": "Continguts - Bàner imatge de fons",
-      "title-es": "Contenidos - Baner imagen de fondo",
-      "title-en": "Contents - Background image banner",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/baner-imatge.html"
-    },
-    {
-      "title-ca": "Continguts - Botó blau",
-      "title-es": "Contenidos - Botón azul",
-      "title-en": "Contents - Blue button",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/boto-blau.html"
-    },
-    {
-      "title-ca": "Continguts - Botó gris",
-      "title-es": "Contenidos - Botón gris",
-      "title-en": "Contents - Grey button",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/boto-gris.html"
-    },
-    {
-      "title-ca": "Continguts - Botó fosc",
-      "title-es": "Contenidos - Botón oscuro",
-      "title-en": "Contents - Dark button",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/boto-fosc.html"
-    },
-    {
-      "title-ca": "Continguts - Botó outline blau",
-      "title-es": "Contenidos - Botón outline azul",
-      "title-en": "Contents - Blue outline button",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/boto-outline-blau.html"
-    },
-    {
-      "title-ca": "Continguts - Botó outline gris",
-      "title-es": "Contenidos - Botón outline gris",
-      "title-en": "Contents - Grey outline button",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/boto-outline-gris.html"
-    },
-    {
-      "title-ca": "Continguts - Botó outline fosc",
-      "title-es": "Contenidos - Botón outline oscuro",
-      "title-en": "Contents - Dark outlinke button",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/boto-outline-fosc.html"
-    },
-    {
-      "title-ca": "Continguts - Conjunt imatge llista opcions",
-      "title-es": "Contenidos - Conjunto imagen lista opciones",
-      "title-en": "Contents - Image option list set",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/conjunt.html"
-    },
-    {
-      "title-ca": "Continguts - Barres de progrés",
-      "title-es": "Contenidos - Barras de progreso",
-      "title-en": "Contents - Progress bars",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/progres.html"
-    },
-    {
-      "title-ca": "Continguts - Insignia",
-      "title-es": "Contenidos - Insignia",
-      "title-en": "Contents - Badge",
-      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/insignia.html"
+      "title-ca": "Botó - Outline fosc",
+      "title-es": "Botón - Outline oscuro",
+      "title-en": "Button - Dark outlinke",
+      "url": "/++theme++genweb6.theme/tinymce_templates/botons/boto-outline-fosc.html"
     },
     {
       "title-ca": "Taula - Estàndar",
       "title-es": "Tabla - Estandar",
       "title-en": "Table - Standard",
       "url": "/++theme++genweb6.theme/tinymce_templates/taules/estandar.html"
-    },
-    {
-      "title-ca": "Taula - Colors destacats",
-      "title-es": "Tabla - Colores destacados",
-      "title-en": "Table - Featured colors",
-      "url": "/++theme++genweb6.theme/tinymce_templates/taules/colors.html"
-    },
-    {
-      "title-ca": "Taula - Registres per files",
-      "title-es": "Tabla - Registros por filas",
-      "title-en": "Table - Records by content rows",
-      "url": "/++theme++genweb6.theme/tinymce_templates/taules/registres.html"
-    },
+    },    
     {
       "title-ca": "Taula - Amb estils",
       "title-es": "Tabla - Con estilos",
@@ -325,46 +198,16 @@ templates = [
       "url": "/++theme++genweb6.theme/tinymce_templates/taules/destacades.html"
     },
     {
-      "title-ca": "Taula - Fosca",
-      "title-es": "Tabla - Oscura",
-      "title-en": "Table - Dark",
-      "url": "/++theme++genweb6.theme/tinymce_templates/taules/fosca.html"
-    },
-    {
-      "title-ca": "Composició - Fitxa",
-      "title-es": "Composición - Ficha",
-      "title-en": "Compilation - File",
-      "url": "/++theme++genweb6.theme/tinymce_templates/composicions/fitxa.html"
-    },
-    {
       "title-ca": "Composició - Àlbum imatges",
       "title-es": "Composición - Álbum imágenes",
       "title-en": "Compilation - Images album",
       "url": "/++theme++genweb6.theme/tinymce_templates/composicions/album.html"
     },
     {
-      "title-ca": "Composició - Imatge esquerra amb text",
-      "title-es": "Composición - Imagen izquierda con texto",
-      "title-en": "Compilation - Left align image with text",
-      "url": "/++theme++genweb6.theme/tinymce_templates/composicions/imatge-esquerra-text.html"
-    },
-    {
-      "title-ca": "Composició - Imatge dreta amb text",
-      "title-es": "Composición - Imagen derecha con texto",
-      "title-en": "Compilation - Right align image with text",
-      "url": "/++theme++genweb6.theme/tinymce_templates/composicions/imatge-dreta-text.html"
-    },
-    {
-      "title-ca": "Composició - Imatge text lateral superposat",
-      "title-es": "Composición - Imagen texto lateral superpuesto",
-      "title-en": "Compilation - Lateral overlay text image",
-      "url": "/++theme++genweb6.theme/tinymce_templates/composicions/imatge-text-lateral-superposat.html"
-    },
-    {
-      "title-ca": "Composició - Imatge text superposat clar",
-      "title-es": "Composición - Imagen texto superpuesto claro",
-      "title-en": "Compilation - Light overlay text image",
-      "url": "/++theme++genweb6.theme/tinymce_templates/composicions/imatge-text-superposat-clar.html"
+      "title-ca": "Composició - Conjunt imatge llista opcions",
+      "title-es": "Composición - Conjunto imagen lista opciones",
+      "title-en": "Compilation - Image option list set",
+      "url": "/++theme++genweb6.theme/tinymce_templates/continguts/conjunt.html"
     },
     {
       "title-ca": "Composició - Imatge text superposat fosc",
@@ -385,21 +228,16 @@ templates = [
       "url": "/++theme++genweb6.theme/tinymce_templates/composicions/targetes.html"
     },
     {
-      "title-ca": "Composició - Items amb icones destacats",
-      "title-es": "Composición - Items con iconos destacados",
-      "title-en": "Compilation - Featured hanging icons",
-      "url": "/++theme++genweb6.theme/tinymce_templates/composicions/items-icones.html"
-    },
-    {
       "title-ca": "Composició - Items parrilla icones",
       "title-es": "Composición - Items parrilla iconos",
       "title-en": "Compilation - Featured icon grid",
       "url": "/++theme++genweb6.theme/tinymce_templates/composicions/items-parrilla.html"
     },
     {
-      "title-ca": "Avançada - Modal",
-      "title-es": "Avanzada - Modal",
-      "title-en": "Advanced - Modal",
-      "url": "/++theme++genweb6.theme/tinymce_templates/avancades/modal.html"
+      "title-ca": "Composició - 2 columnes Llistat icones",
+      "title-es": "Composición - 2 columnas Listado iconos",
+      "title-en": "Compilation - 2 columns Icons list",
+      "url": "/++theme++genweb6.theme/tinymce_templates/composicions/llistat-icones.html"
     }
+    
 ]

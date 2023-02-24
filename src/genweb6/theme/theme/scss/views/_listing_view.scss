@@ -9,7 +9,7 @@ body.template-listing_view {
 				text-decoration: none;
 
 				&.url {
-					font-size: 28px;
+					font-size: var(--gw-font-size-xxl);
 				}
 			}
 		}

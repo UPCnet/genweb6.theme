@@ -1,4 +1,4 @@
-body.template-versions-history-form{
+body.template-versions-history-form {
 
 	#content-core {
 
@@ -84,6 +84,13 @@ body.template-historyview {
 }
 
 body.template-versions_history_form {
+	
+	#content {
+
+		h1 {
+			font-size: 32px;
+		}
+	}
 	
 	#portal-column-content {
 

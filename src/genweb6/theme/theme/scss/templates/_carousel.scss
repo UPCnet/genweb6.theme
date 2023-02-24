@@ -23,28 +23,29 @@
       background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
       background-color: #ffffffbd;
 
-      .title {
-        order: 1;
+    }
+
+    .title {
+      order: 1;
+      font-weight: 700;
+
+      * {
         color: var(--bs-dark);
-        font-weight: 700;
-
-        h5 {
-          color: var(--bs-dark);
-        }
-
-        &:first-child {
-          white-space: normal;
-          margin-bottom: 0.25rem;
-        }
+        font-size: var(--gw-font-size-xl);
       }
 
-      .description {
-        order: 2;
+      &:first-child {
+        white-space: normal;
+        margin-bottom: 0.25rem;
       }
+    }
 
-      .time {
-        order: 3;
-      }
+    .description {
+      order: 2;
+    }
+
+    .time {
+      order: 3;
     }
   }
 }
@@ -57,6 +58,17 @@
     width: calc(100% - 5rem);
 
     .carousel-item {
+
+      a.title {
+
+        &:hover {
+          color: var(--bs-primary);
+
+          * {
+            color: var(--bs-primary);
+          }
+        }
+      }
 
       img {
         aspect-ratio: 4 / 3;

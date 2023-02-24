@@ -11,26 +11,27 @@
 	    list-style: none;
 
 	    .card {
-	      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-	      height: 250px;
-	      min-width: 150px;
-	      position: relative;
-	      display: block;
-	      transition: all .25s ease-out;
-	      overflow: hidden;
+			box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+			min-height: 250px;
+			min-width: 150px;
+			position: relative;
+			transition: all .25s ease-out;
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+			align-content: space-around;
+			justify-content: space-between;
+			height: 100%;
+			align-items: stretch;
 
 	      .event-time {
 	        opacity: 0.9;
-	        background-image: linear-gradient(90deg, #00BCD4 0%, #007bc1 100%);
+	        background-image: linear-gradient(90deg, #01A3FF 0%, #005a8e 100%);
 	        width: 134px;
 	        height: 134px;
 	        border-radius: 50%;
-	        position: absolute;
-	        left: 18px;
-	        display: table-cell;
-	        text-align: center;
-	        left: calc(50% - 67px);
-	        top: calc(50% - 67px - 45px);
+					text-align: center;
+					margin: 10px auto;
 
 	        .event-time--wrap {
 	          top: 50%;
@@ -70,29 +71,36 @@
 	      }
 
 	      .event-title {
-	      	font-size: 1.125rem;
-	      	font-weight: 300;
-	        color: var(--bs-primary);
-	        height: 84px;
-	        background: rgba(255, 255, 255, 0.9);
-	        position: absolute;
-	        margin: 0;
-	        bottom: 0;
-	        width: 100%;
-	        padding: 12px;
-	        text-align: center;
-	        display: flex;
-	        align-items: center;
-	        justify-content: center;
-	        box-sizing: border-box;
+					font-size: 1.125rem;
+					font-weight: 300;
+					color: var(--bs-primary);
+					height: auto;
+					background: rgba(255,255,255,.9);
+					margin: 0;
+					width: 100%;
+					padding: 12px;
+					text-align: center;
+					position: inherit;
+	        flex: 1;
 	      }
 
 	      &:hover {
-	        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 5px 10px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05);
 	        text-decoration: none;
 	        background-color: #F6F7F7;
 	        transform: perspective(1px) scale(1.00775, 1.00775) translateZ(0px);
 	        -webkit-font-smoothing: subpixel-antialiased;
+					box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+					min-height: 250px;
+					min-width: 150px;
+					position: relative;
+					transition: all .25s ease-out;
+					display: flex;
+					flex-wrap: wrap;
+					flex-direction: column;
+					align-content: space-around;
+					justify-content: space-between;
+					height: 100%;
+					align-items: stretch;
 
 	        .event-time {
 
@@ -118,11 +126,12 @@
 	        	}
 	        }
 	      }
-	    }
-	  }
+			}
+		}
 	} 
 	
 	.portlet-footer {
+
 		a {
 			text-decoration: none;
 		}

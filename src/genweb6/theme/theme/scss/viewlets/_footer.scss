@@ -13,13 +13,18 @@ footer#portal-footer-wrapper {
   }
 }
 
+
 #portal-footer {
   position: relative;
 
   &.image-theme {
 
-    * {
-      color: var(--bs-white) !important;
+    a {
+      color: #FFF !important;
+
+      &:hover {
+        color: var(--bs-primary) !important;
+      }
     }
 
     &::before {
@@ -38,12 +43,15 @@ footer#portal-footer-wrapper {
     }
   }
 
-  &.light-theme #footer-complementary,
   &.dark-theme {
     background-color: #212529;
 
-    * {
-      color: var(--bs-white) !important;
+    a {
+      color: #FFF !important;
+
+      &:hover {
+        color: var(--bs-primary) !important;
+      }
     }
   }
 
@@ -126,15 +134,19 @@ footer#portal-footer-wrapper {
     padding-bottom: 0;
     display: flex;
     flex-wrap: wrap;
-   
+    justify-content: space-between;
 
     & > li {
-      flex-basis: 24%;
+      flex-basis: 16%;
       list-style: none;
       font-weight: 500;
       font-size: var(--gw-font-size-xxxl);
       margin-top: 2em;
       padding-right: 2em;
+
+      @media (max-width: 1200px) {
+        flex-basis: 24%;
+      }
 
       @media (max-width: 992px) {
         flex-basis: 33%;
@@ -206,6 +218,7 @@ footer#portal-footer-wrapper {
             margin-bottom: 5px;
 
             &:hover {
+              color: var(--bs-primary) !important;
               font-weight: 500;
             }
           }
@@ -226,14 +239,18 @@ footer#portal-footer-wrapper {
   }
 }
 
-#footer-complementary {
+#portal-footer #footer-complementary {
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 0 4em;
+  background-color: #FFF !important;
+
+  * {
+    color: var(--bs-primary) !important;
+  }
 
   p {
     display: inline-block;
     margin: 18px 0;
-    color: #FFF;
   }
 
   nav {
@@ -252,11 +269,16 @@ footer#portal-footer-wrapper {
       padding: 0;
 
       a {
-        color: #FFF;
+        color: var(--bs-primary) !important;
         text-decoration: none;
 
         &:hover {
           font-weight: 400;
+          color: var(--bs-primary) !important;
+        }
+
+        &::after {
+          font-size: 0.9rem;
         }
       }
     }
