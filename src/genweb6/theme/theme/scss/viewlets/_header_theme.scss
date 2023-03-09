@@ -2,7 +2,8 @@
 
 #header.light-theme.bshadow,
 #header.light-theme.shink,
-#header.light-to-dark-theme.bshadow:not(.shink) {
+#header.light-to-dark-theme.bshadow,
+#header.light-to-dark-theme.shink {
     box-shadow: 0 7px 8px #00000033;
 }
 

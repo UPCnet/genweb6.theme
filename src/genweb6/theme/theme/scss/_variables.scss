@@ -3,6 +3,8 @@
   --bs-primary-ligthen-20: #01A3FF;
   --bs-primary-rgb: 0, 123, 193;
   --bs-primary-hover: #{darken(#007BC1, 10%)};
+  --bs-link-color: #007BC1;
+  --bs-link-color-hover: #{darken(#007BC1, 10%)};
 
   --gw-font-size-l: calc(var(--bs-body-font-size) * 1.075);
   --gw-font-size-xl: calc(var(--gw-font-size-l) * 1.075);

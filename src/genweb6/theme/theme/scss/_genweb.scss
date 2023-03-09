@@ -43,6 +43,12 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+.h3,
+h3 {
+  font-size: 1.563rem;
+  margin-bottom: 1.5rem;
+}
+
 #content {
 
   .h1,
@@ -335,4 +341,8 @@ body.userrole-authenticated {
   svg {
     vertical-align: baseline;
   }
+}
+
+div.linkModal div.linkTypes {
+  line-height: 1.65 !important;
 }

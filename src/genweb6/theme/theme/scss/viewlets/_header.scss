@@ -131,7 +131,7 @@ body:not([class*="section-"]) {
             background: var(--bs-white);
             position: absolute;
             right: 0;
-            bottom: 2px;
+            bottom: 0;
             z-index: 1000;
           }
 
@@ -297,7 +297,7 @@ body:not([class*="section-"]) {
   #portal-logos {
 
     img {
-      max-height: 40px;
+      /* max-height: 40px; */
 
       &.img-desktop {
         display: none;
