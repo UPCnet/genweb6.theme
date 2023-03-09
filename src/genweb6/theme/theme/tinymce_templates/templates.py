@@ -1,9 +1,21 @@
 templates = [
     {
-      "title-ca": "Destacat - Estàndar",
-      "title-es": "Destacado - Estándar",
-      "title-en": "Featured - Standard",
+      "title-ca": "Destacat - Caixa",
+      "title-es": "Destacado - Caja",
+      "title-en": "Featured - Box",
+      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/caixa.html"
+    },
+	{
+      "title-ca": "Destacat - Caixa fons gris",
+      "title-es": "Destacado - Caja fondo gris",
+      "title-en": "Featured - Box gray background",
       "url": "/++theme++genweb6.theme/tinymce_templates/destacat/estandar.html"
+    },
+    {
+      "title-ca": "Destacat - Caixa info fons gris",
+      "title-es": "Destacado - Caja info fondo gris",
+      "title-en": "Featured - Box info gray background",
+      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/caixa-info-gris.html"
     },
     {
       "title-ca": "Destacat - Color",
@@ -18,18 +30,6 @@ templates = [
       "url": "/++theme++genweb6.theme/tinymce_templates/destacat/contorn.html"
     },
     {
-      "title-ca": "Destacat - Caixa",
-      "title-es": "Destacado - Caja",
-      "title-en": "Featured - Box",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/caixa.html"
-    },
-    {
-      "title-ca": "Destacat - Caixa amb info fons gris",
-      "title-es": "Destacado - Caja con info fondo gris",
-      "title-en": "Featured - Box with info gray background list",
-      "url": "/++theme++genweb6.theme/tinymce_templates/destacat/caixa-info-gris.html"
-    },
-    {
       "title-ca": "Destacat - Frase destacada",
       "title-es": "Destacado - Frase destacada",
       "title-en": "Featured - Featured phrase",
@@ -41,37 +41,7 @@ templates = [
       "title-en": "Featured - Numerical data",
       "url": "/++theme++genweb6.theme/tinymce_templates/destacat/dades-numeriques.html"
     },
-    {
-      "title-ca": "Crida a l'acció - Call to action: Text amb imatge centrada",
-      "title-es": "Llamada a la acción - Call to action: Texto con imagen centrada",
-      "title-en": "Call to action - Call to action: Text with centered image",
-      "url": "/++theme++genweb6.theme/tinymce_templates/cto/cto-imatge-centrada.html"
-    },
-    {
-      "title-ca": "Crida a l'acció - Call to action: Text amb imatge esquerra",
-      "title-es": "Llamada a la acción - Call to action: Texto con imagen izquierda",
-      "title-en": "Call to action - Call to action: Text with left image",
-      "url": "/++theme++genweb6.theme/tinymce_templates/cto/cto-imatge-esquerra.html"
-    },
-    {
-      "title-ca": "Crida a l'acció - Call to action: Text amb imatge dreta",
-      "title-es": "Llamada a la acción - Call to action: Texto con imagen derecha",
-      "title-en": "Call to action - Call to action: text with right image",
-      "url": "/++theme++genweb6.theme/tinymce_templates/cto/cto-imatge-dreta.html"
-    },
-    {
-      "title-ca": "Crida a l'acció - Call to action: Text amb imatge retallada amb ombra",
-      "title-es": "Llamada a la acción - Call to action: Texto con imagen recortada con sombra",
-      "title-en": "Call to action - Call to action: Text with cropped image with drop shadow",
-      "url": "/++theme++genweb6.theme/tinymce_templates/cto/cto-imatge-retallada.html"
-    },
-    {
-      "title-ca": "Crida a l'acció - Call to action: Text amb fons fosc",
-      "title-es": "Llamada a la acción - Call to action: Texto con fondo oscuro",
-      "title-en": "Call to action - Call to action: Text with dark background",
-      "url": "/++theme++genweb6.theme/tinymce_templates/cto/cto-fosc.html"
-    },
-    {
+	{
       "title-ca": "Columnes - 2",
       "title-es": "Columnas - 2",
       "title-en": "Columns - 2",
@@ -101,17 +71,17 @@ templates = [
       "title-en": "Columns - 3/4 vs 1/4",
       "url": "/++theme++genweb6.theme/tinymce_templates/columnes/34-vs-14.html"
     },
-    {
+	{
+      "title-ca": "Llistat - Contorn",
+      "title-es": "Listado - Contorno",
+      "title-en": "List - Outlined",
+      "url": "/++theme++genweb6.theme/tinymce_templates/llistats/llistat-grup.html"
+    },
+	{
       "title-ca": "Llistat - Enllaços",
       "title-es": "Listado - Enlaces",
       "title-en": "List - Links",
       "url": "/++theme++genweb6.theme/tinymce_templates/llistats/llistat-enllaços.html"
-    },
-    {
-      "title-ca": "Llistat - Grup",
-      "title-es": "Listado - Grupo",
-      "title-en": "List - Group",
-      "url": "/++theme++genweb6.theme/tinymce_templates/llistats/llistat-grup.html"
     },
     {
       "title-ca": "Bàner - Blau",
@@ -124,12 +94,6 @@ templates = [
       "title-es": "Baner - Gris",
       "title-en": "Banner - Grey",
       "url": "/++theme++genweb6.theme/tinymce_templates/baners/baner-gris.html"
-    },
-    {
-      "title-ca": "Bàner - Gris info",
-      "title-es": "Baner - Gris info",
-      "title-en": "Banner - Grey info",
-      "url": "/++theme++genweb6.theme/tinymce_templates/baners/baner-gris-info.html"
     },
     {
       "title-ca": "Bàner - Blau info",
@@ -168,27 +132,15 @@ templates = [
       "url": "/++theme++genweb6.theme/tinymce_templates/botons/boto-outline-blau.html"
     },
     {
-      "title-ca": "Botó - Outline gris",
-      "title-es": "Botón - Outline gris",
-      "title-en": "Button - Grey outline",
-      "url": "/++theme++genweb6.theme/tinymce_templates/botons/boto-outline-gris.html"
-    },
-    {
-      "title-ca": "Botó - Outline fosc",
-      "title-es": "Botón - Outline oscuro",
-      "title-en": "Button - Dark outlinke",
-      "url": "/++theme++genweb6.theme/tinymce_templates/botons/boto-outline-fosc.html"
-    },
-    {
-      "title-ca": "Taula - Estàndar",
-      "title-es": "Tabla - Estandar",
-      "title-en": "Table - Standard",
+      "title-ca": "Taula - Columnes destacades",
+      "title-es": "Tabla - Columnas destacadas",
+      "title-en": "Table - Featured columns",
       "url": "/++theme++genweb6.theme/tinymce_templates/taules/estandar.html"
     },    
     {
-      "title-ca": "Taula - Amb estils",
-      "title-es": "Tabla - Con estilos",
-      "title-en": "Table - Style applicated",
+      "title-ca": "Taula - Ratllada",
+      "title-es": "Tabla - Rallada",
+      "title-en": "Table - Striped",
       "url": "/++theme++genweb6.theme/tinymce_templates/taules/estils.html"
     },
     {
@@ -196,6 +148,30 @@ templates = [
       "title-es": "Tabla - Filas destacadas",
       "title-en": "Table - Featured rows",
       "url": "/++theme++genweb6.theme/tinymce_templates/taules/destacades.html"
+    },
+	{
+      "title-ca": "Crida a l'acció - Text amb imatge centrada",
+      "title-es": "Llamada a la acción - Texto con imagen centrada",
+      "title-en": "Call to action - Text with centered image",
+      "url": "/++theme++genweb6.theme/tinymce_templates/cto/cto-imatge-centrada.html"
+    },
+    {
+      "title-ca": "Crida a l'acció - Text amb imatge esquerra",
+      "title-es": "Llamada a la acción - Texto con imagen izquierda",
+      "title-en": "Call to action - Text with left image",
+      "url": "/++theme++genweb6.theme/tinymce_templates/cto/cto-imatge-esquerra.html"
+    },
+    {
+      "title-ca": "Crida a l'acció - Text amb imatge dreta",
+      "title-es": "Llamada a la acción - Texto con imagen derecha",
+      "title-en": "Call to action - Text with right image",
+      "url": "/++theme++genweb6.theme/tinymce_templates/cto/cto-imatge-dreta.html"
+    },
+    {
+      "title-ca": "Crida a l'acció - Text amb fons fosc",
+      "title-es": "Llamada a la acción - Texto con fondo oscuro",
+      "title-en": "Call to action - Text with dark background",
+      "url": "/++theme++genweb6.theme/tinymce_templates/cto/cto-fosc.html"
     },
     {
       "title-ca": "Composició - Àlbum imatges",
@@ -220,12 +196,6 @@ templates = [
       "title-es": "Composición - Columna de soporte",
       "title-en": "Compilation - Support column",
       "url": "/++theme++genweb6.theme/tinymce_templates/composicions/columna.html"
-    },
-    {
-      "title-ca": "Composició - Targetes amb imatge de fons",
-      "title-es": "Composición - Tarjetas con imagen de fondo",
-      "title-en": "Compilation - Card background image",
-      "url": "/++theme++genweb6.theme/tinymce_templates/composicions/targetes.html"
     },
     {
       "title-ca": "Composició - Items parrilla icones",
