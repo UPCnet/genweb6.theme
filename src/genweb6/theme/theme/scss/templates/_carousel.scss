@@ -3,6 +3,10 @@
 
   .carousel-item {
 
+    a[target="_blank"]::after {
+      display: none;
+    }
+
     img {
       object-fit: cover;
       width: 100%;

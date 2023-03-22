@@ -8484,13 +8484,19 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 }
 
 /* line 6, ../scss/templates/_carousel.scss */
+.template-carousel .carousel-item a[target="_blank"]::after,
+.template-multiple-carousel .carousel-item a[target="_blank"]::after {
+  content: "";
+  display: none;
+}
+/* line 11, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item img,
 .template-multiple-carousel .carousel-item img {
   object-fit: cover;
   width: 100%;
   aspect-ratio: 16 / 9;
 }
-/* line 12, ../scss/templates/_carousel.scss */
+/* line 17, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .carousel-caption,
 .template-multiple-carousel .carousel-item .carousel-caption {
   width: 100%;
@@ -8506,75 +8512,75 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   background-color: #ffffffbd;
 }
-/* line 28, ../scss/templates/_carousel.scss */
+/* line 33, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .title,
 .template-multiple-carousel .carousel-item .title {
   order: 1;
   font-weight: 700;
 }
-/* line 32, ../scss/templates/_carousel.scss */
+/* line 37, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .title *,
 .template-multiple-carousel .carousel-item .title * {
   color: var(--bs-dark);
   font-size: var(--gw-font-size-xl);
 }
-/* line 37, ../scss/templates/_carousel.scss */
+/* line 42, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .title:first-child,
 .template-multiple-carousel .carousel-item .title:first-child {
   white-space: normal;
   margin-bottom: 0.25rem;
 }
-/* line 43, ../scss/templates/_carousel.scss */
+/* line 48, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .description,
 .template-multiple-carousel .carousel-item .description {
   order: 2;
 }
-/* line 47, ../scss/templates/_carousel.scss */
+/* line 52, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .time,
 .template-multiple-carousel .carousel-item .time {
   order: 3;
 }
 
-/* line 55, ../scss/templates/_carousel.scss */
+/* line 60, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner {
   margin-right: 2.5rem;
   margin-left: 2.5rem;
   width: calc(100% - 5rem);
 }
-/* line 64, ../scss/templates/_carousel.scss */
+/* line 69, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item a.title:hover {
   color: var(--bs-primary);
 }
-/* line 67, ../scss/templates/_carousel.scss */
+/* line 72, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item a.title:hover * {
   color: var(--bs-primary);
 }
-/* line 73, ../scss/templates/_carousel.scss */
+/* line 78, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item img {
   aspect-ratio: 4 / 3;
 }
-/* line 83, ../scss/templates/_carousel.scss */
+/* line 88, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-control-prev i.bi,
 .template-multiple-carousel .carousel-control-next i.bi {
   font-size: 2rem;
   color: var(--bs-primary);
 }
-/* line 87, ../scss/templates/_carousel.scss */
+/* line 92, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-control-prev i.bi:hover,
 .template-multiple-carousel .carousel-control-next i.bi:hover {
   color: var(--bs-primary-hover);
 }
 @media (max-width: 767px) {
-  /* line 95, ../scss/templates/_carousel.scss */
+  /* line 100, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item > div {
     display: none;
   }
-  /* line 99, ../scss/templates/_carousel.scss */
+  /* line 104, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item > div:first-child {
     display: block;
   }
 }
-/* line 105, ../scss/templates/_carousel.scss */
+/* line 110, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item.active,
 .template-multiple-carousel .carousel-inner .carousel-item-next,
 .template-multiple-carousel .carousel-inner .carousel-item-prev {
@@ -8582,72 +8588,72 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   gap: 2rem;
 }
 @media (max-width: 767px) {
-  /* line 114, ../scss/templates/_carousel.scss */
+  /* line 119, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(100%);
   }
-  /* line 119, ../scss/templates/_carousel.scss */
+  /* line 124, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(-100%);
   }
 }
 @media (min-width: 768px) {
-  /* line 127, ../scss/templates/_carousel.scss */
+  /* line 132, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(calc(100% / 3));
   }
-  /* line 132, ../scss/templates/_carousel.scss */
+  /* line 137, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(calc(-100% / 3));
   }
-  /* line 139, ../scss/templates/_carousel.scss */
+  /* line 144, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-item.active.carousel-item-start > .w-100:not(:first-child) {
     opacity: 0;
   }
-  /* line 146, ../scss/templates/_carousel.scss */
+  /* line 151, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-item.active.carousel-item-end > .w-100:not(:last-child) {
     opacity: 0;
   }
 }
 @media (min-width: 992px) {
-  /* line 154, ../scss/templates/_carousel.scss */
+  /* line 159, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(25%);
   }
-  /* line 159, ../scss/templates/_carousel.scss */
+  /* line 164, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(-25%);
   }
 }
-/* line 165, ../scss/templates/_carousel.scss */
+/* line 170, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item-end,
 .template-multiple-carousel .carousel-inner .carousel-item-start {
   transform: translateX(0);
 }
 
-/* line 180, ../scss/templates/_carousel.scss */
+/* line 185, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item img,
 .col-md-3 > .portletWrapper .template-carousel .carousel-item img {
   aspect-ratio: 1;
 }
-/* line 184, ../scss/templates/_carousel.scss */
+/* line 189, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item p,
 .col-md-3 > .portletWrapper .template-carousel .carousel-item p {
   font-size: 14px;
 }
-/* line 188, ../scss/templates/_carousel.scss */
+/* line 193, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item h6,
 .col-md-3 > .portletWrapper .template-carousel .carousel-item h6 {
   color: var(--bs-dark);
 }
 
-/* line 204, ../scss/templates/_carousel.scss */
+/* line 209, ../scss/templates/_carousel.scss */
 .col-md-4 > .portletWrapper .template-carousel .carousel-item img {
   aspect-ratio: 4 / 3;
 }
@@ -10054,6 +10060,13 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
     margin-left: 0;
   }
 }
+/* line 309, ../scss/viewlets/_footer.scss */
+body.template-manage-subhome article#content footer#portal-footer-wrapper,
+body.template-manage-portlets article#content footer#portal-footer-wrapper,
+body.template-manage-homeportlets article#content footer#portal-footer-wrapper {
+  display: none;
+}
+
 /* line 1, ../scss/viewlets/_header.scss */
 #header-cintillo {
   width: 100%;
@@ -11010,6 +11023,15 @@ body.template-confirm-action .container input.standalone:hover {
     width: 100%;
   }
 }
+/* line 3, ../scss/views/_manage_portlets.scss */
+body.template-manage-portlets div.managedPortlet {
+  margin-bottom: .5rem;
+}
+/* line 9, ../scss/views/_manage_portlets.scss */
+body.template-manage-portlets #content-core .btn {
+  margin-bottom: .5rem;
+}
+
 /* line 3, ../scss/views/_search.scss */
 body.template-search h1 {
   font-size: 32px;

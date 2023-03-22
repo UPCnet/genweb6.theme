@@ -298,3 +298,16 @@ footer#portal-footer-wrapper {
     }
   }
 }
+
+
+body.template-manage-subhome,
+body.template-manage-portlets,
+body.template-manage-homeportlets {
+
+  article#content {
+
+    footer#portal-footer-wrapper {
+      display: none;
+    }
+  }
+}
