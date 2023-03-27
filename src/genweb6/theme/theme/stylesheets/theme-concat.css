@@ -19206,8 +19206,25 @@ body.template-manage-viewlets header {
 body.template-edit div.pat-relateditems-dropdown .select2-results {
   max-height: 450px;
 }
+/* line 160, ../scss/_genweb.scss */
+body.template-edit table.ordered-selection-field tbody {
+  width: 100%;
+}
+/* line 165, ../scss/_genweb.scss */
+body.template-edit table.ordered-selection-field tbody td:nth-child(1), body.template-edit table.ordered-selection-field tbody td:nth-child(3) {
+  width: 45%;
+}
+/* line 170, ../scss/_genweb.scss */
+body.template-edit table.ordered-selection-field tbody td button {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+/* line 174, ../scss/_genweb.scss */
+body.template-edit table.ordered-selection-field tbody td button:first-child {
+  margin-bottom: 0.5rem;
+}
 
-/* line 159, ../scss/_genweb.scss */
+/* line 184, ../scss/_genweb.scss */
 [id^="formfield-form-widgets-fieldset"] {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -19215,78 +19232,78 @@ body.template-edit div.pat-relateditems-dropdown .select2-results {
   display: inline-block;
   width: 100%;
 }
-/* line 166, ../scss/_genweb.scss */
+/* line 191, ../scss/_genweb.scss */
 [id^="formfield-form-widgets-fieldset"] h2 {
   font-size: 1.75rem;
 }
 
-/* line 171, ../scss/_genweb.scss */
+/* line 196, ../scss/_genweb.scss */
 .fs-m {
   font-size: var(--bs-body-font-size) !important;
 }
 
-/* line 175, ../scss/_genweb.scss */
+/* line 200, ../scss/_genweb.scss */
 .fs-l {
   font-size: var(--gw-font-size-l) !important;
 }
 
-/* line 179, ../scss/_genweb.scss */
+/* line 204, ../scss/_genweb.scss */
 .fs-s {
   font-size: var(--gw-font-size-s) !important;
 }
 
-/* line 183, ../scss/_genweb.scss */
+/* line 208, ../scss/_genweb.scss */
 .fs-xl {
   font-size: var(--gw-font-size-xl) !important;
 }
 
-/* line 187, ../scss/_genweb.scss */
+/* line 212, ../scss/_genweb.scss */
 .fs-xs {
   font-size: var(--gw-font-size-xs) !important;
 }
 
-/* line 191, ../scss/_genweb.scss */
+/* line 216, ../scss/_genweb.scss */
 .fs-xxl {
   font-size: var(--gw-font-size-xxl) !important;
 }
 
-/* line 195, ../scss/_genweb.scss */
+/* line 220, ../scss/_genweb.scss */
 .fs-xxs {
   font-size: var(--gw-font-size-xxs) !important;
 }
 
-/* line 199, ../scss/_genweb.scss */
+/* line 224, ../scss/_genweb.scss */
 .fs-xxxl {
   font-size: var(--gw-font-size-xxxl) !important;
 }
 
-/* line 203, ../scss/_genweb.scss */
+/* line 228, ../scss/_genweb.scss */
 .fs-xxxs {
   font-size: var(--gw-font-size-xxs) !important;
 }
 
-/* line 207, ../scss/_genweb.scss */
+/* line 232, ../scss/_genweb.scss */
 .text-justify {
   text-align: justify;
 }
 
-/* line 211, ../scss/_genweb.scss */
+/* line 236, ../scss/_genweb.scss */
 code.code-editor {
   border: 1px solid var(--bs-dark);
 }
 
-/* line 215, ../scss/_genweb.scss */
+/* line 240, ../scss/_genweb.scss */
 iframe,
 video {
   max-width: 100%;
 }
 
-/* line 220, ../scss/_genweb.scss */
+/* line 245, ../scss/_genweb.scss */
 button#form-buttons-Delete {
   margin-right: 1rem;
 }
 
-/* line 224, ../scss/_genweb.scss */
+/* line 249, ../scss/_genweb.scss */
 .back-to-top {
   background: none;
   margin: 0;
@@ -19299,112 +19316,112 @@ button#form-buttons-Delete {
   text-decoration: none;
   color: var(--bs-primary);
 }
-/* line 236, ../scss/_genweb.scss */
+/* line 261, ../scss/_genweb.scss */
 .back-to-top:hover, .back-to-top:active, .back-to-top:focus {
   color: var(--bs-primary-hover);
 }
-/* line 242, ../scss/_genweb.scss */
+/* line 267, ../scss/_genweb.scss */
 .back-to-top svg {
   width: 45px;
   height: 45px;
 }
 
 /* Los colores de los estados de cada elemento solo se podrán ver una vez logueado */
-/* line 251, ../scss/_genweb.scss */
+/* line 276, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone #plone-contentmenu-workflow:hover [class^="label-state-"] {
   color: var(--bs-white) !important;
 }
-/* line 255, ../scss/_genweb.scss */
+/* line 280, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-visible {
   color: var(--gw-state-visible) !important;
 }
-/* line 259, ../scss/_genweb.scss */
+/* line 284, ../scss/_genweb.scss */
 body.userrole-authenticated .state-visible {
   color: var(--gw-state-visible) !important;
 }
-/* line 262, ../scss/_genweb.scss */
+/* line 287, ../scss/_genweb.scss */
 body.userrole-authenticated .state-visible:hover {
   color: var(--gw-state-visible-hover) !important;
 }
-/* line 267, ../scss/_genweb.scss */
+/* line 292, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-draft {
   color: var(--gw-state-draft) !important;
 }
-/* line 271, ../scss/_genweb.scss */
+/* line 296, ../scss/_genweb.scss */
 body.userrole-authenticated .state-draft {
   color: var(--gw-state-draft) !important;
 }
-/* line 274, ../scss/_genweb.scss */
+/* line 299, ../scss/_genweb.scss */
 body.userrole-authenticated .state-draft:hover {
   color: var(--gw-state-draft-hover) !important;
 }
-/* line 279, ../scss/_genweb.scss */
+/* line 304, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-private {
   color: var(--gw-state-private) !important;
 }
-/* line 283, ../scss/_genweb.scss */
+/* line 308, ../scss/_genweb.scss */
 body.userrole-authenticated .state-private {
   color: var(--gw-state-private) !important;
 }
-/* line 286, ../scss/_genweb.scss */
+/* line 311, ../scss/_genweb.scss */
 body.userrole-authenticated .state-private:hover {
   color: var(--gw-state-private-hover) !important;
 }
-/* line 291, ../scss/_genweb.scss */
+/* line 316, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-intranet {
   color: var(--gw-state-intranet) !important;
 }
-/* line 295, ../scss/_genweb.scss */
+/* line 320, ../scss/_genweb.scss */
 body.userrole-authenticated .state-intranet {
   color: var(--gw-state-intranet) !important;
 }
-/* line 298, ../scss/_genweb.scss */
+/* line 323, ../scss/_genweb.scss */
 body.userrole-authenticated .state-intranet:hover {
   color: var(--gw-state-intranet-hover) !important;
 }
-/* line 303, ../scss/_genweb.scss */
+/* line 328, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-pending {
   color: var(--gw-state-pending) !important;
 }
-/* line 307, ../scss/_genweb.scss */
+/* line 332, ../scss/_genweb.scss */
 body.userrole-authenticated .state-pending {
   color: var(--gw-state-pending) !important;
 }
-/* line 310, ../scss/_genweb.scss */
+/* line 335, ../scss/_genweb.scss */
 body.userrole-authenticated .state-pending:hover {
   color: var(--gw-state-pending-hover) !important;
 }
-/* line 315, ../scss/_genweb.scss */
+/* line 340, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-published {
   color: var(--gw-state-published) !important;
 }
-/* line 319, ../scss/_genweb.scss */
+/* line 344, ../scss/_genweb.scss */
 body.userrole-authenticated .state-published {
   color: var(--gw-state-published) !important;
 }
-/* line 322, ../scss/_genweb.scss */
+/* line 347, ../scss/_genweb.scss */
 body.userrole-authenticated .state-published:hover {
   color: var(--gw-state-published-hover) !important;
 }
-/* line 327, ../scss/_genweb.scss */
+/* line 352, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-restricted-to-managers {
   color: var(--gw-state-restricted-to-managers) !important;
 }
-/* line 331, ../scss/_genweb.scss */
+/* line 356, ../scss/_genweb.scss */
 body.userrole-authenticated .state-restricted-to-managers {
   color: var(--gw-state-restricted-to-managers) !important;
 }
-/* line 334, ../scss/_genweb.scss */
+/* line 359, ../scss/_genweb.scss */
 body.userrole-authenticated .state-restricted-to-managers:hover {
   color: var(--gw-state-restricted-to-managers-hover) !important;
 }
 
-/* line 341, ../scss/_genweb.scss */
+/* line 366, ../scss/_genweb.scss */
 .favorites.dropdown.dropdown-menu-end.ms-2 svg {
   vertical-align: baseline;
 }
 
-/* line 346, ../scss/_genweb.scss */
+/* line 371, ../scss/_genweb.scss */
 div.linkModal div.linkTypes {
   line-height: 1.65 !important;
 }
@@ -20726,7 +20743,7 @@ body#tinymce [class*=" icon-"],
   height: 14px;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url(/++theme++genweb6.theme/img/gh.png);
+  background-image: url('/++theme++genweb6.theme/img/gh.png');
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 3px;
@@ -20767,7 +20784,7 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > li > a:hover > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class^="icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class*=" icon-"] {
-  background-image: url(/++theme++genweb6.theme/img/gh-w.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-w.png');
 }
 /* line 43, ../scss/old/_sprites.scss */
 .portletStaticText .icon-color,
@@ -20775,7 +20792,7 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 body#tinymce .icon-color,
 .mosaic-tile-content .icon-color,
 #content-core #parent-fieldname-text .icon-color {
-  background-image: url(/++theme++genweb6.theme/img/gh-c.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-c.png');
 }
 /* line 47, ../scss/old/_sprites.scss */
 .portletStaticText .icon-glass,
@@ -22900,7 +22917,7 @@ body#tinymce .icon-translate,
 body#tinymce .large-icon,
 .mosaic-tile-content .large-icon,
 #content-core #parent-fieldname-text .large-icon {
-  background-image: url(/++theme++genweb6.theme/img/gh-150.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-150.png');
   width: 21px;
   height: 21px;
   margin-top: -1px;
@@ -22960,7 +22977,7 @@ body#tinymce .large-icon.icon-user-news,
 body#tinymce .large-icon.icon-white,
 .mosaic-tile-content .large-icon.icon-white,
 #content-core #parent-fieldname-text .large-icon.icon-white {
-  background-image: url(/++theme++genweb6.theme/img/gh-150-w.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-150-w.png');
 }
 /* line 4, ../scss/old/_styles.scss */
 .portletStaticText .label,
@@ -24652,8 +24669,6 @@ body#tinymce .box.box-small,
 .gw-banner .defaultBanner a {
   background-color: var(--bs-primary);
   color: #FFFFFF !important;
-  font-weight: 600;
-  font-size: 1.25em;
   line-height: 1.25;
   padding: 10px 15px 10px 15px;
   text-decoration: none;
@@ -24662,33 +24677,38 @@ body#tinymce .box.box-small,
   justify-content: space-between;
   min-height: 60px;
 }
-/* line 25, ../scss/contents/_banner.scss */
+/* line 23, ../scss/contents/_banner.scss */
+.gw-banner .defaultBanner a .title {
+  font-weight: 600;
+  font-size: 1.25em;
+}
+/* line 28, ../scss/contents/_banner.scss */
 .gw-banner .defaultBanner a:hover {
   background-color: var(--bs-primary-hover);
   color: #FFFFFF !important;
 }
-/* line 30, ../scss/contents/_banner.scss */
+/* line 33, ../scss/contents/_banner.scss */
 .gw-banner .defaultBanner a i {
   margin-left: 20px;
 }
-/* line 33, ../scss/contents/_banner.scss */
+/* line 36, ../scss/contents/_banner.scss */
 .gw-banner .defaultBanner a i.icon-large {
   font-size: 8em;
   position: absolute;
-  right: -48px;
+  right: -3.5rem;
   opacity: 0.25;
 }
-/* line 43, ../scss/contents/_banner.scss */
+/* line 46, ../scss/contents/_banner.scss */
 .gw-banner a::after {
   display: none;
 }
-/* line 47, ../scss/contents/_banner.scss */
+/* line 50, ../scss/contents/_banner.scss */
 .gw-banner img {
   width: 100%;
   height: auto;
   background-color: var(--bs-primary);
 }
-/* line 52, ../scss/contents/_banner.scss */
+/* line 55, ../scss/contents/_banner.scss */
 .gw-banner img:hover {
   background-color: var(--bs-primary-hover);
 }
@@ -25547,17 +25567,16 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 /* line 6, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item a[target="_blank"]::after,
 .template-multiple-carousel .carousel-item a[target="_blank"]::after {
-  content: "";
   display: none;
 }
-/* line 11, ../scss/templates/_carousel.scss */
+/* line 10, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item img,
 .template-multiple-carousel .carousel-item img {
   object-fit: cover;
   width: 100%;
   aspect-ratio: 16 / 9;
 }
-/* line 17, ../scss/templates/_carousel.scss */
+/* line 16, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .carousel-caption,
 .template-multiple-carousel .carousel-item .carousel-caption {
   width: 100%;
@@ -25573,75 +25592,75 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   background-color: #ffffffbd;
 }
-/* line 33, ../scss/templates/_carousel.scss */
+/* line 32, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .title,
 .template-multiple-carousel .carousel-item .title {
   order: 1;
   font-weight: 700;
 }
-/* line 37, ../scss/templates/_carousel.scss */
+/* line 36, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .title *,
 .template-multiple-carousel .carousel-item .title * {
   color: var(--bs-dark);
   font-size: var(--gw-font-size-xl);
 }
-/* line 42, ../scss/templates/_carousel.scss */
+/* line 41, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .title:first-child,
 .template-multiple-carousel .carousel-item .title:first-child {
   white-space: normal;
   margin-bottom: 0.25rem;
 }
-/* line 48, ../scss/templates/_carousel.scss */
+/* line 47, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .description,
 .template-multiple-carousel .carousel-item .description {
   order: 2;
 }
-/* line 52, ../scss/templates/_carousel.scss */
+/* line 51, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .time,
 .template-multiple-carousel .carousel-item .time {
   order: 3;
 }
 
-/* line 60, ../scss/templates/_carousel.scss */
+/* line 59, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner {
   margin-right: 2.5rem;
   margin-left: 2.5rem;
   width: calc(100% - 5rem);
 }
-/* line 69, ../scss/templates/_carousel.scss */
+/* line 68, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item a.title:hover {
   color: var(--bs-primary);
 }
-/* line 72, ../scss/templates/_carousel.scss */
+/* line 71, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item a.title:hover * {
   color: var(--bs-primary);
 }
-/* line 78, ../scss/templates/_carousel.scss */
+/* line 77, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item img {
   aspect-ratio: 4 / 3;
 }
-/* line 88, ../scss/templates/_carousel.scss */
+/* line 87, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-control-prev i.bi,
 .template-multiple-carousel .carousel-control-next i.bi {
   font-size: 2rem;
   color: var(--bs-primary);
 }
-/* line 92, ../scss/templates/_carousel.scss */
+/* line 91, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-control-prev i.bi:hover,
 .template-multiple-carousel .carousel-control-next i.bi:hover {
   color: var(--bs-primary-hover);
 }
 @media (max-width: 767px) {
-  /* line 100, ../scss/templates/_carousel.scss */
+  /* line 99, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item > div {
     display: none;
   }
-  /* line 104, ../scss/templates/_carousel.scss */
+  /* line 103, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item > div:first-child {
     display: block;
   }
 }
-/* line 110, ../scss/templates/_carousel.scss */
+/* line 109, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item.active,
 .template-multiple-carousel .carousel-inner .carousel-item-next,
 .template-multiple-carousel .carousel-inner .carousel-item-prev {
@@ -25649,72 +25668,72 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   gap: 2rem;
 }
 @media (max-width: 767px) {
-  /* line 119, ../scss/templates/_carousel.scss */
+  /* line 118, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(100%);
   }
-  /* line 124, ../scss/templates/_carousel.scss */
+  /* line 123, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(-100%);
   }
 }
 @media (min-width: 768px) {
-  /* line 132, ../scss/templates/_carousel.scss */
+  /* line 131, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(calc(100% / 3));
   }
-  /* line 137, ../scss/templates/_carousel.scss */
+  /* line 136, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(calc(-100% / 3));
   }
-  /* line 144, ../scss/templates/_carousel.scss */
+  /* line 143, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-item.active.carousel-item-start > .w-100:not(:first-child) {
     opacity: 0;
   }
-  /* line 151, ../scss/templates/_carousel.scss */
+  /* line 150, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-item.active.carousel-item-end > .w-100:not(:last-child) {
     opacity: 0;
   }
 }
 @media (min-width: 992px) {
-  /* line 159, ../scss/templates/_carousel.scss */
+  /* line 158, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(25%);
   }
-  /* line 164, ../scss/templates/_carousel.scss */
+  /* line 163, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(-25%);
   }
 }
-/* line 170, ../scss/templates/_carousel.scss */
+/* line 169, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item-end,
 .template-multiple-carousel .carousel-inner .carousel-item-start {
   transform: translateX(0);
 }
 
-/* line 185, ../scss/templates/_carousel.scss */
+/* line 184, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item img,
 .col-md-3 > .portletWrapper .template-carousel .carousel-item img {
   aspect-ratio: 1;
 }
-/* line 189, ../scss/templates/_carousel.scss */
+/* line 188, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item p,
 .col-md-3 > .portletWrapper .template-carousel .carousel-item p {
   font-size: 14px;
 }
-/* line 193, ../scss/templates/_carousel.scss */
+/* line 192, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item h6,
 .col-md-3 > .portletWrapper .template-carousel .carousel-item h6 {
   color: var(--bs-dark);
 }
 
-/* line 209, ../scss/templates/_carousel.scss */
+/* line 208, ../scss/templates/_carousel.scss */
 .col-md-4 > .portletWrapper .template-carousel .carousel-item img {
   aspect-ratio: 4 / 3;
 }

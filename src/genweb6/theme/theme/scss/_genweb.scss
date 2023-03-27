@@ -154,6 +154,31 @@ body.template-edit {
       max-height: 450px;
     }
   }
+
+  table.ordered-selection-field {
+
+    tbody {
+      width: 100%;
+
+      td {
+
+        &:nth-child(1),
+        &:nth-child(3) {
+          width: 45%;
+        }
+
+        button {
+          margin-right: 1rem;
+          margin-left: 1rem;
+
+          &:first-child {
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
+
+    }
+  }
 }
 
 [id^="formfield-form-widgets-fieldset"] {
