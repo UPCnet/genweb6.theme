@@ -8489,11 +8489,15 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   display: none;
 }
 
-/* line 5, ../scss/portlets/_estatic.scss */
+/* line 1, ../scss/portlets/_estatic.scss */
+.portlet.portletStaticText {
+  margin-bottom: 1rem;
+}
+/* line 6, ../scss/portlets/_estatic.scss */
 .portlet.portletStaticText.portlet-static-con-contorno .card-header {
   font-weight: 500;
 }
-/* line 9, ../scss/portlets/_estatic.scss */
+/* line 10, ../scss/portlets/_estatic.scss */
 .portlet.portletStaticText.portlet-static-con-contorno a.tile {
   text-decoration: none;
 }
