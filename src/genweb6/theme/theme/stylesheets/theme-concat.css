@@ -19499,7 +19499,6 @@ body#tinymce,
   /* Rob Theme - Graella d'imatges amb enllaços */
   /* Rob Theme - Destacat amb imatge */
   /* Otros */
-  /* @import "fix_complex_templates"; */
 }
 /* line 1, ../scss/old/_banners.scss */
 .portletStaticText a[class^='link-banner'],
@@ -24651,6 +24650,97 @@ body#tinymce .box.box-small,
 .mosaic-tile-content .box.box-small,
 #content-core #parent-fieldname-text .box.box-small {
   padding: 0.5rem;
+}
+/* line 1, ../scss/old/_responsive_utilities.scss */
+.portletStaticText .hidden,
+.mceTmpl .hidden,
+body#tinymce .hidden,
+.mosaic-tile-content .hidden,
+#content-core #parent-fieldname-text .hidden {
+  display: none;
+  visibility: hidden;
+}
+/* line 6, ../scss/old/_responsive_utilities.scss */
+.portletStaticText .visible-phone,
+.portletStaticText .visible-tablet,
+.portletStaticText .hidden-desktop,
+.mceTmpl .visible-phone,
+.mceTmpl .visible-tablet,
+.mceTmpl .hidden-desktop,
+body#tinymce .visible-phone,
+body#tinymce .visible-tablet,
+body#tinymce .hidden-desktop,
+.mosaic-tile-content .visible-phone,
+.mosaic-tile-content .visible-tablet,
+.mosaic-tile-content .hidden-desktop,
+#content-core #parent-fieldname-text .visible-phone,
+#content-core #parent-fieldname-text .visible-tablet,
+#content-core #parent-fieldname-text .hidden-desktop {
+  display: none !important;
+}
+/* line 12, ../scss/old/_responsive_utilities.scss */
+.portletStaticText .visible-desktop,
+.mceTmpl .visible-desktop,
+body#tinymce .visible-desktop,
+.mosaic-tile-content .visible-desktop,
+#content-core #parent-fieldname-text .visible-desktop {
+  display: inherit !important;
+}
+@media only screen and (max-width: 979px) and (orientation: portrait), only screen and (max-width: 979px) and (orientation: landscape) {
+  /* line 19, ../scss/old/_responsive_utilities.scss */
+  .portletStaticText .visible-desktop,
+  .portletStaticText .hidden-tablet,
+  .mceTmpl .visible-desktop,
+  .mceTmpl .hidden-tablet,
+  body#tinymce .visible-desktop,
+  body#tinymce .hidden-tablet,
+  .mosaic-tile-content .visible-desktop,
+  .mosaic-tile-content .hidden-tablet,
+  #content-core #parent-fieldname-text .visible-desktop,
+  #content-core #parent-fieldname-text .hidden-tablet {
+    display: none !important;
+  }
+  /* line 24, ../scss/old/_responsive_utilities.scss */
+  .portletStaticText .hidden-desktop,
+  .portletStaticText .visible-tablet,
+  .mceTmpl .hidden-desktop,
+  .mceTmpl .visible-tablet,
+  body#tinymce .hidden-desktop,
+  body#tinymce .visible-tablet,
+  .mosaic-tile-content .hidden-desktop,
+  .mosaic-tile-content .visible-tablet,
+  #content-core #parent-fieldname-text .hidden-desktop,
+  #content-core #parent-fieldname-text .visible-tablet {
+    display: inherit !important;
+  }
+}
+@media only screen and (max-width: 639px) {
+  /* line 32, ../scss/old/_responsive_utilities.scss */
+  .portletStaticText .visible-desktop,
+  .portletStaticText .hidden-phone,
+  .mceTmpl .visible-desktop,
+  .mceTmpl .hidden-phone,
+  body#tinymce .visible-desktop,
+  body#tinymce .hidden-phone,
+  .mosaic-tile-content .visible-desktop,
+  .mosaic-tile-content .hidden-phone,
+  #content-core #parent-fieldname-text .visible-desktop,
+  #content-core #parent-fieldname-text .hidden-phone {
+    display: none !important;
+  }
+  /* line 37, ../scss/old/_responsive_utilities.scss */
+  .portletStaticText .hidden-desktop,
+  .portletStaticText .visible-phone,
+  .mceTmpl .hidden-desktop,
+  .mceTmpl .visible-phone,
+  body#tinymce .hidden-desktop,
+  body#tinymce .visible-phone,
+  .mosaic-tile-content .hidden-desktop,
+  .mosaic-tile-content .visible-phone,
+  #content-core #parent-fieldname-text .hidden-desktop,
+  #content-core #parent-fieldname-text .visible-phone {
+    display: inherit !important;
+  }
 }
 
 /* line 1, ../scss/contents/_banner.scss */
