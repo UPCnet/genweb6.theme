@@ -10120,65 +10120,71 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 0 4em;
   background-color: #FFF !important;
-  font-size: 0.875rem;
+  height: 60px;
 }
 /* line 248, ../scss/viewlets/_footer.scss */
-#portal-footer #footer-complementary * {
-  color: var(--bs-primary) !important;
+#portal-footer #footer-complementary p,
+#portal-footer #footer-complementary span,
+#portal-footer #footer-complementary a {
+  font-size: 0.875rem;
 }
-/* line 252, ../scss/viewlets/_footer.scss */
+/* line 254, ../scss/viewlets/_footer.scss */
 #portal-footer #footer-complementary p {
   display: inline-block;
-  margin: 18px 0;
+  margin: 19px 0;
 }
-/* line 257, ../scss/viewlets/_footer.scss */
+/* line 259, ../scss/viewlets/_footer.scss */
 #portal-footer #footer-complementary nav {
-  float: right;
-  margin: 18px 0;
+  margin: 10px 0;
   text-align: right;
 }
-/* line 262, ../scss/viewlets/_footer.scss */
+/* line 263, ../scss/viewlets/_footer.scss */
 #portal-footer #footer-complementary nav li {
   white-space: nowrap;
   margin-left: 24px;
 }
-/* line 267, ../scss/viewlets/_footer.scss */
+/* line 268, ../scss/viewlets/_footer.scss */
 #portal-footer #footer-complementary nav ul,
 #portal-footer #footer-complementary nav li {
   display: inline;
   padding: 0;
 }
-/* line 272, ../scss/viewlets/_footer.scss */
+/* line 273, ../scss/viewlets/_footer.scss */
 #portal-footer #footer-complementary nav ul a,
 #portal-footer #footer-complementary nav li a {
   color: var(--bs-primary) !important;
   text-decoration: none;
 }
-/* line 276, ../scss/viewlets/_footer.scss */
+/* line 277, ../scss/viewlets/_footer.scss */
 #portal-footer #footer-complementary nav ul a:hover,
 #portal-footer #footer-complementary nav li a:hover {
   font-weight: 400;
   color: var(--bs-primary) !important;
 }
-/* line 281, ../scss/viewlets/_footer.scss */
+/* line 282, ../scss/viewlets/_footer.scss */
 #portal-footer #footer-complementary nav ul a::after,
 #portal-footer #footer-complementary nav li a::after {
   font-size: 0.9rem;
 }
+/* line 286, ../scss/viewlets/_footer.scss */
+#portal-footer #footer-complementary nav ul a .logoGenwebUPC,
+#portal-footer #footer-complementary nav li a .logoGenwebUPC {
+  height: 40px;
+}
 
 @media (max-width: 768px) {
-  /* line 291, ../scss/viewlets/_footer.scss */
+  /* line 296, ../scss/viewlets/_footer.scss */
   #footer-complementary nav {
     float: left;
     text-align: left;
   }
-  /* line 295, ../scss/viewlets/_footer.scss */
+  /* line 300, ../scss/viewlets/_footer.scss */
   #footer-complementary nav li {
     margin-right: 24px;
     margin-left: 0;
   }
 }
-/* line 309, ../scss/viewlets/_footer.scss */
+/* line 314, ../scss/viewlets/_footer.scss */
 body.template-manage-subhome article#content footer#portal-footer-wrapper,
 body.template-manage-portlets article#content footer#portal-footer-wrapper,
 body.template-manage-homeportlets article#content footer#portal-footer-wrapper {
