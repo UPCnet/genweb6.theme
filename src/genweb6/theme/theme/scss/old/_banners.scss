@@ -5,6 +5,7 @@ a[class^='link-banner'] {
   padding-right: 72px;
   background-color: var(--bs-gray-100);
   font-size: var(--gw-font-size-xl);
+  text-decoration: none;
 
   &:after {
     width: 36px;

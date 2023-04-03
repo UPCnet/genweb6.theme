@@ -2452,8 +2452,9 @@ body#tinymce a[class^='link-banner'],
   padding-right: 72px;
   background-color: var(--bs-gray-100);
   font-size: var(--gw-font-size-xl);
+  text-decoration: none;
 }
-/* line 9, ../scss/old/_banners.scss */
+/* line 10, ../scss/old/_banners.scss */
 .portletStaticText a[class^='link-banner']:after,
 .mceTmpl a[class^='link-banner']:after,
 body#tinymce a[class^='link-banner']:after,
@@ -2476,7 +2477,7 @@ body#tinymce a[class^='link-banner']:after,
   z-index: 1;
   box-sizing: border-box;
 }
-/* line 28, ../scss/old/_banners.scss */
+/* line 29, ../scss/old/_banners.scss */
 .portletStaticText a[class^='link-banner'] span[class^='btntitol'],
 .mceTmpl a[class^='link-banner'] span[class^='btntitol'],
 body#tinymce a[class^='link-banner'] span[class^='btntitol'],
@@ -2485,7 +2486,7 @@ body#tinymce a[class^='link-banner'] span[class^='btntitol'],
   font-size: var(--gw-font-size-xxl);
   font-weight: 700;
 }
-/* line 33, ../scss/old/_banners.scss */
+/* line 34, ../scss/old/_banners.scss */
 .portletStaticText a[class^='link-banner']:hover,
 .mceTmpl a[class^='link-banner']:hover,
 body#tinymce a[class^='link-banner']:hover,
@@ -2497,7 +2498,7 @@ body#tinymce a[class^='link-banner']:hover,
   transform: perspective(1px) scale(1.00775, 1.00775) translateZ(0);
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 41, ../scss/old/_banners.scss */
+/* line 42, ../scss/old/_banners.scss */
 .portletStaticText a[class^='link-banner'] > img,
 .mceTmpl a[class^='link-banner'] > img,
 body#tinymce a[class^='link-banner'] > img,
@@ -2512,7 +2513,7 @@ body#tinymce a[class^='link-banner'] > img,
   z-index: 0;
   transition: all .5s ease;
 }
-/* line 52, ../scss/old/_banners.scss */
+/* line 53, ../scss/old/_banners.scss */
 .portletStaticText a[class^='link-banner'] > img + span + br + span, .portletStaticText a[class^='link-banner'] > img + span,
 .mceTmpl a[class^='link-banner'] > img + span + br + span,
 .mceTmpl a[class^='link-banner'] > img + span,
@@ -2527,7 +2528,7 @@ body#tinymce a[class^='link-banner'] > img + span,
   position: inherit;
   color: var(--bs-body-color);
 }
-/* line 62, ../scss/old/_banners.scss */
+/* line 63, ../scss/old/_banners.scss */
 .portletStaticText a.link-bannersuccess,
 .portletStaticText a.link-bannerwarning,
 .portletStaticText a.link-bannerdanger,
@@ -2550,7 +2551,7 @@ body#tinymce a.link-banner-minimal-blue,
 #content-core #parent-fieldname-text a.link-banner-minimal-blue {
   color: var(--bs-white);
 }
-/* line 68, ../scss/old/_banners.scss */
+/* line 69, ../scss/old/_banners.scss */
 .portletStaticText a.link-bannersuccess:before, .portletStaticText a.link-bannersuccess:after,
 .portletStaticText a.link-bannerwarning:before,
 .portletStaticText a.link-bannerwarning:after,
@@ -2592,7 +2593,7 @@ body#tinymce a.link-banner-minimal-blue:after,
 #content-core #parent-fieldname-text a.link-banner-minimal-blue:after {
   color: var(--bs-white);
 }
-/* line 73, ../scss/old/_banners.scss */
+/* line 74, ../scss/old/_banners.scss */
 .portletStaticText a.link-bannersuccess:after,
 .portletStaticText a.link-bannerwarning:after,
 .portletStaticText a.link-bannerdanger:after,
@@ -2615,7 +2616,7 @@ body#tinymce a.link-banner-minimal-blue:after,
 #content-core #parent-fieldname-text a.link-banner-minimal-blue:after {
   border-color: var(--bs-white);
 }
-/* line 78, ../scss/old/_banners.scss */
+/* line 79, ../scss/old/_banners.scss */
 .portletStaticText a.link-banner-minimal-blue,
 .mceTmpl a.link-banner-minimal-blue,
 body#tinymce a.link-banner-minimal-blue,
@@ -2623,7 +2624,7 @@ body#tinymce a.link-banner-minimal-blue,
 #content-core #parent-fieldname-text a.link-banner-minimal-blue {
   background-color: #007BC1;
 }
-/* line 82, ../scss/old/_banners.scss */
+/* line 83, ../scss/old/_banners.scss */
 .portletStaticText a.link-bannersuccess,
 .mceTmpl a.link-bannersuccess,
 body#tinymce a.link-bannersuccess,
@@ -2631,7 +2632,7 @@ body#tinymce a.link-bannersuccess,
 #content-core #parent-fieldname-text a.link-bannersuccess {
   background-color: #069182;
 }
-/* line 86, ../scss/old/_banners.scss */
+/* line 87, ../scss/old/_banners.scss */
 .portletStaticText a.link-bannerwarning,
 .mceTmpl a.link-bannerwarning,
 body#tinymce a.link-bannerwarning,
@@ -2639,7 +2640,7 @@ body#tinymce a.link-bannerwarning,
 #content-core #parent-fieldname-text a.link-bannerwarning {
   background-color: #f6a808;
 }
-/* line 90, ../scss/old/_banners.scss */
+/* line 91, ../scss/old/_banners.scss */
 .portletStaticText a.link-bannerdanger,
 .mceTmpl a.link-bannerdanger,
 body#tinymce a.link-bannerdanger,
