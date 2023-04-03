@@ -5,7 +5,7 @@
         background: #fff;
         padding: 2px 72px 2px 20px;
         min-height: 80px;
-        color: var(--bs-gray-700);
+        color: var(--bs-body-color);
         position: relative;
         overflow: hidden;
         display: flex;
@@ -122,7 +122,7 @@
             z-index: 1;
             display: inline-table;
             position: relative;
-            color: var(--bs-gray-700);
+            color: var(--bs-body-color);
         }
 
         p {

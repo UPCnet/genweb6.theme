@@ -4,7 +4,7 @@
     list-style-type: none;
 
     a {
-      color: var(--bs-gray-700);
+      color: var(--bs-body-color);
       width: 100%;
 
       &:hover {
@@ -28,7 +28,7 @@
     div.txt {
       display: flex;
       flex-direction: column;
-      color: var(--bs-gray-700);
+      color: var(--bs-body-color);
 
       .title {
         order: 1;

@@ -2525,7 +2525,7 @@ body#tinymce a[class^='link-banner'] > img + span,
   background: rgba(255, 255, 255, 0.8);
   padding: 3px 8px;
   position: inherit;
-  color: var(--bs-gray-700);
+  color: var(--bs-body-color);
 }
 /* line 62, ../scss/old/_banners.scss */
 .portletStaticText a.link-bannersuccess,
@@ -3682,7 +3682,7 @@ body#tinymce [class*=" icon-"],
   height: 14px;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url('/++theme++genweb6.theme/img/gh.png');
+  background-image: url(/++theme++genweb6.theme/img/gh.png);
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 3px;
@@ -3723,7 +3723,7 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > li > a:hover > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class^="icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class*=" icon-"] {
-  background-image: url('/++theme++genweb6.theme/img/gh-w.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-w.png);
 }
 /* line 43, ../scss/old/_sprites.scss */
 .portletStaticText .icon-color,
@@ -3731,7 +3731,7 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 body#tinymce .icon-color,
 .mosaic-tile-content .icon-color,
 #content-core #parent-fieldname-text .icon-color {
-  background-image: url('/++theme++genweb6.theme/img/gh-c.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-c.png);
 }
 /* line 47, ../scss/old/_sprites.scss */
 .portletStaticText .icon-glass,
@@ -5856,7 +5856,7 @@ body#tinymce .icon-translate,
 body#tinymce .large-icon,
 .mosaic-tile-content .large-icon,
 #content-core #parent-fieldname-text .large-icon {
-  background-image: url('/++theme++genweb6.theme/img/gh-150.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-150.png);
   width: 21px;
   height: 21px;
   margin-top: -1px;
@@ -5916,7 +5916,7 @@ body#tinymce .large-icon.icon-user-news,
 body#tinymce .large-icon.icon-white,
 .mosaic-tile-content .large-icon.icon-white,
 #content-core #parent-fieldname-text .large-icon.icon-white {
-  background-image: url('/++theme++genweb6.theme/img/gh-150-w.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-150-w.png);
 }
 /* line 4, ../scss/old/_styles.scss */
 .portletStaticText .label,
@@ -6977,7 +6977,7 @@ body#tinymce .box.box-example,
 body#tinymce .box.box-example:after,
 .mosaic-tile-content .box.box-example:after,
 #content-core #parent-fieldname-text .box.box-example:after {
-  color: var(--bs-gray-700);
+  color: var(--bs-body-color);
   background-color: var(--bs-gray-100);
   border: 1px solid var(--bs-gray-300);
   -moz-border-bottom-left-radius: 4px;
@@ -7880,26 +7880,30 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
   list-style-type: none;
 }
 /* line 13, ../scss/portlets/_generic.scss */
-.portlet.portlet-list li a {
-  color: var(--bs-gray-700);
+.portlet.portlet-list li:first-child {
+  padding-top: 0;
 }
-/* line 16, ../scss/portlets/_generic.scss */
+/* line 17, ../scss/portlets/_generic.scss */
+.portlet.portlet-list li a {
+  color: var(--bs-body-color);
+}
+/* line 20, ../scss/portlets/_generic.scss */
 .portlet.portlet-list li a:hover {
   color: var(--bs-primary);
 }
-/* line 23, ../scss/portlets/_generic.scss */
+/* line 27, ../scss/portlets/_generic.scss */
 .portlet a:not(.btn) {
   color: var(--bs-primary);
 }
-/* line 26, ../scss/portlets/_generic.scss */
+/* line 30, ../scss/portlets/_generic.scss */
 .portlet a:not(.btn):hover {
   color: var(--bs-primary);
 }
-/* line 31, ../scss/portlets/_generic.scss */
+/* line 35, ../scss/portlets/_generic.scss */
 .portlet .external-url-icon {
   font-size: 1.8rem;
 }
-/* line 37, ../scss/portlets/_generic.scss */
+/* line 41, ../scss/portlets/_generic.scss */
 .portlet div.img a[target="_blank"]::after {
   content: "";
   display: none;
@@ -7971,7 +7975,7 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 }
 /* line 61, ../scss/portlets/_calendar.scss */
 .portlet.portlet-calendar .card-body table tbody td a {
-  color: var(--bs-gray-700);
+  color: var(--bs-body-color);
   text-decoration: none;
 }
 /* line 66, ../scss/portlets/_calendar.scss */
@@ -8191,7 +8195,7 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 }
 /* line 6, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection li a {
-  color: var(--bs-gray-700);
+  color: var(--bs-body-color);
   width: 100%;
 }
 /* line 10, ../scss/portlets/_multiviewcollection.scss */
@@ -8215,7 +8219,7 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 .portlet.portlet-collection li div.txt {
   display: flex;
   flex-direction: column;
-  color: var(--bs-gray-700);
+  color: var(--bs-body-color);
 }
 /* line 33, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection li div.txt .title {
@@ -8442,7 +8446,7 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 }
 /* line 6, ../scss/portlets/_rss.scss */
 .portlet.portlet-rss li a {
-  color: var(--bs-gray-700);
+  color: var(--bs-body-color);
 }
 /* line 9, ../scss/portlets/_rss.scss */
 .portlet.portlet-rss li a:hover {
@@ -8460,7 +8464,7 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_respons
 }
 /* line 24, ../scss/portlets/_rss.scss */
 .portlet.portlet-rss li div.txt {
-  color: var(--bs-gray-700);
+  color: var(--bs-body-color);
 }
 /* line 27, ../scss/portlets/_rss.scss */
 .portlet.portlet-rss li div.txt .title {
@@ -8898,7 +8902,7 @@ body.template-layout .gw-tile.destacats3 .btn-banner {
   background: #fff;
   padding: 2px 72px 2px 20px;
   min-height: 80px;
-  color: var(--bs-gray-700);
+  color: var(--bs-body-color);
   position: relative;
   overflow: hidden;
   display: flex;
@@ -9031,7 +9035,7 @@ body.template-layout .gw-tile.destacats3 .btn-banner h2 {
   z-index: 1;
   display: inline-table;
   position: relative;
-  color: var(--bs-gray-700);
+  color: var(--bs-body-color);
 }
 /* line 128, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner p,
@@ -10424,7 +10428,7 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
 #portal-navbar-mobile .navbar-nav li ul.has_subtree {
   position: initial;
   padding-left: 0.5em !important;
-  background-color: var(--bs-gray-700);
+  background-color: var(--bs-body-color);
   transition: all .5s ease;
   visibility: hidden;
   opacity: 0;
@@ -10737,7 +10741,7 @@ div#social_tags {
 div#social_tags a {
   font-size: var(--gw-font-size-xxl);
   text-decoration: none;
-  color: var(--bs-gray-700);
+  color: var(--bs-body-color);
 }
 /* line 11, ../scss/viewlets/_social.scss */
 div#social_tags a:hover {
@@ -11233,14 +11237,14 @@ body.template-event_listing #content-core a.url {
 /* line 6, ../scss/views/_filtered_contents_search_pretty_view.scss */
 body.template-filtered_contents_search_complete_pretty_view .col-md-3 h2,
 body.template-filtered_contents_search_pretty_view .col-md-3 h2 {
-  color: var(--bs-gray-700);
+  color: var(--bs-body-color);
   font-size: 1.75rem;
   font-weight: 500;
 }
 /* line 14, ../scss/views/_filtered_contents_search_pretty_view.scss */
 body.template-filtered_contents_search_complete_pretty_view .col-md-3 .caixessearch h3,
 body.template-filtered_contents_search_pretty_view .col-md-3 .caixessearch h3 {
-  color: var(--bs-gray-700);
+  color: var(--bs-body-color);
   font-size: var(--gw-font-size-xxxl);
   font-weight: 300;
   border-bottom: 1px solid var(--bs-gray-300);
@@ -11566,37 +11570,26 @@ body.template-grid_events_view .list-agenda a.event-highlighted .flip-card .flip
 /* INICIO Vista grid_events_view */
 /* line 7, ../scss/views/_listing_view.scss */
 body.template-listing_view #content-core div.mb-1 a {
-  font-weight: 400;
   text-decoration: none;
 }
-/* line 11, ../scss/views/_listing_view.scss */
+/* line 10, ../scss/views/_listing_view.scss */
 body.template-listing_view #content-core div.mb-1 a.url {
   font-size: var(--gw-font-size-xxl);
-}
-/* line 17, ../scss/views/_listing_view.scss */
-body.template-listing_view #content-core p.me-3 {
-  font-size: 16px;
-}
-/* line 23, ../scss/views/_listing_view.scss */
-body.template-listing_view #content-core div#content-core span.datedisplay {
-  font-weight: 400;
-}
-/* line 27, ../scss/views/_listing_view.scss */
-body.template-listing_view #content-core div#content-core abbr.dtstart {
-  text-decoration: none;
   font-weight: 400;
 }
 
-/* line 4, ../scss/views/_summary_view.scss */
-body.template-summary_view #content-core a.summary.url {
+/* line 6, ../scss/views/_summary_view.scss */
+body.template-summary_view #content-core a {
   text-decoration: none;
-  font-weight: 400;
-  font-size: var(--gw-font-size-xxl);
 }
 /* line 9, ../scss/views/_summary_view.scss */
+body.template-summary_view #content-core a.url {
+  font-size: var(--gw-font-size-xxl);
+  font-weight: 400;
+}
+/* line 14, ../scss/views/_summary_view.scss */
 body.template-summary_view #content-core a.read_more {
-  font-size: 18px;
-  text-decoration: none;
+  font-size: var(--gw-font-size-xl);
 }
 
 /* line 7, ../scss/views/_tabular_view.scss */

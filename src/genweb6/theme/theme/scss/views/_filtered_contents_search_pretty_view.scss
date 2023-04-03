@@ -4,7 +4,7 @@ body.template-filtered_contents_search_pretty_view {
   .col-md-3 {
 
     h2 {
-      color: var(--bs-gray-700);
+      color: var(--bs-body-color);
       font-size: 1.75rem;
       font-weight: 500;
     }
@@ -12,7 +12,7 @@ body.template-filtered_contents_search_pretty_view {
     .caixessearch {
 
       h3 {
-        color: var(--bs-gray-700);
+        color: var(--bs-body-color);
         font-size: var(--gw-font-size-xxxl);
         font-weight: 300;
         border-bottom: 1px solid var(--bs-gray-300);

@@ -4,7 +4,7 @@
     list-style-type: none;
 
     a {
-      color: var(--bs-gray-700);
+      color: var(--bs-body-color);
 
       &:hover {
         color: var(--bs-primary);
@@ -22,7 +22,7 @@
     }
 
     div.txt {
-      color: var(--bs-gray-700);
+      color: var(--bs-body-color);
 
       .title {
         font-weight: 500;

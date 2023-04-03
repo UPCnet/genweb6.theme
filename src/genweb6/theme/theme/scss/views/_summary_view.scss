@@ -1,14 +1,19 @@
 body.template-summary_view {
 
     #content-core {
-        a.summary.url {
+
+
+        a {
             text-decoration: none;
-            font-weight: 400;
-            font-size: var(--gw-font-size-xxl);
-        }
-        a.read_more {
-            font-size: 18px;
-            text-decoration: none;
+
+            &.url {
+                font-size: var(--gw-font-size-xxl);
+                font-weight: 400;
+            }
+
+            &.read_more {
+                font-size: var(--gw-font-size-xl);
+            }
         }
     }
 }

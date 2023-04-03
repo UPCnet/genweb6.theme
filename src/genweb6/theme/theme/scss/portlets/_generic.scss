@@ -10,8 +10,12 @@
     li {
       list-style-type: none;
 
+      &:first-child {
+        padding-top: 0;
+      }
+
       a {
-        color: var(--bs-gray-700);
+        color: var(--bs-body-color);
 
         &:hover {
           color: var(--bs-primary);
