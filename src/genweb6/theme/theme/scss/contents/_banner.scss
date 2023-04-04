@@ -19,15 +19,20 @@
       align-items: center;
       justify-content: space-between;
       min-height: 60px;
+      
+      &:hover {
+        background-color: var(--bs-primary-hover);
+        color: #FFFFFF !important;
+      }
+
+      &[target="_blank"]::after {
+        content: "";
+        display: none;
+      }
 
       .title {
         font-weight: 600;
         font-size: 1.25em;
-      }
-
-      &:hover {
-        background-color: var(--bs-primary-hover);
-        color: #FFFFFF !important;
       }
 
       i {

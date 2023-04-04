@@ -24769,37 +24769,42 @@ body#tinymce .visible-desktop,
   min-height: 60px;
 }
 /* line 23, ../scss/contents/_banner.scss */
-.gw-banner .defaultBanner a .title {
-  font-weight: 600;
-  font-size: 1.25em;
-}
-/* line 28, ../scss/contents/_banner.scss */
 .gw-banner .defaultBanner a:hover {
   background-color: var(--bs-primary-hover);
   color: #FFFFFF !important;
 }
+/* line 28, ../scss/contents/_banner.scss */
+.gw-banner .defaultBanner a[target="_blank"]::after {
+  content: "";
+  display: none;
+}
 /* line 33, ../scss/contents/_banner.scss */
+.gw-banner .defaultBanner a .title {
+  font-weight: 600;
+  font-size: 1.25em;
+}
+/* line 38, ../scss/contents/_banner.scss */
 .gw-banner .defaultBanner a i {
   margin-left: 20px;
 }
-/* line 36, ../scss/contents/_banner.scss */
+/* line 41, ../scss/contents/_banner.scss */
 .gw-banner .defaultBanner a i.icon-large {
   font-size: 8em;
   position: absolute;
   right: -3.5rem;
   opacity: 0.25;
 }
-/* line 46, ../scss/contents/_banner.scss */
+/* line 51, ../scss/contents/_banner.scss */
 .gw-banner a::after {
   display: none;
 }
-/* line 50, ../scss/contents/_banner.scss */
+/* line 55, ../scss/contents/_banner.scss */
 .gw-banner img {
   width: 100%;
   height: auto;
   background-color: var(--bs-primary);
 }
-/* line 55, ../scss/contents/_banner.scss */
+/* line 60, ../scss/contents/_banner.scss */
 .gw-banner img:hover {
   background-color: var(--bs-primary-hover);
 }
