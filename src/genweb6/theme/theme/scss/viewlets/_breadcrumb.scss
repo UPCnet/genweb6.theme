@@ -1,8 +1,11 @@
 #portal-breadcrumbs {
   background-color: #ffffff;
+  margin-bottom: 0.5rem !important;
+ 
 
   .breadcrumb {
-    padding: 1rem 0 0.5rem 0;
+    padding: 1rem 0 0.5rem 0; 
+    margin-bottom: 0.5rem !important;
 
     .breadcrumb-item {
       font-size: 14px;

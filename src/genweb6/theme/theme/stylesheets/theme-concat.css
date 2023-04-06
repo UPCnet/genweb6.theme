@@ -20743,7 +20743,7 @@ body#tinymce [class*=" icon-"],
   height: 14px;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url('/++theme++genweb6.theme/img/gh.png');
+  background-image: url(/++theme++genweb6.theme/img/gh.png);
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 3px;
@@ -20784,7 +20784,7 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > li > a:hover > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class^="icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class*=" icon-"] {
-  background-image: url('/++theme++genweb6.theme/img/gh-w.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-w.png);
 }
 /* line 43, ../scss/old/_sprites.scss */
 .portletStaticText .icon-color,
@@ -20792,7 +20792,7 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 body#tinymce .icon-color,
 .mosaic-tile-content .icon-color,
 #content-core #parent-fieldname-text .icon-color {
-  background-image: url('/++theme++genweb6.theme/img/gh-c.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-c.png);
 }
 /* line 47, ../scss/old/_sprites.scss */
 .portletStaticText .icon-glass,
@@ -22917,7 +22917,7 @@ body#tinymce .icon-translate,
 body#tinymce .large-icon,
 .mosaic-tile-content .large-icon,
 #content-core #parent-fieldname-text .large-icon {
-  background-image: url('/++theme++genweb6.theme/img/gh-150.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-150.png);
   width: 21px;
   height: 21px;
   margin-top: -1px;
@@ -22977,7 +22977,7 @@ body#tinymce .large-icon.icon-user-news,
 body#tinymce .large-icon.icon-white,
 .mosaic-tile-content .large-icon.icon-white,
 #content-core #parent-fieldname-text .large-icon.icon-white {
-  background-image: url('/++theme++genweb6.theme/img/gh-150-w.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-150-w.png);
 }
 /* line 4, ../scss/old/_styles.scss */
 .portletStaticText .label,
@@ -26886,21 +26886,23 @@ body.template-layout .video-section.hero-posicio-inferior-centre.video-highlight
 /* line 1, ../scss/viewlets/_breadcrumb.scss */
 #portal-breadcrumbs {
   background-color: #ffffff;
+  margin-bottom: 0.5rem !important;
 }
-/* line 4, ../scss/viewlets/_breadcrumb.scss */
+/* line 6, ../scss/viewlets/_breadcrumb.scss */
 #portal-breadcrumbs .breadcrumb {
   padding: 1rem 0 0.5rem 0;
+  margin-bottom: 0.5rem !important;
 }
-/* line 7, ../scss/viewlets/_breadcrumb.scss */
+/* line 10, ../scss/viewlets/_breadcrumb.scss */
 #portal-breadcrumbs .breadcrumb .breadcrumb-item {
   font-size: 14px;
 }
-/* line 10, ../scss/viewlets/_breadcrumb.scss */
+/* line 13, ../scss/viewlets/_breadcrumb.scss */
 #portal-breadcrumbs .breadcrumb .breadcrumb-item a {
   text-decoration: none;
 }
 
-/* line 19, ../scss/viewlets/_breadcrumb.scss */
+/* line 22, ../scss/viewlets/_breadcrumb.scss */
 body.template-homepage #portal-breadcrumbs {
   display: none;
 }
@@ -27796,7 +27798,7 @@ body.template-homepage #hero {
 /* line 66, ../scss/viewlets/_hero.scss */
 #hero.text-hero > img, #hero.image-hero > img {
   order: 2;
-  height: 126px;
+  height: 100px;
 }
 /* line 75, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero h1,
