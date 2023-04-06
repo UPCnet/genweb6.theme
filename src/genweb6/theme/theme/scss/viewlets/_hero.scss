@@ -38,10 +38,14 @@ body.template-homepage {
   &.image-hero {
     display: flex;
     flex-direction: column;
-
+    
+    @media (max-width: 992px) {
+      padding: 0em 1em 0.5em 1em;
+    }
+    
     & > .site_title {
       order: 1;
-      padding: 0em 4em 1em 4em;
+      padding: 0em 4em 0.5em 4em;
       text-align: left;
 
       h1,
@@ -56,10 +60,6 @@ body.template-homepage {
             color: var(--bs-primary);
           }
         }
-      }
-
-      @media (max-width: 992px) {
-        padding: 0em 1em 1em 1em;
       }
     }
 
