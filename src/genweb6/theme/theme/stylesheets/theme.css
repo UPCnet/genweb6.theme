@@ -10710,17 +10710,17 @@ body.template-homepage #hero {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 992px) {
-  /* line 37, ../scss/viewlets/_hero.scss */
-  #hero.text-hero, #hero.image-hero {
-    padding: 0em 1em 0.5em 1em;
-  }
-}
-/* line 46, ../scss/viewlets/_hero.scss */
+/* line 42, ../scss/viewlets/_hero.scss */
 #hero.text-hero > .site_title, #hero.image-hero > .site_title {
   order: 1;
   padding: 0em 4em 0.5em 4em;
   text-align: left;
+}
+@media (max-width: 992px) {
+  /* line 42, ../scss/viewlets/_hero.scss */
+  #hero.text-hero > .site_title, #hero.image-hero > .site_title {
+    padding: 0em 1em 0.5em 1em;
+  }
 }
 /* line 51, ../scss/viewlets/_hero.scss */
 #hero.text-hero > .site_title h1,
