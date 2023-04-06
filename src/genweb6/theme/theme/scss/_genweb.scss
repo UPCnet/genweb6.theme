@@ -371,3 +371,12 @@ body.userrole-authenticated {
 div.linkModal div.linkTypes {
   line-height: 1.65 !important;
 }
+
+.container {
+  
+  @media (min-width: 992px),
+  (min-width: 576px) {
+    max-width: 100%;
+    padding: 0 1em;
+  }
+}
