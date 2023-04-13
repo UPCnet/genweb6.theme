@@ -106,6 +106,23 @@ $(document).ready(function(){
 /*  FIN header.js */
 $(document).ready(function(){
 
+    if($('iframe.resizeIframe').length > 0) {
+
+        setInterval(function(){
+
+            $('iframe.resizeIframe').each(function(index){
+
+                $(this)[index].height = $(this)[index].contentWindow.document.body.scrollHeight + "px";
+
+            });
+
+        }, 500);
+
+    }
+
+});
+$(document).ready(function(){
+
     setTimeout(function(){
         $(".slide-track").each(function(){
             var width_track = 0;
