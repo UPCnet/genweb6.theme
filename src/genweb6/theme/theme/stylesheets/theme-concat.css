@@ -24535,15 +24535,7 @@ body#tinymce .destacat .destacat-contingut,
   overflow: hidden;
   font-size: var(--gw-font-size-s);
 }
-/* line 420, ../scss/old/_templates.scss */
-.portletStaticText .destacat .destacat-contingut h2,
-.mceTmpl .destacat .destacat-contingut h2,
-body#tinymce .destacat .destacat-contingut h2,
-.mosaic-tile-content .destacat .destacat-contingut h2,
-#content-core #parent-fieldname-text .destacat .destacat-contingut h2 {
-  margin-top: 1rem;
-}
-/* line 427, ../scss/old/_templates.scss */
+/* line 423, ../scss/old/_templates.scss */
 .portletStaticText .destacat .destacat-imatge.compat-object-fit,
 .mceTmpl .destacat .destacat-imatge.compat-object-fit,
 body#tinymce .destacat .destacat-imatge.compat-object-fit,
@@ -24552,7 +24544,7 @@ body#tinymce .destacat .destacat-imatge.compat-object-fit,
   background-size: cover;
   background-position: center;
 }
-/* line 432, ../scss/old/_templates.scss */
+/* line 428, ../scss/old/_templates.scss */
 .portletStaticText .destacat .destacat-imatge img,
 .mceTmpl .destacat .destacat-imatge img,
 body#tinymce .destacat .destacat-imatge img,
@@ -24566,7 +24558,7 @@ body#tinymce .destacat .destacat-imatge img,
   z-index: 0;
   border-radius: 0;
 }
-/* line 446, ../scss/old/_templates.scss */
+/* line 442, ../scss/old/_templates.scss */
 .portletStaticText .destacat.destacat-dreta .destacat-contingut,
 .mceTmpl .destacat.destacat-dreta .destacat-contingut,
 body#tinymce .destacat.destacat-dreta .destacat-contingut,
@@ -24575,7 +24567,7 @@ body#tinymce .destacat.destacat-dreta .destacat-contingut,
   right: 0;
   left: auto;
 }
-/* line 451, ../scss/old/_templates.scss */
+/* line 447, ../scss/old/_templates.scss */
 .portletStaticText .destacat.destacat-dreta .destacat-imatge img,
 .mceTmpl .destacat.destacat-dreta .destacat-imatge img,
 body#tinymce .destacat.destacat-dreta .destacat-imatge img,
@@ -24584,7 +24576,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
   padding-left: 0;
 }
 @media (max-width: 768px) {
-  /* line 457, ../scss/old/_templates.scss */
+  /* line 453, ../scss/old/_templates.scss */
   .portletStaticText .destacat.destacat-dreta img,
   .mceTmpl .destacat.destacat-dreta img,
   body#tinymce .destacat.destacat-dreta img,
@@ -24595,7 +24587,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
   }
 }
 @media (max-width: 768px) {
-  /* line 467, ../scss/old/_templates.scss */
+  /* line 463, ../scss/old/_templates.scss */
   .portletStaticText .destacat,
   .mceTmpl .destacat,
   body#tinymce .destacat,
@@ -24603,7 +24595,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
   #content-core #parent-fieldname-text .destacat {
     height: auto;
   }
-  /* line 470, ../scss/old/_templates.scss */
+  /* line 466, ../scss/old/_templates.scss */
   .portletStaticText .destacat .destacat-contingut,
   .mceTmpl .destacat .destacat-contingut,
   body#tinymce .destacat .destacat-contingut,
@@ -24614,7 +24606,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
     padding: 10px;
     display: table-cell;
   }
-  /* line 476, ../scss/old/_templates.scss */
+  /* line 472, ../scss/old/_templates.scss */
   .portletStaticText .destacat .destacat-contingut img,
   .mceTmpl .destacat .destacat-contingut img,
   body#tinymce .destacat .destacat-contingut img,
@@ -24625,7 +24617,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
     width: 100%;
   }
 }
-/* line 488, ../scss/old/_templates.scss */
+/* line 484, ../scss/old/_templates.scss */
 .portletStaticText .lead,
 .mceTmpl .lead,
 body#tinymce .lead,
@@ -24633,7 +24625,7 @@ body#tinymce .lead,
 #content-core #parent-fieldname-text .lead {
   font-size: 1rem;
 }
-/* line 492, ../scss/old/_templates.scss */
+/* line 488, ../scss/old/_templates.scss */
 .portletStaticText .lead-small,
 .mceTmpl .lead-small,
 body#tinymce .lead-small,
@@ -24642,7 +24634,7 @@ body#tinymce .lead-small,
   font-size: var(--gw-font-size-xs);
   padding: 0.5rem;
 }
-/* line 497, ../scss/old/_templates.scss */
+/* line 493, ../scss/old/_templates.scss */
 .portletStaticText .box.box-large,
 .mceTmpl .box.box-large,
 body#tinymce .box.box-large,
@@ -24650,7 +24642,7 @@ body#tinymce .box.box-large,
 #content-core #parent-fieldname-text .box.box-large {
   padding: 2rem;
 }
-/* line 501, ../scss/old/_templates.scss */
+/* line 497, ../scss/old/_templates.scss */
 .portletStaticText .box.box-small,
 .mceTmpl .box.box-small,
 body#tinymce .box.box-small,
