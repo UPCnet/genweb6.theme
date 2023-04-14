@@ -1,8 +1,9 @@
 body.template-event_view {
 	
 	#content {
+
 		h1.documentFirstHeading {
-		font-size: 32px;
+			font-size: 32px;
 		}
 	}
 	
@@ -23,11 +24,11 @@ body.template-event_view {
 
 			p.card-text.h5 {
 				font-size: 18px;
-    			font-weight: 500;
+				font-weight: 500;
 
-    			span.timezone.text-muted.small {
-    				font-size: 18px;
-    			}
+				span.timezone.text-muted.small {
+					font-size: 18px;
+				}
 			}
 
 			.plone-icon {

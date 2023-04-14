@@ -3,6 +3,9 @@
    Para no romper estilos de otros lados solo los añadimos en el contenido de las páginas y dentro
    del TinyMCE y del mosaic. */
 
+.portaltype-packet#content,
+.portlet-homepage,
+.existing_content_portlet,
 .portletStaticText,
 .mceTmpl,
 body#tinymce,
