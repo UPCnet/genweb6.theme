@@ -27346,34 +27346,41 @@ body.portaltype-easyform.template-data .formControls .field {
   margin-bottom: 1.5rem;
 }
 
-/* line 5, ../scss/contents/_event.scss */
+/* line 6, ../scss/contents/_event.scss */
+div.existing-content.portaltype-easyform #content h1.documentFirstHeading,
 body.template-event_view #content h1.documentFirstHeading {
   font-size: 32px;
 }
-/* line 12, ../scss/contents/_event.scss */
+/* line 13, ../scss/contents/_event.scss */
+div.existing-content.portaltype-easyform #content-core .card.event-summary,
 body.template-event_view #content-core .card.event-summary {
   font-size: 18px;
   padding-bottom: 0.09em;
   border: 1px solid var(--bs-primary);
 }
-/* line 17, ../scss/contents/_event.scss */
+/* line 18, ../scss/contents/_event.scss */
+div.existing-content.portaltype-easyform #content-core .card.event-summary abbr.dtstart,
 body.template-event_view #content-core .card.event-summary abbr.dtstart {
   text-decoration: none;
 }
-/* line 21, ../scss/contents/_event.scss */
+/* line 22, ../scss/contents/_event.scss */
+div.existing-content.portaltype-easyform #content-core .card.event-summary p.card-text,
 body.template-event_view #content-core .card.event-summary p.card-text {
   font-size: 16px;
 }
-/* line 25, ../scss/contents/_event.scss */
+/* line 26, ../scss/contents/_event.scss */
+div.existing-content.portaltype-easyform #content-core .card.event-summary p.card-text.h5,
 body.template-event_view #content-core .card.event-summary p.card-text.h5 {
   font-size: 18px;
   font-weight: 500;
 }
-/* line 29, ../scss/contents/_event.scss */
+/* line 30, ../scss/contents/_event.scss */
+div.existing-content.portaltype-easyform #content-core .card.event-summary p.card-text.h5 span.timezone.text-muted.small,
 body.template-event_view #content-core .card.event-summary p.card-text.h5 span.timezone.text-muted.small {
   font-size: 18px;
 }
-/* line 34, ../scss/contents/_event.scss */
+/* line 35, ../scss/contents/_event.scss */
+div.existing-content.portaltype-easyform #content-core .card.event-summary .plone-icon,
 body.template-event_view #content-core .card.event-summary .plone-icon {
   margin-bottom: 10px;
 }
