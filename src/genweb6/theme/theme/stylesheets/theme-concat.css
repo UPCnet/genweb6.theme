@@ -21236,7 +21236,7 @@ body#tinymce [class*=" icon-"],
   height: 14px;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url('/++theme++genweb6.theme/img/gh.png');
+  background-image: url(/++theme++genweb6.theme/img/gh.png);
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 3px;
@@ -21298,7 +21298,7 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > li > a:hover > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class^="icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class*=" icon-"] {
-  background-image: url('/++theme++genweb6.theme/img/gh-w.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-w.png);
 }
 /* line 43, ../scss/old/_sprites.scss */
 .portaltype-packet#content .icon-color,
@@ -21309,7 +21309,7 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 body#tinymce .icon-color,
 .mosaic-tile-content .icon-color,
 #content-core #parent-fieldname-text .icon-color {
-  background-image: url('/++theme++genweb6.theme/img/gh-c.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-c.png);
 }
 /* line 47, ../scss/old/_sprites.scss */
 .portaltype-packet#content .icon-glass,
@@ -24730,7 +24730,7 @@ body#tinymce .icon-translate,
 body#tinymce .large-icon,
 .mosaic-tile-content .large-icon,
 #content-core #parent-fieldname-text .large-icon {
-  background-image: url('/++theme++genweb6.theme/img/gh-150.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-150.png);
   width: 21px;
   height: 21px;
   margin-top: -1px;
@@ -24811,7 +24811,7 @@ body#tinymce .large-icon.icon-user-news,
 body#tinymce .large-icon.icon-white,
 .mosaic-tile-content .large-icon.icon-white,
 #content-core #parent-fieldname-text .large-icon.icon-white {
-  background-image: url('/++theme++genweb6.theme/img/gh-150-w.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-150-w.png);
 }
 /* line 4, ../scss/old/_styles.scss */
 .portaltype-packet#content .label,
@@ -28601,7 +28601,6 @@ body.template-layout .gw-tile.destacats3 .btn-banner {
   margin: 0 0 24px;
   transform: scale(1, 1) perspective(1px) translateZ(0px);
   text-decoration: none;
-  /* Arrow icon for mobiles */
   /* Square icon (hidden on mobile) */
   /* Square icon (Mobiles only) */
 }
@@ -28626,14 +28625,7 @@ body.template-layout .gw-tile.destacats3 .btn-banner:before {
   padding-top: 5px;
   z-index: 0;
 }
-@media (max-width: 420px) {
-  /* line 23, ../scss/tiles/_destacats_3.scss */
-  body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner:before,
-  body.template-layout .gw-tile.destacats3 .btn-banner:before {
-    display: none;
-  }
-}
-/* line 42, ../scss/tiles/_destacats_3.scss */
+/* line 39, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner:after,
 body.template-layout .gw-tile.destacats3 .btn-banner:after {
   content: "\e902";
@@ -28653,39 +28645,20 @@ body.template-layout .gw-tile.destacats3 .btn-banner:after {
   background: rgba(255, 255, 255, 0.8);
   z-index: 0;
 }
-@media (max-width: 420px) {
-  /* line 42, ../scss/tiles/_destacats_3.scss */
-  body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner:after,
-  body.template-layout .gw-tile.destacats3 .btn-banner:after {
-    display: none;
-  }
-}
-@media (max-width: 420px) {
-  /* line 66, ../scss/tiles/_destacats_3.scss */
-  body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner:not([target="_blank"]) h2::after,
-  body.template-layout .gw-tile.destacats3 .btn-banner:not([target="_blank"]) h2::after {
-    content: "\e902";
-    font-family: "upc-icones";
-    font-size: 100%;
-    position: relative;
-    top: 2px;
-    margin-left: 7px;
-  }
-}
-/* line 79, ../scss/tiles/_destacats_3.scss */
+/* line 60, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner[target="_blank"]:after,
 body.template-layout .gw-tile.destacats3 .btn-banner[target="_blank"]:after {
   content: "\e91c";
 }
 @media (max-width: 420px) {
-  /* line 79, ../scss/tiles/_destacats_3.scss */
+  /* line 60, ../scss/tiles/_destacats_3.scss */
   body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner[target="_blank"]:after,
   body.template-layout .gw-tile.destacats3 .btn-banner[target="_blank"]:after {
     display: none;
   }
 }
 @media (max-width: 420px) {
-  /* line 88, ../scss/tiles/_destacats_3.scss */
+  /* line 69, ../scss/tiles/_destacats_3.scss */
   body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner[target="_blank"] h2::after,
   body.template-layout .gw-tile.destacats3 .btn-banner[target="_blank"] h2::after {
     content: " \e91c";
@@ -28695,7 +28668,7 @@ body.template-layout .gw-tile.destacats3 .btn-banner[target="_blank"]:after {
     top: 1px;
   }
 }
-/* line 99, ../scss/tiles/_destacats_3.scss */
+/* line 80, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner img,
 body.template-layout .gw-tile.destacats3 .btn-banner img {
   object-fit: cover;
@@ -28707,13 +28680,13 @@ body.template-layout .gw-tile.destacats3 .btn-banner img {
   z-index: 0;
   transition: all .5s ease;
 }
-/* line 110, ../scss/tiles/_destacats_3.scss */
+/* line 91, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner.compat-object-fit,
 body.template-layout .gw-tile.destacats3 .btn-banner.compat-object-fit {
   background-size: cover;
   background-position: center;
 }
-/* line 116, ../scss/tiles/_destacats_3.scss */
+/* line 97, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner h2,
 body.template-layout .gw-tile.destacats3 .btn-banner h2 {
   font-size: var(--gw-font-size-xl);
@@ -28726,7 +28699,7 @@ body.template-layout .gw-tile.destacats3 .btn-banner h2 {
   position: relative;
   color: var(--bs-body-color);
 }
-/* line 128, ../scss/tiles/_destacats_3.scss */
+/* line 109, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner p,
 body.template-layout .gw-tile.destacats3 .btn-banner p {
   font-size: var(--gw-font-size-s);
@@ -28736,14 +28709,14 @@ body.template-layout .gw-tile.destacats3 .btn-banner p {
   position: relative;
   z-index: 1;
 }
-/* line 137, ../scss/tiles/_destacats_3.scss */
+/* line 118, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner p, body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner:hover p,
 body.template-layout .gw-tile.destacats3 .btn-banner p,
 body.template-layout .gw-tile.destacats3 .btn-banner:hover p {
   -webkit-font-smoothing: subpixel-antialiased;
   tramsform: translateZ(0px);
 }
-/* line 143, ../scss/tiles/_destacats_3.scss */
+/* line 124, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner img + h2,
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner img ~ p,
 body.template-layout .gw-tile.destacats3 .btn-banner img + h2,
@@ -28752,7 +28725,7 @@ body.template-layout .gw-tile.destacats3 .btn-banner img ~ p {
   -webkit-backdrop-filter: blur(1px);
   transition: all .25s ease-in;
 }
-/* line 150, ../scss/tiles/_destacats_3.scss */
+/* line 131, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner:hover, body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner:focus,
 body.template-layout .gw-tile.destacats3 .btn-banner:hover,
 body.template-layout .gw-tile.destacats3 .btn-banner:focus {
@@ -28763,7 +28736,7 @@ body.template-layout .gw-tile.destacats3 .btn-banner:focus {
   transform: perspective(25rem) scale(1.03);
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 160, ../scss/tiles/_destacats_3.scss */
+/* line 141, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner:hover img + h2, body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner:hover img ~ p, body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner:focus img + h2, body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner:focus img ~ p,
 body.template-layout .gw-tile.destacats3 .btn-banner:hover img + h2,
 body.template-layout .gw-tile.destacats3 .btn-banner:hover img ~ p,
@@ -28773,7 +28746,7 @@ body.template-layout .gw-tile.destacats3 .btn-banner:focus img ~ p {
   -webkit-backdrop-filter: blur(3px);
   transition: all .25s ease-in;
 }
-/* line 167, ../scss/tiles/_destacats_3.scss */
+/* line 148, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner:hover img, body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner:focus img,
 body.template-layout .gw-tile.destacats3 .btn-banner:hover img,
 body.template-layout .gw-tile.destacats3 .btn-banner:focus img {
@@ -28781,14 +28754,14 @@ body.template-layout .gw-tile.destacats3 .btn-banner:focus img {
   height: 101%;
   transition: all .5s ease;
 }
-/* line 175, ../scss/tiles/_destacats_3.scss */
+/* line 156, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner-large,
 body.template-layout .gw-tile.destacats3 .btn-banner-large {
   height: 280px;
   padding: 0;
   justify-content: flex-end;
 }
-/* line 180, ../scss/tiles/_destacats_3.scss */
+/* line 161, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner-large div,
 body.template-layout .gw-tile.destacats3 .btn-banner-large div {
   padding: 10px 72px 10px 20px;
@@ -28805,57 +28778,36 @@ body.template-layout .gw-tile.destacats3 .btn-banner-large div {
   min-height: 80px;
   height: auto;
 }
-/* line 196, ../scss/tiles/_destacats_3.scss */
+/* line 177, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner-large::before, body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner-large::after,
 body.template-layout .gw-tile.destacats3 .btn-banner-large::before,
 body.template-layout .gw-tile.destacats3 .btn-banner-large::after {
   bottom: 22px;
   top: auto;
-  /* Hide icon on moviles */
 }
-@media (max-width: 420px) {
-  /* line 196, ../scss/tiles/_destacats_3.scss */
-  body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner-large::before, body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner-large::after,
-  body.template-layout .gw-tile.destacats3 .btn-banner-large::before,
-  body.template-layout .gw-tile.destacats3 .btn-banner-large::after {
-    display: none;
-  }
-}
-/* line 207, ../scss/tiles/_destacats_3.scss */
+/* line 184, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner-large::after,
 body.template-layout .gw-tile.destacats3 .btn-banner-large::after {
   border-color: var(--bs-primary);
 }
-@media (max-width: 420px) {
-  /* line 211, ../scss/tiles/_destacats_3.scss */
-  body.template-edit.mosaic-enabled .gw-tile.destacats3 .btn-banner-large:not([target="_blank"]) h2::after,
-  body.template-layout .gw-tile.destacats3 .btn-banner-large:not([target="_blank"]) h2::after {
-    content: "\e902";
-    font-family: "upc-icones";
-    font-size: 100%;
-    position: relative;
-    top: 2px;
-    margin-left: 7px;
-  }
-}
-/* line 226, ../scss/tiles/_destacats_3.scss */
+/* line 191, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .link-banner .btn-banner-large,
 body.template-layout .gw-tile.destacats3 .link-banner .btn-banner-large {
   height: auto;
 }
-/* line 229, ../scss/tiles/_destacats_3.scss */
+/* line 194, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .link-banner .btn-banner-large div,
 body.template-layout .gw-tile.destacats3 .link-banner .btn-banner-large div {
   background-color: #ffffff;
   border: 2px solid var(--bs-primary);
 }
-/* line 233, ../scss/tiles/_destacats_3.scss */
+/* line 198, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .link-banner .btn-banner-large div h2,
 body.template-layout .gw-tile.destacats3 .link-banner .btn-banner-large div h2 {
   color: var(--bs-primary);
   font-weight: 500;
 }
-/* line 239, ../scss/tiles/_destacats_3.scss */
+/* line 204, ../scss/tiles/_destacats_3.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats3 .link-banner .btn-banner-large:after,
 body.template-layout .gw-tile.destacats3 .link-banner .btn-banner-large:after {
   background: var(--bs-gray-100);
