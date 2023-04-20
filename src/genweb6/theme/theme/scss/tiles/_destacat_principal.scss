@@ -79,7 +79,107 @@
     }
   }
 
+  &.hero-posicio-invisible {
+    article {
+      display: none !important;
+    }
+  }
+
   @media (min-width: 992px) {
+
+
+    &.hero-posicio-superior-esquerra {
+      article {
+        position: absolute;
+      }
+
+      a {
+        position: absolute;
+        left: 15px;
+        top: -70px;
+      }
+    }
+
+    &.hero-posicio-superior-centre {
+      article {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0;
+      }
+
+      a {
+        width: 100% !important;
+      }
+    }
+
+    &.hero-posicio-superior-dreta {
+      article {
+        position: absolute;
+      }
+
+      a {
+        position: absolute;
+        right: 15px;
+        top: -70px;
+      }
+    }
+
+    &.hero-posicio-inferior-esquerra {
+      article {
+        position: absolute;
+        bottom: 0;
+      }
+
+      a {
+        position: absolute;
+        left: 15px;
+        bottom: -70px;
+      }
+    }
+
+    &.hero-posicio-inferior-centre {
+      article {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0;
+      }
+
+      a {
+        width: 100% !important;
+      }
+    }
+
+    &.hero-posicio-inferior-dreta {
+      article {
+        position: absolute;
+        bottom: 0;
+      }
+
+      a {
+        position: absolute;
+        right: 15px;
+        bottom: -70px;
+      }
+    }
+
+    &.hero-posicio-cercle-esquerra {
+      a {
+        position: relative;
+        left: calc(180px - 50%);
+
+        &.video-link {
+          &:after {
+            left: 43% !important;
+          }
+        }
+      }
+    }
 
     &[class*="hero-posicio-cercle"] {
 
@@ -88,7 +188,7 @@
         height: 360px;
         border-radius: 50%;
 
-        & > h2 {
+        &>h2 {
           position: relative;
           top: 50%;
           transform: translateY(-50%);
@@ -96,7 +196,7 @@
 
         &.video-link {
 
-          & > h2 {
+          &>h2 {
             top: 50%;
           }
 
@@ -129,6 +229,32 @@
             left: 43% !important;
           }
         }
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    &.content-highlighted {
+      flex-direction: column;
+      min-height: unset;
+      img {
+        height: 140px;
+        position: initial; 
+      }
+      article {
+        margin: 0;
+        width: 100%;
+        padding: 0px;
+        z-index: 2; 
+        a {
+          max-width: unset;
+          width: 100%;
+          padding: 10px !important;
+          font-size: 15px;
+        }
+      }
+      .event-title {
+        font-size: 20px !important;
       }
     }
   }

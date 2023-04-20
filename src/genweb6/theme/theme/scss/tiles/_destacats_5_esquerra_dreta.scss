@@ -1,5 +1,15 @@
 .gw-tile.destacats5 {
 
+    .link-tile-footer {
+        background-color: #007BC1;
+        padding: .5rem;
+        display: inline-block;
+        cursor: pointer;
+        a {
+            color: #fff;
+        }
+    }
+
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -10,11 +20,11 @@
 
         @media only screen and (min-width: 992px) {
 
-            &.esquerra {
+            &.imatge-gran-esquerra {
                 grid-template-areas: "area-gran area-gran area1 area2" "area-gran area-gran area3 area4";
             }
 
-            &.dreta {
+            &.imatge-gran-dreta {
                 grid-template-areas: "area1 area2 area-gran area-gran" "area3 area4 area-gran area-gran";
             }
         }
@@ -100,7 +110,7 @@
                     h3.card-title {
                         font-size: var(--gw-font-size-xxl);
                         color: var(--bs-body-color);
-                        font-weight: 300;
+                        font-weight: 400;
                         margin-top: 1rem;
                     }
                 }

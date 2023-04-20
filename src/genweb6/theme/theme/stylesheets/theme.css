@@ -11474,53 +11474,300 @@ body.template-edit.mosaic-enabled .gw-tile.hero.content-highlighted article p,
 body.template-layout .gw-tile.hero.content-highlighted article p {
   color: #FFF;
 }
+/* line 83, ../scss/tiles/_destacat_principal.scss */
+body.template-edit.mosaic-enabled .gw-tile.hero.hero-posicio-invisible article,
+body.template-layout .gw-tile.hero.hero-posicio-invisible article {
+  display: none !important;
+}
 @media (min-width: 992px) {
-  /* line 86, ../scss/tiles/_destacat_principal.scss */
+  /* line 92, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.hero-posicio-superior-esquerra article,
+  body.template-layout .gw-tile.hero.hero-posicio-superior-esquerra article {
+    position: absolute;
+  }
+  /* line 96, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.hero-posicio-superior-esquerra a,
+  body.template-layout .gw-tile.hero.hero-posicio-superior-esquerra a {
+    position: absolute;
+    left: 15px;
+    top: -70px;
+  }
+  /* line 104, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.hero-posicio-superior-centre article,
+  body.template-layout .gw-tile.hero.hero-posicio-superior-centre article {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0;
+  }
+  /* line 113, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.hero-posicio-superior-centre a,
+  body.template-layout .gw-tile.hero.hero-posicio-superior-centre a {
+    width: 100% !important;
+  }
+  /* line 119, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.hero-posicio-superior-dreta article,
+  body.template-layout .gw-tile.hero.hero-posicio-superior-dreta article {
+    position: absolute;
+  }
+  /* line 123, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.hero-posicio-superior-dreta a,
+  body.template-layout .gw-tile.hero.hero-posicio-superior-dreta a {
+    position: absolute;
+    right: 15px;
+    top: -70px;
+  }
+  /* line 131, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.hero-posicio-inferior-esquerra article,
+  body.template-layout .gw-tile.hero.hero-posicio-inferior-esquerra article {
+    position: absolute;
+    bottom: 0;
+  }
+  /* line 136, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.hero-posicio-inferior-esquerra a,
+  body.template-layout .gw-tile.hero.hero-posicio-inferior-esquerra a {
+    position: absolute;
+    left: 15px;
+    bottom: -70px;
+  }
+  /* line 144, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.hero-posicio-inferior-centre article,
+  body.template-layout .gw-tile.hero.hero-posicio-inferior-centre article {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0;
+  }
+  /* line 153, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.hero-posicio-inferior-centre a,
+  body.template-layout .gw-tile.hero.hero-posicio-inferior-centre a {
+    width: 100% !important;
+  }
+  /* line 159, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.hero-posicio-inferior-dreta article,
+  body.template-layout .gw-tile.hero.hero-posicio-inferior-dreta article {
+    position: absolute;
+    bottom: 0;
+  }
+  /* line 164, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.hero-posicio-inferior-dreta a,
+  body.template-layout .gw-tile.hero.hero-posicio-inferior-dreta a {
+    position: absolute;
+    right: 15px;
+    bottom: -70px;
+  }
+  /* line 172, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.hero-posicio-cercle-esquerra a,
+  body.template-layout .gw-tile.hero.hero-posicio-cercle-esquerra a {
+    position: relative;
+    left: calc(180px - 50%);
+  }
+  /* line 177, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.hero-posicio-cercle-esquerra a.video-link:after,
+  body.template-layout .gw-tile.hero.hero-posicio-cercle-esquerra a.video-link:after {
+    left: 43% !important;
+  }
+  /* line 186, ../scss/tiles/_destacat_principal.scss */
   body.template-edit.mosaic-enabled .gw-tile.hero[class*="hero-posicio-cercle"] a,
   body.template-layout .gw-tile.hero[class*="hero-posicio-cercle"] a {
     width: 360px !important;
     height: 360px;
     border-radius: 50%;
   }
-  /* line 91, ../scss/tiles/_destacat_principal.scss */
+  /* line 191, ../scss/tiles/_destacat_principal.scss */
   body.template-edit.mosaic-enabled .gw-tile.hero[class*="hero-posicio-cercle"] a > h2,
   body.template-layout .gw-tile.hero[class*="hero-posicio-cercle"] a > h2 {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
   }
-  /* line 99, ../scss/tiles/_destacat_principal.scss */
+  /* line 199, ../scss/tiles/_destacat_principal.scss */
   body.template-edit.mosaic-enabled .gw-tile.hero[class*="hero-posicio-cercle"] a.video-link > h2,
   body.template-layout .gw-tile.hero[class*="hero-posicio-cercle"] a.video-link > h2 {
     top: 50%;
   }
-  /* line 103, ../scss/tiles/_destacat_principal.scss */
+  /* line 203, ../scss/tiles/_destacat_principal.scss */
   body.template-edit.mosaic-enabled .gw-tile.hero[class*="hero-posicio-cercle"] a.video-link:after,
   body.template-layout .gw-tile.hero[class*="hero-posicio-cercle"] a.video-link:after {
     position: absolute;
     top: 53%;
     left: 48%;
   }
-  /* line 110, ../scss/tiles/_destacat_principal.scss */
+  /* line 210, ../scss/tiles/_destacat_principal.scss */
   body.template-edit.mosaic-enabled .gw-tile.hero[class*="hero-posicio-cercle"] a:hover,
   body.template-layout .gw-tile.hero[class*="hero-posicio-cercle"] a:hover {
     transform: none;
   }
-  /* line 115, ../scss/tiles/_destacat_principal.scss */
+  /* line 215, ../scss/tiles/_destacat_principal.scss */
   body.template-edit.mosaic-enabled .gw-tile.hero[class*="hero-posicio-cercle"].content-highlighted article,
   body.template-layout .gw-tile.hero[class*="hero-posicio-cercle"].content-highlighted article {
     margin: 50px 0;
   }
-  /* line 122, ../scss/tiles/_destacat_principal.scss */
+  /* line 222, ../scss/tiles/_destacat_principal.scss */
   body.template-edit.mosaic-enabled .gw-tile.hero.hero-posicio-cercle-dreta a,
   body.template-layout .gw-tile.hero.hero-posicio-cercle-dreta a {
     position: relative;
     right: calc(180px - 50%);
   }
-  /* line 128, ../scss/tiles/_destacat_principal.scss */
+  /* line 228, ../scss/tiles/_destacat_principal.scss */
   body.template-edit.mosaic-enabled .gw-tile.hero.hero-posicio-cercle-dreta a.video-link:after,
   body.template-layout .gw-tile.hero.hero-posicio-cercle-dreta a.video-link:after {
     left: 43% !important;
+  }
+}
+@media (max-width: 992px) {
+  /* line 237, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.content-highlighted,
+  body.template-layout .gw-tile.hero.content-highlighted {
+    flex-direction: column;
+    min-height: unset;
+  }
+  /* line 240, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.content-highlighted img,
+  body.template-layout .gw-tile.hero.content-highlighted img {
+    height: 140px;
+    position: initial;
+  }
+  /* line 244, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.content-highlighted article,
+  body.template-layout .gw-tile.hero.content-highlighted article {
+    margin: 0;
+    width: 100%;
+    padding: 0px;
+    z-index: 2;
+  }
+  /* line 249, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.content-highlighted article a,
+  body.template-layout .gw-tile.hero.content-highlighted article a {
+    max-width: unset;
+    width: 100%;
+    padding: 10px !important;
+    font-size: 15px;
+  }
+  /* line 256, ../scss/tiles/_destacat_principal.scss */
+  body.template-edit.mosaic-enabled .gw-tile.hero.content-highlighted .event-title,
+  body.template-layout .gw-tile.hero.content-highlighted .event-title {
+    font-size: 20px !important;
+  }
+}
+/* line 2, ../scss/tiles/_destacats_2.scss */
+body.template-edit.mosaic-enabled .section-dos-destacats .titling-line-container,
+body.template-layout .section-dos-destacats .titling-line-container {
+  position: relative;
+}
+/* line 4, ../scss/tiles/_destacats_2.scss */
+body.template-edit.mosaic-enabled .section-dos-destacats .titling-line-container .titling-line,
+body.template-layout .section-dos-destacats .titling-line-container .titling-line {
+  font-size: 24px;
+  position: relative;
+  overflow: hidden;
+  padding: 6px 0;
+}
+/* line 12, ../scss/tiles/_destacats_2.scss */
+body.template-edit.mosaic-enabled .section-dos-destacats .list-destacats,
+body.template-layout .section-dos-destacats .list-destacats {
+  list-style: none;
+  margin-top: 24px;
+}
+/* line 15, ../scss/tiles/_destacats_2.scss */
+body.template-edit.mosaic-enabled .section-dos-destacats .list-destacats li:not(:last-child),
+body.template-layout .section-dos-destacats .list-destacats li:not(:last-child) {
+  margin-right: 18px;
+}
+/* line 18, ../scss/tiles/_destacats_2.scss */
+body.template-edit.mosaic-enabled .section-dos-destacats .list-destacats li:not(:first-child),
+body.template-layout .section-dos-destacats .list-destacats li:not(:first-child) {
+  margin-left: 18px;
+}
+/* line 21, ../scss/tiles/_destacats_2.scss */
+body.template-edit.mosaic-enabled .section-dos-destacats .list-destacats a,
+body.template-layout .section-dos-destacats .list-destacats a {
+  transform: perspective(0px) scale(1, 1) translateZ(0px);
+  transition: transform .5s ease;
+}
+@media (max-width: 768px) {
+  /* line 21, ../scss/tiles/_destacats_2.scss */
+  body.template-edit.mosaic-enabled .section-dos-destacats .list-destacats a,
+  body.template-layout .section-dos-destacats .list-destacats a {
+    display: block;
+  }
+}
+/* line 27, ../scss/tiles/_destacats_2.scss */
+body.template-edit.mosaic-enabled .section-dos-destacats .list-destacats a:hover,
+body.template-layout .section-dos-destacats .list-destacats a:hover {
+  transform: perspective(25rem) scale(1.03);
+  transition: transform .5s ease;
+}
+/* line 32, ../scss/tiles/_destacats_2.scss */
+body.template-edit.mosaic-enabled .section-dos-destacats .list-destacats img,
+body.template-layout .section-dos-destacats .list-destacats img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  min-width: 200px;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  /* line 32, ../scss/tiles/_destacats_2.scss */
+  body.template-edit.mosaic-enabled .section-dos-destacats .list-destacats img,
+  body.template-layout .section-dos-destacats .list-destacats img {
+    height: 150px;
+    width: 150px;
+    min-width: 150px;
+    margin: 0 auto;
+    display: block;
+  }
+}
+/* line 46, ../scss/tiles/_destacats_2.scss */
+body.template-edit.mosaic-enabled .section-dos-destacats .list-destacats div *:first-child,
+body.template-layout .section-dos-destacats .list-destacats div *:first-child {
+  margin-top: 0;
+}
+/* line 49, ../scss/tiles/_destacats_2.scss */
+body.template-edit.mosaic-enabled .section-dos-destacats .list-destacats div,
+body.template-layout .section-dos-destacats .list-destacats div {
+  margin-left: 24px;
+}
+@media (max-width: 768px) {
+  /* line 49, ../scss/tiles/_destacats_2.scss */
+  body.template-edit.mosaic-enabled .section-dos-destacats .list-destacats div,
+  body.template-layout .section-dos-destacats .list-destacats div {
+    margin-left: 0;
+  }
+}
+/* line 55, ../scss/tiles/_destacats_2.scss */
+body.template-edit.mosaic-enabled .section-dos-destacats .list-destacats div > *,
+body.template-layout .section-dos-destacats .list-destacats div > * {
+  font-weight: 300;
+}
+/* line 58, ../scss/tiles/_destacats_2.scss */
+body.template-edit.mosaic-enabled .section-dos-destacats .list-destacats p,
+body.template-layout .section-dos-destacats .list-destacats p {
+  border-bottom: unset;
+  color: var(--bs-body-color);
+}
+/* line 62, ../scss/tiles/_destacats_2.scss */
+body.template-edit.mosaic-enabled .section-dos-destacats .list-destacats p.title,
+body.template-layout .section-dos-destacats .list-destacats p.title {
+  font-weight: 400;
+  font-size: var(--gw-font-size-xl);
+}
+@media (max-width: 992px) {
+  /* line 69, ../scss/tiles/_destacats_2.scss */
+  body.template-edit.mosaic-enabled .section-dos-destacats .list-destacats,
+  body.template-layout .section-dos-destacats .list-destacats {
+    flex-direction: column !important;
+  }
+  /* line 71, ../scss/tiles/_destacats_2.scss */
+  body.template-edit.mosaic-enabled .section-dos-destacats .list-destacats li,
+  body.template-layout .section-dos-destacats .list-destacats li {
+    width: 100% !important;
+    margin-left: unset !important;
+    margin-right: unset !important;
   }
 }
 /* line 3, ../scss/tiles/_destacats_3.scss */
@@ -11757,6 +12004,19 @@ body.template-layout .gw-tile.destacats4-esdeveniments .link-tile-footer {
   margin-top: 1rem;
 }
 /* line 3, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+body.template-edit.mosaic-enabled .gw-tile.destacats5 .link-tile-footer,
+body.template-layout .gw-tile.destacats5 .link-tile-footer {
+  background-color: #007BC1;
+  padding: .5rem;
+  display: inline-block;
+  cursor: pointer;
+}
+/* line 8, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+body.template-edit.mosaic-enabled .gw-tile.destacats5 .link-tile-footer a,
+body.template-layout .gw-tile.destacats5 .link-tile-footer a {
+  color: #fff;
+}
+/* line 13, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container,
 body.template-layout .gw-tile.destacats5 .grid-container {
   display: grid;
@@ -11767,19 +12027,19 @@ body.template-layout .gw-tile.destacats5 .grid-container {
   grid-auto-rows: auto;
 }
 @media only screen and (min-width: 992px) {
-  /* line 13, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
-  body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container.esquerra,
-  body.template-layout .gw-tile.destacats5 .grid-container.esquerra {
+  /* line 23, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+  body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container.imatge-gran-esquerra,
+  body.template-layout .gw-tile.destacats5 .grid-container.imatge-gran-esquerra {
     grid-template-areas: "area-gran area-gran area1 area2" "area-gran area-gran area3 area4";
   }
-  /* line 17, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
-  body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container.dreta,
-  body.template-layout .gw-tile.destacats5 .grid-container.dreta {
+  /* line 27, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+  body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container.imatge-gran-dreta,
+  body.template-layout .gw-tile.destacats5 .grid-container.imatge-gran-dreta {
     grid-template-areas: "area1 area2 area-gran area-gran" "area3 area4 area-gran area-gran";
   }
 }
 @media only screen and (max-width: 992px) {
-  /* line 3, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+  /* line 13, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
   body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container,
   body.template-layout .gw-tile.destacats5 .grid-container {
     display: grid;
@@ -11790,7 +12050,7 @@ body.template-layout .gw-tile.destacats5 .grid-container {
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 3, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+  /* line 13, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
   body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container,
   body.template-layout .gw-tile.destacats5 .grid-container {
     display: grid;
@@ -11801,31 +12061,31 @@ body.template-layout .gw-tile.destacats5 .grid-container {
     width: 100%;
     grid-auto-rows: auto;
   }
-  /* line 39, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+  /* line 49, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
   body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container > div,
   body.template-layout .gw-tile.destacats5 .grid-container > div {
     height: fit-content;
   }
 }
-/* line 44, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 54, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container [class^="area"],
 body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] {
   transition: all 0.25s ease-out;
   transform: scale(1, 1) perspective(1px) translateZ(0px);
 }
-/* line 48, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 58, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container [class^="area"]:hover,
 body.template-layout .gw-tile.destacats5 .grid-container [class^="area"]:hover {
   text-decoration: none;
   transform: perspective(25rem) scale(1.03);
 }
-/* line 53, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 63, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container [class^="area"] picture,
 body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] picture {
   object-fit: fill;
   width: 100%;
 }
-/* line 57, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 67, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container [class^="area"] picture img,
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container [class^="area"] picture source,
 body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] picture img,
@@ -11837,13 +12097,13 @@ body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] picture
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
-/* line 68, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 78, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container [class^="area"] .card,
 body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] .card {
   height: 100%;
   border: none;
 }
-/* line 72, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 82, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body,
 body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body {
   padding: 0rem 1.2rem 0.7rem 1.2rem;
@@ -11851,13 +12111,13 @@ body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] .card .
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
 }
-/* line 78, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 88, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body a.stretched-link,
 body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body a.stretched-link {
   text-decoration: none;
   color: var(--bs-body-color);
 }
-/* line 82, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 92, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body a.stretched-link::after,
 body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body a.stretched-link::after {
   position: absolute;
@@ -11870,47 +12130,47 @@ body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] .card .
   content: "";
   background-color: transparent;
 }
-/* line 95, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 105, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body p,
 body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body p {
   font-size: 1rem;
   color: var(--bs-body-color);
 }
-/* line 100, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 110, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body h3.card-title,
 body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body h3.card-title {
   font-size: var(--gw-font-size-xxl);
   color: var(--bs-body-color);
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 1rem;
 }
-/* line 110, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 120, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container .area-gran,
 body.template-layout .gw-tile.destacats5 .grid-container .area-gran {
   grid-area: area-gran;
 }
-/* line 113, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 123, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container .area-gran .card-body p,
 body.template-layout .gw-tile.destacats5 .grid-container .area-gran .card-body p {
   font-size: var(--gw-font-size-xl);
   color: var(--bs-body-color);
 }
-/* line 119, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 129, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container .area1,
 body.template-layout .gw-tile.destacats5 .grid-container .area1 {
   grid-area: area1;
 }
-/* line 123, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 133, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container .area2,
 body.template-layout .gw-tile.destacats5 .grid-container .area2 {
   grid-area: area2;
 }
-/* line 127, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 137, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container .area3,
 body.template-layout .gw-tile.destacats5 .grid-container .area3 {
   grid-area: area3;
 }
-/* line 131, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 141, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container .area4,
 body.template-layout .gw-tile.destacats5 .grid-container .area4 {
   grid-area: area4;
@@ -11987,18 +12247,6 @@ body.template-layout .gw-tile .titling-line {
   overflow: hidden;
   padding: 0.5rem 0;
   margin-top: 0;
-}
-/* line 19, ../scss/tiles/_general.scss */
-body.template-edit.mosaic-enabled .gw-tile .titling-line::after,
-body.template-layout .gw-tile .titling-line::after {
-  content: "";
-  position: absolute;
-  margin-left: 12px;
-  background: var(--bs-gray-300);
-  height: 1px;
-  box-shadow: 1000px 0 0 -1000px var(--bs-gray-300);
-  width: 100%;
-  top: 50%;
 }
 /* line 5, ../scss/tiles/_listing.scss */
 body.template-edit.mosaic-enabled .contentlisting-tile dl dt,
