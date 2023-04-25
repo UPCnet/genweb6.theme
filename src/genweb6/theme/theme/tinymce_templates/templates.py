@@ -208,6 +208,30 @@ templates = [
       "title-es": "Composición - 2 columnas Listado iconos",
       "title-en": "Compilation - 2 columns Icons list",
       "url": "/++theme++genweb6.theme/tinymce_templates/composicions/llistat-icones.html"
+    },
+    {
+      "title-ca": "Interactiu - Pestanyes",
+      "title-es": "Interactivo - Pestañas",
+      "title-en": "Interactive - Tabs",
+      "url": "/++theme++genweb6.theme/tinymce_templates/interactius/pestanyes.html"
+    },
+    {
+      "title-ca": "Interactiu - Acordió",
+      "title-es": "Interactivo - Acordeón",
+      "title-en": "Interactive - Accordion",
+      "url": "/++theme++genweb6.theme/tinymce_templates/interactius/acordio.html"
+    },
+    {
+      "title-ca": "Interactiu - Carrusel",
+      "title-es": "Interactivo - Carrusel",
+      "title-en": "Interactive - Carousel",
+      "url": "/++theme++genweb6.theme/tinymce_templates/interactius/carrusel.html"
+    },
+    {
+      "title-ca": "Interactiu - Modal",
+      "title-es": "Interactivo - Modal",
+      "title-en": "Interactive - Modal",
+      "url": "/++theme++genweb6.theme/tinymce_templates/interactius/modal.html"
     }
     
 ]
