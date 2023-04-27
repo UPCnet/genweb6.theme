@@ -21236,7 +21236,7 @@ body#tinymce [class*=" icon-"],
   height: 14px;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url(/++theme++genweb6.theme/img/gh.png);
+  background-image: url('/++theme++genweb6.theme/img/gh.png');
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 3px;
@@ -21298,7 +21298,7 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > li > a:hover > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class^="icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class*=" icon-"] {
-  background-image: url(/++theme++genweb6.theme/img/gh-w.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-w.png');
 }
 /* line 43, ../scss/old/_sprites.scss */
 .portaltype-packet#content .icon-color,
@@ -21309,7 +21309,7 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 body#tinymce .icon-color,
 .mosaic-tile-content .icon-color,
 #content-core #parent-fieldname-text .icon-color {
-  background-image: url(/++theme++genweb6.theme/img/gh-c.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-c.png');
 }
 /* line 47, ../scss/old/_sprites.scss */
 .portaltype-packet#content .icon-glass,
@@ -24730,7 +24730,7 @@ body#tinymce .icon-translate,
 body#tinymce .large-icon,
 .mosaic-tile-content .large-icon,
 #content-core #parent-fieldname-text .large-icon {
-  background-image: url(/++theme++genweb6.theme/img/gh-150.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-150.png');
   width: 21px;
   height: 21px;
   margin-top: -1px;
@@ -24811,7 +24811,7 @@ body#tinymce .large-icon.icon-user-news,
 body#tinymce .large-icon.icon-white,
 .mosaic-tile-content .large-icon.icon-white,
 #content-core #parent-fieldname-text .large-icon.icon-white {
-  background-image: url(/++theme++genweb6.theme/img/gh-150-w.png);
+  background-image: url('/++theme++genweb6.theme/img/gh-150-w.png');
 }
 /* line 4, ../scss/old/_styles.scss */
 .portaltype-packet#content .label,
@@ -27510,6 +27510,7 @@ body.userrole-authenticated[class*="-controlpanel"] .formControls {
 }
 
 /* line 3, ../scss/controlpanels/_header.scss */
+body.template-header-controlpanel #formfield-form-widgets-full_hero_image,
 body.template-header-controlpanel #formfield-form-widgets-fieldset_logo,
 body.template-header-controlpanel #formfield-form-widgets-logo,
 body.template-header-controlpanel #formfield-form-widgets-logo_responsive,
@@ -27519,7 +27520,8 @@ body.template-header-controlpanel #formfield-form-widgets-logo_external_url {
   width: 48%;
   float: left;
 }
-/* line 13, ../scss/controlpanels/_header.scss */
+/* line 14, ../scss/controlpanels/_header.scss */
+body.template-header-controlpanel #formfield-form-widgets-hero_image,
 body.template-header-controlpanel #formfield-form-widgets-fieldset_secundary_logo,
 body.template-header-controlpanel #formfield-form-widgets-secundary_logo,
 body.template-header-controlpanel #formfield-form-widgets-secundary_logo_responsive,
@@ -27529,14 +27531,14 @@ body.template-header-controlpanel #formfield-form-widgets-secundary_logo_externa
   width: 48%;
   float: right;
 }
-/* line 23, ../scss/controlpanels/_header.scss */
+/* line 25, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-logo,
 body.template-header-controlpanel #formfield-form-widgets-logo_mini,
 body.template-header-controlpanel #formfield-form-widgets-secundary_logo,
 body.template-header-controlpanel #formfield-form-widgets-secundary_logo_responsive {
   min-height: 220px;
 }
-/* line 30, ../scss/controlpanels/_header.scss */
+/* line 32, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-html_title_ca,
 body.template-header-controlpanel #formfield-form-widgets-html_title_es,
 body.template-header-controlpanel #formfield-form-widgets-html_description_ca,
@@ -27545,13 +27547,13 @@ body.template-header-controlpanel #formfield-form-widgets-html_description_es {
   margin-right: 2%;
   float: left;
 }
-/* line 39, ../scss/controlpanels/_header.scss */
+/* line 41, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-html_title_en,
 body.template-header-controlpanel #formfield-form-widgets-html_description_en {
   width: 32%;
   float: right;
 }
-/* line 46, ../scss/controlpanels/_header.scss */
+/* line 47, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-logo,
 body.template-header-controlpanel #formfield-form-widgets-logo_responsive,
 body.template-header-controlpanel #formfield-form-widgets-secundary_logo,
@@ -29162,25 +29164,25 @@ body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] picture
   object-fit: cover;
   object-position: center center;
 }
-/* line 82, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 80, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container [class^="area"] .card,
 body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] .card {
   height: 100%;
   border: none;
 }
-/* line 86, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 84, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body,
 body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body {
   padding: 0rem 1.2rem 0.7rem 1.2rem;
   background-color: #f2f5f6;
 }
-/* line 92, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 88, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body a.stretched-link,
 body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body a.stretched-link {
   text-decoration: none;
   color: var(--bs-body-color);
 }
-/* line 96, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 92, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body a.stretched-link::after,
 body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body a.stretched-link::after {
   position: absolute;
@@ -29193,13 +29195,13 @@ body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] .card .
   content: "";
   background-color: transparent;
 }
-/* line 109, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 105, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body p,
 body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body p {
   font-size: 1rem;
   color: var(--bs-body-color);
 }
-/* line 114, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 110, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body h3.card-title,
 body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] .card .card-body h3.card-title {
   font-size: var(--gw-font-size-xxl);
@@ -29207,33 +29209,33 @@ body.template-layout .gw-tile.destacats5 .grid-container [class^="area"] .card .
   font-weight: 400;
   margin-top: 1rem;
 }
-/* line 124, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 120, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container .area-gran,
 body.template-layout .gw-tile.destacats5 .grid-container .area-gran {
   grid-area: area-gran;
 }
-/* line 127, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 123, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container .area-gran .card-body p,
 body.template-layout .gw-tile.destacats5 .grid-container .area-gran .card-body p {
   font-size: var(--gw-font-size-xl);
   color: var(--bs-body-color);
 }
-/* line 133, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 129, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container .area1,
 body.template-layout .gw-tile.destacats5 .grid-container .area1 {
   grid-area: area1;
 }
-/* line 137, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 133, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container .area2,
 body.template-layout .gw-tile.destacats5 .grid-container .area2 {
   grid-area: area2;
 }
-/* line 141, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 137, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container .area3,
 body.template-layout .gw-tile.destacats5 .grid-container .area3 {
   grid-area: area3;
 }
-/* line 145, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
+/* line 141, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container .area4,
 body.template-layout .gw-tile.destacats5 .grid-container .area4 {
   grid-area: area4;
