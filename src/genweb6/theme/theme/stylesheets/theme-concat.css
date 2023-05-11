@@ -19493,7 +19493,7 @@ body#tinymce a.link-banner-minimal-blue,
 #content-core #parent-fieldname-text a.link-bannerwarning,
 #content-core #parent-fieldname-text a.link-bannerdanger,
 #content-core #parent-fieldname-text a.link-banner-minimal-blue {
-  color: var(--bs-white);
+  color: var(--bs-white) !important;
 }
 /* line 69, ../scss/old/_banners.scss */
 .portaltype-packet#content a.link-bannersuccess:before, .portaltype-packet#content a.link-bannersuccess:after,
@@ -19559,7 +19559,7 @@ body#tinymce a.link-banner-minimal-blue:after,
 #content-core #parent-fieldname-text a.link-bannerdanger:after,
 #content-core #parent-fieldname-text a.link-banner-minimal-blue:before,
 #content-core #parent-fieldname-text a.link-banner-minimal-blue:after {
-  color: var(--bs-white);
+  color: var(--bs-white) !important;
 }
 /* line 74, ../scss/old/_banners.scss */
 .portaltype-packet#content a.link-bannersuccess:after,

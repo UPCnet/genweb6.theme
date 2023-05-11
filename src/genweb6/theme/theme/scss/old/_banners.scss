@@ -64,11 +64,11 @@ a.link-bannersuccess,
 a.link-bannerwarning,
 a.link-bannerdanger,
 a.link-banner-minimal-blue {
-  color: var(--bs-white);
+  color: var(--bs-white) !important;
 
   &:before,
   &:after {
-    color: var(--bs-white);
+    color: var(--bs-white) !important;
   }
 
   &:after {
