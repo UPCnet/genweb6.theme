@@ -3,26 +3,20 @@
 
 <head>
   <title>Genweb Theme</title>
-  <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css" />
-  <link rel="stylesheet" href="fontawesome/css/brands.min.css" />
-  <link rel="stylesheet" href="fontawesome/css/duotone.min.css" />
-  <link rel="stylesheet" href="fontawesome/css/light.min.css" />
-  <link rel="stylesheet" href="fontawesome/css/regular.min.css" />
-  <link rel="stylesheet" href="fontawesome/css/solid.min.css" />
-  <link rel="preconnect" href="//app.usercentrics.eu">
-  <link rel="preconnect" href="//api.usercentrics.eu">
-  <link rel="preconnect" href="//privacy-proxy.usercentrics.eu">
-  <link rel="dns-prefetch" href="//app.usercentrics.eu" />
-  <link rel="dns-prefetch" href="//api.usercentrics.eu" />
-  <link rel="preload" href="//app.usercentrics.eu/browser-ui/latest/loader.js" as="script">
-  <link rel="preload" href="//privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js" as="script">
+  <link rel="preload" href="stylesheets/fa.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+  <link rel="preconnect" href="//app.usercentrics.eu"/>
+  <link rel="preconnect" href="//api.usercentrics.eu"/>
+  <link rel="preconnect" href="//privacy-proxy.usercentrics.eu"/>
+  <link rel="dns-prefetch" href="//app.usercentrics.eu"/>
+  <link rel="dns-prefetch" href="//api.usercentrics.eu"/>
+  <!-- <link rel="preload" href="//app.usercentrics.eu/browser-ui/latest/loader.js" as="script"/>
+  <link rel="preload" href="//privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js" as="script"/> -->
   <script>
     window.UC_UI_DOMAINS = {
       crossDomainConsentSharingIFrame: 'https://www.upc.edu/cross-domain-bridge.html',
     };
   </script>
-  <script id="usercentrics-cmp" src="https://app.usercentrics.eu/browser-ui/latest/loader.js"
-    data-settings-id="k73tMWYfS" async></script>
+  <script id="usercentrics-cmp" src="https://app.usercentrics.eu/browser-ui/latest/loader.js" data-settings-id="k73tMWYfS" async></script>
   <script type="application/javascript" src="https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js"></script>
   <script>
     uc.deactivateBlocking([
@@ -55,16 +49,6 @@
     <header id="content-header" class="sticky-top">
       <div id="portal-top" class="w-100">
       </div>
-
-      <!-- <div id="portal-logo-wrapper" class="pb-3 d-flex justify-content-between align-items-center order-lg-first w-auto">
-        <div id="portal-logo" class="order-lg-0"></div>
-        <div class="navbar navbar-expand-lg">
-          <button class="navbar-toggler border-secondary" type="button"
-            data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon "></span>
-          </button>
-        </div>
-      </div> -->
     </header>
 
     <div id="above-content-wrapper">

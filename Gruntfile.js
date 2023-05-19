@@ -9,6 +9,12 @@ module.exports = function (grunt) {
                     sassDir: 'scss/',
                     cssDir: 'stylesheets/',
                 }
+            },
+            fa: {
+                options: {
+                    sassDir: 'fontawesome/',
+                    cssDir: 'stylesheets/',
+                }
             }
         },
         concat: {
@@ -31,9 +37,13 @@ module.exports = function (grunt) {
             }
         },
         cssmin: {
-            css : {
+            css: {
                 src : ["stylesheets/theme-concat.css"],
                 dest : "stylesheets/theme.min.css",
+            },
+            fa: {
+                src : ["stylesheets/fa.css"],
+                dest : "stylesheets/fa.min.css",
             }
         },
         watch: {
@@ -46,6 +56,12 @@ module.exports = function (grunt) {
                     'scss/**/*'
                 ],
                 tasks: ['compass:css', 'concat:css', 'cssmin:css']
+            },
+            fa: {
+                files: [
+                    'fontawesome/*',
+                ],
+                tasks: ['compass:fa', 'cssmin:fa']
             }
         },
         uglify: {
