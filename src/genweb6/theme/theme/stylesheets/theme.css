@@ -10394,32 +10394,28 @@ body.userrole-authenticated[class*="-controlpanel"] .formControls {
 body.template-header-controlpanel #formfield-form-widgets-full_hero_image,
 body.template-header-controlpanel #formfield-form-widgets-fieldset_logo,
 body.template-header-controlpanel #formfield-form-widgets-logo,
-body.template-header-controlpanel #formfield-form-widgets-logo_responsive,
 body.template-header-controlpanel #formfield-form-widgets-logo_alt,
 body.template-header-controlpanel #formfield-form-widgets-logo_url,
 body.template-header-controlpanel #formfield-form-widgets-logo_external_url {
   width: 48%;
   float: left;
 }
-/* line 14, ../scss/controlpanels/_header.scss */
+/* line 13, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-hero_image,
 body.template-header-controlpanel #formfield-form-widgets-fieldset_secundary_logo,
 body.template-header-controlpanel #formfield-form-widgets-secundary_logo,
-body.template-header-controlpanel #formfield-form-widgets-secundary_logo_responsive,
 body.template-header-controlpanel #formfield-form-widgets-secundary_logo_alt,
 body.template-header-controlpanel #formfield-form-widgets-secundary_logo_url,
 body.template-header-controlpanel #formfield-form-widgets-secundary_logo_external_url {
   width: 48%;
   float: right;
 }
-/* line 25, ../scss/controlpanels/_header.scss */
+/* line 23, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-logo,
-body.template-header-controlpanel #formfield-form-widgets-logo_mini,
-body.template-header-controlpanel #formfield-form-widgets-secundary_logo,
-body.template-header-controlpanel #formfield-form-widgets-secundary_logo_responsive {
+body.template-header-controlpanel #formfield-form-widgets-secundary_logo {
   min-height: 220px;
 }
-/* line 32, ../scss/controlpanels/_header.scss */
+/* line 28, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-html_title_ca,
 body.template-header-controlpanel #formfield-form-widgets-html_title_es,
 body.template-header-controlpanel #formfield-form-widgets-html_description_ca,
@@ -10428,17 +10424,15 @@ body.template-header-controlpanel #formfield-form-widgets-html_description_es {
   margin-right: 2%;
   float: left;
 }
-/* line 41, ../scss/controlpanels/_header.scss */
+/* line 37, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-html_title_en,
 body.template-header-controlpanel #formfield-form-widgets-html_description_en {
   width: 32%;
   float: right;
 }
-/* line 47, ../scss/controlpanels/_header.scss */
+/* line 43, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-logo,
-body.template-header-controlpanel #formfield-form-widgets-logo_responsive,
-body.template-header-controlpanel #formfield-form-widgets-secundary_logo,
-body.template-header-controlpanel #formfield-form-widgets-secundary_logo_responsive {
+body.template-header-controlpanel #formfield-form-widgets-secundary_logo {
   min-height: 240px;
 }
 

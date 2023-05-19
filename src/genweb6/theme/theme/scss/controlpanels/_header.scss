@@ -3,7 +3,6 @@ body.template-header-controlpanel {
   #formfield-form-widgets-full_hero_image,
   #formfield-form-widgets-fieldset_logo,
   #formfield-form-widgets-logo,
-  #formfield-form-widgets-logo_responsive,
   #formfield-form-widgets-logo_alt,
   #formfield-form-widgets-logo_url,
   #formfield-form-widgets-logo_external_url {
@@ -14,7 +13,6 @@ body.template-header-controlpanel {
   #formfield-form-widgets-hero_image,
   #formfield-form-widgets-fieldset_secundary_logo,
   #formfield-form-widgets-secundary_logo,
-  #formfield-form-widgets-secundary_logo_responsive,
   #formfield-form-widgets-secundary_logo_alt,
   #formfield-form-widgets-secundary_logo_url,
   #formfield-form-widgets-secundary_logo_external_url {
@@ -23,9 +21,7 @@ body.template-header-controlpanel {
   }
 
   #formfield-form-widgets-logo,
-  #formfield-form-widgets-logo_mini,
-  #formfield-form-widgets-secundary_logo,
-  #formfield-form-widgets-secundary_logo_responsive {
+  #formfield-form-widgets-secundary_logo {
     min-height: 220px;
   }
 
@@ -45,9 +41,7 @@ body.template-header-controlpanel {
   }
 
   #formfield-form-widgets-logo,
-  #formfield-form-widgets-logo_responsive,
-  #formfield-form-widgets-secundary_logo,
-  #formfield-form-widgets-secundary_logo_responsive {
+  #formfield-form-widgets-secundary_logo {
     min-height: 240px;
   }
 }
