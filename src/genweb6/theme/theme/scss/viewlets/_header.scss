@@ -39,6 +39,10 @@ body:not([class*="section-"]) {
   -moz-transition: height .4s ease;
   -o-transition: height .4s ease;
 
+  &.shink {
+    height: 72px;
+  }
+
   #portal-logos {
 
     a[target="_blank"]::after {
@@ -48,10 +52,6 @@ body:not([class*="section-"]) {
 
     img{
       max-height: 50px;
-
-      &.img-responsive {
-        display: none;
-      }
     }
   }
 
@@ -286,25 +286,6 @@ body:not([class*="section-"]) {
       .livesearch-results {
         margin-top: 0.5rem;
         right: 4em;
-      }
-    }
-  }
-}
-
-#header.shink {
-  height: 72px;
-
-  #portal-logos {
-
-    img {
-      /* max-height: 40px; */
-
-      &.img-desktop {
-        display: none;
-      }
-
-      &.img-responsive {
-        display: block;
       }
     }
   }

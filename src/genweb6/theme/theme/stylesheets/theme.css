@@ -12914,18 +12914,18 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   -moz-transition: height .4s ease;
   -o-transition: height .4s ease;
 }
-/* line 44, ../scss/viewlets/_header.scss */
+/* line 42, ../scss/viewlets/_header.scss */
+#header.shink {
+  height: 72px;
+}
+/* line 48, ../scss/viewlets/_header.scss */
 #header #portal-logos a[target="_blank"]::after {
   display: none;
   content: "";
 }
-/* line 49, ../scss/viewlets/_header.scss */
+/* line 53, ../scss/viewlets/_header.scss */
 #header #portal-logos img {
   max-height: 50px;
-}
-/* line 52, ../scss/viewlets/_header.scss */
-#header #portal-logos img.img-responsive {
-  display: none;
 }
 /* line 60, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav {
@@ -13118,23 +13118,6 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
     margin-top: 0.5rem;
     right: 4em;
   }
-}
-
-/* line 294, ../scss/viewlets/_header.scss */
-#header.shink {
-  height: 72px;
-}
-/* line 299, ../scss/viewlets/_header.scss */
-#header.shink #portal-logos img {
-  /* max-height: 40px; */
-}
-/* line 302, ../scss/viewlets/_header.scss */
-#header.shink #portal-logos img.img-desktop {
-  display: none;
-}
-/* line 306, ../scss/viewlets/_header.scss */
-#header.shink #portal-logos img.img-responsive {
-  display: block;
 }
 
 @media (max-width: 992px) {
