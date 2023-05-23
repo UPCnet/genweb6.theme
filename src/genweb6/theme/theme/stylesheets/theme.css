@@ -1937,6 +1937,7 @@
   font-family: 'upc-icones';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("/++theme++genweb6.theme/stylesheets/fonts/upc/upc-icones.eot") format("embedded-opentype"), url("/++theme++genweb6.theme/stylesheets/fonts/upc/upc-icones.woff") format("woff"), url("/++theme++genweb6.theme/stylesheets/fonts/upc/upc-icones.ttf") format("truetype"), url("/++theme++genweb6.theme/stylesheets/fonts/upc/upc-icones.svg#upc-icones") format("svg");
 }
 /* line 12, ../scss/_genweb.scss */
