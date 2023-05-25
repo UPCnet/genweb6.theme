@@ -2357,6 +2357,13 @@ div.linkModal div.linkTypes {
   line-clamp: 4;
 }
 
+/* line 1, ../scss/_fix_bootstrap.scss */
+.card-footer > .text-muted,
+.bg-info,
+.bg-warning {
+  color: var(--bs-dark);
+}
+
 /* Queremos que los estilos antiguos de Genweb 4 se mantengan lo mejor posible en la nueva versión.
 
    Para no romper estilos de otros lados solo los añadimos en el contenido de las páginas y dentro
@@ -9707,7 +9714,7 @@ body#tinymce .list-numeral li,
 body#tinymce .list-numeral strong,
 .mosaic-tile-content .list-numeral strong,
 #content-core #parent-fieldname-text .list-numeral strong {
-  font-size: 200%;
+  font-size: 2.75rem;
   display: block;
   font-weight: lighter;
 }
@@ -9817,8 +9824,30 @@ body#tinymce .list-numeral :nth-child(6) strong,
     column-count: 2;
     -moz-column-count: 2;
   }
+  /* line 386, ../scss/old/_templates.scss */
+  .portaltype-packet#content .list-numeral li,
+  .portlet-homepage .list-numeral li,
+  .existing_content_portlet .list-numeral li,
+  .portletStaticText .list-numeral li,
+  .mceTmpl .list-numeral li,
+  body#tinymce .list-numeral li,
+  .mosaic-tile-content .list-numeral li,
+  #content-core #parent-fieldname-text .list-numeral li {
+    font-size: 1.25rem;
+  }
+  /* line 390, ../scss/old/_templates.scss */
+  .portaltype-packet#content .list-numeral strong,
+  .portlet-homepage .list-numeral strong,
+  .existing_content_portlet .list-numeral strong,
+  .portletStaticText .list-numeral strong,
+  .mceTmpl .list-numeral strong,
+  body#tinymce .list-numeral strong,
+  .mosaic-tile-content .list-numeral strong,
+  #content-core #parent-fieldname-text .list-numeral strong {
+    font-size: 2rem;
+  }
 }
-/* line 393, ../scss/old/_templates.scss */
+/* line 401, ../scss/old/_templates.scss */
 .portaltype-packet#content .gallery-logos .gellery-bottom,
 .portlet-homepage .gallery-logos .gellery-bottom,
 .existing_content_portlet .gallery-logos .gellery-bottom,
@@ -9829,7 +9858,7 @@ body#tinymce .gallery-logos .gellery-bottom,
 #content-core #parent-fieldname-text .gallery-logos .gellery-bottom {
   margin-bottom: 1.5rem;
 }
-/* line 397, ../scss/old/_templates.scss */
+/* line 405, ../scss/old/_templates.scss */
 .portaltype-packet#content .gallery-logos a:after,
 .portlet-homepage .gallery-logos a:after,
 .existing_content_portlet .gallery-logos a:after,
@@ -9840,7 +9869,7 @@ body#tinymce .gallery-logos a:after,
 #content-core #parent-fieldname-text .gallery-logos a:after {
   content: "";
 }
-/* line 405, ../scss/old/_templates.scss */
+/* line 413, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat,
 .portlet-homepage .destacat,
 .existing_content_portlet .destacat,
@@ -9853,7 +9882,7 @@ body#tinymce .destacat,
   position: relative;
   margin-bottom: 1.5rem;
 }
-/* line 410, ../scss/old/_templates.scss */
+/* line 418, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat .destacat-contingut,
 .portlet-homepage .destacat .destacat-contingut,
 .existing_content_portlet .destacat .destacat-contingut,
@@ -9871,7 +9900,7 @@ body#tinymce .destacat .destacat-contingut,
   overflow: hidden;
   font-size: var(--gw-font-size-s);
 }
-/* line 423, ../scss/old/_templates.scss */
+/* line 431, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat .destacat-imatge.compat-object-fit,
 .portlet-homepage .destacat .destacat-imatge.compat-object-fit,
 .existing_content_portlet .destacat .destacat-imatge.compat-object-fit,
@@ -9883,7 +9912,7 @@ body#tinymce .destacat .destacat-imatge.compat-object-fit,
   background-size: cover;
   background-position: center;
 }
-/* line 428, ../scss/old/_templates.scss */
+/* line 436, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat .destacat-imatge img,
 .portlet-homepage .destacat .destacat-imatge img,
 .existing_content_portlet .destacat .destacat-imatge img,
@@ -9900,7 +9929,7 @@ body#tinymce .destacat .destacat-imatge img,
   z-index: 0;
   border-radius: 0;
 }
-/* line 442, ../scss/old/_templates.scss */
+/* line 450, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat.destacat-dreta .destacat-contingut,
 .portlet-homepage .destacat.destacat-dreta .destacat-contingut,
 .existing_content_portlet .destacat.destacat-dreta .destacat-contingut,
@@ -9912,7 +9941,7 @@ body#tinymce .destacat.destacat-dreta .destacat-contingut,
   right: 0;
   left: auto;
 }
-/* line 447, ../scss/old/_templates.scss */
+/* line 455, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat.destacat-dreta .destacat-imatge img,
 .portlet-homepage .destacat.destacat-dreta .destacat-imatge img,
 .existing_content_portlet .destacat.destacat-dreta .destacat-imatge img,
@@ -9924,7 +9953,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
   padding-left: 0;
 }
 @media (max-width: 768px) {
-  /* line 453, ../scss/old/_templates.scss */
+  /* line 461, ../scss/old/_templates.scss */
   .portaltype-packet#content .destacat.destacat-dreta img,
   .portlet-homepage .destacat.destacat-dreta img,
   .existing_content_portlet .destacat.destacat-dreta img,
@@ -9938,7 +9967,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
   }
 }
 @media (max-width: 768px) {
-  /* line 463, ../scss/old/_templates.scss */
+  /* line 471, ../scss/old/_templates.scss */
   .portaltype-packet#content .destacat,
   .portlet-homepage .destacat,
   .existing_content_portlet .destacat,
@@ -9949,7 +9978,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
   #content-core #parent-fieldname-text .destacat {
     height: auto;
   }
-  /* line 466, ../scss/old/_templates.scss */
+  /* line 474, ../scss/old/_templates.scss */
   .portaltype-packet#content .destacat .destacat-contingut,
   .portlet-homepage .destacat .destacat-contingut,
   .existing_content_portlet .destacat .destacat-contingut,
@@ -9963,7 +9992,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
     padding: 10px;
     display: table-cell;
   }
-  /* line 472, ../scss/old/_templates.scss */
+  /* line 480, ../scss/old/_templates.scss */
   .portaltype-packet#content .destacat .destacat-contingut img,
   .portlet-homepage .destacat .destacat-contingut img,
   .existing_content_portlet .destacat .destacat-contingut img,
@@ -9977,7 +10006,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
     width: 100%;
   }
 }
-/* line 484, ../scss/old/_templates.scss */
+/* line 492, ../scss/old/_templates.scss */
 .portaltype-packet#content .lead,
 .portlet-homepage .lead,
 .existing_content_portlet .lead,
@@ -9988,7 +10017,7 @@ body#tinymce .lead,
 #content-core #parent-fieldname-text .lead {
   font-size: 1rem;
 }
-/* line 488, ../scss/old/_templates.scss */
+/* line 496, ../scss/old/_templates.scss */
 .portaltype-packet#content .lead-small,
 .portlet-homepage .lead-small,
 .existing_content_portlet .lead-small,
@@ -10000,7 +10029,7 @@ body#tinymce .lead-small,
   font-size: var(--gw-font-size-xs);
   padding: 0.5rem;
 }
-/* line 493, ../scss/old/_templates.scss */
+/* line 501, ../scss/old/_templates.scss */
 .portaltype-packet#content .box.box-large,
 .portlet-homepage .box.box-large,
 .existing_content_portlet .box.box-large,
@@ -10011,7 +10040,7 @@ body#tinymce .box.box-large,
 #content-core #parent-fieldname-text .box.box-large {
   padding: 2rem;
 }
-/* line 497, ../scss/old/_templates.scss */
+/* line 505, ../scss/old/_templates.scss */
 .portaltype-packet#content .box.box-small,
 .portlet-homepage .box.box-small,
 .existing_content_portlet .box.box-small,
