@@ -3,3 +3,13 @@
 .bg-warning {
   color: var(--bs-dark);
 }
+
+.progress,
+.progress-stacked {
+  height: auto;
+
+  .progress-bar {
+    overflow: initial;
+    white-space: initial;
+  }
+}

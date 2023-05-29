@@ -2364,6 +2364,18 @@ div.linkModal div.linkTypes {
   color: var(--bs-dark);
 }
 
+/* line 7, ../scss/_fix_bootstrap.scss */
+.progress,
+.progress-stacked {
+  height: auto;
+}
+/* line 11, ../scss/_fix_bootstrap.scss */
+.progress .progress-bar,
+.progress-stacked .progress-bar {
+  overflow: initial;
+  white-space: initial;
+}
+
 /* Queremos que los estilos antiguos de Genweb 4 se mantengan lo mejor posible en la nueva versión.
 
    Para no romper estilos de otros lados solo los añadimos en el contenido de las páginas y dentro
