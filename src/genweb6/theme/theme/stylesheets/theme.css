@@ -1968,7 +1968,7 @@ h6 {
 /* line 35, ../scss/_genweb.scss */
 .h1,
 h1 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 /* line 40, ../scss/_genweb.scss */
@@ -10270,39 +10270,34 @@ body.portaltype-easyform.template-data .formControls .field {
 }
 
 /* line 6, ../scss/contents/_event.scss */
-div.existing-content.portaltype-easyform #content h1.documentFirstHeading,
-body.template-event_view #content h1.documentFirstHeading {
-  font-size: 32px;
-}
-/* line 13, ../scss/contents/_event.scss */
 div.existing-content.portaltype-easyform #content-core .card.event-summary,
 body.template-event_view #content-core .card.event-summary {
-  font-size: 18px;
+  font-size: 1.1rem;
   padding-bottom: 0.09em;
   border: 1px solid var(--bs-primary);
 }
-/* line 18, ../scss/contents/_event.scss */
+/* line 11, ../scss/contents/_event.scss */
 div.existing-content.portaltype-easyform #content-core .card.event-summary abbr.dtstart,
 body.template-event_view #content-core .card.event-summary abbr.dtstart {
   text-decoration: none;
 }
-/* line 22, ../scss/contents/_event.scss */
+/* line 15, ../scss/contents/_event.scss */
 div.existing-content.portaltype-easyform #content-core .card.event-summary p.card-text,
 body.template-event_view #content-core .card.event-summary p.card-text {
-  font-size: 16px;
+  font-size: 1rem;
 }
-/* line 26, ../scss/contents/_event.scss */
+/* line 19, ../scss/contents/_event.scss */
 div.existing-content.portaltype-easyform #content-core .card.event-summary p.card-text.h5,
 body.template-event_view #content-core .card.event-summary p.card-text.h5 {
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 500;
 }
-/* line 30, ../scss/contents/_event.scss */
+/* line 23, ../scss/contents/_event.scss */
 div.existing-content.portaltype-easyform #content-core .card.event-summary p.card-text.h5 span.timezone.text-muted.small,
 body.template-event_view #content-core .card.event-summary p.card-text.h5 span.timezone.text-muted.small {
-  font-size: 18px;
+  font-size: 1.1rem;
 }
-/* line 35, ../scss/contents/_event.scss */
+/* line 28, ../scss/contents/_event.scss */
 div.existing-content.portaltype-easyform #content-core .card.event-summary .plone-icon,
 body.template-event_view #content-core .card.event-summary .plone-icon {
   margin-bottom: 10px;
