@@ -90,6 +90,12 @@ templates = [
       "url": "/++theme++genweb6.theme/tinymce_templates/baners/baner-blau.html"
     },
     {
+      "title-ca": "Bàner - Blau UPC",
+      "title-es": "Baner - Azul UPC",
+      "title-en": "Banner - UPC Blue",
+      "url": "/++theme++genweb6.theme/tinymce_templates/baners/baner-blau-upc.html"
+    },
+    {
       "title-ca": "Bàner - Gris",
       "title-es": "Baner - Gris",
       "title-en": "Banner - Grey",
@@ -136,7 +142,7 @@ templates = [
       "title-es": "Tabla - Columnas destacadas",
       "title-en": "Table - Featured columns",
       "url": "/++theme++genweb6.theme/tinymce_templates/taules/estandar.html"
-    },    
+    },
     {
       "title-ca": "Taula - Ratllada",
       "title-es": "Tabla - Rallada",
@@ -233,5 +239,5 @@ templates = [
       "title-en": "Interactive - Modal",
       "url": "/++theme++genweb6.theme/tinymce_templates/interactius/modal.html"
     }
-    
+
 ]

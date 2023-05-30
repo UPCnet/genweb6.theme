@@ -2436,12 +2436,13 @@ body#tinymce a[class^='link-banner'],
   padding: 14px 24px;
   position: relative;
   padding-right: 72px;
-  background-color: #fefefe;
-  border: 1px solid #c6c8ca;
+  color: #383d41;
+  background-color: #e2e3e5;
+  border: 1px solid #d6d8db;
   font-size: var(--gw-font-size-xl);
   text-decoration: none;
 }
-/* line 11, ../scss/old/_banners.scss */
+/* line 12, ../scss/old/_banners.scss */
 .portaltype-packet#content a[class^='link-banner']:after,
 .portlet-homepage a[class^='link-banner']:after,
 .existing_content_portlet a[class^='link-banner']:after,
@@ -2452,9 +2453,9 @@ body#tinymce a[class^='link-banner']:after,
 #content-core #parent-fieldname-text a[class^='link-banner']:after {
   width: 36px;
   height: 36px;
-  color: var(--bs-primary);
+  color: #383d41;
   content: "\e902";
-  border: 2px solid var(--bs-primary);
+  border: 2px solid #383d41;
   font-family: upc-icones;
   font-size: var(--gw-font-size-xl);
   position: absolute;
@@ -2467,7 +2468,7 @@ body#tinymce a[class^='link-banner']:after,
   z-index: 1;
   box-sizing: border-box;
 }
-/* line 30, ../scss/old/_banners.scss */
+/* line 31, ../scss/old/_banners.scss */
 .portaltype-packet#content a[class^='link-banner'] span[class^='btntitol'],
 .portlet-homepage a[class^='link-banner'] span[class^='btntitol'],
 .existing_content_portlet a[class^='link-banner'] span[class^='btntitol'],
@@ -2479,7 +2480,7 @@ body#tinymce a[class^='link-banner'] span[class^='btntitol'],
   font-size: var(--gw-font-size-xxl);
   font-weight: 700;
 }
-/* line 35, ../scss/old/_banners.scss */
+/* line 36, ../scss/old/_banners.scss */
 .portaltype-packet#content a[class^='link-banner']:hover,
 .portlet-homepage a[class^='link-banner']:hover,
 .existing_content_portlet a[class^='link-banner']:hover,
@@ -2494,7 +2495,7 @@ body#tinymce a[class^='link-banner']:hover,
   transform: perspective(1px) scale(1.00775, 1.00775) translateZ(0);
   -webkit-font-smoothing: subpixel-antialiased;
 }
-/* line 43, ../scss/old/_banners.scss */
+/* line 44, ../scss/old/_banners.scss */
 .portaltype-packet#content a[class^='link-banner'] > img,
 .portlet-homepage a[class^='link-banner'] > img,
 .existing_content_portlet a[class^='link-banner'] > img,
@@ -2512,7 +2513,7 @@ body#tinymce a[class^='link-banner'] > img,
   z-index: 0;
   transition: all .5s ease;
 }
-/* line 54, ../scss/old/_banners.scss */
+/* line 55, ../scss/old/_banners.scss */
 .portaltype-packet#content a[class^='link-banner'] > img + span + br + span, .portaltype-packet#content a[class^='link-banner'] > img + span,
 .portlet-homepage a[class^='link-banner'] > img + span + br + span,
 .portlet-homepage a[class^='link-banner'] > img + span,
@@ -2533,7 +2534,78 @@ body#tinymce a[class^='link-banner'] > img + span,
   position: inherit;
   color: var(--bs-body-color);
 }
-/* line 63, ../scss/old/_banners.scss */
+/* line 64, ../scss/old/_banners.scss */
+.portaltype-packet#content a.link-bannerblauupc,
+.portlet-homepage a.link-bannerblauupc,
+.existing_content_portlet a.link-bannerblauupc,
+.portletStaticText a.link-bannerblauupc,
+.mceTmpl a.link-bannerblauupc,
+body#tinymce a.link-bannerblauupc,
+.mosaic-tile-content a.link-bannerblauupc,
+#content-core #parent-fieldname-text a.link-bannerblauupc {
+  color: var(--bs-white) !important;
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+/* line 69, ../scss/old/_banners.scss */
+.portaltype-packet#content a.link-bannerblauupc:before, .portaltype-packet#content a.link-bannerblauupc:after,
+.portlet-homepage a.link-bannerblauupc:before,
+.portlet-homepage a.link-bannerblauupc:after,
+.existing_content_portlet a.link-bannerblauupc:before,
+.existing_content_portlet a.link-bannerblauupc:after,
+.portletStaticText a.link-bannerblauupc:before,
+.portletStaticText a.link-bannerblauupc:after,
+.mceTmpl a.link-bannerblauupc:before,
+.mceTmpl a.link-bannerblauupc:after,
+body#tinymce a.link-bannerblauupc:before,
+body#tinymce a.link-bannerblauupc:after,
+.mosaic-tile-content a.link-bannerblauupc:before,
+.mosaic-tile-content a.link-bannerblauupc:after,
+#content-core #parent-fieldname-text a.link-bannerblauupc:before,
+#content-core #parent-fieldname-text a.link-bannerblauupc:after {
+  color: var(--bs-white) !important;
+}
+/* line 74, ../scss/old/_banners.scss */
+.portaltype-packet#content a.link-bannerblauupc:after,
+.portlet-homepage a.link-bannerblauupc:after,
+.existing_content_portlet a.link-bannerblauupc:after,
+.portletStaticText a.link-bannerblauupc:after,
+.mceTmpl a.link-bannerblauupc:after,
+body#tinymce a.link-bannerblauupc:after,
+.mosaic-tile-content a.link-bannerblauupc:after,
+#content-core #parent-fieldname-text a.link-bannerblauupc:after {
+  border-color: var(--bs-white);
+}
+/* line 81, ../scss/old/_banners.scss */
+.portaltype-packet#content a.link-bannerimg:before, .portaltype-packet#content a.link-bannerimg:after,
+.portlet-homepage a.link-bannerimg:before,
+.portlet-homepage a.link-bannerimg:after,
+.existing_content_portlet a.link-bannerimg:before,
+.existing_content_portlet a.link-bannerimg:after,
+.portletStaticText a.link-bannerimg:before,
+.portletStaticText a.link-bannerimg:after,
+.mceTmpl a.link-bannerimg:before,
+.mceTmpl a.link-bannerimg:after,
+body#tinymce a.link-bannerimg:before,
+body#tinymce a.link-bannerimg:after,
+.mosaic-tile-content a.link-bannerimg:before,
+.mosaic-tile-content a.link-bannerimg:after,
+#content-core #parent-fieldname-text a.link-bannerimg:before,
+#content-core #parent-fieldname-text a.link-bannerimg:after {
+  color: var(--bs-white) !important;
+}
+/* line 86, ../scss/old/_banners.scss */
+.portaltype-packet#content a.link-bannerimg:after,
+.portlet-homepage a.link-bannerimg:after,
+.existing_content_portlet a.link-bannerimg:after,
+.portletStaticText a.link-bannerimg:after,
+.mceTmpl a.link-bannerimg:after,
+body#tinymce a.link-bannerimg:after,
+.mosaic-tile-content a.link-bannerimg:after,
+#content-core #parent-fieldname-text a.link-bannerimg:after {
+  border-color: var(--bs-white);
+}
+/* line 91, ../scss/old/_banners.scss */
 .portaltype-packet#content a.link-bannerblau,
 .portaltype-packet#content a.link-banner-minimal-blue,
 .portlet-homepage a.link-bannerblau,
@@ -2554,7 +2626,7 @@ body#tinymce a.link-banner-minimal-blue,
   background-color: #cce5ff;
   border-color: #b8daff;
 }
-/* line 69, ../scss/old/_banners.scss */
+/* line 97, ../scss/old/_banners.scss */
 .portaltype-packet#content a.link-bannerblau:before, .portaltype-packet#content a.link-bannerblau:after,
 .portaltype-packet#content a.link-banner-minimal-blue:before,
 .portaltype-packet#content a.link-banner-minimal-blue:after,
@@ -2588,7 +2660,7 @@ body#tinymce a.link-banner-minimal-blue:after,
 #content-core #parent-fieldname-text a.link-banner-minimal-blue:after {
   color: #004085 !important;
 }
-/* line 74, ../scss/old/_banners.scss */
+/* line 102, ../scss/old/_banners.scss */
 .portaltype-packet#content a.link-bannerblau:after,
 .portaltype-packet#content a.link-banner-minimal-blue:after,
 .portlet-homepage a.link-bannerblau:after,
@@ -2607,7 +2679,7 @@ body#tinymce a.link-banner-minimal-blue:after,
 #content-core #parent-fieldname-text a.link-banner-minimal-blue:after {
   border-color: #004085;
 }
-/* line 79, ../scss/old/_banners.scss */
+/* line 107, ../scss/old/_banners.scss */
 .portaltype-packet#content a.link-bannerwarning,
 .portlet-homepage a.link-bannerwarning,
 .existing_content_portlet a.link-bannerwarning,
@@ -2620,7 +2692,7 @@ body#tinymce a.link-bannerwarning,
   background-color: #fff3cd;
   border-color: #ffeeba;
 }
-/* line 84, ../scss/old/_banners.scss */
+/* line 112, ../scss/old/_banners.scss */
 .portaltype-packet#content a.link-bannerwarning:before, .portaltype-packet#content a.link-bannerwarning:after,
 .portlet-homepage a.link-bannerwarning:before,
 .portlet-homepage a.link-bannerwarning:after,
@@ -2638,7 +2710,7 @@ body#tinymce a.link-bannerwarning:after,
 #content-core #parent-fieldname-text a.link-bannerwarning:after {
   color: #856404 !important;
 }
-/* line 89, ../scss/old/_banners.scss */
+/* line 117, ../scss/old/_banners.scss */
 .portaltype-packet#content a.link-bannerwarning:after,
 .portlet-homepage a.link-bannerwarning:after,
 .existing_content_portlet a.link-bannerwarning:after,
@@ -2649,7 +2721,7 @@ body#tinymce a.link-bannerwarning:after,
 #content-core #parent-fieldname-text a.link-bannerwarning:after {
   border-color: #856404;
 }
-/* line 95, ../scss/old/_banners.scss */
+/* line 123, ../scss/old/_banners.scss */
 .portaltype-packet#content a.link-bannerwarning,
 .portlet-homepage a.link-bannerwarning,
 .existing_content_portlet a.link-bannerwarning,
@@ -2662,7 +2734,7 @@ body#tinymce a.link-bannerwarning,
   background-color: #fff3cd;
   border-color: #ffeeba;
 }
-/* line 100, ../scss/old/_banners.scss */
+/* line 128, ../scss/old/_banners.scss */
 .portaltype-packet#content a.link-bannerwarning:before, .portaltype-packet#content a.link-bannerwarning:after,
 .portlet-homepage a.link-bannerwarning:before,
 .portlet-homepage a.link-bannerwarning:after,
@@ -2680,7 +2752,7 @@ body#tinymce a.link-bannerwarning:after,
 #content-core #parent-fieldname-text a.link-bannerwarning:after {
   color: #856404 !important;
 }
-/* line 105, ../scss/old/_banners.scss */
+/* line 133, ../scss/old/_banners.scss */
 .portaltype-packet#content a.link-bannerwarning:after,
 .portlet-homepage a.link-bannerwarning:after,
 .existing_content_portlet a.link-bannerwarning:after,
@@ -2691,7 +2763,7 @@ body#tinymce a.link-bannerwarning:after,
 #content-core #parent-fieldname-text a.link-bannerwarning:after {
   border-color: #856404;
 }
-/* line 110, ../scss/old/_banners.scss */
+/* line 138, ../scss/old/_banners.scss */
 .portaltype-packet#content a.link-bannerdanger,
 .portlet-homepage a.link-bannerdanger,
 .existing_content_portlet a.link-bannerdanger,
@@ -2704,7 +2776,7 @@ body#tinymce a.link-bannerdanger,
   background-color: #f8d7da;
   border-color: #f5c6cb;
 }
-/* line 115, ../scss/old/_banners.scss */
+/* line 143, ../scss/old/_banners.scss */
 .portaltype-packet#content a.link-bannerdanger:before, .portaltype-packet#content a.link-bannerdanger:after,
 .portlet-homepage a.link-bannerdanger:before,
 .portlet-homepage a.link-bannerdanger:after,
@@ -2722,7 +2794,7 @@ body#tinymce a.link-bannerdanger:after,
 #content-core #parent-fieldname-text a.link-bannerdanger:after {
   color: #721c24 !important;
 }
-/* line 120, ../scss/old/_banners.scss */
+/* line 148, ../scss/old/_banners.scss */
 .portaltype-packet#content a.link-bannerdanger:after,
 .portlet-homepage a.link-bannerdanger:after,
 .existing_content_portlet a.link-bannerdanger:after,
@@ -2733,7 +2805,7 @@ body#tinymce a.link-bannerdanger:after,
 #content-core #parent-fieldname-text a.link-bannerdanger:after {
   border-color: #721c24;
 }
-/* line 125, ../scss/old/_banners.scss */
+/* line 153, ../scss/old/_banners.scss */
 .portaltype-packet#content a.link-bannersuccess,
 .portlet-homepage a.link-bannersuccess,
 .existing_content_portlet a.link-bannersuccess,
@@ -2746,7 +2818,7 @@ body#tinymce a.link-bannersuccess,
   background-color: #d4edda;
   border-color: #c3e6cb;
 }
-/* line 130, ../scss/old/_banners.scss */
+/* line 158, ../scss/old/_banners.scss */
 .portaltype-packet#content a.link-bannersuccess:before, .portaltype-packet#content a.link-bannersuccess:after,
 .portlet-homepage a.link-bannersuccess:before,
 .portlet-homepage a.link-bannersuccess:after,
@@ -2764,7 +2836,7 @@ body#tinymce a.link-bannersuccess:after,
 #content-core #parent-fieldname-text a.link-bannersuccess:after {
   color: #155724 !important;
 }
-/* line 135, ../scss/old/_banners.scss */
+/* line 163, ../scss/old/_banners.scss */
 .portaltype-packet#content a.link-bannersuccess:after,
 .portlet-homepage a.link-bannersuccess:after,
 .existing_content_portlet a.link-bannersuccess:after,

@@ -3,17 +3,18 @@ a[class^='link-banner'] {
   padding: 14px 24px;
   position: relative;
   padding-right: 72px;
-  background-color: #fefefe;
-  border: 1px solid #c6c8ca;
+  color: #383d41;
+  background-color: #e2e3e5;
+  border: 1px solid #d6d8db;
   font-size: var(--gw-font-size-xl);
   text-decoration: none;
 
   &:after {
     width: 36px;
     height: 36px;
-    color: var(--bs-primary);
+    color: #383d41;
     content: "\e902";
-    border: 2px solid var(--bs-primary);
+    border: 2px solid #383d41;
     font-family: upc-icones;
     font-size: var(--gw-font-size-xl);
     position: absolute;
@@ -57,6 +58,33 @@ a[class^='link-banner'] {
     padding: 3px 8px;
     position: inherit;
     color: var(--bs-body-color);
+  }
+}
+
+a.link-bannerblauupc {
+  color: var(--bs-white) !important;
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+
+  &:before,
+  &:after {
+    color: var(--bs-white) !important;
+  }
+
+  &:after {
+    border-color: var(--bs-white);
+  }
+}
+
+a.link-bannerimg {
+
+  &:before,
+  &:after {
+    color: var(--bs-white) !important;
+  }
+
+  &:after {
+    border-color: var(--bs-white);
   }
 }
 
