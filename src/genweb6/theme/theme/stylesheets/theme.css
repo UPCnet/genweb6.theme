@@ -10544,11 +10544,6 @@ body.template-cas-controlpanel #accordionLogin {
   width: 466px;
 }
 
-/* line 1, ../scss/controlpanels/_cookies.scss */
-#cookies-gw-preview {
-  position: inherit;
-}
-
 /* line 3, ../scss/controlpanels/_footer.scss */
 body.template-footer-controlpanel #formfield-form-widgets-signatura_ca,
 body.template-footer-controlpanel #formfield-form-widgets-signatura_es,
