@@ -66,12 +66,12 @@ module.exports = function (grunt) {
         uglify: {
             js: {
                 files: {
+                    'js/contents/accordion_tabs_edit.min.js':
+                        '../../../../../genweb6.core/src/genweb6/core/content/accordion_tabs/accordion_tabs_edit.js',
+                        'js/contents/carousel_edit.min.js':
+                            '../../../../../genweb6.core/src/genweb6/core/content/carousel/carousel_edit.js',
                     'js/contents/document_image.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/content/document_image/document_image.js',
-                    'js/contents/interactive_template_view.min.js':
-                        '../../../../../genweb6.core/src/genweb6/core/content/interactive_template/interactive_template_view.js',
-                    'js/contents/interactive_template_edit.min.js':
-                        '../../../../../genweb6.core/src/genweb6/core/content/interactive_template/interactive_template_edit.js',
                     'js/controlpanels/resources.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/controlpanels/widgets/resources.js',
                     'js/controlpanels/login_preview.min.js':
