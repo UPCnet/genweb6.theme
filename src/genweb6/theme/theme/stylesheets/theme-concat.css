@@ -19825,7 +19825,7 @@ a:hover h6 {
 
 /* line 84, ../scss/_genweb.scss */
 a[target="_blank"]:not(:has(> img))::after {
-  content: "\e91c";
+  content: "\e91c" !important;
   font-family: "upc-icones";
   font-size: 0.7rem;
   margin-left: 3px;
