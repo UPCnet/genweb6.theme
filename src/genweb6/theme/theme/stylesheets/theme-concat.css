@@ -31388,7 +31388,7 @@ body.template-homepage #hero {
 #hero.text-hero > .site_title .h1, #hero.image-hero > .site_title h1,
 #hero.image-hero > .site_title .h1 {
   color: var(--bs-black);
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 /* line 56, ../scss/viewlets/_hero.scss */
 #hero.text-hero > .site_title h1 a,
