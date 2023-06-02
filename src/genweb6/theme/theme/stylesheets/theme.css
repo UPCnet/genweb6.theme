@@ -9867,7 +9867,7 @@ body#tinymce .list-numeral li,
   break-inside: avoid;
   font-size: 1.5rem;
   display: block;
-  line-height: 1;
+  line-height: 1.25;
   padding-bottom: 20px;
 }
 /* line 334, ../scss/old/_templates.scss */
@@ -13586,7 +13586,7 @@ body.template-homepage #hero {
 #hero.text-hero > .site_title .h1, #hero.image-hero > .site_title h1,
 #hero.image-hero > .site_title .h1 {
   color: var(--bs-black);
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 /* line 56, ../scss/viewlets/_hero.scss */
 #hero.text-hero > .site_title h1 a,

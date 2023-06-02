@@ -38,12 +38,12 @@ body.template-homepage {
   &.image-hero {
     display: flex;
     flex-direction: column;
-    
+
     & > .site_title {
       order: 1;
       padding: 0em 4em 0.5em 4em;
       text-align: left;
-      
+
       @media (max-width: 992px) {
         padding: 0em 1em 0.5em 1em;
       }
@@ -51,7 +51,7 @@ body.template-homepage {
       h1,
       .h1 {
         color: var(--bs-black);
-        font-size: 1.75rem;
+        font-size: 2rem;
 
         a {
           color: var(--bs-black);
