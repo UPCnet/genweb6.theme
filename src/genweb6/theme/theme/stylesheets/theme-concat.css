@@ -31521,7 +31521,7 @@ div#social_tags a:hover {
 }
 /* line 15, ../scss/viewlets/_social.scss */
 div#social_tags a[target="_blank"]::after {
-  content: "";
+  content: "" !important;
 }
 
 /* line 21, ../scss/viewlets/_social.scss */

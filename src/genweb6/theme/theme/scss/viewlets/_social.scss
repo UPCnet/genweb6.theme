@@ -13,7 +13,7 @@ div#social_tags {
         }
 
         &[target="_blank"]::after {
-            content: "";
+            content: "" !important;
         }
     }
 }
