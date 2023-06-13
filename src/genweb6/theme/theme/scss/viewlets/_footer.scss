@@ -60,6 +60,10 @@ footer#portal-footer-wrapper {
 
     * {
       color: var(--bs-dark) !important;
+
+      &:hover {
+        color: var(--bs-primary) !important;
+      }
     }
 
     li.custom-links {
