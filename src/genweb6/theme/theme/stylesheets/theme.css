@@ -3177,7 +3177,7 @@ body#tinymce .lletra-cercle,
 #content-core #parent-fieldname-text .lletra-cercle {
   float: left;
   font-size: 3rem;
-  margin-top: -5px;
+  margin-top: -20px;
 }
 /* line 7, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .numero-cercle,
@@ -4193,8 +4193,9 @@ body#tinymce ul.list-sections li,
   border-top: 1px solid var(--bs-gray-300);
   border-bottom: 1px solid var(--bs-gray-300);
   padding: 18px 0;
+  margin-left: 0rem;
 }
-/* line 123, ../scss/old/_lists.scss */
+/* line 124, ../scss/old/_lists.scss */
 .portaltype-packet#content ul.list-sections li > img:first-child ~ *,
 .portaltype-packet#content ul.list-sections li .lletra-cercle:first-child ~ *,
 .portlet-homepage ul.list-sections li > img:first-child ~ *,
@@ -4214,7 +4215,7 @@ body#tinymce ul.list-sections li .lletra-cercle:first-child ~ *,
   margin-left: 66px;
   max-width: calc(100% - 66px);
 }
-/* line 132, ../scss/old/_lists.scss */
+/* line 133, ../scss/old/_lists.scss */
 .portaltype-packet#content ul.unstyled,
 .portlet-homepage ul.unstyled,
 .existing_content_portlet ul.unstyled,
@@ -4226,7 +4227,7 @@ body#tinymce ul.unstyled,
   list-style: none;
   padding-left: 0;
 }
-/* line 138, ../scss/old/_lists.scss */
+/* line 139, ../scss/old/_lists.scss */
 .portaltype-packet#content ul.list-notebook,
 .portlet-homepage ul.list-notebook,
 .existing_content_portlet ul.list-notebook,
@@ -4239,7 +4240,7 @@ body#tinymce ul.list-notebook,
   padding-left: 10px;
   border-left: 4px double var(--bs-orange);
 }
-/* line 143, ../scss/old/_lists.scss */
+/* line 144, ../scss/old/_lists.scss */
 .portaltype-packet#content ul.list-notebook li,
 .portlet-homepage ul.list-notebook li,
 .existing_content_portlet ul.list-notebook li,
@@ -4254,7 +4255,7 @@ body#tinymce ul.list-notebook li,
   position: relative;
   list-style: none;
 }
-/* line 150, ../scss/old/_lists.scss */
+/* line 151, ../scss/old/_lists.scss */
 .portaltype-packet#content ul.list-notebook li:first-child,
 .portlet-homepage ul.list-notebook li:first-child,
 .existing_content_portlet ul.list-notebook li:first-child,
@@ -4265,7 +4266,7 @@ body#tinymce ul.list-notebook li:first-child,
 #content-core #parent-fieldname-text ul.list-notebook li:first-child {
   border-top: 1px solid var(--bs-cyan);
 }
-/* line 154, ../scss/old/_lists.scss */
+/* line 155, ../scss/old/_lists.scss */
 .portaltype-packet#content ul.list-notebook li::before,
 .portlet-homepage ul.list-notebook li::before,
 .existing_content_portlet ul.list-notebook li::before,
@@ -4302,7 +4303,7 @@ body#tinymce [class*=" icon-"],
   height: 14px;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url('/++theme++genweb6.theme/img/gh.png');
+  background-image: url(/++theme++genweb6.theme/img/gh.png);
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 3px;
@@ -4364,7 +4365,7 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > li > a:hover > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class^="icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class*=" icon-"] {
-  background-image: url('/++theme++genweb6.theme/img/gh-w.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-w.png);
 }
 /* line 43, ../scss/old/_sprites.scss */
 .portaltype-packet#content .icon-color,
@@ -4375,7 +4376,7 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 body#tinymce .icon-color,
 .mosaic-tile-content .icon-color,
 #content-core #parent-fieldname-text .icon-color {
-  background-image: url('/++theme++genweb6.theme/img/gh-c.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-c.png);
 }
 /* line 47, ../scss/old/_sprites.scss */
 .portaltype-packet#content .icon-glass,
@@ -7796,7 +7797,7 @@ body#tinymce .icon-translate,
 body#tinymce .large-icon,
 .mosaic-tile-content .large-icon,
 #content-core #parent-fieldname-text .large-icon {
-  background-image: url('/++theme++genweb6.theme/img/gh-150.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-150.png);
   width: 21px;
   height: 21px;
   margin-top: -1px;
@@ -7877,7 +7878,7 @@ body#tinymce .large-icon.icon-user-news,
 body#tinymce .large-icon.icon-white,
 .mosaic-tile-content .large-icon.icon-white,
 #content-core #parent-fieldname-text .large-icon.icon-white {
-  background-image: url('/++theme++genweb6.theme/img/gh-150-w.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-150-w.png);
 }
 /* line 4, ../scss/old/_styles.scss */
 .portaltype-packet#content .label,
