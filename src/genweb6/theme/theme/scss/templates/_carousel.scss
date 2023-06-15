@@ -1,6 +1,16 @@
 .template-carousel,
 .template-multiple-carousel {
 
+  .carousel-indicators {
+
+    button {
+      border: 1px solid white;
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+    }
+  }
+
   .carousel-item {
 
     a[target="_blank"]::after {
@@ -21,7 +31,7 @@
       right: 0;
       left: 0;
       bottom: 0;
-      padding: 1rem 1rem 2.5rem 1rem;
+      padding: 1rem 1rem 1.5rem 1rem;
       display: flex;
       flex-direction: column;
       background: -moz-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
@@ -52,6 +62,38 @@
     .time {
       order: 3;
     }
+  }
+}
+
+.template-carousel {
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: auto;
+    height: max-content;
+    top: 1rem;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    opacity: 0.75;
+
+    &:hover {
+      opacity: 0.9;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+
+  .carousel-control-next {
+    right: 1rem;
+  }
+
+  .carousel-control-prev {
+    right: 5rem;
+    left: inherit;
   }
 }
 
