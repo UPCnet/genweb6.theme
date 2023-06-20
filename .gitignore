@@ -1,4 +1,3 @@
-src/genweb6.core/
 .coverage
 .coverage.*
 *.egg-info

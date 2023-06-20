@@ -7,10 +7,7 @@ from plone.app.testing import IntegrationTesting
 from plone.app.testing import PloneSandboxLayer
 from plone.testing import z2
 
-import genweb6.core
 import genweb6.theme
-import collective.easyform
-import plone.app.mosaic
 
 
 class Genweb6ThemeLayer(PloneSandboxLayer):
@@ -25,9 +22,6 @@ class Genweb6ThemeLayer(PloneSandboxLayer):
         self.loadZCML(package=plone.app.dexterity)
         import plone.restapi
         self.loadZCML(package=plone.restapi)
-        self.loadZCML(package=genweb6.core)
-        self.loadZCML(package=collective.easyform)
-        self.loadZCML(package=plone.app.mosaic)
         self.loadZCML(package=genweb6.theme)
 
     def setUpPloneSite(self, portal):

@@ -4,4 +4,3 @@ include =
 omit =
     */test*
     */upgrades/*
-    src/genweb6/genweb6.core
