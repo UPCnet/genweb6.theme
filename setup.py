@@ -55,6 +55,7 @@ setup(
         'plone.api>=1.8.4',
         'plone.app.dexterity',
         'plone.app.mosaic',
+        'genweb6.core',
     ],
     extras_require={
         'test': [
@@ -65,6 +66,7 @@ setup(
             'plone.testing>=5.0.0',
             'plone.app.contenttypes',
             'plone.app.robotframework[debug]',
+            'genweb6.core',
         ],
     },
     entry_points="""
