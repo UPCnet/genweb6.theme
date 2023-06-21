@@ -1,0 +1,13 @@
+body.template-edit {
+
+  div.tox-tinymce-aux {
+
+    div.tox-menu {
+
+      div[title="p.highlight-paragraph"],
+      div[title="highlight-inline"] {
+        display: none;
+      }
+    }
+  }
+}
