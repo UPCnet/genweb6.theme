@@ -12,3 +12,4 @@ def upgrade_by_reinstall(context):
     qi.install_product("genweb6.theme")
     qi.uninstall_product("plone.app.mosaic")
     qi.install_product("plone.app.mosaic")
+    return True
