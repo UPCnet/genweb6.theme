@@ -51,7 +51,11 @@ body.template-homepage {
       h1,
       .h1 {
         color: var(--bs-black);
-        font-size: 1.75rem;
+        font-size: 2.75rem;
+
+        @media (max-width: 576px) {
+          font-size: 2.25rem;
+        }
 
         a {
           color: var(--bs-black);

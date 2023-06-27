@@ -31440,33 +31440,41 @@ body.template-homepage #hero {
 #hero.text-hero > .site_title .h1, #hero.image-hero > .site_title h1,
 #hero.image-hero > .site_title .h1 {
   color: var(--bs-black);
-  font-size: 1.75rem;
+  font-size: 2.75rem;
 }
-/* line 56, ../scss/viewlets/_hero.scss */
+@media (max-width: 576px) {
+  /* line 51, ../scss/viewlets/_hero.scss */
+  #hero.text-hero > .site_title h1,
+  #hero.text-hero > .site_title .h1, #hero.image-hero > .site_title h1,
+  #hero.image-hero > .site_title .h1 {
+    font-size: 2.25rem;
+  }
+}
+/* line 60, ../scss/viewlets/_hero.scss */
 #hero.text-hero > .site_title h1 a,
 #hero.text-hero > .site_title .h1 a, #hero.image-hero > .site_title h1 a,
 #hero.image-hero > .site_title .h1 a {
   color: var(--bs-black);
 }
-/* line 59, ../scss/viewlets/_hero.scss */
+/* line 63, ../scss/viewlets/_hero.scss */
 #hero.text-hero > .site_title h1 a:hover,
 #hero.text-hero > .site_title .h1 a:hover, #hero.image-hero > .site_title h1 a:hover,
 #hero.image-hero > .site_title .h1 a:hover {
   color: var(--bs-primary);
 }
-/* line 66, ../scss/viewlets/_hero.scss */
+/* line 70, ../scss/viewlets/_hero.scss */
 #hero.text-hero > img, #hero.image-hero > img {
   order: 2;
   height: 100px;
 }
-/* line 75, ../scss/viewlets/_hero.scss */
+/* line 79, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero h1,
 #hero.pretty-image-hero .h1, #hero.full-pretty-image-hero h1,
 #hero.full-pretty-image-hero .h1 {
   color: white;
   font-size: 2.5rem;
 }
-/* line 81, ../scss/viewlets/_hero.scss */
+/* line 85, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero h2,
 #hero.pretty-image-hero .h2, #hero.full-pretty-image-hero h2,
 #hero.full-pretty-image-hero .h2 {
@@ -31475,20 +31483,20 @@ body.template-homepage #hero {
   margin-top: 1rem;
 }
 @media (max-width: 768px) {
-  /* line 90, ../scss/viewlets/_hero.scss */
+  /* line 94, ../scss/viewlets/_hero.scss */
   #hero.pretty-image-hero h1,
   #hero.pretty-image-hero .h1, #hero.full-pretty-image-hero h1,
   #hero.full-pretty-image-hero .h1 {
     font-size: 1.75rem;
   }
-  /* line 95, ../scss/viewlets/_hero.scss */
+  /* line 99, ../scss/viewlets/_hero.scss */
   #hero.pretty-image-hero h2,
   #hero.pretty-image-hero .h2, #hero.full-pretty-image-hero h2,
   #hero.full-pretty-image-hero .h2 {
     font-size: 1.5rem;
   }
 }
-/* line 101, ../scss/viewlets/_hero.scss */
+/* line 105, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero > div, #hero.full-pretty-image-hero > div {
   background-color: var(--bs-primary);
   position: relative;
@@ -31496,16 +31504,16 @@ body.template-homepage #hero {
   top: 0;
   padding: 1.25rem;
 }
-/* line 108, ../scss/viewlets/_hero.scss */
+/* line 112, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero > div > *, #hero.full-pretty-image-hero > div > * {
   padding-left: 2rem;
   padding-right: 1rem;
 }
-/* line 117, ../scss/viewlets/_hero.scss */
+/* line 121, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero img {
   height: 500px;
 }
-/* line 122, ../scss/viewlets/_hero.scss */
+/* line 126, ../scss/viewlets/_hero.scss */
 #hero.full-pretty-image-hero {
   width: 100%;
   height: calc(100dvh - 92px);
@@ -31518,7 +31526,7 @@ body.template-homepage #hero {
   background-position: center center;
   background-repeat: no-repeat;
 }
-/* line 134, ../scss/viewlets/_hero.scss */
+/* line 138, ../scss/viewlets/_hero.scss */
 #hero.full-pretty-image-hero a.down-hero {
   font-size: 3rem;
   color: var(--bs-primary);
@@ -31526,22 +31534,22 @@ body.template-homepage #hero {
   bottom: 1.5rem;
 }
 @media (max-width: 768px) {
-  /* line 134, ../scss/viewlets/_hero.scss */
+  /* line 138, ../scss/viewlets/_hero.scss */
   #hero.full-pretty-image-hero a.down-hero {
     bottom: 1rem;
   }
 }
-/* line 144, ../scss/viewlets/_hero.scss */
+/* line 148, ../scss/viewlets/_hero.scss */
 #hero.full-pretty-image-hero a.down-hero:hover {
   color: var(--bs-primary-hover);
 }
-/* line 150, ../scss/viewlets/_hero.scss */
+/* line 154, ../scss/viewlets/_hero.scss */
 #hero img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-/* line 156, ../scss/viewlets/_hero.scss */
+/* line 160, ../scss/viewlets/_hero.scss */
 #hero h2,
 #hero h1,
 #hero .h2,
