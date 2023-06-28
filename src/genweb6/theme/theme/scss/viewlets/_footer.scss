@@ -13,11 +13,14 @@ footer#portal-footer-wrapper {
   }
 }
 
-
 #portal-footer {
   position: relative;
 
   &.image-theme {
+
+    * {
+      color: var(--bs-white) !important;
+    }
 
     a {
       color: var(--bs-white) !important;
@@ -45,6 +48,10 @@ footer#portal-footer-wrapper {
 
   &.dark-theme {
     background-color: #212529;
+
+    * {
+      color: var(--bs-white) !important;
+    }
 
     a {
       color: var(--bs-white) !important;
