@@ -60,7 +60,18 @@ footer#portal-footer-wrapper {
   &.dark-theme {
     background-color: #212529;
 
-    * {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6 {
       color: var(--bs-white) !important;
     }
 
@@ -76,18 +87,7 @@ footer#portal-footer-wrapper {
   &.light-theme {
     background-color: #f5f5f5;
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    .h1,
-    .h2,
-    .h3,
-    .h4,
-    .h5,
-    .h6 {
+    * {
       color: var(--bs-dark) !important;
     }
 
