@@ -30634,18 +30634,29 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   position: relative;
 }
 /* line 21, ../scss/viewlets/_footer.scss */
-#portal-footer.image-theme * {
+#portal-footer.image-theme h1,
+#portal-footer.image-theme h2,
+#portal-footer.image-theme h3,
+#portal-footer.image-theme h4,
+#portal-footer.image-theme h5,
+#portal-footer.image-theme h6,
+#portal-footer.image-theme .h1,
+#portal-footer.image-theme .h2,
+#portal-footer.image-theme .h3,
+#portal-footer.image-theme .h4,
+#portal-footer.image-theme .h5,
+#portal-footer.image-theme .h6 {
   color: var(--bs-white) !important;
 }
-/* line 25, ../scss/viewlets/_footer.scss */
+/* line 36, ../scss/viewlets/_footer.scss */
 #portal-footer.image-theme a {
   color: var(--bs-white) !important;
 }
-/* line 28, ../scss/viewlets/_footer.scss */
+/* line 39, ../scss/viewlets/_footer.scss */
 #portal-footer.image-theme a:hover {
   color: var(--bs-primary) !important;
 }
-/* line 33, ../scss/viewlets/_footer.scss */
+/* line 44, ../scss/viewlets/_footer.scss */
 #portal-footer.image-theme::before {
   content: ' ';
   display: block;
@@ -30660,104 +30671,115 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   background-size: cover;
   z-index: -1;
 }
-/* line 49, ../scss/viewlets/_footer.scss */
+/* line 60, ../scss/viewlets/_footer.scss */
 #portal-footer.dark-theme {
   background-color: #212529;
 }
-/* line 52, ../scss/viewlets/_footer.scss */
+/* line 63, ../scss/viewlets/_footer.scss */
 #portal-footer.dark-theme * {
   color: var(--bs-white) !important;
 }
-/* line 56, ../scss/viewlets/_footer.scss */
+/* line 67, ../scss/viewlets/_footer.scss */
 #portal-footer.dark-theme a {
   color: var(--bs-white) !important;
 }
-/* line 59, ../scss/viewlets/_footer.scss */
+/* line 70, ../scss/viewlets/_footer.scss */
 #portal-footer.dark-theme a:hover {
   color: var(--bs-primary) !important;
 }
-/* line 65, ../scss/viewlets/_footer.scss */
+/* line 76, ../scss/viewlets/_footer.scss */
 #portal-footer.light-theme {
   background-color: #f5f5f5;
 }
-/* line 68, ../scss/viewlets/_footer.scss */
-#portal-footer.light-theme * {
+/* line 79, ../scss/viewlets/_footer.scss */
+#portal-footer.light-theme h1,
+#portal-footer.light-theme h2,
+#portal-footer.light-theme h3,
+#portal-footer.light-theme h4,
+#portal-footer.light-theme h5,
+#portal-footer.light-theme h6,
+#portal-footer.light-theme .h1,
+#portal-footer.light-theme .h2,
+#portal-footer.light-theme .h3,
+#portal-footer.light-theme .h4,
+#portal-footer.light-theme .h5,
+#portal-footer.light-theme .h6 {
   color: var(--bs-dark) !important;
 }
-/* line 72, ../scss/viewlets/_footer.scss */
+/* line 94, ../scss/viewlets/_footer.scss */
 #portal-footer.light-theme a:hover {
   color: var(--bs-primary) !important;
 }
-/* line 76, ../scss/viewlets/_footer.scss */
+/* line 98, ../scss/viewlets/_footer.scss */
 #portal-footer.light-theme li.custom-links {
   border-left-color: var(--bs-dark) !important;
 }
-/* line 80, ../scss/viewlets/_footer.scss */
+/* line 102, ../scss/viewlets/_footer.scss */
 #portal-footer.light-theme #footer-logos {
   border-bottom: 1px solid var(--bs-gray-300);
 }
-/* line 85, ../scss/viewlets/_footer.scss */
+/* line 107, ../scss/viewlets/_footer.scss */
 #portal-footer button.uc-embedding-accept {
   color: var(--bs-white) !important;
 }
 
-/* line 90, ../scss/viewlets/_footer.scss */
+/* line 112, ../scss/viewlets/_footer.scss */
 #footer-logos {
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 2em 4em 1em 4em;
   background-color: var(--bs-body-bg);
   border-top: 1px solid var(--bs-gray-300);
 }
-/* line 96, ../scss/viewlets/_footer.scss */
+/* line 118, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos {
   margin: 0 auto;
   padding: 0;
   list-style: none;
   text-align: center;
 }
-/* line 102, ../scss/viewlets/_footer.scss */
+/* line 124, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li {
   display: inline-block;
   margin: 0 0 1em;
 }
-/* line 106, ../scss/viewlets/_footer.scss */
+/* line 128, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a {
   text-decoration: none;
   margin-left: 2em;
 }
-/* line 110, ../scss/viewlets/_footer.scss */
+/* line 132, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a[target="_blank"]::after {
   display: none;
   content: "";
 }
-/* line 115, ../scss/viewlets/_footer.scss */
+/* line 137, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li a img {
   max-height: 60px;
 }
-/* line 122, ../scss/viewlets/_footer.scss */
+/* line 144, ../scss/viewlets/_footer.scss */
 #footer-logos .llistatLogos li:first-child a {
   margin-left: 0;
 }
 
-/* line 130, ../scss/viewlets/_footer.scss */
+/* line 152, ../scss/viewlets/_footer.scss */
 #footer-links {
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 0em 4em 0em 4em;
   color: var(--bs-body-bg);
 }
-/* line 135, ../scss/viewlets/_footer.scss */
+/* line 157, ../scss/viewlets/_footer.scss */
 #footer-links div.navbar-nav-footer.custom {
   margin-top: 2rem;
 }
-/* line 138, ../scss/viewlets/_footer.scss */
+/* line 160, ../scss/viewlets/_footer.scss */
 #footer-links div.navbar-nav-footer.custom a {
   text-decoration: none;
 }
-/* line 141, ../scss/viewlets/_footer.scss */
+/* line 163, ../scss/viewlets/_footer.scss */
 #footer-links div.navbar-nav-footer.custom a:hover {
   font-weight: 500;
 }
-/* line 147, ../scss/viewlets/_footer.scss */
+/* line 169, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer {
   padding-left: 0;
   padding-bottom: 0;
@@ -30765,7 +30787,7 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-/* line 154, ../scss/viewlets/_footer.scss */
+/* line 176, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li {
   flex-basis: 16%;
   list-style: none;
@@ -30775,35 +30797,35 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   padding-right: 2em;
 }
 @media (max-width: 1200px) {
-  /* line 154, ../scss/viewlets/_footer.scss */
+  /* line 176, ../scss/viewlets/_footer.scss */
   #footer-links ul.navbar-nav-footer > li {
     flex-basis: 24%;
   }
 }
 @media (max-width: 992px) {
-  /* line 154, ../scss/viewlets/_footer.scss */
+  /* line 176, ../scss/viewlets/_footer.scss */
   #footer-links ul.navbar-nav-footer > li {
     flex-basis: 33%;
   }
 }
 @media (max-width: 768px) {
-  /* line 154, ../scss/viewlets/_footer.scss */
+  /* line 176, ../scss/viewlets/_footer.scss */
   #footer-links ul.navbar-nav-footer > li {
     flex-basis: 49%;
   }
 }
 @media (max-width: 576px) {
-  /* line 154, ../scss/viewlets/_footer.scss */
+  /* line 176, ../scss/viewlets/_footer.scss */
   #footer-links ul.navbar-nav-footer > li {
     flex-basis: 100%;
     order: 2;
   }
 }
-/* line 179, ../scss/viewlets/_footer.scss */
+/* line 201, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li:not(.has_subtree) {
   display: none;
 }
-/* line 183, ../scss/viewlets/_footer.scss */
+/* line 205, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li.custom-links {
   border-left: 1px solid var(--bs-white);
   padding-left: 15px;
@@ -30811,140 +30833,140 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   margin-right: 15px;
 }
 @media (max-width: 576px) {
-  /* line 183, ../scss/viewlets/_footer.scss */
+  /* line 205, ../scss/viewlets/_footer.scss */
   #footer-links ul.navbar-nav-footer > li.custom-links {
     order: 1;
     margin-left: 0;
   }
 }
-/* line 195, ../scss/viewlets/_footer.scss */
+/* line 217, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li > a, #footer-links ul.navbar-nav-footer > li > p {
   margin-bottom: 1rem;
 }
-/* line 200, ../scss/viewlets/_footer.scss */
+/* line 222, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li > a:hover {
   font-weight: 700;
 }
-/* line 204, ../scss/viewlets/_footer.scss */
+/* line 226, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li > ul {
   margin-left: -15px;
   list-style: disc;
 }
-/* line 208, ../scss/viewlets/_footer.scss */
+/* line 230, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li > ul.navbar-nav-footer-no-folders {
   list-style: none;
   padding-left: 0;
   margin-left: 0;
 }
-/* line 213, ../scss/viewlets/_footer.scss */
+/* line 235, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li > ul.navbar-nav-footer-no-folders > li {
   font-weight: 500;
   font-size: var(--gw-font-size-xxxl);
   margin-bottom: 0.5rem;
 }
-/* line 218, ../scss/viewlets/_footer.scss */
+/* line 240, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li > ul.navbar-nav-footer-no-folders > li > a:hover {
   font-weight: 700;
 }
-/* line 222, ../scss/viewlets/_footer.scss */
+/* line 244, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li > ul.navbar-nav-footer-no-folders > li.has_subtree {
   display: none;
 }
-/* line 228, ../scss/viewlets/_footer.scss */
+/* line 250, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li > ul > li {
   font-weight: 300;
   font-size: 1rem;
 }
-/* line 232, ../scss/viewlets/_footer.scss */
+/* line 254, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li > ul > li > a {
   margin-bottom: 5px;
 }
-/* line 235, ../scss/viewlets/_footer.scss */
+/* line 257, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li > ul > li > a:hover {
   color: var(--bs-primary) !important;
   font-weight: 500;
 }
 @media (max-width: 768px) {
-  /* line 247, ../scss/viewlets/_footer.scss */
+  /* line 269, ../scss/viewlets/_footer.scss */
   #footer-links .col-md-9 {
     order: 2;
   }
-  /* line 251, ../scss/viewlets/_footer.scss */
+  /* line 273, ../scss/viewlets/_footer.scss */
   #footer-links .col-md-3 {
     order: 1;
   }
 }
 
-/* line 257, ../scss/viewlets/_footer.scss */
+/* line 279, ../scss/viewlets/_footer.scss */
 #portal-footer #footer-complementary {
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
   padding: 0 4em;
   background-color: var(--bs-white) !important;
   height: 60px;
 }
-/* line 263, ../scss/viewlets/_footer.scss */
+/* line 285, ../scss/viewlets/_footer.scss */
 #portal-footer #footer-complementary p,
 #portal-footer #footer-complementary span,
 #portal-footer #footer-complementary a {
   font-size: 0.875rem;
 }
-/* line 269, ../scss/viewlets/_footer.scss */
+/* line 291, ../scss/viewlets/_footer.scss */
 #portal-footer #footer-complementary p {
   display: inline-block;
   margin: 19px 0;
 }
-/* line 274, ../scss/viewlets/_footer.scss */
+/* line 296, ../scss/viewlets/_footer.scss */
 #portal-footer #footer-complementary nav {
   margin: 10px 0;
   text-align: right;
 }
-/* line 278, ../scss/viewlets/_footer.scss */
+/* line 300, ../scss/viewlets/_footer.scss */
 #portal-footer #footer-complementary nav li {
   white-space: nowrap;
   margin-left: 24px;
 }
-/* line 283, ../scss/viewlets/_footer.scss */
+/* line 305, ../scss/viewlets/_footer.scss */
 #portal-footer #footer-complementary nav ul,
 #portal-footer #footer-complementary nav li {
   display: inline;
   padding: 0;
 }
-/* line 288, ../scss/viewlets/_footer.scss */
+/* line 310, ../scss/viewlets/_footer.scss */
 #portal-footer #footer-complementary nav ul a,
 #portal-footer #footer-complementary nav li a {
   color: var(--bs-primary) !important;
   text-decoration: none;
 }
-/* line 292, ../scss/viewlets/_footer.scss */
+/* line 314, ../scss/viewlets/_footer.scss */
 #portal-footer #footer-complementary nav ul a:hover,
 #portal-footer #footer-complementary nav li a:hover {
   font-weight: 400;
   color: var(--bs-primary) !important;
 }
-/* line 297, ../scss/viewlets/_footer.scss */
+/* line 319, ../scss/viewlets/_footer.scss */
 #portal-footer #footer-complementary nav ul a::after,
 #portal-footer #footer-complementary nav li a::after {
   font-size: 0.9rem;
 }
-/* line 301, ../scss/viewlets/_footer.scss */
+/* line 323, ../scss/viewlets/_footer.scss */
 #portal-footer #footer-complementary nav ul a .logoGenwebUPC,
 #portal-footer #footer-complementary nav li a .logoGenwebUPC {
   height: 40px;
 }
 
 @media (max-width: 768px) {
-  /* line 311, ../scss/viewlets/_footer.scss */
+  /* line 333, ../scss/viewlets/_footer.scss */
   #footer-complementary nav {
     float: left;
     text-align: left;
   }
-  /* line 315, ../scss/viewlets/_footer.scss */
+  /* line 337, ../scss/viewlets/_footer.scss */
   #footer-complementary nav li {
     margin-right: 24px;
     margin-left: 0;
   }
 }
-/* line 329, ../scss/viewlets/_footer.scss */
+/* line 351, ../scss/viewlets/_footer.scss */
 body.template-manage-subhome article#content footer#portal-footer-wrapper,
 body.template-manage-portlets article#content footer#portal-footer-wrapper,
 body.template-manage-homeportlets article#content footer#portal-footer-wrapper {
