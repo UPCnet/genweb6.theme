@@ -4309,7 +4309,7 @@ body#tinymce [class*=" icon-"],
   height: 14px;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url('/++theme++genweb6.theme/img/gh.png');
+  background-image: url(/++theme++genweb6.theme/img/gh.png);
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 3px;
@@ -4371,7 +4371,7 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > li > a:hover > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class^="icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class*=" icon-"] {
-  background-image: url('/++theme++genweb6.theme/img/gh-w.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-w.png);
 }
 /* line 43, ../scss/old/_sprites.scss */
 .portaltype-packet#content .icon-color,
@@ -4382,7 +4382,7 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 body#tinymce .icon-color,
 .mosaic-tile-content .icon-color,
 #content-core #parent-fieldname-text .icon-color {
-  background-image: url('/++theme++genweb6.theme/img/gh-c.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-c.png);
 }
 /* line 47, ../scss/old/_sprites.scss */
 .portaltype-packet#content .icon-glass,
@@ -7803,7 +7803,7 @@ body#tinymce .icon-translate,
 body#tinymce .large-icon,
 .mosaic-tile-content .large-icon,
 #content-core #parent-fieldname-text .large-icon {
-  background-image: url('/++theme++genweb6.theme/img/gh-150.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-150.png);
   width: 21px;
   height: 21px;
   margin-top: -1px;
@@ -7884,7 +7884,7 @@ body#tinymce .large-icon.icon-user-news,
 body#tinymce .large-icon.icon-white,
 .mosaic-tile-content .large-icon.icon-white,
 #content-core #parent-fieldname-text .large-icon.icon-white {
-  background-image: url('/++theme++genweb6.theme/img/gh-150-w.png');
+  background-image: url(/++theme++genweb6.theme/img/gh-150-w.png);
 }
 /* line 4, ../scss/old/_styles.scss */
 .portaltype-packet#content .label,
@@ -14304,20 +14304,24 @@ body.template-event_listing #content-core a.url {
   text-decoration: none;
 }
 
-/* line 8, ../scss/views/_filtered_contents_search_pretty_view.scss */
+/* line 10, ../scss/views/_filtered_contents_search_pretty_view.scss */
 div.existing-content.template-filtered_contents_search_complete_pretty_view .col-md-3 h2,
 div.existing-content.template-filtered_contents_search_pretty_view .col-md-3 h2,
+div.existing-content.template-techoffer_filter .col-md-3 h2,
 body.template-filtered_contents_search_complete_pretty_view .col-md-3 h2,
-body.template-filtered_contents_search_pretty_view .col-md-3 h2 {
+body.template-filtered_contents_search_pretty_view .col-md-3 h2,
+body.template-techoffer_filter .col-md-3 h2 {
   color: var(--bs-body-color);
   font-size: 1.75rem;
   font-weight: 500;
 }
-/* line 16, ../scss/views/_filtered_contents_search_pretty_view.scss */
+/* line 18, ../scss/views/_filtered_contents_search_pretty_view.scss */
 div.existing-content.template-filtered_contents_search_complete_pretty_view .col-md-3 .caixessearch h3,
 div.existing-content.template-filtered_contents_search_pretty_view .col-md-3 .caixessearch h3,
+div.existing-content.template-techoffer_filter .col-md-3 .caixessearch h3,
 body.template-filtered_contents_search_complete_pretty_view .col-md-3 .caixessearch h3,
-body.template-filtered_contents_search_pretty_view .col-md-3 .caixessearch h3 {
+body.template-filtered_contents_search_pretty_view .col-md-3 .caixessearch h3,
+body.template-techoffer_filter .col-md-3 .caixessearch h3 {
   color: var(--bs-body-color);
   font-size: var(--gw-font-size-xxxl);
   font-weight: 300;
@@ -14325,53 +14329,65 @@ body.template-filtered_contents_search_pretty_view .col-md-3 .caixessearch h3 {
   margin: 0 0 0.75rem 0;
   padding: 1.5rem 0 0.5rem 0;
 }
-/* line 31, ../scss/views/_filtered_contents_search_pretty_view.scss */
+/* line 33, ../scss/views/_filtered_contents_search_pretty_view.scss */
 div.existing-content.template-filtered_contents_search_complete_pretty_view .col-md-9 #tagslist .tileItem,
 div.existing-content.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem,
+div.existing-content.template-techoffer_filter .col-md-9 #tagslist .tileItem,
 body.template-filtered_contents_search_complete_pretty_view .col-md-9 #tagslist .tileItem,
-body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem {
+body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem,
+body.template-techoffer_filter .col-md-9 #tagslist .tileItem {
   width: 100%;
   display: inline-block;
   padding-bottom: 0.75rem;
   margin-bottom: 0.75rem;
   border-bottom: 1px solid var(--bs-gray-300);
 }
-/* line 38, ../scss/views/_filtered_contents_search_pretty_view.scss */
+/* line 40, ../scss/views/_filtered_contents_search_pretty_view.scss */
 div.existing-content.template-filtered_contents_search_complete_pretty_view .col-md-9 #tagslist .tileItem:last-child,
 div.existing-content.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem:last-child,
+div.existing-content.template-techoffer_filter .col-md-9 #tagslist .tileItem:last-child,
 body.template-filtered_contents_search_complete_pretty_view .col-md-9 #tagslist .tileItem:last-child,
-body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem:last-child {
+body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem:last-child,
+body.template-techoffer_filter .col-md-9 #tagslist .tileItem:last-child {
   border-bottom: 0px solid transparent;
 }
-/* line 42, ../scss/views/_filtered_contents_search_pretty_view.scss */
+/* line 44, ../scss/views/_filtered_contents_search_pretty_view.scss */
 div.existing-content.template-filtered_contents_search_complete_pretty_view .col-md-9 #tagslist .tileItem .tileImageContainer,
 div.existing-content.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem .tileImageContainer,
+div.existing-content.template-techoffer_filter .col-md-9 #tagslist .tileItem .tileImageContainer,
 body.template-filtered_contents_search_complete_pretty_view .col-md-9 #tagslist .tileItem .tileImageContainer,
-body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem .tileImageContainer {
+body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem .tileImageContainer,
+body.template-techoffer_filter .col-md-9 #tagslist .tileItem .tileImageContainer {
   float: right;
 }
-/* line 45, ../scss/views/_filtered_contents_search_pretty_view.scss */
+/* line 47, ../scss/views/_filtered_contents_search_pretty_view.scss */
 div.existing-content.template-filtered_contents_search_complete_pretty_view .col-md-9 #tagslist .tileItem .tileImageContainer .tileImage,
 div.existing-content.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem .tileImageContainer .tileImage,
+div.existing-content.template-techoffer_filter .col-md-9 #tagslist .tileItem .tileImageContainer .tileImage,
 body.template-filtered_contents_search_complete_pretty_view .col-md-9 #tagslist .tileItem .tileImageContainer .tileImage,
-body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem .tileImageContainer .tileImage {
+body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem .tileImageContainer .tileImage,
+body.template-techoffer_filter .col-md-9 #tagslist .tileItem .tileImageContainer .tileImage {
   margin-left: 25px;
 }
-/* line 50, ../scss/views/_filtered_contents_search_pretty_view.scss */
+/* line 52, ../scss/views/_filtered_contents_search_pretty_view.scss */
 div.existing-content.template-filtered_contents_search_complete_pretty_view .col-md-9 #tagslist .tileItem h2,
 div.existing-content.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem h2,
+div.existing-content.template-techoffer_filter .col-md-9 #tagslist .tileItem h2,
 body.template-filtered_contents_search_complete_pretty_view .col-md-9 #tagslist .tileItem h2,
-body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem h2 {
+body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem h2,
+body.template-techoffer_filter .col-md-9 #tagslist .tileItem h2 {
   font-weight: 500;
   font-size: var(--gw-font-size-xxl);
   margin-bottom: 0.2rem;
   line-height: 1.5em;
 }
-/* line 56, ../scss/views/_filtered_contents_search_pretty_view.scss */
+/* line 58, ../scss/views/_filtered_contents_search_pretty_view.scss */
 div.existing-content.template-filtered_contents_search_complete_pretty_view .col-md-9 #tagslist .tileItem h2 a,
 div.existing-content.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem h2 a,
+div.existing-content.template-techoffer_filter .col-md-9 #tagslist .tileItem h2 a,
 body.template-filtered_contents_search_complete_pretty_view .col-md-9 #tagslist .tileItem h2 a,
-body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem h2 a {
+body.template-filtered_contents_search_pretty_view .col-md-9 #tagslist .tileItem h2 a,
+body.template-techoffer_filter .col-md-9 #tagslist .tileItem h2 a {
   text-decoration: none;
 }
 
