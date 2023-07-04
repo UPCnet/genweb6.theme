@@ -34,7 +34,7 @@
   .offcanvas-header {
     padding: var(--bs-offcanvas-padding-y) 2rem;
 
-    h5 {
+    .h5 {
       color: var(--bs-white);
       margin-bottom: 0;
     }
@@ -146,4 +146,3 @@
     }
   }
 }
-
