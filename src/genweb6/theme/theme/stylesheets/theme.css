@@ -13302,10 +13302,12 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   max-width: 350px;
   min-width: 115%;
   height: auto;
+  max-height: 90dvh;
+  overflow-y: auto;
   background-color: var(--bs-white);
   box-shadow: 0 7px 8px #00000033;
 }
-/* line 162, ../scss/viewlets/_header.scss */
+/* line 164, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item {
   background-color: #fff;
   text-align: left;
@@ -13315,52 +13317,52 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   border-left: 2px solid var(--bs-gray-dark);
   margin-left: 5px;
 }
-/* line 171, ../scss/viewlets/_header.scss */
+/* line 173, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item.current, #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item:hover {
   border-left: 2px solid var(--bs-primary);
 }
-/* line 178, ../scss/viewlets/_header.scss */
+/* line 180, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item.current .nav-link {
   font-weight: 600;
 }
-/* line 183, ../scss/viewlets/_header.scss */
+/* line 185, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item:hover {
   background-color: #fff !important;
 }
-/* line 186, ../scss/viewlets/_header.scss */
+/* line 188, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item:hover a {
   color: var(--bs-gray-dark) !important;
 }
-/* line 189, ../scss/viewlets/_header.scss */
+/* line 191, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item:hover a:hover {
   color: var(--bs-primary) !important;
 }
-/* line 195, ../scss/viewlets/_header.scss */
+/* line 197, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item a.nav-link {
   color: var(--bs-body-color);
   font-weight: 400;
   font-size: 16px;
 }
-/* line 200, ../scss/viewlets/_header.scss */
+/* line 202, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item a.nav-link:hover {
   color: var(--bs-primary);
 }
-/* line 207, ../scss/viewlets/_header.scss */
+/* line 209, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item li.has_subtree ul, #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item li.has_subtree > label {
   display: none;
 }
-/* line 219, ../scss/viewlets/_header.scss */
+/* line 221, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item::last-child {
   border-bottom: 0px solid;
 }
-/* line 223, ../scss/viewlets/_header.scss */
+/* line 225, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item a.nav-link {
   min-width: auto;
   padding-right: 0em;
   font-weight: normal;
   line-height: 18px;
 }
-/* line 237, ../scss/viewlets/_header.scss */
+/* line 239, ../scss/viewlets/_header.scss */
 #header #portal-searchbox input#searchGadget {
   width: 0;
   padding: 0;
@@ -13371,25 +13373,25 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
 }
-/* line 250, ../scss/viewlets/_header.scss */
+/* line 252, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form input#searchGadget {
   margin-left: 0rem;
 }
-/* line 253, ../scss/viewlets/_header.scss */
+/* line 255, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form input#searchGadget:focus, #header #portal-searchbox #searchGadget_form input#searchGadget:not(:placeholder-shown) {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
   margin-left: 0.75rem;
 }
-/* line 264, ../scss/viewlets/_header.scss */
+/* line 266, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form:hover input#searchGadget {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
   margin-left: 0.75rem;
 }
-/* line 274, ../scss/viewlets/_header.scss */
+/* line 276, ../scss/viewlets/_header.scss */
 #header #portal-searchbox button.searchButton {
   background: none;
   color: inherit;
@@ -13400,7 +13402,7 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   outline: inherit;
 }
 @media (min-width: 992px) {
-  /* line 286, ../scss/viewlets/_header.scss */
+  /* line 288, ../scss/viewlets/_header.scss */
   #header #portal-searchbox .livesearch-results {
     margin-top: 0.5rem;
     right: 4em;

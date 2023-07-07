@@ -156,6 +156,8 @@ body:not([class*="section-"]) {
           max-width: 350px;
           min-width: 115%;
           height: auto;
+          max-height: 90dvh;
+          overflow-y: auto;
           background-color: var(--bs-white);
           box-shadow: 0 7px 8px #00000033;
 
