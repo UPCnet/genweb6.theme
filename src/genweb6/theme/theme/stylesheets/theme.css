@@ -13923,6 +13923,18 @@ div.existing-content.template-folder_contents .table-striped > tbody > tr .plone
 body.template-folder_contents .table-striped > tbody > tr .plone-item-exclude-from-nav {
   margin-left: 0.5rem;
 }
+/* line 23, ../scss/views/_folder_contents.scss */
+div.existing-content.template-folder_contents div.container,
+body.template-folder_contents div.container {
+  margin-top: 2rem;
+}
+/* line 27, ../scss/views/_folder_contents.scss */
+div.existing-content.template-folder_contents #portal-breadcrumbs,
+div.existing-content.template-folder_contents #content > header,
+body.template-folder_contents #portal-breadcrumbs,
+body.template-folder_contents #content > header {
+  display: none;
+}
 
 /* line 7, ../scss/views/_history.scss */
 body.template-versions-history-form #content-core #sortable span {

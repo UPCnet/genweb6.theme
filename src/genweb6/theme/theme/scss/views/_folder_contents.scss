@@ -19,4 +19,13 @@ body.template-folder_contents {
       margin-left: 0.5rem;
     }
   }
+
+  div.container {
+    margin-top: 2rem;
+  }
+
+  #portal-breadcrumbs,
+  #content > header {
+    display: none;
+  }
 }
