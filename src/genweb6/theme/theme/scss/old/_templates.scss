@@ -325,16 +325,16 @@ a.btn.btn-large:not(.btn-primary) {
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
     break-inside: avoid;
-    font-size: 1.5rem;
+    font-size: 1.15rem;
     display: block;
     line-height: 1.25;
     padding-bottom: 20px;
   }
 
   strong {
-    font-size: 2.75rem;
+    font-size: 2rem;
     display: block;
-    font-weight: lighter;
+    font-weight: 300;
   }
 
   :nth-child(1) strong {

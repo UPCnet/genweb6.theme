@@ -9872,7 +9872,7 @@ body#tinymce .list-numeral li,
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid;
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   display: block;
   line-height: 1.25;
   padding-bottom: 20px;
@@ -9886,9 +9886,9 @@ body#tinymce .list-numeral li,
 body#tinymce .list-numeral strong,
 .mosaic-tile-content .list-numeral strong,
 #content-core #parent-fieldname-text .list-numeral strong {
-  font-size: 2.75rem;
+  font-size: 2rem;
   display: block;
-  font-weight: lighter;
+  font-weight: 300;
 }
 /* line 340, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral :nth-child(1) strong,
