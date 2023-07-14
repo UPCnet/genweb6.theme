@@ -81,6 +81,11 @@ a:hover {
 
 }
 
+b,
+strong {
+  font-weight: bold;
+}
+
 a[target="_blank"]:not(:has(img))::after {
   content: "\e91c" !important;
   font-family: "upc-icones";

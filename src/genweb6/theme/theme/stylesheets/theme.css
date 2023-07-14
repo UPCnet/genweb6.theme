@@ -2022,6 +2022,12 @@ a:hover h6 {
 }
 
 /* line 84, ../scss/_genweb.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 89, ../scss/_genweb.scss */
 a[target="_blank"]:not(:has(img))::after {
   content: "\e91c" !important;
   font-family: "upc-icones";
@@ -2032,27 +2038,27 @@ a[target="_blank"]:not(:has(img))::after {
   display: inline-block;
 }
 
-/* line 94, ../scss/_genweb.scss */
+/* line 99, ../scss/_genweb.scss */
 .alert a::after {
   height: 0;
   animation: none;
 }
 
-/* line 99, ../scss/_genweb.scss */
+/* line 104, ../scss/_genweb.scss */
 .btn {
   font-size: 18px;
   font-weight: 500;
 }
 
-/* line 104, ../scss/_genweb.scss */
+/* line 109, ../scss/_genweb.scss */
 .external-url-icon {
   display: table;
 }
-/* line 107, ../scss/_genweb.scss */
+/* line 112, ../scss/_genweb.scss */
 .external-url-icon.text-decoration-none:hover {
   text-decoration: none !important;
 }
-/* line 111, ../scss/_genweb.scss */
+/* line 116, ../scss/_genweb.scss */
 .external-url-icon::before {
   content: "\e91c";
   font-family: "upc-icones";
@@ -2061,64 +2067,64 @@ a[target="_blank"]:not(:has(img))::after {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 119, ../scss/_genweb.scss */
+/* line 124, ../scss/_genweb.scss */
 .external-url-icon::before:hover {
   color: var(--bs-primary-hover);
 }
 
-/* line 125, ../scss/_genweb.scss */
+/* line 130, ../scss/_genweb.scss */
 .smaller {
   font-size: var(--gw-font-size-xxxs);
 }
 
-/* line 129, ../scss/_genweb.scss */
+/* line 134, ../scss/_genweb.scss */
 body.template-manage-viewlets header {
   position: initial;
 }
 
-/* line 133, ../scss/_genweb.scss */
+/* line 138, ../scss/_genweb.scss */
 .modal-backdrop.fade.show {
   display: none;
 }
 
-/* line 137, ../scss/_genweb.scss */
+/* line 142, ../scss/_genweb.scss */
 .list-group-item.row {
   display: flex;
 }
 
-/* line 141, ../scss/_genweb.scss */
+/* line 146, ../scss/_genweb.scss */
 .plone-icon {
   height: 0.73em;
 }
 
-/* line 147, ../scss/_genweb.scss */
+/* line 152, ../scss/_genweb.scss */
 #main-container #portal-column-one {
   padding-right: 20px;
 }
 
-/* line 156, ../scss/_genweb.scss */
+/* line 161, ../scss/_genweb.scss */
 body.template-edit div.pat-relateditems-dropdown .select2-results {
   max-height: 450px;
 }
-/* line 163, ../scss/_genweb.scss */
+/* line 168, ../scss/_genweb.scss */
 body.template-edit table.ordered-selection-field tbody {
   width: 100%;
 }
-/* line 168, ../scss/_genweb.scss */
+/* line 173, ../scss/_genweb.scss */
 body.template-edit table.ordered-selection-field tbody td:nth-child(1), body.template-edit table.ordered-selection-field tbody td:nth-child(3) {
   width: 45%;
 }
-/* line 173, ../scss/_genweb.scss */
+/* line 178, ../scss/_genweb.scss */
 body.template-edit table.ordered-selection-field tbody td button {
   margin-right: 1rem;
   margin-left: 1rem;
 }
-/* line 177, ../scss/_genweb.scss */
+/* line 182, ../scss/_genweb.scss */
 body.template-edit table.ordered-selection-field tbody td button:first-child {
   margin-bottom: 0.5rem;
 }
 
-/* line 187, ../scss/_genweb.scss */
+/* line 192, ../scss/_genweb.scss */
 [id^="formfield-form-widgets-fieldset"] {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -2126,78 +2132,78 @@ body.template-edit table.ordered-selection-field tbody td button:first-child {
   display: inline-block;
   width: 100%;
 }
-/* line 194, ../scss/_genweb.scss */
+/* line 199, ../scss/_genweb.scss */
 [id^="formfield-form-widgets-fieldset"] h2 {
   font-size: 1.75rem;
 }
 
-/* line 199, ../scss/_genweb.scss */
+/* line 204, ../scss/_genweb.scss */
 .fs-m {
   font-size: var(--bs-body-font-size) !important;
 }
 
-/* line 203, ../scss/_genweb.scss */
+/* line 208, ../scss/_genweb.scss */
 .fs-l {
   font-size: var(--gw-font-size-l) !important;
 }
 
-/* line 207, ../scss/_genweb.scss */
+/* line 212, ../scss/_genweb.scss */
 .fs-s {
   font-size: var(--gw-font-size-s) !important;
 }
 
-/* line 211, ../scss/_genweb.scss */
+/* line 216, ../scss/_genweb.scss */
 .fs-xl {
   font-size: var(--gw-font-size-xl) !important;
 }
 
-/* line 215, ../scss/_genweb.scss */
+/* line 220, ../scss/_genweb.scss */
 .fs-xs {
   font-size: var(--gw-font-size-xs) !important;
 }
 
-/* line 219, ../scss/_genweb.scss */
+/* line 224, ../scss/_genweb.scss */
 .fs-xxl {
   font-size: var(--gw-font-size-xxl) !important;
 }
 
-/* line 223, ../scss/_genweb.scss */
+/* line 228, ../scss/_genweb.scss */
 .fs-xxs {
   font-size: var(--gw-font-size-xxs) !important;
 }
 
-/* line 227, ../scss/_genweb.scss */
+/* line 232, ../scss/_genweb.scss */
 .fs-xxxl {
   font-size: var(--gw-font-size-xxxl) !important;
 }
 
-/* line 231, ../scss/_genweb.scss */
+/* line 236, ../scss/_genweb.scss */
 .fs-xxxs {
   font-size: var(--gw-font-size-xxs) !important;
 }
 
-/* line 235, ../scss/_genweb.scss */
+/* line 240, ../scss/_genweb.scss */
 .text-justify {
   text-align: justify;
 }
 
-/* line 239, ../scss/_genweb.scss */
+/* line 244, ../scss/_genweb.scss */
 code.code-editor {
   border: 1px solid var(--bs-dark);
 }
 
-/* line 243, ../scss/_genweb.scss */
+/* line 248, ../scss/_genweb.scss */
 iframe,
 video {
   max-width: 100%;
 }
 
-/* line 248, ../scss/_genweb.scss */
+/* line 253, ../scss/_genweb.scss */
 button#form-buttons-Delete {
   margin-right: 1rem;
 }
 
-/* line 252, ../scss/_genweb.scss */
+/* line 257, ../scss/_genweb.scss */
 .back-to-top {
   background: none;
   margin: 0;
@@ -2210,131 +2216,131 @@ button#form-buttons-Delete {
   text-decoration: none;
   color: var(--bs-primary);
 }
-/* line 264, ../scss/_genweb.scss */
+/* line 269, ../scss/_genweb.scss */
 .back-to-top:hover, .back-to-top:active, .back-to-top:focus {
   color: var(--bs-primary-hover);
 }
-/* line 270, ../scss/_genweb.scss */
+/* line 275, ../scss/_genweb.scss */
 .back-to-top svg {
   width: 45px;
   height: 45px;
 }
 
 /* Los colores de los estados de cada elemento solo se podrán ver una vez logueado */
-/* line 279, ../scss/_genweb.scss */
+/* line 284, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone #plone-contentmenu-workflow:hover [class^="label-state-"] {
   color: var(--bs-white) !important;
 }
-/* line 283, ../scss/_genweb.scss */
+/* line 288, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-visible {
   color: var(--gw-state-visible) !important;
 }
-/* line 287, ../scss/_genweb.scss */
+/* line 292, ../scss/_genweb.scss */
 body.userrole-authenticated .state-visible {
   color: var(--gw-state-visible) !important;
 }
-/* line 290, ../scss/_genweb.scss */
+/* line 295, ../scss/_genweb.scss */
 body.userrole-authenticated .state-visible:hover {
   color: var(--gw-state-visible-hover) !important;
 }
-/* line 295, ../scss/_genweb.scss */
+/* line 300, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-draft {
   color: var(--gw-state-draft) !important;
 }
-/* line 299, ../scss/_genweb.scss */
+/* line 304, ../scss/_genweb.scss */
 body.userrole-authenticated .state-draft {
   color: var(--gw-state-draft) !important;
 }
-/* line 302, ../scss/_genweb.scss */
+/* line 307, ../scss/_genweb.scss */
 body.userrole-authenticated .state-draft:hover {
   color: var(--gw-state-draft-hover) !important;
 }
-/* line 307, ../scss/_genweb.scss */
+/* line 312, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-private {
   color: var(--gw-state-private) !important;
 }
-/* line 311, ../scss/_genweb.scss */
+/* line 316, ../scss/_genweb.scss */
 body.userrole-authenticated .state-private {
   color: var(--gw-state-private) !important;
 }
-/* line 314, ../scss/_genweb.scss */
+/* line 319, ../scss/_genweb.scss */
 body.userrole-authenticated .state-private:hover {
   color: var(--gw-state-private-hover) !important;
 }
-/* line 319, ../scss/_genweb.scss */
+/* line 324, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-intranet {
   color: var(--gw-state-intranet) !important;
 }
-/* line 323, ../scss/_genweb.scss */
+/* line 328, ../scss/_genweb.scss */
 body.userrole-authenticated .state-intranet {
   color: var(--gw-state-intranet) !important;
 }
-/* line 326, ../scss/_genweb.scss */
+/* line 331, ../scss/_genweb.scss */
 body.userrole-authenticated .state-intranet:hover {
   color: var(--gw-state-intranet-hover) !important;
 }
-/* line 331, ../scss/_genweb.scss */
+/* line 336, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-pending {
   color: var(--gw-state-pending) !important;
 }
-/* line 335, ../scss/_genweb.scss */
+/* line 340, ../scss/_genweb.scss */
 body.userrole-authenticated .state-pending {
   color: var(--gw-state-pending) !important;
 }
-/* line 338, ../scss/_genweb.scss */
+/* line 343, ../scss/_genweb.scss */
 body.userrole-authenticated .state-pending:hover {
   color: var(--gw-state-pending-hover) !important;
 }
-/* line 343, ../scss/_genweb.scss */
+/* line 348, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-published {
   color: var(--gw-state-published) !important;
 }
-/* line 347, ../scss/_genweb.scss */
+/* line 352, ../scss/_genweb.scss */
 body.userrole-authenticated .state-published {
   color: var(--gw-state-published) !important;
 }
-/* line 350, ../scss/_genweb.scss */
+/* line 355, ../scss/_genweb.scss */
 body.userrole-authenticated .state-published:hover {
   color: var(--gw-state-published-hover) !important;
 }
-/* line 355, ../scss/_genweb.scss */
+/* line 360, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-restricted-to-managers {
   color: var(--gw-state-restricted-to-managers) !important;
 }
-/* line 359, ../scss/_genweb.scss */
+/* line 364, ../scss/_genweb.scss */
 body.userrole-authenticated .state-restricted-to-managers {
   color: var(--gw-state-restricted-to-managers) !important;
 }
-/* line 362, ../scss/_genweb.scss */
+/* line 367, ../scss/_genweb.scss */
 body.userrole-authenticated .state-restricted-to-managers:hover {
   color: var(--gw-state-restricted-to-managers-hover) !important;
 }
 
-/* line 369, ../scss/_genweb.scss */
+/* line 374, ../scss/_genweb.scss */
 .favorites.dropdown.dropdown-menu-end.ms-2 svg {
   vertical-align: baseline;
 }
 
-/* line 374, ../scss/_genweb.scss */
+/* line 379, ../scss/_genweb.scss */
 div.linkModal div.linkTypes {
   line-height: 1.65 !important;
 }
 
 @media (max-width: 992px) {
-  /* line 380, ../scss/_genweb.scss */
+  /* line 385, ../scss/_genweb.scss */
   .container {
     max-width: 100%;
     padding: 0 1em;
   }
 }
-/* line 386, ../scss/_genweb.scss */
+/* line 391, ../scss/_genweb.scss */
 .responsive-iframe-container {
   position: relative;
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%;
 }
-/* line 392, ../scss/_genweb.scss */
+/* line 397, ../scss/_genweb.scss */
 .responsive-iframe-container .responsive-iframe {
   position: absolute;
   top: 0;
