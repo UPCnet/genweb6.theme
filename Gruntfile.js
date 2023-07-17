@@ -61,6 +61,12 @@ module.exports = function (grunt) {
                     'fontawesome/*',
                 ],
                 tasks: ['compass:fa', 'cssmin:fa']
+            },
+            js: {
+                files: [
+                    'js/main/*'
+                ],
+                tasks: ['concat:js', 'uglify:mainjs']
             }
         },
         uglify: {
