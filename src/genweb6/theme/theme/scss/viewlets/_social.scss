@@ -1,7 +1,8 @@
 div#social_tags {
     margin-bottom: 1rem;
-    margin-top: 10px;
+    margin-left: 1rem;
     text-align: right;
+    float: right;
 
     a {
         font-size: var(--gw-font-size-xxl);
@@ -16,8 +17,4 @@ div#social_tags {
             content: "" !important;
         }
     }
-}
-
-#news_date + #social_tags {
-    margin-top: 0px;
 }

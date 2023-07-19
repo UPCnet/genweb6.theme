@@ -13802,27 +13802,23 @@ body.template-homepage #hero {
 /* line 1, ../scss/viewlets/_social.scss */
 div#social_tags {
   margin-bottom: 1rem;
-  margin-top: 10px;
+  margin-left: 1rem;
   text-align: right;
+  float: right;
 }
-/* line 6, ../scss/viewlets/_social.scss */
+/* line 7, ../scss/viewlets/_social.scss */
 div#social_tags a {
   font-size: var(--gw-font-size-xxl);
   text-decoration: none;
   color: var(--bs-body-color);
 }
-/* line 11, ../scss/viewlets/_social.scss */
+/* line 12, ../scss/viewlets/_social.scss */
 div#social_tags a:hover {
   color: var(--bs-primary);
 }
-/* line 15, ../scss/viewlets/_social.scss */
+/* line 16, ../scss/viewlets/_social.scss */
 div#social_tags a[target="_blank"]::after {
   content: "" !important;
-}
-
-/* line 21, ../scss/viewlets/_social.scss */
-#news_date + #social_tags {
-  margin-top: 0px;
 }
 
 /* line 5, ../scss/viewlets/_table_of_contents.scss */
