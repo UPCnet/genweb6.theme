@@ -45,3 +45,7 @@
     }
   }
 }
+
+.portletWrapper + .portletWrapper {
+  margin-top: 2rem;
+}

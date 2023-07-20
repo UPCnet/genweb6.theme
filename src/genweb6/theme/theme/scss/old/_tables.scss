@@ -65,4 +65,20 @@ table {
       border-top: 4px double var(--bs-orange);
     }
   }
+
+  &.plain {
+
+    tbody {
+      vertical-align: middle;
+
+      tr,
+      td {
+        border: 0;
+      }
+
+      td {
+        padding: 0;
+      }
+    }
+  }
 }
