@@ -19844,7 +19844,7 @@ div#content-core .h5:not(:first-child),
 div#content-core h5:not(:first-child),
 div#content-core .h6:not(:first-child),
 div#content-core h6:not(:first-child) {
-  margin-top: 2rem;
+  margin-top: 2rem !important;
 }
 
 /* line 104, ../scss/_genweb.scss */
@@ -31734,6 +31734,19 @@ body.template-homepage #hero {
 /* line 3, ../scss/viewlets/_news_date.scss */
 #news_date p {
   margin-bottom: 0;
+}
+
+/* line 5, ../scss/viewlets/_next_prev.scss */
+#section-next-prev .btn.previous:before {
+  font-family: bootstrap-icons !important;
+  font-size: .75em;
+  content: "\F230";
+}
+/* line 11, ../scss/viewlets/_next_prev.scss */
+#section-next-prev .btn.next:after {
+  font-family: bootstrap-icons !important;
+  font-size: .75em;
+  content: "\F234";
 }
 
 /* line 1, ../scss/viewlets/_social.scss */

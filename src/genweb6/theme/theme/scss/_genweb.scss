@@ -96,7 +96,7 @@ div#content-core {
   .h6,
   h6 {
     &:not(:first-child) {
-      margin-top: 2rem;
+      margin-top: 2rem !important;
     }
   }
 }

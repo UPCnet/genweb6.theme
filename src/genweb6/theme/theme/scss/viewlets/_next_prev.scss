@@ -1,0 +1,17 @@
+#section-next-prev {
+
+  .btn {
+
+    &.previous:before {
+      font-family: bootstrap-icons !important;
+      font-size: .75em;
+      content: "\F230";
+    }
+
+    &.next:after {
+      font-family: bootstrap-icons !important;
+      font-size: .75em;
+      content: "\F234";
+    }
+  }
+}
