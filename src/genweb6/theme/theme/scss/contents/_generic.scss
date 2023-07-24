@@ -8,7 +8,7 @@ article#content {
 
     p.lead {
       font-family: 'Roboto';
-      font-weight: 300;
+      font-weight: 700;
       font-size: 18px;
     }
   }
@@ -59,4 +59,3 @@ li#contentview-view a:not(:has(svg))::before {
 li#contentview-configure a:not(:has(svg))::before {
   content: "\F3E5";
 }
-

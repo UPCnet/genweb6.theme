@@ -2040,7 +2040,7 @@ div#content-core h6:not(:first-child) {
 /* line 104, ../scss/_genweb.scss */
 b,
 strong {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /* line 109, ../scss/_genweb.scss */
@@ -2365,6 +2365,13 @@ div.linkModal div.linkTypes {
   right: 0;
   width: 100%;
   height: 100%;
+}
+
+/* line 428, ../scss/_genweb.scss */
+blockquote {
+  padding: 0 0 0 15px;
+  margin: 0 0 18px;
+  border-left: 5px solid var(--bs-gray-200);
 }
 
 /* line 1, ../scss/_new_class.scss */
@@ -10576,7 +10583,7 @@ article#content header h1 {
 /* line 9, ../scss/contents/_generic.scss */
 article#content header p.lead {
   font-family: 'Roboto';
-  font-weight: 300;
+  font-weight: 700;
   font-size: 18px;
 }
 
@@ -13054,7 +13061,6 @@ footer#portal-footer-wrapper [id^="footer-"] h2 {
   padding-bottom: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 /* line 176, ../scss/viewlets/_footer.scss */
 #footer-links ul.navbar-nav-footer > li {
@@ -13528,36 +13534,36 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
 #portal-navbar-mobile .offcanvas-body {
   padding-top: 0;
 }
-/* line 50, ../scss/viewlets/_header_mobile.scss */
+/* line 49, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar .container-fluid {
   justify-content: flex-end;
 }
-/* line 54, ../scss/viewlets/_header_mobile.scss */
+/* line 53, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar .navbar-toggler:focus {
   box-shadow: none;
 }
-/* line 63, ../scss/viewlets/_header_mobile.scss */
+/* line 62, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li a {
   color: var(--bs-white) !important;
   background-color: var(--bs-navbar-background);
 }
-/* line 67, ../scss/viewlets/_header_mobile.scss */
+/* line 66, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li a:hover {
   background: transparent;
   font-weight: 500;
 }
-/* line 73, ../scss/viewlets/_header_mobile.scss */
+/* line 72, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li label {
   padding-right: 1rem;
 }
-/* line 76, ../scss/viewlets/_header_mobile.scss */
+/* line 75, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li label:after {
   font-size: .75em;
   background: 0 0;
   border: 1px solid var(--bs-white);
   padding: 5px;
 }
-/* line 84, ../scss/viewlets/_header_mobile.scss */
+/* line 83, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li ul.has_subtree {
   position: initial;
   padding-left: 0.5em !important;
@@ -13566,32 +13572,32 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   visibility: hidden;
   opacity: 0;
 }
-/* line 95, ../scss/viewlets/_header_mobile.scss */
+/* line 94, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li:hover label:after {
   background: var(--bs-white) !important;
   color: var(--bs-navbar-background);
 }
-/* line 103, ../scss/viewlets/_header_mobile.scss */
+/* line 102, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li.current label:after {
   background: var(--bs-primary);
 }
-/* line 110, ../scss/viewlets/_header_mobile.scss */
+/* line 109, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li.open label:after {
   transform: rotate(180deg);
 }
-/* line 114, ../scss/viewlets/_header_mobile.scss */
+/* line 113, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile .navbar-nav li.open ul {
   opacity: 1;
   visibility: visible;
   height: auto;
   margin-left: 1rem;
 }
-/* line 124, ../scss/viewlets/_header_mobile.scss */
+/* line 123, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile {
   width: 100%;
   padding: 0 1rem;
 }
-/* line 128, ../scss/viewlets/_header_mobile.scss */
+/* line 127, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile button.searchButton {
   background: none;
   color: inherit;
@@ -13601,7 +13607,7 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   cursor: pointer;
   outline: inherit;
 }
-/* line 138, ../scss/viewlets/_header_mobile.scss */
+/* line 137, ../scss/viewlets/_header_mobile.scss */
 #portal-navbar-mobile #portal-searchbox-mobile .livesearch-results {
   position: absolute;
   left: 0;
@@ -13610,6 +13616,54 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   padding-right: 2rem;
   width: 100%;
   z-index: 1;
+}
+
+/* Los colores de los estados de cada elemento solo se podrán ver una vez logueado */
+/* line 168, ../scss/viewlets/_header_mobile.scss */
+body.userrole-authenticated #portal-navbar-mobile .navbar-nav li a.state-visible:before, body.userrole-authenticated #portal-navbar-mobile .navbar-nav li a.state-draft:before, body.userrole-authenticated #portal-navbar-mobile .navbar-nav li a.state-private:before, body.userrole-authenticated #portal-navbar-mobile .navbar-nav li a.state-intranet:before, body.userrole-authenticated #portal-navbar-mobile .navbar-nav li a.state-pending:before, body.userrole-authenticated #portal-navbar-mobile .navbar-nav li a.state-published:before, body.userrole-authenticated #portal-navbar-mobile .navbar-nav li a.state-restricted-to-managers:before {
+  content: "";
+  border: 1px solid;
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  border-radius: 100%;
+  margin-right: 0.5rem;
+  margin-bottom: 4px;
+}
+/* line 180, ../scss/viewlets/_header_mobile.scss */
+body.userrole-authenticated #portal-navbar-mobile .navbar-nav li a.state-visible:before {
+  border-color: var(--gw-state-visible);
+  background-color: var(--gw-state-visible);
+}
+/* line 185, ../scss/viewlets/_header_mobile.scss */
+body.userrole-authenticated #portal-navbar-mobile .navbar-nav li a.state-draft:before {
+  border-color: var(--gw-state-draft);
+  background-color: var(--gw-state-draft);
+}
+/* line 190, ../scss/viewlets/_header_mobile.scss */
+body.userrole-authenticated #portal-navbar-mobile .navbar-nav li a.state-private:before {
+  border-color: var(--gw-state-private);
+  background-color: var(--gw-state-private);
+}
+/* line 195, ../scss/viewlets/_header_mobile.scss */
+body.userrole-authenticated #portal-navbar-mobile .navbar-nav li a.state-intranet:before {
+  border-color: var(--gw-state-intranet);
+  background-color: var(--gw-state-intranet);
+}
+/* line 200, ../scss/viewlets/_header_mobile.scss */
+body.userrole-authenticated #portal-navbar-mobile .navbar-nav li a.state-pending:before {
+  border-color: var(--gw-state-pending);
+  background-color: var(--gw-state-pending);
+}
+/* line 205, ../scss/viewlets/_header_mobile.scss */
+body.userrole-authenticated #portal-navbar-mobile .navbar-nav li a.state-published:before {
+  border-color: var(--gw-state-published);
+  background-color: var(--gw-state-published);
+}
+/* line 210, ../scss/viewlets/_header_mobile.scss */
+body.userrole-authenticated #portal-navbar-mobile .navbar-nav li a.state-restricted-to-managers:before {
+  border-color: var(--gw-state-restricted-to-managers);
+  background-color: var(--gw-state-restricted-to-managers);
 }
 
 /* Claro */

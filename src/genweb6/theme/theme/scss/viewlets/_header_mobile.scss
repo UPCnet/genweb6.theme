@@ -44,7 +44,6 @@
     padding-top: 0;
   }
 
-
   .navbar {
 
     .container-fluid {
@@ -143,6 +142,77 @@
       padding-right: 2rem;
       width: 100%;
       z-index: 1;
+    }
+  }
+}
+
+/* Los colores de los estados de cada elemento solo se podrán ver una vez logueado */
+body.userrole-authenticated {
+
+  #portal-navbar-mobile {
+
+    .navbar-nav {
+
+      li {
+
+        a {
+
+          &.state-visible,
+          &.state-draft,
+          &.state-private,
+          &.state-intranet,
+          &.state-pending,
+          &.state-published,
+          &.state-restricted-to-managers {
+
+            &:before {
+              content: "";
+              border: 1px solid;
+              width: 6px;
+              height: 6px;
+              display: inline-block;
+              border-radius: 100%;
+              margin-right: 0.5rem;
+              margin-bottom: 4px;
+            }
+          }
+
+          &.state-visible:before {
+            border-color: var(--gw-state-visible);
+            background-color: var(--gw-state-visible);
+          }
+
+          &.state-draft:before {
+            border-color: var(--gw-state-draft);
+            background-color: var(--gw-state-draft);
+          }
+
+          &.state-private:before {
+            border-color: var(--gw-state-private);
+            background-color: var(--gw-state-private);
+          }
+
+          &.state-intranet:before {
+            border-color: var(--gw-state-intranet);
+            background-color: var(--gw-state-intranet);
+          }
+
+          &.state-pending:before {
+            border-color: var(--gw-state-pending);
+            background-color: var(--gw-state-pending);
+          }
+
+          &.state-published:before {
+            border-color: var(--gw-state-published);
+            background-color: var(--gw-state-published);
+          }
+
+          &.state-restricted-to-managers:before {
+            border-color: var(--gw-state-restricted-to-managers);
+            background-color: var(--gw-state-restricted-to-managers);
+          }
+        }
+      }
     }
   }
 }

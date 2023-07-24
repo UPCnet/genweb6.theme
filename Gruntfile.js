@@ -94,6 +94,7 @@ module.exports = function (grunt) {
                         '../../../../../genweb6.core/src/genweb6/core/browser/views_templates/filtered_contents_search/filtered_contents_search.js',
                     'js/dataTables.min.js': 'js/complements/dataTables.js',
                     'js/select2.min.js': 'js/complements/select2.js',
+                    'js/tinymce_translations.min.js': 'js/tinymce/translations.js',
                 }
             },
             mainjs: {
