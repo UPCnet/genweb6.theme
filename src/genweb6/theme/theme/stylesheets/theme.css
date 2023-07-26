@@ -8909,6 +8909,7 @@ body#tinymce table.plain tbody td,
 .mosaic-tile-content table.plain tbody td,
 #content-core #parent-fieldname-text table.plain tbody td {
   padding: 0;
+  background-color: transparent;
 }
 /* line 1, ../scss/old/_templates.scss */
 .portaltype-packet#content .lead-small,
