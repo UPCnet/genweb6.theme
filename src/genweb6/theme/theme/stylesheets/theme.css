@@ -2025,8 +2025,8 @@ a:hover h6 {
 div#content-core .h1:not(:first-child),
 div#content-core h1:not(:first-child),
 div#content-core .h2:not(:first-child),
-div#content-core h2
-.h3:not(:first-child),
+div#content-core h2:not(:first-child),
+div#content-core .h3:not(:first-child),
 div#content-core h3:not(:first-child),
 div#content-core .h4:not(:first-child),
 div#content-core h4:not(:first-child),
