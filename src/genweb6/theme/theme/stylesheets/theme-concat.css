@@ -28581,6 +28581,11 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
   margin-top: 2rem;
 }
 
+/* line 55, ../scss/portlets/_generic.scss */
+.plonetoolbar-portlet-manager li:nth-child(2) {
+  display: none;
+}
+
 /* line 3, ../scss/portlets/_banners.scss */
 .portlet.portlet-baners h2.portlet-title + .gw-banner {
   margin-top: 1.5rem;

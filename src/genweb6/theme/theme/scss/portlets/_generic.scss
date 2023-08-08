@@ -49,3 +49,10 @@
 .portletWrapper + .portletWrapper {
   margin-top: 2rem;
 }
+
+.plonetoolbar-portlet-manager {
+
+  li:nth-child(2) {
+    display: none;
+  }
+}
