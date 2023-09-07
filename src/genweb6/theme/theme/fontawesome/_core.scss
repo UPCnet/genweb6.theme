@@ -2,8 +2,8 @@
 // -------------------------
 
 .#{$fa-css-prefix} {
-  font-family: var(--#{$fa-css-prefix}-style-family, '#{$fa-style-family}');
-  font-weight: var(--#{$fa-css-prefix}-style, #{$fa-style});
+  font-family: var(--fa-style-family, '#{$fa-style-family}');
+  font-weight: var(--fa-style, #{$fa-style});
 }
 
 .#{$fa-css-prefix},
@@ -13,8 +13,10 @@
 .#{$fa-css-prefix}-solid,
 .far,
 .#{$fa-css-prefix}-regular,
+.fasr,
 .fal,
 .#{$fa-css-prefix}-light,
+.fasl,
 .fat,
 .#{$fa-css-prefix}-thin,
 .fad,
@@ -25,7 +27,7 @@
 .#{$fa-css-prefix}-brands {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  display: var(--#{$fa-css-prefix}-display, #{$fa-display});
+  display: var(--fa-display, #{$fa-display});
   font-style: normal;
   font-variant: normal;
   line-height: 1;
@@ -56,8 +58,13 @@
 }
 
 .fass,
+.fasr,
+.fasl,
 .#{$fa-css-prefix}-sharp {
   font-family: 'Font Awesome 6 Sharp';
+}
+.fass,
+.#{$fa-css-prefix}-sharp {
   font-weight: 900;
 }
 

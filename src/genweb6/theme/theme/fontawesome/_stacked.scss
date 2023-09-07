@@ -16,7 +16,7 @@
   position: absolute;
   text-align: center;
   width: 100%;
-  z-index: var(--#{$fa-css-prefix}-stack-z-index, #{$fa-stack-z-index});
+  z-index: var(--fa-stack-z-index, #{$fa-stack-z-index});
 }
 
 .#{$fa-css-prefix}-stack-1x {
@@ -28,5 +28,5 @@
 }
 
 .#{$fa-css-prefix}-inverse {
-  color: var(--#{$fa-css-prefix}-inverse, #{$fa-inverse});
+  color: var(--fa-inverse, #{$fa-inverse});
 }

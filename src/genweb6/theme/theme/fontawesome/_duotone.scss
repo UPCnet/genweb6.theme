@@ -1,7 +1,7 @@
 /*!
- * Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Commercial License)
- * Copyright 2022 Fonticons, Inc.
+ * Copyright 2023 Fonticons, Inc.
  */
 @import 'functions';
 @import 'variables';
@@ -30,33 +30,33 @@
 .fad::before,
 .#{$fa-css-prefix}-duotone::before {
   position: absolute;
-  color: var(--#{$fa-css-prefix}-primary-color, inherit);
-  opacity: var(--#{$fa-css-prefix}-primary-opacity, #{$fa-primary-opacity});
+  color: var(--fa-primary-color, inherit);
+  opacity: var(--fa-primary-opacity, #{$fa-primary-opacity});
 }
 
 .fad::after,
 .#{$fa-css-prefix}-duotone::after {
-  color: var(--#{$fa-css-prefix}-secondary-color, inherit);
-  opacity: var(--#{$fa-css-prefix}-secondary-opacity, #{$fa-secondary-opacity});
+  color: var(--fa-secondary-color, inherit);
+  opacity: var(--fa-secondary-opacity, #{$fa-secondary-opacity});
 }
 
 .#{$fa-css-prefix}-swap-opacity .fad::before,
 .#{$fa-css-prefix}-swap-opacity .fa-duotone::before,
 .fad.#{$fa-css-prefix}-swap-opacity::before,
 .fa-duotone.#{$fa-css-prefix}-swap-opacity::before {
-  opacity: var(--#{$fa-css-prefix}-secondary-opacity, #{$fa-secondary-opacity});
+  opacity: var(--fa-secondary-opacity, #{$fa-secondary-opacity});
 }
 
 .#{$fa-css-prefix}-swap-opacity .fad::after,
 .#{$fa-css-prefix}-swap-opacity .fa-duotone::after,
 .fad.#{$fa-css-prefix}-swap-opacity::after,
 .fa-duotone.#{$fa-css-prefix}-swap-opacity::after {
-  opacity: var(--#{$fa-css-prefix}-primary-opacity, #{$fa-primary-opacity});
+  opacity: var(--fa-primary-opacity, #{$fa-primary-opacity});
 }
 
 .fad.#{$fa-css-prefix}-inverse,
 .#{$fa-css-prefix}-duotone.#{$fa-css-prefix}-inverse {
-  color: var(--#{$fa-css-prefix}-inverse, $fa-inverse);
+  color: var(--fa-inverse, $fa-inverse);
 }
 
 .fad.#{$fa-css-prefix}-stack-1x, .fad.#{$fa-css-prefix}-stack-2x,
