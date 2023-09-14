@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.1 (unreleased)
+1.1 (2023-09-14)
 ----------------
 
-- Nothing changed yet.
-
+* Bootstrap Icons v1.11.0 [Iago López]
 
 1.0 (2023-09-12)
 ----------------
