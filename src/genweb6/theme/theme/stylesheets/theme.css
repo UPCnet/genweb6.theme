@@ -10904,8 +10904,9 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
   justify-content: space-between;
   height: 100%;
   align-items: stretch;
+  text-decoration: none;
 }
-/* line 27, ../scss/portlets/_grid_events.scss */
+/* line 28, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-time,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-time {
   opacity: 0.9;
@@ -10916,7 +10917,7 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
   text-align: center;
   margin: 10px auto;
 }
-/* line 36, ../scss/portlets/_grid_events.scss */
+/* line 37, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-time .event-time--wrap,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-time .event-time--wrap {
   top: 50%;
@@ -10924,12 +10925,12 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
   position: relative;
   display: block;
 }
-/* line 43, ../scss/portlets/_grid_events.scss */
+/* line 44, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-time .event-months,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-time .event-months {
   margin-top: 5px;
 }
-/* line 48, ../scss/portlets/_grid_events.scss */
+/* line 49, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-days,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-days {
   font-weight: 700;
@@ -10939,7 +10940,7 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
   padding-bottom: 1px;
   line-height: 1;
 }
-/* line 56, ../scss/portlets/_grid_events.scss */
+/* line 57, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-days.event-days-connector,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-days.event-days-connector {
   font-size: 0.9rem;
@@ -10947,7 +10948,7 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
   margin-bottom: 3px;
   margin-top: 3px;
 }
-/* line 64, ../scss/portlets/_grid_events.scss */
+/* line 65, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-months,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-months {
   font-weight: 300;
@@ -10957,7 +10958,7 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
   display: block;
   padding-bottom: 1px;
 }
-/* line 73, ../scss/portlets/_grid_events.scss */
+/* line 74, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-title,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-title {
   font-size: 1.125rem;
@@ -10972,7 +10973,7 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
   position: inherit;
   flex: 1;
 }
-/* line 87, ../scss/portlets/_grid_events.scss */
+/* line 88, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card:hover,
 .portlet.portlet-grid-events .list-agenda ol.row .card:hover {
   text-decoration: none;
@@ -10992,7 +10993,7 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
   height: 100%;
   align-items: stretch;
 }
-/* line 107, ../scss/portlets/_grid_events.scss */
+/* line 108, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card:hover .event-time::after,
 .portlet.portlet-grid-events .list-agenda ol.row .card:hover .event-time::after {
   opacity: .9;
@@ -11014,7 +11015,7 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
   padding-top: 3px;
   top: 45px;
 }
-/* line 135, ../scss/portlets/_grid_events.scss */
+/* line 136, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .portlet-footer a,
 .portlet.portlet-grid-events .portlet-footer a {
   text-decoration: none;

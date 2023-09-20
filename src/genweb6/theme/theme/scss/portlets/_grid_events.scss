@@ -11,18 +11,19 @@
 	    list-style: none;
 
 	    .card {
-			box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-			min-height: 250px;
-			min-width: 150px;
-			position: relative;
-			transition: all .25s ease-out;
-			display: flex;
-			flex-wrap: wrap;
-			flex-direction: column;
-			align-content: space-around;
-			justify-content: space-between;
-			height: 100%;
-			align-items: stretch;
+				box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+				min-height: 250px;
+				min-width: 150px;
+				position: relative;
+				transition: all .25s ease-out;
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction: column;
+				align-content: space-around;
+				justify-content: space-between;
+				height: 100%;
+				align-items: stretch;
+				text-decoration: none;
 
 	      .event-time {
 	        opacity: 0.9;
@@ -128,8 +129,8 @@
 	      }
 			}
 		}
-	} 
-	
+	}
+
 	.portlet-footer {
 
 		a {
