@@ -2,11 +2,12 @@ Changelog
 =========
 
 
-1.2 (unreleased)
+1.2 (2023-09-21)
 ----------------
 
-- Nothing changed yet.
-
+* Estilo tile eventos [Iago López]
+* bootstrap-icons.scss [Iago López]
+* Fix grunt issues [Ruben Padilla Mateu]
 
 1.1 (2023-09-14)
 ----------------
