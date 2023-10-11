@@ -41,6 +41,7 @@ a[class^='link-banner'] {
     -webkit-font-smoothing: subpixel-antialiased;
   }
 
+  & > picture > img,
   & > img {
     object-fit: cover;
     left: 0;
@@ -51,13 +52,16 @@ a[class^='link-banner'] {
     z-index: 0;
     transition: all .5s ease;
   }
+  & > picture,
+  & > img {
 
-  & > img + span + br + span,
-  & > img + span {
-    background: rgba(255,255,255,.8);
-    padding: 3px 8px;
-    position: inherit;
-    color: var(--bs-body-color);
+    & + span + br + span,
+    & + span {
+      background: rgba(255,255,255,.8);
+      padding: 3px 8px;
+      position: inherit;
+      color: var(--bs-body-color);
+    }
   }
 }
 
