@@ -9785,7 +9785,18 @@ body#tinymce .text-over-image,
   position: relative;
   margin: 0 auto;
 }
-/* line 252, ../scss/old/_templates.scss */
+/* line 254, ../scss/old/_templates.scss */
+.portaltype-packet#content .text-over-image > picture > img,
+.portlet-homepage .text-over-image > picture > img,
+.existing_content_portlet .text-over-image > picture > img,
+.portletStaticText .text-over-image > picture > img,
+.mceTmpl .text-over-image > picture > img,
+body#tinymce .text-over-image > picture > img,
+.mosaic-tile-content .text-over-image > picture > img,
+#content-core #parent-fieldname-text .text-over-image > picture > img {
+  width: 100%;
+}
+/* line 259, ../scss/old/_templates.scss */
 .portaltype-packet#content .text-over-image .content,
 .portlet-homepage .text-over-image .content,
 .existing_content_portlet .text-over-image .content,
@@ -9799,7 +9810,7 @@ body#tinymce .text-over-image .content,
   width: 100%;
 }
 @media (max-width: 768px) {
-  /* line 252, ../scss/old/_templates.scss */
+  /* line 259, ../scss/old/_templates.scss */
   .portaltype-packet#content .text-over-image .content,
   .portlet-homepage .text-over-image .content,
   .existing_content_portlet .text-over-image .content,
@@ -9811,7 +9822,7 @@ body#tinymce .text-over-image .content,
     position: initial;
   }
 }
-/* line 261, ../scss/old/_templates.scss */
+/* line 268, ../scss/old/_templates.scss */
 .portaltype-packet#content .text-over-image .content.dark-background,
 .portlet-homepage .text-over-image .content.dark-background,
 .existing_content_portlet .text-over-image .content.dark-background,
@@ -9822,7 +9833,7 @@ body#tinymce .text-over-image .content.dark-background,
 #content-core #parent-fieldname-text .text-over-image .content.dark-background {
   background: rgba(0, 0, 0, 0.65);
 }
-/* line 264, ../scss/old/_templates.scss */
+/* line 271, ../scss/old/_templates.scss */
 .portaltype-packet#content .text-over-image .content.dark-background h4,
 .portaltype-packet#content .text-over-image .content.dark-background p,
 .portaltype-packet#content .text-over-image .content.dark-background span,
@@ -9849,7 +9860,7 @@ body#tinymce .text-over-image .content.dark-background span,
 #content-core #parent-fieldname-text .text-over-image .content.dark-background span {
   color: var(--bs-white) !important;
 }
-/* line 271, ../scss/old/_templates.scss */
+/* line 278, ../scss/old/_templates.scss */
 .portaltype-packet#content .text-over-image .content.light-background,
 .portlet-homepage .text-over-image .content.light-background,
 .existing_content_portlet .text-over-image .content.light-background,
@@ -9861,7 +9872,7 @@ body#tinymce .text-over-image .content.light-background,
   background: rgba(255, 255, 255, 0.65);
 }
 @media (max-width: 768px) {
-  /* line 271, ../scss/old/_templates.scss */
+  /* line 278, ../scss/old/_templates.scss */
   .portaltype-packet#content .text-over-image .content.light-background,
   .portlet-homepage .text-over-image .content.light-background,
   .existing_content_portlet .text-over-image .content.light-background,
@@ -9875,7 +9886,7 @@ body#tinymce .text-over-image .content.light-background,
     border-bottom: 1px solid var(--bs-gray-700);
   }
 }
-/* line 280, ../scss/old/_templates.scss */
+/* line 287, ../scss/old/_templates.scss */
 .portaltype-packet#content .text-over-image .content.light-background h4,
 .portaltype-packet#content .text-over-image .content.light-background p,
 .portaltype-packet#content .text-over-image .content.light-background span,
@@ -9902,7 +9913,7 @@ body#tinymce .text-over-image .content.light-background span,
 #content-core #parent-fieldname-text .text-over-image .content.light-background span {
   color: var(--bs-black) !important;
 }
-/* line 287, ../scss/old/_templates.scss */
+/* line 294, ../scss/old/_templates.scss */
 .portaltype-packet#content .text-over-image .content .caption,
 .portlet-homepage .text-over-image .content .caption,
 .existing_content_portlet .text-over-image .content .caption,
@@ -9913,7 +9924,7 @@ body#tinymce .text-over-image .content .caption,
 #content-core #parent-fieldname-text .text-over-image .content .caption {
   padding: 1.5rem;
 }
-/* line 290, ../scss/old/_templates.scss */
+/* line 297, ../scss/old/_templates.scss */
 .portaltype-packet#content .text-over-image .content .caption p:last-child,
 .portlet-homepage .text-over-image .content .caption p:last-child,
 .existing_content_portlet .text-over-image .content .caption p:last-child,
@@ -9924,7 +9935,7 @@ body#tinymce .text-over-image .content .caption p:last-child,
 #content-core #parent-fieldname-text .text-over-image .content .caption p:last-child {
   margin-bottom: 0;
 }
-/* line 300, ../scss/old/_templates.scss */
+/* line 307, ../scss/old/_templates.scss */
 .portaltype-packet#content .boxbg-gray,
 .portlet-homepage .boxbg-gray,
 .existing_content_portlet .boxbg-gray,
@@ -9935,7 +9946,7 @@ body#tinymce .boxbg-gray,
 #content-core #parent-fieldname-text .boxbg-gray {
   background-color: var(--bs-gray-100);
 }
-/* line 307, ../scss/old/_templates.scss */
+/* line 314, ../scss/old/_templates.scss */
 .portaltype-packet#content .boxbg-green,
 .portlet-homepage .boxbg-green,
 .existing_content_portlet .boxbg-green,
@@ -9946,7 +9957,7 @@ body#tinymce .boxbg-green,
 #content-core #parent-fieldname-text .boxbg-green {
   background-color: #e5f5ca;
 }
-/* line 314, ../scss/old/_templates.scss */
+/* line 321, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral,
 .portlet-homepage .list-numeral,
 .existing_content_portlet .list-numeral,
@@ -9964,7 +9975,7 @@ body#tinymce .list-numeral,
   text-align: center;
   padding: 0;
 }
-/* line 324, ../scss/old/_templates.scss */
+/* line 331, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral li,
 .portlet-homepage .list-numeral li,
 .existing_content_portlet .list-numeral li,
@@ -9981,7 +9992,7 @@ body#tinymce .list-numeral li,
   line-height: 1.25;
   padding-bottom: 20px;
 }
-/* line 334, ../scss/old/_templates.scss */
+/* line 341, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral strong,
 .portlet-homepage .list-numeral strong,
 .existing_content_portlet .list-numeral strong,
@@ -9994,7 +10005,7 @@ body#tinymce .list-numeral strong,
   display: block;
   font-weight: 300;
 }
-/* line 340, ../scss/old/_templates.scss */
+/* line 347, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral :nth-child(1) strong,
 .portlet-homepage .list-numeral :nth-child(1) strong,
 .existing_content_portlet .list-numeral :nth-child(1) strong,
@@ -10005,7 +10016,7 @@ body#tinymce .list-numeral :nth-child(1) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(1) strong {
   color: #000552;
 }
-/* line 344, ../scss/old/_templates.scss */
+/* line 351, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral :nth-child(2) strong,
 .portlet-homepage .list-numeral :nth-child(2) strong,
 .existing_content_portlet .list-numeral :nth-child(2) strong,
@@ -10016,7 +10027,7 @@ body#tinymce .list-numeral :nth-child(2) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(2) strong {
   color: #000BA3;
 }
-/* line 348, ../scss/old/_templates.scss */
+/* line 355, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral :nth-child(3) strong,
 .portlet-homepage .list-numeral :nth-child(3) strong,
 .existing_content_portlet .list-numeral :nth-child(3) strong,
@@ -10027,7 +10038,7 @@ body#tinymce .list-numeral :nth-child(3) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(3) strong {
   color: #0011FF;
 }
-/* line 352, ../scss/old/_templates.scss */
+/* line 359, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral :nth-child(4) strong,
 .portlet-homepage .list-numeral :nth-child(4) strong,
 .existing_content_portlet .list-numeral :nth-child(4) strong,
@@ -10038,7 +10049,7 @@ body#tinymce .list-numeral :nth-child(4) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(4) strong {
   color: #6734BA;
 }
-/* line 356, ../scss/old/_templates.scss */
+/* line 363, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral :nth-child(5) strong,
 .portlet-homepage .list-numeral :nth-child(5) strong,
 .existing_content_portlet .list-numeral :nth-child(5) strong,
@@ -10049,7 +10060,7 @@ body#tinymce .list-numeral :nth-child(5) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(5) strong {
   color: #9D1CB2;
 }
-/* line 360, ../scss/old/_templates.scss */
+/* line 367, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral :nth-child(6) strong,
 .portlet-homepage .list-numeral :nth-child(6) strong,
 .existing_content_portlet .list-numeral :nth-child(6) strong,
@@ -10061,7 +10072,7 @@ body#tinymce .list-numeral :nth-child(6) strong,
   color: #DA125F;
 }
 @supports (-moz-appearance: none) {
-  /* line 367, ../scss/old/_templates.scss */
+  /* line 374, ../scss/old/_templates.scss */
   .portaltype-packet#content .list-numeral li,
   .portlet-homepage .list-numeral li,
   .existing_content_portlet .list-numeral li,
@@ -10074,7 +10085,7 @@ body#tinymce .list-numeral :nth-child(6) strong,
   }
 }
 @media (max-width: 992px) {
-  /* line 374, ../scss/old/_templates.scss */
+  /* line 381, ../scss/old/_templates.scss */
   .portaltype-packet#content .list-numeral,
   .portlet-homepage .list-numeral,
   .existing_content_portlet .list-numeral,
@@ -10088,7 +10099,7 @@ body#tinymce .list-numeral :nth-child(6) strong,
   }
 }
 @media (max-width: 576px) {
-  /* line 382, ../scss/old/_templates.scss */
+  /* line 389, ../scss/old/_templates.scss */
   .portaltype-packet#content .list-numeral,
   .portlet-homepage .list-numeral,
   .existing_content_portlet .list-numeral,
@@ -10100,7 +10111,7 @@ body#tinymce .list-numeral :nth-child(6) strong,
     column-count: 2;
     -moz-column-count: 2;
   }
-  /* line 386, ../scss/old/_templates.scss */
+  /* line 393, ../scss/old/_templates.scss */
   .portaltype-packet#content .list-numeral li,
   .portlet-homepage .list-numeral li,
   .existing_content_portlet .list-numeral li,
@@ -10111,7 +10122,7 @@ body#tinymce .list-numeral :nth-child(6) strong,
   #content-core #parent-fieldname-text .list-numeral li {
     font-size: 1.25rem;
   }
-  /* line 390, ../scss/old/_templates.scss */
+  /* line 397, ../scss/old/_templates.scss */
   .portaltype-packet#content .list-numeral strong,
   .portlet-homepage .list-numeral strong,
   .existing_content_portlet .list-numeral strong,
@@ -10123,7 +10134,7 @@ body#tinymce .list-numeral :nth-child(6) strong,
     font-size: 2rem;
   }
 }
-/* line 401, ../scss/old/_templates.scss */
+/* line 408, ../scss/old/_templates.scss */
 .portaltype-packet#content .gallery-logos .gellery-bottom,
 .portlet-homepage .gallery-logos .gellery-bottom,
 .existing_content_portlet .gallery-logos .gellery-bottom,
@@ -10134,7 +10145,7 @@ body#tinymce .gallery-logos .gellery-bottom,
 #content-core #parent-fieldname-text .gallery-logos .gellery-bottom {
   margin-bottom: 1.5rem;
 }
-/* line 405, ../scss/old/_templates.scss */
+/* line 412, ../scss/old/_templates.scss */
 .portaltype-packet#content .gallery-logos a:after,
 .portlet-homepage .gallery-logos a:after,
 .existing_content_portlet .gallery-logos a:after,
@@ -10145,7 +10156,7 @@ body#tinymce .gallery-logos a:after,
 #content-core #parent-fieldname-text .gallery-logos a:after {
   content: "";
 }
-/* line 413, ../scss/old/_templates.scss */
+/* line 420, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat,
 .portlet-homepage .destacat,
 .existing_content_portlet .destacat,
@@ -10158,7 +10169,7 @@ body#tinymce .destacat,
   position: relative;
   margin-bottom: 1.5rem;
 }
-/* line 418, ../scss/old/_templates.scss */
+/* line 425, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat .destacat-contingut,
 .portlet-homepage .destacat .destacat-contingut,
 .existing_content_portlet .destacat .destacat-contingut,
@@ -10176,7 +10187,7 @@ body#tinymce .destacat .destacat-contingut,
   overflow: hidden;
   font-size: var(--gw-font-size-s);
 }
-/* line 431, ../scss/old/_templates.scss */
+/* line 438, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat .destacat-imatge.compat-object-fit,
 .portlet-homepage .destacat .destacat-imatge.compat-object-fit,
 .existing_content_portlet .destacat .destacat-imatge.compat-object-fit,
@@ -10188,7 +10199,7 @@ body#tinymce .destacat .destacat-imatge.compat-object-fit,
   background-size: cover;
   background-position: center;
 }
-/* line 436, ../scss/old/_templates.scss */
+/* line 443, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat .destacat-imatge img,
 .portlet-homepage .destacat .destacat-imatge img,
 .existing_content_portlet .destacat .destacat-imatge img,
@@ -10205,7 +10216,7 @@ body#tinymce .destacat .destacat-imatge img,
   z-index: 0;
   border-radius: 0;
 }
-/* line 450, ../scss/old/_templates.scss */
+/* line 457, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat.destacat-dreta .destacat-contingut,
 .portlet-homepage .destacat.destacat-dreta .destacat-contingut,
 .existing_content_portlet .destacat.destacat-dreta .destacat-contingut,
@@ -10217,7 +10228,7 @@ body#tinymce .destacat.destacat-dreta .destacat-contingut,
   right: 0;
   left: auto;
 }
-/* line 455, ../scss/old/_templates.scss */
+/* line 462, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat.destacat-dreta .destacat-imatge img,
 .portlet-homepage .destacat.destacat-dreta .destacat-imatge img,
 .existing_content_portlet .destacat.destacat-dreta .destacat-imatge img,
@@ -10229,7 +10240,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
   padding-left: 0;
 }
 @media (max-width: 768px) {
-  /* line 461, ../scss/old/_templates.scss */
+  /* line 468, ../scss/old/_templates.scss */
   .portaltype-packet#content .destacat.destacat-dreta img,
   .portlet-homepage .destacat.destacat-dreta img,
   .existing_content_portlet .destacat.destacat-dreta img,
@@ -10243,7 +10254,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
   }
 }
 @media (max-width: 768px) {
-  /* line 471, ../scss/old/_templates.scss */
+  /* line 478, ../scss/old/_templates.scss */
   .portaltype-packet#content .destacat,
   .portlet-homepage .destacat,
   .existing_content_portlet .destacat,
@@ -10254,7 +10265,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
   #content-core #parent-fieldname-text .destacat {
     height: auto;
   }
-  /* line 474, ../scss/old/_templates.scss */
+  /* line 481, ../scss/old/_templates.scss */
   .portaltype-packet#content .destacat .destacat-contingut,
   .portlet-homepage .destacat .destacat-contingut,
   .existing_content_portlet .destacat .destacat-contingut,
@@ -10268,7 +10279,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
     padding: 10px;
     display: table-cell;
   }
-  /* line 480, ../scss/old/_templates.scss */
+  /* line 487, ../scss/old/_templates.scss */
   .portaltype-packet#content .destacat .destacat-contingut img,
   .portlet-homepage .destacat .destacat-contingut img,
   .existing_content_portlet .destacat .destacat-contingut img,
@@ -10282,7 +10293,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
     width: 100%;
   }
 }
-/* line 492, ../scss/old/_templates.scss */
+/* line 499, ../scss/old/_templates.scss */
 .portaltype-packet#content .lead,
 .portlet-homepage .lead,
 .existing_content_portlet .lead,
@@ -10293,7 +10304,7 @@ body#tinymce .lead,
 #content-core #parent-fieldname-text .lead {
   font-size: 1rem;
 }
-/* line 496, ../scss/old/_templates.scss */
+/* line 503, ../scss/old/_templates.scss */
 .portaltype-packet#content .lead-small,
 .portlet-homepage .lead-small,
 .existing_content_portlet .lead-small,
@@ -10305,7 +10316,7 @@ body#tinymce .lead-small,
   font-size: var(--gw-font-size-xs);
   padding: 0.5rem;
 }
-/* line 501, ../scss/old/_templates.scss */
+/* line 508, ../scss/old/_templates.scss */
 .portaltype-packet#content .box.box-large,
 .portlet-homepage .box.box-large,
 .existing_content_portlet .box.box-large,
@@ -10316,7 +10327,7 @@ body#tinymce .box.box-large,
 #content-core #parent-fieldname-text .box.box-large {
   padding: 2rem;
 }
-/* line 505, ../scss/old/_templates.scss */
+/* line 512, ../scss/old/_templates.scss */
 .portaltype-packet#content .box.box-small,
 .portlet-homepage .box.box-small,
 .existing_content_portlet .box.box-small,

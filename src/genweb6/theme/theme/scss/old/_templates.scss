@@ -249,6 +249,13 @@ a.btn.btn-large:not(.btn-primary) {
   position: relative;
   margin: 0 auto;
 
+  & > picture {
+
+    & > img {
+      width: 100%;
+    }
+  }
+
  .content {
     position: absolute;
     bottom: 0;
