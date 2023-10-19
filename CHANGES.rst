@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.4 (unreleased)
+1.4 (2023-10-19)
 ----------------
 
-- Nothing changed yet.
-
+* Estilo portlet nuevo contenido existente [Iago López]
 
 1.3 (2023-10-19)
 ----------------
