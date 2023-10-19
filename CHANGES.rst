@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-1.3 (unreleased)
+1.3 (2023-10-19)
 ----------------
 
-- Nothing changed yet.
-
+* Estilos template <Imatge amb text superposat fosc + clar> picture [Iago López]
+* Estilos banner picture [Iago López]
 
 1.2 (2023-09-21)
 ----------------
