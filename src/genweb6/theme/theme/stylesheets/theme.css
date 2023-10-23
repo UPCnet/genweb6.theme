@@ -3235,7 +3235,95 @@ body#tinymce .lletra-cercle,
   font-size: 3rem;
   margin-top: -20px;
 }
-/* line 7, ../scss/old/_icones_lletres.scss */
+/* line 6, ../scss/old/_icones_lletres.scss */
+.portaltype-packet#content .lletra-cercle + .h1, .portaltype-packet#content .lletra-cercle + h1, .portaltype-packet#content .lletra-cercle + .h2, .portaltype-packet#content .lletra-cercle + h2, .portaltype-packet#content .lletra-cercle + .h3, .portaltype-packet#content .lletra-cercle + h3, .portaltype-packet#content .lletra-cercle + .h4, .portaltype-packet#content .lletra-cercle + h4, .portaltype-packet#content .lletra-cercle + .h5, .portaltype-packet#content .lletra-cercle + h5, .portaltype-packet#content .lletra-cercle + .h6, .portaltype-packet#content .lletra-cercle + h6,
+.portlet-homepage .lletra-cercle + .h1,
+.portlet-homepage .lletra-cercle + h1,
+.portlet-homepage .lletra-cercle + .h2,
+.portlet-homepage .lletra-cercle + h2,
+.portlet-homepage .lletra-cercle + .h3,
+.portlet-homepage .lletra-cercle + h3,
+.portlet-homepage .lletra-cercle + .h4,
+.portlet-homepage .lletra-cercle + h4,
+.portlet-homepage .lletra-cercle + .h5,
+.portlet-homepage .lletra-cercle + h5,
+.portlet-homepage .lletra-cercle + .h6,
+.portlet-homepage .lletra-cercle + h6,
+.existing_content_portlet .lletra-cercle + .h1,
+.existing_content_portlet .lletra-cercle + h1,
+.existing_content_portlet .lletra-cercle + .h2,
+.existing_content_portlet .lletra-cercle + h2,
+.existing_content_portlet .lletra-cercle + .h3,
+.existing_content_portlet .lletra-cercle + h3,
+.existing_content_portlet .lletra-cercle + .h4,
+.existing_content_portlet .lletra-cercle + h4,
+.existing_content_portlet .lletra-cercle + .h5,
+.existing_content_portlet .lletra-cercle + h5,
+.existing_content_portlet .lletra-cercle + .h6,
+.existing_content_portlet .lletra-cercle + h6,
+.portletStaticText .lletra-cercle + .h1,
+.portletStaticText .lletra-cercle + h1,
+.portletStaticText .lletra-cercle + .h2,
+.portletStaticText .lletra-cercle + h2,
+.portletStaticText .lletra-cercle + .h3,
+.portletStaticText .lletra-cercle + h3,
+.portletStaticText .lletra-cercle + .h4,
+.portletStaticText .lletra-cercle + h4,
+.portletStaticText .lletra-cercle + .h5,
+.portletStaticText .lletra-cercle + h5,
+.portletStaticText .lletra-cercle + .h6,
+.portletStaticText .lletra-cercle + h6,
+.mceTmpl .lletra-cercle + .h1,
+.mceTmpl .lletra-cercle + h1,
+.mceTmpl .lletra-cercle + .h2,
+.mceTmpl .lletra-cercle + h2,
+.mceTmpl .lletra-cercle + .h3,
+.mceTmpl .lletra-cercle + h3,
+.mceTmpl .lletra-cercle + .h4,
+.mceTmpl .lletra-cercle + h4,
+.mceTmpl .lletra-cercle + .h5,
+.mceTmpl .lletra-cercle + h5,
+.mceTmpl .lletra-cercle + .h6,
+.mceTmpl .lletra-cercle + h6,
+body#tinymce .lletra-cercle + .h1,
+body#tinymce .lletra-cercle + h1,
+body#tinymce .lletra-cercle + .h2,
+body#tinymce .lletra-cercle + h2,
+body#tinymce .lletra-cercle + .h3,
+body#tinymce .lletra-cercle + h3,
+body#tinymce .lletra-cercle + .h4,
+body#tinymce .lletra-cercle + h4,
+body#tinymce .lletra-cercle + .h5,
+body#tinymce .lletra-cercle + h5,
+body#tinymce .lletra-cercle + .h6,
+body#tinymce .lletra-cercle + h6,
+.mosaic-tile-content .lletra-cercle + .h1,
+.mosaic-tile-content .lletra-cercle + h1,
+.mosaic-tile-content .lletra-cercle + .h2,
+.mosaic-tile-content .lletra-cercle + h2,
+.mosaic-tile-content .lletra-cercle + .h3,
+.mosaic-tile-content .lletra-cercle + h3,
+.mosaic-tile-content .lletra-cercle + .h4,
+.mosaic-tile-content .lletra-cercle + h4,
+.mosaic-tile-content .lletra-cercle + .h5,
+.mosaic-tile-content .lletra-cercle + h5,
+.mosaic-tile-content .lletra-cercle + .h6,
+.mosaic-tile-content .lletra-cercle + h6,
+#content-core #parent-fieldname-text .lletra-cercle + .h1,
+#content-core #parent-fieldname-text .lletra-cercle + h1,
+#content-core #parent-fieldname-text .lletra-cercle + .h2,
+#content-core #parent-fieldname-text .lletra-cercle + h2,
+#content-core #parent-fieldname-text .lletra-cercle + .h3,
+#content-core #parent-fieldname-text .lletra-cercle + h3,
+#content-core #parent-fieldname-text .lletra-cercle + .h4,
+#content-core #parent-fieldname-text .lletra-cercle + h4,
+#content-core #parent-fieldname-text .lletra-cercle + .h5,
+#content-core #parent-fieldname-text .lletra-cercle + h5,
+#content-core #parent-fieldname-text .lletra-cercle + .h6,
+#content-core #parent-fieldname-text .lletra-cercle + h6 {
+  margin-top: 0rem !important;
+}
+/* line 22, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .numero-cercle,
 .portlet-homepage .numero-cercle,
 .existing_content_portlet .numero-cercle,
@@ -3246,7 +3334,7 @@ body#tinymce .numero-cercle,
 #content-core #parent-fieldname-text .numero-cercle {
   font-size: 3rem;
 }
-/* line 11, ../scss/old/_icones_lletres.scss */
+/* line 26, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-petita,
 .portlet-homepage .lletra-cercle-petita,
 .existing_content_portlet .lletra-cercle-petita,
@@ -3257,7 +3345,7 @@ body#tinymce .lletra-cercle-petita,
 #content-core #parent-fieldname-text .lletra-cercle-petita {
   font-size: 0.9rem !important;
 }
-/* line 15, ../scss/old/_icones_lletres.scss */
+/* line 30, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-petita:before,
 .portlet-homepage .lletra-cercle-petita:before,
 .existing_content_portlet .lletra-cercle-petita:before,
@@ -3270,7 +3358,7 @@ body#tinymce .lletra-cercle-petita:before,
   font-weight: 400;
   margin-right: 0.2rem;
 }
-/* line 21, ../scss/old/_icones_lletres.scss */
+/* line 36, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-a:before,
 .portlet-homepage .lletra-cercle-a:before,
 .existing_content_portlet .lletra-cercle-a:before,
@@ -3281,7 +3369,7 @@ body#tinymce .lletra-cercle-a:before,
 #content-core #parent-fieldname-text .lletra-cercle-a:before {
   content: "\24d0";
 }
-/* line 25, ../scss/old/_icones_lletres.scss */
+/* line 40, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-b:before,
 .portlet-homepage .lletra-cercle-b:before,
 .existing_content_portlet .lletra-cercle-b:before,
@@ -3292,7 +3380,7 @@ body#tinymce .lletra-cercle-b:before,
 #content-core #parent-fieldname-text .lletra-cercle-b:before {
   content: "\24d1";
 }
-/* line 29, ../scss/old/_icones_lletres.scss */
+/* line 44, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-c:before,
 .portlet-homepage .lletra-cercle-c:before,
 .existing_content_portlet .lletra-cercle-c:before,
@@ -3303,7 +3391,7 @@ body#tinymce .lletra-cercle-c:before,
 #content-core #parent-fieldname-text .lletra-cercle-c:before {
   content: "\24d2";
 }
-/* line 33, ../scss/old/_icones_lletres.scss */
+/* line 48, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-d:before,
 .portlet-homepage .lletra-cercle-d:before,
 .existing_content_portlet .lletra-cercle-d:before,
@@ -3314,7 +3402,7 @@ body#tinymce .lletra-cercle-d:before,
 #content-core #parent-fieldname-text .lletra-cercle-d:before {
   content: "\24d3";
 }
-/* line 37, ../scss/old/_icones_lletres.scss */
+/* line 52, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-e:before,
 .portlet-homepage .lletra-cercle-e:before,
 .existing_content_portlet .lletra-cercle-e:before,
@@ -3325,7 +3413,7 @@ body#tinymce .lletra-cercle-e:before,
 #content-core #parent-fieldname-text .lletra-cercle-e:before {
   content: "\24d4";
 }
-/* line 41, ../scss/old/_icones_lletres.scss */
+/* line 56, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-f:before,
 .portlet-homepage .lletra-cercle-f:before,
 .existing_content_portlet .lletra-cercle-f:before,
@@ -3336,7 +3424,7 @@ body#tinymce .lletra-cercle-f:before,
 #content-core #parent-fieldname-text .lletra-cercle-f:before {
   content: "\24d5";
 }
-/* line 45, ../scss/old/_icones_lletres.scss */
+/* line 60, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-g:before,
 .portlet-homepage .lletra-cercle-g:before,
 .existing_content_portlet .lletra-cercle-g:before,
@@ -3347,7 +3435,7 @@ body#tinymce .lletra-cercle-g:before,
 #content-core #parent-fieldname-text .lletra-cercle-g:before {
   content: "\24d6";
 }
-/* line 49, ../scss/old/_icones_lletres.scss */
+/* line 64, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-h:before,
 .portlet-homepage .lletra-cercle-h:before,
 .existing_content_portlet .lletra-cercle-h:before,
@@ -3358,7 +3446,7 @@ body#tinymce .lletra-cercle-h:before,
 #content-core #parent-fieldname-text .lletra-cercle-h:before {
   content: "\24d7";
 }
-/* line 53, ../scss/old/_icones_lletres.scss */
+/* line 68, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-i:before,
 .portlet-homepage .lletra-cercle-i:before,
 .existing_content_portlet .lletra-cercle-i:before,
@@ -3369,7 +3457,7 @@ body#tinymce .lletra-cercle-i:before,
 #content-core #parent-fieldname-text .lletra-cercle-i:before {
   content: "\24d8";
 }
-/* line 57, ../scss/old/_icones_lletres.scss */
+/* line 72, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-j:before,
 .portlet-homepage .lletra-cercle-j:before,
 .existing_content_portlet .lletra-cercle-j:before,
@@ -3380,7 +3468,7 @@ body#tinymce .lletra-cercle-j:before,
 #content-core #parent-fieldname-text .lletra-cercle-j:before {
   content: "\24d9";
 }
-/* line 61, ../scss/old/_icones_lletres.scss */
+/* line 76, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-k:before,
 .portlet-homepage .lletra-cercle-k:before,
 .existing_content_portlet .lletra-cercle-k:before,
@@ -3391,7 +3479,7 @@ body#tinymce .lletra-cercle-k:before,
 #content-core #parent-fieldname-text .lletra-cercle-k:before {
   content: "\24da";
 }
-/* line 65, ../scss/old/_icones_lletres.scss */
+/* line 80, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-l:before,
 .portlet-homepage .lletra-cercle-l:before,
 .existing_content_portlet .lletra-cercle-l:before,
@@ -3402,7 +3490,7 @@ body#tinymce .lletra-cercle-l:before,
 #content-core #parent-fieldname-text .lletra-cercle-l:before {
   content: "\24db";
 }
-/* line 69, ../scss/old/_icones_lletres.scss */
+/* line 84, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-m:before,
 .portlet-homepage .lletra-cercle-m:before,
 .existing_content_portlet .lletra-cercle-m:before,
@@ -3413,7 +3501,7 @@ body#tinymce .lletra-cercle-m:before,
 #content-core #parent-fieldname-text .lletra-cercle-m:before {
   content: "\24dc";
 }
-/* line 73, ../scss/old/_icones_lletres.scss */
+/* line 88, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-n:before,
 .portlet-homepage .lletra-cercle-n:before,
 .existing_content_portlet .lletra-cercle-n:before,
@@ -3424,7 +3512,7 @@ body#tinymce .lletra-cercle-n:before,
 #content-core #parent-fieldname-text .lletra-cercle-n:before {
   content: "\24dd";
 }
-/* line 77, ../scss/old/_icones_lletres.scss */
+/* line 92, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-o:before,
 .portlet-homepage .lletra-cercle-o:before,
 .existing_content_portlet .lletra-cercle-o:before,
@@ -3435,7 +3523,7 @@ body#tinymce .lletra-cercle-o:before,
 #content-core #parent-fieldname-text .lletra-cercle-o:before {
   content: "\24de";
 }
-/* line 81, ../scss/old/_icones_lletres.scss */
+/* line 96, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-p:before,
 .portlet-homepage .lletra-cercle-p:before,
 .existing_content_portlet .lletra-cercle-p:before,
@@ -3446,7 +3534,7 @@ body#tinymce .lletra-cercle-p:before,
 #content-core #parent-fieldname-text .lletra-cercle-p:before {
   content: "\24df";
 }
-/* line 85, ../scss/old/_icones_lletres.scss */
+/* line 100, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-q:before,
 .portlet-homepage .lletra-cercle-q:before,
 .existing_content_portlet .lletra-cercle-q:before,
@@ -3457,7 +3545,7 @@ body#tinymce .lletra-cercle-q:before,
 #content-core #parent-fieldname-text .lletra-cercle-q:before {
   content: "\24e0";
 }
-/* line 89, ../scss/old/_icones_lletres.scss */
+/* line 104, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-r:before,
 .portlet-homepage .lletra-cercle-r:before,
 .existing_content_portlet .lletra-cercle-r:before,
@@ -3468,7 +3556,7 @@ body#tinymce .lletra-cercle-r:before,
 #content-core #parent-fieldname-text .lletra-cercle-r:before {
   content: "\24e1";
 }
-/* line 93, ../scss/old/_icones_lletres.scss */
+/* line 108, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-s:before,
 .portlet-homepage .lletra-cercle-s:before,
 .existing_content_portlet .lletra-cercle-s:before,
@@ -3479,7 +3567,7 @@ body#tinymce .lletra-cercle-s:before,
 #content-core #parent-fieldname-text .lletra-cercle-s:before {
   content: "\24e2";
 }
-/* line 97, ../scss/old/_icones_lletres.scss */
+/* line 112, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-t:before,
 .portlet-homepage .lletra-cercle-t:before,
 .existing_content_portlet .lletra-cercle-t:before,
@@ -3490,7 +3578,7 @@ body#tinymce .lletra-cercle-t:before,
 #content-core #parent-fieldname-text .lletra-cercle-t:before {
   content: "\24e3";
 }
-/* line 101, ../scss/old/_icones_lletres.scss */
+/* line 116, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-u:before,
 .portlet-homepage .lletra-cercle-u:before,
 .existing_content_portlet .lletra-cercle-u:before,
@@ -3501,7 +3589,7 @@ body#tinymce .lletra-cercle-u:before,
 #content-core #parent-fieldname-text .lletra-cercle-u:before {
   content: "\24e4";
 }
-/* line 105, ../scss/old/_icones_lletres.scss */
+/* line 120, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-v:before,
 .portlet-homepage .lletra-cercle-v:before,
 .existing_content_portlet .lletra-cercle-v:before,
@@ -3512,7 +3600,7 @@ body#tinymce .lletra-cercle-v:before,
 #content-core #parent-fieldname-text .lletra-cercle-v:before {
   content: "\24e5";
 }
-/* line 109, ../scss/old/_icones_lletres.scss */
+/* line 124, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-w:before,
 .portlet-homepage .lletra-cercle-w:before,
 .existing_content_portlet .lletra-cercle-w:before,
@@ -3523,7 +3611,7 @@ body#tinymce .lletra-cercle-w:before,
 #content-core #parent-fieldname-text .lletra-cercle-w:before {
   content: "\24e6";
 }
-/* line 113, ../scss/old/_icones_lletres.scss */
+/* line 128, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-x:before,
 .portlet-homepage .lletra-cercle-x:before,
 .existing_content_portlet .lletra-cercle-x:before,
@@ -3534,7 +3622,7 @@ body#tinymce .lletra-cercle-x:before,
 #content-core #parent-fieldname-text .lletra-cercle-x:before {
   content: "\24e7";
 }
-/* line 117, ../scss/old/_icones_lletres.scss */
+/* line 132, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-y:before,
 .portlet-homepage .lletra-cercle-y:before,
 .existing_content_portlet .lletra-cercle-y:before,
@@ -3545,7 +3633,7 @@ body#tinymce .lletra-cercle-y:before,
 #content-core #parent-fieldname-text .lletra-cercle-y:before {
   content: "\24e8";
 }
-/* line 121, ../scss/old/_icones_lletres.scss */
+/* line 136, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-z:before,
 .portlet-homepage .lletra-cercle-z:before,
 .existing_content_portlet .lletra-cercle-z:before,
@@ -3556,7 +3644,7 @@ body#tinymce .lletra-cercle-z:before,
 #content-core #parent-fieldname-text .lletra-cercle-z:before {
   content: "\24e9";
 }
-/* line 125, ../scss/old/_icones_lletres.scss */
+/* line 140, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-1:before,
 .portlet-homepage .lletra-cercle-1:before,
 .existing_content_portlet .lletra-cercle-1:before,
@@ -3567,7 +3655,7 @@ body#tinymce .lletra-cercle-1:before,
 #content-core #parent-fieldname-text .lletra-cercle-1:before {
   content: "\278A";
 }
-/* line 129, ../scss/old/_icones_lletres.scss */
+/* line 144, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-2:before,
 .portlet-homepage .lletra-cercle-2:before,
 .existing_content_portlet .lletra-cercle-2:before,
@@ -3578,7 +3666,7 @@ body#tinymce .lletra-cercle-2:before,
 #content-core #parent-fieldname-text .lletra-cercle-2:before {
   content: "\278B";
 }
-/* line 133, ../scss/old/_icones_lletres.scss */
+/* line 148, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-3:before,
 .portlet-homepage .lletra-cercle-3:before,
 .existing_content_portlet .lletra-cercle-3:before,
@@ -3589,7 +3677,7 @@ body#tinymce .lletra-cercle-3:before,
 #content-core #parent-fieldname-text .lletra-cercle-3:before {
   content: "\278C";
 }
-/* line 137, ../scss/old/_icones_lletres.scss */
+/* line 152, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-4:before,
 .portlet-homepage .lletra-cercle-4:before,
 .existing_content_portlet .lletra-cercle-4:before,
@@ -3600,7 +3688,7 @@ body#tinymce .lletra-cercle-4:before,
 #content-core #parent-fieldname-text .lletra-cercle-4:before {
   content: "\278D";
 }
-/* line 141, ../scss/old/_icones_lletres.scss */
+/* line 156, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-5:before,
 .portlet-homepage .lletra-cercle-5:before,
 .existing_content_portlet .lletra-cercle-5:before,
@@ -3611,7 +3699,7 @@ body#tinymce .lletra-cercle-5:before,
 #content-core #parent-fieldname-text .lletra-cercle-5:before {
   content: "\278E";
 }
-/* line 145, ../scss/old/_icones_lletres.scss */
+/* line 160, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-6:before,
 .portlet-homepage .lletra-cercle-6:before,
 .existing_content_portlet .lletra-cercle-6:before,
@@ -3622,7 +3710,7 @@ body#tinymce .lletra-cercle-6:before,
 #content-core #parent-fieldname-text .lletra-cercle-6:before {
   content: "\278F";
 }
-/* line 149, ../scss/old/_icones_lletres.scss */
+/* line 164, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-7:before,
 .portlet-homepage .lletra-cercle-7:before,
 .existing_content_portlet .lletra-cercle-7:before,
@@ -3633,7 +3721,7 @@ body#tinymce .lletra-cercle-7:before,
 #content-core #parent-fieldname-text .lletra-cercle-7:before {
   content: "\2790";
 }
-/* line 153, ../scss/old/_icones_lletres.scss */
+/* line 168, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-8:before,
 .portlet-homepage .lletra-cercle-8:before,
 .existing_content_portlet .lletra-cercle-8:before,
@@ -3644,7 +3732,7 @@ body#tinymce .lletra-cercle-8:before,
 #content-core #parent-fieldname-text .lletra-cercle-8:before {
   content: "\2791";
 }
-/* line 157, ../scss/old/_icones_lletres.scss */
+/* line 172, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-9:before,
 .portlet-homepage .lletra-cercle-9:before,
 .existing_content_portlet .lletra-cercle-9:before,
@@ -3655,7 +3743,7 @@ body#tinymce .lletra-cercle-9:before,
 #content-core #parent-fieldname-text .lletra-cercle-9:before {
   content: "\2792";
 }
-/* line 161, ../scss/old/_icones_lletres.scss */
+/* line 176, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .lletra-cercle-10:before,
 .portlet-homepage .lletra-cercle-10:before,
 .existing_content_portlet .lletra-cercle-10:before,
@@ -3666,7 +3754,7 @@ body#tinymce .lletra-cercle-10:before,
 #content-core #parent-fieldname-text .lletra-cercle-10:before {
   content: "\2793";
 }
-/* line 165, ../scss/old/_icones_lletres.scss */
+/* line 180, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .fletxa-dreta:before,
 .portlet-homepage .fletxa-dreta:before,
 .existing_content_portlet .fletxa-dreta:before,
@@ -3677,7 +3765,7 @@ body#tinymce .fletxa-dreta:before,
 #content-core #parent-fieldname-text .fletxa-dreta:before {
   content: "\1F87A";
 }
-/* line 169, ../scss/old/_icones_lletres.scss */
+/* line 184, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .fletxa-esquerra:before,
 .portlet-homepage .fletxa-esquerra:before,
 .existing_content_portlet .fletxa-esquerra:before,
@@ -3688,7 +3776,7 @@ body#tinymce .fletxa-esquerra:before,
 #content-core #parent-fieldname-text .fletxa-esquerra:before {
   content: "\1F878";
 }
-/* line 173, ../scss/old/_icones_lletres.scss */
+/* line 188, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .fletxa-adalt:before,
 .portlet-homepage .fletxa-adalt:before,
 .existing_content_portlet .fletxa-adalt:before,
@@ -3699,7 +3787,7 @@ body#tinymce .fletxa-adalt:before,
 #content-core #parent-fieldname-text .fletxa-adalt:before {
   content: "\1F879";
 }
-/* line 177, ../scss/old/_icones_lletres.scss */
+/* line 192, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .fletxa-abaix:before,
 .portlet-homepage .fletxa-abaix:before,
 .existing_content_portlet .fletxa-abaix:before,
@@ -3710,7 +3798,7 @@ body#tinymce .fletxa-abaix:before,
 #content-core #parent-fieldname-text .fletxa-abaix:before {
   content: "\1F87B";
 }
-/* line 181, ../scss/old/_icones_lletres.scss */
+/* line 196, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .color-blau,
 .portlet-homepage .color-blau,
 .existing_content_portlet .color-blau,
@@ -3721,7 +3809,7 @@ body#tinymce .color-blau,
 #content-core #parent-fieldname-text .color-blau {
   color: #089FE4;
 }
-/* line 185, ../scss/old/_icones_lletres.scss */
+/* line 200, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .color-blaucel,
 .portlet-homepage .color-blaucel,
 .existing_content_portlet .color-blaucel,
@@ -3732,7 +3820,7 @@ body#tinymce .color-blaucel,
 #content-core #parent-fieldname-text .color-blaucel {
   color: #1FBDEE;
 }
-/* line 189, ../scss/old/_icones_lletres.scss */
+/* line 204, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .color-verd,
 .portlet-homepage .color-verd,
 .existing_content_portlet .color-verd,
@@ -3743,7 +3831,7 @@ body#tinymce .color-verd,
 #content-core #parent-fieldname-text .color-verd {
   color: #069182;
 }
-/* line 193, ../scss/old/_icones_lletres.scss */
+/* line 208, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .color-vermell,
 .portlet-homepage .color-vermell,
 .existing_content_portlet .color-vermell,
@@ -3754,7 +3842,7 @@ body#tinymce .color-vermell,
 #content-core #parent-fieldname-text .color-vermell {
   color: #D01157;
 }
-/* line 197, ../scss/old/_icones_lletres.scss */
+/* line 212, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .color-groc,
 .portlet-homepage .color-groc,
 .existing_content_portlet .color-groc,
@@ -3765,7 +3853,7 @@ body#tinymce .color-groc,
 #content-core #parent-fieldname-text .color-groc {
   color: #f6a808;
 }
-/* line 201, ../scss/old/_icones_lletres.scss */
+/* line 216, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .color-morat,
 .portlet-homepage .color-morat,
 .existing_content_portlet .color-morat,
@@ -3776,7 +3864,7 @@ body#tinymce .color-morat,
 #content-core #parent-fieldname-text .color-morat {
   color: #622AD9;
 }
-/* line 205, ../scss/old/_icones_lletres.scss */
+/* line 220, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .color-violeta,
 .portlet-homepage .color-violeta,
 .existing_content_portlet .color-violeta,
@@ -3787,7 +3875,7 @@ body#tinymce .color-violeta,
 #content-core #parent-fieldname-text .color-violeta {
   color: #023470;
 }
-/* line 209, ../scss/old/_icones_lletres.scss */
+/* line 224, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .color-carbassa,
 .portlet-homepage .color-carbassa,
 .existing_content_portlet .color-carbassa,
@@ -3798,7 +3886,7 @@ body#tinymce .color-carbassa,
 #content-core #parent-fieldname-text .color-carbassa {
   color: #ED4033;
 }
-/* line 213, ../scss/old/_icones_lletres.scss */
+/* line 228, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .color-lila,
 .portlet-homepage .color-lila,
 .existing_content_portlet .color-lila,
@@ -3809,7 +3897,7 @@ body#tinymce .color-lila,
 #content-core #parent-fieldname-text .color-lila {
   color: #A71FAF;
 }
-/* line 217, ../scss/old/_icones_lletres.scss */
+/* line 232, ../scss/old/_icones_lletres.scss */
 .portaltype-packet#content .color-taronja,
 .portlet-homepage .color-taronja,
 .existing_content_portlet .color-taronja,
