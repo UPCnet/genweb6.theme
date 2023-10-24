@@ -116,6 +116,10 @@ templates = [
      "title-es": "Llamada a la acción - Texto con fondo oscuro",
      "title-en": "Call to action - Text with dark background",
      "url": "/++theme++genweb6.theme/tinymce_templates/cto/cto-fosc.html"},
+    {"title-ca": "Crida a l'acció - Text amb imatge amb ombra",
+     "title-es": "Llamada a la acción - Texto con imagen con sombra",
+     "title-en": "Call to action - Text with shadow image",
+     "url": "/++theme++genweb6.theme/tinymce_templates/cto/cto-text-imatge-ombra.html"},
     {"title-ca": "Composició - Àlbum imatges", "title-es":
      "Composición - Álbum imágenes", "title-en": "Compilation - Images album",
      "url": "/++theme++genweb6.theme/tinymce_templates/composicions/album.html"},
@@ -126,8 +130,7 @@ templates = [
     {"title-ca": "Composició - Imatge text superposat fosc",
      "title-es": "Composición - Imagen texto superpuesto oscuro",
      "title-en": "Compilation - Dark overlay text image",
-     "url":
-     "/++theme++genweb6.theme/tinymce_templates/composicions/img-txt-superposat.html"},
+     "url": "/++theme++genweb6.theme/tinymce_templates/composicions/img-txt-superposat.html"},
     {"title-ca": "Composició - Columna de suport",
      "title-es": "Composición - Columna de soporte",
      "title-en": "Compilation - Support column",
