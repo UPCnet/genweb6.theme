@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-1.5 (unreleased)
+1.5 (2023-10-27)
 ----------------
 
-- Nothing changed yet.
-
+* Plantilla nueva [Iago López]
+* Estilos plantilla icones lletres [Iago López]
 
 1.4 (2023-10-19)
 ----------------
