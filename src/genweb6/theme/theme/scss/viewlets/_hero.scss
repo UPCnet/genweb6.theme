@@ -41,7 +41,7 @@ body.template-homepage {
 
     & > .site_title {
       order: 1;
-      padding: 0em 4em 0.5em 4em;
+      padding: 0em var(--gw-viewlet-horizontal-width) 0.5em var(--gw-viewlet-horizontal-width);
       text-align: left;
 
       @media (max-width: 992px) {

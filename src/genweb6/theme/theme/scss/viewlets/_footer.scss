@@ -111,7 +111,7 @@ footer#portal-footer-wrapper {
 
 #footer-logos {
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
-  padding: 2em 4em 1em 4em;
+  padding: 2em var(--gw-viewlet-horizontal-width) 1em var(--gw-viewlet-horizontal-width);
   background-color: var(--bs-body-bg);
   border-top: 1px solid var(--bs-gray-300);
 
@@ -151,7 +151,7 @@ footer#portal-footer-wrapper {
 
 #footer-links {
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
-  padding: 0em 4em 0em 4em;
+  padding: 0em var(--gw-viewlet-horizontal-width) 0em var(--gw-viewlet-horizontal-width);
   color: var(--bs-body-bg);
 
   div.navbar-nav-footer.custom {
@@ -278,7 +278,7 @@ footer#portal-footer-wrapper {
 
 #portal-footer #footer-complementary {
   box-shadow: 500px 0 0 0 #F2F5F6, -500px 0 0 0 #F2F5F6;
-  padding: 0 4em;
+  padding: 0 4rem 0 var(--gw-viewlet-horizontal-width);
   background-color: var(--bs-white) !important;
   height: 60px;
 

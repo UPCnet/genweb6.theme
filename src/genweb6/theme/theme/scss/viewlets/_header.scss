@@ -1,6 +1,6 @@
 #header-cintillo {
   width: 100%;
-  padding: 1em 4em;
+  padding: 1em var(--gw-viewlet-horizontal-width);
   background-color: #DBEBEB;
   color: #000;
 
@@ -32,7 +32,7 @@ body:not([class*="section-"]) {
 }
 
 #header {
-  padding: 1em 4em;
+  padding: 1em var(--gw-viewlet-horizontal-width);
   height: 92px;
   transition: height .4s ease;
   -webkit-transition: height .4s ease;
@@ -73,7 +73,7 @@ body:not([class*="section-"]) {
 
       .nav-item {
         font-weight: 400;
-        padding: 0 15px 0 15px;
+        padding: 0 10px 0 10px;
 
         a {
           padding: 6px 0px 6px 0px;
@@ -91,12 +91,12 @@ body:not([class*="section-"]) {
       & > li.has_subtree {
         display: inline;
         vertical-align: middle;
-        padding: 0 0 0 15px;
+        padding: 0 0 0 10px;
         border: 1px solid transparent;
 
         &.nav-action,
         &.nav-lang {
-          padding: 0 15px 0 15px;
+          padding: 0 10px 0 10px;
         }
 
         a.nav-link {
