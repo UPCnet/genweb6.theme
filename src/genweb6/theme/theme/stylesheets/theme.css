@@ -13452,7 +13452,7 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
 #header #portal-navbar .navbar-nav .nav-item {
   font-weight: 400;
   padding: 0 10px 0 10px;
-  font-size: 16px;
+  font-size: 17px;
 }
 /* line 79, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item a {
@@ -13567,7 +13567,7 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item a.nav-link {
   color: var(--bs-body-color);
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
 }
 /* line 203, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item a.nav-link:hover {
