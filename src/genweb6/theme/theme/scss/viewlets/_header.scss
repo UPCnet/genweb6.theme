@@ -74,6 +74,7 @@ body:not([class*="section-"]) {
       .nav-item {
         font-weight: 400;
         padding: 0 10px 0 10px;
+        font-size: 16px;
 
         a {
           padding: 6px 0px 6px 0px;
@@ -96,7 +97,7 @@ body:not([class*="section-"]) {
 
         &.nav-action,
         &.nav-lang {
-          padding: 0 10px 0 10px;
+          padding: 0 5px 0 5px;
         }
 
         a.nav-link {
@@ -197,7 +198,7 @@ body:not([class*="section-"]) {
             a.nav-link {
               color: var(--bs-body-color);
               font-weight: 400;
-              font-size: 16px;
+              font-size: 15px;
 
               &:hover {
                 color: var(--bs-primary);
@@ -239,6 +240,7 @@ body:not([class*="section-"]) {
     input#searchGadget {
       width: 0;
       padding: 0;
+      margin-right: 10px;
       margin-left: 0.75rem;
       border: 0px solid;
       transition: all .4s ease;

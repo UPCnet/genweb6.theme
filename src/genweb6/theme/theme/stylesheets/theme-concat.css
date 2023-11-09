@@ -17900,7 +17900,7 @@ select + .select2-container--bootstrap-5 {
   --gw-state-pending-hover: #ad6704;
   --gw-state-published-hover: #005a8e;
   --gw-state-restricted-to-managers-hover: var(--bs-gray-600);
-  --gw-viewlet-horizontal-width: 2rem;
+  --gw-viewlet-horizontal-width: 1.2em;
 }
 
 /* line 37, ../scss/_variables.scss */
@@ -31323,54 +31323,55 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
 #header #portal-navbar .navbar-nav .nav-item {
   font-weight: 400;
   padding: 0 10px 0 10px;
+  font-size: 16px;
 }
-/* line 78, ../scss/viewlets/_header.scss */
+/* line 79, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item a {
   padding: 6px 0px 6px 0px;
 }
-/* line 85, ../scss/viewlets/_header.scss */
+/* line 86, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li:nth-last-child(-n + 3) ul.dropdown {
   right: -1px;
   left: auto !important;
 }
-/* line 91, ../scss/viewlets/_header.scss */
+/* line 92, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree {
   display: inline;
   vertical-align: middle;
   padding: 0 0 0 10px;
   border: 1px solid transparent;
 }
-/* line 97, ../scss/viewlets/_header.scss */
+/* line 98, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree.nav-action, #header #portal-navbar .navbar-nav > li.has_subtree.nav-lang {
-  padding: 0 10px 0 10px;
+  padding: 0 5px 0 5px;
 }
-/* line 102, ../scss/viewlets/_header.scss */
+/* line 103, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree a.nav-link {
   padding: 6px 3px 6px 3px;
 }
-/* line 106, ../scss/viewlets/_header.scss */
+/* line 107, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > a.nav-link {
   float: left;
 }
-/* line 110, ../scss/viewlets/_header.scss */
+/* line 111, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > label {
   position: relative;
   height: 2.1em;
   margin-top: 2px;
 }
-/* line 115, ../scss/viewlets/_header.scss */
+/* line 116, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > label::after {
   font-family: bootstrap-icons !important;
   content: "\f282";
   transition: ease-in .35s transform;
 }
-/* line 122, ../scss/viewlets/_header.scss */
+/* line 123, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:hover {
   background-color: var(--bs-white);
   border: 1px solid #eee;
   border-bottom: 0;
 }
-/* line 127, ../scss/viewlets/_header.scss */
+/* line 128, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:hover:after {
   content: "";
   width: 100%;
@@ -31381,15 +31382,15 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   bottom: 0;
   z-index: 1000;
 }
-/* line 138, ../scss/viewlets/_header.scss */
+/* line 139, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:hover > label:after, #header #portal-navbar .navbar-nav > li.has_subtree:hover > a {
   color: var(--bs-primary-hover) !important;
 }
-/* line 145, ../scss/viewlets/_header.scss */
+/* line 146, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:hover > label::after {
   transform: rotate(180deg);
 }
-/* line 151, ../scss/viewlets/_header.scss */
+/* line 152, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown {
   top: 38px;
   border: 1px solid #eee;
@@ -31403,7 +31404,7 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   background-color: var(--bs-white);
   box-shadow: 0 7px 8px #00000033;
 }
-/* line 164, ../scss/viewlets/_header.scss */
+/* line 165, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item {
   background-color: #fff;
   text-align: left;
@@ -31413,55 +31414,56 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   border-left: 2px solid var(--bs-gray-dark);
   margin-left: 5px;
 }
-/* line 173, ../scss/viewlets/_header.scss */
+/* line 174, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item.current, #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item:hover {
   border-left: 2px solid var(--bs-primary);
 }
-/* line 180, ../scss/viewlets/_header.scss */
+/* line 181, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item.current .nav-link {
   font-weight: 600;
 }
-/* line 185, ../scss/viewlets/_header.scss */
+/* line 186, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item:hover {
   background-color: #fff !important;
 }
-/* line 188, ../scss/viewlets/_header.scss */
+/* line 189, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item:hover a {
   color: var(--bs-gray-dark) !important;
 }
-/* line 191, ../scss/viewlets/_header.scss */
+/* line 192, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item:hover a:hover {
   color: var(--bs-primary) !important;
 }
-/* line 197, ../scss/viewlets/_header.scss */
+/* line 198, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item a.nav-link {
   color: var(--bs-body-color);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
 }
-/* line 202, ../scss/viewlets/_header.scss */
+/* line 203, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item a.nav-link:hover {
   color: var(--bs-primary);
 }
-/* line 209, ../scss/viewlets/_header.scss */
+/* line 210, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item li.has_subtree ul, #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item li.has_subtree > label {
   display: none;
 }
-/* line 221, ../scss/viewlets/_header.scss */
+/* line 222, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item::last-child {
   border-bottom: 0px solid;
 }
-/* line 225, ../scss/viewlets/_header.scss */
+/* line 226, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item a.nav-link {
   min-width: auto;
   padding-right: 0em;
   font-weight: normal;
   line-height: 18px;
 }
-/* line 239, ../scss/viewlets/_header.scss */
+/* line 240, ../scss/viewlets/_header.scss */
 #header #portal-searchbox input#searchGadget {
   width: 0;
   padding: 0;
+  margin-right: 10px;
   margin-left: 0.75rem;
   border: 0px solid;
   transition: all .4s ease;
@@ -31469,25 +31471,25 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
 }
-/* line 252, ../scss/viewlets/_header.scss */
+/* line 254, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form input#searchGadget {
   margin-left: 0rem;
 }
-/* line 255, ../scss/viewlets/_header.scss */
+/* line 257, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form input#searchGadget:focus, #header #portal-searchbox #searchGadget_form input#searchGadget:not(:placeholder-shown) {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
   margin-left: 0.75rem;
 }
-/* line 266, ../scss/viewlets/_header.scss */
+/* line 268, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form:hover input#searchGadget {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
   margin-left: 0.75rem;
 }
-/* line 276, ../scss/viewlets/_header.scss */
+/* line 278, ../scss/viewlets/_header.scss */
 #header #portal-searchbox button.searchButton {
   background: none;
   color: inherit;
@@ -31498,7 +31500,7 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   outline: inherit;
 }
 @media (min-width: 992px) {
-  /* line 288, ../scss/viewlets/_header.scss */
+  /* line 290, ../scss/viewlets/_header.scss */
   #header #portal-searchbox .livesearch-results {
     margin-top: 0.5rem;
     right: 4em;
