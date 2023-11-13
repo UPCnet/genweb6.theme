@@ -2,11 +2,12 @@ Changelog
 =========
 
 
-1.6 (unreleased)
+1.6 (2023-11-13)
 ----------------
 
-- Nothing changed yet.
-
+* Tamaño fuente de letra [Iago López]
+* Estilos mejora cabecera [Iago López]
+* Más espacio para el menu superior [Iago López]
 
 1.5 (2023-10-27)
 ----------------
