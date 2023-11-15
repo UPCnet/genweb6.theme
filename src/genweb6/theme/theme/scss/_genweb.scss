@@ -409,6 +409,13 @@ div.linkModal div.linkTypes {
   }
 }
 
+@media (min-width: 992px) {
+
+  body.col-one.col-two.col-content #portal-column-content {
+    width: 75%;
+  }
+}
+
 .responsive-iframe-container {
   position: relative;
   overflow: hidden;

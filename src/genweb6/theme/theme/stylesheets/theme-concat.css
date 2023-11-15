@@ -20215,14 +20215,20 @@ div.linkModal div.linkTypes {
     padding: 0 1em;
   }
 }
-/* line 412, ../scss/_genweb.scss */
+@media (min-width: 992px) {
+  /* line 414, ../scss/_genweb.scss */
+  body.col-one.col-two.col-content #portal-column-content {
+    width: 75%;
+  }
+}
+/* line 419, ../scss/_genweb.scss */
 .responsive-iframe-container {
   position: relative;
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%;
 }
-/* line 418, ../scss/_genweb.scss */
+/* line 425, ../scss/_genweb.scss */
 .responsive-iframe-container .responsive-iframe {
   position: absolute;
   top: 0;
@@ -20233,7 +20239,7 @@ div.linkModal div.linkTypes {
   height: 100%;
 }
 
-/* line 429, ../scss/_genweb.scss */
+/* line 436, ../scss/_genweb.scss */
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 18px;
