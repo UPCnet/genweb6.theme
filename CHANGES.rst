@@ -2,11 +2,12 @@ Changelog
 =========
 
 
-1.7 (unreleased)
+1.7 (2023-11-20)
 ----------------
 
-- Nothing changed yet.
-
+* [FIX] Quitar portlets derecha [Iago López]
+* [UPD] Bootstrap v5.3.0 to v5.3.2 [Iago López]
+* [FIX] Estilos Composició - 2 columnes Llistat icones [Iago López]
 
 1.6 (2023-11-13)
 ----------------
