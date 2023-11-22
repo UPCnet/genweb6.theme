@@ -20,6 +20,9 @@
   }
 }
 
+body.template-layout.section-benvingut,
+body.template-layout.section-bienvenido,
+body.template-layout.section-welcome,
 body:not([class*="section-"]) {
 
   #header #portal-navbar .nav-item.home {
