@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.8 (unreleased)
+1.8 (2023-11-23)
 ----------------
 
-- Nothing changed yet.
-
+* [UPD] CSS Cabecera no marcaba bien si estabas en Inici con vista mosaic [Iago López]
 
 1.7 (2023-11-20)
 ----------------
