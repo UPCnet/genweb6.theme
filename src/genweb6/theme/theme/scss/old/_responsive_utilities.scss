@@ -13,29 +13,40 @@
   display: inherit !important;
 }
 
-@media only screen and (max-width: 979px) and (orientation: portrait),
-       only screen and (max-width: 979px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 979px) {
 
-  .visible-desktop,
-  .hidden-tablet {
-    display: none !important;
+  .hidden-desktop {
+    display: inherit !important;
   }
 
-  .hidden-desktop,
+  .visible-desktop {
+    display: none !important ;
+  }
+
   .visible-tablet {
     display: inherit !important;
   }
+
+  .hidden-tablet {
+    display: none !important;
+  }
 }
 
-@media only screen and (max-width: 639px)  {
+@media only screen and (max-width: 767px)  {
 
-  .visible-desktop,
-  .hidden-phone {
+  .hidden-desktop {
+    display: inherit !important;
+  }
+
+  .visible-desktop {
     display: none !important;
   }
 
-  .hidden-desktop,
   .visible-phone {
     display: inherit !important;
+  }
+
+  .hidden-phone {
+    display: none !important;
   }
 }

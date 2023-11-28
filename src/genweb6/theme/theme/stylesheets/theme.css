@@ -10483,84 +10483,96 @@ body#tinymce .visible-desktop,
 #content-core #parent-fieldname-text .visible-desktop {
   display: inherit !important;
 }
-@media only screen and (max-width: 979px) and (orientation: portrait), only screen and (max-width: 979px) and (orientation: landscape) {
-  /* line 19, ../scss/old/_responsive_utilities.scss */
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 18, ../scss/old/_responsive_utilities.scss */
+  .portaltype-packet#content .hidden-desktop,
+  .portlet-homepage .hidden-desktop,
+  .existing_content_portlet .hidden-desktop,
+  .portletStaticText .hidden-desktop,
+  .mceTmpl .hidden-desktop,
+  body#tinymce .hidden-desktop,
+  .mosaic-tile-content .hidden-desktop,
+  #content-core #parent-fieldname-text .hidden-desktop {
+    display: inherit !important;
+  }
+  /* line 22, ../scss/old/_responsive_utilities.scss */
   .portaltype-packet#content .visible-desktop,
-  .portaltype-packet#content .hidden-tablet,
   .portlet-homepage .visible-desktop,
-  .portlet-homepage .hidden-tablet,
   .existing_content_portlet .visible-desktop,
-  .existing_content_portlet .hidden-tablet,
   .portletStaticText .visible-desktop,
-  .portletStaticText .hidden-tablet,
   .mceTmpl .visible-desktop,
-  .mceTmpl .hidden-tablet,
   body#tinymce .visible-desktop,
-  body#tinymce .hidden-tablet,
   .mosaic-tile-content .visible-desktop,
-  .mosaic-tile-content .hidden-tablet,
-  #content-core #parent-fieldname-text .visible-desktop,
-  #content-core #parent-fieldname-text .hidden-tablet {
+  #content-core #parent-fieldname-text .visible-desktop {
     display: none !important;
   }
-  /* line 24, ../scss/old/_responsive_utilities.scss */
-  .portaltype-packet#content .hidden-desktop,
+  /* line 26, ../scss/old/_responsive_utilities.scss */
   .portaltype-packet#content .visible-tablet,
-  .portlet-homepage .hidden-desktop,
   .portlet-homepage .visible-tablet,
-  .existing_content_portlet .hidden-desktop,
   .existing_content_portlet .visible-tablet,
-  .portletStaticText .hidden-desktop,
   .portletStaticText .visible-tablet,
-  .mceTmpl .hidden-desktop,
   .mceTmpl .visible-tablet,
-  body#tinymce .hidden-desktop,
   body#tinymce .visible-tablet,
-  .mosaic-tile-content .hidden-desktop,
   .mosaic-tile-content .visible-tablet,
-  #content-core #parent-fieldname-text .hidden-desktop,
   #content-core #parent-fieldname-text .visible-tablet {
     display: inherit !important;
   }
-}
-@media only screen and (max-width: 639px) {
-  /* line 32, ../scss/old/_responsive_utilities.scss */
-  .portaltype-packet#content .visible-desktop,
-  .portaltype-packet#content .hidden-phone,
-  .portlet-homepage .visible-desktop,
-  .portlet-homepage .hidden-phone,
-  .existing_content_portlet .visible-desktop,
-  .existing_content_portlet .hidden-phone,
-  .portletStaticText .visible-desktop,
-  .portletStaticText .hidden-phone,
-  .mceTmpl .visible-desktop,
-  .mceTmpl .hidden-phone,
-  body#tinymce .visible-desktop,
-  body#tinymce .hidden-phone,
-  .mosaic-tile-content .visible-desktop,
-  .mosaic-tile-content .hidden-phone,
-  #content-core #parent-fieldname-text .visible-desktop,
-  #content-core #parent-fieldname-text .hidden-phone {
+  /* line 30, ../scss/old/_responsive_utilities.scss */
+  .portaltype-packet#content .hidden-tablet,
+  .portlet-homepage .hidden-tablet,
+  .existing_content_portlet .hidden-tablet,
+  .portletStaticText .hidden-tablet,
+  .mceTmpl .hidden-tablet,
+  body#tinymce .hidden-tablet,
+  .mosaic-tile-content .hidden-tablet,
+  #content-core #parent-fieldname-text .hidden-tablet {
     display: none !important;
   }
+}
+@media only screen and (max-width: 767px) {
   /* line 37, ../scss/old/_responsive_utilities.scss */
   .portaltype-packet#content .hidden-desktop,
-  .portaltype-packet#content .visible-phone,
   .portlet-homepage .hidden-desktop,
-  .portlet-homepage .visible-phone,
   .existing_content_portlet .hidden-desktop,
-  .existing_content_portlet .visible-phone,
   .portletStaticText .hidden-desktop,
-  .portletStaticText .visible-phone,
   .mceTmpl .hidden-desktop,
-  .mceTmpl .visible-phone,
   body#tinymce .hidden-desktop,
-  body#tinymce .visible-phone,
   .mosaic-tile-content .hidden-desktop,
+  #content-core #parent-fieldname-text .hidden-desktop {
+    display: inherit !important;
+  }
+  /* line 41, ../scss/old/_responsive_utilities.scss */
+  .portaltype-packet#content .visible-desktop,
+  .portlet-homepage .visible-desktop,
+  .existing_content_portlet .visible-desktop,
+  .portletStaticText .visible-desktop,
+  .mceTmpl .visible-desktop,
+  body#tinymce .visible-desktop,
+  .mosaic-tile-content .visible-desktop,
+  #content-core #parent-fieldname-text .visible-desktop {
+    display: none !important;
+  }
+  /* line 45, ../scss/old/_responsive_utilities.scss */
+  .portaltype-packet#content .visible-phone,
+  .portlet-homepage .visible-phone,
+  .existing_content_portlet .visible-phone,
+  .portletStaticText .visible-phone,
+  .mceTmpl .visible-phone,
+  body#tinymce .visible-phone,
   .mosaic-tile-content .visible-phone,
-  #content-core #parent-fieldname-text .hidden-desktop,
   #content-core #parent-fieldname-text .visible-phone {
     display: inherit !important;
+  }
+  /* line 49, ../scss/old/_responsive_utilities.scss */
+  .portaltype-packet#content .hidden-phone,
+  .portlet-homepage .hidden-phone,
+  .existing_content_portlet .hidden-phone,
+  .portletStaticText .hidden-phone,
+  .mceTmpl .hidden-phone,
+  body#tinymce .hidden-phone,
+  .mosaic-tile-content .hidden-phone,
+  #content-core #parent-fieldname-text .hidden-phone {
+    display: none !important;
   }
 }
 
