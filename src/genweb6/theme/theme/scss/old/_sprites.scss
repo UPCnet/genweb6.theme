@@ -21,7 +21,7 @@
   height: 14px;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: image-url('/++theme++genweb6.theme/img/gh.png');
+  background-image: url('++theme++genweb6.theme/img/gh.png');
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 3px;
@@ -37,11 +37,11 @@
 .dropdown-menu > li > a:hover > [class*=" icon-"],
 .dropdown-menu > .active > a > [class^="icon-"],
 .dropdown-menu > .active > a > [class*=" icon-"] {
-  background-image: image-url('/++theme++genweb6.theme/img/gh-w.png');
+  background-image: url('++theme++genweb6.theme/img/gh-w.png');
 }
 
 .icon-color {
-  background-image: image-url('/++theme++genweb6.theme/img/gh-c.png');
+  background-image: url('++theme++genweb6.theme/img/gh-c.png');
 }
 
 .icon-glass              { background-position: 0      0; }
@@ -94,7 +94,7 @@
 
 .icon-tag                { background-position: 0      -48px; }
 .icon-tags               { background-position: -25px  -48px; } // 1px off
-.icon-relatedItems       { background-position: -216px -120px; } 
+.icon-relatedItems       { background-position: -216px -120px; }
 .icon-book               { background-position: -48px  -48px; }
 .icon-bookmark           { background-position: -72px  -48px; }
 .icon-print              { background-position: -96px  -48px; }
@@ -270,7 +270,7 @@
 
 
 .large-icon {
-  background-image: image-url('/++theme++genweb6.theme/img/gh-150.png');
+  background-image: url('++theme++genweb6.theme/img/gh-150.png');
   width:21px;
   height:21px;
   margin-top:-1px;
@@ -286,7 +286,7 @@
 
 
 .large-icon.icon-white {
-  background-image: image-url('/++theme++genweb6.theme/img/gh-150-w.png');
+  background-image: url('++theme++genweb6.theme/img/gh-150-w.png');
 }
 
 
