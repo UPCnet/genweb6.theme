@@ -33003,43 +33003,16 @@ body.template-tabular_view #content-core td .plone-icon {
   height: 1em;
 }
 
-/* line 2, ../scss/views/_new_listing.scss */
-#portal-column-content ul.list-portlet {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  list-style: none;
-  padding-left: 0;
+/* line 8, ../scss/views/_news_listing.scss */
+div.existing-content.template-news_listing #content-core div.mb-1 a,
+body.template-news_listing #content-core div.mb-1 a {
+  text-decoration: none;
 }
-/* line 8, ../scss/views/_new_listing.scss */
-#portal-column-content ul.list-portlet li {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: stretch;
-}
-/* line 15, ../scss/views/_new_listing.scss */
-#portal-column-content ul.list-portlet li a {
-  width: 100%;
-  display: block;
-  margin: 10px auto;
-  text-align: center;
-}
-/* line 22, ../scss/views/_new_listing.scss */
-#portal-column-content ul.list-portlet li a img.image-noticies {
-  max-width: 100%;
-  height: 300px;
-  margin: auto;
-}
-/* line 28, ../scss/views/_new_listing.scss */
-#portal-column-content ul.list-portlet li a.url {
-  width: 100%;
-  display: block;
-  text-align: left;
-}
-
-/* line 41, ../scss/views/_new_listing.scss */
-#portal-column-one li.list-group-item-ps-0 a.d-block.text-decoration-none.active {
-  font-weight: 500;
+/* line 11, ../scss/views/_news_listing.scss */
+div.existing-content.template-news_listing #content-core div.mb-1 a.url,
+body.template-news_listing #content-core div.mb-1 a.url {
+  font-size: var(--gw-font-size-xxl);
+  font-weight: 400;
 }
 
 @media print {

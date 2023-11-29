@@ -1,0 +1,18 @@
+div.existing-content.template-news_listing,
+body.template-news_listing {
+
+	#content-core {
+
+		div.mb-1 {
+
+			a {
+				text-decoration: none;
+
+				&.url {
+					font-size: var(--gw-font-size-xxl);
+					font-weight: 400;
+				}
+			}
+		}
+	}
+}
