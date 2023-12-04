@@ -22330,7 +22330,7 @@ body#tinymce [class*=" icon-"],
   height: 14px;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("++theme++genweb6.theme/img/gh.png");
+  background-image: url("../img/gh.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 3px;
@@ -22392,7 +22392,7 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > li > a:hover > [class*=" icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class^="icon-"],
 #content-core #parent-fieldname-text .dropdown-menu > .active > a > [class*=" icon-"] {
-  background-image: url("++theme++genweb6.theme/img/gh-w.png");
+  background-image: url("../img/gh-w.png");
 }
 /* line 43, ../scss/old/_sprites.scss */
 .portaltype-packet#content .icon-color,
@@ -22403,7 +22403,7 @@ body#tinymce .dropdown-menu > .active > a > [class*=" icon-"],
 body#tinymce .icon-color,
 .mosaic-tile-content .icon-color,
 #content-core #parent-fieldname-text .icon-color {
-  background-image: url("++theme++genweb6.theme/img/gh-c.png");
+  background-image: url("../img/gh-c.png");
 }
 /* line 47, ../scss/old/_sprites.scss */
 .portaltype-packet#content .icon-glass,
@@ -25824,7 +25824,7 @@ body#tinymce .icon-translate,
 body#tinymce .large-icon,
 .mosaic-tile-content .large-icon,
 #content-core #parent-fieldname-text .large-icon {
-  background-image: url("++theme++genweb6.theme/img/gh-150.png");
+  background-image: url("../img/gh-150.png");
   width: 21px;
   height: 21px;
   margin-top: -1px;
@@ -25905,7 +25905,7 @@ body#tinymce .large-icon.icon-user-news,
 body#tinymce .large-icon.icon-white,
 .mosaic-tile-content .large-icon.icon-white,
 #content-core #parent-fieldname-text .large-icon.icon-white {
-  background-image: url("++theme++genweb6.theme/img/gh-150-w.png");
+  background-image: url("../img/gh-150-w.png");
 }
 /* line 4, ../scss/old/_styles.scss */
 .portaltype-packet#content .label,
@@ -26423,7 +26423,7 @@ body#tinymce .down:after,
 #content-core #parent-fieldname-text .vid:after,
 #content-core #parent-fieldname-text .https:after,
 #content-core #parent-fieldname-text .down:after {
-  background: url("++theme++genweb6.theme/img/gh-c.png") no-repeat;
+  background: url("../img/gh-c.png") no-repeat;
   width: 14px;
   height: 14px;
   display: inline-block;
