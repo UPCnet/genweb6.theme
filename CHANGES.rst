@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.10 (unreleased)
+1.10 (2023-12-05)
 -----------------
 
-- Nothing changed yet.
-
+* [FIX] Solve URL [Iago López]
 
 1.9 (2023-11-30)
 ----------------
