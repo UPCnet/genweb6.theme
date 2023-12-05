@@ -32487,6 +32487,11 @@ div.existing-content.template-event_listing #content-core a.url,
 body.template-event_listing #content-core a.url {
   text-decoration: none;
 }
+/* line 10, ../scss/views/_event_listing.scss */
+div.existing-content.template-event_listing #content-core .cal_date,
+body.template-event_listing #content-core .cal_date {
+  min-width: 120px;
+}
 
 /* line 10, ../scss/views/_filtered_contents_search_pretty_view.scss */
 div.existing-content.template-filtered_contents_search_complete_pretty_view .col-md-3 h2,

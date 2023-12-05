@@ -6,5 +6,9 @@ body.template-event_listing {
         a.url {
             text-decoration: none;
         }
+
+        .cal_date {
+            min-width: 120px;
+        }
     }
 }
