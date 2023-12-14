@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.11 (unreleased)
+1.11 (2023-12-14)
 -----------------
 
-- Nothing changed yet.
-
+* Estilo vistas events_listing [Iago López]
 
 1.10 (2023-12-05)
 -----------------
