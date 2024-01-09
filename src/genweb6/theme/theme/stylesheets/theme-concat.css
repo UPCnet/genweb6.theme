@@ -32376,6 +32376,10 @@ body.template-search form#searchform .dropup-center:last-child {
 body.template-search form#searchform .dropdown-toggle::after {
   margin-left: 0.5em;
 }
+/* line 76, ../scss/views/_search.scss */
+body.template-search #rss-subscription {
+  display: none;
+}
 
 /* line 7, ../scss/views/_sharing.scss */
 body.template-sharing main#main-container article#content .mb-3 {
