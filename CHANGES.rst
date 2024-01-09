@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-1.12 (unreleased)
+1.12 (2024-01-09)
 -----------------
 
-- Nothing changed yet.
-
+* Esconder enlace de search_rss [Iago López]
+* Traducciones tinymce [Iago López]
 
 1.11 (2023-12-14)
 -----------------
