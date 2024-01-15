@@ -2430,6 +2430,11 @@ blockquote {
   white-space: initial;
 }
 
+/* line 17, ../scss/_fix_bootstrap.scss */
+.accordion-button.non-collapsing::after {
+  background-image: unset !important;
+}
+
 /* line 7, ../scss/_tinymce.scss */
 body.template-edit div.tox-tinymce-aux div.tox-menu div[title="p.highlight-paragraph"],
 body.template-edit div.tox-tinymce-aux div.tox-menu div[title="highlight-inline"] {

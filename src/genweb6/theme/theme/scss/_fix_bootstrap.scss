@@ -13,3 +13,7 @@
     white-space: initial;
   }
 }
+
+.accordion-button.non-collapsing::after {
+  background-image: unset !important;
+}
