@@ -11023,6 +11023,12 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
   margin-right: 5px;
 }
 
+/* line 3, ../scss/portlets/_esdeveniments.scss */
+.portlet.portlet-esdeveniments .cal_date {
+  width: 100px;
+  float: left;
+}
+
 /* line 4, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments h2.portlet-title,
 .portlet.portlet-grid-events h2.portlet-title {
