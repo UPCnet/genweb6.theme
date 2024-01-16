@@ -14246,12 +14246,17 @@ div.existing-content.template-folder_contents .table-striped > tbody > tr .plone
 body.template-folder_contents .table-striped > tbody > tr .plone-item-exclude-from-nav {
   margin-left: 0.5rem;
 }
-/* line 23, ../scss/views/_folder_contents.scss */
+/* line 22, ../scss/views/_folder_contents.scss */
+div.existing-content.template-folder_contents .table-striped > tbody > tr .review_state,
+body.template-folder_contents .table-striped > tbody > tr .review_state {
+  text-transform: capitalize;
+}
+/* line 27, ../scss/views/_folder_contents.scss */
 div.existing-content.template-folder_contents #content-core,
 body.template-folder_contents #content-core {
   margin-top: 2rem;
 }
-/* line 27, ../scss/views/_folder_contents.scss */
+/* line 31, ../scss/views/_folder_contents.scss */
 div.existing-content.template-folder_contents #portal-breadcrumbs,
 div.existing-content.template-folder_contents #content > header,
 body.template-folder_contents #portal-breadcrumbs,

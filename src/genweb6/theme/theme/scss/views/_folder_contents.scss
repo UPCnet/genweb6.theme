@@ -18,6 +18,10 @@ body.template-folder_contents {
     .plone-item-exclude-from-nav {
       margin-left: 0.5rem;
     }
+
+    .review_state {
+      text-transform: capitalize;
+    }
   }
 
   #content-core {
