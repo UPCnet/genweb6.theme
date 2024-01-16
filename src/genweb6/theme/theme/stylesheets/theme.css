@@ -11065,7 +11065,7 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
   height: 134px;
   border-radius: 50%;
   text-align: center;
-  margin: 10px auto;
+  margin: 10px auto 30px auto;
 }
 /* line 37, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-time .event-time--wrap,
@@ -11163,7 +11163,7 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
   transition: all .5s ease;
   border-radius: 50%;
   padding-top: 3px;
-  top: 45px;
+  top: 125px;
 }
 /* line 136, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .portlet-footer a,
