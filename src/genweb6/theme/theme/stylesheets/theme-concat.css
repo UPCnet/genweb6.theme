@@ -17893,7 +17893,7 @@ select + .select2-container--bootstrap-5 {
   --gw-state-intranet-hover: #6d4189;
   --gw-state-pending-hover: #ad6704;
   --gw-state-published-hover: #005a8e;
-  --gw-state-restricted-to-managers-hover: var(--bs-gray-600);
+  --gw-state-restricted-to-managers-hover: var(--bs-gray-700);
   --gw-viewlet-horizontal-width: 1.2em;
 }
 
