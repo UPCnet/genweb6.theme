@@ -19,8 +19,8 @@ body.template-folder_contents {
       margin-left: 0.5rem;
     }
 
-    .review_state {
-      text-transform: capitalize;
+    .review_state:first-letter {
+      text-transform: uppercase;
     }
   }
 

@@ -32112,9 +32112,9 @@ body.template-folder_contents .table-striped > tbody > tr .plone-item-exclude-fr
   margin-left: 0.5rem;
 }
 /* line 22, ../scss/views/_folder_contents.scss */
-div.existing-content.template-folder_contents .table-striped > tbody > tr .review_state,
-body.template-folder_contents .table-striped > tbody > tr .review_state {
-  text-transform: capitalize;
+div.existing-content.template-folder_contents .table-striped > tbody > tr .review_state:first-letter,
+body.template-folder_contents .table-striped > tbody > tr .review_state:first-letter {
+  text-transform: uppercase;
 }
 /* line 27, ../scss/views/_folder_contents.scss */
 div.existing-content.template-folder_contents #content-core,
