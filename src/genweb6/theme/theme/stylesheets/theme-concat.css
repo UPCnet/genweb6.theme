@@ -17887,6 +17887,13 @@ select + .select2-container--bootstrap-5 {
   --gw-state-pending: #df8505;
   --gw-state-published: var(--bs-primary);
   --gw-state-restricted-to-managers: var(--bs-gray-600);
+  --plone-state-visible: var(--gw-state-visible);
+  --plone-state-draft: var(--gw-state-draft);
+  --plone-state-private: var(--gw-state-private);
+  --plone-state-intranet: var(--gw-state-intranet);
+  --plone-state-pending: var(--gw-state-pending);
+  --plone-state-published: var(--gw-state-published);
+  --plone-state-restricted-to-managers: var(--gw-state-restricted-to-managers);
   --gw-state-visible-hover: #547815;
   --gw-state-draft-hover: #547815;
   --gw-state-private-hover: #7b2217;
@@ -17897,7 +17904,7 @@ select + .select2-container--bootstrap-5 {
   --gw-viewlet-horizontal-width: 1.2em;
 }
 
-/* line 37, ../scss/_variables.scss */
+/* line 45, ../scss/_variables.scss */
 .btn-primary {
   --bs-btn-bg: var(--bs-primary);
   --bs-btn-border-color: var(--bs-primary);
