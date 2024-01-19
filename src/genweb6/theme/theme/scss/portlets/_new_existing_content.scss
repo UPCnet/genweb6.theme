@@ -8,3 +8,15 @@
 .existing_content_portlet_no_border {
   margin-bottom: 1rem;
 }
+
+.existing-content {
+
+  &.portaltype-genweb-core-carousel,
+  &.portaltype-genweb-core-accordiontabs {
+
+    #copy-html,
+    .alert.alert-info {
+      display: none;
+    }
+  }
+}

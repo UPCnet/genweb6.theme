@@ -29412,6 +29412,13 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
   margin-bottom: 1rem;
 }
 
+/* line 17, ../scss/portlets/_new_existing_content.scss */
+.existing-content.portaltype-genweb-core-carousel #copy-html,
+.existing-content.portaltype-genweb-core-carousel .alert.alert-info, .existing-content.portaltype-genweb-core-accordiontabs #copy-html,
+.existing-content.portaltype-genweb-core-accordiontabs .alert.alert-info {
+  display: none;
+}
+
 /* line 6, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-indicators button,
 .template-multiple-carousel .carousel-indicators button {
