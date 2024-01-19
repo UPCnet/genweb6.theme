@@ -20253,6 +20253,11 @@ blockquote {
   border-left: 5px solid var(--bs-gray-200);
 }
 
+/* line 442, ../scss/_genweb.scss */
+a {
+  word-wrap: break-word;
+}
+
 /* line 1, ../scss/_new_class.scss */
 .text-truncate-2 {
   overflow: hidden;
