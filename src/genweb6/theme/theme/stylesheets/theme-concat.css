@@ -27622,14 +27622,12 @@ body#tinymce div.photoAlbumEntry,
 #content-core #parent-fieldname-text div.photoAlbumEntry {
   text-align: center;
   width: 130px;
-  height: 160px;
-  min-height: 160px;
   border: 1px solid var(--bs-gray-300);
   display: inline-block;
   padding: 0.5rem;
   margin: 0.5rem;
 }
-/* line 173, ../scss/old/_templates.scss */
+/* line 171, ../scss/old/_templates.scss */
 .portaltype-packet#content div.photoAlbumEntry img,
 .portlet-homepage div.photoAlbumEntry img,
 .existing_content_portlet div.photoAlbumEntry img,
@@ -27640,7 +27638,7 @@ body#tinymce div.photoAlbumEntry img,
 #content-core #parent-fieldname-text div.photoAlbumEntry img {
   margin-bottom: 0.5rem;
 }
-/* line 181, ../scss/old/_templates.scss */
+/* line 179, ../scss/old/_templates.scss */
 .portaltype-packet#content img.image-left,
 .portlet-homepage img.image-left,
 .existing_content_portlet img.image-left,
@@ -27652,7 +27650,7 @@ body#tinymce img.image-left,
   float: left;
   margin-right: 1rem;
 }
-/* line 189, ../scss/old/_templates.scss */
+/* line 187, ../scss/old/_templates.scss */
 .portaltype-packet#content img.image-right,
 .portlet-homepage img.image-right,
 .existing_content_portlet img.image-right,
@@ -27664,7 +27662,7 @@ body#tinymce img.image-right,
   float: right;
   margin-left: 1rem;
 }
-/* line 197, ../scss/old/_templates.scss */
+/* line 195, ../scss/old/_templates.scss */
 .portaltype-packet#content #FCKTdiv1imatgedamunttext,
 .portlet-homepage #FCKTdiv1imatgedamunttext,
 .existing_content_portlet #FCKTdiv1imatgedamunttext,
@@ -27676,7 +27674,7 @@ body#tinymce #FCKTdiv1imatgedamunttext,
   margin: 0 auto;
   position: relative;
 }
-/* line 201, ../scss/old/_templates.scss */
+/* line 199, ../scss/old/_templates.scss */
 .portaltype-packet#content #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext,
 .portlet-homepage #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext,
 .existing_content_portlet #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext,
@@ -27699,7 +27697,7 @@ body#tinymce #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext,
   width: 200px;
 }
 @media (max-width: 578px) {
-  /* line 201, ../scss/old/_templates.scss */
+  /* line 199, ../scss/old/_templates.scss */
   .portaltype-packet#content #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext,
   .portlet-homepage #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext,
   .existing_content_portlet #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext,
@@ -27716,7 +27714,7 @@ body#tinymce #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext,
     border-bottom: 1px solid var(--bs-gray-700);
   }
 }
-/* line 224, ../scss/old/_templates.scss */
+/* line 222, ../scss/old/_templates.scss */
 .portaltype-packet#content #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext #FCKTdiv3imatgedamunttext,
 .portlet-homepage #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext #FCKTdiv3imatgedamunttext,
 .existing_content_portlet #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext #FCKTdiv3imatgedamunttext,
@@ -27727,7 +27725,7 @@ body#tinymce #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext #FCKTdiv3imatge
 #content-core #parent-fieldname-text #FCKTdiv1imatgedamunttext #FCKTdiv2imatgedamunttext #FCKTdiv3imatgedamunttext {
   padding: 10px;
 }
-/* line 233, ../scss/old/_templates.scss */
+/* line 231, ../scss/old/_templates.scss */
 .portaltype-packet#content a.btn.btn-block.btn-large,
 .portlet-homepage a.btn.btn-block.btn-large,
 .existing_content_portlet a.btn.btn-block.btn-large,
@@ -27738,7 +27736,7 @@ body#tinymce a.btn.btn-block.btn-large,
 #content-core #parent-fieldname-text a.btn.btn-block.btn-large {
   width: 100%;
 }
-/* line 240, ../scss/old/_templates.scss */
+/* line 238, ../scss/old/_templates.scss */
 .portaltype-packet#content a.btn.btn-large:not(.btn-primary),
 .portlet-homepage a.btn.btn-large:not(.btn-primary),
 .existing_content_portlet a.btn.btn-large:not(.btn-primary),
@@ -27750,7 +27748,7 @@ body#tinymce a.btn.btn-large:not(.btn-primary),
   background-color: var(--bs-gray-200);
   border: 1px solid var(--bs-gray-300);
 }
-/* line 248, ../scss/old/_templates.scss */
+/* line 246, ../scss/old/_templates.scss */
 .portaltype-packet#content .text-over-image,
 .portlet-homepage .text-over-image,
 .existing_content_portlet .text-over-image,
@@ -27762,7 +27760,7 @@ body#tinymce .text-over-image,
   position: relative;
   margin: 0 auto;
 }
-/* line 254, ../scss/old/_templates.scss */
+/* line 252, ../scss/old/_templates.scss */
 .portaltype-packet#content .text-over-image > picture > img,
 .portlet-homepage .text-over-image > picture > img,
 .existing_content_portlet .text-over-image > picture > img,
@@ -27773,7 +27771,7 @@ body#tinymce .text-over-image > picture > img,
 #content-core #parent-fieldname-text .text-over-image > picture > img {
   width: 100%;
 }
-/* line 259, ../scss/old/_templates.scss */
+/* line 257, ../scss/old/_templates.scss */
 .portaltype-packet#content .text-over-image .content,
 .portlet-homepage .text-over-image .content,
 .existing_content_portlet .text-over-image .content,
@@ -27787,7 +27785,7 @@ body#tinymce .text-over-image .content,
   width: 100%;
 }
 @media (max-width: 768px) {
-  /* line 259, ../scss/old/_templates.scss */
+  /* line 257, ../scss/old/_templates.scss */
   .portaltype-packet#content .text-over-image .content,
   .portlet-homepage .text-over-image .content,
   .existing_content_portlet .text-over-image .content,
@@ -27799,7 +27797,7 @@ body#tinymce .text-over-image .content,
     position: initial;
   }
 }
-/* line 268, ../scss/old/_templates.scss */
+/* line 266, ../scss/old/_templates.scss */
 .portaltype-packet#content .text-over-image .content.dark-background,
 .portlet-homepage .text-over-image .content.dark-background,
 .existing_content_portlet .text-over-image .content.dark-background,
@@ -27810,7 +27808,7 @@ body#tinymce .text-over-image .content.dark-background,
 #content-core #parent-fieldname-text .text-over-image .content.dark-background {
   background: rgba(0, 0, 0, 0.65);
 }
-/* line 271, ../scss/old/_templates.scss */
+/* line 269, ../scss/old/_templates.scss */
 .portaltype-packet#content .text-over-image .content.dark-background h4,
 .portaltype-packet#content .text-over-image .content.dark-background p,
 .portaltype-packet#content .text-over-image .content.dark-background span,
@@ -27837,7 +27835,7 @@ body#tinymce .text-over-image .content.dark-background span,
 #content-core #parent-fieldname-text .text-over-image .content.dark-background span {
   color: var(--bs-white) !important;
 }
-/* line 278, ../scss/old/_templates.scss */
+/* line 276, ../scss/old/_templates.scss */
 .portaltype-packet#content .text-over-image .content.light-background,
 .portlet-homepage .text-over-image .content.light-background,
 .existing_content_portlet .text-over-image .content.light-background,
@@ -27849,7 +27847,7 @@ body#tinymce .text-over-image .content.light-background,
   background: rgba(255, 255, 255, 0.65);
 }
 @media (max-width: 768px) {
-  /* line 278, ../scss/old/_templates.scss */
+  /* line 276, ../scss/old/_templates.scss */
   .portaltype-packet#content .text-over-image .content.light-background,
   .portlet-homepage .text-over-image .content.light-background,
   .existing_content_portlet .text-over-image .content.light-background,
@@ -27863,7 +27861,7 @@ body#tinymce .text-over-image .content.light-background,
     border-bottom: 1px solid var(--bs-gray-700);
   }
 }
-/* line 287, ../scss/old/_templates.scss */
+/* line 285, ../scss/old/_templates.scss */
 .portaltype-packet#content .text-over-image .content.light-background h4,
 .portaltype-packet#content .text-over-image .content.light-background p,
 .portaltype-packet#content .text-over-image .content.light-background span,
@@ -27890,7 +27888,7 @@ body#tinymce .text-over-image .content.light-background span,
 #content-core #parent-fieldname-text .text-over-image .content.light-background span {
   color: var(--bs-black) !important;
 }
-/* line 294, ../scss/old/_templates.scss */
+/* line 292, ../scss/old/_templates.scss */
 .portaltype-packet#content .text-over-image .content .caption,
 .portlet-homepage .text-over-image .content .caption,
 .existing_content_portlet .text-over-image .content .caption,
@@ -27901,7 +27899,7 @@ body#tinymce .text-over-image .content .caption,
 #content-core #parent-fieldname-text .text-over-image .content .caption {
   padding: 1.5rem;
 }
-/* line 297, ../scss/old/_templates.scss */
+/* line 295, ../scss/old/_templates.scss */
 .portaltype-packet#content .text-over-image .content .caption p:last-child,
 .portlet-homepage .text-over-image .content .caption p:last-child,
 .existing_content_portlet .text-over-image .content .caption p:last-child,
@@ -27912,7 +27910,7 @@ body#tinymce .text-over-image .content .caption p:last-child,
 #content-core #parent-fieldname-text .text-over-image .content .caption p:last-child {
   margin-bottom: 0;
 }
-/* line 307, ../scss/old/_templates.scss */
+/* line 305, ../scss/old/_templates.scss */
 .portaltype-packet#content .boxbg-gray,
 .portlet-homepage .boxbg-gray,
 .existing_content_portlet .boxbg-gray,
@@ -27923,7 +27921,7 @@ body#tinymce .boxbg-gray,
 #content-core #parent-fieldname-text .boxbg-gray {
   background-color: var(--bs-gray-100);
 }
-/* line 314, ../scss/old/_templates.scss */
+/* line 312, ../scss/old/_templates.scss */
 .portaltype-packet#content .boxbg-green,
 .portlet-homepage .boxbg-green,
 .existing_content_portlet .boxbg-green,
@@ -27934,7 +27932,7 @@ body#tinymce .boxbg-green,
 #content-core #parent-fieldname-text .boxbg-green {
   background-color: #e5f5ca;
 }
-/* line 321, ../scss/old/_templates.scss */
+/* line 319, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral,
 .portlet-homepage .list-numeral,
 .existing_content_portlet .list-numeral,
@@ -27952,7 +27950,7 @@ body#tinymce .list-numeral,
   text-align: center;
   padding: 0;
 }
-/* line 331, ../scss/old/_templates.scss */
+/* line 329, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral li,
 .portlet-homepage .list-numeral li,
 .existing_content_portlet .list-numeral li,
@@ -27969,7 +27967,7 @@ body#tinymce .list-numeral li,
   line-height: 1.25;
   padding-bottom: 20px;
 }
-/* line 341, ../scss/old/_templates.scss */
+/* line 339, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral strong,
 .portlet-homepage .list-numeral strong,
 .existing_content_portlet .list-numeral strong,
@@ -27982,7 +27980,7 @@ body#tinymce .list-numeral strong,
   display: block;
   font-weight: 300;
 }
-/* line 347, ../scss/old/_templates.scss */
+/* line 345, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral :nth-child(1) strong,
 .portlet-homepage .list-numeral :nth-child(1) strong,
 .existing_content_portlet .list-numeral :nth-child(1) strong,
@@ -27993,7 +27991,7 @@ body#tinymce .list-numeral :nth-child(1) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(1) strong {
   color: #000552;
 }
-/* line 351, ../scss/old/_templates.scss */
+/* line 349, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral :nth-child(2) strong,
 .portlet-homepage .list-numeral :nth-child(2) strong,
 .existing_content_portlet .list-numeral :nth-child(2) strong,
@@ -28004,7 +28002,7 @@ body#tinymce .list-numeral :nth-child(2) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(2) strong {
   color: #000BA3;
 }
-/* line 355, ../scss/old/_templates.scss */
+/* line 353, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral :nth-child(3) strong,
 .portlet-homepage .list-numeral :nth-child(3) strong,
 .existing_content_portlet .list-numeral :nth-child(3) strong,
@@ -28015,7 +28013,7 @@ body#tinymce .list-numeral :nth-child(3) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(3) strong {
   color: #0011FF;
 }
-/* line 359, ../scss/old/_templates.scss */
+/* line 357, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral :nth-child(4) strong,
 .portlet-homepage .list-numeral :nth-child(4) strong,
 .existing_content_portlet .list-numeral :nth-child(4) strong,
@@ -28026,7 +28024,7 @@ body#tinymce .list-numeral :nth-child(4) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(4) strong {
   color: #6734BA;
 }
-/* line 363, ../scss/old/_templates.scss */
+/* line 361, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral :nth-child(5) strong,
 .portlet-homepage .list-numeral :nth-child(5) strong,
 .existing_content_portlet .list-numeral :nth-child(5) strong,
@@ -28037,7 +28035,7 @@ body#tinymce .list-numeral :nth-child(5) strong,
 #content-core #parent-fieldname-text .list-numeral :nth-child(5) strong {
   color: #9D1CB2;
 }
-/* line 367, ../scss/old/_templates.scss */
+/* line 365, ../scss/old/_templates.scss */
 .portaltype-packet#content .list-numeral :nth-child(6) strong,
 .portlet-homepage .list-numeral :nth-child(6) strong,
 .existing_content_portlet .list-numeral :nth-child(6) strong,
@@ -28049,7 +28047,7 @@ body#tinymce .list-numeral :nth-child(6) strong,
   color: #DA125F;
 }
 @supports (-moz-appearance: none) {
-  /* line 374, ../scss/old/_templates.scss */
+  /* line 372, ../scss/old/_templates.scss */
   .portaltype-packet#content .list-numeral li,
   .portlet-homepage .list-numeral li,
   .existing_content_portlet .list-numeral li,
@@ -28062,7 +28060,7 @@ body#tinymce .list-numeral :nth-child(6) strong,
   }
 }
 @media (max-width: 992px) {
-  /* line 381, ../scss/old/_templates.scss */
+  /* line 379, ../scss/old/_templates.scss */
   .portaltype-packet#content .list-numeral,
   .portlet-homepage .list-numeral,
   .existing_content_portlet .list-numeral,
@@ -28076,7 +28074,7 @@ body#tinymce .list-numeral :nth-child(6) strong,
   }
 }
 @media (max-width: 576px) {
-  /* line 389, ../scss/old/_templates.scss */
+  /* line 387, ../scss/old/_templates.scss */
   .portaltype-packet#content .list-numeral,
   .portlet-homepage .list-numeral,
   .existing_content_portlet .list-numeral,
@@ -28088,7 +28086,7 @@ body#tinymce .list-numeral :nth-child(6) strong,
     column-count: 2;
     -moz-column-count: 2;
   }
-  /* line 393, ../scss/old/_templates.scss */
+  /* line 391, ../scss/old/_templates.scss */
   .portaltype-packet#content .list-numeral li,
   .portlet-homepage .list-numeral li,
   .existing_content_portlet .list-numeral li,
@@ -28099,7 +28097,7 @@ body#tinymce .list-numeral :nth-child(6) strong,
   #content-core #parent-fieldname-text .list-numeral li {
     font-size: 1.25rem;
   }
-  /* line 397, ../scss/old/_templates.scss */
+  /* line 395, ../scss/old/_templates.scss */
   .portaltype-packet#content .list-numeral strong,
   .portlet-homepage .list-numeral strong,
   .existing_content_portlet .list-numeral strong,
@@ -28111,7 +28109,7 @@ body#tinymce .list-numeral :nth-child(6) strong,
     font-size: 2rem;
   }
 }
-/* line 408, ../scss/old/_templates.scss */
+/* line 406, ../scss/old/_templates.scss */
 .portaltype-packet#content .gallery-logos .gellery-bottom,
 .portlet-homepage .gallery-logos .gellery-bottom,
 .existing_content_portlet .gallery-logos .gellery-bottom,
@@ -28122,7 +28120,7 @@ body#tinymce .gallery-logos .gellery-bottom,
 #content-core #parent-fieldname-text .gallery-logos .gellery-bottom {
   margin-bottom: 1.5rem;
 }
-/* line 412, ../scss/old/_templates.scss */
+/* line 410, ../scss/old/_templates.scss */
 .portaltype-packet#content .gallery-logos a:after,
 .portlet-homepage .gallery-logos a:after,
 .existing_content_portlet .gallery-logos a:after,
@@ -28133,7 +28131,7 @@ body#tinymce .gallery-logos a:after,
 #content-core #parent-fieldname-text .gallery-logos a:after {
   content: "";
 }
-/* line 420, ../scss/old/_templates.scss */
+/* line 418, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat,
 .portlet-homepage .destacat,
 .existing_content_portlet .destacat,
@@ -28146,7 +28144,7 @@ body#tinymce .destacat,
   position: relative;
   margin-bottom: 1.5rem;
 }
-/* line 425, ../scss/old/_templates.scss */
+/* line 423, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat .destacat-contingut,
 .portlet-homepage .destacat .destacat-contingut,
 .existing_content_portlet .destacat .destacat-contingut,
@@ -28164,7 +28162,7 @@ body#tinymce .destacat .destacat-contingut,
   overflow: hidden;
   font-size: var(--gw-font-size-s);
 }
-/* line 438, ../scss/old/_templates.scss */
+/* line 436, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat .destacat-imatge.compat-object-fit,
 .portlet-homepage .destacat .destacat-imatge.compat-object-fit,
 .existing_content_portlet .destacat .destacat-imatge.compat-object-fit,
@@ -28176,7 +28174,7 @@ body#tinymce .destacat .destacat-imatge.compat-object-fit,
   background-size: cover;
   background-position: center;
 }
-/* line 443, ../scss/old/_templates.scss */
+/* line 441, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat .destacat-imatge img,
 .portlet-homepage .destacat .destacat-imatge img,
 .existing_content_portlet .destacat .destacat-imatge img,
@@ -28193,7 +28191,7 @@ body#tinymce .destacat .destacat-imatge img,
   z-index: 0;
   border-radius: 0;
 }
-/* line 457, ../scss/old/_templates.scss */
+/* line 455, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat.destacat-dreta .destacat-contingut,
 .portlet-homepage .destacat.destacat-dreta .destacat-contingut,
 .existing_content_portlet .destacat.destacat-dreta .destacat-contingut,
@@ -28205,7 +28203,7 @@ body#tinymce .destacat.destacat-dreta .destacat-contingut,
   right: 0;
   left: auto;
 }
-/* line 462, ../scss/old/_templates.scss */
+/* line 460, ../scss/old/_templates.scss */
 .portaltype-packet#content .destacat.destacat-dreta .destacat-imatge img,
 .portlet-homepage .destacat.destacat-dreta .destacat-imatge img,
 .existing_content_portlet .destacat.destacat-dreta .destacat-imatge img,
@@ -28217,7 +28215,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
   padding-left: 0;
 }
 @media (max-width: 768px) {
-  /* line 468, ../scss/old/_templates.scss */
+  /* line 466, ../scss/old/_templates.scss */
   .portaltype-packet#content .destacat.destacat-dreta img,
   .portlet-homepage .destacat.destacat-dreta img,
   .existing_content_portlet .destacat.destacat-dreta img,
@@ -28231,7 +28229,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
   }
 }
 @media (max-width: 768px) {
-  /* line 478, ../scss/old/_templates.scss */
+  /* line 476, ../scss/old/_templates.scss */
   .portaltype-packet#content .destacat,
   .portlet-homepage .destacat,
   .existing_content_portlet .destacat,
@@ -28242,7 +28240,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
   #content-core #parent-fieldname-text .destacat {
     height: auto;
   }
-  /* line 481, ../scss/old/_templates.scss */
+  /* line 479, ../scss/old/_templates.scss */
   .portaltype-packet#content .destacat .destacat-contingut,
   .portlet-homepage .destacat .destacat-contingut,
   .existing_content_portlet .destacat .destacat-contingut,
@@ -28256,7 +28254,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
     padding: 10px;
     display: table-cell;
   }
-  /* line 487, ../scss/old/_templates.scss */
+  /* line 485, ../scss/old/_templates.scss */
   .portaltype-packet#content .destacat .destacat-contingut img,
   .portlet-homepage .destacat .destacat-contingut img,
   .existing_content_portlet .destacat .destacat-contingut img,
@@ -28270,7 +28268,7 @@ body#tinymce .destacat.destacat-dreta .destacat-imatge img,
     width: 100%;
   }
 }
-/* line 499, ../scss/old/_templates.scss */
+/* line 497, ../scss/old/_templates.scss */
 .portaltype-packet#content .lead,
 .portlet-homepage .lead,
 .existing_content_portlet .lead,
@@ -28281,7 +28279,7 @@ body#tinymce .lead,
 #content-core #parent-fieldname-text .lead {
   font-size: 1rem;
 }
-/* line 503, ../scss/old/_templates.scss */
+/* line 501, ../scss/old/_templates.scss */
 .portaltype-packet#content .lead-small,
 .portlet-homepage .lead-small,
 .existing_content_portlet .lead-small,
@@ -28293,7 +28291,7 @@ body#tinymce .lead-small,
   font-size: var(--gw-font-size-xs);
   padding: 0.5rem;
 }
-/* line 508, ../scss/old/_templates.scss */
+/* line 506, ../scss/old/_templates.scss */
 .portaltype-packet#content .box.box-large,
 .portlet-homepage .box.box-large,
 .existing_content_portlet .box.box-large,
@@ -28304,7 +28302,7 @@ body#tinymce .box.box-large,
 #content-core #parent-fieldname-text .box.box-large {
   padding: 2rem;
 }
-/* line 512, ../scss/old/_templates.scss */
+/* line 510, ../scss/old/_templates.scss */
 .portaltype-packet#content .box.box-small,
 .portlet-homepage .box.box-small,
 .existing_content_portlet .box.box-small,
