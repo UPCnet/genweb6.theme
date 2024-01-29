@@ -442,3 +442,8 @@ blockquote {
 a {
   word-wrap: break-word;
 }
+
+input:read-only {
+  background-color: var(--bs-gray-200);
+  cursor: not-allowed;
+}

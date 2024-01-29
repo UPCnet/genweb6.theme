@@ -20258,6 +20258,12 @@ a {
   word-wrap: break-word;
 }
 
+/* line 446, ../scss/_genweb.scss */
+input:read-only {
+  background-color: var(--bs-gray-200);
+  cursor: not-allowed;
+}
+
 /* line 1, ../scss/_new_class.scss */
 .text-truncate-2 {
   overflow: hidden;
