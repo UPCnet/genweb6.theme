@@ -443,7 +443,7 @@ a {
   word-wrap: break-word;
 }
 
-input:read-only {
+input[readonly] {
   background-color: var(--bs-gray-200);
   cursor: not-allowed;
 }
