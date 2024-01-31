@@ -30949,6 +30949,43 @@ body.plone-toolbar-left div#edit-zone .dropdown-menu {
   overflow-y: auto;
 }
 
+@media (max-height: 800px) {
+  /* line 29, ../scss/viewlets/_edit_zone.scss */
+  body.plone-toolbar-left-expanded div#edit-zone .toolbar-header,
+  body.plone-toolbar-left-expanded div#edit-zone .personaltools-wrapper,
+  body.plone-toolbar-left-expanded div#edit-zone .nav-link {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  /* line 36, ../scss/viewlets/_edit_zone.scss */
+  body.plone-toolbar-left-expanded div#edit-zone .border-top.my-2 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  /* line 41, ../scss/viewlets/_edit_zone.scss */
+  body.plone-toolbar-left-expanded div#edit-zone .toolbar-header {
+    margin-bottom: 4px;
+  }
+}
+@media (max-height: 650px) {
+  /* line 48, ../scss/viewlets/_edit_zone.scss */
+  body.plone-toolbar-left-expanded div#edit-zone .toolbar-header,
+  body.plone-toolbar-left-expanded div#edit-zone .personaltools-wrapper,
+  body.plone-toolbar-left-expanded div#edit-zone .nav-link {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  /* line 55, ../scss/viewlets/_edit_zone.scss */
+  body.plone-toolbar-left-expanded div#edit-zone .border-top.my-2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  /* line 60, ../scss/viewlets/_edit_zone.scss */
+  body.plone-toolbar-left-expanded div#edit-zone .toolbar-header {
+    margin-bottom: 2px;
+  }
+}
+
 /* line 1, ../scss/viewlets/_footer.scss */
 footer#portal-footer-wrapper {
   background-color: initial;
