@@ -2,11 +2,22 @@ Changelog
 =========
 
 
-1.13 (unreleased)
+1.13 (2024-01-31)
 -----------------
 
-- Nothing changed yet.
-
+* [ADD] Estilos responsive editbar [Iago López]
+* [ADD] Styles input readonly [Iago López]
+* [ADD] Styles input readonly [Iago López]
+* [UPD] Estilos photoAlbumEntry [Iago López]
+* [UPD] Añadir break-word en a [Iago López]
+* [ADD] Estilos contenidos interactivos cuando se enlazan en contenidos existentes, no mostrar mensaje de info ni botton de copiar html [Iago López]
+* [UPD] Capitalize review_state in folder_contents [Iago López]
+* [UPD] Capitalize review_state in folder_contents [Iago López]
+* [UPD] Colores workflows [Iago López]
+* [FIX] --gw-state-restricted-to-managers-hover [Iago López]
+* [UPD] Estilos grid agenda [Iago López]
+* [ADD] Estilos portlet agenda [Iago López]
+* [ADD] Style accordion [Iago López]
 
 1.12 (2024-01-09)
 -----------------
