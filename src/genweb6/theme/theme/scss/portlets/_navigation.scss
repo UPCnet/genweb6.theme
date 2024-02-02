@@ -69,6 +69,11 @@
             text-decoration: none;
             color: var(--bs-primary);
 
+            &::after {
+              color: unset;
+              margin-top: 0;
+            }
+
             svg {
               text-decoration: none;
             }

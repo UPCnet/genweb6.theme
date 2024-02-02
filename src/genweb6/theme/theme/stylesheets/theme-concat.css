@@ -19918,36 +19918,37 @@ strong {
 
 /* line 110, ../scss/_genweb.scss */
 a[target="_blank"]:not(:has(img))::after {
-  content: "\e91c" !important;
-  font-family: "upc-icones";
-  font-size: 0.7rem;
-  margin-left: 3px;
+  content: "" !important;
+  font-family: upc-icones;
+  font-size: .7rem !important;
+  margin-left: 3px !important;
+  right: 0 !important;
   top: 0;
-  position: relative;
+  position: relative !important;
   display: inline-block;
 }
 
-/* line 120, ../scss/_genweb.scss */
+/* line 121, ../scss/_genweb.scss */
 .alert a::after {
   height: 0;
   animation: none;
 }
 
-/* line 125, ../scss/_genweb.scss */
+/* line 126, ../scss/_genweb.scss */
 .btn {
   font-size: 18px;
   font-weight: 500;
 }
 
-/* line 130, ../scss/_genweb.scss */
+/* line 131, ../scss/_genweb.scss */
 .external-url-icon {
   display: table;
 }
-/* line 133, ../scss/_genweb.scss */
+/* line 134, ../scss/_genweb.scss */
 .external-url-icon.text-decoration-none:hover {
   text-decoration: none !important;
 }
-/* line 137, ../scss/_genweb.scss */
+/* line 138, ../scss/_genweb.scss */
 .external-url-icon::before {
   content: "\e91c";
   font-family: "upc-icones";
@@ -19956,64 +19957,64 @@ a[target="_blank"]:not(:has(img))::after {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 145, ../scss/_genweb.scss */
+/* line 146, ../scss/_genweb.scss */
 .external-url-icon::before:hover {
   color: var(--bs-primary-hover);
 }
 
-/* line 151, ../scss/_genweb.scss */
+/* line 152, ../scss/_genweb.scss */
 .smaller {
   font-size: var(--gw-font-size-xxxs);
 }
 
-/* line 155, ../scss/_genweb.scss */
+/* line 156, ../scss/_genweb.scss */
 body.template-manage-viewlets header {
   position: initial;
 }
 
-/* line 159, ../scss/_genweb.scss */
+/* line 160, ../scss/_genweb.scss */
 .modal-backdrop.fade.show {
   display: none;
 }
 
-/* line 163, ../scss/_genweb.scss */
+/* line 164, ../scss/_genweb.scss */
 .list-group-item.row {
   display: flex;
 }
 
-/* line 167, ../scss/_genweb.scss */
+/* line 168, ../scss/_genweb.scss */
 .plone-icon {
   height: 0.73em;
 }
 
-/* line 173, ../scss/_genweb.scss */
+/* line 174, ../scss/_genweb.scss */
 #main-container #portal-column-one {
   padding-right: 20px;
 }
 
-/* line 182, ../scss/_genweb.scss */
+/* line 183, ../scss/_genweb.scss */
 body.template-edit div.pat-relateditems-dropdown .select2-results {
   max-height: 450px;
 }
-/* line 189, ../scss/_genweb.scss */
+/* line 190, ../scss/_genweb.scss */
 body.template-edit table.ordered-selection-field tbody {
   width: 100%;
 }
-/* line 194, ../scss/_genweb.scss */
+/* line 195, ../scss/_genweb.scss */
 body.template-edit table.ordered-selection-field tbody td:nth-child(1), body.template-edit table.ordered-selection-field tbody td:nth-child(3) {
   width: 45%;
 }
-/* line 199, ../scss/_genweb.scss */
+/* line 200, ../scss/_genweb.scss */
 body.template-edit table.ordered-selection-field tbody td button {
   margin-right: 1rem;
   margin-left: 1rem;
 }
-/* line 203, ../scss/_genweb.scss */
+/* line 204, ../scss/_genweb.scss */
 body.template-edit table.ordered-selection-field tbody td button:first-child {
   margin-bottom: 0.5rem;
 }
 
-/* line 213, ../scss/_genweb.scss */
+/* line 214, ../scss/_genweb.scss */
 [id^="formfield-form-widgets-fieldset"] {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -20021,78 +20022,78 @@ body.template-edit table.ordered-selection-field tbody td button:first-child {
   display: inline-block;
   width: 100%;
 }
-/* line 220, ../scss/_genweb.scss */
+/* line 221, ../scss/_genweb.scss */
 [id^="formfield-form-widgets-fieldset"] h2 {
   font-size: 1.75rem;
 }
 
-/* line 225, ../scss/_genweb.scss */
+/* line 226, ../scss/_genweb.scss */
 .fs-m {
   font-size: var(--bs-body-font-size) !important;
 }
 
-/* line 229, ../scss/_genweb.scss */
+/* line 230, ../scss/_genweb.scss */
 .fs-l {
   font-size: var(--gw-font-size-l) !important;
 }
 
-/* line 233, ../scss/_genweb.scss */
+/* line 234, ../scss/_genweb.scss */
 .fs-s {
   font-size: var(--gw-font-size-s) !important;
 }
 
-/* line 237, ../scss/_genweb.scss */
+/* line 238, ../scss/_genweb.scss */
 .fs-xl {
   font-size: var(--gw-font-size-xl) !important;
 }
 
-/* line 241, ../scss/_genweb.scss */
+/* line 242, ../scss/_genweb.scss */
 .fs-xs {
   font-size: var(--gw-font-size-xs) !important;
 }
 
-/* line 245, ../scss/_genweb.scss */
+/* line 246, ../scss/_genweb.scss */
 .fs-xxl {
   font-size: var(--gw-font-size-xxl) !important;
 }
 
-/* line 249, ../scss/_genweb.scss */
+/* line 250, ../scss/_genweb.scss */
 .fs-xxs {
   font-size: var(--gw-font-size-xxs) !important;
 }
 
-/* line 253, ../scss/_genweb.scss */
+/* line 254, ../scss/_genweb.scss */
 .fs-xxxl {
   font-size: var(--gw-font-size-xxxl) !important;
 }
 
-/* line 257, ../scss/_genweb.scss */
+/* line 258, ../scss/_genweb.scss */
 .fs-xxxs {
   font-size: var(--gw-font-size-xxs) !important;
 }
 
-/* line 261, ../scss/_genweb.scss */
+/* line 262, ../scss/_genweb.scss */
 .text-justify {
   text-align: justify;
 }
 
-/* line 265, ../scss/_genweb.scss */
+/* line 266, ../scss/_genweb.scss */
 code.code-editor {
   border: 1px solid var(--bs-dark);
 }
 
-/* line 269, ../scss/_genweb.scss */
+/* line 270, ../scss/_genweb.scss */
 iframe,
 video {
   max-width: 100%;
 }
 
-/* line 274, ../scss/_genweb.scss */
+/* line 275, ../scss/_genweb.scss */
 button#form-buttons-Delete {
   margin-right: 1rem;
 }
 
-/* line 278, ../scss/_genweb.scss */
+/* line 279, ../scss/_genweb.scss */
 .back-to-top {
   background: none;
   margin: 0;
@@ -20105,137 +20106,137 @@ button#form-buttons-Delete {
   text-decoration: none;
   color: var(--bs-primary);
 }
-/* line 290, ../scss/_genweb.scss */
+/* line 291, ../scss/_genweb.scss */
 .back-to-top:hover, .back-to-top:active, .back-to-top:focus {
   color: var(--bs-primary-hover);
 }
-/* line 296, ../scss/_genweb.scss */
+/* line 297, ../scss/_genweb.scss */
 .back-to-top svg {
   width: 45px;
   height: 45px;
 }
 
 /* Los colores de los estados de cada elemento solo se podrán ver una vez logueado */
-/* line 305, ../scss/_genweb.scss */
+/* line 306, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone #plone-contentmenu-workflow:hover [class^="label-state-"] {
   color: var(--bs-white) !important;
 }
-/* line 309, ../scss/_genweb.scss */
+/* line 310, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-visible {
   color: var(--gw-state-visible) !important;
 }
-/* line 313, ../scss/_genweb.scss */
+/* line 314, ../scss/_genweb.scss */
 body.userrole-authenticated .state-visible {
   color: var(--gw-state-visible) !important;
 }
-/* line 316, ../scss/_genweb.scss */
+/* line 317, ../scss/_genweb.scss */
 body.userrole-authenticated .state-visible:hover {
   color: var(--gw-state-visible-hover) !important;
 }
-/* line 321, ../scss/_genweb.scss */
+/* line 322, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-draft {
   color: var(--gw-state-draft) !important;
 }
-/* line 325, ../scss/_genweb.scss */
+/* line 326, ../scss/_genweb.scss */
 body.userrole-authenticated .state-draft {
   color: var(--gw-state-draft) !important;
 }
-/* line 328, ../scss/_genweb.scss */
+/* line 329, ../scss/_genweb.scss */
 body.userrole-authenticated .state-draft:hover {
   color: var(--gw-state-draft-hover) !important;
 }
-/* line 333, ../scss/_genweb.scss */
+/* line 334, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-private {
   color: var(--gw-state-private) !important;
 }
-/* line 337, ../scss/_genweb.scss */
+/* line 338, ../scss/_genweb.scss */
 body.userrole-authenticated .state-private {
   color: var(--gw-state-private) !important;
 }
-/* line 340, ../scss/_genweb.scss */
+/* line 341, ../scss/_genweb.scss */
 body.userrole-authenticated .state-private:hover {
   color: var(--gw-state-private-hover) !important;
 }
-/* line 345, ../scss/_genweb.scss */
+/* line 346, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-intranet {
   color: var(--gw-state-intranet) !important;
 }
-/* line 349, ../scss/_genweb.scss */
+/* line 350, ../scss/_genweb.scss */
 body.userrole-authenticated .state-intranet {
   color: var(--gw-state-intranet) !important;
 }
-/* line 352, ../scss/_genweb.scss */
+/* line 353, ../scss/_genweb.scss */
 body.userrole-authenticated .state-intranet:hover {
   color: var(--gw-state-intranet-hover) !important;
 }
-/* line 357, ../scss/_genweb.scss */
+/* line 358, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-pending {
   color: var(--gw-state-pending) !important;
 }
-/* line 361, ../scss/_genweb.scss */
+/* line 362, ../scss/_genweb.scss */
 body.userrole-authenticated .state-pending {
   color: var(--gw-state-pending) !important;
 }
-/* line 364, ../scss/_genweb.scss */
+/* line 365, ../scss/_genweb.scss */
 body.userrole-authenticated .state-pending:hover {
   color: var(--gw-state-pending-hover) !important;
 }
-/* line 369, ../scss/_genweb.scss */
+/* line 370, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-published {
   color: var(--gw-state-published) !important;
 }
-/* line 373, ../scss/_genweb.scss */
+/* line 374, ../scss/_genweb.scss */
 body.userrole-authenticated .state-published {
   color: var(--gw-state-published) !important;
 }
-/* line 376, ../scss/_genweb.scss */
+/* line 377, ../scss/_genweb.scss */
 body.userrole-authenticated .state-published:hover {
   color: var(--gw-state-published-hover) !important;
 }
-/* line 381, ../scss/_genweb.scss */
+/* line 382, ../scss/_genweb.scss */
 body.userrole-authenticated #edit-zone .label-state-restricted-to-managers {
   color: var(--gw-state-restricted-to-managers) !important;
 }
-/* line 385, ../scss/_genweb.scss */
+/* line 386, ../scss/_genweb.scss */
 body.userrole-authenticated .state-restricted-to-managers {
   color: var(--gw-state-restricted-to-managers) !important;
 }
-/* line 388, ../scss/_genweb.scss */
+/* line 389, ../scss/_genweb.scss */
 body.userrole-authenticated .state-restricted-to-managers:hover {
   color: var(--gw-state-restricted-to-managers-hover) !important;
 }
 
-/* line 395, ../scss/_genweb.scss */
+/* line 396, ../scss/_genweb.scss */
 .favorites.dropdown.dropdown-menu-end.ms-2 svg {
   vertical-align: baseline;
 }
 
-/* line 400, ../scss/_genweb.scss */
+/* line 401, ../scss/_genweb.scss */
 div.linkModal div.linkTypes {
   line-height: 1.65 !important;
 }
 
 @media (max-width: 992px) {
-  /* line 406, ../scss/_genweb.scss */
+  /* line 407, ../scss/_genweb.scss */
   .container {
     max-width: 100%;
     padding: 0 1em;
   }
 }
 @media (min-width: 992px) {
-  /* line 414, ../scss/_genweb.scss */
+  /* line 415, ../scss/_genweb.scss */
   body.col-one.col-two.col-content #portal-column-content {
     width: 75%;
   }
 }
-/* line 419, ../scss/_genweb.scss */
+/* line 420, ../scss/_genweb.scss */
 .responsive-iframe-container {
   position: relative;
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%;
 }
-/* line 425, ../scss/_genweb.scss */
+/* line 426, ../scss/_genweb.scss */
 .responsive-iframe-container .responsive-iframe {
   position: absolute;
   top: 0;
@@ -20246,19 +20247,19 @@ div.linkModal div.linkTypes {
   height: 100%;
 }
 
-/* line 436, ../scss/_genweb.scss */
+/* line 437, ../scss/_genweb.scss */
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 18px;
   border-left: 5px solid var(--bs-gray-200);
 }
 
-/* line 442, ../scss/_genweb.scss */
+/* line 443, ../scss/_genweb.scss */
 a {
   word-wrap: break-word;
 }
 
-/* line 446, ../scss/_genweb.scss */
+/* line 447, ../scss/_genweb.scss */
 input[readonly] {
   background-color: var(--bs-gray-200);
   cursor: not-allowed;
@@ -29228,18 +29229,23 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
   color: var(--bs-primary);
 }
 /* line 72, ../scss/portlets/_navigation.scss */
+.portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a:hover::after {
+  color: unset;
+  margin-top: 0;
+}
+/* line 77, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a:hover svg {
   text-decoration: none;
 }
-/* line 77, ../scss/portlets/_navigation.scss */
+/* line 82, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a.navTreeItemInPath {
   color: var(--bs-primary);
 }
-/* line 81, ../scss/portlets/_navigation.scss */
+/* line 86, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a.navTreeCurrentItem {
   font-weight: 600;
 }
-/* line 85, ../scss/portlets/_navigation.scss */
+/* line 90, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a svg {
   height: 1em;
   width: auto;
@@ -29247,7 +29253,7 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
   padding-bottom: 2px;
   min-width: 24px;
 }
-/* line 94, ../scss/portlets/_navigation.scss */
+/* line 99, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem ul {
   padding-left: 1rem;
 }
