@@ -55,6 +55,22 @@
           }
         }
 
+        a[target="_blank"]:not(:has(img))::after {
+          content: "\e91c"!important;
+          font-family: upc-icones;
+          font-size: .7rem !important;
+          margin-left: 3px !important;
+          right: 0 !important;
+          top: 0;
+          position: relative !important;
+          display: inline-block;
+        }
+
+        a[target="_blank"]:hover:not(:has(img))::after {
+          color: unset !important;
+          margin-top: 0;
+        }
+
         a {
           padding: 0.5rem 0.5rem 0.5rem 1rem;
           color: var(--bs-body-color);
@@ -68,11 +84,6 @@
             background-color: transparent;
             text-decoration: none;
             color: var(--bs-primary);
-
-            &::after {
-              color: unset;
-              margin-top: 0;
-            }
 
             svg {
               text-decoration: none;
