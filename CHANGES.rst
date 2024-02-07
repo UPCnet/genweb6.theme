@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.15 (unreleased)
+1.15 (2024-02-07)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] Estilos portlet navefacion [Iago López]
 
 1.14 (2024-02-05)
 -----------------
