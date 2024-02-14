@@ -2393,7 +2393,13 @@ a {
   word-wrap: break-word;
 }
 
-/* line 446, ../scss/_genweb.scss */
+/* line 449, ../scss/_genweb.scss */
+table a,
+ul a {
+  text-decoration: none;
+}
+
+/* line 454, ../scss/_genweb.scss */
 input[readonly] {
   background-color: var(--bs-gray-200);
   cursor: not-allowed;

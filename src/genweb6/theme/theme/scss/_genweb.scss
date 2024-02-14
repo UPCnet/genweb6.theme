@@ -443,6 +443,14 @@ a {
   word-wrap: break-word;
 }
 
+table,
+ul {
+
+  a {
+    text-decoration: none;
+  }
+}
+
 input[readonly] {
   background-color: var(--bs-gray-200);
   cursor: not-allowed;
