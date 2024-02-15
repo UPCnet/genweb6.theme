@@ -12670,38 +12670,57 @@ body.template-edit.mosaic-enabled .gw-tile.destacats5 .grid-container .area4,
 body.template-layout .gw-tile.destacats5 .grid-container .area4 {
   grid-area: area4;
 }
-/* line 1, ../scss/tiles/_edit.scss */
+/* line 3, ../scss/tiles/_edit.scss */
+body.template-edit.mosaic-enabled .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.navigation,
+body.template-edit.mosaic-enabled .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.embed,
+body.template-edit.mosaic-enabled .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.discussion,
+body.template-edit.mosaic-enabled .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.document-byline,
+body.template-edit.mosaic-enabled .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.related-items,
+body.template-edit.mosaic-enabled .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.keywords,
+body.template-edit.mosaic-enabled .mosaic-menu-insert #select2-results-10 > li:nth-child(5),
+body.template-edit.mosaic-enabled .mosaic-menu-insert #select2-results-10 > li:nth-child(6),
+body.template-layout .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.navigation,
+body.template-layout .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.embed,
+body.template-layout .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.discussion,
+body.template-layout .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.document-byline,
+body.template-layout .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.related-items,
+body.template-layout .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.keywords,
+body.template-layout .mosaic-menu-insert #select2-results-10 > li:nth-child(5),
+body.template-layout .mosaic-menu-insert #select2-results-10 > li:nth-child(6) {
+  display: none;
+}
+/* line 16, ../scss/tiles/_edit.scss */
 body.template-edit.mosaic-enabled .mosaic-toolbar,
 body.template-layout .mosaic-toolbar {
   background-color: var(--bs-primary);
 }
-/* line 4, ../scss/tiles/_edit.scss */
+/* line 19, ../scss/tiles/_edit.scss */
 body.template-edit.mosaic-enabled .mosaic-toolbar .mosaic-button-save,
 body.template-layout .mosaic-toolbar .mosaic-button-save {
   background-color: var(--bs-success);
 }
-/* line 7, ../scss/tiles/_edit.scss */
+/* line 22, ../scss/tiles/_edit.scss */
 body.template-edit.mosaic-enabled .mosaic-toolbar .mosaic-button-save:hover,
 body.template-layout .mosaic-toolbar .mosaic-button-save:hover {
   background-color: #166b29;
 }
-/* line 12, ../scss/tiles/_edit.scss */
+/* line 27, ../scss/tiles/_edit.scss */
 body.template-edit.mosaic-enabled .mosaic-toolbar .mosaic-button-cancel,
 body.template-layout .mosaic-toolbar .mosaic-button-cancel {
   background-color: var(--bs-danger);
 }
-/* line 15, ../scss/tiles/_edit.scss */
+/* line 30, ../scss/tiles/_edit.scss */
 body.template-edit.mosaic-enabled .mosaic-toolbar .mosaic-button-cancel:hover,
 body.template-layout .mosaic-toolbar .mosaic-button-cancel:hover {
   background-color: #c82333;
 }
-/* line 20, ../scss/tiles/_edit.scss */
+/* line 35, ../scss/tiles/_edit.scss */
 body.template-edit.mosaic-enabled .mosaic-toolbar .mosaic-button-layout,
 body.template-layout .mosaic-toolbar .mosaic-button-layout {
   color: var(--bs-white);
   font-weight: 500;
 }
-/* line 25, ../scss/tiles/_edit.scss */
+/* line 40, ../scss/tiles/_edit.scss */
 body.template-edit.mosaic-enabled .mosaic-toolbar div.select2-container.mosaic-menu,
 body.template-layout .mosaic-toolbar div.select2-container.mosaic-menu {
   background-color: var(--bs-white);
@@ -12710,12 +12729,12 @@ body.template-layout .mosaic-toolbar div.select2-container.mosaic-menu {
   padding-left: 10px;
   border-radius: 7px;
 }
-/* line 34, ../scss/tiles/_edit.scss */
+/* line 49, ../scss/tiles/_edit.scss */
 body.template-edit.mosaic-enabled .mosaic-tile-control,
 body.template-layout .mosaic-tile-control {
   margin-right: 1rem;
 }
-/* line 40, ../scss/tiles/_edit.scss */
+/* line 55, ../scss/tiles/_edit.scss */
 body.template-edit.mosaic-enabled .pattern-modal-buttons #buttons-save + #buttons-cancel,
 body.template-layout .pattern-modal-buttons #buttons-save + #buttons-cancel {
   margin-left: 1rem;
