@@ -2,11 +2,12 @@ Changelog
 =========
 
 
-1.16 (unreleased)
+1.16 (2024-02-19)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] Half hero responsive [Iago López]
+* Quitar tiles de plone del .mosaic-menu-insert [Pilar Marinas]
+* [UPD] Quitar subrayado enlaces de las tablas y listados [Iago López]
 
 1.15 (2024-02-07)
 -----------------
