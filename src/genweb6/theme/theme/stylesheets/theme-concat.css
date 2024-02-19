@@ -30542,16 +30542,16 @@ body.template-edit.mosaic-enabled .mosaic-menu-insert li.select2-option-plone\.a
 body.template-edit.mosaic-enabled .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.document-byline,
 body.template-edit.mosaic-enabled .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.related-items,
 body.template-edit.mosaic-enabled .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.keywords,
-body.template-edit.mosaic-enabled .mosaic-menu-insert #select2-results-10 > li:nth-child(5),
-body.template-edit.mosaic-enabled .mosaic-menu-insert #select2-results-10 > li:nth-child(6),
+body.template-edit.mosaic-enabled .mosaic-menu-insert ul.select2-results > li:nth-child(5),
+body.template-edit.mosaic-enabled .mosaic-menu-insert ul.select2-results > li:nth-child(6),
 body.template-layout .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.navigation,
 body.template-layout .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.embed,
 body.template-layout .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.discussion,
 body.template-layout .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.document-byline,
 body.template-layout .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.related-items,
 body.template-layout .mosaic-menu-insert li.select2-option-plone\.app\.standardtiles\.keywords,
-body.template-layout .mosaic-menu-insert #select2-results-10 > li:nth-child(5),
-body.template-layout .mosaic-menu-insert #select2-results-10 > li:nth-child(6) {
+body.template-layout .mosaic-menu-insert ul.select2-results > li:nth-child(5),
+body.template-layout .mosaic-menu-insert ul.select2-results > li:nth-child(6) {
   display: none;
 }
 /* line 16, ../scss/tiles/_edit.scss */
@@ -31997,7 +31997,7 @@ body.template-homepage #hero {
   #hero.pretty-image-hero .h2, #hero.full-pretty-image-hero h2,
   #hero.full-pretty-image-hero .h2 {
     font-size: 1.5rem;
-    margin-top: 0.5rem;
+    margin-top: .5rem;
   }
 }
 /* line 106, ../scss/viewlets/_hero.scss */

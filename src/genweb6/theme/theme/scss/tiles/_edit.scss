@@ -6,8 +6,8 @@
   li.select2-option-plone\.app\.standardtiles\.document-byline,
   li.select2-option-plone\.app\.standardtiles\.related-items,
   li.select2-option-plone\.app\.standardtiles\.keywords,
-  #select2-results-10 > li:nth-child(5),
-  #select2-results-10 > li:nth-child(6){
+  ul.select2-results > li:nth-child(5),
+  ul.select2-results > li:nth-child(6){
     display: none;
   }
 
