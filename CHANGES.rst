@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.17 (unreleased)
+1.17 (2024-02-20)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] Estilos tiles [Iago López]
 
 1.16 (2024-02-19)
 -----------------
