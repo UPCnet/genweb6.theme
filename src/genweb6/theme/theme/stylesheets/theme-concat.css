@@ -33147,27 +33147,32 @@ body.template-summary_view #content-core a.read_more {
   font-size: var(--gw-font-size-xl);
 }
 
-/* line 8, ../scss/views/_tabular_view.scss */
+/* line 6, ../scss/views/_tabular_view.scss */
+div.existing-content.template-tabular_view #content-core td,
+body.template-tabular_view #content-core td {
+  text-wrap: wrap;
+}
+/* line 9, ../scss/views/_tabular_view.scss */
 div.existing-content.template-tabular_view #content-core td a,
 body.template-tabular_view #content-core td a {
   text-decoration: none;
 }
-/* line 12, ../scss/views/_tabular_view.scss */
+/* line 13, ../scss/views/_tabular_view.scss */
 div.existing-content.template-tabular_view #content-core td img,
 body.template-tabular_view #content-core td img {
   float: left;
 }
-/* line 16, ../scss/views/_tabular_view.scss */
+/* line 17, ../scss/views/_tabular_view.scss */
 div.existing-content.template-tabular_view #content-core td:first-child,
 body.template-tabular_view #content-core td:first-child {
   width: 2.5%;
 }
-/* line 20, ../scss/views/_tabular_view.scss */
+/* line 21, ../scss/views/_tabular_view.scss */
 div.existing-content.template-tabular_view #content-core td:last-child,
 body.template-tabular_view #content-core td:last-child {
   width: 15%;
 }
-/* line 24, ../scss/views/_tabular_view.scss */
+/* line 25, ../scss/views/_tabular_view.scss */
 div.existing-content.template-tabular_view #content-core td .plone-icon,
 body.template-tabular_view #content-core td .plone-icon {
   height: 1em;
