@@ -8,6 +8,10 @@ body.template-event_view {
 			padding-bottom: 0.09em;
 			border: 1px solid var(--bs-primary);
 
+			.meta-icon {
+				margin-top: -.1em;
+			}
+
 			abbr.dtstart {
 				text-decoration: none;
 			}
@@ -19,6 +23,7 @@ body.template-event_view {
 			p.card-text.h5 {
 				font-size: 1.1rem;
 				font-weight: 500;
+				margin-top: 0;
 
 				span.timezone.text-muted.small {
 					font-size: 1.1rem;

@@ -10669,21 +10669,6 @@ body#tinymce .visible-desktop,
   background-color: var(--bs-primary-hover);
 }
 
-/* line 6, ../scss/contents/_document_image.scss */
-div.existing-content.portaltype-genweb-upc-documentimage #content-core figure.newsImageContainer,
-body.portaltype-genweb-upc-documentimage #content-core figure.newsImageContainer {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: flex-start;
-}
-/* line 12, ../scss/contents/_document_image.scss */
-div.existing-content.portaltype-genweb-upc-documentimage #content-core figure.newsImageContainer figcaption,
-body.portaltype-genweb-upc-documentimage #content-core figure.newsImageContainer figcaption {
-  width: 200px;
-  margin-top: 5px;
-}
-
 /* line 6, ../scss/contents/_easyform.scss */
 div.existing-content.portaltype-easyform.template-data .formControls .field,
 body.portaltype-easyform.template-data .formControls .field {
@@ -10698,27 +10683,33 @@ body.template-event_view #content-core .card.event-summary {
   border: 1px solid var(--bs-primary);
 }
 /* line 11, ../scss/contents/_event.scss */
+div.existing-content.portaltype-easyform #content-core .card.event-summary .meta-icon,
+body.template-event_view #content-core .card.event-summary .meta-icon {
+  margin-top: -.1em;
+}
+/* line 15, ../scss/contents/_event.scss */
 div.existing-content.portaltype-easyform #content-core .card.event-summary abbr.dtstart,
 body.template-event_view #content-core .card.event-summary abbr.dtstart {
   text-decoration: none;
 }
-/* line 15, ../scss/contents/_event.scss */
+/* line 19, ../scss/contents/_event.scss */
 div.existing-content.portaltype-easyform #content-core .card.event-summary p.card-text,
 body.template-event_view #content-core .card.event-summary p.card-text {
   font-size: 1rem;
 }
-/* line 19, ../scss/contents/_event.scss */
+/* line 23, ../scss/contents/_event.scss */
 div.existing-content.portaltype-easyform #content-core .card.event-summary p.card-text.h5,
 body.template-event_view #content-core .card.event-summary p.card-text.h5 {
   font-size: 1.1rem;
   font-weight: 500;
+  margin-top: 0;
 }
-/* line 23, ../scss/contents/_event.scss */
+/* line 28, ../scss/contents/_event.scss */
 div.existing-content.portaltype-easyform #content-core .card.event-summary p.card-text.h5 span.timezone.text-muted.small,
 body.template-event_view #content-core .card.event-summary p.card-text.h5 span.timezone.text-muted.small {
   font-size: 1.1rem;
 }
-/* line 28, ../scss/contents/_event.scss */
+/* line 33, ../scss/contents/_event.scss */
 div.existing-content.portaltype-easyform #content-core .card.event-summary .plone-icon,
 body.template-event_view #content-core .card.event-summary .plone-icon {
   margin-bottom: 10px;
@@ -10790,6 +10781,21 @@ li#contentview-view a:not(:has(svg))::before {
 /* line 59, ../scss/contents/_generic.scss */
 li#contentview-configure a:not(:has(svg))::before {
   content: "\F3E5";
+}
+
+/* line 63, ../scss/contents/_generic.scss */
+figure.newsImageContainer {
+  max-width: calc(100% / 3);
+  float: left;
+  margin: 0 1.5rem 1rem 0;
+}
+/* line 68, ../scss/contents/_generic.scss */
+figure.newsImageContainer img {
+  margin-bottom: 0.5rem;
+}
+/* line 72, ../scss/contents/_generic.scss */
+figure.newsImageContainer figcaption {
+  display: block;
 }
 
 /* line 12, ../scss/contents/_image.scss */

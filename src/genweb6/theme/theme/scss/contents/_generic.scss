@@ -59,3 +59,17 @@ li#contentview-view a:not(:has(svg))::before {
 li#contentview-configure a:not(:has(svg))::before {
   content: "\F3E5";
 }
+
+figure.newsImageContainer {
+  max-width: calc(100% / 3);
+  float: left;
+  margin: 0 1.5rem 1rem 0;
+
+  img {
+    margin-bottom: 0.5rem;
+  }
+
+  figcaption {
+    display: block;
+  }
+}
