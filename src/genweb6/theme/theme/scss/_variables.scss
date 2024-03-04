@@ -1,3 +1,14 @@
+$blue:    #0d6efd !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #198754 !default;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+
 :root {
   --bs-primary: #007BC1;
   --bs-primary-ligthen-20: #01A3FF;
@@ -5,6 +16,106 @@
   --bs-primary-hover: #{darken(#007BC1, 10%)};
   --bs-link-color: #007BC1;
   --bs-link-color-hover: #{darken(#007BC1, 10%)};
+
+  --bs-blue-100: #{tint-color($blue, 80%)};
+  --bs-blue-200: #{tint-color($blue, 60%)};
+  --bs-blue-300: #{tint-color($blue, 40%)};
+  --bs-blue-400: #{tint-color($blue, 20%)};
+  --bs-blue-500: #{$blue};
+  --bs-blue-600: #{shade-color($blue, 20%)};
+  --bs-blue-700: #{shade-color($blue, 40%)};
+  --bs-blue-800: #{shade-color($blue, 60%)};
+  --bs-blue-900: #{shade-color($blue, 80%)};
+
+  --bs-indigo-100: #{tint-color($indigo, 80%)};
+  --bs-indigo-200: #{tint-color($indigo, 60%)};
+  --bs-indigo-300: #{tint-color($indigo, 40%)};
+  --bs-indigo-400: #{tint-color($indigo, 20%)};
+  --bs-indigo-500: #{$indigo};
+  --bs-indigo-600: #{shade-color($indigo, 20%)};
+  --bs-indigo-700: #{shade-color($indigo, 40%)};
+  --bs-indigo-800: #{shade-color($indigo, 60%)};
+  --bs-indigo-900: #{shade-color($indigo, 80%)};
+
+  --bs-purple-100: #{tint-color($purple, 80%)};
+  --bs-purple-200: #{tint-color($purple, 60%)};
+  --bs-purple-300: #{tint-color($purple, 40%)};
+  --bs-purple-400: #{tint-color($purple, 20%)};
+  --bs-purple-500: #{$purple};
+  --bs-purple-600: #{shade-color($purple, 20%)};
+  --bs-purple-700: #{shade-color($purple, 40%)};
+  --bs-purple-800: #{shade-color($purple, 60%)};
+  --bs-purple-900: #{shade-color($purple, 80%)};
+
+  --bs-pink-100: #{tint-color($pink, 80%)};
+  --bs-pink-200: #{tint-color($pink, 60%)};
+  --bs-pink-300: #{tint-color($pink, 40%)};
+  --bs-pink-400: #{tint-color($pink, 20%)};
+  --bs-pink-500: #{$pink};
+  --bs-pink-600: #{shade-color($pink, 20%)};
+  --bs-pink-700: #{shade-color($pink, 40%)};
+  --bs-pink-800: #{shade-color($pink, 60%)};
+  --bs-pink-900: #{shade-color($pink, 80%)};
+
+  --bs-red-100: #{tint-color($red, 80%)};
+  --bs-red-200: #{tint-color($red, 60%)};
+  --bs-red-300: #{tint-color($red, 40%)};
+  --bs-red-400: #{tint-color($red, 20%)};
+  --bs-red-500: #{$red};
+  --bs-red-600: #{shade-color($red, 20%)};
+  --bs-red-700: #{shade-color($red, 40%)};
+  --bs-red-800: #{shade-color($red, 60%)};
+  --bs-red-900: #{shade-color($red, 80%)};
+
+  --bs-orange-100: #{tint-color($orange, 80%)};
+  --bs-orange-200: #{tint-color($orange, 60%)};
+  --bs-orange-300: #{tint-color($orange, 40%)};
+  --bs-orange-400: #{tint-color($orange, 20%)};
+  --bs-orange-500: #{$orange};
+  --bs-orange-600: #{shade-color($orange, 20%)};
+  --bs-orange-700: #{shade-color($orange, 40%)};
+  --bs-orange-800: #{shade-color($orange, 60%)};
+  --bs-orange-900: #{shade-color($orange, 80%)};
+
+  --bs-yellow-100: #{tint-color($yellow, 80%)};
+  --bs-yellow-200: #{tint-color($yellow, 60%)};
+  --bs-yellow-300: #{tint-color($yellow, 40%)};
+  --bs-yellow-400: #{tint-color($yellow, 20%)};
+  --bs-yellow-500: #{$yellow};
+  --bs-yellow-600: #{shade-color($yellow, 20%)};
+  --bs-yellow-700: #{shade-color($yellow, 40%)};
+  --bs-yellow-800: #{shade-color($yellow, 60%)};
+  --bs-yellow-900: #{shade-color($yellow, 80%)};
+
+  --bs-green-100: #{tint-color($green, 80%)};
+  --bs-green-200: #{tint-color($green, 60%)};
+  --bs-green-300: #{tint-color($green, 40%)};
+  --bs-green-400: #{tint-color($green, 20%)};
+  --bs-green-500: #{$green};
+  --bs-green-600: #{shade-color($green, 20%)};
+  --bs-green-700: #{shade-color($green, 40%)};
+  --bs-green-800: #{shade-color($green, 60%)};
+  --bs-green-900: #{shade-color($green, 80%)};
+
+  --bs-teal-100: #{tint-color($teal, 80%)};
+  --bs-teal-200: #{tint-color($teal, 60%)};
+  --bs-teal-300: #{tint-color($teal, 40%)};
+  --bs-teal-400: #{tint-color($teal, 20%)};
+  --bs-teal-500: #{$teal};
+  --bs-teal-600: #{shade-color($teal, 20%)};
+  --bs-teal-700: #{shade-color($teal, 40%)};
+  --bs-teal-800: #{shade-color($teal, 60%)};
+  --bs-teal-900: #{shade-color($teal, 80%)};
+
+  --bs-cyan-100: #{tint-color($cyan, 80%)};
+  --bs-cyan-200: #{tint-color($cyan, 60%)};
+  --bs-cyan-300: #{tint-color($cyan, 40%)};
+  --bs-cyan-400: #{tint-color($cyan, 20%)};
+  --bs-cyan-500: #{$cyan};
+  --bs-cyan-600: #{shade-color($cyan, 20%)};
+  --bs-cyan-700: #{shade-color($cyan, 40%)};
+  --bs-cyan-800: #{shade-color($cyan, 60%)};
+  --bs-cyan-900: #{shade-color($cyan, 80%)};
 
   --gw-font-size-l: calc(var(--bs-body-font-size) * 1.075);
   --gw-font-size-xl: calc(var(--gw-font-size-l) * 1.075);
