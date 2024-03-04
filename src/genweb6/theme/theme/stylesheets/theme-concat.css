@@ -20324,6 +20324,11 @@ input[readonly] {
   background-image: unset !important;
 }
 
+/* line 21, ../scss/_fix_bootstrap.scss */
+.alert a.text-light {
+  color: var(--bs-white) !important;
+}
+
 /* line 7, ../scss/_tinymce.scss */
 body.template-edit div.tox-tinymce-aux div.tox-menu div[title="p.highlight-paragraph"],
 body.template-edit div.tox-tinymce-aux div.tox-menu div[title="highlight-inline"] {

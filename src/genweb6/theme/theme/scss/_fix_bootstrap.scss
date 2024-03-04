@@ -17,3 +17,7 @@
 .accordion-button.non-collapsing::after {
   background-image: unset !important;
 }
+
+.alert a.text-light {
+  color: var(--bs-white) !important;
+}
