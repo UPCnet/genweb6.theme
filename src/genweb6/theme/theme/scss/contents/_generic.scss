@@ -73,3 +73,14 @@ figure.newsImageContainer {
     display: block;
   }
 }
+
+body.portaltype-news-item,
+body.portaltype-event {
+
+  .plonetoolbar-display-view {
+
+    li:has(#plone-contentmenu-display-layout_view) {
+      display: none;
+    }
+  }
+}

@@ -28758,6 +28758,12 @@ figure.newsImageContainer figcaption {
   display: block;
 }
 
+/* line 82, ../scss/contents/_generic.scss */
+body.portaltype-news-item .plonetoolbar-display-view li:has(#plone-contentmenu-display-layout_view),
+body.portaltype-event .plonetoolbar-display-view li:has(#plone-contentmenu-display-layout_view) {
+  display: none;
+}
+
 /* line 12, ../scss/contents/_image.scss */
 div.existing-content.template-image_view #content-core .section.section-main div.file-description .metadata .plone-icon,
 body.template-image_view #content-core .section.section-main div.file-description .metadata .plone-icon {
