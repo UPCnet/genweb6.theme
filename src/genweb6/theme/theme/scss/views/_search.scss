@@ -1,10 +1,15 @@
 body.template-search {
 
   h1 {
-			font-size: 32px;
-		}
+    font-size: 32px;
+  }
 
   form#searchform {
+
+    select.form-select-subjects {
+      min-width: 300px;
+      width: auto;
+    }
 
     .input-group {
 
