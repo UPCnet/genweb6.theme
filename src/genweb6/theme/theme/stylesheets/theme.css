@@ -14717,6 +14717,11 @@ body.template-manage-portlets #content-core .btn {
   margin-bottom: .5rem;
 }
 
+/* line 7, ../scss/views/_prefs_keywords_view.scss */
+body.template-prefs_keywords_view #keyword-results a[target='_blank'] svg.bi-box-arrow-up-right {
+  display: none;
+}
+
 /* line 3, ../scss/views/_search.scss */
 body.template-search h1 {
   font-size: 32px;
