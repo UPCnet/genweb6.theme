@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.19 (unreleased)
+1.19 (2024-03-07)
 -----------------
 
-- Nothing changed yet.
-
+* [ADD] Estilos prefs_keywords_view [Iago López]
 
 1.18 (2024-03-07)
 -----------------
