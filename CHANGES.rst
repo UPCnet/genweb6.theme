@@ -2,11 +2,17 @@ Changelog
 =========
 
 
-1.18 (unreleased)
+1.18 (2024-03-07)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] EStilo tile destacat principal [Iago López]
+* [ADD] Estilos search subjects [Iago López]
+* [ADD] Quitar vista mosaic en noticias y eventos [Iago López]
+* [ADD] Nuevas variables de colores [Iago López]
+* [FIX] Bootstrap style [Iago López]
+* [UPD] Mejora vista tabular [Iago López]
+* [UPD] Estilos leadimage [Iago López]
+* [UPD] Estilos + JS Carousel pause [Iago López]
 
 1.17 (2024-02-20)
 -----------------
