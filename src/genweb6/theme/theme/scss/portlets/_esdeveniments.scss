@@ -1,5 +1,17 @@
 .portlet.portlet-esdeveniments {
 
+  a.title {
+    color: var(--bs-body-color);
+    font-weight: 500;
+    font-size: var(--gw-font-size-xl);
+    white-space: normal;
+    margin-bottom: 0.25rem;
+
+    &:hover {
+      color: var(--bs-primary);
+    }
+  }
+
   .cal_date {
     width: 100px;
     float: left;

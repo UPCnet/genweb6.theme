@@ -29018,6 +29018,18 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
 }
 
 /* line 3, ../scss/portlets/_esdeveniments.scss */
+.portlet.portlet-esdeveniments a.title {
+  color: var(--bs-body-color);
+  font-weight: 500;
+  font-size: var(--gw-font-size-xl);
+  white-space: normal;
+  margin-bottom: 0.25rem;
+}
+/* line 10, ../scss/portlets/_esdeveniments.scss */
+.portlet.portlet-esdeveniments a.title:hover {
+  color: var(--bs-primary);
+}
+/* line 15, ../scss/portlets/_esdeveniments.scss */
 .portlet.portlet-esdeveniments .cal_date {
   width: 100px;
   float: left;
