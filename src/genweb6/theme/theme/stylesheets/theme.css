@@ -10892,8 +10892,12 @@ figure.newsImageContainer img {
 figure.newsImageContainer figcaption {
   display: block;
 }
+/* line 76, ../scss/contents/_generic.scss */
+figure.newsImageContainer + #parent-fieldname-text {
+  display: flow-root;
+}
 
-/* line 82, ../scss/contents/_generic.scss */
+/* line 86, ../scss/contents/_generic.scss */
 body.portaltype-news-item .plonetoolbar-display-view li:has(#plone-contentmenu-display-layout_view),
 body.portaltype-event .plonetoolbar-display-view li:has(#plone-contentmenu-display-layout_view) {
   display: none;

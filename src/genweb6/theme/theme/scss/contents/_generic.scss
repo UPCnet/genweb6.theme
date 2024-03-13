@@ -72,6 +72,10 @@ figure.newsImageContainer {
   figcaption {
     display: block;
   }
+
+  & + #parent-fieldname-text {
+    display: flow-root;
+  }
 }
 
 body.portaltype-news-item,
