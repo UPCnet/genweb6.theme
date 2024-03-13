@@ -88,8 +88,6 @@ module.exports = function (grunt) {
                         '../../../../../genweb6.core/src/genweb6/core/portlets/rss/rss.js',
                     'js/templates/multiple_carousel.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/browser/macros/carousel/multiple_carousel.js',
-                    'js/templates/carousel_pause.min.js':
-                        '../../../../../genweb6.core/src/genweb6/core/browser/macros/carousel/carousel_pause.js',
                     'js/views/filtered_contents_search.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/browser/views_templates/filtered_contents_search/filtered_contents_search.js',
                     'js/dataTables.min.js': 'js/complements/dataTables.js',
