@@ -2,11 +2,12 @@ Changelog
 =========
 
 
-1.20 (unreleased)
+1.20 (2024-03-13)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] Hacer generico el JS del carousel pause [Iago López]
+* [UPD] Estilos newsImageContainer [Iago López]
+* [UPD] Estilos portlet esdeveniments [Iago López]
 
 1.19 (2024-03-07)
 -----------------
