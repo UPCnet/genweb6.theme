@@ -1,5 +1,5 @@
 .gw-banner {
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
   max-width: 400px;
 
   .defaultBanner {
@@ -19,7 +19,7 @@
       align-items: center;
       justify-content: space-between;
       min-height: 60px;
-      
+
       &:hover {
         background-color: var(--bs-primary-hover);
         color: #FFFFFF !important;
