@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.21 (unreleased)
+1.21 (2024-03-20)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] Separación enttre banners [Iago López]
 
 1.20 (2024-03-13)
 -----------------
