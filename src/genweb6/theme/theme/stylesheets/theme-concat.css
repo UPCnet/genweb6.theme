@@ -28634,6 +28634,11 @@ div.existing-content.portaltype-easyform.template-data .formControls .field,
 body.portaltype-easyform.template-data .formControls .field {
   margin-bottom: 1.5rem;
 }
+/* line 11, ../scss/contents/_easyform.scss */
+div.existing-content.portaltype-easyform #form-buttons-modeleditor,
+body.portaltype-easyform #form-buttons-modeleditor {
+  display: none;
+}
 
 /* line 6, ../scss/contents/_event.scss */
 div.existing-content.portaltype-easyform #content-core .card.event-summary,
