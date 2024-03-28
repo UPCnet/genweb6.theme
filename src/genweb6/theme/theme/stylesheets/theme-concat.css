@@ -20007,7 +20007,7 @@ strong {
 }
 
 /* line 110, ../scss/_genweb.scss */
-a[target="_blank"]:not(:has(img))::after {
+a[target="_blank"]:not(.wrapper-img-link):not(:has(img))::after {
   content: "\e91c" !important;
   font-family: "upc-icones";
   font-size: 0.7rem;
@@ -20358,6 +20358,19 @@ ul a {
 input[readonly] {
   background-color: var(--bs-gray-200);
   cursor: not-allowed;
+}
+
+/* line 459, ../scss/_genweb.scss */
+a.wrapper-img-link:before {
+  content: "";
+  position: absolute;
+  z-index: 50;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* line 1, ../scss/_new_class.scss */
@@ -28825,7 +28838,6 @@ body.userrole-authenticated[class*="-controlpanel"] .formControls {
 }
 
 /* line 3, ../scss/controlpanels/_header.scss */
-body.template-header-controlpanel #formfield-form-widgets-full_hero_image,
 body.template-header-controlpanel #formfield-form-widgets-fieldset_logo,
 body.template-header-controlpanel #formfield-form-widgets-logo,
 body.template-header-controlpanel #formfield-form-widgets-logo_alt,
@@ -28834,8 +28846,7 @@ body.template-header-controlpanel #formfield-form-widgets-logo_external_url {
   width: 48%;
   float: left;
 }
-/* line 13, ../scss/controlpanels/_header.scss */
-body.template-header-controlpanel #formfield-form-widgets-hero_image,
+/* line 12, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-fieldset_secondary_logo,
 body.template-header-controlpanel #formfield-form-widgets-secondary_logo,
 body.template-header-controlpanel #formfield-form-widgets-secondary_logo_alt,
@@ -28844,30 +28855,54 @@ body.template-header-controlpanel #formfield-form-widgets-secondary_logo_externa
   width: 48%;
   float: right;
 }
-/* line 23, ../scss/controlpanels/_header.scss */
-body.template-header-controlpanel #formfield-form-widgets-logo,
-body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
-  min-height: 220px;
-}
-/* line 28, ../scss/controlpanels/_header.scss */
+/* line 21, ../scss/controlpanels/_header.scss */
+body.template-header-controlpanel #formfield-form-widgets-fieldset_ca,
+body.template-header-controlpanel #formfield-form-widgets-fieldset_es,
 body.template-header-controlpanel #formfield-form-widgets-html_title_ca,
 body.template-header-controlpanel #formfield-form-widgets-html_title_es,
 body.template-header-controlpanel #formfield-form-widgets-html_description_ca,
-body.template-header-controlpanel #formfield-form-widgets-html_description_es {
+body.template-header-controlpanel #formfield-form-widgets-html_description_es,
+body.template-header-controlpanel #formfield-form-widgets-full_hero_image,
+body.template-header-controlpanel #formfield-form-widgets-full_hero_image_es,
+body.template-header-controlpanel #formfield-form-widgets-full_hero_image_alt_ca,
+body.template-header-controlpanel #formfield-form-widgets-full_hero_image_alt_es,
+body.template-header-controlpanel #formfield-form-widgets-full_hero_image_text_ca,
+body.template-header-controlpanel #formfield-form-widgets-full_hero_image_text_es,
+body.template-header-controlpanel #formfield-form-widgets-full_hero_image_url_ca,
+body.template-header-controlpanel #formfield-form-widgets-full_hero_image_url_es {
   width: 32%;
   margin-right: 2%;
   float: left;
 }
-/* line 37, ../scss/controlpanels/_header.scss */
+/* line 40, ../scss/controlpanels/_header.scss */
+body.template-header-controlpanel #formfield-form-widgets-fieldset_en,
 body.template-header-controlpanel #formfield-form-widgets-html_title_en,
-body.template-header-controlpanel #formfield-form-widgets-html_description_en {
+body.template-header-controlpanel #formfield-form-widgets-html_description_en,
+body.template-header-controlpanel #formfield-form-widgets-full_hero_image_en,
+body.template-header-controlpanel #formfield-form-widgets-full_hero_image_alt_en,
+body.template-header-controlpanel #formfield-form-widgets-full_hero_image_text_en,
+body.template-header-controlpanel #formfield-form-widgets-full_hero_image_url_en {
   width: 32%;
   float: right;
 }
-/* line 43, ../scss/controlpanels/_header.scss */
+/* line 51, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-logo,
 body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
-  min-height: 240px;
+  min-height: 280px;
+}
+/* line 56, ../scss/controlpanels/_header.scss */
+body.template-header-controlpanel #formfield-form-widgets-full_hero_image,
+body.template-header-controlpanel #formfield-form-widgets-full_hero_image_es,
+body.template-header-controlpanel #formfield-form-widgets-full_hero_image_en {
+  min-height: 500px;
+}
+@media screen and (max-width: 1199px) {
+  /* line 56, ../scss/controlpanels/_header.scss */
+  body.template-header-controlpanel #formfield-form-widgets-full_hero_image,
+  body.template-header-controlpanel #formfield-form-widgets-full_hero_image_es,
+  body.template-header-controlpanel #formfield-form-widgets-full_hero_image_en {
+    min-height: 600px;
+  }
 }
 
 /* line 1, ../scss/portlets/_generic.scss */
@@ -30785,19 +30820,6 @@ body.template-layout .gw-tile .titling-line {
   padding: 0.5rem 0;
   margin-top: 0;
 }
-/* line 21, ../scss/tiles/_general.scss */
-body.template-edit.mosaic-enabled a.wrapper-img-link:before,
-body.template-layout a.wrapper-img-link:before {
-  content: "";
-  position: absolute;
-  z-index: 50;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
 /* line 5, ../scss/tiles/_listing.scss */
 body.template-edit.mosaic-enabled .contentlisting-tile dl dt,
 body.template-layout .contentlisting-tile dl dt {
@@ -32092,25 +32114,25 @@ body.template-homepage #hero {
 #hero.light-theme .site_title, #hero.light-to-dark-theme:not(.shink) .site_title {
   box-shadow: 0 7px 8px #00000033;
 }
-/* line 37, ../scss/viewlets/_hero.scss */
-#hero.text-hero, #hero.image-hero {
+/* line 36, ../scss/viewlets/_hero.scss */
+#hero.pretty-image-black-hero, #hero.text-hero, #hero.image-hero {
   display: flex;
-  flex-direction: column;
 }
 /* line 42, ../scss/viewlets/_hero.scss */
-#hero.text-hero > .site_title, #hero.image-hero > .site_title {
+#hero.pretty-image-black-hero > .site_title, #hero.text-hero > .site_title, #hero.image-hero > .site_title {
   order: 1;
   padding: 0em var(--gw-viewlet-horizontal-width) 0.5em var(--gw-viewlet-horizontal-width);
   text-align: left;
 }
 @media (max-width: 992px) {
   /* line 42, ../scss/viewlets/_hero.scss */
-  #hero.text-hero > .site_title, #hero.image-hero > .site_title {
+  #hero.pretty-image-black-hero > .site_title, #hero.text-hero > .site_title, #hero.image-hero > .site_title {
     padding: 0em 1em 0.5em 1em;
   }
 }
 /* line 51, ../scss/viewlets/_hero.scss */
-#hero.text-hero > .site_title h1,
+#hero.pretty-image-black-hero > .site_title h1,
+#hero.pretty-image-black-hero > .site_title .h1, #hero.text-hero > .site_title h1,
 #hero.text-hero > .site_title .h1, #hero.image-hero > .site_title h1,
 #hero.image-hero > .site_title .h1 {
   color: var(--bs-black);
@@ -32118,37 +32140,47 @@ body.template-homepage #hero {
 }
 @media (max-width: 576px) {
   /* line 51, ../scss/viewlets/_hero.scss */
-  #hero.text-hero > .site_title h1,
+  #hero.pretty-image-black-hero > .site_title h1,
+  #hero.pretty-image-black-hero > .site_title .h1, #hero.text-hero > .site_title h1,
   #hero.text-hero > .site_title .h1, #hero.image-hero > .site_title h1,
   #hero.image-hero > .site_title .h1 {
     font-size: 2.25rem;
   }
 }
 /* line 60, ../scss/viewlets/_hero.scss */
-#hero.text-hero > .site_title h1 a,
+#hero.pretty-image-black-hero > .site_title h1 a,
+#hero.pretty-image-black-hero > .site_title .h1 a, #hero.text-hero > .site_title h1 a,
 #hero.text-hero > .site_title .h1 a, #hero.image-hero > .site_title h1 a,
 #hero.image-hero > .site_title .h1 a {
   color: var(--bs-black);
 }
 /* line 63, ../scss/viewlets/_hero.scss */
-#hero.text-hero > .site_title h1 a:hover,
+#hero.pretty-image-black-hero > .site_title h1 a:hover,
+#hero.pretty-image-black-hero > .site_title .h1 a:hover, #hero.text-hero > .site_title h1 a:hover,
 #hero.text-hero > .site_title .h1 a:hover, #hero.image-hero > .site_title h1 a:hover,
 #hero.image-hero > .site_title .h1 a:hover {
   color: var(--bs-primary);
 }
 /* line 70, ../scss/viewlets/_hero.scss */
-#hero.text-hero > img, #hero.image-hero > img {
+#hero.pretty-image-black-hero > img, #hero.text-hero > img, #hero.image-hero > img {
   order: 2;
-  height: 100px;
+}
+/* line 75, ../scss/viewlets/_hero.scss */
+#hero.text-hero, #hero.image-hero {
+  flex-direction: column;
 }
 /* line 79, ../scss/viewlets/_hero.scss */
+#hero.text-hero > img, #hero.image-hero > img {
+  height: 100px;
+}
+/* line 87, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero h1,
 #hero.pretty-image-hero .h1, #hero.full-pretty-image-hero h1,
 #hero.full-pretty-image-hero .h1 {
   color: white;
   font-size: 2.5rem;
 }
-/* line 85, ../scss/viewlets/_hero.scss */
+/* line 93, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero h2,
 #hero.pretty-image-hero .h2, #hero.full-pretty-image-hero h2,
 #hero.full-pretty-image-hero .h2 {
@@ -32157,13 +32189,13 @@ body.template-homepage #hero {
   margin-top: 1rem;
 }
 @media (max-width: 768px) {
-  /* line 94, ../scss/viewlets/_hero.scss */
+  /* line 102, ../scss/viewlets/_hero.scss */
   #hero.pretty-image-hero h1,
   #hero.pretty-image-hero .h1, #hero.full-pretty-image-hero h1,
   #hero.full-pretty-image-hero .h1 {
     font-size: 1.75rem;
   }
-  /* line 99, ../scss/viewlets/_hero.scss */
+  /* line 107, ../scss/viewlets/_hero.scss */
   #hero.pretty-image-hero h2,
   #hero.pretty-image-hero .h2, #hero.full-pretty-image-hero h2,
   #hero.full-pretty-image-hero .h2 {
@@ -32171,7 +32203,7 @@ body.template-homepage #hero {
     margin-top: .5rem;
   }
 }
-/* line 106, ../scss/viewlets/_hero.scss */
+/* line 114, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero > div, #hero.full-pretty-image-hero > div {
   background-color: var(--bs-primary);
   position: relative;
@@ -32180,27 +32212,99 @@ body.template-homepage #hero {
   padding: 1.25rem;
 }
 @media (max-width: 992px) {
-  /* line 106, ../scss/viewlets/_hero.scss */
+  /* line 114, ../scss/viewlets/_hero.scss */
   #hero.pretty-image-hero > div, #hero.full-pretty-image-hero > div {
     padding: 0.75rem;
   }
 }
-/* line 117, ../scss/viewlets/_hero.scss */
+/* line 125, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero > div > *, #hero.full-pretty-image-hero > div > * {
   padding-left: 2rem;
   padding-right: 1rem;
 }
-/* line 126, ../scss/viewlets/_hero.scss */
-#hero.pretty-image-hero img {
+/* line 132, ../scss/viewlets/_hero.scss */
+#hero.pretty-image-black-hero {
+  flex-direction: column-reverse;
+}
+/* line 143, ../scss/viewlets/_hero.scss */
+#hero.pretty-image-black-hero.position-text-left .bullet-image, #hero.pretty-image-black-hero.position-text-right .bullet-image, #hero.pretty-image-black-hero.position-text-down .bullet-image, #hero.pretty-image-hero.position-text-left .bullet-image, #hero.pretty-image-hero.position-text-right .bullet-image, #hero.pretty-image-hero.position-text-down .bullet-image {
+  background: var(--bs-gray-300);
+  text-align: center;
+  height: 500px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+/* line 151, ../scss/viewlets/_hero.scss */
+#hero.pretty-image-black-hero.position-text-left .bullet-image img, #hero.pretty-image-black-hero.position-text-right .bullet-image img, #hero.pretty-image-black-hero.position-text-down .bullet-image img, #hero.pretty-image-hero.position-text-left .bullet-image img, #hero.pretty-image-hero.position-text-right .bullet-image img, #hero.pretty-image-hero.position-text-down .bullet-image img {
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  transition: all .5s ease;
+  border-radius: 0;
+}
+/* line 163, ../scss/viewlets/_hero.scss */
+#hero.pretty-image-black-hero.position-text-left .bullet-image article, #hero.pretty-image-black-hero.position-text-right .bullet-image article, #hero.pretty-image-black-hero.position-text-down .bullet-image article, #hero.pretty-image-hero.position-text-left .bullet-image article, #hero.pretty-image-hero.position-text-right .bullet-image article, #hero.pretty-image-hero.position-text-down .bullet-image article {
+  z-index: 2;
+}
+/* line 166, ../scss/viewlets/_hero.scss */
+#hero.pretty-image-black-hero.position-text-left .bullet-image article .bullet, #hero.pretty-image-black-hero.position-text-right .bullet-image article .bullet, #hero.pretty-image-black-hero.position-text-down .bullet-image article .bullet, #hero.pretty-image-hero.position-text-left .bullet-image article .bullet, #hero.pretty-image-hero.position-text-right .bullet-image article .bullet, #hero.pretty-image-hero.position-text-down .bullet-image article .bullet {
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 24px;
+  display: inline-block;
+  transition: all .5s ease;
+}
+/* line 173, ../scss/viewlets/_hero.scss */
+#hero.pretty-image-black-hero.position-text-left .bullet-image article .bullet p.h2, #hero.pretty-image-black-hero.position-text-right .bullet-image article .bullet p.h2, #hero.pretty-image-black-hero.position-text-down .bullet-image article .bullet p.h2, #hero.pretty-image-hero.position-text-left .bullet-image article .bullet p.h2, #hero.pretty-image-hero.position-text-right .bullet-image article .bullet p.h2, #hero.pretty-image-hero.position-text-down .bullet-image article .bullet p.h2 {
+  color: var(--bs-white);
+  margin-top: 0px;
+}
+/* line 185, ../scss/viewlets/_hero.scss */
+#hero.pretty-image-black-hero.position-text-left .bullet, #hero.pretty-image-black-hero.position-text-right .bullet, #hero.pretty-image-hero.position-text-left .bullet, #hero.pretty-image-hero.position-text-right .bullet {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  position: relative;
+  margin: 70px 0;
+}
+/* line 192, ../scss/viewlets/_hero.scss */
+#hero.pretty-image-black-hero.position-text-left .bullet p.h2, #hero.pretty-image-black-hero.position-text-right .bullet p.h2, #hero.pretty-image-hero.position-text-left .bullet p.h2, #hero.pretty-image-hero.position-text-right .bullet p.h2 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* line 202, ../scss/viewlets/_hero.scss */
+#hero.pretty-image-black-hero.position-text-right article, #hero.pretty-image-hero.position-text-right article {
+  justify-content: flex-end;
+}
+/* line 211, ../scss/viewlets/_hero.scss */
+#hero.pretty-image-black-hero.position-text-down .bullet-image article, #hero.pretty-image-hero.position-text-down .bullet-image article {
+  align-items: flex-end;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+/* line 218, ../scss/viewlets/_hero.scss */
+#hero.pretty-image-black-hero.position-text-down .bullet-image article .bullet, #hero.pretty-image-hero.position-text-down .bullet-image article .bullet {
+  width: 100% !important;
+}
+/* line 225, ../scss/viewlets/_hero.scss */
+#hero.pretty-image-black-hero img, #hero.pretty-image-hero img {
   height: 500px;
 }
 @media (max-width: 992px) {
-  /* line 126, ../scss/viewlets/_hero.scss */
-  #hero.pretty-image-hero img {
-    height: unset;
+  /* line 225, ../scss/viewlets/_hero.scss */
+  #hero.pretty-image-black-hero img, #hero.pretty-image-hero img {
+    height: unset !important;
   }
 }
-/* line 135, ../scss/viewlets/_hero.scss */
+/* line 234, ../scss/viewlets/_hero.scss */
 #hero.full-pretty-image-hero {
   width: 100%;
   height: calc(100dvh - 92px);
@@ -32213,7 +32317,7 @@ body.template-homepage #hero {
   background-position: center center;
   background-repeat: no-repeat;
 }
-/* line 147, ../scss/viewlets/_hero.scss */
+/* line 246, ../scss/viewlets/_hero.scss */
 #hero.full-pretty-image-hero a.down-hero {
   font-size: 3rem;
   color: var(--bs-primary);
@@ -32221,28 +32325,53 @@ body.template-homepage #hero {
   bottom: 1.5rem;
 }
 @media (max-width: 768px) {
-  /* line 147, ../scss/viewlets/_hero.scss */
+  /* line 246, ../scss/viewlets/_hero.scss */
   #hero.full-pretty-image-hero a.down-hero {
     bottom: 1rem;
   }
 }
-/* line 157, ../scss/viewlets/_hero.scss */
+/* line 256, ../scss/viewlets/_hero.scss */
 #hero.full-pretty-image-hero a.down-hero:hover {
   color: var(--bs-primary-hover);
 }
-/* line 163, ../scss/viewlets/_hero.scss */
+/* line 262, ../scss/viewlets/_hero.scss */
 #hero img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-/* line 169, ../scss/viewlets/_hero.scss */
+/* line 268, ../scss/viewlets/_hero.scss */
 #hero h2,
 #hero h1,
 #hero .h2,
 #hero .h1 {
   font-family: 'Fira sans';
   margin-bottom: 0;
+}
+@media (max-width: 992px) {
+  /* line 285, ../scss/viewlets/_hero.scss */
+  #hero.pretty-image-black-hero.position-text-left .bullet-image, #hero.pretty-image-black-hero.position-text-right .bullet-image, #hero.pretty-image-black-hero.position-text-down .bullet-image, #hero.pretty-image-hero.position-text-left .bullet-image, #hero.pretty-image-hero.position-text-right .bullet-image, #hero.pretty-image-hero.position-text-down .bullet-image {
+    justify-content: center;
+    flex-direction: column;
+    height: unset;
+    background: #000;
+  }
+  /* line 291, ../scss/viewlets/_hero.scss */
+  #hero.pretty-image-black-hero.position-text-left .bullet-image img, #hero.pretty-image-black-hero.position-text-right .bullet-image img, #hero.pretty-image-black-hero.position-text-down .bullet-image img, #hero.pretty-image-hero.position-text-left .bullet-image img, #hero.pretty-image-hero.position-text-right .bullet-image img, #hero.pretty-image-hero.position-text-down .bullet-image img {
+    position: relative;
+  }
+  /* line 295, ../scss/viewlets/_hero.scss */
+  #hero.pretty-image-black-hero.position-text-left .bullet-image article, #hero.pretty-image-black-hero.position-text-right .bullet-image article, #hero.pretty-image-black-hero.position-text-down .bullet-image article, #hero.pretty-image-hero.position-text-left .bullet-image article, #hero.pretty-image-hero.position-text-right .bullet-image article, #hero.pretty-image-hero.position-text-down .bullet-image article {
+    padding: 0;
+  }
+  /* line 298, ../scss/viewlets/_hero.scss */
+  #hero.pretty-image-black-hero.position-text-left .bullet-image article .bullet, #hero.pretty-image-black-hero.position-text-right .bullet-image article .bullet, #hero.pretty-image-black-hero.position-text-down .bullet-image article .bullet, #hero.pretty-image-hero.position-text-left .bullet-image article .bullet, #hero.pretty-image-hero.position-text-right .bullet-image article .bullet, #hero.pretty-image-hero.position-text-down .bullet-image article .bullet {
+    background: #000;
+    width: 100%;
+    border-radius: unset;
+    height: unset;
+    margin: 0;
+  }
 }
 
 /* line 3, ../scss/viewlets/_news_date.scss */

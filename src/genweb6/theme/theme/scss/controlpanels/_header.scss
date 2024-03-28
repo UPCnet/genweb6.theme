@@ -1,6 +1,5 @@
 body.template-header-controlpanel {
 
-  #formfield-form-widgets-full_hero_image,
   #formfield-form-widgets-fieldset_logo,
   #formfield-form-widgets-logo,
   #formfield-form-widgets-logo_alt,
@@ -10,7 +9,6 @@ body.template-header-controlpanel {
     float: left;
   }
 
-  #formfield-form-widgets-hero_image,
   #formfield-form-widgets-fieldset_secondary_logo,
   #formfield-form-widgets-secondary_logo,
   #formfield-form-widgets-secondary_logo_alt,
@@ -20,28 +18,48 @@ body.template-header-controlpanel {
     float: right;
   }
 
-  #formfield-form-widgets-logo,
-  #formfield-form-widgets-secondary_logo {
-    min-height: 220px;
-  }
-
+  #formfield-form-widgets-fieldset_ca,
+  #formfield-form-widgets-fieldset_es,
   #formfield-form-widgets-html_title_ca,
   #formfield-form-widgets-html_title_es,
   #formfield-form-widgets-html_description_ca,
-  #formfield-form-widgets-html_description_es {
+  #formfield-form-widgets-html_description_es,
+  #formfield-form-widgets-full_hero_image,
+  #formfield-form-widgets-full_hero_image_es,
+  #formfield-form-widgets-full_hero_image_alt_ca,
+  #formfield-form-widgets-full_hero_image_alt_es,
+  #formfield-form-widgets-full_hero_image_text_ca,
+  #formfield-form-widgets-full_hero_image_text_es,
+  #formfield-form-widgets-full_hero_image_url_ca,
+  #formfield-form-widgets-full_hero_image_url_es {
     width: 32%;
     margin-right: 2%;
     float: left;
   }
 
+  #formfield-form-widgets-fieldset_en,
   #formfield-form-widgets-html_title_en,
-  #formfield-form-widgets-html_description_en {
+  #formfield-form-widgets-html_description_en,
+  #formfield-form-widgets-full_hero_image_en,
+  #formfield-form-widgets-full_hero_image_alt_en,
+  #formfield-form-widgets-full_hero_image_text_en,
+  #formfield-form-widgets-full_hero_image_url_en {
     width: 32%;
     float: right;
   }
 
   #formfield-form-widgets-logo,
   #formfield-form-widgets-secondary_logo {
-    min-height: 240px;
+    min-height: 280px;
+  }
+
+  #formfield-form-widgets-full_hero_image,
+  #formfield-form-widgets-full_hero_image_es,
+  #formfield-form-widgets-full_hero_image_en {
+    min-height: 500px;
+
+    @media screen and (max-width: 1199px) {
+      min-height: 600px;
+    }
   }
 }
