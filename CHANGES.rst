@@ -2,11 +2,12 @@ Changelog
 =========
 
 
-1.22 (unreleased)
+1.22 (2024-04-02)
 -----------------
 
-- Nothing changed yet.
-
+* [ADD] Añadir nuevas plantillas - Baners de colores [Iago López]
+* [UPD] Nuevos estilos de cabecera [Iago López]
+* [ADD] Esconder editor XML del easyform [Iago López]
 
 1.21 (2024-03-20)
 -----------------
