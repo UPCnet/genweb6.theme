@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-1.23 (unreleased)
+1.23 (2024-04-02)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] Estilos socialtools [Iago López]
+* [UPD] Cambios cabecera [Iago López]
 
 1.22 (2024-04-02)
 -----------------
