@@ -1,5 +1,16 @@
 body.template-header-controlpanel {
 
+  form {
+
+    div.field {
+
+      & > .form-check > label,
+      & > label {
+        font-weight: 500;
+      }
+    }
+  }
+
   #formfield-form-widgets-fieldset_logo,
   #formfield-form-widgets-logo,
   #formfield-form-widgets-logo_alt,
@@ -61,5 +72,11 @@ body.template-header-controlpanel {
     @media screen and (max-width: 1199px) {
       min-height: 600px;
     }
+  }
+
+  #formfield-form-widgets-hero_image {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--bs-gray-300);
   }
 }
