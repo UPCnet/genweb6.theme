@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.24 (unreleased)
+1.24 (2024-04-03)
 -----------------
 
-- Nothing changed yet.
-
+* [ADD] Añadir plantilla Composición - Columnas de fichas con imágenes enlazables [Iago López]
 
 1.23 (2024-04-02)
 -----------------
