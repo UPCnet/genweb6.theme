@@ -2654,10 +2654,10 @@ body#tinymce a[class^='link-banner']:after,
   content: "\e902";
   border: 2px solid #383d41;
   font-family: upc-icones;
-  font-size: var(--gw-font-size-xl);
-  position: absolute;
+  font-size: var(--gw-font-size-xl) !important;
+  position: absolute !important;
   right: 24px;
-  top: 50%;
+  top: 50% !important;
   margin-top: -18px;
   padding-top: 2px;
   border-radius: 50%;
