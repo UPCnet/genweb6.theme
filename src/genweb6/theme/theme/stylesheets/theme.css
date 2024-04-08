@@ -14306,26 +14306,26 @@ body.template-homepage #hero {
 #hero.image-hero > .site_title .h1 a:hover {
   color: var(--bs-primary);
 }
-/* line 69, ../scss/viewlets/_hero.scss */
-#hero.pretty-image-black-hero > section:not(.bullet-image), #hero.text-hero > section:not(.bullet-image), #hero.image-hero > section:not(.bullet-image) {
-  order: 2;
-}
-/* line 74, ../scss/viewlets/_hero.scss */
+/* line 70, ../scss/viewlets/_hero.scss */
 #hero.text-hero, #hero.image-hero {
   flex-direction: column;
 }
-/* line 80, ../scss/viewlets/_hero.scss */
+/* line 74, ../scss/viewlets/_hero.scss */
+#hero.text-hero > section, #hero.image-hero > section {
+  order: 2;
+}
+/* line 77, ../scss/viewlets/_hero.scss */
 #hero.text-hero > section img, #hero.image-hero > section img {
   height: 100px;
 }
-/* line 89, ../scss/viewlets/_hero.scss */
+/* line 86, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero h1,
 #hero.pretty-image-hero .h1, #hero.full-pretty-image-hero h1,
 #hero.full-pretty-image-hero .h1 {
   color: white;
   font-size: 2.5rem;
 }
-/* line 95, ../scss/viewlets/_hero.scss */
+/* line 92, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero h2,
 #hero.pretty-image-hero .h2, #hero.full-pretty-image-hero h2,
 #hero.full-pretty-image-hero .h2 {
@@ -14334,13 +14334,13 @@ body.template-homepage #hero {
   margin-top: 1rem;
 }
 @media (max-width: 768px) {
-  /* line 104, ../scss/viewlets/_hero.scss */
+  /* line 101, ../scss/viewlets/_hero.scss */
   #hero.pretty-image-hero h1,
   #hero.pretty-image-hero .h1, #hero.full-pretty-image-hero h1,
   #hero.full-pretty-image-hero .h1 {
     font-size: 1.75rem;
   }
-  /* line 109, ../scss/viewlets/_hero.scss */
+  /* line 106, ../scss/viewlets/_hero.scss */
   #hero.pretty-image-hero h2,
   #hero.pretty-image-hero .h2, #hero.full-pretty-image-hero h2,
   #hero.full-pretty-image-hero .h2 {
@@ -14348,7 +14348,7 @@ body.template-homepage #hero {
     margin-top: .5rem;
   }
 }
-/* line 116, ../scss/viewlets/_hero.scss */
+/* line 113, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero > div, #hero.full-pretty-image-hero > div {
   background-color: var(--bs-primary);
   position: relative;
@@ -14357,21 +14357,21 @@ body.template-homepage #hero {
   padding: 1.25rem;
 }
 @media (max-width: 992px) {
-  /* line 116, ../scss/viewlets/_hero.scss */
+  /* line 113, ../scss/viewlets/_hero.scss */
   #hero.pretty-image-hero > div, #hero.full-pretty-image-hero > div {
     padding: 0.75rem;
   }
 }
-/* line 127, ../scss/viewlets/_hero.scss */
+/* line 124, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-hero > div > *, #hero.full-pretty-image-hero > div > * {
   padding-left: 2rem;
   padding-right: 1rem;
 }
-/* line 134, ../scss/viewlets/_hero.scss */
+/* line 131, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-black-hero {
   flex-direction: column-reverse;
 }
-/* line 145, ../scss/viewlets/_hero.scss */
+/* line 142, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-black-hero.position-text-left .bullet-image, #hero.pretty-image-black-hero.position-text-right .bullet-image, #hero.pretty-image-black-hero.position-text-down .bullet-image, #hero.pretty-image-hero.position-text-left .bullet-image, #hero.pretty-image-hero.position-text-right .bullet-image, #hero.pretty-image-hero.position-text-down .bullet-image {
   background: var(--bs-gray-300);
   text-align: center;
@@ -14380,7 +14380,7 @@ body.template-homepage #hero {
   overflow: hidden;
   position: relative;
 }
-/* line 153, ../scss/viewlets/_hero.scss */
+/* line 150, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-black-hero.position-text-left .bullet-image img, #hero.pretty-image-black-hero.position-text-right .bullet-image img, #hero.pretty-image-black-hero.position-text-down .bullet-image img, #hero.pretty-image-hero.position-text-left .bullet-image img, #hero.pretty-image-hero.position-text-right .bullet-image img, #hero.pretty-image-hero.position-text-down .bullet-image img {
   object-fit: cover;
   left: 0;
@@ -14392,11 +14392,11 @@ body.template-homepage #hero {
   transition: all .5s ease;
   border-radius: 0;
 }
-/* line 165, ../scss/viewlets/_hero.scss */
+/* line 162, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-black-hero.position-text-left .bullet-image article, #hero.pretty-image-black-hero.position-text-right .bullet-image article, #hero.pretty-image-black-hero.position-text-down .bullet-image article, #hero.pretty-image-hero.position-text-left .bullet-image article, #hero.pretty-image-hero.position-text-right .bullet-image article, #hero.pretty-image-hero.position-text-down .bullet-image article {
   z-index: 2;
 }
-/* line 168, ../scss/viewlets/_hero.scss */
+/* line 165, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-black-hero.position-text-left .bullet-image article .bullet, #hero.pretty-image-black-hero.position-text-right .bullet-image article .bullet, #hero.pretty-image-black-hero.position-text-down .bullet-image article .bullet, #hero.pretty-image-hero.position-text-left .bullet-image article .bullet, #hero.pretty-image-hero.position-text-right .bullet-image article .bullet, #hero.pretty-image-hero.position-text-down .bullet-image article .bullet {
   text-decoration: none;
   background: rgba(0, 0, 0, 0.75);
@@ -14404,12 +14404,12 @@ body.template-homepage #hero {
   display: inline-block;
   transition: all .5s ease;
 }
-/* line 175, ../scss/viewlets/_hero.scss */
+/* line 172, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-black-hero.position-text-left .bullet-image article .bullet p.h2, #hero.pretty-image-black-hero.position-text-right .bullet-image article .bullet p.h2, #hero.pretty-image-black-hero.position-text-down .bullet-image article .bullet p.h2, #hero.pretty-image-hero.position-text-left .bullet-image article .bullet p.h2, #hero.pretty-image-hero.position-text-right .bullet-image article .bullet p.h2, #hero.pretty-image-hero.position-text-down .bullet-image article .bullet p.h2 {
   color: var(--bs-white);
   margin-top: 0px;
 }
-/* line 187, ../scss/viewlets/_hero.scss */
+/* line 184, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-black-hero.position-text-left .bullet, #hero.pretty-image-black-hero.position-text-right .bullet, #hero.pretty-image-hero.position-text-left .bullet, #hero.pretty-image-hero.position-text-right .bullet {
   width: 360px;
   height: 360px;
@@ -14417,17 +14417,17 @@ body.template-homepage #hero {
   position: relative;
   margin: 70px 0;
 }
-/* line 194, ../scss/viewlets/_hero.scss */
+/* line 191, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-black-hero.position-text-left .bullet p.h2, #hero.pretty-image-black-hero.position-text-right .bullet p.h2, #hero.pretty-image-hero.position-text-left .bullet p.h2, #hero.pretty-image-hero.position-text-right .bullet p.h2 {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
-/* line 204, ../scss/viewlets/_hero.scss */
+/* line 201, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-black-hero.position-text-right article, #hero.pretty-image-hero.position-text-right article {
   justify-content: flex-end;
 }
-/* line 213, ../scss/viewlets/_hero.scss */
+/* line 210, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-black-hero.position-text-down .bullet-image article, #hero.pretty-image-hero.position-text-down .bullet-image article {
   align-items: flex-end;
   margin: 0;
@@ -14435,21 +14435,21 @@ body.template-homepage #hero {
   width: 100%;
   max-width: 100%;
 }
-/* line 220, ../scss/viewlets/_hero.scss */
+/* line 217, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-black-hero.position-text-down .bullet-image article .bullet, #hero.pretty-image-hero.position-text-down .bullet-image article .bullet {
   width: 100% !important;
 }
-/* line 227, ../scss/viewlets/_hero.scss */
+/* line 224, ../scss/viewlets/_hero.scss */
 #hero.pretty-image-black-hero img, #hero.pretty-image-hero img {
   height: 500px;
 }
 @media (max-width: 992px) {
-  /* line 227, ../scss/viewlets/_hero.scss */
+  /* line 224, ../scss/viewlets/_hero.scss */
   #hero.pretty-image-black-hero img, #hero.pretty-image-hero img {
     height: unset !important;
   }
 }
-/* line 236, ../scss/viewlets/_hero.scss */
+/* line 233, ../scss/viewlets/_hero.scss */
 #hero.full-pretty-image-hero {
   width: 100%;
   height: calc(100dvh - 92px);
@@ -14462,7 +14462,7 @@ body.template-homepage #hero {
   background-position: center center;
   background-repeat: no-repeat;
 }
-/* line 248, ../scss/viewlets/_hero.scss */
+/* line 245, ../scss/viewlets/_hero.scss */
 #hero.full-pretty-image-hero a.down-hero {
   font-size: 3rem;
   color: var(--bs-primary);
@@ -14470,22 +14470,22 @@ body.template-homepage #hero {
   bottom: 1.5rem;
 }
 @media (max-width: 768px) {
-  /* line 248, ../scss/viewlets/_hero.scss */
+  /* line 245, ../scss/viewlets/_hero.scss */
   #hero.full-pretty-image-hero a.down-hero {
     bottom: 1rem;
   }
 }
-/* line 258, ../scss/viewlets/_hero.scss */
+/* line 255, ../scss/viewlets/_hero.scss */
 #hero.full-pretty-image-hero a.down-hero:hover {
   color: var(--bs-primary-hover);
 }
-/* line 264, ../scss/viewlets/_hero.scss */
+/* line 261, ../scss/viewlets/_hero.scss */
 #hero img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-/* line 270, ../scss/viewlets/_hero.scss */
+/* line 267, ../scss/viewlets/_hero.scss */
 #hero h2,
 #hero h1,
 #hero .h2,
@@ -14494,22 +14494,22 @@ body.template-homepage #hero {
   margin-bottom: 0;
 }
 @media (max-width: 992px) {
-  /* line 287, ../scss/viewlets/_hero.scss */
+  /* line 284, ../scss/viewlets/_hero.scss */
   #hero.pretty-image-black-hero.position-text-left .bullet-image, #hero.pretty-image-black-hero.position-text-right .bullet-image, #hero.pretty-image-black-hero.position-text-down .bullet-image, #hero.pretty-image-hero.position-text-left .bullet-image, #hero.pretty-image-hero.position-text-right .bullet-image, #hero.pretty-image-hero.position-text-down .bullet-image {
     justify-content: center;
     flex-direction: column;
     height: unset;
     background: #000;
   }
-  /* line 293, ../scss/viewlets/_hero.scss */
+  /* line 290, ../scss/viewlets/_hero.scss */
   #hero.pretty-image-black-hero.position-text-left .bullet-image img, #hero.pretty-image-black-hero.position-text-right .bullet-image img, #hero.pretty-image-black-hero.position-text-down .bullet-image img, #hero.pretty-image-hero.position-text-left .bullet-image img, #hero.pretty-image-hero.position-text-right .bullet-image img, #hero.pretty-image-hero.position-text-down .bullet-image img {
     position: relative;
   }
-  /* line 297, ../scss/viewlets/_hero.scss */
+  /* line 294, ../scss/viewlets/_hero.scss */
   #hero.pretty-image-black-hero.position-text-left .bullet-image article, #hero.pretty-image-black-hero.position-text-right .bullet-image article, #hero.pretty-image-black-hero.position-text-down .bullet-image article, #hero.pretty-image-hero.position-text-left .bullet-image article, #hero.pretty-image-hero.position-text-right .bullet-image article, #hero.pretty-image-hero.position-text-down .bullet-image article {
     padding: 0;
   }
-  /* line 300, ../scss/viewlets/_hero.scss */
+  /* line 297, ../scss/viewlets/_hero.scss */
   #hero.pretty-image-black-hero.position-text-left .bullet-image article .bullet, #hero.pretty-image-black-hero.position-text-right .bullet-image article .bullet, #hero.pretty-image-black-hero.position-text-down .bullet-image article .bullet, #hero.pretty-image-hero.position-text-left .bullet-image article .bullet, #hero.pretty-image-hero.position-text-right .bullet-image article .bullet, #hero.pretty-image-hero.position-text-down .bullet-image article .bullet {
     background: #000;
     width: 100%;
