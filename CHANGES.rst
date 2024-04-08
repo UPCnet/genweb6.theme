@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-1.25 (unreleased)
+1.25 (2024-04-08)
 -----------------
 
-- Nothing changed yet.
-
+* [FIX] Cabecera half con título negro [Iago López]
+* [FIX] Estilos banners [Iago López]
 
 1.24 (2024-04-03)
 -----------------
