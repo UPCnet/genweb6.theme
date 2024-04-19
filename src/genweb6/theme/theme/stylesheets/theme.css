@@ -11762,6 +11762,14 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
 .existing-content.portaltype-genweb-core-accordiontabs .alert.alert-info {
   display: none;
 }
+/* line 25, ../scss/portlets/_new_existing_content.scss */
+.existing-content.portaltype-collection a {
+  text-decoration: none;
+}
+/* line 28, ../scss/portlets/_new_existing_content.scss */
+.existing-content.portaltype-collection a:hover {
+  text-decoration: underline;
+}
 
 /* line 6, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-indicators button,
