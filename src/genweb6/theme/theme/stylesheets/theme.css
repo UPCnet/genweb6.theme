@@ -8283,7 +8283,7 @@ body#tinymce .label.label-warning,
 body#tinymce .purple-background,
 .mosaic-tile-content .purple-background,
 #content-core .purple-background {
-  background-color: #e7dbee;
+  background-color: #e7dbee !important;
 }
 /* line 57, ../scss/old/_styles.scss */
 .portaltype-packet#content .purpleDark-background,
@@ -8294,7 +8294,7 @@ body#tinymce .purple-background,
 body#tinymce .purpleDark-background,
 .mosaic-tile-content .purpleDark-background,
 #content-core .purpleDark-background {
-  background-color: #cfb9dd;
+  background-color: #cfb9dd !important;
 }
 /* line 61, ../scss/old/_styles.scss */
 .portaltype-packet#content .pink-background,
@@ -8305,7 +8305,7 @@ body#tinymce .purpleDark-background,
 body#tinymce .pink-background,
 .mosaic-tile-content .pink-background,
 #content-core .pink-background {
-  background-color: #f4bfe1;
+  background-color: #f4bfe1 !important;
 }
 /* line 65, ../scss/old/_styles.scss */
 .portaltype-packet#content .orange-background,
@@ -8316,7 +8316,7 @@ body#tinymce .pink-background,
 body#tinymce .orange-background,
 .mosaic-tile-content .orange-background,
 #content-core .orange-background {
-  background-color: #fdd49a;
+  background-color: #fdd49a !important;
 }
 /* line 69, ../scss/old/_styles.scss */
 .portaltype-packet#content .blueDark-background,
@@ -8327,7 +8327,7 @@ body#tinymce .orange-background,
 body#tinymce .blueDark-background,
 .mosaic-tile-content .blueDark-background,
 #content-core .blueDark-background {
-  background-color: #9acbff;
+  background-color: #9acbff !important;
 }
 /* line 73, ../scss/old/_styles.scss */
 .portaltype-packet#content .green-background,
@@ -8338,7 +8338,7 @@ body#tinymce .blueDark-background,
 body#tinymce .green-background,
 .mosaic-tile-content .green-background,
 #content-core .green-background {
-  background-color: #bce673;
+  background-color: #bce673 !important;
 }
 /* line 77, ../scss/old/_styles.scss */
 .portaltype-packet#content .gray-background,
@@ -8349,7 +8349,7 @@ body#tinymce .green-background,
 body#tinymce .gray-background,
 .mosaic-tile-content .gray-background,
 #content-core .gray-background {
-  background-color: var(--bs-gray-500);
+  background-color: var(--bs-gray-500) !important;
 }
 /* line 81, ../scss/old/_styles.scss */
 .portaltype-packet#content .grayLight-background,
@@ -8360,7 +8360,7 @@ body#tinymce .gray-background,
 body#tinymce .grayLight-background,
 .mosaic-tile-content .grayLight-background,
 #content-core .grayLight-background {
-  background-color: var(--bs-gray-400);
+  background-color: var(--bs-gray-400) !important;
 }
 /* line 85, ../scss/old/_styles.scss */
 .portaltype-packet#content .grayLighter-background,
@@ -8371,7 +8371,7 @@ body#tinymce .grayLight-background,
 body#tinymce .grayLighter-background,
 .mosaic-tile-content .grayLighter-background,
 #content-core .grayLighter-background {
-  background-color: var(--bs-gray-300);
+  background-color: var(--bs-gray-300) !important;
 }
 /* line 89, ../scss/old/_styles.scss */
 .portaltype-packet#content .success,
@@ -8382,8 +8382,8 @@ body#tinymce .grayLighter-background,
 body#tinymce .success,
 .mosaic-tile-content .success,
 #content-core .success {
-  background-color: #e5f5ca;
-  color: #333;
+  background-color: #e5f5ca !important;
+  color: #333 !important;
 }
 /* line 94, ../scss/old/_styles.scss */
 .portaltype-packet#content .error,
@@ -8394,8 +8394,8 @@ body#tinymce .success,
 body#tinymce .error,
 .mosaic-tile-content .error,
 #content-core .error {
-  background-color: #fae6e4;
-  color: #333;
+  background-color: #fae6e4 !important;
+  color: #333 !important;
 }
 /* line 99, ../scss/old/_styles.scss */
 .portaltype-packet#content .info,
@@ -8406,8 +8406,8 @@ body#tinymce .error,
 body#tinymce .info,
 .mosaic-tile-content .info,
 #content-core .info {
-  background-color: #e1f3f8;
-  color: #333;
+  background-color: #e1f3f8 !important;
+  color: #333 !important;
 }
 /* line 104, ../scss/old/_styles.scss */
 .portaltype-packet#content .warning,
@@ -8418,8 +8418,8 @@ body#tinymce .info,
 body#tinymce .warning,
 .mosaic-tile-content .warning,
 #content-core .warning {
-  background-color: #fbf0cc;
-  color: #333;
+  background-color: #fbf0cc !important;
+  color: #333 !important;
 }
 /* line 112, ../scss/old/_styles.scss */
 .portaltype-packet#content ins,
