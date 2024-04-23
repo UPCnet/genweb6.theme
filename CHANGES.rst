@@ -2,11 +2,12 @@ Changelog
 =========
 
 
-1.27 (unreleased)
+1.27 (2024-04-23)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] Que no sobresalgan los textos largos del portlet de navegacion [Iago López]
+* [UPD] EStilos [Iago López]
+* [UPD] Estilos portlet nex_existing_content [Iago López]
 
 1.26 (2024-04-18)
 -----------------
