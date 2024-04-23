@@ -29420,26 +29420,27 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  word-break: break-all;
 }
-/* line 83, ../scss/portlets/_navigation.scss */
+/* line 84, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a:hover {
   background-color: transparent;
   text-decoration: none;
   color: var(--bs-primary);
 }
-/* line 88, ../scss/portlets/_navigation.scss */
+/* line 89, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a:hover svg {
   text-decoration: none;
 }
-/* line 93, ../scss/portlets/_navigation.scss */
+/* line 94, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a.navTreeItemInPath {
   color: var(--bs-primary);
 }
-/* line 97, ../scss/portlets/_navigation.scss */
+/* line 98, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a.navTreeCurrentItem {
   font-weight: 600;
 }
-/* line 101, ../scss/portlets/_navigation.scss */
+/* line 102, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a svg {
   height: 1em;
   width: auto;
@@ -29447,7 +29448,7 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   padding-bottom: 2px;
   min-width: 24px;
 }
-/* line 110, ../scss/portlets/_navigation.scss */
+/* line 111, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem ul {
   padding-left: 1rem;
 }

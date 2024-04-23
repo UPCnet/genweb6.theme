@@ -79,6 +79,7 @@
           display: flex;
           flex-wrap: wrap;
           align-items: center;
+          word-break: break-all;
 
           &:hover {
             background-color: transparent;
