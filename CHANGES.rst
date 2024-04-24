@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.28 (unreleased)
+1.28 (2024-04-24)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] Estilos [Iago López]
 
 1.27 (2024-04-23)
 -----------------
