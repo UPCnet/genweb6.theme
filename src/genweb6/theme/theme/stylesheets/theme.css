@@ -8382,8 +8382,8 @@ body#tinymce .grayLighter-background,
 body#tinymce .success,
 .mosaic-tile-content .success,
 #content-core .success {
-  background-color: #e5f5ca !important;
-  color: #333 !important;
+  background-color: #e5f5ca;
+  color: #333;
 }
 /* line 94, ../scss/old/_styles.scss */
 .portaltype-packet#content .error,
@@ -8394,8 +8394,8 @@ body#tinymce .success,
 body#tinymce .error,
 .mosaic-tile-content .error,
 #content-core .error {
-  background-color: #fae6e4 !important;
-  color: #333 !important;
+  background-color: #fae6e4;
+  color: #333;
 }
 /* line 99, ../scss/old/_styles.scss */
 .portaltype-packet#content .info,
@@ -8406,8 +8406,8 @@ body#tinymce .error,
 body#tinymce .info,
 .mosaic-tile-content .info,
 #content-core .info {
-  background-color: #e1f3f8 !important;
-  color: #333 !important;
+  background-color: #e1f3f8;
+  color: #333;
 }
 /* line 104, ../scss/old/_styles.scss */
 .portaltype-packet#content .warning,
@@ -8418,8 +8418,8 @@ body#tinymce .info,
 body#tinymce .warning,
 .mosaic-tile-content .warning,
 #content-core .warning {
-  background-color: #fbf0cc !important;
-  color: #333 !important;
+  background-color: #fbf0cc;
+  color: #333;
 }
 /* line 112, ../scss/old/_styles.scss */
 .portaltype-packet#content ins,
