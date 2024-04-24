@@ -10,7 +10,8 @@
 .mceTmpl,
 body#tinymce,
 .mosaic-tile-content,
-#content-core {
+#content-core #parent-fieldname-text,
+body.frontend #content-core {
 
    @import "banners";
    @import "bootstrap2";
