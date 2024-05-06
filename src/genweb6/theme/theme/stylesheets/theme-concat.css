@@ -20373,6 +20373,11 @@ a.wrapper-img-link:before {
   height: 100%;
 }
 
+/* line 471, ../scss/_genweb.scss */
+.pat-relateditems-dropdown .select2-results {
+  max-height: 350px !important;
+}
+
 /* line 1, ../scss/_new_class.scss */
 .text-truncate-2 {
   overflow: hidden;
