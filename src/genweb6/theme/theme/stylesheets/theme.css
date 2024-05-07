@@ -11560,7 +11560,7 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  word-break: break-all;
+  word-break: break-word;
 }
 /* line 84, ../scss/portlets/_navigation.scss */
 .portlet.portletNavigationTree .card-body ul.navTree li.navTreeItem a:hover {
