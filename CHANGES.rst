@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.31 (unreleased)
+1.31 (2024-05-07)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] break-word [Iago López]
 
 1.30 (2024-05-07)
 -----------------
