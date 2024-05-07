@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='genweb6.theme',
-    version='1.30',
+    version='1.31.dev0',
     description="Genweb 6 Theme package",
     long_description=long_description,
     # Get more from https://pypi.org/classifiers/
