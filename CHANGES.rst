@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.30 (unreleased)
+1.30 (2024-05-07)
 -----------------
 
-- Nothing changed yet.
-
+* [ADD] Estilos relateditems [Iago López]
 
 1.29 (2024-04-29)
 -----------------
