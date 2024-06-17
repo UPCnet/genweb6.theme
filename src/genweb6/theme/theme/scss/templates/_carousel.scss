@@ -113,6 +113,20 @@
     right: 5rem;
     left: inherit;
   }
+
+  @media (max-width: 767px) {
+    margin-top: 3.5rem;
+
+    > div:not(.carousel-indicators) > button {
+      position: absolute !important;
+      top: -33px !important;
+    }
+
+    div.carousel-indicators {
+      position: absolute !important;
+      bottom: -33px !important;
+    }   
+  }
 }
 
 .template-multiple-carousel {

@@ -29770,47 +29770,63 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   right: 5rem;
   left: inherit;
 }
+@media (max-width: 767px) {
+  /* line 69, ../scss/templates/_carousel.scss */
+  .template-carousel {
+    margin-top: 3.5rem;
+  }
+  /* line 120, ../scss/templates/_carousel.scss */
+  .template-carousel > div:not(.carousel-indicators) > button {
+    position: absolute !important;
+    top: -33px !important;
+  }
+  /* line 125, ../scss/templates/_carousel.scss */
+  .template-carousel div.carousel-indicators {
+    position: absolute !important;
+    bottom: -33px !important;
+  }
+}
 
-/* line 120, ../scss/templates/_carousel.scss */
+/* line 134, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner {
   margin-right: 2.5rem;
   margin-left: 2.5rem;
   width: calc(100% - 5rem);
 }
-/* line 129, ../scss/templates/_carousel.scss */
+/* line 143, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item a.title:hover {
   color: var(--bs-primary);
 }
-/* line 132, ../scss/templates/_carousel.scss */
+/* line 146, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item a.title:hover * {
   color: var(--bs-primary);
 }
-/* line 138, ../scss/templates/_carousel.scss */
+/* line 152, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item img:not(.disable-auto-proportions) {
   aspect-ratio: 4 / 3;
 }
-/* line 148, ../scss/templates/_carousel.scss */
+/* line 162, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-control-prev i.bi,
 .template-multiple-carousel .carousel-control-next i.bi {
   font-size: 2rem;
   color: var(--bs-primary);
 }
-/* line 152, ../scss/templates/_carousel.scss */
+/* line 166, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-control-prev i.bi:hover,
 .template-multiple-carousel .carousel-control-next i.bi:hover {
   color: var(--bs-primary-hover);
 }
 @media (max-width: 767px) {
-  /* line 160, ../scss/templates/_carousel.scss */
+  /* line 174, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item > div {
     display: none;
   }
-  /* line 164, ../scss/templates/_carousel.scss */
+  /* line 178, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item > div:first-child {
     display: block;
   }
 }
-/* line 170, ../scss/templates/_carousel.scss */
+/* line 184, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item.active,
 .template-multiple-carousel .carousel-inner .carousel-item-next,
 .template-multiple-carousel .carousel-inner .carousel-item-prev {
@@ -29818,72 +29834,72 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   gap: 2rem;
 }
 @media (max-width: 767px) {
-  /* line 179, ../scss/templates/_carousel.scss */
+  /* line 193, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(100%);
   }
-  /* line 184, ../scss/templates/_carousel.scss */
+  /* line 198, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(-100%);
   }
 }
 @media (min-width: 768px) {
-  /* line 192, ../scss/templates/_carousel.scss */
+  /* line 206, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(calc(100% / 3));
   }
-  /* line 197, ../scss/templates/_carousel.scss */
+  /* line 211, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(calc(-100% / 3));
   }
-  /* line 204, ../scss/templates/_carousel.scss */
+  /* line 218, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-item.active.carousel-item-start > .w-100:not(:first-child) {
     opacity: 0;
   }
-  /* line 211, ../scss/templates/_carousel.scss */
+  /* line 225, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-item.active.carousel-item-end > .w-100:not(:last-child) {
     opacity: 0;
   }
 }
 @media (min-width: 992px) {
-  /* line 219, ../scss/templates/_carousel.scss */
+  /* line 233, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(25%);
   }
-  /* line 224, ../scss/templates/_carousel.scss */
+  /* line 238, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(-25%);
   }
 }
-/* line 230, ../scss/templates/_carousel.scss */
+/* line 244, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item-end,
 .template-multiple-carousel .carousel-inner .carousel-item-start {
   transform: translateX(0);
 }
 
-/* line 245, ../scss/templates/_carousel.scss */
+/* line 259, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item img:not(.disable-auto-proportions),
 .col-md-3 > .portletWrapper .template-carousel .carousel-item img:not(.disable-auto-proportions) {
   aspect-ratio: 1;
 }
-/* line 249, ../scss/templates/_carousel.scss */
+/* line 263, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item p,
 .col-md-3 > .portletWrapper .template-carousel .carousel-item p {
   font-size: 14px;
 }
-/* line 253, ../scss/templates/_carousel.scss */
+/* line 267, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item h6,
 .col-md-3 > .portletWrapper .template-carousel .carousel-item h6 {
   color: var(--bs-dark);
 }
 
-/* line 269, ../scss/templates/_carousel.scss */
+/* line 283, ../scss/templates/_carousel.scss */
 .col-md-4:not(.disable-auto-proportions) > .portletWrapper .template-carousel .carousel-item img {
   aspect-ratio: 4 / 3;
 }
