@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-1.32 (unreleased)
+1.32 (2024-06-19)
 -----------------
 
-- Nothing changed yet.
-
+* Improve carousel visualization on smaller devices [ruben.padilla.mateu]
+* Added template for access box - Esports' box [ruben.padilla.mateu]
 
 1.31 (2024-05-07)
 -----------------
