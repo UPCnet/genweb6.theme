@@ -32630,6 +32630,10 @@ div#social_tags a[target="_blank"]::after {
   float: initial;
   margin: 0 0 1em 0em;
 }
+/* line 9, ../scss/viewlets/_table_of_contents.scss */
+#content-core .pat-autotoc .autotoc-nav a {
+  text-decoration: none;
+}
 
 /* line 3, ../scss/views/_author.scss */
 body.template-author h1.documentFirstHeading {
