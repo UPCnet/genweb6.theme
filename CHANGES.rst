@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.33 (unreleased)
+1.33 (2024-07-17)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] Quitar subrayado indices GW [Iago López]
 
 1.32 (2024-06-19)
 -----------------
