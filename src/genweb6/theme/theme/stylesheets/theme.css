@@ -11230,7 +11230,7 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
 }
 /* line 15, ../scss/portlets/_esdeveniments.scss */
 .portlet.portlet-esdeveniments .cal_date {
-  width: 100px;
+  width: 120px;
   float: left;
 }
 
