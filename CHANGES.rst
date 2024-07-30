@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.34 (unreleased)
+1.34 (2024-07-30)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] Estilos portlet esdeveniments - aumentar width de la caja de la fecha [Iago López]
 
 1.33 (2024-07-17)
 -----------------
