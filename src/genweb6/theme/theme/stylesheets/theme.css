@@ -14885,6 +14885,20 @@ body.template-folder_contents #portal-breadcrumbs,
 body.template-folder_contents #content > header {
   display: none;
 }
+/* line 40, ../scss/views/_folder_contents.scss */
+div.existing-content.template-folder_contents .pat-structure .upload-container .upload-area,
+body.template-folder_contents .pat-structure .upload-container .upload-area {
+  max-height: 70dvh;
+  padding: 30px 15px;
+}
+/* line 44, ../scss/views/_folder_contents.scss */
+div.existing-content.template-folder_contents .pat-structure .upload-container .upload-area .previews,
+body.template-folder_contents .pat-structure .upload-container .upload-area .previews {
+  margin-top: 2em;
+  height: 45dvh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 
 /* line 7, ../scss/views/_history.scss */
 body.template-versions-history-form #content-core #sortable span {

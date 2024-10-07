@@ -32,4 +32,22 @@ body.template-folder_contents {
   #content > header {
     display: none;
   }
+
+  .pat-structure  {
+
+    .upload-container {
+
+      .upload-area {
+        max-height: 70dvh;
+        padding: 30px 15px;
+
+        .previews {
+          margin-top: 2em;
+          height: 45dvh;
+          overflow-y: auto;
+          overflow-x: hidden;
+        }
+      }
+    }
+  }
 }
