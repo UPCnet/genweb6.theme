@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.36 (unreleased)
+1.36 (2024-10-08)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] Mejora de estilos en la subida ficheros de forma masiva [Iago López]
 
 1.35 (2024-07-30)
 -----------------
