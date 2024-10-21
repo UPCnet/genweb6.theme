@@ -15260,7 +15260,7 @@ body.template-sitemap #content-core #portal-sitemap > li.navTreeItem > ul ::hove
 div.existing-content.template-album_view #content-core .card,
 body.template-album_view #content-core .card {
   width: 18rem;
-  height: 30rem;
+  height: 100%;
 }
 /* line 10, ../scss/views/_album_view.scss */
 div.existing-content.template-album_view #content-core .card.album,
