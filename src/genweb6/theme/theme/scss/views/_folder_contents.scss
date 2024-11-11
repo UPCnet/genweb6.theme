@@ -43,7 +43,7 @@ body.template-folder_contents {
 
         .previews {
           margin-top: 2em;
-          height: 45dvh;
+          max-height: 45dvh;
           overflow-y: auto;
           overflow-x: hidden;
         }

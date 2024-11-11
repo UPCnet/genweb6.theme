@@ -32760,7 +32760,7 @@ body.template-folder_contents .pat-structure .upload-container .upload-area {
 div.existing-content.template-folder_contents .pat-structure .upload-container .upload-area .previews,
 body.template-folder_contents .pat-structure .upload-container .upload-area .previews {
   margin-top: 2em;
-  height: 45dvh;
+  max-height: 45dvh;
   overflow-y: auto;
   overflow-x: hidden;
 }
