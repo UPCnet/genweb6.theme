@@ -9,6 +9,10 @@
        url("fonts/upc/upc-icones.svg#upc-icones") format("svg");
 }
 
+* {
+  scroll-margin-top: 100px;
+}
+
 body {
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px !important;
