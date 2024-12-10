@@ -2,11 +2,13 @@ Changelog
 =========
 
 
-1.37 (unreleased)
+1.37 (2024-12-10)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] scroll-margin-top [Iago López]
+* [UPD] Mejora de estilos en la subida ficheros de forma masiva [Iago López]
+* [UPD] Mejora plantillas cto-imatge-dreta cto-imatge-esquerra [Iago López]
+* [UPD] Mejora estilos vista album [Iago López]
 
 1.36 (2024-10-08)
 -----------------
