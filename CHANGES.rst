@@ -2,11 +2,14 @@ Changelog
 =========
 
 
-1.38 (unreleased)
+1.38 (2025-02-03)
 -----------------
 
-- Nothing changed yet.
-
+* Merge remote-tracking branch 'origin/develop' [Pilar Marinas]
+* [UPD] gtag function analytics [Clàudia Andreu]
+* Update caixa-accedeix.html [Iago López Fernández]
+* [UPD] links in caixa-accedeix template to use Genweb resources [Clàudia Andreu]
+* [UPD] Actualizar fontawesome a 6.7.2 pro [Iago López]
 
 1.37 (2024-12-10)
 -----------------
