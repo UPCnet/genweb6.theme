@@ -2,11 +2,12 @@ Changelog
 =========
 
 
-1.39 (unreleased)
+1.39 (2025-02-10)
 -----------------
 
-- Nothing changed yet.
-
+* Merge remote-tracking branch 'origin/develop' [Pilar Marinas]
+* [UPD] caixa-accedeix links and title [Clàudia Andreu]
+* [FIX] No se veian bien los estilos en contenidos existentes sin contorno [Iago López]
 
 1.38 (2025-02-03)
 -----------------
