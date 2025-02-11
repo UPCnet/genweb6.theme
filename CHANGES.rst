@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.40 (unreleased)
+1.40 (2025-02-11)
 -----------------
 
-- Nothing changed yet.
-
+* [FIX] caixa-accedeix [Iago López]
 
 1.39 (2025-02-10)
 -----------------
