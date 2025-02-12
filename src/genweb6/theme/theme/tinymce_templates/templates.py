@@ -178,4 +178,12 @@ templates = [
     {"title-ca": "Interactiu - Modal",
      "title-es": "Interactivo - Modal",
      "title-en": "Interactive - Modal",
-     "url": "/++theme++genweb6.theme/tinymce_templates/interactius/modal.html"}]
+     "url": "/++theme++genweb6.theme/tinymce_templates/interactius/modal.html"},
+         {"title-ca": "Vídeo Youtube",
+     "title-es": "Vídeo Youtube",
+     "title-en": "Youtube Video",
+     "url": "/++theme++genweb6.theme/tinymce_templates/continguts/youtube.html"},
+         {"title-ca": "Vídeo Zonavideo",
+     "title-es": "Vídeo Zonavideo",
+     "title-en": "Zonavideo Video",
+     "url": "/++theme++genweb6.theme/tinymce_templates/continguts/zonavideo.html"}]
