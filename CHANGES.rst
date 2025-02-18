@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-1.41 (unreleased)
+1.41 (2025-02-18)
 -----------------
 
-- Nothing changed yet.
-
+* [FIX] modifications in caixa accedeix template [Clàudia Andreu]
+* [ADD] tiny templates youtube & zonavideo [Clàudia Andreu]
 
 1.40 (2025-02-11)
 -----------------
