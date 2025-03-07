@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-1.42 (unreleased)
+1.42 (2025-03-07)
 -----------------
 
-- Nothing changed yet.
-
+* [ADD] new tiny format for headers [Clàudia Andreu]
+* [UPD] styles for header-controlpanel [Clàudia Andreu]
 
 1.41 (2025-02-18)
 -----------------
