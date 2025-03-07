@@ -107,6 +107,7 @@
 }
 
 
+
 /* Formatos de texto */
 
 ins,
@@ -183,6 +184,28 @@ code {
   background-color: #c04500;
   border: 1px solid #8d3300;
 }
+
+.title-line{
+  position: relative;
+  overflow: hidden;
+  padding: 6px 0;
+  margin-top: 0;}
+  
+  .title-line::after {
+  content: "";
+  position: absolute;
+  margin-left: 12px;
+  background: #d1d1d1;
+  height: 1px;
+  box-shadow: 1000px 0 0 -1000px #d1d1d1;
+  width: 100%;
+  top: 50%;
+  }*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+  
 
 /* Iconos */
 

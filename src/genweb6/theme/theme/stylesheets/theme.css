@@ -9055,7 +9055,7 @@ body#tinymce .warning,
   background-color: #fbf0cc;
   color: #333;
 }
-/* line 112, ../scss/old/_styles.scss */
+/* line 113, ../scss/old/_styles.scss */
 .portaltype-packet#content ins,
 .portaltype-packet#content .ins,
 .portlet-homepage ins,
@@ -9077,7 +9077,7 @@ body#tinymce .ins,
   color: #538300;
   text-decoration: underline;
 }
-/* line 118, ../scss/old/_styles.scss */
+/* line 119, ../scss/old/_styles.scss */
 .portaltype-packet#content del,
 .portaltype-packet#content .del,
 .portlet-homepage del,
@@ -9099,7 +9099,7 @@ body#tinymce .del,
   color: #c00;
   text-decoration: line-through;
 }
-/* line 124, ../scss/old/_styles.scss */
+/* line 125, ../scss/old/_styles.scss */
 .portaltype-packet#content .liniaBaix,
 .portlet-homepage .liniaBaix,
 .existing_content_portlet .liniaBaix,
@@ -9113,7 +9113,7 @@ body#tinymce .liniaBaix,
   margin: 0 0 18px 0;
   padding: 0 0 12px 0;
 }
-/* line 130, ../scss/old/_styles.scss */
+/* line 131, ../scss/old/_styles.scss */
 .portaltype-packet#content .liniaDalt,
 .portlet-homepage .liniaDalt,
 .existing_content_portlet .liniaDalt,
@@ -9127,7 +9127,7 @@ body#tinymce .liniaDalt,
   margin: 18px 0 0 0;
   padding: 12px 0 0 0;
 }
-/* line 136, ../scss/old/_styles.scss */
+/* line 137, ../scss/old/_styles.scss */
 .portaltype-packet#content .m,
 .portlet-homepage .m,
 .existing_content_portlet .m,
@@ -9139,7 +9139,7 @@ body#tinymce .m,
 #content-core #parent-fieldname-text .m {
   font-size: var(--bs-body-font-size) !important;
 }
-/* line 140, ../scss/old/_styles.scss */
+/* line 141, ../scss/old/_styles.scss */
 .portaltype-packet#content .l,
 .portlet-homepage .l,
 .existing_content_portlet .l,
@@ -9151,7 +9151,7 @@ body#tinymce .l,
 #content-core #parent-fieldname-text .l {
   font-size: var(--gw-font-size-l) !important;
 }
-/* line 144, ../scss/old/_styles.scss */
+/* line 145, ../scss/old/_styles.scss */
 .portaltype-packet#content .s,
 .portlet-homepage .s,
 .existing_content_portlet .s,
@@ -9163,7 +9163,7 @@ body#tinymce .s,
 #content-core #parent-fieldname-text .s {
   font-size: var(--gw-font-size-s) !important;
 }
-/* line 148, ../scss/old/_styles.scss */
+/* line 149, ../scss/old/_styles.scss */
 .portaltype-packet#content .xl,
 .portlet-homepage .xl,
 .existing_content_portlet .xl,
@@ -9175,7 +9175,7 @@ body#tinymce .xl,
 #content-core #parent-fieldname-text .xl {
   font-size: var(--gw-font-size-xl) !important;
 }
-/* line 152, ../scss/old/_styles.scss */
+/* line 153, ../scss/old/_styles.scss */
 .portaltype-packet#content .xs,
 .portlet-homepage .xs,
 .existing_content_portlet .xs,
@@ -9187,7 +9187,7 @@ body#tinymce .xs,
 #content-core #parent-fieldname-text .xs {
   font-size: var(--gw-font-size-xs) !important;
 }
-/* line 156, ../scss/old/_styles.scss */
+/* line 157, ../scss/old/_styles.scss */
 .portaltype-packet#content .xxl,
 .portlet-homepage .xxl,
 .existing_content_portlet .xxl,
@@ -9199,7 +9199,7 @@ body#tinymce .xxl,
 #content-core #parent-fieldname-text .xxl {
   font-size: var(--gw-font-size-xxl) !important;
 }
-/* line 160, ../scss/old/_styles.scss */
+/* line 161, ../scss/old/_styles.scss */
 .portaltype-packet#content .xxs,
 .portlet-homepage .xxs,
 .existing_content_portlet .xxs,
@@ -9211,7 +9211,7 @@ body#tinymce .xxs,
 #content-core #parent-fieldname-text .xxs {
   font-size: var(--gw-font-size-xxs) !important;
 }
-/* line 164, ../scss/old/_styles.scss */
+/* line 165, ../scss/old/_styles.scss */
 .portaltype-packet#content .xxxl,
 .portlet-homepage .xxxl,
 .existing_content_portlet .xxxl,
@@ -9223,7 +9223,7 @@ body#tinymce .xxxl,
 #content-core #parent-fieldname-text .xxxl {
   font-size: var(--gw-font-size-xxxl) !important;
 }
-/* line 168, ../scss/old/_styles.scss */
+/* line 169, ../scss/old/_styles.scss */
 .portaltype-packet#content .xxxs,
 .portlet-homepage .xxxs,
 .existing_content_portlet .xxxs,
@@ -9236,7 +9236,7 @@ body#tinymce .xxxs,
   font-size: var(--gw-font-size-xxs) !important;
 }
 @media print {
-  /* line 174, ../scss/old/_styles.scss */
+  /* line 175, ../scss/old/_styles.scss */
   .portaltype-packet#content .pageBreak,
   .portlet-homepage .pageBreak,
   .existing_content_portlet .pageBreak,
@@ -9249,7 +9249,7 @@ body#tinymce .xxxs,
     page-break-after: always;
   }
 }
-/* line 179, ../scss/old/_styles.scss */
+/* line 180, ../scss/old/_styles.scss */
 .portaltype-packet#content code,
 .portlet-homepage code,
 .existing_content_portlet code,
@@ -9265,7 +9265,63 @@ body#tinymce code,
   background-color: #c04500;
   border: 1px solid #8d3300;
 }
-/* line 200, ../scss/old/_styles.scss */
+/* line 188, ../scss/old/_styles.scss */
+.portaltype-packet#content .title-line,
+.portlet-homepage .title-line,
+.existing_content_portlet .title-line,
+.existing_content_portlet_no_border .title-line,
+.portletStaticText .title-line,
+.mceTmpl .title-line,
+body#tinymce .title-line,
+.mosaic-tile-content .title-line,
+#content-core #parent-fieldname-text .title-line {
+  position: relative;
+  overflow: hidden;
+  padding: 6px 0;
+  margin-top: 0;
+}
+/* line 194, ../scss/old/_styles.scss */
+.portaltype-packet#content .title-line::after,
+.portlet-homepage .title-line::after,
+.existing_content_portlet .title-line::after,
+.existing_content_portlet_no_border .title-line::after,
+.portletStaticText .title-line::after,
+.mceTmpl .title-line::after,
+body#tinymce .title-line::after,
+.mosaic-tile-content .title-line::after,
+#content-core #parent-fieldname-text .title-line::after {
+  content: "";
+  position: absolute;
+  margin-left: 12px;
+  background: #d1d1d1;
+  height: 1px;
+  box-shadow: 1000px 0 0 -1000px #d1d1d1;
+  width: 100%;
+  top: 50%;
+}
+/* line 203, ../scss/old/_styles.scss */
+.portaltype-packet#content *:before, .portaltype-packet#content *:after,
+.portlet-homepage *:before,
+.portlet-homepage *:after,
+.existing_content_portlet *:before,
+.existing_content_portlet *:after,
+.existing_content_portlet_no_border *:before,
+.existing_content_portlet_no_border *:after,
+.portletStaticText *:before,
+.portletStaticText *:after,
+.mceTmpl *:before,
+.mceTmpl *:after,
+body#tinymce *:before,
+body#tinymce *:after,
+.mosaic-tile-content *:before,
+.mosaic-tile-content *:after,
+#content-core #parent-fieldname-text *:before,
+#content-core #parent-fieldname-text *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 223, ../scss/old/_styles.scss */
 .portaltype-packet#content .doc:after,
 .portaltype-packet#content .pdf:after,
 .portaltype-packet#content .ppt:after,
@@ -9365,7 +9421,7 @@ body#tinymce .down:after,
   margin-left: 5px;
   position: relative;
 }
-/* line 212, ../scss/old/_styles.scss */
+/* line 235, ../scss/old/_styles.scss */
 .portaltype-packet#content .pdf:after,
 .portlet-homepage .pdf:after,
 .existing_content_portlet .pdf:after,
@@ -9377,7 +9433,7 @@ body#tinymce .pdf:after,
 #content-core #parent-fieldname-text .pdf:after {
   background-position: -432px -194px;
 }
-/* line 216, ../scss/old/_styles.scss */
+/* line 239, ../scss/old/_styles.scss */
 .portaltype-packet#content .ppt:after,
 .portlet-homepage .ppt:after,
 .existing_content_portlet .ppt:after,
@@ -9389,7 +9445,7 @@ body#tinymce .ppt:after,
 #content-core #parent-fieldname-text .ppt:after {
   background-position: -407px -193px;
 }
-/* line 220, ../scss/old/_styles.scss */
+/* line 243, ../scss/old/_styles.scss */
 .portaltype-packet#content .xlsdf:after,
 .portaltype-packet#content .xls:after,
 .portlet-homepage .xlsdf:after,
@@ -9410,7 +9466,7 @@ body#tinymce .xls:after,
 #content-core #parent-fieldname-text .xls:after {
   background-position: -384px -193px;
 }
-/* line 225, ../scss/old/_styles.scss */
+/* line 248, ../scss/old/_styles.scss */
 .portaltype-packet#content .doc:after,
 .portlet-homepage .doc:after,
 .existing_content_portlet .doc:after,
@@ -9422,7 +9478,7 @@ body#tinymce .doc:after,
 #content-core #parent-fieldname-text .doc:after {
   background-position: -360px -193px;
 }
-/* line 229, ../scss/old/_styles.scss */
+/* line 252, ../scss/old/_styles.scss */
 .portaltype-packet#content .down:after,
 .portlet-homepage .down:after,
 .existing_content_portlet .down:after,
@@ -9434,7 +9490,7 @@ body#tinymce .down:after,
 #content-core #parent-fieldname-text .down:after {
   background-position: -95px -26px;
 }
-/* line 233, ../scss/old/_styles.scss */
+/* line 256, ../scss/old/_styles.scss */
 .portaltype-packet#content .https:after,
 .portlet-homepage .https:after,
 .existing_content_portlet .https:after,
@@ -9446,7 +9502,7 @@ body#tinymce .https:after,
 #content-core #parent-fieldname-text .https:after {
   background-position: -288px -26px;
 }
-/* line 237, ../scss/old/_styles.scss */
+/* line 260, ../scss/old/_styles.scss */
 .portaltype-packet#content .vid:after,
 .portlet-homepage .vid:after,
 .existing_content_portlet .vid:after,
@@ -9458,7 +9514,7 @@ body#tinymce .vid:after,
 #content-core #parent-fieldname-text .vid:after {
   background-position: -192px -2px;
 }
-/* line 241, ../scss/old/_styles.scss */
+/* line 264, ../scss/old/_styles.scss */
 .portaltype-packet#content .img:after,
 .portlet-homepage .img:after,
 .existing_content_portlet .img:after,
@@ -9470,7 +9526,7 @@ body#tinymce .img:after,
 #content-core #parent-fieldname-text .img:after {
   background-position: -456px -50px;
 }
-/* line 245, ../scss/old/_styles.scss */
+/* line 268, ../scss/old/_styles.scss */
 .portaltype-packet#content .txt:after,
 .portlet-homepage .txt:after,
 .existing_content_portlet .txt:after,
@@ -9482,7 +9538,7 @@ body#tinymce .txt:after,
 #content-core #parent-fieldname-text .txt:after {
   background-position: -24px -26px;
 }
-/* line 252, ../scss/old/_styles.scss */
+/* line 275, ../scss/old/_styles.scss */
 .portaltype-packet#content .img-rounded,
 .portlet-homepage .img-rounded,
 .existing_content_portlet .img-rounded,
@@ -9496,7 +9552,7 @@ body#tinymce .img-rounded,
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
-/* line 258, ../scss/old/_styles.scss */
+/* line 281, ../scss/old/_styles.scss */
 .portaltype-packet#content .img-circle,
 .portlet-homepage .img-circle,
 .existing_content_portlet .img-circle,
@@ -9510,7 +9566,7 @@ body#tinymce .img-circle,
   -moz-border-radius: 500px;
   border-radius: 500px;
 }
-/* line 264, ../scss/old/_styles.scss */
+/* line 287, ../scss/old/_styles.scss */
 .portaltype-packet#content .img-shadowed,
 .portlet-homepage .img-shadowed,
 .existing_content_portlet .img-shadowed,
@@ -9524,7 +9580,7 @@ body#tinymce .img-shadowed,
   -webkit-box-shadow: 0 1px 3px var(--bs-gray-600);
   box-shadow: 0 1px 3px var(--bs-gray-600);
 }
-/* line 273, ../scss/old/_styles.scss */
+/* line 296, ../scss/old/_styles.scss */
 .portaltype-packet#content .userrole-authenticated .amaga-autenticat,
 .portaltype-packet#content .userrole-anonymous .amaga-no-autenticat,
 .portlet-homepage .userrole-authenticated .amaga-autenticat,
@@ -9545,7 +9601,7 @@ body#tinymce .userrole-anonymous .amaga-no-autenticat,
 #content-core #parent-fieldname-text .userrole-anonymous .amaga-no-autenticat {
   display: none;
 }
-/* line 281, ../scss/old/_styles.scss */
+/* line 304, ../scss/old/_styles.scss */
 .portaltype-packet#content .white-text,
 .portaltype-packet#content .white_text,
 .portlet-homepage .white-text,
@@ -9566,7 +9622,7 @@ body#tinymce .white_text,
 #content-core #parent-fieldname-text .white_text {
   color: #FFF;
 }
-/* line 291, ../scss/old/_styles.scss */
+/* line 314, ../scss/old/_styles.scss */
 .portaltype-packet#content a.btn:not(.btn-primary):not(.btn-secondary):not(.btn-success):not(.btn-danger):not(.btn-warning):not(.btn-info):not(.btn-light):not(.btn-dark):not(.btn-link):not(.btn-outline-primary):not(.btn-outline-secondary):not(.btn-outline-success):not(.btn-outline-danger):not(.btn-outline-warning):not(.btn-outline-info):not(.btn-outline-light):not(.btn-outline-dark),
 .portlet-homepage a.btn:not(.btn-primary):not(.btn-secondary):not(.btn-success):not(.btn-danger):not(.btn-warning):not(.btn-info):not(.btn-light):not(.btn-dark):not(.btn-link):not(.btn-outline-primary):not(.btn-outline-secondary):not(.btn-outline-success):not(.btn-outline-danger):not(.btn-outline-warning):not(.btn-outline-info):not(.btn-outline-light):not(.btn-outline-dark),
 .existing_content_portlet a.btn:not(.btn-primary):not(.btn-secondary):not(.btn-success):not(.btn-danger):not(.btn-warning):not(.btn-info):not(.btn-light):not(.btn-dark):not(.btn-link):not(.btn-outline-primary):not(.btn-outline-secondary):not(.btn-outline-success):not(.btn-outline-danger):not(.btn-outline-warning):not(.btn-outline-info):not(.btn-outline-light):not(.btn-outline-dark),
@@ -9579,7 +9635,7 @@ body#tinymce a.btn:not(.btn-primary):not(.btn-secondary):not(.btn-success):not(.
   background-color: var(--bs-gray-200);
   border: 1px solid var(--bs-gray-300);
 }
-/* line 296, ../scss/old/_styles.scss */
+/* line 319, ../scss/old/_styles.scss */
 .portaltype-packet#content a.btn.btn-large,
 .portlet-homepage a.btn.btn-large,
 .existing_content_portlet a.btn.btn-large,
@@ -9591,7 +9647,7 @@ body#tinymce a.btn.btn-large,
 #content-core #parent-fieldname-text a.btn.btn-large {
   font-size: var(--gw-font-size-xl);
 }
-/* line 300, ../scss/old/_styles.scss */
+/* line 323, ../scss/old/_styles.scss */
 .portaltype-packet#content a.btn.btn-small,
 .portlet-homepage a.btn.btn-small,
 .existing_content_portlet a.btn.btn-small,
@@ -9603,7 +9659,7 @@ body#tinymce a.btn.btn-small,
 #content-core #parent-fieldname-text a.btn.btn-small {
   font-size: var(--gw-font-size-xs);
 }
-/* line 304, ../scss/old/_styles.scss */
+/* line 327, ../scss/old/_styles.scss */
 .portaltype-packet#content a.btn.btn-mini,
 .portlet-homepage a.btn.btn-mini,
 .existing_content_portlet a.btn.btn-mini,
@@ -9615,7 +9671,7 @@ body#tinymce a.btn.btn-mini,
 #content-core #parent-fieldname-text a.btn.btn-mini {
   font-size: var(--gw-font-size-xxxs);
 }
-/* line 308, ../scss/old/_styles.scss */
+/* line 331, ../scss/old/_styles.scss */
 .portaltype-packet#content a.btn.btn-inverse,
 .portlet-homepage a.btn.btn-inverse,
 .existing_content_portlet a.btn.btn-inverse,
@@ -9629,7 +9685,7 @@ body#tinymce a.btn.btn-inverse,
   color: #FFF;
   border-color: var(--bs-gray-900);
 }
-/* line 313, ../scss/old/_styles.scss */
+/* line 336, ../scss/old/_styles.scss */
 .portaltype-packet#content a.btn.btn-inverse:active, .portaltype-packet#content a.btn.btn-inverse:hover,
 .portlet-homepage a.btn.btn-inverse:active,
 .portlet-homepage a.btn.btn-inverse:hover,
@@ -9650,7 +9706,7 @@ body#tinymce a.btn.btn-inverse:hover,
   background-color: var(--bs-gray-800);
   border-color: var(--bs-gray-800);
 }
-/* line 320, ../scss/old/_styles.scss */
+/* line 343, ../scss/old/_styles.scss */
 .portaltype-packet#content a.btn.btn-block + .btn-block,
 .portlet-homepage a.btn.btn-block + .btn-block,
 .existing_content_portlet a.btn.btn-block + .btn-block,
@@ -11832,20 +11888,28 @@ body.template-header-controlpanel #formfield-form-widgets-fieldset_logo,
 body.template-header-controlpanel #formfield-form-widgets-logo,
 body.template-header-controlpanel #formfield-form-widgets-logo_alt,
 body.template-header-controlpanel #formfield-form-widgets-logo_url,
+body.template-header-controlpanel #formfield-form-widgets-logo_alt_es,
+body.template-header-controlpanel #formfield-form-widgets-logo_url_es,
+body.template-header-controlpanel #formfield-form-widgets-logo_alt_en,
+body.template-header-controlpanel #formfield-form-widgets-logo_url_en,
 body.template-header-controlpanel #formfield-form-widgets-logo_external_url {
   width: 48%;
   float: left;
 }
-/* line 23, ../scss/controlpanels/_header.scss */
+/* line 27, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-fieldset_secondary_logo,
 body.template-header-controlpanel #formfield-form-widgets-secondary_logo,
 body.template-header-controlpanel #formfield-form-widgets-secondary_logo_alt,
 body.template-header-controlpanel #formfield-form-widgets-secondary_logo_url,
+body.template-header-controlpanel #formfield-form-widgets-secondary_logo_alt_es,
+body.template-header-controlpanel #formfield-form-widgets-secondary_logo_url_es,
+body.template-header-controlpanel #formfield-form-widgets-secondary_logo_alt_en,
+body.template-header-controlpanel #formfield-form-widgets-secondary_logo_url_en,
 body.template-header-controlpanel #formfield-form-widgets-secondary_logo_external_url {
   width: 48%;
   float: right;
 }
-/* line 32, ../scss/controlpanels/_header.scss */
+/* line 40, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-fieldset_ca,
 body.template-header-controlpanel #formfield-form-widgets-fieldset_es,
 body.template-header-controlpanel #formfield-form-widgets-html_title_ca,
@@ -11864,7 +11928,7 @@ body.template-header-controlpanel #formfield-form-widgets-full_hero_image_url_es
   margin-right: 2%;
   float: left;
 }
-/* line 51, ../scss/controlpanels/_header.scss */
+/* line 59, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-fieldset_en,
 body.template-header-controlpanel #formfield-form-widgets-html_title_en,
 body.template-header-controlpanel #formfield-form-widgets-html_description_en,
@@ -11875,26 +11939,26 @@ body.template-header-controlpanel #formfield-form-widgets-full_hero_image_url_en
   width: 32%;
   float: right;
 }
-/* line 62, ../scss/controlpanels/_header.scss */
+/* line 70, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-logo,
 body.template-header-controlpanel #formfield-form-widgets-secondary_logo {
   min-height: 280px;
 }
-/* line 67, ../scss/controlpanels/_header.scss */
+/* line 75, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-full_hero_image,
 body.template-header-controlpanel #formfield-form-widgets-full_hero_image_es,
 body.template-header-controlpanel #formfield-form-widgets-full_hero_image_en {
   min-height: 500px;
 }
 @media screen and (max-width: 1199px) {
-  /* line 67, ../scss/controlpanels/_header.scss */
+  /* line 75, ../scss/controlpanels/_header.scss */
   body.template-header-controlpanel #formfield-form-widgets-full_hero_image,
   body.template-header-controlpanel #formfield-form-widgets-full_hero_image_es,
   body.template-header-controlpanel #formfield-form-widgets-full_hero_image_en {
     min-height: 600px;
   }
 }
-/* line 77, ../scss/controlpanels/_header.scss */
+/* line 85, ../scss/controlpanels/_header.scss */
 body.template-header-controlpanel #formfield-form-widgets-hero_image {
   margin-top: 2rem;
   padding-top: 2rem;
