@@ -12767,6 +12767,10 @@ textarea.form-control-lg {
   margin-bottom: 1rem;
 }
 
+.pat-autotoc .parent-fieldname-text h2{
+  scroll-margin-top: 100px;
+}
+
 label .required:after,
 label.required:after {
   color: #dc3545;
@@ -29712,6 +29716,37 @@ body.template-image_view #content-core .section.section-actions a.btn.btn-primar
   background-color: #ffffff;
   color: var(--bs-primary);
   border: 2px solid var(--bs-primary);
+}
+
+/* line 1, ../scss/contents/_carousel.scss */
+html[lang="es"] body.portaltype-genweb-core-carousel a.contenttype-link:after {
+  content: "Imagen con enlace";
+}
+
+/* line 5, ../scss/contents/_carousel.scss */
+html[lang="ca"] body.portaltype-genweb-core-carousel a.contenttype-link:after {
+  content: "Imatge amb enllaç";
+}
+
+/* line 9, ../scss/contents/_carousel.scss */
+html[lang="en"] body.portaltype-genweb-core-carousel a.contenttype-link:after {
+  content: "Image with link";
+}
+
+/* line 13, ../scss/contents/_carousel.scss */
+body.portaltype-genweb-core-carousel a.contenttype-link:after {
+  display: contents;
+  font-size: 1rem;
+}
+
+/* line 18, ../scss/contents/_carousel.scss */
+body.portaltype-genweb-core-carousel a.contenttype-link {
+  font-size: 0;
+}
+
+/* line 22, ../scss/contents/_carousel.scss */
+body.portaltype-genweb-core-carousel a.contenttype-link svg {
+  font-size: 1rem;
 }
 
 /* line 3, ../scss/controlpanels/_cas.scss */

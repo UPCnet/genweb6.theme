@@ -1,0 +1,24 @@
+html[lang="es"] body.portaltype-genweb-core-carousel a.contenttype-link:after {
+    content: "Imagen con enlace";
+}
+
+html[lang="ca"] body.portaltype-genweb-core-carousel a.contenttype-link:after {
+    content: "Imatge amb enllaç";
+}
+
+html[lang="en"] body.portaltype-genweb-core-carousel a.contenttype-link:after {
+    content: "Image with link";
+}
+
+body.portaltype-genweb-core-carousel a.contenttype-link:after {
+    display: contents;
+    font-size: 1rem;
+}
+
+body.portaltype-genweb-core-carousel a.contenttype-link {
+    font-size: 0;
+}
+
+body.portaltype-genweb-core-carousel a.contenttype-link svg {
+    font-size: 1rem;
+}
