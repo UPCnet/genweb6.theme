@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.43 (unreleased)
+1.43 (2025-04-09)
 -----------------
 
-- Nothing changed yet.
-
+* [ADD] new carousel with links [Clàudia Andreu]
 
 1.42 (2025-03-07)
 -----------------
