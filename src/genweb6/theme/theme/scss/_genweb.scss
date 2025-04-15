@@ -121,6 +121,10 @@ a[target="_blank"]:not(.wrapper-img-link):not(:has(img))::after {
   display: inline-block;
 }
 
+#edit-bar a[target="_blank"]::after {
+  content: "" !important;
+}
+
 .alert a::after {
   height: 0;
   animation: none;
