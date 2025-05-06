@@ -30808,48 +30808,52 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   .template-carousel .carousel-control-prev {
     height: max-content;
   }
+  /* line 207, ../scss/templates/_carousel.scss */
+  .template-carousel .carousel-caption a {
+    color: #fff;
+  }
 }
 
-/* line 211, ../scss/templates/_carousel.scss */
+/* line 215, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner {
   margin-right: 2.5rem;
   margin-left: 2.5rem;
   width: calc(100% - 5rem);
 }
-/* line 220, ../scss/templates/_carousel.scss */
+/* line 224, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item a.title:hover {
   color: var(--bs-primary);
 }
-/* line 223, ../scss/templates/_carousel.scss */
+/* line 227, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item a.title:hover * {
   color: var(--bs-primary);
 }
-/* line 229, ../scss/templates/_carousel.scss */
+/* line 233, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item img:not(.disable-auto-proportions) {
   aspect-ratio: 4 / 3;
 }
-/* line 239, ../scss/templates/_carousel.scss */
+/* line 243, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-control-prev i.bi,
 .template-multiple-carousel .carousel-control-next i.bi {
   font-size: 2rem;
   color: var(--bs-primary);
 }
-/* line 243, ../scss/templates/_carousel.scss */
+/* line 247, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-control-prev i.bi:hover,
 .template-multiple-carousel .carousel-control-next i.bi:hover {
   color: var(--bs-primary-hover);
 }
 @media (max-width: 767px) {
-  /* line 251, ../scss/templates/_carousel.scss */
+  /* line 255, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item > div {
     display: none;
   }
-  /* line 255, ../scss/templates/_carousel.scss */
+  /* line 259, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item > div:first-child {
     display: block;
   }
 }
-/* line 261, ../scss/templates/_carousel.scss */
+/* line 265, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item.active,
 .template-multiple-carousel .carousel-inner .carousel-item-next,
 .template-multiple-carousel .carousel-inner .carousel-item-prev {
@@ -30857,72 +30861,72 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   gap: 2rem;
 }
 @media (max-width: 767px) {
-  /* line 270, ../scss/templates/_carousel.scss */
+  /* line 274, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(100%);
   }
-  /* line 275, ../scss/templates/_carousel.scss */
+  /* line 279, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(-100%);
   }
 }
 @media (min-width: 768px) {
-  /* line 283, ../scss/templates/_carousel.scss */
+  /* line 287, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(calc(100% / 3));
   }
-  /* line 288, ../scss/templates/_carousel.scss */
+  /* line 292, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(calc(-100% / 3));
   }
-  /* line 295, ../scss/templates/_carousel.scss */
+  /* line 299, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-item.active.carousel-item-start > .w-100:not(:first-child) {
     opacity: 0;
   }
-  /* line 302, ../scss/templates/_carousel.scss */
+  /* line 306, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-item.active.carousel-item-end > .w-100:not(:last-child) {
     opacity: 0;
   }
 }
 @media (min-width: 992px) {
-  /* line 310, ../scss/templates/_carousel.scss */
+  /* line 314, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(25%);
   }
-  /* line 315, ../scss/templates/_carousel.scss */
+  /* line 319, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(-25%);
   }
 }
-/* line 321, ../scss/templates/_carousel.scss */
+/* line 325, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item-end,
 .template-multiple-carousel .carousel-inner .carousel-item-start {
   transform: translateX(0);
 }
 
-/* line 336, ../scss/templates/_carousel.scss */
+/* line 340, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item img:not(.disable-auto-proportions),
 .col-md-3 > .portletWrapper .template-carousel .carousel-item img:not(.disable-auto-proportions) {
   aspect-ratio: 1;
 }
-/* line 340, ../scss/templates/_carousel.scss */
+/* line 344, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item p,
 .col-md-3 > .portletWrapper .template-carousel .carousel-item p {
   font-size: 14px;
 }
-/* line 344, ../scss/templates/_carousel.scss */
+/* line 348, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item h6,
 .col-md-3 > .portletWrapper .template-carousel .carousel-item h6 {
   color: var(--bs-dark);
 }
 
-/* line 360, ../scss/templates/_carousel.scss */
+/* line 364, ../scss/templates/_carousel.scss */
 .col-md-4:not(.disable-auto-proportions) > .portletWrapper .template-carousel .carousel-item img {
   aspect-ratio: 4 / 3;
 }
