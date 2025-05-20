@@ -2,11 +2,12 @@ Changelog
 =========
 
 
-1.44 (unreleased)
+1.44 (2025-05-20)
 -----------------
 
-- Nothing changed yet.
-
+* [FIX] carousel links accessibility [Clàudia Andreu]
+* [FIX] carousel accessibility for smaller devices [Clàudia Andreu]
+* [ADD] Estilo documentación barra herramientas, quitarle el icono de pestaña nueva [Iago López]
 
 1.43 (2025-04-09)
 -----------------
