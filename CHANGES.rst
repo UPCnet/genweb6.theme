@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-1.46 (unreleased)
+1.46 (2025-06-03)
 -----------------
 
-- Nothing changed yet.
-
+* Merge remote-tracking branch 'origin/develop' [Pilar Marinas]
+* [UPD] dataTables.min.js select2.min.js - Cambiar async por defer [«Iago]
 
 1.45 (2025-05-20)
 -----------------
