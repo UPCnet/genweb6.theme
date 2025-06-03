@@ -142,6 +142,14 @@
       content="//footer[@id='portal-footer-wrapper']/*[not(@class='row')]"
       />
 
+  <after>
+    <xpath expression="//body">
+      <append>
+        <script type="text/javascript" src="++theme++genweb6.theme/js/main/lang_tag.js"></script>
+      </append>
+    </xpath>
+  </after>
+
   <!-- toolbar -->
   <replace css:theme="#portal-toolbar" css:content="#edit-bar" css:if-not-content=".ajax_load" css:if-content=".userrole-authenticated" />
   <drop css:theme="#portal-toolbar" css:if-content=".userrole-anonymous" />
