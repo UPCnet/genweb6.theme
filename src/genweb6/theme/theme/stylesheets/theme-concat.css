@@ -33636,18 +33636,19 @@ div#social_tags {
   margin-left: 1rem;
   text-align: right;
   float: right;
+  margin-top: -1.2rem;
 }
-/* line 7, ../scss/viewlets/_social.scss */
+/* line 8, ../scss/viewlets/_social.scss */
 div#social_tags a {
   font-size: var(--gw-font-size-xxl);
   text-decoration: none;
   color: var(--bs-body-color);
 }
-/* line 12, ../scss/viewlets/_social.scss */
+/* line 13, ../scss/viewlets/_social.scss */
 div#social_tags a:hover {
   color: var(--bs-primary);
 }
-/* line 16, ../scss/viewlets/_social.scss */
+/* line 17, ../scss/viewlets/_social.scss */
 div#social_tags a[target="_blank"]::after {
   content: "" !important;
 }
