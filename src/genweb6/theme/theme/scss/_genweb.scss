@@ -479,3 +479,109 @@ a.wrapper-img-link:before {
 .pat-relateditems-dropdown .select2-results {
   max-height: 350px !important;
 }
+.upc-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.upc-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.upc-card--padding {
+  padding: 2rem;
+}
+
+.upc-card--centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upc-heading--large {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #00769D; /* Azul UPC */
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.upc-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upc-form-group {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.upc-label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.upc-input {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.upc-input--file {
+  border: none;
+  padding: 0;
+}
+
+.upc-text {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.upc-button {
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  max-width: 100px;
+  height: 36px;
+  background-color: #00769D;
+  color: #fff;
+}
+
+.upc-button:hover {
+  background-color: #005e7d;
+}
+
+.upc-form-group--center {
+  display: flex;
+  justify-content: center;
+}
+
+.upc-logo {
+  display: block;
+  margin: 1rem 0 1rem 2rem;  
+}
+
+.upc-logo-img {
+  max-height: 4rem;
+  height: auto;
+  width: auto;
+}
