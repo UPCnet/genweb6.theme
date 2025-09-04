@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-1.47 (unreleased)
+1.47 (2025-09-04)
 -----------------
 
-- Nothing changed yet.
-
+* [ADD] styles fot Neteja Metadades [Clàudia Andreu]
+* [UPD] Estilo viewlet social [Iago]
 
 1.46 (2025-06-03)
 -----------------
