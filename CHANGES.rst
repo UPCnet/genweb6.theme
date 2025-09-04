@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.48 (unreleased)
+1.48 (2025-09-04)
 -----------------
 
 - Nothing changed yet.
