@@ -2,17 +2,17 @@ Changelog
 =========
 
 
-1.49 (unreleased)
+1.49 (2025-09-10)
 -----------------
 
-- Nothing changed yet.
-
+* Merge remote-tracking branch 'origin/master' into develop [Iago López]
+* [UPD] Metadades styles, and improve file handling [Clàudia Andreu]
 
 1.48 (2025-09-04)
 -----------------
 
-- Nothing changed yet.
-
+* Merge remote-tracking branch 'origin/master' into develop [Iago López]
+* [UPD] Metadades styles, and improve file handling [Clàudia Andreu]
 
 1.47 (2025-09-04)
 -----------------
