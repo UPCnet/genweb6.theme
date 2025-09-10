@@ -167,3 +167,52 @@ $(document).ready(function(){
 
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("upc-form");
+    const submitBtn = document.getElementById("netejar-btn");
+    const spinner = document.getElementById("spinner");
+  
+    form.addEventListener("submit", function (e) {
+      e.preventDefault(); 
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Netejant...";
+  
+      spinner.style.display = "inline-block";
+  
+      const formData = new FormData(form);
+  
+      fetch("", {
+        method: "POST",
+        body: formData
+      })
+        .then(res => {
+          if (!res.ok) throw new Error("Error al netejar els PDFs");
+          return res.blob();
+        })
+        .then(blob => {
+          const url = window.URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.href = url;
+  
+          if (form.pdf_file.files.length === 1) {
+            a.download = form.pdf_file.files[0].name.replace(".pdf", "_sense_metadades.pdf");
+          } else {
+            a.download = "pdfs_sense_metadades.zip";
+          }
+  
+          document.body.appendChild(a);
+          a.click();
+          a.remove();
+          window.URL.revokeObjectURL(url);
+  
+          form.reset();
+        })
+        .catch(err => alert(err.message))
+        .finally(() => {
+          submitBtn.disabled = false;
+          submitBtn.textContent = "Netejar";
+          spinner.style.display = "none";
+        });
+    });
+  });
+  
