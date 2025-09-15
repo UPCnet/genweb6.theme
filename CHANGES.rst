@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.50 (unreleased)
+1.50 (2025-09-15)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] description text size [Clàudia Andreu]
 
 1.49 (2025-09-10)
 -----------------
