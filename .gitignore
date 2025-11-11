@@ -40,3 +40,6 @@ venv/
 .sass-cache/
 screenlog.0
 # excludes
+# macOS
+.DS_Store
+**/.DS_Store
