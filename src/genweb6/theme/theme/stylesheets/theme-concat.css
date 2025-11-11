@@ -33916,6 +33916,11 @@ body.template-folder_contents .pat-structure .upload-container .upload-area .pre
   overflow-y: auto;
   overflow-x: hidden;
 }
+/* line 54, ../scss/views/_folder_contents.scss */
+div.existing-content.template-folder_contents img:not([src]),
+body.template-folder_contents img:not([src]) {
+  display: none !important;
+}
 
 /* line 7, ../scss/views/_history.scss */
 body.template-versions-history-form #content-core #sortable span {

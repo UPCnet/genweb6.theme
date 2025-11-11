@@ -50,4 +50,8 @@ body.template-folder_contents {
       }
     }
   }
+
+  img:not([src]) {
+    display: none !important;
+  }
 }
