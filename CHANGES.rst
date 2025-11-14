@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-1.51 (unreleased)
+1.51 (2025-11-14)
 -----------------
 
-- Nothing changed yet.
-
+* [FIX] Add .DS_Store a gitignore [Pilar Marinas]
+* [UPD] folder_contents - no mostrar previsualizacion de no imagenes al subir fichero [Iago López]
 
 1.50 (2025-09-15)
 -----------------
