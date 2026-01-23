@@ -16412,22 +16412,21 @@ body.template-sitemap #content-core #portal-sitemap > li.navTreeItem > ul ::hove
 /* line 6, ../scss/views/_album_view.scss */
 div.existing-content.template-album_view #content-core .card,
 body.template-album_view #content-core .card {
-  width: 18rem;
   height: 100%;
 }
-/* line 10, ../scss/views/_album_view.scss */
+/* line 9, ../scss/views/_album_view.scss */
 div.existing-content.template-album_view #content-core .card.album,
 body.template-album_view #content-core .card.album {
   width: 14rem;
 }
-/* line 16, ../scss/views/_album_view.scss */
+/* line 15, ../scss/views/_album_view.scss */
 div.existing-content.template-album_view #content-core .card .card-image-top img,
 body.template-album_view #content-core .card .card-image-top img {
   object-fit: cover;
   width: 100%;
   aspect-ratio: 4 / 3;
 }
-/* line 23, ../scss/views/_album_view.scss */
+/* line 22, ../scss/views/_album_view.scss */
 div.existing-content.template-album_view #content-core .card .card-body,
 body.template-album_view #content-core .card .card-body {
   flex: 1 1 auto;
@@ -16437,7 +16436,7 @@ body.template-album_view #content-core .card .card-body {
   flex-direction: column;
   justify-content: space-between;
 }
-/* line 32, ../scss/views/_album_view.scss */
+/* line 31, ../scss/views/_album_view.scss */
 div.existing-content.template-album_view #content-core .card .card-body h5 + a.stretched-link,
 body.template-album_view #content-core .card .card-body h5 + a.stretched-link {
   margin-top: 0.5rem;
