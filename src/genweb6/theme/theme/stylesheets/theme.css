@@ -9451,96 +9451,96 @@ body#tinymce *:after,
   box-sizing: border-box;
 }
 /* line 223, ../scss/old/_styles.scss */
-.portaltype-packet#content .doc:after,
-.portaltype-packet#content .pdf:after,
-.portaltype-packet#content .ppt:after,
-.portaltype-packet#content .txt:after,
-.portaltype-packet#content .xls:after,
-.portaltype-packet#content .xlsdf:after,
-.portaltype-packet#content .img:after,
-.portaltype-packet#content .vid:after,
-.portaltype-packet#content .https:after,
-.portaltype-packet#content .down:after,
-.portlet-homepage .doc:after,
-.portlet-homepage .pdf:after,
-.portlet-homepage .ppt:after,
-.portlet-homepage .txt:after,
-.portlet-homepage .xls:after,
-.portlet-homepage .xlsdf:after,
-.portlet-homepage .img:after,
-.portlet-homepage .vid:after,
-.portlet-homepage .https:after,
-.portlet-homepage .down:after,
-.existing_content_portlet .doc:after,
-.existing_content_portlet .pdf:after,
-.existing_content_portlet .ppt:after,
-.existing_content_portlet .txt:after,
-.existing_content_portlet .xls:after,
-.existing_content_portlet .xlsdf:after,
-.existing_content_portlet .img:after,
-.existing_content_portlet .vid:after,
-.existing_content_portlet .https:after,
-.existing_content_portlet .down:after,
-.existing_content_portlet_no_border .doc:after,
-.existing_content_portlet_no_border .pdf:after,
-.existing_content_portlet_no_border .ppt:after,
-.existing_content_portlet_no_border .txt:after,
-.existing_content_portlet_no_border .xls:after,
-.existing_content_portlet_no_border .xlsdf:after,
-.existing_content_portlet_no_border .img:after,
-.existing_content_portlet_no_border .vid:after,
-.existing_content_portlet_no_border .https:after,
-.existing_content_portlet_no_border .down:after,
-.portletStaticText .doc:after,
-.portletStaticText .pdf:after,
-.portletStaticText .ppt:after,
-.portletStaticText .txt:after,
-.portletStaticText .xls:after,
-.portletStaticText .xlsdf:after,
-.portletStaticText .img:after,
-.portletStaticText .vid:after,
-.portletStaticText .https:after,
-.portletStaticText .down:after,
-.mceTmpl .doc:after,
-.mceTmpl .pdf:after,
-.mceTmpl .ppt:after,
-.mceTmpl .txt:after,
-.mceTmpl .xls:after,
-.mceTmpl .xlsdf:after,
-.mceTmpl .img:after,
-.mceTmpl .vid:after,
-.mceTmpl .https:after,
-.mceTmpl .down:after,
-body#tinymce .doc:after,
-body#tinymce .pdf:after,
-body#tinymce .ppt:after,
-body#tinymce .txt:after,
-body#tinymce .xls:after,
-body#tinymce .xlsdf:after,
-body#tinymce .img:after,
-body#tinymce .vid:after,
-body#tinymce .https:after,
-body#tinymce .down:after,
-.mosaic-tile-content .doc:after,
-.mosaic-tile-content .pdf:after,
-.mosaic-tile-content .ppt:after,
-.mosaic-tile-content .txt:after,
-.mosaic-tile-content .xls:after,
-.mosaic-tile-content .xlsdf:after,
-.mosaic-tile-content .img:after,
-.mosaic-tile-content .vid:after,
-.mosaic-tile-content .https:after,
-.mosaic-tile-content .down:after,
-#content-core #parent-fieldname-text .doc:after,
-#content-core #parent-fieldname-text .pdf:after,
-#content-core #parent-fieldname-text .ppt:after,
-#content-core #parent-fieldname-text .txt:after,
-#content-core #parent-fieldname-text .xls:after,
-#content-core #parent-fieldname-text .xlsdf:after,
-#content-core #parent-fieldname-text .img:after,
-#content-core #parent-fieldname-text .vid:after,
-#content-core #parent-fieldname-text .https:after,
-#content-core #parent-fieldname-text .down:after {
+.portaltype-packet#content .doc:not([target="_blank"]):after,
+.portaltype-packet#content .pdf:not([target="_blank"]):after,
+.portaltype-packet#content .ppt:not([target="_blank"]):after,
+.portaltype-packet#content .txt:not([target="_blank"]):after,
+.portaltype-packet#content .xls:not([target="_blank"]):after,
+.portaltype-packet#content .xlsdf:not([target="_blank"]):after,
+.portaltype-packet#content .img:not([target="_blank"]):after,
+.portaltype-packet#content .vid:not([target="_blank"]):after,
+.portaltype-packet#content .https:not([target="_blank"]):after,
+.portaltype-packet#content .down:not([target="_blank"]):after,
+.portlet-homepage .doc:not([target="_blank"]):after,
+.portlet-homepage .pdf:not([target="_blank"]):after,
+.portlet-homepage .ppt:not([target="_blank"]):after,
+.portlet-homepage .txt:not([target="_blank"]):after,
+.portlet-homepage .xls:not([target="_blank"]):after,
+.portlet-homepage .xlsdf:not([target="_blank"]):after,
+.portlet-homepage .img:not([target="_blank"]):after,
+.portlet-homepage .vid:not([target="_blank"]):after,
+.portlet-homepage .https:not([target="_blank"]):after,
+.portlet-homepage .down:not([target="_blank"]):after,
+.existing_content_portlet .doc:not([target="_blank"]):after,
+.existing_content_portlet .pdf:not([target="_blank"]):after,
+.existing_content_portlet .ppt:not([target="_blank"]):after,
+.existing_content_portlet .txt:not([target="_blank"]):after,
+.existing_content_portlet .xls:not([target="_blank"]):after,
+.existing_content_portlet .xlsdf:not([target="_blank"]):after,
+.existing_content_portlet .img:not([target="_blank"]):after,
+.existing_content_portlet .vid:not([target="_blank"]):after,
+.existing_content_portlet .https:not([target="_blank"]):after,
+.existing_content_portlet .down:not([target="_blank"]):after,
+.existing_content_portlet_no_border .doc:not([target="_blank"]):after,
+.existing_content_portlet_no_border .pdf:not([target="_blank"]):after,
+.existing_content_portlet_no_border .ppt:not([target="_blank"]):after,
+.existing_content_portlet_no_border .txt:not([target="_blank"]):after,
+.existing_content_portlet_no_border .xls:not([target="_blank"]):after,
+.existing_content_portlet_no_border .xlsdf:not([target="_blank"]):after,
+.existing_content_portlet_no_border .img:not([target="_blank"]):after,
+.existing_content_portlet_no_border .vid:not([target="_blank"]):after,
+.existing_content_portlet_no_border .https:not([target="_blank"]):after,
+.existing_content_portlet_no_border .down:not([target="_blank"]):after,
+.portletStaticText .doc:not([target="_blank"]):after,
+.portletStaticText .pdf:not([target="_blank"]):after,
+.portletStaticText .ppt:not([target="_blank"]):after,
+.portletStaticText .txt:not([target="_blank"]):after,
+.portletStaticText .xls:not([target="_blank"]):after,
+.portletStaticText .xlsdf:not([target="_blank"]):after,
+.portletStaticText .img:not([target="_blank"]):after,
+.portletStaticText .vid:not([target="_blank"]):after,
+.portletStaticText .https:not([target="_blank"]):after,
+.portletStaticText .down:not([target="_blank"]):after,
+.mceTmpl .doc:not([target="_blank"]):after,
+.mceTmpl .pdf:not([target="_blank"]):after,
+.mceTmpl .ppt:not([target="_blank"]):after,
+.mceTmpl .txt:not([target="_blank"]):after,
+.mceTmpl .xls:not([target="_blank"]):after,
+.mceTmpl .xlsdf:not([target="_blank"]):after,
+.mceTmpl .img:not([target="_blank"]):after,
+.mceTmpl .vid:not([target="_blank"]):after,
+.mceTmpl .https:not([target="_blank"]):after,
+.mceTmpl .down:not([target="_blank"]):after,
+body#tinymce .doc:not([target="_blank"]):after,
+body#tinymce .pdf:not([target="_blank"]):after,
+body#tinymce .ppt:not([target="_blank"]):after,
+body#tinymce .txt:not([target="_blank"]):after,
+body#tinymce .xls:not([target="_blank"]):after,
+body#tinymce .xlsdf:not([target="_blank"]):after,
+body#tinymce .img:not([target="_blank"]):after,
+body#tinymce .vid:not([target="_blank"]):after,
+body#tinymce .https:not([target="_blank"]):after,
+body#tinymce .down:not([target="_blank"]):after,
+.mosaic-tile-content .doc:not([target="_blank"]):after,
+.mosaic-tile-content .pdf:not([target="_blank"]):after,
+.mosaic-tile-content .ppt:not([target="_blank"]):after,
+.mosaic-tile-content .txt:not([target="_blank"]):after,
+.mosaic-tile-content .xls:not([target="_blank"]):after,
+.mosaic-tile-content .xlsdf:not([target="_blank"]):after,
+.mosaic-tile-content .img:not([target="_blank"]):after,
+.mosaic-tile-content .vid:not([target="_blank"]):after,
+.mosaic-tile-content .https:not([target="_blank"]):after,
+.mosaic-tile-content .down:not([target="_blank"]):after,
+#content-core #parent-fieldname-text .doc:not([target="_blank"]):after,
+#content-core #parent-fieldname-text .pdf:not([target="_blank"]):after,
+#content-core #parent-fieldname-text .ppt:not([target="_blank"]):after,
+#content-core #parent-fieldname-text .txt:not([target="_blank"]):after,
+#content-core #parent-fieldname-text .xls:not([target="_blank"]):after,
+#content-core #parent-fieldname-text .xlsdf:not([target="_blank"]):after,
+#content-core #parent-fieldname-text .img:not([target="_blank"]):after,
+#content-core #parent-fieldname-text .vid:not([target="_blank"]):after,
+#content-core #parent-fieldname-text .https:not([target="_blank"]):after,
+#content-core #parent-fieldname-text .down:not([target="_blank"]):after {
   background: url("../img/gh-c.png") no-repeat;
   width: 14px;
   height: 14px;
@@ -9550,124 +9550,124 @@ body#tinymce .down:after,
   margin-left: 5px;
   position: relative;
 }
-/* line 235, ../scss/old/_styles.scss */
-.portaltype-packet#content .pdf:after,
-.portlet-homepage .pdf:after,
-.existing_content_portlet .pdf:after,
-.existing_content_portlet_no_border .pdf:after,
-.portletStaticText .pdf:after,
-.mceTmpl .pdf:after,
-body#tinymce .pdf:after,
-.mosaic-tile-content .pdf:after,
-#content-core #parent-fieldname-text .pdf:after {
+/* line 237, ../scss/old/_styles.scss */
+.portaltype-packet#content *:not([target="_blank"]) .pdf:after,
+.portlet-homepage *:not([target="_blank"]) .pdf:after,
+.existing_content_portlet *:not([target="_blank"]) .pdf:after,
+.existing_content_portlet_no_border *:not([target="_blank"]) .pdf:after,
+.portletStaticText *:not([target="_blank"]) .pdf:after,
+.mceTmpl *:not([target="_blank"]) .pdf:after,
+body#tinymce *:not([target="_blank"]) .pdf:after,
+.mosaic-tile-content *:not([target="_blank"]) .pdf:after,
+#content-core #parent-fieldname-text *:not([target="_blank"]) .pdf:after {
   background-position: -432px -194px;
 }
-/* line 239, ../scss/old/_styles.scss */
-.portaltype-packet#content .ppt:after,
-.portlet-homepage .ppt:after,
-.existing_content_portlet .ppt:after,
-.existing_content_portlet_no_border .ppt:after,
-.portletStaticText .ppt:after,
-.mceTmpl .ppt:after,
-body#tinymce .ppt:after,
-.mosaic-tile-content .ppt:after,
-#content-core #parent-fieldname-text .ppt:after {
+/* line 241, ../scss/old/_styles.scss */
+.portaltype-packet#content *:not([target="_blank"]) .ppt:after,
+.portlet-homepage *:not([target="_blank"]) .ppt:after,
+.existing_content_portlet *:not([target="_blank"]) .ppt:after,
+.existing_content_portlet_no_border *:not([target="_blank"]) .ppt:after,
+.portletStaticText *:not([target="_blank"]) .ppt:after,
+.mceTmpl *:not([target="_blank"]) .ppt:after,
+body#tinymce *:not([target="_blank"]) .ppt:after,
+.mosaic-tile-content *:not([target="_blank"]) .ppt:after,
+#content-core #parent-fieldname-text *:not([target="_blank"]) .ppt:after {
   background-position: -407px -193px;
 }
-/* line 243, ../scss/old/_styles.scss */
-.portaltype-packet#content .xlsdf:after,
-.portaltype-packet#content .xls:after,
-.portlet-homepage .xlsdf:after,
-.portlet-homepage .xls:after,
-.existing_content_portlet .xlsdf:after,
-.existing_content_portlet .xls:after,
-.existing_content_portlet_no_border .xlsdf:after,
-.existing_content_portlet_no_border .xls:after,
-.portletStaticText .xlsdf:after,
-.portletStaticText .xls:after,
-.mceTmpl .xlsdf:after,
-.mceTmpl .xls:after,
-body#tinymce .xlsdf:after,
-body#tinymce .xls:after,
-.mosaic-tile-content .xlsdf:after,
-.mosaic-tile-content .xls:after,
-#content-core #parent-fieldname-text .xlsdf:after,
-#content-core #parent-fieldname-text .xls:after {
+/* line 245, ../scss/old/_styles.scss */
+.portaltype-packet#content *:not([target="_blank"]) .xlsdf:after,
+.portaltype-packet#content *:not([target="_blank"]) .xls:after,
+.portlet-homepage *:not([target="_blank"]) .xlsdf:after,
+.portlet-homepage *:not([target="_blank"]) .xls:after,
+.existing_content_portlet *:not([target="_blank"]) .xlsdf:after,
+.existing_content_portlet *:not([target="_blank"]) .xls:after,
+.existing_content_portlet_no_border *:not([target="_blank"]) .xlsdf:after,
+.existing_content_portlet_no_border *:not([target="_blank"]) .xls:after,
+.portletStaticText *:not([target="_blank"]) .xlsdf:after,
+.portletStaticText *:not([target="_blank"]) .xls:after,
+.mceTmpl *:not([target="_blank"]) .xlsdf:after,
+.mceTmpl *:not([target="_blank"]) .xls:after,
+body#tinymce *:not([target="_blank"]) .xlsdf:after,
+body#tinymce *:not([target="_blank"]) .xls:after,
+.mosaic-tile-content *:not([target="_blank"]) .xlsdf:after,
+.mosaic-tile-content *:not([target="_blank"]) .xls:after,
+#content-core #parent-fieldname-text *:not([target="_blank"]) .xlsdf:after,
+#content-core #parent-fieldname-text *:not([target="_blank"]) .xls:after {
   background-position: -384px -193px;
 }
-/* line 248, ../scss/old/_styles.scss */
-.portaltype-packet#content .doc:after,
-.portlet-homepage .doc:after,
-.existing_content_portlet .doc:after,
-.existing_content_portlet_no_border .doc:after,
-.portletStaticText .doc:after,
-.mceTmpl .doc:after,
-body#tinymce .doc:after,
-.mosaic-tile-content .doc:after,
-#content-core #parent-fieldname-text .doc:after {
+/* line 250, ../scss/old/_styles.scss */
+.portaltype-packet#content *:not([target="_blank"]) .doc:after,
+.portlet-homepage *:not([target="_blank"]) .doc:after,
+.existing_content_portlet *:not([target="_blank"]) .doc:after,
+.existing_content_portlet_no_border *:not([target="_blank"]) .doc:after,
+.portletStaticText *:not([target="_blank"]) .doc:after,
+.mceTmpl *:not([target="_blank"]) .doc:after,
+body#tinymce *:not([target="_blank"]) .doc:after,
+.mosaic-tile-content *:not([target="_blank"]) .doc:after,
+#content-core #parent-fieldname-text *:not([target="_blank"]) .doc:after {
   background-position: -360px -193px;
 }
-/* line 252, ../scss/old/_styles.scss */
-.portaltype-packet#content .down:after,
-.portlet-homepage .down:after,
-.existing_content_portlet .down:after,
-.existing_content_portlet_no_border .down:after,
-.portletStaticText .down:after,
-.mceTmpl .down:after,
-body#tinymce .down:after,
-.mosaic-tile-content .down:after,
-#content-core #parent-fieldname-text .down:after {
+/* line 254, ../scss/old/_styles.scss */
+.portaltype-packet#content *:not([target="_blank"]) .down:after,
+.portlet-homepage *:not([target="_blank"]) .down:after,
+.existing_content_portlet *:not([target="_blank"]) .down:after,
+.existing_content_portlet_no_border *:not([target="_blank"]) .down:after,
+.portletStaticText *:not([target="_blank"]) .down:after,
+.mceTmpl *:not([target="_blank"]) .down:after,
+body#tinymce *:not([target="_blank"]) .down:after,
+.mosaic-tile-content *:not([target="_blank"]) .down:after,
+#content-core #parent-fieldname-text *:not([target="_blank"]) .down:after {
   background-position: -95px -26px;
 }
-/* line 256, ../scss/old/_styles.scss */
-.portaltype-packet#content .https:after,
-.portlet-homepage .https:after,
-.existing_content_portlet .https:after,
-.existing_content_portlet_no_border .https:after,
-.portletStaticText .https:after,
-.mceTmpl .https:after,
-body#tinymce .https:after,
-.mosaic-tile-content .https:after,
-#content-core #parent-fieldname-text .https:after {
+/* line 258, ../scss/old/_styles.scss */
+.portaltype-packet#content *:not([target="_blank"]) .https:after,
+.portlet-homepage *:not([target="_blank"]) .https:after,
+.existing_content_portlet *:not([target="_blank"]) .https:after,
+.existing_content_portlet_no_border *:not([target="_blank"]) .https:after,
+.portletStaticText *:not([target="_blank"]) .https:after,
+.mceTmpl *:not([target="_blank"]) .https:after,
+body#tinymce *:not([target="_blank"]) .https:after,
+.mosaic-tile-content *:not([target="_blank"]) .https:after,
+#content-core #parent-fieldname-text *:not([target="_blank"]) .https:after {
   background-position: -288px -26px;
 }
-/* line 260, ../scss/old/_styles.scss */
-.portaltype-packet#content .vid:after,
-.portlet-homepage .vid:after,
-.existing_content_portlet .vid:after,
-.existing_content_portlet_no_border .vid:after,
-.portletStaticText .vid:after,
-.mceTmpl .vid:after,
-body#tinymce .vid:after,
-.mosaic-tile-content .vid:after,
-#content-core #parent-fieldname-text .vid:after {
+/* line 262, ../scss/old/_styles.scss */
+.portaltype-packet#content *:not([target="_blank"]) .vid:after,
+.portlet-homepage *:not([target="_blank"]) .vid:after,
+.existing_content_portlet *:not([target="_blank"]) .vid:after,
+.existing_content_portlet_no_border *:not([target="_blank"]) .vid:after,
+.portletStaticText *:not([target="_blank"]) .vid:after,
+.mceTmpl *:not([target="_blank"]) .vid:after,
+body#tinymce *:not([target="_blank"]) .vid:after,
+.mosaic-tile-content *:not([target="_blank"]) .vid:after,
+#content-core #parent-fieldname-text *:not([target="_blank"]) .vid:after {
   background-position: -192px -2px;
 }
-/* line 264, ../scss/old/_styles.scss */
-.portaltype-packet#content .img:after,
-.portlet-homepage .img:after,
-.existing_content_portlet .img:after,
-.existing_content_portlet_no_border .img:after,
-.portletStaticText .img:after,
-.mceTmpl .img:after,
-body#tinymce .img:after,
-.mosaic-tile-content .img:after,
-#content-core #parent-fieldname-text .img:after {
+/* line 266, ../scss/old/_styles.scss */
+.portaltype-packet#content *:not([target="_blank"]) .img:after,
+.portlet-homepage *:not([target="_blank"]) .img:after,
+.existing_content_portlet *:not([target="_blank"]) .img:after,
+.existing_content_portlet_no_border *:not([target="_blank"]) .img:after,
+.portletStaticText *:not([target="_blank"]) .img:after,
+.mceTmpl *:not([target="_blank"]) .img:after,
+body#tinymce *:not([target="_blank"]) .img:after,
+.mosaic-tile-content *:not([target="_blank"]) .img:after,
+#content-core #parent-fieldname-text *:not([target="_blank"]) .img:after {
   background-position: -456px -50px;
 }
-/* line 268, ../scss/old/_styles.scss */
-.portaltype-packet#content .txt:after,
-.portlet-homepage .txt:after,
-.existing_content_portlet .txt:after,
-.existing_content_portlet_no_border .txt:after,
-.portletStaticText .txt:after,
-.mceTmpl .txt:after,
-body#tinymce .txt:after,
-.mosaic-tile-content .txt:after,
-#content-core #parent-fieldname-text .txt:after {
+/* line 270, ../scss/old/_styles.scss */
+.portaltype-packet#content *:not([target="_blank"]) .txt:after,
+.portlet-homepage *:not([target="_blank"]) .txt:after,
+.existing_content_portlet *:not([target="_blank"]) .txt:after,
+.existing_content_portlet_no_border *:not([target="_blank"]) .txt:after,
+.portletStaticText *:not([target="_blank"]) .txt:after,
+.mceTmpl *:not([target="_blank"]) .txt:after,
+body#tinymce *:not([target="_blank"]) .txt:after,
+.mosaic-tile-content *:not([target="_blank"]) .txt:after,
+#content-core #parent-fieldname-text *:not([target="_blank"]) .txt:after {
   background-position: -24px -26px;
 }
-/* line 275, ../scss/old/_styles.scss */
+/* line 278, ../scss/old/_styles.scss */
 .portaltype-packet#content .img-rounded,
 .portlet-homepage .img-rounded,
 .existing_content_portlet .img-rounded,
@@ -9681,7 +9681,7 @@ body#tinymce .img-rounded,
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
-/* line 281, ../scss/old/_styles.scss */
+/* line 284, ../scss/old/_styles.scss */
 .portaltype-packet#content .img-circle,
 .portlet-homepage .img-circle,
 .existing_content_portlet .img-circle,
@@ -9695,7 +9695,7 @@ body#tinymce .img-circle,
   -moz-border-radius: 500px;
   border-radius: 500px;
 }
-/* line 287, ../scss/old/_styles.scss */
+/* line 290, ../scss/old/_styles.scss */
 .portaltype-packet#content .img-shadowed,
 .portlet-homepage .img-shadowed,
 .existing_content_portlet .img-shadowed,
@@ -9709,7 +9709,7 @@ body#tinymce .img-shadowed,
   -webkit-box-shadow: 0 1px 3px var(--bs-gray-600);
   box-shadow: 0 1px 3px var(--bs-gray-600);
 }
-/* line 296, ../scss/old/_styles.scss */
+/* line 299, ../scss/old/_styles.scss */
 .portaltype-packet#content .userrole-authenticated .amaga-autenticat,
 .portaltype-packet#content .userrole-anonymous .amaga-no-autenticat,
 .portlet-homepage .userrole-authenticated .amaga-autenticat,
@@ -9730,7 +9730,7 @@ body#tinymce .userrole-anonymous .amaga-no-autenticat,
 #content-core #parent-fieldname-text .userrole-anonymous .amaga-no-autenticat {
   display: none;
 }
-/* line 304, ../scss/old/_styles.scss */
+/* line 307, ../scss/old/_styles.scss */
 .portaltype-packet#content .white-text,
 .portaltype-packet#content .white_text,
 .portlet-homepage .white-text,
@@ -9751,7 +9751,7 @@ body#tinymce .white_text,
 #content-core #parent-fieldname-text .white_text {
   color: #FFF;
 }
-/* line 314, ../scss/old/_styles.scss */
+/* line 317, ../scss/old/_styles.scss */
 .portaltype-packet#content a.btn:not(.btn-primary):not(.btn-secondary):not(.btn-success):not(.btn-danger):not(.btn-warning):not(.btn-info):not(.btn-light):not(.btn-dark):not(.btn-link):not(.btn-outline-primary):not(.btn-outline-secondary):not(.btn-outline-success):not(.btn-outline-danger):not(.btn-outline-warning):not(.btn-outline-info):not(.btn-outline-light):not(.btn-outline-dark),
 .portlet-homepage a.btn:not(.btn-primary):not(.btn-secondary):not(.btn-success):not(.btn-danger):not(.btn-warning):not(.btn-info):not(.btn-light):not(.btn-dark):not(.btn-link):not(.btn-outline-primary):not(.btn-outline-secondary):not(.btn-outline-success):not(.btn-outline-danger):not(.btn-outline-warning):not(.btn-outline-info):not(.btn-outline-light):not(.btn-outline-dark),
 .existing_content_portlet a.btn:not(.btn-primary):not(.btn-secondary):not(.btn-success):not(.btn-danger):not(.btn-warning):not(.btn-info):not(.btn-light):not(.btn-dark):not(.btn-link):not(.btn-outline-primary):not(.btn-outline-secondary):not(.btn-outline-success):not(.btn-outline-danger):not(.btn-outline-warning):not(.btn-outline-info):not(.btn-outline-light):not(.btn-outline-dark),
@@ -9764,7 +9764,7 @@ body#tinymce a.btn:not(.btn-primary):not(.btn-secondary):not(.btn-success):not(.
   background-color: var(--bs-gray-200);
   border: 1px solid var(--bs-gray-300);
 }
-/* line 319, ../scss/old/_styles.scss */
+/* line 322, ../scss/old/_styles.scss */
 .portaltype-packet#content a.btn.btn-large,
 .portlet-homepage a.btn.btn-large,
 .existing_content_portlet a.btn.btn-large,
@@ -9776,7 +9776,7 @@ body#tinymce a.btn.btn-large,
 #content-core #parent-fieldname-text a.btn.btn-large {
   font-size: var(--gw-font-size-xl);
 }
-/* line 323, ../scss/old/_styles.scss */
+/* line 326, ../scss/old/_styles.scss */
 .portaltype-packet#content a.btn.btn-small,
 .portlet-homepage a.btn.btn-small,
 .existing_content_portlet a.btn.btn-small,
@@ -9788,7 +9788,7 @@ body#tinymce a.btn.btn-small,
 #content-core #parent-fieldname-text a.btn.btn-small {
   font-size: var(--gw-font-size-xs);
 }
-/* line 327, ../scss/old/_styles.scss */
+/* line 330, ../scss/old/_styles.scss */
 .portaltype-packet#content a.btn.btn-mini,
 .portlet-homepage a.btn.btn-mini,
 .existing_content_portlet a.btn.btn-mini,
@@ -9800,7 +9800,7 @@ body#tinymce a.btn.btn-mini,
 #content-core #parent-fieldname-text a.btn.btn-mini {
   font-size: var(--gw-font-size-xxxs);
 }
-/* line 331, ../scss/old/_styles.scss */
+/* line 334, ../scss/old/_styles.scss */
 .portaltype-packet#content a.btn.btn-inverse,
 .portlet-homepage a.btn.btn-inverse,
 .existing_content_portlet a.btn.btn-inverse,
@@ -9814,7 +9814,7 @@ body#tinymce a.btn.btn-inverse,
   color: #FFF;
   border-color: var(--bs-gray-900);
 }
-/* line 336, ../scss/old/_styles.scss */
+/* line 339, ../scss/old/_styles.scss */
 .portaltype-packet#content a.btn.btn-inverse:active, .portaltype-packet#content a.btn.btn-inverse:hover,
 .portlet-homepage a.btn.btn-inverse:active,
 .portlet-homepage a.btn.btn-inverse:hover,
@@ -9835,7 +9835,7 @@ body#tinymce a.btn.btn-inverse:hover,
   background-color: var(--bs-gray-800);
   border-color: var(--bs-gray-800);
 }
-/* line 343, ../scss/old/_styles.scss */
+/* line 346, ../scss/old/_styles.scss */
 .portaltype-packet#content a.btn.btn-block + .btn-block,
 .portlet-homepage a.btn.btn-block + .btn-block,
 .existing_content_portlet a.btn.btn-block + .btn-block,
@@ -16412,22 +16412,21 @@ body.template-sitemap #content-core #portal-sitemap > li.navTreeItem > ul ::hove
 /* line 6, ../scss/views/_album_view.scss */
 div.existing-content.template-album_view #content-core .card,
 body.template-album_view #content-core .card {
-  width: 18rem;
   height: 100%;
 }
-/* line 10, ../scss/views/_album_view.scss */
+/* line 9, ../scss/views/_album_view.scss */
 div.existing-content.template-album_view #content-core .card.album,
 body.template-album_view #content-core .card.album {
   width: 14rem;
 }
-/* line 16, ../scss/views/_album_view.scss */
+/* line 15, ../scss/views/_album_view.scss */
 div.existing-content.template-album_view #content-core .card .card-image-top img,
 body.template-album_view #content-core .card .card-image-top img {
   object-fit: cover;
   width: 100%;
   aspect-ratio: 4 / 3;
 }
-/* line 23, ../scss/views/_album_view.scss */
+/* line 22, ../scss/views/_album_view.scss */
 div.existing-content.template-album_view #content-core .card .card-body,
 body.template-album_view #content-core .card .card-body {
   flex: 1 1 auto;
@@ -16437,7 +16436,7 @@ body.template-album_view #content-core .card .card-body {
   flex-direction: column;
   justify-content: space-between;
 }
-/* line 32, ../scss/views/_album_view.scss */
+/* line 31, ../scss/views/_album_view.scss */
 div.existing-content.template-album_view #content-core .card .card-body h5 + a.stretched-link,
 body.template-album_view #content-core .card .card-body h5 + a.stretched-link {
   margin-top: 0.5rem;
