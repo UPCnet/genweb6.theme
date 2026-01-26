@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.53 (unreleased)
+1.53 (2026-01-26)
 -----------------
 
-- Nothing changed yet.
-
+* Merge remote-tracking branch 'origin/develop' [Clàudia Andreu]
 
 1.52 (2026-01-26)
 -----------------
