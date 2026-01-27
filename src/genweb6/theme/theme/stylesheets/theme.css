@@ -12162,18 +12162,19 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
 .portlet .external-url-icon {
   font-size: 1.8rem;
 }
-/* line 42, ../scss/portlets/_generic.scss */
+/* line 43, ../scss/portlets/_generic.scss */
+.portlet div.content-img a[target="_blank"]::after,
 .portlet div.img a[target="_blank"]::after {
   content: "";
   display: none;
 }
 
-/* line 49, ../scss/portlets/_generic.scss */
+/* line 50, ../scss/portlets/_generic.scss */
 .portletWrapper + .portletWrapper {
   margin-top: 2rem;
 }
 
-/* line 55, ../scss/portlets/_generic.scss */
+/* line 56, ../scss/portlets/_generic.scss */
 .plonetoolbar-portlet-manager li:nth-child(2) {
   display: none;
 }
@@ -12278,10 +12279,12 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
 }
 
 /* line 6, ../scss/portlets/_collection.scss */
-.portlet.portlet-collection.portlet-collection-noticias div.img, .portlet.portlet-collection.portlet-collection-eventos div.img {
+.portlet.portlet-collection.portlet-collection-noticias div.content-img,
+.portlet.portlet-collection.portlet-collection-noticias div.img, .portlet.portlet-collection.portlet-collection-eventos div.content-img,
+.portlet.portlet-collection.portlet-collection-eventos div.img {
   padding-top: 5px;
 }
-/* line 10, ../scss/portlets/_collection.scss */
+/* line 11, ../scss/portlets/_collection.scss */
 .portlet.portlet-collection.portlet-collection-noticias .plone-icon, .portlet.portlet-collection.portlet-collection-eventos .plone-icon {
   margin-right: 5px;
 }
@@ -12496,59 +12499,69 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   color: var(--bs-primary);
 }
 /* line 15, ../scss/portlets/_multiviewcollection.scss */
+.portlet.portlet-collection li div.content-img,
 .portlet.portlet-collection li div.img {
   display: flex;
   align-items: start;
   justify-content: center;
 }
-/* line 20, ../scss/portlets/_multiviewcollection.scss */
+/* line 21, ../scss/portlets/_multiviewcollection.scss */
+.portlet.portlet-collection li div.content-img img,
 .portlet.portlet-collection li div.img img {
   object-fit: cover;
   object-position: center center;
   max-height: 143px;
   width: 100%;
 }
-/* line 28, ../scss/portlets/_multiviewcollection.scss */
+/* line 29, ../scss/portlets/_multiviewcollection.scss */
+.portlet.portlet-collection li div.content-txt,
 .portlet.portlet-collection li div.txt {
   display: flex;
   flex-direction: column;
   color: var(--bs-body-color);
 }
-/* line 33, ../scss/portlets/_multiviewcollection.scss */
+/* line 35, ../scss/portlets/_multiviewcollection.scss */
+.portlet.portlet-collection li div.content-txt .title,
 .portlet.portlet-collection li div.txt .title {
   order: 1;
   font-weight: 500;
   font-size: var(--gw-font-size-xl);
 }
-/* line 38, ../scss/portlets/_multiviewcollection.scss */
+/* line 40, ../scss/portlets/_multiviewcollection.scss */
+.portlet.portlet-collection li div.content-txt .title:first-child,
 .portlet.portlet-collection li div.txt .title:first-child {
   white-space: normal;
   margin-bottom: 0.25rem;
 }
-/* line 44, ../scss/portlets/_multiviewcollection.scss */
+/* line 46, ../scss/portlets/_multiviewcollection.scss */
+.portlet.portlet-collection li div.content-txt .description,
 .portlet.portlet-collection li div.txt .description {
   order: 2;
 }
-/* line 48, ../scss/portlets/_multiviewcollection.scss */
+/* line 50, ../scss/portlets/_multiviewcollection.scss */
+.portlet.portlet-collection li div.content-txt .time,
 .portlet.portlet-collection li div.txt .time {
   order: 3;
 }
-/* line 56, ../scss/portlets/_multiviewcollection.scss */
+/* line 58, ../scss/portlets/_multiviewcollection.scss */
 .portlet.portlet-collection.portlet-collection-iltr ul.list-group {
   /* width: 90%; */
 }
-/* line 59, ../scss/portlets/_multiviewcollection.scss */
+/* line 61, ../scss/portlets/_multiviewcollection.scss */
+.portlet.portlet-collection.portlet-collection-iltr ul.list-group div.content-img,
 .portlet.portlet-collection.portlet-collection-iltr ul.list-group div.img {
   align-items: flex-start;
   padding-top: 5px;
 }
 @media (max-width: 768px) {
-  /* line 59, ../scss/portlets/_multiviewcollection.scss */
+  /* line 61, ../scss/portlets/_multiviewcollection.scss */
+  .portlet.portlet-collection.portlet-collection-iltr ul.list-group div.content-img,
   .portlet.portlet-collection.portlet-collection-iltr ul.list-group div.img {
     margin-bottom: 0.5rem;
   }
 }
-/* line 74, ../scss/portlets/_multiviewcollection.scss */
+/* line 78, ../scss/portlets/_multiviewcollection.scss */
+.portlet.portlet-collection.portlet-collection-iutd div.content-img img,
 .portlet.portlet-collection.portlet-collection-iutd div.img img {
   max-height: none;
   max-width: 100%;
@@ -12762,33 +12775,40 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   color: var(--bs-primary);
 }
 /* line 14, ../scss/portlets/_rss.scss */
+.portlet.portlet-rss li div.content-img,
 .portlet.portlet-rss li div.img {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-/* line 19, ../scss/portlets/_rss.scss */
+/* line 20, ../scss/portlets/_rss.scss */
+.portlet.portlet-rss li div.content-img img,
 .portlet.portlet-rss li div.img img {
   height: auto;
 }
-/* line 24, ../scss/portlets/_rss.scss */
+/* line 25, ../scss/portlets/_rss.scss */
+.portlet.portlet-rss li div.content-txt,
 .portlet.portlet-rss li div.txt {
   color: var(--bs-body-color);
 }
-/* line 27, ../scss/portlets/_rss.scss */
+/* line 29, ../scss/portlets/_rss.scss */
+.portlet.portlet-rss li div.content-txt .title,
 .portlet.portlet-rss li div.txt .title {
   font-weight: 500;
   font-size: var(--gw-font-size-xl);
 }
-/* line 34, ../scss/portlets/_rss.scss */
+/* line 36, ../scss/portlets/_rss.scss */
+.portlet.portlet-rss li div.content-txt .description > p:last-child,
 .portlet.portlet-rss li div.txt .description > p:last-child {
   margin-bottom: 0;
 }
-/* line 39, ../scss/portlets/_rss.scss */
+/* line 41, ../scss/portlets/_rss.scss */
+.portlet.portlet-rss li div.content-txt .categories,
 .portlet.portlet-rss li div.txt .categories {
   margin-top: 5px;
 }
-/* line 42, ../scss/portlets/_rss.scss */
+/* line 44, ../scss/portlets/_rss.scss */
+.portlet.portlet-rss li div.content-txt .categories .category,
 .portlet.portlet-rss li div.txt .categories .category {
   background-color: #bfdbeb;
   color: #000;
@@ -12797,7 +12817,7 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   padding: 4px 10px;
   margin-bottom: 3px;
 }
-/* line 56, ../scss/portlets/_rss.scss */
+/* line 58, ../scss/portlets/_rss.scss */
 .portlet.portlet-rss .portlet-footer .bi.bi-plus-circle-fill {
   display: none;
 }
