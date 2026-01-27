@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.54 (unreleased)
+1.54 (2026-01-27)
 -----------------
 
-- Nothing changed yet.
-
+* [FIX] Cambiar classes de portlets (img, txt) para evitar conflictos [Iago López]
 
 1.53 (2026-01-26)
 -----------------
