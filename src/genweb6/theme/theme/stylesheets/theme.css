@@ -15169,43 +15169,56 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
 }
 /* line 95, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree {
+  position: relative;
+  /* Needed for absolute positioning of dropdown */
   display: inline;
   vertical-align: middle;
   padding: 0 0 0 10px;
   border: 1px solid transparent;
+  /* Show dropdown on hover, keyboard navigation, or when checkbox is checked */
 }
-/* line 101, ../scss/viewlets/_header.scss */
+/* line 102, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree.nav-action, #header #portal-navbar .navbar-nav > li.has_subtree.nav-lang {
   padding: 0 5px 0 5px;
 }
-/* line 106, ../scss/viewlets/_header.scss */
+/* line 107, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree a.nav-link {
   padding: 6px 3px 6px 3px;
 }
-/* line 110, ../scss/viewlets/_header.scss */
+/* line 111, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > a.nav-link {
   float: left;
+  position: relative;
+  z-index: 1002;
+  /* Above the parent's pseudo-element */
 }
-/* line 114, ../scss/viewlets/_header.scss */
+/* line 117, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > label {
   position: relative;
   height: 2.1em;
   margin-top: 2px;
+  z-index: 1002;
+  /* Above the parent's pseudo-element */
+  cursor: pointer;
 }
-/* line 119, ../scss/viewlets/_header.scss */
+/* line 124, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > label::after {
   font-family: bootstrap-icons !important;
   content: "\f282";
   transition: ease-in .35s transform;
 }
-/* line 126, ../scss/viewlets/_header.scss */
-#header #portal-navbar .navbar-nav > li.has_subtree:hover {
+/* line 131, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree:hover, #header #portal-navbar .navbar-nav > li.has_subtree.keyboard-open, #header #portal-navbar .navbar-nav > li.has_subtree:has(input.opener:checked) {
+  position: relative;
+  /* Create stacking context */
+  z-index: 1001;
+  /* Above other elements */
   background-color: var(--bs-white);
   border: 1px solid #eee;
   border-bottom: 0;
 }
-/* line 131, ../scss/viewlets/_header.scss */
-#header #portal-navbar .navbar-nav > li.has_subtree:hover:after {
+/* line 140, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree:hover:after, #header #portal-navbar .navbar-nav > li.has_subtree.keyboard-open:after, #header #portal-navbar .navbar-nav > li.has_subtree:has(input.opener:checked):after {
   content: "";
   width: 100%;
   height: 5px;
@@ -15215,16 +15228,21 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   bottom: 0;
   z-index: 1000;
 }
-/* line 142, ../scss/viewlets/_header.scss */
-#header #portal-navbar .navbar-nav > li.has_subtree:hover > label:after, #header #portal-navbar .navbar-nav > li.has_subtree:hover > a {
+/* line 151, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree:hover > label:after, #header #portal-navbar .navbar-nav > li.has_subtree:hover > a, #header #portal-navbar .navbar-nav > li.has_subtree.keyboard-open > label:after, #header #portal-navbar .navbar-nav > li.has_subtree.keyboard-open > a, #header #portal-navbar .navbar-nav > li.has_subtree:has(input.opener:checked) > label:after, #header #portal-navbar .navbar-nav > li.has_subtree:has(input.opener:checked) > a {
   color: var(--bs-primary-hover) !important;
 }
-/* line 149, ../scss/viewlets/_header.scss */
-#header #portal-navbar .navbar-nav > li.has_subtree:hover > label::after {
+/* line 158, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree:hover > label::after, #header #portal-navbar .navbar-nav > li.has_subtree.keyboard-open > label::after, #header #portal-navbar .navbar-nav > li.has_subtree:has(input.opener:checked) > label::after {
   transform: rotate(180deg);
 }
-/* line 155, ../scss/viewlets/_header.scss */
+/* line 164, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree ul,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown {
+  display: none !important;
+  /* Hidden by default */
+  position: absolute;
+  /* Position relative to parent li */
   top: 38px;
   border: 1px solid #eee;
   left: -1px;
@@ -15236,8 +15254,11 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   overflow-y: auto;
   background-color: var(--bs-white);
   box-shadow: 0 7px 8px #00000033;
+  z-index: 9999;
+  /* Very high z-index to ensure it's above everything */
 }
-/* line 168, ../scss/viewlets/_header.scss */
+/* line 181, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item {
   background-color: #fff;
   text-align: left;
@@ -15247,52 +15268,70 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   border-left: 2px solid var(--bs-gray-dark);
   margin-left: 5px;
 }
-/* line 177, ../scss/viewlets/_header.scss */
-#header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item.current, #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item:hover {
+/* line 190, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item.current, #header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item:hover,
+#header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item.current,
+#header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item:hover {
   border-left: 2px solid var(--bs-primary);
 }
-/* line 184, ../scss/viewlets/_header.scss */
+/* line 197, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item.current .nav-link,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item.current .nav-link {
   font-weight: 600;
 }
-/* line 189, ../scss/viewlets/_header.scss */
+/* line 202, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item:hover,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item:hover {
   background-color: #fff !important;
 }
-/* line 192, ../scss/viewlets/_header.scss */
+/* line 205, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item:hover a,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item:hover a {
   color: var(--bs-gray-dark) !important;
 }
-/* line 195, ../scss/viewlets/_header.scss */
+/* line 208, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item:hover a:hover,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item:hover a:hover {
   color: var(--bs-primary) !important;
 }
-/* line 201, ../scss/viewlets/_header.scss */
+/* line 214, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item a.nav-link,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item a.nav-link {
   color: var(--bs-body-color);
   font-weight: 400;
   font-size: 16px;
 }
-/* line 206, ../scss/viewlets/_header.scss */
+/* line 219, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item a.nav-link:hover,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item a.nav-link:hover {
   color: var(--bs-primary);
 }
-/* line 213, ../scss/viewlets/_header.scss */
-#header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item li.has_subtree ul, #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item li.has_subtree > label {
+/* line 226, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item li.has_subtree ul, #header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item li.has_subtree > label,
+#header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item li.has_subtree ul,
+#header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item li.has_subtree > label {
   display: none;
 }
-/* line 225, ../scss/viewlets/_header.scss */
+/* line 235, ../scss/viewlets/_header.scss */
+#header #portal-navbar .navbar-nav > li.has_subtree:hover > ul.dropdown, #header #portal-navbar .navbar-nav > li.has_subtree:hover > ul, #header #portal-navbar .navbar-nav > li.has_subtree.keyboard-open > ul.dropdown, #header #portal-navbar .navbar-nav > li.has_subtree.keyboard-open > ul, #header #portal-navbar .navbar-nav > li.has_subtree > input.opener:checked ~ ul.dropdown, #header #portal-navbar .navbar-nav > li.has_subtree > input.opener:checked ~ ul, #header #portal-navbar .navbar-nav > li.has_subtree:has(> input.opener:checked) > ul.dropdown, #header #portal-navbar .navbar-nav > li.has_subtree:has(> input.opener:checked) > ul {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  z-index: 9999 !important;
+  /* Ensure it's above everything */
+}
+/* line 253, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item::last-child {
   border-bottom: 0px solid;
 }
-/* line 229, ../scss/viewlets/_header.scss */
+/* line 257, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item a.nav-link {
   min-width: auto;
   padding-right: 0em;
   font-weight: normal;
   line-height: 18px;
 }
-/* line 243, ../scss/viewlets/_header.scss */
+/* line 271, ../scss/viewlets/_header.scss */
 #header #portal-searchbox input#searchGadget {
   width: 0;
   padding: 0;
@@ -15304,25 +15343,25 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
 }
-/* line 257, ../scss/viewlets/_header.scss */
+/* line 285, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form input#searchGadget {
   margin-left: 0rem;
 }
-/* line 260, ../scss/viewlets/_header.scss */
+/* line 288, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form input#searchGadget:focus, #header #portal-searchbox #searchGadget_form input#searchGadget:not(:placeholder-shown) {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
   margin-left: 0.75rem;
 }
-/* line 271, ../scss/viewlets/_header.scss */
+/* line 299, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form:hover input#searchGadget {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
   margin-left: 0.75rem;
 }
-/* line 281, ../scss/viewlets/_header.scss */
+/* line 309, ../scss/viewlets/_header.scss */
 #header #portal-searchbox button.searchButton {
   background: none;
   color: inherit;
@@ -15333,7 +15372,7 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   outline: inherit;
 }
 @media (min-width: 992px) {
-  /* line 293, ../scss/viewlets/_header.scss */
+  /* line 321, ../scss/viewlets/_header.scss */
   #header #portal-searchbox .livesearch-results {
     margin-top: 0.5rem;
     right: 4em;
