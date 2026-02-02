@@ -16437,7 +16437,7 @@ body.template-album_view #content-core .card {
 /* line 9, ../scss/views/_album_view.scss */
 div.existing-content.template-album_view #content-core .card.album,
 body.template-album_view #content-core .card.album {
-  width: 14rem;
+  width: 100%;
 }
 /* line 15, ../scss/views/_album_view.scss */
 div.existing-content.template-album_view #content-core .card .card-image-top img,
