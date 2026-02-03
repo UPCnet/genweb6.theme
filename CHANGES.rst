@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-1.55 (unreleased)
+1.55 (2026-02-03)
 -----------------
 
-- Nothing changed yet.
-
+* [FIX] menu accessiblity problems [Clàudia Andreu]
+* [UPD] Estilo vista albul [Iago López]
 
 1.54 (2026-01-27)
 -----------------
