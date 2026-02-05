@@ -32958,30 +32958,55 @@ body.template-manage-homeportlets article#content footer#portal-footer-wrapper {
   display: none;
 }
 
-/* line 1, ../scss/viewlets/_header.scss */
+/* Skip to content link - Accessibility */
+/* line 2, ../scss/viewlets/_header.scss */
+#header .skip-to-content {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 999999;
+  padding: 0.5rem 1rem;
+  background-color: var(--bs-primary);
+  color: var(--bs-white) !important;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  white-space: nowrap;
+}
+/* line 15, ../scss/viewlets/_header.scss */
+#header .skip-to-content:focus, #header .skip-to-content:active {
+  position: relative;
+  left: 0;
+  display: inline-block;
+  margin-right: 1rem;
+  outline: 3px solid var(--bs-primary-hover);
+  outline-offset: 2px;
+}
+
+/* line 26, ../scss/viewlets/_header.scss */
 #header-cintillo {
   width: 100%;
   padding: 1em var(--gw-viewlet-horizontal-width);
   background-color: #DBEBEB;
   color: #000;
 }
-/* line 7, ../scss/viewlets/_header.scss */
+/* line 32, ../scss/viewlets/_header.scss */
 #header-cintillo > i.bi,
 #header-cintillo .cintillo-title {
   font-weight: 800;
 }
-/* line 12, ../scss/viewlets/_header.scss */
+/* line 37, ../scss/viewlets/_header.scss */
 #header-cintillo .cintillo-body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 17, ../scss/viewlets/_header.scss */
+/* line 42, ../scss/viewlets/_header.scss */
 #header-cintillo .cintillo-body:hover {
   white-space: initial;
 }
 
-/* line 30, ../scss/viewlets/_header.scss */
+/* line 55, ../scss/viewlets/_header.scss */
 body.template-layout.section-benvingut #header #portal-navbar .nav-item.home > a,
 body.template-layout.section-bienvenido #header #portal-navbar .nav-item.home > a,
 body.template-layout.section-welcome #header #portal-navbar .nav-item.home > a,
@@ -32990,7 +33015,7 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   border-bottom: 3px solid var(--bs-primary);
 }
 
-/* line 37, ../scss/viewlets/_header.scss */
+/* line 62, ../scss/viewlets/_header.scss */
 #header {
   padding: 1em var(--gw-viewlet-horizontal-width);
   height: 92px;
@@ -32999,44 +33024,44 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   -moz-transition: height .4s ease;
   -o-transition: height .4s ease;
 }
-/* line 45, ../scss/viewlets/_header.scss */
+/* line 70, ../scss/viewlets/_header.scss */
 #header.shink {
   height: 72px;
 }
-/* line 51, ../scss/viewlets/_header.scss */
+/* line 76, ../scss/viewlets/_header.scss */
 #header #portal-logos a[target="_blank"]::after {
   display: none;
   content: "";
 }
-/* line 56, ../scss/viewlets/_header.scss */
+/* line 81, ../scss/viewlets/_header.scss */
 #header #portal-logos img {
   max-height: 50px;
 }
-/* line 63, ../scss/viewlets/_header.scss */
+/* line 88, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav {
   flex-direction: row;
 }
-/* line 70, ../scss/viewlets/_header.scss */
+/* line 95, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > .nav-item.current > a {
   padding: 6px 3px 3px 3px !important;
   border-bottom: 2px solid var(--bs-primary);
 }
-/* line 77, ../scss/viewlets/_header.scss */
+/* line 102, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item {
   font-weight: 400;
   padding: 0 10px 0 10px;
   font-size: 17px;
 }
-/* line 82, ../scss/viewlets/_header.scss */
+/* line 107, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav .nav-item a {
   padding: 6px 0px 6px 0px;
 }
-/* line 89, ../scss/viewlets/_header.scss */
+/* line 114, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li:nth-last-child(-n + 3) ul.dropdown {
   right: -1px;
   left: auto !important;
 }
-/* line 95, ../scss/viewlets/_header.scss */
+/* line 120, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree {
   position: relative;
   /* Needed for absolute positioning of dropdown */
@@ -33046,22 +33071,22 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   border: 1px solid transparent;
   /* Show dropdown on hover, keyboard navigation, or when checkbox is checked */
 }
-/* line 102, ../scss/viewlets/_header.scss */
+/* line 127, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree.nav-action, #header #portal-navbar .navbar-nav > li.has_subtree.nav-lang {
   padding: 0 5px 0 5px;
 }
-/* line 107, ../scss/viewlets/_header.scss */
+/* line 132, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree a.nav-link {
   padding: 6px 3px 6px 3px;
 }
-/* line 111, ../scss/viewlets/_header.scss */
+/* line 136, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > a.nav-link {
   float: left;
   position: relative;
   z-index: 1002;
   /* Above the parent's pseudo-element */
 }
-/* line 117, ../scss/viewlets/_header.scss */
+/* line 142, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > label {
   position: relative;
   height: 2.1em;
@@ -33070,13 +33095,13 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   /* Above the parent's pseudo-element */
   cursor: pointer;
 }
-/* line 124, ../scss/viewlets/_header.scss */
+/* line 149, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > label::after {
   font-family: bootstrap-icons !important;
   content: "\f282";
   transition: ease-in .35s transform;
 }
-/* line 131, ../scss/viewlets/_header.scss */
+/* line 156, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:hover, #header #portal-navbar .navbar-nav > li.has_subtree.keyboard-open, #header #portal-navbar .navbar-nav > li.has_subtree:has(input.opener:checked) {
   position: relative;
   /* Create stacking context */
@@ -33086,7 +33111,7 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   border: 1px solid #eee;
   border-bottom: 0;
 }
-/* line 140, ../scss/viewlets/_header.scss */
+/* line 165, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:hover:after, #header #portal-navbar .navbar-nav > li.has_subtree.keyboard-open:after, #header #portal-navbar .navbar-nav > li.has_subtree:has(input.opener:checked):after {
   content: "";
   width: 100%;
@@ -33097,15 +33122,15 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   bottom: 0;
   z-index: 1000;
 }
-/* line 151, ../scss/viewlets/_header.scss */
+/* line 176, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:hover > label:after, #header #portal-navbar .navbar-nav > li.has_subtree:hover > a, #header #portal-navbar .navbar-nav > li.has_subtree.keyboard-open > label:after, #header #portal-navbar .navbar-nav > li.has_subtree.keyboard-open > a, #header #portal-navbar .navbar-nav > li.has_subtree:has(input.opener:checked) > label:after, #header #portal-navbar .navbar-nav > li.has_subtree:has(input.opener:checked) > a {
   color: var(--bs-primary-hover) !important;
 }
-/* line 158, ../scss/viewlets/_header.scss */
+/* line 183, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:hover > label::after, #header #portal-navbar .navbar-nav > li.has_subtree.keyboard-open > label::after, #header #portal-navbar .navbar-nav > li.has_subtree:has(input.opener:checked) > label::after {
   transform: rotate(180deg);
 }
-/* line 164, ../scss/viewlets/_header.scss */
+/* line 189, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown {
   display: none !important;
@@ -33126,7 +33151,7 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   z-index: 9999;
   /* Very high z-index to ensure it's above everything */
 }
-/* line 181, ../scss/viewlets/_header.scss */
+/* line 206, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item {
   background-color: #fff;
@@ -33137,51 +33162,51 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   border-left: 2px solid var(--bs-gray-dark);
   margin-left: 5px;
 }
-/* line 190, ../scss/viewlets/_header.scss */
+/* line 215, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item.current, #header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item:hover,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item.current,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item:hover {
   border-left: 2px solid var(--bs-primary);
 }
-/* line 197, ../scss/viewlets/_header.scss */
+/* line 222, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item.current .nav-link,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item.current .nav-link {
   font-weight: 600;
 }
-/* line 202, ../scss/viewlets/_header.scss */
+/* line 227, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item:hover,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item:hover {
   background-color: #fff !important;
 }
-/* line 205, ../scss/viewlets/_header.scss */
+/* line 230, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item:hover a,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item:hover a {
   color: var(--bs-gray-dark) !important;
 }
-/* line 208, ../scss/viewlets/_header.scss */
+/* line 233, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item:hover a:hover,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item:hover a:hover {
   color: var(--bs-primary) !important;
 }
-/* line 214, ../scss/viewlets/_header.scss */
+/* line 239, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item a.nav-link,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item a.nav-link {
   color: var(--bs-body-color);
   font-weight: 400;
   font-size: 16px;
 }
-/* line 219, ../scss/viewlets/_header.scss */
+/* line 244, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item a.nav-link:hover,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item a.nav-link:hover {
   color: var(--bs-primary);
 }
-/* line 226, ../scss/viewlets/_header.scss */
+/* line 251, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item li.has_subtree ul, #header #portal-navbar .navbar-nav > li.has_subtree ul .nav-item li.has_subtree > label,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item li.has_subtree ul,
 #header #portal-navbar .navbar-nav > li.has_subtree ul.dropdown .nav-item li.has_subtree > label {
   display: none;
 }
-/* line 235, ../scss/viewlets/_header.scss */
+/* line 260, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree:hover > ul.dropdown, #header #portal-navbar .navbar-nav > li.has_subtree:hover > ul, #header #portal-navbar .navbar-nav > li.has_subtree.keyboard-open > ul.dropdown, #header #portal-navbar .navbar-nav > li.has_subtree.keyboard-open > ul, #header #portal-navbar .navbar-nav > li.has_subtree > input.opener:checked ~ ul.dropdown, #header #portal-navbar .navbar-nav > li.has_subtree > input.opener:checked ~ ul, #header #portal-navbar .navbar-nav > li.has_subtree:has(> input.opener:checked) > ul.dropdown, #header #portal-navbar .navbar-nav > li.has_subtree:has(> input.opener:checked) > ul {
   display: block !important;
   visibility: visible !important;
@@ -33189,18 +33214,18 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   z-index: 9999 !important;
   /* Ensure it's above everything */
 }
-/* line 253, ../scss/viewlets/_header.scss */
+/* line 278, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item::last-child {
   border-bottom: 0px solid;
 }
-/* line 257, ../scss/viewlets/_header.scss */
+/* line 282, ../scss/viewlets/_header.scss */
 #header #portal-navbar .navbar-nav > li.has_subtree > ul li.nav-item a.nav-link {
   min-width: auto;
   padding-right: 0em;
   font-weight: normal;
   line-height: 18px;
 }
-/* line 271, ../scss/viewlets/_header.scss */
+/* line 296, ../scss/viewlets/_header.scss */
 #header #portal-searchbox input#searchGadget {
   width: 0;
   padding: 0;
@@ -33212,25 +33237,25 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
 }
-/* line 285, ../scss/viewlets/_header.scss */
+/* line 310, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form input#searchGadget {
   margin-left: 0rem;
 }
-/* line 288, ../scss/viewlets/_header.scss */
+/* line 313, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form input#searchGadget:focus, #header #portal-searchbox #searchGadget_form input#searchGadget:not(:placeholder-shown) {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
   margin-left: 0.75rem;
 }
-/* line 299, ../scss/viewlets/_header.scss */
+/* line 324, ../scss/viewlets/_header.scss */
 #header #portal-searchbox #searchGadget_form:hover input#searchGadget {
   border: 1px solid #ced4da;
   width: 200px;
   padding: 0.375rem 0.75rem;
   margin-left: 0.75rem;
 }
-/* line 309, ../scss/viewlets/_header.scss */
+/* line 334, ../scss/viewlets/_header.scss */
 #header #portal-searchbox button.searchButton {
   background: none;
   color: inherit;
@@ -33241,7 +33266,7 @@ body:not([class*="section-"]) #header #portal-navbar .nav-item.home > a {
   outline: inherit;
 }
 @media (min-width: 992px) {
-  /* line 321, ../scss/viewlets/_header.scss */
+  /* line 346, ../scss/viewlets/_header.scss */
   #header #portal-searchbox .livesearch-results {
     margin-top: 0.5rem;
     right: 4em;

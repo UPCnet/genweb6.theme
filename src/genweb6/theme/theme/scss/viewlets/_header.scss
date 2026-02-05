@@ -1,3 +1,28 @@
+/* Skip to content link - Accessibility */
+#header .skip-to-content {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 999999;
+  padding: 0.5rem 1rem;
+  background-color: var(--bs-primary);
+  color: var(--bs-white) !important;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  white-space: nowrap;
+  
+  &:focus,
+  &:active {
+    position: relative;
+    left: 0;
+    display: inline-block;
+    margin-right: 1rem;
+    outline: 3px solid var(--bs-primary-hover);
+    outline-offset: 2px;
+  }
+}
+
 #header-cintillo {
   width: 100%;
   padding: 1em var(--gw-viewlet-horizontal-width);
