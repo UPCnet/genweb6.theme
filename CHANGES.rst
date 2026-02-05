@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.56 (unreleased)
+1.56 (2026-02-05)
 -----------------
 
-- Nothing changed yet.
-
+* [ADD] skip to content button [Clàudia Andreu]
 
 1.55 (2026-02-03)
 -----------------
