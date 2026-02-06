@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.57 (unreleased)
+1.57 (2026-02-06)
 -----------------
 
-- Nothing changed yet.
-
+* [FIX] security/dependabot [Iago López]
 
 1.56 (2026-02-05)
 -----------------
