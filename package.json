@@ -21,6 +21,7 @@
     "stylelint-config-twbs-bootstrap": "^2.2.4"
   },
   "overrides": {
+    "postcss": "^8.4.31",
     "@babel/traverse": ">=7.23.2",
     "@babel/helpers": ">=7.26.10",
     "qs": ">=6.14.1",
