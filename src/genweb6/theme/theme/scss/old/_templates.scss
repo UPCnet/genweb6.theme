@@ -179,6 +179,8 @@ div.photoAlbumEntry {
 img.image-left {
   float: left;
   margin-right: 1rem;
+  position: relative;
+  z-index: 5;
 }
 
 
@@ -187,6 +189,8 @@ img.image-left {
 img.image-right {
   float: right;
   margin-left: 1rem;
+  position: relative;
+  z-index: 5;
 }
 
 
