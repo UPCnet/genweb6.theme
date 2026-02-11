@@ -2,11 +2,12 @@ Changelog
 =========
 
 
-1.58 (unreleased)
+1.58 (2026-02-11)
 -----------------
 
-- Nothing changed yet.
-
+* Merge remote-tracking branch 'origin/develop' [pmarinas]
+* [UPD] Mejora estilos acordion y img-right / img-left [Iago López]
+* [FIX] Vulnaribilidades security/dependabot [Iago López]
 
 1.57 (2026-02-06)
 -----------------
