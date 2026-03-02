@@ -19908,7 +19908,7 @@ select + .select2-container--bootstrap-5 {
   src: url("fonts/upc/upc-icones.eot") format("embedded-opentype"), url("fonts/upc/upc-icones.woff") format("woff"), url("fonts/upc/upc-icones.ttf") format("truetype"), url("fonts/upc/upc-icones.svg#upc-icones") format("svg");
 }
 /* line 12, ../scss/_genweb.scss */
-* {
+[id] {
   scroll-margin-top: 100px;
 }
 
