@@ -2,11 +2,12 @@ Changelog
 =========
 
 
-1.59 (unreleased)
+1.59 (2026-03-02)
 -----------------
 
-- Nothing changed yet.
-
+* [FIX] En nuevas versiones de chrome scroll-margin-top interactua mal con el tinymce, lo hemos mejorado [Iago López]
+* Solucionar lint y coverage  Run failed: Buildout and QA [pmarinas]
+* Solucionar buildout Run failed: Buildout and QA [pmarinas]
 
 1.58 (2026-02-11)
 -----------------
