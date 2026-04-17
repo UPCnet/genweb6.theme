@@ -13732,15 +13732,14 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
 /* line 20, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item img,
 .template-multiple-carousel .carousel-item img {
-  object-fit: cover;
   width: 100%;
 }
-/* line 24, ../scss/templates/_carousel.scss */
+/* line 23, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item img:not(.disable-auto-proportions),
 .template-multiple-carousel .carousel-item img:not(.disable-auto-proportions) {
   aspect-ratio: 16 / 9;
 }
-/* line 29, ../scss/templates/_carousel.scss */
+/* line 28, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .carousel-caption,
 .template-multiple-carousel .carousel-item .carousel-caption {
   width: 100%;
@@ -13758,37 +13757,37 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   background-color: #ffffffbd;
 }
-/* line 43, ../scss/templates/_carousel.scss */
+/* line 42, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .title,
 .template-multiple-carousel .carousel-item .title {
   order: 1;
   font-weight: 700;
 }
-/* line 47, ../scss/templates/_carousel.scss */
+/* line 46, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .title *,
 .template-multiple-carousel .carousel-item .title * {
   color: var(--bs-dark);
   font-size: var(--gw-font-size-xl);
 }
-/* line 52, ../scss/templates/_carousel.scss */
+/* line 51, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .title:first-child,
 .template-multiple-carousel .carousel-item .title:first-child {
   white-space: normal;
   margin-bottom: 0.25rem;
 }
-/* line 58, ../scss/templates/_carousel.scss */
+/* line 57, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .description,
 .template-multiple-carousel .carousel-item .description {
   order: 2;
 }
-/* line 62, ../scss/templates/_carousel.scss */
+/* line 61, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-item .time,
 .template-multiple-carousel .carousel-item .time {
   order: 3;
   margin-bottom: 0.5rem;
 }
 
-/* line 72, ../scss/templates/_carousel.scss */
+/* line 71, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-control-pause,
 .template-carousel .carousel-control-next,
 .template-carousel .carousel-control-prev {
@@ -13799,13 +13798,13 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   padding: 0.5rem 1rem;
   opacity: 0.75;
 }
-/* line 82, ../scss/templates/_carousel.scss */
+/* line 81, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-control-pause:hover,
 .template-carousel .carousel-control-next:hover,
 .template-carousel .carousel-control-prev:hover {
   opacity: 0.9;
 }
-/* line 86, ../scss/templates/_carousel.scss */
+/* line 85, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-control-pause .bi.bi-pause-fill,
 .template-carousel .carousel-control-pause .bi.bi-play-fill,
 .template-carousel .carousel-control-pause .carousel-control-next-icon,
@@ -13821,7 +13820,7 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   width: 1rem;
   height: 1rem;
 }
-/* line 95, ../scss/templates/_carousel.scss */
+/* line 94, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-control-pause {
   position: absolute;
   left: 1rem;
@@ -13835,53 +13834,57 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   transition: opacity .15s ease;
   padding: 0.125rem 1rem 0.875rem 1rem;
 }
-/* line 109, ../scss/templates/_carousel.scss */
+/* line 108, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-control-next {
   right: 1rem;
 }
-/* line 113, ../scss/templates/_carousel.scss */
+/* line 112, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-control-prev {
   right: 5rem;
   left: inherit;
 }
-/* line 118, ../scss/templates/_carousel.scss */
+/* line 117, ../scss/templates/_carousel.scss */
 .template-carousel .carousel-controls-overlay .carousel-control-prev i,
 .template-carousel .carousel-controls-overlay .carousel-control-next i {
   font-size: 1.75rem !important;
 }
+/* line 124, ../scss/templates/_carousel.scss */
+.template-carousel .carousel-item img {
+  object-fit: cover;
+}
 @media (max-width: 767px) {
-  /* line 70, ../scss/templates/_carousel.scss */
+  /* line 69, ../scss/templates/_carousel.scss */
   .template-carousel {
     margin-top: 4.5rem;
     /* Ajusta estilo de los botones para que se vean bien sobre fondo negro */
     /* Ajusta estilo de los botones para que se vean bien sobre fondo negro */
   }
-  /* line 126, ../scss/templates/_carousel.scss */
+  /* line 132, ../scss/templates/_carousel.scss */
   .template-carousel > div:not(.carousel-indicators) > button {
     position: absolute !important;
     top: -33px !important;
   }
-  /* line 131, ../scss/templates/_carousel.scss */
+  /* line 137, ../scss/templates/_carousel.scss */
   .template-carousel div.carousel-indicators {
     position: absolute !important;
     bottom: -33px !important;
   }
-  /* line 136, ../scss/templates/_carousel.scss */
+  /* line 142, ../scss/templates/_carousel.scss */
   .template-carousel .carousel-caption {
     background-color: #000 !important;
     position: static;
     color: #fff !important;
     background-image: none !important;
   }
-  /* line 144, ../scss/templates/_carousel.scss */
+  /* line 150, ../scss/templates/_carousel.scss */
   .template-carousel .carousel-caption h5 {
     color: #fff !important;
   }
-  /* line 148, ../scss/templates/_carousel.scss */
+  /* line 154, ../scss/templates/_carousel.scss */
   .template-carousel .carousel {
     position: relative;
   }
-  /* line 152, ../scss/templates/_carousel.scss */
+  /* line 158, ../scss/templates/_carousel.scss */
   .template-carousel .carousel-controls-overlay {
     width: 100%;
     position: absolute;
@@ -13889,7 +13892,7 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
     height: 3em;
     top: -2.5em;
   }
-  /* line 161, ../scss/templates/_carousel.scss */
+  /* line 167, ../scss/templates/_carousel.scss */
   .template-carousel .carousel-controls-overlay button,
   .template-carousel .carousel-controls-overlay i,
   .template-carousel .carousel-controls-overlay .carousel-control-prev-icon span,
@@ -13900,11 +13903,7 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
     border: none;
     position: absolute;
   }
-  /* line 173, ../scss/templates/_carousel.scss */
-  .template-carousel .carousel {
-    position: relative;
-  }
-  /* line 177, ../scss/templates/_carousel.scss */
+  /* line 179, ../scss/templates/_carousel.scss */
   .template-carousel .carousel-controls-overlay {
     width: 100%;
     position: absolute;
@@ -13912,7 +13911,7 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
     height: 3em;
     top: -2.5em;
   }
-  /* line 186, ../scss/templates/_carousel.scss */
+  /* line 188, ../scss/templates/_carousel.scss */
   .template-carousel .carousel-controls-overlay button,
   .template-carousel .carousel-controls-overlay i,
   .template-carousel .carousel-controls-overlay .carousel-control-pause {
@@ -13921,63 +13920,67 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
     border: none;
     position: absolute;
   }
-  /* line 196, ../scss/templates/_carousel.scss */
+  /* line 198, ../scss/templates/_carousel.scss */
   .template-carousel .carousel-controls-overlay .carousel-control-prev i,
   .template-carousel .carousel-controls-overlay .carousel-control-next i {
     font-size: 1.75rem !important;
   }
-  /* line 201, ../scss/templates/_carousel.scss */
+  /* line 203, ../scss/templates/_carousel.scss */
   .template-carousel .carousel-control-pause,
   .template-carousel .carousel-control-next,
   .template-carousel .carousel-control-prev {
     height: max-content;
   }
-  /* line 207, ../scss/templates/_carousel.scss */
+  /* line 209, ../scss/templates/_carousel.scss */
   .template-carousel .carousel-caption a {
     color: #fff;
   }
 }
 
-/* line 215, ../scss/templates/_carousel.scss */
+/* line 217, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner {
   margin-right: 2.5rem;
   margin-left: 2.5rem;
   width: calc(100% - 5rem);
 }
 /* line 224, ../scss/templates/_carousel.scss */
+.template-multiple-carousel .carousel-inner .carousel-item img {
+  object-fit: contain;
+}
+/* line 230, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item a.title:hover {
   color: var(--bs-primary);
 }
-/* line 227, ../scss/templates/_carousel.scss */
+/* line 233, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item a.title:hover * {
   color: var(--bs-primary);
 }
-/* line 233, ../scss/templates/_carousel.scss */
+/* line 239, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item img:not(.disable-auto-proportions) {
   aspect-ratio: 4 / 3;
 }
-/* line 243, ../scss/templates/_carousel.scss */
+/* line 249, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-control-prev i.bi,
 .template-multiple-carousel .carousel-control-next i.bi {
   font-size: 2rem;
   color: var(--bs-primary);
 }
-/* line 247, ../scss/templates/_carousel.scss */
+/* line 253, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-control-prev i.bi:hover,
 .template-multiple-carousel .carousel-control-next i.bi:hover {
   color: var(--bs-primary-hover);
 }
 @media (max-width: 767px) {
-  /* line 255, ../scss/templates/_carousel.scss */
+  /* line 261, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item > div {
     display: none;
   }
-  /* line 259, ../scss/templates/_carousel.scss */
+  /* line 265, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item > div:first-child {
     display: block;
   }
 }
-/* line 265, ../scss/templates/_carousel.scss */
+/* line 271, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item.active,
 .template-multiple-carousel .carousel-inner .carousel-item-next,
 .template-multiple-carousel .carousel-inner .carousel-item-prev {
@@ -13985,72 +13988,72 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   gap: 2rem;
 }
 @media (max-width: 767px) {
-  /* line 274, ../scss/templates/_carousel.scss */
+  /* line 280, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(100%);
   }
-  /* line 279, ../scss/templates/_carousel.scss */
+  /* line 285, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(-100%);
   }
 }
 @media (min-width: 768px) {
-  /* line 287, ../scss/templates/_carousel.scss */
+  /* line 293, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(calc(100% / 3));
   }
-  /* line 292, ../scss/templates/_carousel.scss */
+  /* line 298, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(calc(-100% / 3));
   }
-  /* line 299, ../scss/templates/_carousel.scss */
+  /* line 305, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-item.active.carousel-item-start > .w-100:not(:first-child) {
     opacity: 0;
   }
-  /* line 306, ../scss/templates/_carousel.scss */
+  /* line 312, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-item.active.carousel-item-end > .w-100:not(:last-child) {
     opacity: 0;
   }
 }
 @media (min-width: 992px) {
-  /* line 314, ../scss/templates/_carousel.scss */
+  /* line 320, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-end.active,
   .template-multiple-carousel .carousel-inner .carousel-item-next {
     transform: translateX(25%);
   }
-  /* line 319, ../scss/templates/_carousel.scss */
+  /* line 325, ../scss/templates/_carousel.scss */
   .template-multiple-carousel .carousel-inner .carousel-item-start.active,
   .template-multiple-carousel .carousel-inner .carousel-item-prev {
     transform: translateX(-25%);
   }
 }
-/* line 325, ../scss/templates/_carousel.scss */
+/* line 331, ../scss/templates/_carousel.scss */
 .template-multiple-carousel .carousel-inner .carousel-item-end,
 .template-multiple-carousel .carousel-inner .carousel-item-start {
   transform: translateX(0);
 }
 
-/* line 340, ../scss/templates/_carousel.scss */
+/* line 346, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item img:not(.disable-auto-proportions),
 .col-md-3 > .portletWrapper .template-carousel .carousel-item img:not(.disable-auto-proportions) {
   aspect-ratio: 1;
 }
-/* line 344, ../scss/templates/_carousel.scss */
+/* line 350, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item p,
 .col-md-3 > .portletWrapper .template-carousel .carousel-item p {
   font-size: 14px;
 }
-/* line 348, ../scss/templates/_carousel.scss */
+/* line 354, ../scss/templates/_carousel.scss */
 .col-md-2 > .portletWrapper .template-carousel .carousel-item h6,
 .col-md-3 > .portletWrapper .template-carousel .carousel-item h6 {
   color: var(--bs-dark);
 }
 
-/* line 364, ../scss/templates/_carousel.scss */
+/* line 370, ../scss/templates/_carousel.scss */
 .col-md-4:not(.disable-auto-proportions) > .portletWrapper .template-carousel .carousel-item img {
   aspect-ratio: 4 / 3;
 }
