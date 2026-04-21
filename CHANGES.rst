@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.60 (unreleased)
+1.60 (2026-04-21)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] Cambio estilo carousel multiple object fit de cover a contain [Iago López]
 
 1.59 (2026-03-02)
 -----------------
