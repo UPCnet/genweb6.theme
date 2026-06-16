@@ -5,8 +5,7 @@ Changelog
 1.61 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] neteja metadades styles [Clàudia Andreu]
 
 1.60 (2026-04-21)
 -----------------
