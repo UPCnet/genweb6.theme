@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.61 (unreleased)
+1.61 (2026-06-16)
 -----------------
 
 * [UPD] neteja metadades styles [Clàudia Andreu]
