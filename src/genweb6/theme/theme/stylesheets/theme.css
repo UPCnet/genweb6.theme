@@ -2559,8 +2559,7 @@ a.wrapper-img-link:before {
 .upc-heading--large {
   font-size: 2rem;
   font-weight: 600;
-  color: #00769D;
-  /* Azul UPC */
+  color: var(--bs-primary, #007BC1);
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -2619,19 +2618,30 @@ a.wrapper-img-link:before {
   transition: background-color 0.3s ease;
   max-width: 100px;
   height: 36px;
-  background-color: #00769D;
+  background-color: var(--bs-primary, #007BC1);
   color: #fff;
 }
 
 /* line 569, ../scss/_genweb.scss */
 .upc-button:hover {
-  background-color: #005e7d;
+  background-color: var(--bs-primary-hover, #005a8e);
 }
 
-/* line 573, ../scss/_genweb.scss */
+.upc-button--wide {
+  max-width: none;
+  min-width: 12rem;
+  padding: 0 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
 .upc-form-group--center {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 /* line 578, ../scss/_genweb.scss */
