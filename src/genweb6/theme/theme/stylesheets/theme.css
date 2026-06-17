@@ -3298,6 +3298,56 @@ body#tinymce a.link-bannersuccess:after,
 #content-core #parent-fieldname-text a.link-bannersuccess:after {
   border-color: #155724;
 }
+/* line 172, ../scss/old/_banners.scss */
+.portaltype-packet#content a.link-bannerblanc,
+.portaltype-genweb-core-accordiontabs a.link-bannerblanc,
+.portlet-homepage a.link-bannerblanc,
+.existing_content_portlet a.link-bannerblanc,
+.existing_content_portlet_no_border a.link-bannerblanc,
+.portletStaticText a.link-bannerblanc,
+.mceTmpl a.link-bannerblanc,
+body#tinymce a.link-bannerblanc,
+.mosaic-tile-content a.link-bannerblanc,
+#content-core #parent-fieldname-text a.link-bannerblanc {
+  color: #000 !important;
+  background-color: #FFF;
+  border-color: #dee2e6;
+}
+/* line 177, ../scss/old/_banners.scss */
+.portaltype-packet#content a.link-bannerblanc:before, .portaltype-packet#content a.link-bannerblanc:after,
+.portaltype-genweb-core-accordiontabs a.link-bannerblanc:before,
+.portaltype-genweb-core-accordiontabs a.link-bannerblanc:after,
+.portlet-homepage a.link-bannerblanc:before,
+.portlet-homepage a.link-bannerblanc:after,
+.existing_content_portlet a.link-bannerblanc:before,
+.existing_content_portlet a.link-bannerblanc:after,
+.existing_content_portlet_no_border a.link-bannerblanc:before,
+.existing_content_portlet_no_border a.link-bannerblanc:after,
+.portletStaticText a.link-bannerblanc:before,
+.portletStaticText a.link-bannerblanc:after,
+.mceTmpl a.link-bannerblanc:before,
+.mceTmpl a.link-bannerblanc:after,
+body#tinymce a.link-bannerblanc:before,
+body#tinymce a.link-bannerblanc:after,
+.mosaic-tile-content a.link-bannerblanc:before,
+.mosaic-tile-content a.link-bannerblanc:after,
+#content-core #parent-fieldname-text a.link-bannerblanc:before,
+#content-core #parent-fieldname-text a.link-bannerblanc:after {
+  color: #000 !important;
+}
+/* line 182, ../scss/old/_banners.scss */
+.portaltype-packet#content a.link-bannerblanc:after,
+.portaltype-genweb-core-accordiontabs a.link-bannerblanc:after,
+.portlet-homepage a.link-bannerblanc:after,
+.existing_content_portlet a.link-bannerblanc:after,
+.existing_content_portlet_no_border a.link-bannerblanc:after,
+.portletStaticText a.link-bannerblanc:after,
+.mceTmpl a.link-bannerblanc:after,
+body#tinymce a.link-bannerblanc:after,
+.mosaic-tile-content a.link-bannerblanc:after,
+#content-core #parent-fieldname-text a.link-bannerblanc:after {
+  border-color: #000;
+}
 /* line 1, ../scss/old/_bootstrap2.scss */
 .portaltype-packet#content .row-fluid:before,
 .portaltype-packet#content .row-fluid:after,
