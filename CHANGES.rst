@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-1.62 (unreleased)
+1.62 (2026-06-23)
 -----------------
 
-- Nothing changed yet.
-
+* Merge remote-tracking branch 'origin/develop' [Iago López]
+* [ADD] Nueva plantilla - Baner blanco [Iago López]
 
 1.61 (2026-06-16)
 -----------------
