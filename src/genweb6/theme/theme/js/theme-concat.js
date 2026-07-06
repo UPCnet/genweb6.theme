@@ -138,6 +138,17 @@ $(document).ready(function(){
 
     checkNavbar();
 
+    // Plone crea un <ul> vacío al iniciar pat-livesearch; usamos el del template.
+    $('form.pat-livesearch').each(function () {
+        var $form = $(this);
+        var $keep = $form.nextAll('ul.livesearch-results[id]').first();
+        $form.nextAll('ul.livesearch-results').not($keep).remove();
+        var pattern = $form.data('pattern-livesearch');
+        if (pattern && $keep.length) {
+            pattern.$results = $keep;
+        }
+    });
+
     $('#portal-navbar-mobile nav.navbar li.has_subtree label').on('click', function(){
         $(this).closest('li.has_subtree').toggleClass('open');
     });
