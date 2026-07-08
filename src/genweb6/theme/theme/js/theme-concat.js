@@ -171,7 +171,9 @@ $(document).ready(function(){
 
     document.addEventListener('DOMContentLoaded', function() {
         
-        const menuItems = document.querySelectorAll('#portal-navbar .has_subtree');
+        const menuItems = document.querySelectorAll(
+            '#portal-navbar .has_subtree, #portal-navbar-mobile .has_subtree'
+        );
         
         menuItems.forEach(function(menuItem) {
             const link = menuItem.querySelector('a.nav-link');
@@ -198,7 +200,6 @@ $(document).ready(function(){
             // Make label focusable
             label.setAttribute('tabindex', '0');
             label.setAttribute('role', 'button');
-            label.setAttribute('aria-label', 'Abrir submenú de ' + link.textContent.trim());
             
             // Function to check if menu is open
             function isOpen() {
