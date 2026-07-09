@@ -20496,6 +20496,7 @@ a.wrapper-img-link:before {
   background-color: var(--bs-primary-hover, #005a8e);
 }
 
+/* line 573, ../scss/_genweb.scss */
 .upc-button--wide {
   max-width: none;
   min-width: 12rem;
@@ -20507,19 +20508,20 @@ a.wrapper-img-link:before {
   box-sizing: border-box;
 }
 
+/* line 584, ../scss/_genweb.scss */
 .upc-form-group--center {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-/* line 578, ../scss/_genweb.scss */
+/* line 590, ../scss/_genweb.scss */
 .upc-logo {
   display: block;
   margin: 1rem 0 1rem 2rem;
 }
 
-/* line 583, ../scss/_genweb.scss */
+/* line 595, ../scss/_genweb.scss */
 .upc-logo-img {
   max-height: 4rem;
   height: auto;
@@ -31094,25 +31096,45 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row,
 .portlet.portlet-grid-events .list-agenda ol.row {
   list-style: none;
+  align-items: stretch;
 }
-/* line 13, ../scss/portlets/_grid_events.scss */
+/* line 14, ../scss/portlets/_grid_events.scss */
+.gw-tile.destacats4-esdeveniments .list-agenda ol.row > li,
+.portlet.portlet-grid-events .list-agenda ol.row > li {
+  display: flex;
+}
+/* line 17, ../scss/portlets/_grid_events.scss */
+.gw-tile.destacats4-esdeveniments .list-agenda ol.row > li > .card,
+.portlet.portlet-grid-events .list-agenda ol.row > li > .card {
+  width: 100%;
+}
+/* line 22, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card,
 .portlet.portlet-grid-events .list-agenda ol.row .card {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-  min-height: 250px;
+  min-height: 280px;
   min-width: 150px;
   position: relative;
+  overflow: visible;
   transition: all .25s ease-out;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-content: space-around;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 100%;
   align-items: stretch;
   text-decoration: none;
 }
-/* line 28, ../scss/portlets/_grid_events.scss */
+/* line 38, ../scss/portlets/_grid_events.scss */
+.gw-tile.destacats4-esdeveniments .list-agenda ol.row .card::before,
+.portlet.portlet-grid-events .list-agenda ol.row .card::before {
+  content: '';
+  order: 2;
+  flex: 0 0 32px;
+  height: 32px;
+}
+/* line 45, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-time,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-time {
   opacity: 0.9;
@@ -31121,22 +31143,24 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   height: 134px;
   border-radius: 50%;
   text-align: center;
-  margin: 10px auto 30px auto;
+  margin: 28px auto 0 auto;
+  order: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
-/* line 37, ../scss/portlets/_grid_events.scss */
+/* line 59, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-time .event-time--wrap,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-time .event-time--wrap {
-  top: 50%;
-  transform: translateY(-50%);
-  position: relative;
   display: block;
 }
-/* line 44, ../scss/portlets/_grid_events.scss */
+/* line 63, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-time .event-months,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-time .event-months {
-  margin-top: 5px;
+  margin-top: 2px;
 }
-/* line 49, ../scss/portlets/_grid_events.scss */
+/* line 68, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-days,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-days {
   font-weight: 700;
@@ -31146,7 +31170,7 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   padding-bottom: 1px;
   line-height: 1;
 }
-/* line 57, ../scss/portlets/_grid_events.scss */
+/* line 76, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-days.event-days-connector,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-days.event-days-connector {
   font-size: 0.9rem;
@@ -31154,7 +31178,7 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   margin-bottom: 3px;
   margin-top: 3px;
 }
-/* line 65, ../scss/portlets/_grid_events.scss */
+/* line 84, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-months,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-months {
   font-weight: 300;
@@ -31164,22 +31188,26 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   display: block;
   padding-bottom: 1px;
 }
-/* line 74, ../scss/portlets/_grid_events.scss */
+/* line 93, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card .event-title,
 .portlet.portlet-grid-events .list-agenda ol.row .card .event-title {
   font-size: 1.125rem;
   font-weight: 300;
   color: var(--bs-primary);
-  height: auto;
-  background: rgba(255, 255, 255, 0.9);
+  background: #fff;
   margin: 0;
+  order: 3;
   width: 100%;
   padding: 12px;
   text-align: center;
-  position: inherit;
-  flex: 1;
+  position: relative;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.35;
 }
-/* line 88, ../scss/portlets/_grid_events.scss */
+/* line 111, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card:hover,
 .portlet.portlet-grid-events .list-agenda ol.row .card:hover {
   text-decoration: none;
@@ -31187,7 +31215,7 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   transform: perspective(1px) scale(1.00775, 1.00775) translateZ(0px);
   -webkit-font-smoothing: subpixel-antialiased;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-  min-height: 250px;
+  min-height: 280px;
   min-width: 150px;
   position: relative;
   transition: all .25s ease-out;
@@ -31195,11 +31223,11 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   flex-wrap: wrap;
   flex-direction: column;
   align-content: space-around;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 100%;
   align-items: stretch;
 }
-/* line 108, ../scss/portlets/_grid_events.scss */
+/* line 131, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .list-agenda ol.row .card:hover .event-time::after,
 .portlet.portlet-grid-events .list-agenda ol.row .card:hover .event-time::after {
   opacity: .9;
@@ -31208,20 +31236,24 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
   border: 1.5px solid var(--bs-primary);
   position: absolute;
   font-size: 1.125rem;
-  left: calc(50% - 20px);
-  margin-top: 4px;
+  left: calc(50% - 19px);
+  top: calc(28px + 134px - 19px);
   width: 38px;
   height: 38px;
+  line-height: 32px;
   text-align: center;
   color: var(--bs-primary);
   background: rgba(255, 255, 255, 0.8);
-  z-index: 0;
+  z-index: 2;
   transition: all .5s ease;
   border-radius: 50%;
-  padding-top: 3px;
-  top: 125px;
 }
-/* line 136, ../scss/portlets/_grid_events.scss */
+/* line 152, ../scss/portlets/_grid_events.scss */
+.gw-tile.destacats4-esdeveniments .list-agenda ol.row .card:hover .event-title,
+.portlet.portlet-grid-events .list-agenda ol.row .card:hover .event-title {
+  background: #fff;
+}
+/* line 162, ../scss/portlets/_grid_events.scss */
 .gw-tile.destacats4-esdeveniments .portlet-footer a,
 .portlet.portlet-grid-events .portlet-footer a {
   text-decoration: none;
