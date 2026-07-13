@@ -1,9 +1,11 @@
-div.existing-content.template-tabular_view,
-body.template-tabular_view {
+body.template-tabular_view,
+div.existing-content.template-tabular_view {
 
-    #content-core {
+    .table-responsive table.table {
 
-        td {
+        // WCAG 1.4.10 Reflow: allow text wrapping in collection table cells
+        tbody td {
+            white-space: normal;
             text-wrap: wrap;
 
             a {
@@ -14,16 +16,93 @@ body.template-tabular_view {
                 float: left;
             }
 
-            &:first-child {
-                width: 2.5%;
-            }
-
-            &:last-child {
-                width: 15%;
-            }
-
             .plone-icon {
                 height: 1em;
+            }
+        }
+
+        .listing-tabular-icon,
+        th:first-child,
+        td:first-child {
+            width: 2.5%;
+        }
+
+        .listing-tabular-field--Title {
+            width: 35%;
+            min-width: 250px;
+        }
+
+        .listing-tabular-field--Description {
+            width: 55%;
+            line-height: 1.5;
+            padding-left: 0.75rem;
+            overflow-wrap: break-word;
+            hyphens: auto;
+        }
+
+        .listing-tabular-field--Creator {
+            white-space: nowrap;
+        }
+
+        .listing-tabular-image {
+            width: 15%;
+        }
+    }
+
+    @media (max-width: 767.98px) {
+
+        .table-responsive {
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .table-responsive table.table {
+            width: max-content;
+            min-width: 100%;
+            table-layout: auto;
+
+            th,
+            td {
+                padding: 0.625rem 0.5rem;
+                vertical-align: top;
+            }
+
+            .listing-tabular-icon,
+            th:first-child,
+            td:first-child {
+                width: 2rem;
+                min-width: 2rem;
+                padding-right: 0.25rem;
+            }
+
+            .listing-tabular-field--Title {
+                width: auto;
+                min-width: 9rem;
+                max-width: 12rem;
+            }
+
+            .listing-tabular-field--Description {
+                width: auto;
+                min-width: 18rem;
+                max-width: 22rem;
+                padding-left: 0.75rem;
+                padding-right: 0.75rem;
+                font-size: var(--bs-body-font-size);
+                line-height: 1.55;
+            }
+
+            .listing-tabular-field--Creator {
+                min-width: 7rem;
+                white-space: normal;
+            }
+
+            .listing-tabular-image {
+                width: auto;
+                min-width: 3.5rem;
+
+                img {
+                    max-width: 3rem;
+                    height: auto;
+                }
             }
         }
     }
