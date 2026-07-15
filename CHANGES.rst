@@ -2,11 +2,20 @@ Changelog
 =========
 
 
-1.63 (unreleased)
+1.63 (2026-07-15)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] Improve tabular view table layout on desktop and mobile. [Clàudia Andreu]
+*  [Clàudia Andreu]
+* Allow text wrapping in collection tables, balance title/description widths, and keep horizontal scroll on small screens with a more readable description column. [Clàudia Andreu]
+* [FIX] Improve grid events portlet card layout and date circle styling [Clàudia Andreu]
+*  [Clàudia Andreu]
+* Fix disproportionate circle margins, hover arrow clipping, equal-height cards [Clàudia Andreu]
+* with consistent title zones, and long-title overflow in Parrilla d'Agenda. [Clàudia Andreu]
+* [FIX] Apply nav submenu accessibility helpers to mobile menu [Clàudia Andreu]
+*  [Clàudia Andreu]
+* Extend opener label keyboard support to mobile nav and stop overwriting server-provided aria-label text. [Clàudia Andreu]
+* [FIX] Add li children to livesearch results ul in searchBox [Clàudia Andreu]
 
 1.62 (2026-06-23)
 -----------------
