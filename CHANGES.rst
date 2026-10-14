@@ -2,11 +2,116 @@ Changelog
 =========
 
 
-1.47 (unreleased)
+1.64 (unreleased)
 -----------------
 
 - Nothing changed yet.
 
+
+1.63 (2026-07-15)
+-----------------
+
+* [UPD] Improve tabular view table layout on desktop and mobile. [Clàudia Andreu]
+*  [Clàudia Andreu]
+* Allow text wrapping in collection tables, balance title/description widths, and keep horizontal scroll on small screens with a more readable description column. [Clàudia Andreu]
+* [FIX] Improve grid events portlet card layout and date circle styling [Clàudia Andreu]
+*  [Clàudia Andreu]
+* Fix disproportionate circle margins, hover arrow clipping, equal-height cards [Clàudia Andreu]
+* with consistent title zones, and long-title overflow in Parrilla d'Agenda. [Clàudia Andreu]
+* [FIX] Apply nav submenu accessibility helpers to mobile menu [Clàudia Andreu]
+*  [Clàudia Andreu]
+* Extend opener label keyboard support to mobile nav and stop overwriting server-provided aria-label text. [Clàudia Andreu]
+* [FIX] Add li children to livesearch results ul in searchBox [Clàudia Andreu]
+
+1.62 (2026-06-23)
+-----------------
+
+* Merge remote-tracking branch 'origin/develop' [Iago López]
+* [ADD] Nueva plantilla - Baner blanco [Iago López]
+
+1.61 (2026-06-16)
+-----------------
+
+* [UPD] neteja metadades styles [Clàudia Andreu]
+
+1.60 (2026-04-21)
+-----------------
+
+* [UPD] Cambio estilo carousel multiple object fit de cover a contain [Iago López]
+
+1.59 (2026-03-02)
+-----------------
+
+* [FIX] En nuevas versiones de chrome scroll-margin-top interactua mal con el tinymce, lo hemos mejorado [Iago López]
+* Solucionar lint y coverage  Run failed: Buildout and QA [pmarinas]
+* Solucionar buildout Run failed: Buildout and QA [pmarinas]
+
+1.58 (2026-02-11)
+-----------------
+
+* Merge remote-tracking branch 'origin/develop' [pmarinas]
+* [UPD] Mejora estilos acordion y img-right / img-left [Iago López]
+* [FIX] Vulnaribilidades security/dependabot [Iago López]
+
+1.57 (2026-02-06)
+-----------------
+
+* [FIX] security/dependabot [Iago López]
+
+1.56 (2026-02-05)
+-----------------
+
+* [ADD] skip to content button [Clàudia Andreu]
+
+1.55 (2026-02-03)
+-----------------
+
+* [FIX] menu accessiblity problems [Clàudia Andreu]
+* [UPD] Estilo vista albul [Iago López]
+
+1.54 (2026-01-27)
+-----------------
+
+* [FIX] Cambiar classes de portlets (img, txt) para evitar conflictos [Iago López]
+
+1.53 (2026-01-26)
+-----------------
+
+* Merge remote-tracking branch 'origin/develop' [Clàudia Andreu]
+
+1.52 (2026-01-26)
+-----------------
+
+
+
+1.51 (2025-11-14)
+-----------------
+
+* [FIX] Add .DS_Store a gitignore [Pilar Marinas]
+* [UPD] folder_contents - no mostrar previsualizacion de no imagenes al subir fichero [Iago López]
+
+1.50 (2025-09-15)
+-----------------
+
+* [UPD] description text size [Clàudia Andreu]
+
+1.49 (2025-09-10)
+-----------------
+
+* Merge remote-tracking branch 'origin/master' into develop [Iago López]
+* [UPD] Metadades styles, and improve file handling [Clàudia Andreu]
+
+1.48 (2025-09-04)
+-----------------
+
+* Merge remote-tracking branch 'origin/master' into develop [Iago López]
+* [UPD] Metadades styles, and improve file handling [Clàudia Andreu]
+
+1.47 (2025-09-04)
+-----------------
+
+* [ADD] styles fot Neteja Metadades [Clàudia Andreu]
+* [UPD] Estilo viewlet social [Iago]
 
 1.46 (2025-06-03)
 -----------------

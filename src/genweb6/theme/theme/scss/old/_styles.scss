@@ -220,7 +220,7 @@ code {
 .https,
 .down {
 
-  &:after {
+  &:not([target="_blank"]):after {
     background: url('../img/gh-c.png') no-repeat;
     width: 14px;
     height: 14px;
@@ -232,41 +232,44 @@ code {
   }
 }
 
-.pdf:after {
-  background-position: -432px -194px;
-}
+*:not([target="_blank"]) {
 
-.ppt:after {
-  background-position: -407px -193px;
-}
+  .pdf:after {
+    background-position: -432px -194px;
+  }
 
-.xlsdf:after,
-.xls:after {
-  background-position: -384px -193px;
-}
+  .ppt:after {
+    background-position: -407px -193px;
+  }
 
-.doc:after {
-  background-position: -360px -193px;
-}
+  .xlsdf:after,
+  .xls:after {
+    background-position: -384px -193px;
+  }
 
-.down:after {
-  background-position: -95px -26px;
-}
+  .doc:after {
+    background-position: -360px -193px;
+  }
 
-.https:after {
-  background-position: -288px -26px;
-}
+  .down:after {
+    background-position: -95px -26px;
+  }
 
-.vid:after {
-  background-position: -192px -2px;
-}
+  .https:after {
+    background-position: -288px -26px;
+  }
 
-.img:after {
-  background-position: -456px -50px;
-}
+  .vid:after {
+    background-position: -192px -2px;
+  }
 
-.txt:after {
-  background-position: -24px -26px;
+  .img:after {
+    background-position: -456px -50px;
+  }
+
+  .txt:after {
+    background-position: -24px -26px;
+  }
 }
 
 

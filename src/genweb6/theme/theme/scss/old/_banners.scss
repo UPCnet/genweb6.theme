@@ -168,3 +168,18 @@ a.link-bannersuccess {
     border-color: #155724;
   }
 }
+
+a.link-bannerblanc {
+  color: #000 !important;
+  background-color: #FFF;
+  border-color: #dee2e6;
+
+  &:before,
+  &:after {
+    color: #000 !important;
+  }
+
+  &:after {
+    border-color: #000;
+  }
+}

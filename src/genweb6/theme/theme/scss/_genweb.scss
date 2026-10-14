@@ -9,7 +9,7 @@
        url("fonts/upc/upc-icones.svg#upc-icones") format("svg");
 }
 
-* {
+[id] {
   scroll-margin-top: 100px;
 }
 
@@ -478,4 +478,122 @@ a.wrapper-img-link:before {
 
 .pat-relateditems-dropdown .select2-results {
   max-height: 350px !important;
+}
+.upc-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.upc-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.upc-card--padding {
+  padding: 2rem;
+}
+
+.upc-card--centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upc-heading--large {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--bs-primary, #007BC1);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.upc-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upc-form-group {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.upc-label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.upc-input {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.upc-input--file {
+  border: none;
+  padding: 0;
+}
+
+.upc-text {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.upc-button {
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  max-width: 100px;
+  height: 36px;
+  background-color: var(--bs-primary, #007BC1);
+  color: #fff;
+}
+
+.upc-button:hover {
+  background-color: var(--bs-primary-hover, #005a8e);
+}
+
+.upc-button--wide {
+  max-width: none;
+  min-width: 12rem;
+  padding: 0 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.upc-form-group--center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.upc-logo {
+  display: block;
+  margin: 1rem 0 1rem 2rem;  
+}
+
+.upc-logo-img {
+  max-height: 4rem;
+  height: auto;
+  width: auto;
 }
