@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.64 (unreleased)
+1.64 (2026-10-21)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] Upgrade boostrap icons a la última versión [Iago López]
 
 1.63 (2026-07-15)
 -----------------
