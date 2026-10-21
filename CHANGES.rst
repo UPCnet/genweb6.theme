@@ -2,11 +2,19 @@ Changelog
 =========
 
 
-1.65 (unreleased)
+1.65 (2026-10-21)
 -----------------
 
-- Nothing changed yet.
-
+* Merge branch 'develop' [Clàudia Andreu]
+* [FIX] Vulnerabilidades security/dependabot [Iago López]
+*  [Iago López]
+* - Elimina devDependencies no usadas (postcss, postcss-cli, autoprefixer, [Iago López]
+* stylelint-config-twbs-bootstrap, nodemon, npm-run-all, sass, [Iago López]
+* clean-css-cli, grunt-contrib-jshint, grunt-contrib-less) [Iago López]
+* - Actualiza grunt a 1.6.3 y grunt-contrib-compass a 1.1.1 [Iago López]
+* (resuelve conflicto de peer dependencies en npm ci) [Iago López]
+* - Actualiza overrides de dependencias transitivas vulnerables [Iago López]
+* - Regenera package-lock.json [Iago López]
 
 1.64 (2026-10-21)
 -----------------
