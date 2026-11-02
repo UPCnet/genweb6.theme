@@ -359,7 +359,7 @@
   }
 }
 
-.col-md-4:not(.disable-auto-proportions) {
+.col-md-4 {
 
   & > .portletWrapper {
 
@@ -367,7 +367,7 @@
 
       .carousel-item {
 
-        img {
+        img:not(.disable-auto-proportions) {
           aspect-ratio: 4 / 3;
         }
       }

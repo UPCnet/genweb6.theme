@@ -32043,7 +32043,7 @@ body.template-header-controlpanel #formfield-form-widgets-hero_image {
 }
 
 /* line 370, ../scss/templates/_carousel.scss */
-.col-md-4:not(.disable-auto-proportions) > .portletWrapper .template-carousel .carousel-item img {
+.col-md-4 > .portletWrapper .template-carousel .carousel-item img:not(.disable-auto-proportions) {
   aspect-ratio: 4 / 3;
 }
 
