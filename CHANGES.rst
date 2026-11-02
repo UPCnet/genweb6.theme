@@ -2,11 +2,12 @@ Changelog
 =========
 
 
-1.66 (unreleased)
+1.66 (2026-11-02)
 -----------------
 
-- Nothing changed yet.
-
+* Merge remote-tracking branch 'origin/plone_6_0_15' [pmarinas]
+* Merge remote-tracking branch 'origin/develop' [pmarinas]
+* [FIX] Carousel: respect disable auto proportions in col-md-4 portlets [Clàudia Andreu]
 
 1.65 (2026-10-21)
 -----------------
