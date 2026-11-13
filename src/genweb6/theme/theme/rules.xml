@@ -139,8 +139,12 @@
   <!-- Add additional footer content, like script tags (from site settings). -->
   <after
       css:theme-children="#portal-footer"
-      content="//footer[@id='portal-footer-wrapper']/*[not(@class='row')]"
+      content="//footer[@id='portal-footer-wrapper']/*[not(@class='row') and not(@id='gw-coloqia')]"
       />
+
+  <!-- Coloq.ia (Coloq.ia controlpanel, script or floating link): in the body,
+       outside the footer and right below it. -->
+  <after css:theme="#portal-footer-wrapper" css:content="#gw-coloqia" />
 
   <!-- toolbar -->
   <replace css:theme="#portal-toolbar" css:content="#edit-bar" css:if-not-content=".ajax_load" css:if-content=".userrole-authenticated" />

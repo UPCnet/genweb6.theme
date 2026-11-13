@@ -15613,6 +15613,45 @@ section#section-byline .badge {
   margin-right: 0.25rem;
 }
 
+/* line 4, ../scss/viewlets/_coloqia.scss */
+.coloqia-widget-banner {
+  right: 10px !important;
+  bottom: 65px !important;
+}
+
+/* line 11, ../scss/viewlets/_coloqia.scss */
+#gw-coloqia-link {
+  position: fixed;
+  right: 10px !important;
+  bottom: 65px !important;
+  z-index: 1050;
+  display: block;
+  width: 80px;
+  height: 80px;
+  transform-origin: center center;
+  animation: coloqia-appear 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
+}
+/* line 22, ../scss/viewlets/_coloqia.scss */
+#gw-coloqia-link img {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* line 30, ../scss/viewlets/_coloqia.scss */
+  #gw-coloqia-link {
+    animation: none;
+  }
+}
+@keyframes coloqia-appear {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 /* line 3, ../scss/viewlets/_discussion.scss */
 .pat-discussion .discussion .comment {
   color: var(--bs-black) !important;
