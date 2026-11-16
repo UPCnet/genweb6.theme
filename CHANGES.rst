@@ -2,11 +2,13 @@ Changelog
 =========
 
 
-1.67 (unreleased)
+1.67 (2026-11-16)
 -----------------
 
-- Nothing changed yet.
-
+* [FIX] gw-manage-portlets.min.js: usar la URL absoluta del contexto [Iago López]
+  Regenerado desde genweb6.core (gw-manage-portlets.js): @@set-portlethomemanager-span se llama con data-context-url en vez de una URL relativa con el id, que con Plone 6.0.15 daba 404.
+* [ADD] Coloq.ia: estilos, imagen y JS del panel de control [Iago López]
+  Estilos del widget Coloq.ia movidos de _genweb.scss a scss/viewlets/_coloqia.scss. Botón flotante del modo pestaña nueva (80x80, right 10px / bottom 65px) con animación de aparición. Regla en rules.xml para situar #gw-coloqia fuera del footer y debajo. coloqia.min.js para mostrar/ocultar campos del panel.
 
 1.66 (2026-11-02)
 -----------------
