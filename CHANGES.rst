@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-1.68 (unreleased)
+1.68 (2026-11-18)
 -----------------
 
-- Nothing changed yet.
-
+* [UPD] Coloq.ia: JS del panel de control con el nuevo campo de grupos [Iago López]
 
 1.67 (2026-11-16)
 -----------------
