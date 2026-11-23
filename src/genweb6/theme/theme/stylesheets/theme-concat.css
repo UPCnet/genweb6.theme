@@ -35220,11 +35220,11 @@ body.template-manage-portlets #content-core .btn {
 
 /* line 5, ../scss/views/_netejar_metadades.scss */
 .netejar-metadades .upc-heading--large {
-  color: var(--bs-primary, #007BC1);
+  color: var(--bs-primary, #0076CF);
 }
 /* line 9, ../scss/views/_netejar_metadades.scss */
 .netejar-metadades .upc-button {
-  background-color: var(--bs-primary, #007BC1);
+  background-color: var(--bs-primary, #0076CF);
 }
 /* line 12, ../scss/views/_netejar_metadades.scss */
 .netejar-metadades .upc-button:hover {
@@ -35273,7 +35273,7 @@ body.template-manage-portlets #content-core .btn {
   border-radius: 30px;
   cursor: pointer;
   color: #fff;
-  background-color: var(--bs-primary, #007BC1);
+  background-color: var(--bs-primary, #0076CF);
   text-decoration: none;
   white-space: nowrap;
   box-sizing: border-box;
