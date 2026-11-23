@@ -10,12 +10,12 @@ $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
 
 :root {
-  --bs-primary: #007BC1;
-  --bs-primary-ligthen-20: #01A3FF;
+  --bs-primary: #0076CF;
+  --bs-primary-ligthen-20: #0D97FF;
   --bs-primary-rgb: 0, 123, 193;
-  --bs-primary-hover: #{darken(#007BC1, 10%)};
-  --bs-link-color: #007BC1;
-  --bs-link-color-hover: #{darken(#007BC1, 10%)};
+  --bs-primary-hover: #{darken(#0076CF, 10%)};
+  --bs-link-color: #0076CF;
+  --bs-link-color-hover: #{darken(#0076CF, 10%)};
 
   --bs-blue-100: #{tint-color($blue, 80%)};
   --bs-blue-200: #{tint-color($blue, 60%)};
@@ -147,7 +147,7 @@ $cyan:    #0dcaf0 !default;
   --gw-state-private-hover: #{darken(#a62e1f, 10%)};
   --gw-state-intranet-hover: #{darken(#8952ab, 10%)};
   --gw-state-pending-hover: #{darken(#df8505, 10%)};
-  --gw-state-published-hover: #{darken(#007BC1, 10%)};
+  --gw-state-published-hover: #{darken(#0076CF, 10%)};
   --gw-state-restricted-to-managers-hover: var(--bs-gray-700);
 
   --gw-viewlet-horizontal-width: 1.2em;
@@ -157,9 +157,9 @@ $cyan:    #0dcaf0 !default;
   --bs-btn-bg: var(--bs-primary);
   --bs-btn-border-color: var(--bs-primary);
   --bs-btn-hover-bg: var(--bs-primary-hover);
-  --bs-btn-hover-border-color: #{darken(#007BC1, 15%)};
-  --bs-btn-active-bg: #{darken(#007BC1, 15%)};
-  --bs-btn-active-border-color: #{darken(#007BC1, 15%)};
+  --bs-btn-hover-border-color: #{darken(#0076CF, 15%)};
+  --bs-btn-active-bg: #{darken(#0076CF, 15%)};
+  --bs-btn-active-border-color: #{darken(#0076CF, 15%)};
   --bs-btn-disabled-bg: var(--bs-primary);
   --bs-btn-disabled-border-color: var(--bs-primary);
 }

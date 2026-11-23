@@ -17898,12 +17898,12 @@ select + .select2-container--bootstrap-5 {
 @charset "UTF-8";
 /* line 12, ../scss/_variables.scss */
 :root {
-  --bs-primary: #007BC1;
-  --bs-primary-ligthen-20: #01A3FF;
+  --bs-primary: #0076CF;
+  --bs-primary-ligthen-20: #0D97FF;
   --bs-primary-rgb: 0, 123, 193;
-  --bs-primary-hover: #005a8e;
-  --bs-link-color: #007BC1;
-  --bs-link-color-hover: #005a8e;
+  --bs-primary-hover: #00599c;
+  --bs-link-color: #0076CF;
+  --bs-link-color-hover: #00599c;
   --bs-blue-100: #cfe2ff;
   --bs-blue-200: #9ec5fe;
   --bs-blue-300: #6ea8fe;
@@ -18021,7 +18021,7 @@ select + .select2-container--bootstrap-5 {
   --gw-state-private-hover: #7b2217;
   --gw-state-intranet-hover: #6d4189;
   --gw-state-pending-hover: #ad6704;
-  --gw-state-published-hover: #005a8e;
+  --gw-state-published-hover: #00599c;
   --gw-state-restricted-to-managers-hover: var(--bs-gray-700);
   --gw-viewlet-horizontal-width: 1.2em;
 }
@@ -18031,9 +18031,9 @@ select + .select2-container--bootstrap-5 {
   --bs-btn-bg: var(--bs-primary);
   --bs-btn-border-color: var(--bs-primary);
   --bs-btn-hover-bg: var(--bs-primary-hover);
-  --bs-btn-hover-border-color: #004a75;
-  --bs-btn-active-bg: #004a75;
-  --bs-btn-active-border-color: #004a75;
+  --bs-btn-hover-border-color: #004a83;
+  --bs-btn-active-bg: #004a83;
+  --bs-btn-active-border-color: #004a83;
   --bs-btn-disabled-bg: var(--bs-primary);
   --bs-btn-disabled-border-color: var(--bs-primary);
 }
@@ -20456,7 +20456,7 @@ a.wrapper-img-link:before {
 .upc-heading--large {
   font-size: 2rem;
   font-weight: 600;
-  color: var(--bs-primary, #007BC1);
+  color: var(--bs-primary, #0076CF);
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -20515,7 +20515,7 @@ a.wrapper-img-link:before {
   transition: background-color 0.3s ease;
   max-width: 100px;
   height: 36px;
-  background-color: var(--bs-primary, #007BC1);
+  background-color: var(--bs-primary, #0076CF);
   color: #fff;
 }
 
@@ -32911,7 +32911,7 @@ body.template-layout .gw-tile.destacats4-esdeveniments .link-tile-footer {
 /* line 3, ../scss/tiles/_destacats_5_esquerra_dreta.scss */
 body.template-edit.mosaic-enabled .gw-tile.destacats5 .link-tile-footer,
 body.template-layout .gw-tile.destacats5 .link-tile-footer {
-  background-color: #007BC1;
+  background-color: var(--bs-primary, #0076CF);
   padding: .5rem;
   display: inline-block;
   cursor: pointer;
@@ -35401,8 +35401,8 @@ body.template-album_view #content-core .card .card-body {
   justify-content: space-between;
 }
 /* line 31, ../scss/views/_album_view.scss */
-div.existing-content.template-album_view #content-core .card .card-body h5 + a.stretched-link,
-body.template-album_view #content-core .card .card-body h5 + a.stretched-link {
+div.existing-content.template-album_view #content-core .card .card-body .card-title + a.stretched-link,
+body.template-album_view #content-core .card .card-body .card-title + a.stretched-link {
   margin-top: 0.5rem;
 }
 
