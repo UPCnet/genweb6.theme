@@ -92,6 +92,8 @@ module.exports = function (grunt) {
                         '../../../../../genweb6.core/src/genweb6/core/browser/macros/carousel/multiple_carousel.js',
                     'js/views/filtered_contents_search.min.js':
                         '../../../../../genweb6.core/src/genweb6/core/browser/views_templates/filtered_contents_search/filtered_contents_search.js',
+                    'js/views/netejar_metadades.min.js':
+                        '../../../../../genweb6.core/src/genweb6/core/browser/views_templates/netejar_metadades.js',
                     'js/dataTables.min.js': 'js/complements/dataTables.js',
                     'js/select2.min.js': 'js/complements/select2.js',
                     'js/tinymce_translations.min.js': 'js/tinymce/translations.js',

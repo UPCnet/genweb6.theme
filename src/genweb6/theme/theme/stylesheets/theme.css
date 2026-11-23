@@ -17321,6 +17321,73 @@ body.template-manage-portlets #content-core .btn {
   margin-bottom: .5rem;
 }
 
+/* line 5, ../scss/views/_netejar_metadades.scss */
+.netejar-metadades .upc-heading--large {
+  color: var(--bs-primary, #007BC1);
+}
+/* line 9, ../scss/views/_netejar_metadades.scss */
+.netejar-metadades .upc-button {
+  background-color: var(--bs-primary, #007BC1);
+}
+/* line 12, ../scss/views/_netejar_metadades.scss */
+.netejar-metadades .upc-button:hover {
+  background-color: var(--bs-primary-hover, #005a8e);
+}
+/* line 17, ../scss/views/_netejar_metadades.scss */
+.netejar-metadades__nowrap {
+  white-space: nowrap;
+}
+/* line 21, ../scss/views/_netejar_metadades.scss */
+.netejar-metadades__spinner {
+  display: none;
+  width: 64px;
+  height: 64px;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+/* line 29, ../scss/views/_netejar_metadades.scss */
+.netejar-metadades__warning {
+  color: #d9534f;
+  font-weight: 500;
+  margin-top: 15px;
+}
+/* line 35, ../scss/views/_netejar_metadades.scss */
+.netejar-metadades__download-iframe {
+  display: none;
+}
+
+/* line 40, ../scss/views/_netejar_metadades.scss */
+.netejar-metadades-login {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+/* line 46, ../scss/views/_netejar_metadades.scss */
+.netejar-metadades-login__button {
+  display: inline-block;
+  min-width: 12rem;
+  padding: 0 1.5rem;
+  height: 36px;
+  line-height: 36px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fff;
+  background-color: var(--bs-primary, #007BC1);
+  text-decoration: none;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+/* line 63, ../scss/views/_netejar_metadades.scss */
+.netejar-metadades-login__button:hover, .netejar-metadades-login__button:focus {
+  color: #fff;
+  background-color: var(--bs-primary-hover, #005a8e);
+  text-decoration: none;
+}
+
 /* line 7, ../scss/views/_prefs_keywords_view.scss */
 body.template-prefs_keywords_view #keyword-results a[target='_blank'] svg.bi-box-arrow-up-right {
   display: none;

@@ -1,0 +1,69 @@
+// @@netejar_metadades (genweb6.core)
+
+.netejar-metadades {
+
+  .upc-heading--large {
+    color: var(--bs-primary, #007BC1);
+  }
+
+  .upc-button {
+    background-color: var(--bs-primary, #007BC1);
+
+    &:hover {
+      background-color: var(--bs-primary-hover, #005a8e);
+    }
+  }
+
+  &__nowrap {
+    white-space: nowrap;
+  }
+
+  &__spinner {
+    display: none;
+    width: 64px;
+    height: 64px;
+    margin-left: 15px;
+    vertical-align: middle;
+  }
+
+  &__warning {
+    color: #d9534f;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+
+  &__download-iframe {
+    display: none;
+  }
+}
+
+.netejar-metadades-login {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.netejar-metadades-login__button {
+  display: inline-block;
+  min-width: 12rem;
+  padding: 0 1.5rem;
+  height: 36px;
+  line-height: 36px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fff;
+  background-color: var(--bs-primary, #007BC1);
+  text-decoration: none;
+  white-space: nowrap;
+  box-sizing: border-box;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    background-color: var(--bs-primary-hover, #005a8e);
+    text-decoration: none;
+  }
+}
